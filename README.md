@@ -29,8 +29,6 @@ Wczesna wersja — **grywalna od prologu**
 | Etap | Status |
 |------|--------|
 | Prolog + tutorial | ✅ ~96% |
-| Paczki 001–004 (~4000 stringów) | ✅ |
-| Paczki 005–020 (reszta gry) | 🔄 w toku |
 | Pełne DLC House | ⏳ ~23% |
 | Menu główne (Unity UI) | ⏳ osobny etap |
 | Przełącznik EN/PL w grze | ⏳ planowane |
