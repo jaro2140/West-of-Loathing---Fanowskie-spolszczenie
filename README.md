@@ -25,9 +25,48 @@ Wczesna wersja — **grywalna od prologu**
 ~**20 000** unikalnych stringów do przetłumaczenia.
 
 
+## Roadmap
+| Etap | Status |
+|------|--------|
+| Prolog + tutorial | ✅ ~96% |
+| Paczki 001–004 (~4000 stringów) | ✅ |
+| Paczki 005–020 (reszta gry) | 🔄 w toku |
+| Pełne DLC House | ⏳ ~23% |
+| Menu główne (Unity UI) | ⏳ osobny etap |
+| Przełącznik EN/PL w grze | ⏳ planowane |
+
+
+## Co jest przetłumaczone w grze?
+| Region / epizod | Pokrycie | Uwagi |
+|-----------------|:--------:|-------|
+| **Prolog — Boring Springs** | **~96%** | Kreator postaci, tutorial, wybór klasy (Krowobij / Fasolojka / Wężojar) |
+| **Dirtwater** | ~13% | Początek głównej linii fabularnej |
+| **Breadwood** | ~24% | W tym poczta, burmistrz, Questy Jones |
+| **Ranczo Susie** | ~11% | Wczesne questy rancha |
+| **Bandyci** | ~16% | Obozy, pojedynki, aresztowania |
+| **Cyrk / Clown Zone** | ~14% | Barnaby Bob, poker, bilety |
+| **Punland** | ~14% | Finał głównej fabuły — częściowo (Baron, Lillian, walki bossów) |
+| **Fort Unnecessary / Fort of Darkness** | ~11% | |
+| **Cmentarze** | ~16% | Petting Cemetery, laboratorium |
+| **Kopalnie** | ~17% | |
+| **El Vibrato** | ~13% | Ruiny, drony, terminale |
+| **Pociąg** | ~12% | |
+| **Sin Zone** (Thiefin, Filthin…) | ~14% | |
+| **Baron Manor** | ~14% | |
+| **Planar Junction** | ~16% | Ambasada, paszport |
+| **Misje babci / Hell** | ~14% | Skullshadow Homestead, sekwencje snów |
+| **Gobliny** | ~14% | |
+| **Frisco** | ~15% | |
+| **Necro Tower** | ~13% | |
+| **DLC Reign of Gnomes (House)** | **~23%** | Muzeum, duchy, Boo & Breakfast |
+| **Napisy końcowe** | ~9% | |
+
+
 ## Instalacja patcha
 **Wkrótce**
 
 
-## Uwagi prawne (README / repo)
-Tłumaczenie jest projektem fanowskim, w celu użycia tłumaczenia wymagane jest posiadanie kopii gry.
+## Disclaimer
+Fanowski projekt **niezwiązany z Asymmetric Publications**.  
+West of Loathing jest znakiem towarowym jego właścicieli.  
+Gra musi być legalnie zakupiona. Patch nie zawiera plików gry.
