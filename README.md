@@ -14,10 +14,10 @@ West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dost
 
 
 ## Na jakim etapie jest projekt?
-**Postęp ogólny**
+**Postęp ogólny**:
 **3 910 / 20 172** unikalnych stringów (**~19,4%**)
 
-**Status**
+**Status**:
 Wczesna wersja — **grywalna od prologu**
 
 
