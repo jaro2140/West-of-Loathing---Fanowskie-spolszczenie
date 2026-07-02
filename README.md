@@ -12,7 +12,7 @@ West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dost
 
 
 # Status:
-## Wczesna wersja BETA — **grywalna**
+- **Wczesna wersja BETA — **grywalna**
 
 
 ## Skala
