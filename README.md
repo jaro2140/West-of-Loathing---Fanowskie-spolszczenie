@@ -11,13 +11,13 @@ West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dost
 - **Docelowo przełącznik EN/PL** — na razie patch podmienia pliki
 
 
-**Status**:
-Wczesna wersja BETA — **grywalna**
+# Status:
+## Wczesna wersja BETA — **grywalna**
 
 
 ## Skala
-~**25 000+** unikalnych stringów do przetłumaczenia.
-~**100** grafik do przetłumaczenia
+- ~**25 000+** unikalnych stringów do przetłumaczenia.
+- ~**100** grafik do przetłumaczenia
 
 
 ## Roadmap
