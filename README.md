@@ -61,7 +61,24 @@ Wczesna wersja — **grywalna od prologu**
 
 
 ## Instalacja patcha
+<<<<<<< HEAD
+### Wymagania
+1. West of Loathing ze Steam (lub GOG)
+2. Paczka `patches/core` + `patches/house` + `patches/main_scene` - do pobrania z *releases*
+
+### Szybki start
+1. Skopiuj zawartość `patches` oraz `install.sh` do jednego folderu
+2. Uruchom terminal, przejdź do wcześniejszego folderu i uruchom:
+```bash
+chmod +x install-pl.sh restore-en.sh verify-install.sh
+./install-pl.sh
+```
+
+Na SteamOS ustaw ścieżkę w `game-path.env` (wzór: `game-path.env.example`).
+Po aktualizacji gry ze Steama uruchom instalator ponownie.
+=======
 **Wkrótce**
+>>>>>>> parent of 9a0fa4b (Paczki instalacyjne wraz ze skryptami instalacyjnymi tłumaczenie.)
 
 
 ## Disclaimer
