@@ -1,0 +1,87 @@
+{
+  "_meta": {
+    "id": 41,
+    "name": "dialog_review_T9",
+    "status": "done",
+    "count": 19,
+    "note": "Systematyczny re-review dialogow, transza 9/16 (wpisy 8001-9000 alfabetycznie). Odnaleziono i naprawiono 5 pozostawionych wystapien przestarzalego terminu 'mordka/mordkowy' (sprzed decyzji o zmianie na 'Ikra' dla staty Moxie) - pominiete przez pierwotny apply-terminology.py, bo te odmienione/zlozone formy nie byly w jego liscie REPLACEMENTS: 'a moxious goblin'->'mordkowy goblin'->'goblin z ikra'; opis klasy Snake Oiler ('stawia na mordke'->'stawia na Ikre'); samouczek wyboru klasy postaci mial TRZY nawarstwione bledy naraz - zla koncowka narzednika 'Olejownik Wezowyem'->'Olejownikiem Wezowym', zly blad liczby mnogiej 'Olejownik Wezowye'->'Olejownicy Wezowi' (ten sam wzorzec bledu jak w T4, inne zdanie), i 'maja mordke'->'maja Ikre'; 2x 'pretty moxious'->'Calkiem mordkowe'->'Calkiem z ikra' (dopasowane do ustalonego wzorca 'Z ikra Strategizuj/Podbij'). Literowki: 'Odglosy'->'Odglosy' (brakujacy ogonek), 'zawracaj'(2 os. rozkazujacy)->'zawraca'(3 os.), 'wrogia'->'wroga' (bledna odmiana przymiotnika), 'Kevin'a'->'Kevina' (zbedny apostrof), duplikat 'tego tego dnia'->'tego dnia' + nieprzetlumaczone 'totality'->'faza calkowita'. Zle slowo: 'filu' (nieistniejace) zamiast 'brudu' (filth); 'Upiiooor' (urwane, niedopasowane do bazowego 'Upiornie') -> 'Upioooornie' (spojne wydluzenie). Sens odwrocony: 'wont be performing any more miracles' przetlumaczone jako 'BEDZIE czynil cuda' (przeciwienstwo) -> 'NIE bedzie juz czynil cudow'. Bledy rodzaju/przypadka: 'brudny...plandeke' (r.m. przymiotnik + r.z. rzeczownik) -> 'brudna...plandeke'; 'goryczy' (nieistniejacy czasownik dla 'scowls') -> 'krzywi sie gorzko'; literowka w capslocku 'KSiECIA'->'KSIECIA'."
+  },
+  "strings": {
+    "Slowly, to maximize suspense, you lift the lid of the huge crate, which yields easily and immediately. There's a device in there you don't recognize, but <i>do</i> remove from the crate and set on the stage. The crowd chatters in excited confusion.": {
+      "pl": "Powoli, dla maksymalnego napięcia, podnosisz wieko wielkiej skrzyni — ustępuje od razu i łatwo. W środku urządzenie, którego nie rozpoznajesz, ale <i>wyciągasz</i> ze skrzyni i stawiasz na scenie. Tłum wybucha gwarem w podekscytowanym zamieszaniu.",
+      "category": "dialog_review_t9"
+    },
+    "Snake Oilers rely on their moxie and chutzpah to tame snakes, their fearlessness to extract potent oils from those snakes, and their cleverness to manufacture and sell potions made from those oils.": {
+      "pl": "Olejownik Wężowy stawia na Ikrę i bezczelność: oswoi węża, wyciśnie z niego olej, a potem sprzeda z tego oleju miksturę komuś jeszcze bardziej łatwowiernemu.",
+      "category": "dialog_review_t9"
+    },
+    "Some \"thwock, thwock\" noises lead you to the site (and the sight) of a goblin chopping down a large cactus. When it sees you, it waves his axe at you threateningly and makes some angry-sounding noises.": {
+      "pl": "Odgłosy „thwock, thwock” prowadzą cię do miejsca (i widoku), gdzie goblin ścina duży kaktus. Gdy cię widzi, groźnie macha siekierą i wydaje złe dźwięki.",
+      "category": "dialog_review_t9"
+    },
+    "Some kind of crazy yeast monster has apparently broken loose from the vats and eaten some of the bandits! I guess they brewed up something they couldn't put down.  They could barley control it!  You'll have to hop to it if you want to prevail, here.": {
+      "pl": "Jakiś szalony drożdżowy potwór najwyraźniej uwolnił się z kadzi i zjadł część bandytów! Chyba uwarzyli coś, czego nie mogli oprzeć. Ledwo mogli to opanować! Musisz się zebrać, jeśli chcesz tu zwyciężyć.",
+      "category": "dialog_review_t9"
+    },
+    "Something from Kevin's statement.": {
+      "pl": "Coś z zeznania Kevina.",
+      "category": "dialog_review_t9"
+    },
+    "Spoooooky": {
+      "pl": "Upioooornie",
+      "category": "dialog_review_t9"
+    },
+    "Stare him down.": {
+      "pl": "Zmierz go wzrokiem.",
+      "category": "dialog_review_t9"
+    },
+    "Susie scowls bitterly and mutters into her whiskey.": {
+      "pl": "Susie krzywi się gorzko i mamrocze coś do swojej whiskey.",
+      "category": "dialog_review_t9"
+    },
+    "THE ONLY BUSINESS DUKE BOVICUS HAS IS PARTYING AND HATING YOU, AND RIGHT NOW DUKE BOVICUS IS REALLY FOCUSED MORE ON THE SECOND THING.": {
+      "pl": "JEDYNY INTERES KSIĘCIA BOVICUSA TO IMPREZY I NIENAWIŚĆ DO CIEBIE, A TERAZ BOVICUS SKUPIA SIĘ GŁÓWNIE NA TYM DRUGIM.",
+      "category": "dialog_review_t9"
+    },
+    "That man and his army of ghostly cucumbers really did a number on you.  You come to amid piles of pickle-scented filth.": {
+      "pl": "Ten człowiek i jego armia upiornych ogórków naprawdę cię wykończyli. Odzyskujesz przytomność pośród stosów pachnącego kiszonym ogórkiem brudu.",
+      "category": "dialog_review_t9"
+    },
+    "That was when Macready was going to be executed, let's see... wow, wait a minute -- according to this, there was a total eclipse of the sun that day, centered right over the Western territories and with its totality at 2:47 p.m.! That's... a hell of a thing.": {
+      "pl": "To był dzień, w którym Macready miał zostać stracony, zobaczmy... wow, chwila — okazuje się, że tego dnia było całkowite zaćmienie słońca, wycentrowane nad terytoriami zachodnimi, z fazą całkowitą o 14:47! To... piekielna rzecz.",
+      "category": "dialog_review_t9"
+    },
+    "That's one saint who won't be performing any more miracles.": {
+      "pl": "Jeden święty mniej, który nie będzie już czynił cudów.",
+      "category": "dialog_review_t9"
+    },
+    "The Merry-Go-Round has a dirty canvas tarp over it.": {
+      "pl": "Karuzela ma na sobie brudną płócienną plandekę.",
+      "category": "dialog_review_t9"
+    },
+    "The bandit wheels his horse around and rides away in a panic.": {
+      "pl": "Bandyta zawraca konia i w panice ucieka.",
+      "category": "dialog_review_t9"
+    },
+    "Suddenly the entire graveyard's worth of bones clatters together into a giant, antagonistic pillar of evil!": {
+      "pl": "Nagle cały cmentarny zapas kości zgrzyta razem w gigantyczną, wrogą kolumnę zła!",
+      "category": "dialog_review_t9"
+    },
+    "a moxious goblin": {
+      "pl": "goblin z ikrą",
+      "category": "dialog_review_t9"
+    },
+    "This is how you choose your character class.<p>If you pick the cow-punching gloves, you'll be a Cowpuncher.  Cowpunchers are muscular, and enjoy punching things and hiting things.<p>If you pick the beans, you'll be a Beanslinger.  Beanslingers are magical, and enjoy cooking and casting bean-based magical spells.<p>If you pick the snakes, you'll be a Snake Oiler.  Snake Oilers are moxious, and enjoy making potent potions and subtle poisons.": {
+      "pl": "Tak wybiera się klasę postaci.<p>Weź rękawice krowobija — zostaniesz Krowobijem. Krowobije są umięśnieni i lubią bić rzeczy pięściami.<p>Weź fasolę — zostaniesz Fasolomantą. Fasolomanty są mistyczne i uwielbiają gotować oraz rzucać czary na bazie fasoli.<p>Weź węże — zostaniesz Olejownikiem Wężowym. Olejownicy Wężowi mają Ikrę i tworzą silne miksturki oraz subtelne trucizny.",
+      "category": "dialog_review_t9"
+    },
+    "You dash across the room to help Grandma catch the machine as it falls over the side of the oil-filled force field. Working together, the two of you empty your collection of wrung-out snakes in the shape of a ramp underneath the falling machine, which is slick enough with oil to slide down the ramp and come to a halt standing right-side-up in front of you. It's pretty moxious. You and Grandma high-five.": {
+      "pl": "Przeskakujesz przez pokój, żeby Babci pomóc złapać maszynę spadającą z olejowego pola siłowego. Razem wysypujecie kolekcję wyżętych węży w kształcie rampy pod spadającą maszyną, która jest na tyle śliska od oleju, że zjeżdża rampą i staje przed wami na kołach. Całkiem z ikrą. Ty i Babcia robicie piątkę.",
+      "category": "dialog_review_t9"
+    },
+    "You stand back and watch as the machine falls over the side of the oil-filled force field and plummets towards Grandma. She quickly empties her collection of wrung-out snakes in the shape of a ramp underneath the falling machine, which is slick enough with oil to slide down the ramp and come to a halt standing right-side-up in front of her. It's pretty moxious.": {
+      "pl": "Cofasz się i patrzysz, jak maszyna spada przez bok olejowego pola siłowego w stronę babci. Szybko wysypuje kolekcję wyżętych węży w kształt rampy pod spadającą maszyną, na tyle śliską od oleju, że zjeżdża rampą i zatrzymuje się stojąc prosto przed nią. Całkiem z ikrą.",
+      "category": "dialog_review_t9"
+    }
+  }
+}

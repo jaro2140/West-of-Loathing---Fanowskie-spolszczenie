@@ -1,0 +1,1699 @@
+{
+  "_meta": {
+    "id": 36,
+    "name": "missing_visible_buckets",
+    "status": "done",
+    "count": 422,
+    "note": "Tlumaczenie audit/missing_visible_buckets.json (422 wpisow): generator tytulow poradnikow, minigra Spittleships, generator jedzenia szkieletow, fragmenty ksiazki z odblokowaniami umiejetnosci (uzyto ustalonych polskich nazw umiejetnosci z pl.json), reakcje na spirale El Vibrato, duzy blok losowych zdarzen na szlaku konnym, sekwencja zagadek-petroglifow, nazwy stanow USA (zostawione po angielsku - realne nazwy miejsc), generator nazw firm/akcji (przyrostki prawne zostawione po angielsku - amerykanski flavor, zgodnie z Dr. Horse/Thieves Gil), lista misji zlodziejskiego gildu, sekwencja dowcipow stand-up (czesciowo zaadaptowane), generator opowiesci wedrownych Ellsbury'ego. Configi klawiszy i dzwiekow UI skopiowane bez zmian (brak tekstu do tlumaczenia)."
+  },
+  "strings": {
+    "QWERTY:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=None,Map_ScrollUp=W,Map_ScrollLeft=A,Map_ScrollDown=S,Map_ScrollRight=D,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O,Dialog_Button_1=E,Dialog_Button_2=Space,Dialog_OptionUp=W,Dialog_OptionDown=S,Dialog_ScrollUp=UpArrow,Dialog_ScrollDown=DownArrow,Map_Select=Return,Map_ZoomIn=UpArrow,Map_ZoomOut=DownArrow": {
+      "pl": "QWERTY:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=None,Map_ScrollUp=W,Map_ScrollLeft=A,Map_ScrollDown=S,Map_ScrollRight=D,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O,Dialog_Button_1=E,Dialog_Button_2=Space,Dialog_OptionUp=W,Dialog_OptionDown=S,Dialog_ScrollUp=UpArrow,Dialog_ScrollDown=DownArrow,Map_Select=Return,Map_ZoomIn=UpArrow,Map_ZoomOut=DownArrow",
+      "category": "buckets"
+    },
+    "QWERTZ:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=W|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=S|DownArrow,Map_ScrollRight=D|RightArrow,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O": {
+      "pl": "QWERTZ:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=W|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=S|DownArrow,Map_ScrollRight=D|RightArrow,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O",
+      "category": "buckets"
+    },
+    "AZERTY:Movement_Up=Z|UpArrow,Movement_Left=Q|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=Z|UpArrow,Map_ScrollLeft=Q|LeftArrow,Map_ScrollDown=S|DownArrow,Map_ScrollRight=D|RightArrow,Map_Wander=Space,Combat_Action_Up=Z,Combat_Action_Left=Q,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O": {
+      "pl": "AZERTY:Movement_Up=Z|UpArrow,Movement_Left=Q|LeftArrow,Movement_Down=S|DownArrow,Movement_Right=D|RightArrow,Movement_Jump=Space,Interact=E,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=Z|UpArrow,Map_ScrollLeft=Q|LeftArrow,Map_ScrollDown=S|DownArrow,Map_ScrollRight=D|RightArrow,Map_Wander=Space,Combat_Action_Up=Z,Combat_Action_Left=Q,Combat_Action_Down=S,Combat_Action_Right=D,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O",
+      "category": "buckets"
+    },
+    "Dvorak:Movement_Up=Comma|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=O|DownArrow,Movement_Right=E|RightArrow,Movement_Jump=Space,Interact=Period,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=P,Menus_CloseMenu=X,Map_ScrollUp=Comma|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=O|DownArrow,Map_ScrollRight=E|RightArrow,Map_Wander=Space,Combat_Action_Up=Comma,Combat_Action_Left=A,Combat_Action_Down=O,Combat_Action_Right=E,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=P": {
+      "pl": "Dvorak:Movement_Up=Comma|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=O|DownArrow,Movement_Right=E|RightArrow,Movement_Jump=Space,Interact=Period,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=P,Menus_CloseMenu=X,Map_ScrollUp=Comma|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=O|DownArrow,Map_ScrollRight=E|RightArrow,Map_Wander=Space,Combat_Action_Up=Comma,Combat_Action_Left=A,Combat_Action_Down=O,Combat_Action_Right=E,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=P",
+      "category": "buckets"
+    },
+    "Colemak:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=R|DownArrow,Movement_Right=S|RightArrow,Movement_Jump=Space,Interact=F,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=W|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=R|DownArrow,Map_ScrollRight=S|RightArrow,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=R,Combat_Action_Right=S,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O": {
+      "pl": "Colemak:Movement_Up=W|UpArrow,Movement_Left=A|LeftArrow,Movement_Down=R|DownArrow,Movement_Right=S|RightArrow,Movement_Jump=Space,Interact=F,Menus_CharacterSheet=C,Menus_Inventory=I,Menus_Map=M,Menus_Options=O,Menus_CloseMenu=X,Map_ScrollUp=W|UpArrow,Map_ScrollLeft=A|LeftArrow,Map_ScrollDown=R|DownArrow,Map_ScrollRight=S|RightArrow,Map_Wander=Space,Combat_Action_Up=W,Combat_Action_Left=A,Combat_Action_Down=R,Combat_Action_Right=S,Combat_Target_Up=UpArrow,Combat_Target_Left=LeftArrow,Combat_Target_Down=DownArrow,Combat_Target_Right=RightArrow,Combat_Target_Next=Tab,Combat_Action=Space,Combat_Options=O",
+      "category": "buckets"
+    },
+    "%sarsaparilla_sar%%sarsaparilla_sa%%sarsaparilla_par%%sarsaparilla_il%%sarsaparilla_la%": {
+      "pl": "%sarsaparilla_sar%%sarsaparilla_sa%%sarsaparilla_par%%sarsaparilla_il%%sarsaparilla_la%",
+      "category": "buckets"
+    },
+    "Rootin' Tootin'": {
+      "pl": "Ostro i Hałaśliwie",
+      "category": "buckets"
+    },
+    "tidy up": {
+      "pl": "uporządkować się",
+      "category": "buckets"
+    },
+    "think about": {
+      "pl": "pomyśleć",
+      "category": "buckets"
+    },
+    "believe in": {
+      "pl": "uwierzyć",
+      "category": "buckets"
+    },
+    "tidying up": {
+      "pl": "Uporządkowania",
+      "category": "buckets"
+    },
+    "thinking about": {
+      "pl": "Przemyślenia",
+      "category": "buckets"
+    },
+    "believing in": {
+      "pl": "Zawierzenia",
+      "category": "buckets"
+    },
+    "The %selfhelp_power% of %selfhelp_fixing% %selfhelp_yoursoul%": {
+      "pl": "%selfhelp_power% %selfhelp_fixing% %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "The %selfhelp_lifechanging% %selfhelp_power% of %selfhelp_fixing% %selfhelp_yoursoul%": {
+      "pl": "%selfhelp_lifechanging% %selfhelp_power% %selfhelp_fixing% %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "How to %selfhelp_fix% %selfhelp_yoursoul% %selfhelp_withpower%": {
+      "pl": "Jak %selfhelp_fix% w kwestii %selfhelp_yoursoul% %selfhelp_withpower%",
+      "category": "buckets"
+    },
+    "%selfhelp_fixing% %selfhelp_yoursoul% %selfhelp_withpower%": {
+      "pl": "%selfhelp_fixing% %selfhelp_yoursoul% %selfhelp_withpower%",
+      "category": "buckets"
+    },
+    "%selfhelp_yoursoul%, %selfhelp_yoursoul%": {
+      "pl": "%selfhelp_yoursoul%, %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "in 10 minutes a day": {
+      "pl": "w 10 minut dziennie",
+      "category": "buckets"
+    },
+    "in just 5 minutes": {
+      "pl": "w zaledwie 5 minut",
+      "category": "buckets"
+    },
+    "in 10 easy steps": {
+      "pl": "w 10 prostych krokach",
+      "category": "buckets"
+    },
+    "without really trying": {
+      "pl": "bez większego wysiłku",
+      "category": "buckets"
+    },
+    "in 15 minutes a week": {
+      "pl": "w 15 minut tygodniowo",
+      "category": "buckets"
+    },
+    "by %selfhelp_fixing% %selfhelp_yoursoul%": {
+      "pl": "poprzez %selfhelp_fixing% %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "with %selfhelp_power%": {
+      "pl": "dzięki %selfhelp_power%",
+      "category": "buckets"
+    },
+    "the easy way": {
+      "pl": "na łatwiznę",
+      "category": "buckets"
+    },
+    "while %selfhelp_fixing% %selfhelp_yoursoul%": {
+      "pl": "podczas %selfhelp_fixing% %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "with the %selfhelp_power% of %selfhelp_yoursoul%": {
+      "pl": "dzięki %selfhelp_power% %selfhelp_yoursoul%",
+      "category": "buckets"
+    },
+    "your soul": {
+      "pl": "duszy",
+      "category": "buckets"
+    },
+    "your mind": {
+      "pl": "umysłu",
+      "category": "buckets"
+    },
+    "your body": {
+      "pl": "ciała",
+      "category": "buckets"
+    },
+    "your heart": {
+      "pl": "serca",
+      "category": "buckets"
+    },
+    "your money": {
+      "pl": "pieniędzy",
+      "category": "buckets"
+    },
+    "other people": {
+      "pl": "innych ludzi",
+      "category": "buckets"
+    },
+    "your children": {
+      "pl": "twoich dzieci",
+      "category": "buckets"
+    },
+    "your teenager": {
+      "pl": "twojego nastolatka",
+      "category": "buckets"
+    },
+    "your spouse": {
+      "pl": "twojego małżonka",
+      "category": "buckets"
+    },
+    "the cosmos": {
+      "pl": "kosmosu",
+      "category": "buckets"
+    },
+    "the universe": {
+      "pl": "wszechświata",
+      "category": "buckets"
+    },
+    "your true self": {
+      "pl": "prawdziwego siebie",
+      "category": "buckets"
+    },
+    "your marriage": {
+      "pl": "twojego małżeństwa",
+      "category": "buckets"
+    },
+    "Shoot your shot!": {
+      "pl": "Próbuj szczęścia!",
+      "category": "buckets"
+    },
+    "Lower the boom!": {
+      "pl": "Dawaj z grubej rury!",
+      "category": "buckets"
+    },
+    "Bring the pain!": {
+      "pl": "Zadaj ból!",
+      "category": "buckets"
+    },
+    "Hard to port!": {
+      "pl": "Ster na ląd!",
+      "category": "buckets"
+    },
+    "Avast ye landlubbers!": {
+      "pl": "Stać, szczury lądowe!",
+      "category": "buckets"
+    },
+    "It's CLOBBERIN' TIME!": {
+      "pl": "Czas na WALENIE!",
+      "category": "buckets"
+    },
+    "Look out, BOAT!": {
+      "pl": "Uważaj, ŁÓDKO!",
+      "category": "buckets"
+    },
+    "Watch your step, SHIP!": {
+      "pl": "Uważaj, STATKU!",
+      "category": "buckets"
+    },
+    "Time to sink, pal!": {
+      "pl": "Czas zatonąć, kolego!",
+      "category": "buckets"
+    },
+    "Send your friend to Davy Jones' locker!": {
+      "pl": "Wyślij kumpla na dno, do Davy'ego Jonesa!",
+      "category": "buckets"
+    },
+    "Time for a SPIT TORPEDO! Oh yeah!": {
+      "pl": "Czas na TORPEDĘ ŚLINOWĄ! O tak!",
+      "category": "buckets"
+    },
+    "Let's DUNK 'em!": {
+      "pl": "Zatopmy ich!",
+      "category": "buckets"
+    },
+    "Maybe I need spittin' lessons.": {
+      "pl": "Może potrzebuję lekcji plucia.",
+      "category": "buckets"
+    },
+    "Guess I'm not as accurate a spitter as I thought.": {
+      "pl": "Chyba nie pluję tak celnie, jak myślałem.",
+      "category": "buckets"
+    },
+    "So, close, but no cigar... not that any of the tobacco down here is in cigar form.": {
+      "pl": "No, blisko, ale pudło... choć żaden tytoń tutaj i tak nie ma formy cygara.",
+      "category": "buckets"
+    },
+    "And close only counts in handshoes or horse grenades.": {
+      "pl": "A bliskość liczy się tylko w podkowach i granatach dla koni.",
+      "category": "buckets"
+    },
+    "It might be time to get some spittin' lessons.": {
+      "pl": "Chyba czas na lekcje plucia.",
+      "category": "buckets"
+    },
+    "Hope nobody I was trying to impress saw that!": {
+      "pl": "Mam nadzieję, że nikt, kogo chciałem zaimponować, tego nie widział!",
+      "category": "buckets"
+    },
+    "This game is harder than I anticipated.": {
+      "pl": "Ta gra jest trudniejsza, niż myślałem.",
+      "category": "buckets"
+    },
+    "Maybe I should have spent more of my youth practicing target spitting.": {
+      "pl": "Może powinienem był więcej młodości poświęcić na trening plucia do celu.",
+      "category": "buckets"
+    },
+    "Guess I need to learn how to spit better.": {
+      "pl": "Chyba muszę nauczyć się pluć lepiej.",
+      "category": "buckets"
+    },
+    "Wish they'd taught us how to spit in horse school.": {
+      "pl": "Szkoda, że nie uczyli plucia w szkole koni.",
+      "category": "buckets"
+    },
+    "Turns out all these years I've been getting away with being bad at spitting.": {
+      "pl": "Okazuje się, że przez te wszystkie lata uchodziło mi na sucho, że kiepsko pluję.",
+      "category": "buckets"
+    },
+    "It's <i>frustrating</i> not being able to spit more accurately.": {
+      "pl": "To <i>frustrujące</i>, że nie umiem pluć celniej.",
+      "category": "buckets"
+    },
+    "Now I feel foolish for passing up that scholarship to spittin' college.": {
+      "pl": "Teraz czuję się głupio, że odrzuciłem stypendium na studia plucia.",
+      "category": "buckets"
+    },
+    "Yeah... I really <i>could</i> use spittin' lessons.": {
+      "pl": "Tak... naprawdę <i>przydałyby</i> mi się lekcje plucia.",
+      "category": "buckets"
+    },
+    "%skeletonfood_dried% %skeletonfood_substance%": {
+      "pl": "%skeletonfood_dried% %skeletonfood_substance%",
+      "category": "buckets"
+    },
+    "%skeletonfood_pickled% %skeletonfood_substance%": {
+      "pl": "%skeletonfood_pickled% %skeletonfood_substance%",
+      "category": "buckets"
+    },
+    "%skeletonfood_pickled% %skeletonfood_substance% %skeletonfood_inoil%": {
+      "pl": "%skeletonfood_pickled% %skeletonfood_substance% %skeletonfood_inoil%",
+      "category": "buckets"
+    },
+    "in mustard": {
+      "pl": "w musztardzie",
+      "category": "buckets"
+    },
+    "in oil": {
+      "pl": "w oleju",
+      "category": "buckets"
+    },
+    "with capers": {
+      "pl": "z kaparami",
+      "category": "buckets"
+    },
+    "in water": {
+      "pl": "w wodzie",
+      "category": "buckets"
+    },
+    "in soda": {
+      "pl": "w sodzie",
+      "category": "buckets"
+    },
+    "in seltzer": {
+      "pl": "w wodzie sodowej",
+      "category": "buckets"
+    },
+    "in syrup": {
+      "pl": "w syropie",
+      "category": "buckets"
+    },
+    "in lard": {
+      "pl": "w smalcu",
+      "category": "buckets"
+    },
+    "a la mode": {
+      "pl": "a la mode",
+      "category": "buckets"
+    },
+    "oyster shells": {
+      "pl": "skorupki ostryg",
+      "category": "buckets"
+    },
+    "skunk kidneys": {
+      "pl": "nerki skunksa",
+      "category": "buckets"
+    },
+    "rotten eggs": {
+      "pl": "zgniłe jajka",
+      "category": "buckets"
+    },
+    "fish eyes": {
+      "pl": "rybie oczy",
+      "category": "buckets"
+    },
+    "bat guano": {
+      "pl": "guano nietoperzy",
+      "category": "buckets"
+    },
+    "bat wings": {
+      "pl": "skrzydła nietoperzy",
+      "category": "buckets"
+    },
+    "vulture feathers": {
+      "pl": "pióra sępów",
+      "category": "buckets"
+    },
+    "There's an article entitled <i>Debilitating Toxins: Where Are They Now?</i>. (Gives <b>Bad Medicine</b>, a combat skill that will reduce a target's Moxie)": {
+      "pl": "Jest artykuł zatytułowany <i>Osłabiające toksyny: gdzie są teraz?</i>. (Daje <b>Złe lekarstwo</b>, umiejętność bojową obniżającą Ikrę celu)",
+      "category": "buckets"
+    },
+    "It includes a chapter about making human-sized (or larger) automatons and binding them to your will to help with kitchen tasks. (Gives <b>Beangolem</b>, a combat skill which summons a powerful golem to fight for you)": {
+      "pl": "Jest tam rozdział o budowaniu automatów wielkości człowieka (albo większych) i podporządkowywaniu ich swojej woli do pomocy w kuchni. (Daje <b>Fasolgolem</b>, umiejętność bojową przyzywającą potężnego golema do walki za ciebie)",
+      "category": "buckets"
+    },
+    "There's a recipe for a wall-shaped pile of beans that looks pretty interesting.  (Gives <b>Beanwall</b>, a spell that will create a wall of beans that provides cover from ranged attacks)": {
+      "pl": "Jest przepis na stos fasoli w kształcie muru, który wygląda całkiem ciekawie. (Daje <b>Fasolowy Mur</b>, zaklęcie tworzące fasolowy mur dający osłonę przed atakami dystansowymi)",
+      "category": "buckets"
+    },
+    "There's a free sample of a cologne that says it'll make your spleen bigger.  (Gives <b>Big Spleen</b>, a perk that lets you consume more potions in a day)": {
+      "pl": "Jest darmowa próbka wody kolońskiej, która ponoć powiększa śledzionę. (Daje <b>Wielką Śledzionę</b>, atut pozwalający wypić więcej mikstur dziennie)",
+      "category": "buckets"
+    },
+    "There's a whole set of recipes for ice-cold bean-based desserts.  (Gives <b>Great Northern Blizzard</b>, a spell which deals Cold damage to all of your enemies)": {
+      "pl": "Jest cały zestaw przepisów na lodowato zimne desery na bazie fasoli. (Daje <b>Wielką północną zamieć</b>, zaklęcie zadające obrażenia od zimna wszystkim wrogom)",
+      "category": "buckets"
+    },
+    "There's a chapter about cooking bean dishes so small that they have to be served intravenously.  (Gives <b>Bloodbeans</b>, a skill that lets you regenerate health during combat)": {
+      "pl": "Jest rozdział o gotowaniu dań z fasoli tak małych, że trzeba je podawać dożylnie. (Daje <b>Krwawe Fasolki</b>, umiejętność regeneracji zdrowia podczas walki)",
+      "category": "buckets"
+    },
+    "There's an essay about how to do a particular kind of sit-ups that make your abs really thick.  (Gives <b>Brawny</b>, a perk which increases your Maximum HP)": {
+      "pl": "Jest esej o pewnym rodzaju brzuszków, które naprawdę pogrubiają mięśnie brzucha. (Daje <b>Muskularny</b>, atut zwiększający Maksymalne HP)",
+      "category": "buckets"
+    },
+    "There's an article about butter, and an article about beans, and the juxtaposition gives you an idea.  (Gives <b>Butter Bean</b>, a spell that reduces an opponent's Muscle, Mysticality and Moxie)": {
+      "pl": "Jest artykuł o maśle i artykuł o fasoli, a ich zestawienie podsuwa ci pewien pomysł. (Daje <b>Maślaną fasolkę</b>, zaklęcie obniżające Mięśnie, Mistycyzm i Ikrę przeciwnika)",
+      "category": "buckets"
+    },
+    "There's an appendix that contains a really comprehensive list of advanced cooking techniques.  (Gives <b>Advanced Cookery</b>, a skill that lets you craft complicated food items using an Occult Oven)": {
+      "pl": "Jest aneks z naprawdę wyczerpującą listą zaawansowanych technik kulinarnych. (Daje <b>Zaawansowane Gotowanie</b>, umiejętność tworzenia skomplikowanych potraw przy użyciu Okultystycznego Pieca)",
+      "category": "buckets"
+    },
+    "There's a sidebar featuring a bunch of newly-discovered, super-effective finger exercises.  (Gives <b>Deft Hands</b>, a perk that lets you use an additional combat item each round at no AP cost)": {
+      "pl": "Jest ramka z garścią nowo odkrytych, super skutecznych ćwiczeń palców. (Daje <b>Zwinne Dłonie</b>, atut pozwalający użyć dodatkowego przedmiotu bojowego w rundzie bez kosztu PA)",
+      "category": "buckets"
+    },
+    "There's a letter to the editor from a woman in Wyoming who had an amazing idea:  What if you shot somebody <i>three times</i> instead of just once?  (Gives <b>Fan Hammer</b>, a combat skill that lets you quickly do three ranged attacks)": {
+      "pl": "Jest list do redakcji od kobiety z Wyoming, która wpadła na niesamowity pomysł: co by było, gdyby strzelić do kogoś <i>trzy razy</i> zamiast raz? (Daje <b>Szybkostrzał</b>, umiejętność bojową pozwalającą szybko wykonać trzy ataki dystansowe)",
+      "category": "buckets"
+    },
+    "There's a recipe for a new kind of snake-oil concoction that looks like it might come in handy in a fight.  (Gives <b>Good Medicine</b>, a skill that lets you recover HP in combat.)": {
+      "pl": "Jest przepis na nowy rodzaj wężowego eliksiru, który może się przydać w walce. (Daje <b>Dobre lekarstwo</b>, umiejętność odzyskiwania HP podczas walki.)",
+      "category": "buckets"
+    },
+    "There's a chapter written by a guy who survived seventeen different near-fatal gorings.  He really learned a lot about getting gored!  (Gives <b>Gore</b>, a skill that lets you attack an entire row of enemies)": {
+      "pl": "Jest rozdział napisany przez gościa, który przeżył siedemnaście różnych, niemal śmiertelnych bodnięć. Naprawdę wiele się nauczył o byciu bodzionym! (Daje <b>Rozpruwanie</b>, umiejętność ataku na cały rząd wrogów)",
+      "category": "buckets"
+    },
+    "There's a really interesting article about punching people so hard that they stop moving.  (Gives <b>Haymaker</b>, a combat skill that deals damage and briefly stuns an enemy)": {
+      "pl": "Jest naprawdę ciekawy artykuł o uderzaniu ludzi tak mocno, że przestają się ruszać. (Daje <b>Sierpowanie</b>, umiejętność bojową zadającą obrażenia i na chwilę ogłuszającą wroga)",
+      "category": "buckets"
+    },
+    "There's a series of patterns for making different kinds of magical leather goods.  (Gives <b>Grim Leatherworkery</b>, a skill that lets you make enchanted leather goods using a Sanctified Workbench)": {
+      "pl": "Jest seria wykrojów na różne rodzaje magicznych wyrobów skórzanych. (Daje <b>Ponure Garbarstwo</b>, umiejętność tworzenia zaczarowanych wyrobów skórzanych przy Uświęconym Warsztacie)",
+      "category": "buckets"
+    },
+    "There's a complex pronunciation guide written by a linguist who was raised by cows.  (Gives <b>Menacing Moo</b>, a skill that reduces the Muscle of all of your opponents)": {
+      "pl": "Jest złożony przewodnik wymowy napisany przez lingwistę wychowanego przez krowy. (Daje <b>Groźne Muu</b>, umiejętność obniżającą Mięśnie wszystkich przeciwników)",
+      "category": "buckets"
+    },
+    "There's a big poster you can fold out and practice punching.  (Gives <b>The Ol' One Two Three</b>, a skill that lets you perform three punch attacks in quick succession)": {
+      "pl": "Jest duży plakat, który można rozłożyć i trenować na nim uderzenia. (Daje <b>Stary One Two Three</b>, umiejętność wykonania trzech szybkich ciosów pod rząd)",
+      "category": "buckets"
+    },
+    "There's a fold-out chart listing all of the hottest new poisons!  (Gives <b>Expert Poisoner</b>, a passive skill that multiplies the amount of poison you apply to enemies when you poison them.)": {
+      "pl": "Jest rozkładana tabela z listą wszystkich najgorętszych nowych trucizn! (Daje <b>Mistrza Trucicielstwa</b>, pasywną umiejętność mnożącą ilość trucizny nakładanej na wrogów)",
+      "category": "buckets"
+    },
+    "There's an article about some recent chemical discoveries and how they can be applied to the Snake Oilin' trade. (Gives <b>Potionology</b>, a skill that lets you craft advanced potions using an Alchemistry Set)": {
+      "pl": "Jest artykuł o niedawnych odkryciach chemicznych i ich zastosowaniu w fachu olejownika wężowego. (Daje <b>Miksturoznawstwo</b>, umiejętność tworzenia zaawansowanych mikstur przy Zestawie Alchemicznym)",
+      "category": "buckets"
+    },
+    "There's an article with a list of tips and tricks for moving really quickly.  (Gives <b>Quick on the Draw</b>, a skill that increases your Speed)": {
+      "pl": "Jest artykuł z listą trików na naprawdę szybkie poruszanie się. (Daje <b>Szybkie wyciągnięcie</b>, umiejętność zwiększającą Szybkość)",
+      "category": "buckets"
+    },
+    "There's an essay extolling the virtues of shooting wildly without looking where you're aiming.  (Gives <b>Shootenanny</b>, a skill that lets you fire a whole bunch of bullets at random targets)": {
+      "pl": "Jest esej wychwalający zalety dzikiego strzelania bez patrzenia, gdzie się celuje. (Daje <b>Shootenanny</b>, umiejętność oddania całej masy strzałów w losowe cele)",
+      "category": "buckets"
+    },
+    "There's a chapter about adapting the stampeding behaviors of demonic cattle for human use.  (Gives <b>Bull Stomp</b>, a combat skill that does a small amount of damage to all of your enemies)": {
+      "pl": "Jest rozdział o adaptowaniu stadnych zachowań demonicznego bydła na ludzki użytek. (Daje <b>Tupnięcie byka</b>, umiejętność bojową zadającą niewielkie obrażenia wszystkim wrogom)",
+      "category": "buckets"
+    },
+    "There's a recipe for a quick-brew potion that fortifies your body, mind and spirit.  (Gives <b>Strong Medicine</b>, a combat skill that temporarily increases your Muscle, Mysticality and Moxie)": {
+      "pl": "Jest przepis na szybko warzoną miksturę wzmacniającą ciało, umysł i ducha. (Daje <b>Silne lekarstwo</b>, umiejętność bojową tymczasowo zwiększającą Mięśnie, Mistycyzm i Ikrę)",
+      "category": "buckets"
+    },
+    "There's a chapter about rubbing your skin with sandpaper in order to thicken it.  (Gives <b>Thick Skin</b>, a skill that increases your Armor, protecting you against melee attacks)": {
+      "pl": "Jest rozdział o pocieraniu skóry papierem ściernym, żeby ją pogrubić. (Daje <b>Grubą Skórę</b>, umiejętność zwiększającą Pancerz i chroniącą przed atakami wręcz)",
+      "category": "buckets"
+    },
+    "There's a poem scribbled into the margins whose words keep shifting and changing.  (Gives <b>Uncanny Presence</b>, a perk that provides resistance against elemental damage)": {
+      "pl": "Jest wiersz nagryzmolony na marginesie, którego słowa wciąż się zmieniają. (Daje <b>Niesamowitą obecność</b>, atut dający odporność na obrażenia żywiołowe)",
+      "category": "buckets"
+    },
+    "There's a list of meditation techniques to help you concentrate while cooking and/or fighting.  (Gives <b>Use the Ol' Bean</b>, a skill that temporarily increases your Mysticality during a fight)": {
+      "pl": "Jest lista technik medytacyjnych pomagających się skupić podczas gotowania i/lub walki. (Daje <b>Użyj Starej Fasoli</b>, umiejętność tymczasowo zwiększającą Mistycyzm podczas walki)",
+      "category": "buckets"
+    },
+    "There's a chapter about situational awareness and its importance when trying to survive in a world full of demon cows.  (Gives <b>Ever Vigilant</b>, a perk that increases your Maximum AP by 2)": {
+      "pl": "Jest rozdział o świadomości sytuacyjnej i jej znaczeniu dla przetrwania w świecie pełnym demonicznych krów. (Daje <b>Wiecznie Czujny</b>, atut zwiększający Maksymalne PA o 2)",
+      "category": "buckets"
+    },
+    "There's a recipe that has been scratched out and replaced with a bunch of paranoid, insane scrawlings.  (Gives <b>Wary</b>, a skill that increases your Maximum AP)": {
+      "pl": "Jest przepis wydrapany i zastąpiony stertą paranoicznych, szalonych bazgrołów. (Daje <b>Czujny</b>, umiejętność zwiększającą Maksymalne PA)",
+      "category": "buckets"
+    },
+    "You don't like this.": {
+      "pl": "Nie podoba ci się to.",
+      "category": "buckets"
+    },
+    "You don't like this one bit.": {
+      "pl": "Ani trochę ci się to nie podoba.",
+      "category": "buckets"
+    },
+    "You don't like this spiral one bit.": {
+      "pl": "Ani trochę nie podoba ci się ta spirala.",
+      "category": "buckets"
+    },
+    "You don't like this spiral at all.": {
+      "pl": "W ogóle nie podoba ci się ta spirala.",
+      "category": "buckets"
+    },
+    "You hate this spiral.": {
+      "pl": "Nienawidzisz tej spirali.",
+      "category": "buckets"
+    },
+    "Looking at this spiral makes you feel queasy.": {
+      "pl": "Patrzenie na tę spiralę przyprawia cię o mdłości.",
+      "category": "buckets"
+    },
+    "This spiraling shape is making you feel strange.": {
+      "pl": "Ten spiralny kształt sprawia, że czujesz się dziwnie.",
+      "category": "buckets"
+    },
+    "This spiral makes you uncomfortable.": {
+      "pl": "Ta spirala sprawia, że czujesz się nieswojo.",
+      "category": "buckets"
+    },
+    "You want to stop looking at this spiral right now.": {
+      "pl": "Chcesz już przestać patrzeć na tę spiralę.",
+      "category": "buckets"
+    },
+    "icon_buffalobones (Dev Asym's conflicted copy 2017-05-11)": {
+      "pl": "icon_buffalobones (Dev Asym's conflicted copy 2017-05-11)",
+      "category": "buckets"
+    },
+    "icon_document3 (Dev Asym's conflicted copy 2016-12-06)": {
+      "pl": "icon_document3 (Dev Asym's conflicted copy 2016-12-06)",
+      "category": "buckets"
+    },
+    "icon_meat (Dev Asym's conflicted copy 2016-01-07 (1))": {
+      "pl": "icon_meat (Dev Asym's conflicted copy 2016-01-07 (1))",
+      "category": "buckets"
+    },
+    "icon_meat (Dev Asym's conflicted copy 2016-01-07)": {
+      "pl": "icon_meat (Dev Asym's conflicted copy 2016-01-07)",
+      "category": "buckets"
+    },
+    "wallb_side_l copy": {
+      "pl": "wallb_side_l copy",
+      "category": "buckets"
+    },
+    "wallb_side_r copy": {
+      "pl": "wallb_side_r copy",
+      "category": "buckets"
+    },
+    "As you're riding toward your destination, you pass by a building in which a barn dance is happening.  I guess that makes it a barn.  The people inside seem to be having a pretty good time!": {
+      "pl": "Jadąc w stronę celu, mijasz budynek, w którym trwają tańce w stodole. To chyba dlatego nazywa się to stodołą. Ludzie w środku wyglądają, jakby świetnie się bawili!",
+      "category": "buckets"
+    },
+    "Join in": {
+      "pl": "Dołącz",
+      "category": "buckets"
+    },
+    "You mosey in and have a grand old time at the barn dance!  You even learn a few new moves!  Most of the moves involve pretending to reel somebody in from across the dance floor with a lasso, but still, they're new moves.": {
+      "pl": "Wchodzisz i świetnie się bawisz na tańcach w stodole! Uczysz się nawet kilku nowych kroków! Większość z nich polega na udawaniu, że przyciągasz kogoś przez parkiet lassem, ale to wciąż nowe kroki.",
+      "category": "buckets"
+    },
+    "No time for dancing": {
+      "pl": "Nie ma czasu na tańce",
+      "category": "buckets"
+    },
+    "You espy an empty whiskey bottle sitting on top of a fencepost about sixty paces away.": {
+      "pl": "Dostrzegasz pustą butelkę po whisky stojącą na słupku ogrodzenia jakieś sześćdziesiąt kroków dalej.",
+      "category": "buckets"
+    },
+    "Try to shoot it": {
+      "pl": "Spróbuj do niej strzelić",
+      "category": "buckets"
+    },
+    "With a single crack shot, you shoot and crack the single bottle.  Nice shootin'!": {
+      "pl": "Jednym celnym strzałem rozbijasz butelkę na kawałki. Niezły strzał!",
+      "category": "buckets"
+    },
+    "It's not worth the bullet": {
+      "pl": "Szkoda kuli",
+      "category": "buckets"
+    },
+    "Some distance off the trail, you see a water tower that appears to have sprung a small leak.": {
+      "pl": "Kawałek od szlaku widzisz wieżę ciśnień, w której chyba pojawił się mały przeciek.",
+      "category": "buckets"
+    },
+    "Plug it up": {
+      "pl": "Zatkaj go",
+      "category": "buckets"
+    },
+    "You fire a single bullet into the hole, plugging it and rendering the water supply safe, if slightly leaded.": {
+      "pl": "Wypuszczasz jedną kulę w dziurę, zatykając ją i czyniąc zapas wody bezpiecznym, choć lekko ołowianym.",
+      "category": "buckets"
+    },
+    "Ride on": {
+      "pl": "Jedź dalej",
+      "category": "buckets"
+    },
+    "Off the side of the trail you notice one of those furry cactuses.  It has definitely seen better days.  Its prongs are limp and its hairy coating is disheveled.": {
+      "pl": "Przy szlaku zauważasz jeden z tych futrzastych kaktusów. Zdecydowanie miał lepsze czasy. Jego kolce zwiotczały, a futrzasta powłoka jest w nieładzie.",
+      "category": "buckets"
+    },
+    "Spruce it up": {
+      "pl": "Doprowadź go do porządku",
+      "category": "buckets"
+    },
+    "You comb its hair and prop up its joints to make it look more attractive and vigorous.": {
+      "pl": "Czeszesz jego futro i podpierasz stawy, żeby wyglądał atrakcyjniej i żwawiej.",
+      "category": "buckets"
+    },
+    "Ignore that sad sack of a succulent": {
+      "pl": "Zignoruj tego żałosnego sukulenta",
+      "category": "buckets"
+    },
+    "High atop a nearby pine tree, you see a pine cone with a bullseye painted on it.  There must be an artistic bird somewhere nearby.": {
+      "pl": "Wysoko na pobliskiej sośnie widzisz szyszkę z namalowaną tarczą strzelniczą. Gdzieś niedaleko musi być jakiś artystyczny ptak.",
+      "category": "buckets"
+    },
+    "Shoot the pine cone": {
+      "pl": "Strzel do szyszki",
+      "category": "buckets"
+    },
+    "With a flourish, you draw your pistol, shoot the cone, twirl your pistol around several times and then reholster it, all without even slowing your horse down.": {
+      "pl": "Z fantazją wyciągasz pistolet, strzelasz do szyszki, kręcisz pistoletem kilka razy i chowasz go do kabury — wszystko bez zwalniania konia.",
+      "category": "buckets"
+    },
+    "Just admire it and move on": {
+      "pl": "Po prostu podziwiaj i jedź dalej",
+      "category": "buckets"
+    },
+    "In a devastated cornfield off to the side of the trail, you see a similarly devastated scarecrow.  Its shirt is untucked, its hat is knocked off, and don't even get me started on the state of its ascot.": {
+      "pl": "Na zniszczonym polu kukurydzy przy szlaku widzisz równie zniszczone strachlo na wróble. Koszula mu wyszła ze spodni, kapelusz spadł, a o stanie jego fularu lepiej nawet nie zaczynać.",
+      "category": "buckets"
+    },
+    "Fix it up": {
+      "pl": "Napraw go",
+      "category": "buckets"
+    },
+    "You make the scarecrow at least mostly presentable.  It's important to look your best at all times -- you never know when a famous crow might show up!": {
+      "pl": "Doprowadzasz strachlo do w miarę przyzwoitego stanu. Zawsze warto wyglądać jak najlepiej — nigdy nie wiadomo, kiedy pojawi się jakaś sławna wrona!",
+      "category": "buckets"
+    },
+    "Sigh wistfully and ride on": {
+      "pl": "Westchnij tęsknie i jedź dalej",
+      "category": "buckets"
+    },
+    "As you're riding along, you randomly think about how sometimes one cowpoke will shoot at another cowpoke's feet and yell \"Dance!\" and how it's usually a situation where the first cowpoke is being mean or threatening.  But then you idly wonder if a @fella@ could do something similar, except shooting at @his@ <i>own</i> feet, if @he@ were a good enough shot and/or a good enough dancer.": {
+      "pl": "Jadąc, przypominasz sobie ni z tego, ni z owego, że czasem jeden kowboj strzela drugiemu pod nogi i krzyczy „Tańcz!”, i że zwykle chodzi wtedy o coś podłego albo groźnego. Ale potem zastanawiasz się leniwie, czy @fella@ mógłby zrobić coś podobnego, tyle że strzelając sobie pod <i>własne</i> nogi — gdyby @he@ był wystarczająco dobrym strzelcem i/albo tancerzem.",
+      "category": "buckets"
+    },
+    "Give it a try": {
+      "pl": "Spróbuj",
+      "category": "buckets"
+    },
+    "You fire at your feet for a while, and dance up a storm.  It's a great combination of dancing practice and shooting practice!": {
+      "pl": "Strzelasz sobie pod nogi przez chwilę i tańczysz jak szalony. To świetne połączenie treningu tańca i strzelania!",
+      "category": "buckets"
+    },
+    "Stop daydreaming": {
+      "pl": "Przestań marzyć",
+      "category": "buckets"
+    },
+    "Since your horse is smart enough to automatically follow the trail without much micromanagement, you have some time on your hands. This might be an opportune chance to practice those sweet pistol-spinning moves the big-name gunfighters use. Every shootout could use a little extra razzle-dazzle.": {
+      "pl": "Twój koń jest na tyle rozgarnięty, że sam trzyma się szlaku bez większego pilnowania, więc masz trochę wolnego czasu. To może być dobra okazja, żeby poćwiczyć te efektowne obroty pistoletem, jakie stosują wielcy rewolwerowcy. Każda strzelanina przyda się trochę więcej blichtru.",
+      "category": "buckets"
+    },
+    "Bust those sweet moves": {
+      "pl": "Popisz się tymi ruchami",
+      "category": "buckets"
+    },
+    "You practice spinning your pistol around your finger for a while, and even manage a couple hand-to-hand passes -- and you only accidentally fired once, and didn't hit anything important! Nice!": {
+      "pl": "Ćwiczysz przez chwilę kręcenie pistoletem na palcu i udaje ci się nawet kilka przerzutów z ręki do ręki — a przypadkiem wystrzeliłeś tylko raz i nie trafiłeś w nic ważnego! Nieźle!",
+      "category": "buckets"
+    },
+    "Mmmmaybe not": {
+      "pl": "Eeech, może jednak nie",
+      "category": "buckets"
+    },
+    "You see a campfire near the trail, and turn off to let your horse rest a bit. The campfire's owner offers you a cup of coffee, and suggests a round or two of poker while it boils. You can tell from the look in his eyes that he's planning to cheat, but so were you, so it's probably fine?": {
+      "pl": "Widzisz przy szlaku ognisko i skręcasz, żeby dać koniowi trochę odpocząć. Właściciel ogniska oferuje ci kubek kawy i proponuje rundę czy dwie pokera, póki się parzy. Po spojrzeniu widzisz, że planuje oszukiwać, ale ty też planowałeś, więc chyba w porządku?",
+      "category": "buckets"
+    },
+    "Deal me in": {
+      "pl": "Wciągnij mnie do gry",
+      "category": "buckets"
+    },
+    "Your opponent gets really angry when his four aces (all spades) are beaten by your five kings (all hearts). He grabs the coffeepot and stomps away, leaving you with an unusually thick deck of cards.": {
+      "pl": "Twój przeciwnik wściekłość, gdy jego cztery asy (wszystkie pikowe) przegrywają z twoimi pięcioma królami (wszystkie kierowe). Chwyta dzbanek do kawy i odchodzi tupiąc, zostawiając ci niezwykle grubą talię kart.",
+      "category": "buckets"
+    },
+    "Too rich for my blood": {
+      "pl": "Za wysokie progi jak na mnie",
+      "category": "buckets"
+    },
+    "Off the side of the trail, you spy a young cowboy staring sourly at his reflection in a puddle, trying to get his hat cocked at a maximally jaunty angle.": {
+      "pl": "Przy szlaku dostrzegasz młodego kowboja, który kwaśno wpatruje się w swoje odbicie w kałuży, próbując ustawić kapelusz pod maksymalnie zawadiackim kątem.",
+      "category": "buckets"
+    },
+    "Give him some advice": {
+      "pl": "Udziel mu rady",
+      "category": "buckets"
+    },
+    "You walk up behind him and deftly flick his hat into place.  His dour expression becomes a smile, but by the time he turns around to thank you, you've ridden off into the sunset.": {
+      "pl": "Podchodzisz do niego od tyłu i zręcznym ruchem poprawiasz mu kapelusz. Jego posępna mina zamienia się w uśmiech, ale zanim zdąży się odwrócić, żeby ci podziękować, odjeżdżasz już w stronę zachodu słońca.",
+      "category": "buckets"
+    },
+    "Leave him to his narcissistic pursuits": {
+      "pl": "Zostaw go z jego narcystycznymi zajęciami",
+      "category": "buckets"
+    },
+    "This stretch of the trail has a fence bordering it, and someone has gone and put tin cans on all the fence posts, without shooting them off afterwards! What in the heck?": {
+      "pl": "Ten odcinek szlaku obrzeżony jest płotem, a ktoś ustawił puszki na wszystkich słupkach, nie strącając ich potem strzałami! Co u licha?",
+      "category": "buckets"
+    },
+    "Shoot them durn cans": {
+      "pl": "Zestrzel te cholerne puszki",
+      "category": "buckets"
+    },
+    "Pew pew pew! You shoot every one of those cans and they jump into the air like grasshoppers on grasshopper day. ": {
+      "pl": "Pif paf puf! Zestrzeliwujesz każdą z tych puszek, a one wyskakują w powietrze jak konicze w dniu koników polnych. ",
+      "category": "buckets"
+    },
+    "Leave them cans alone": {
+      "pl": "Zostaw te puszki w spokoju",
+      "category": "buckets"
+    },
+    "Off in the distance, you spot a hungry bobcat sneaking up an a cute li'l desert squirrel. How do you feel about that?": {
+      "pl": "W oddali widzisz głodnego rysia podkradającego się do słodkiej, małej pustynnej wiewiórki. Co o tym sądzisz?",
+      "category": "buckets"
+    },
+    "I will not allow this": {
+      "pl": "Nie pozwolę na to",
+      "category": "buckets"
+    },
+    "You fire your pistol at a rock, and the bullet ricochets to another rock, and ricochets again, knocking a wedge of stone out from under a small boulder, which rolls down a hill and knocks a large cactus onto the bobcat, which howls and runs away. The squirrel escapes unharmed, and is promptly grabbed by a desert hawk. Good job!": {
+      "pl": "Strzelasz z pistoletu w skałę, kula odbija się w inną skałę i odbija się jeszcze raz, wybijając klin kamienia spod małego głazu, który stacza się ze zbocza i przewraca wielki kaktus na rysia — ten wyje i ucieka. Wiewiórka ucieka bez szwanku i natychmiast zostaje porwana przez pustynnego jastrzębia. Dobra robota!",
+      "category": "buckets"
+    },
+    "It's nature's way": {
+      "pl": "Tak już natura ma",
+      "category": "buckets"
+    },
+    "Riding along the trail, you pass two cowboys who are shooting craps. By which I mean, they're having a contest to see whose horse can crap the farthest.": {
+      "pl": "Jadąc szlakiem, mijasz dwóch kowbojów grających w kości — a właściwie mających konkurs, czyj koń nabroi dalej.",
+      "category": "buckets"
+    },
+    "Ride away coolly and nonchalantly": {
+      "pl": "Odjedź spokojnie i nonszalancko",
+      "category": "buckets"
+    },
+    "You keep riding, without any acknowledgement of what you've seen -- barely even an eyeroll. Very smooth.": {
+      "pl": "Jedziesz dalej, nie dając po sobie poznać, że cokolwiek widziałeś — ledwie przewracasz oczami. Bardzo gładko.",
+      "category": "buckets"
+    },
+    "Ride away disgusted and shaking your head": {
+      "pl": "Odjedź zniesmaczony, kręcąc głową",
+      "category": "buckets"
+    },
+    "You come to a treacherous canyon. Fortunately, someone has thoughtfully provided a log for you to cross on. Unfortunately, it isn't as wide as your horse.": {
+      "pl": "Docierasz do zdradliwego kanionu. Na szczęście ktoś zadbał o kłodę do przejścia. Niestety nie jest tak szeroka jak twój koń.",
+      "category": "buckets"
+    },
+    "Carefully lead your horse across": {
+      "pl": "Ostrożnie przeprowadź konia",
+      "category": "buckets"
+    },
+    "You and your horse carefully tip-toe across the log. I wish we could show you what a tip-toeing horse looks like, because I bet it's real weird.": {
+      "pl": "Ty i twój koń ostrożnie przechodzicie po kłodzie na paluszkach. Szkoda, że nie możemy ci pokazać, jak wygląda koń chodzący na paluszkach, bo pewnie wygląda to naprawdę dziwnie.",
+      "category": "buckets"
+    },
+    "Find another way around.": {
+      "pl": "Znajdź inną drogę.",
+      "category": "buckets"
+    },
+    "You come to the banks of a large river, swollen with recent rainstorms and seasonal snowmelt from the northern mountains. You may:": {
+      "pl": "Docierasz nad brzeg wielkiej rzeki, wezbranej od niedawnych burz i sezonowych roztopów śniegu z północnych gór. Możesz:",
+      "category": "buckets"
+    },
+    "Attempt to ford the river": {
+      "pl": "Spróbować przeprawić się przez rzekę",
+      "category": "buckets"
+    },
+    "You carefully navigate your horse across the treacherous waters, and manage to make it to the other side without running aground on a coral reef.": {
+      "pl": "Ostrożnie prowadzisz konia przez zdradliwe wody i udaje ci się dotrzeć na drugi brzeg bez osiadania na rafie koralowej.",
+      "category": "buckets"
+    },
+    "Caulk your horse and float it across": {
+      "pl": "Uszczelnij konia i przepraw go wpław jak tratwę",
+      "category": "buckets"
+    },
+    "Your eye catches a small wooden object at the side of the trail, and you stop to take a closer look. Turns out some kid lost their bandalore (what you would call a yo-yo, but the modern patent for that won't happen for another couple decades).": {
+      "pl": "Twoje oko wyłapuje mały drewniany przedmiot przy szlaku i zatrzymujesz się, żeby przyjrzeć mu się bliżej. Okazuje się, że jakieś dziecko zgubiło bandalore (to, co nazwałbyś jojem, ale nowoczesny patent na nie pojawi się dopiero za parę dekad).",
+      "category": "buckets"
+    },
+    "Do some sweet y-- I mean bandalore tricks": {
+      "pl": "Zrób kilka słodkich jo-jo— to znaczy sztuczek z bandalore",
+      "category": "buckets"
+    },
+    "You spend a few minutes Planet-Hopping, Looping the Loop, and Three-Leaf Clovering. It sure will be nice when they invent one of these that can sleep properly, so you can Split the Atom and Bite the Pants.": {
+      "pl": "Spędzasz kilka minut na Skakaniu po Planetach, Pętli Pętli i Trójlistnej Koniczynie. Będzie miło, gdy wymyślą taki, co potrafi porządnie spać, żebyś mógł Rozszczepić Atom i Ugryźć Spodnie.",
+      "category": "buckets"
+    },
+    "Bah! No time for kid's stuff!": {
+      "pl": "Ba! Nie ma czasu na dziecinady!",
+      "category": "buckets"
+    },
+    "You stumble across an overturned stagecoach.": {
+      "pl": "Natykasz się na wywrócony dyliżans.",
+      "category": "buckets"
+    },
+    "Flip it over": {
+      "pl": "Przewróć go",
+      "category": "buckets"
+    },
+    "You muster your strength and get the stagecoach right side up.  It's still an abandoned stagecoach, but at least it's less of an eyesore.": {
+      "pl": "Zbierasz siły i stawiasz dyliżans z powrotem na kołach. To wciąż porzucony dyliżans, ale przynajmniej mniej razi w oczy.",
+      "category": "buckets"
+    },
+    "As you're riding down the trail, a dirty urchin jumps out, points a toy pistol at you, and demands that you \"pay the toll\" by doing twenty pushups.": {
+      "pl": "Jadąc szlakiem, wyskakuje na ciebie brudny urwis, celuje w ciebie zabawkowym pistoletem i żąda, żebyś „zapłacił myto”, robiąc dwadzieścia pompek.",
+      "category": "buckets"
+    },
+    "Pay the boy": {
+      "pl": "Zapłać chłopcu",
+      "category": "buckets"
+    },
+    "Satisfied by your demonstration of upper-body strength, the child allows you to pass without pretending to shoot you.": {
+      "pl": "Zadowolony z twojego pokazu siły górnej części ciała, dzieciak pozwala ci przejść, nie udając nawet, że do ciebie strzela.",
+      "category": "buckets"
+    },
+    "Ignore the little scamp": {
+      "pl": "Zignoruj małego urwisa",
+      "category": "buckets"
+    },
+    "Off to one side of the trail, you spot a tree branch that's the perfect height for some giddy-ups, which is what pull-ups are called around here.": {
+      "pl": "Przy szlaku dostrzegasz gałąź drzewa idealną na kilka podciąga-hop, jak nazywa się tutaj podciąganie.",
+      "category": "buckets"
+    },
+    "Do some": {
+      "pl": "Zrób kilka",
+      "category": "buckets"
+    },
+    "You feel giddy after doing 25 giddy-ups.": {
+      "pl": "Kręci ci się w głowie po 25 podciąga-hopach.",
+      "category": "buckets"
+    },
+    "Don't giddy-up, just git along": {
+      "pl": "Nie rób podciąga-hopów, po prostu jedź dalej",
+      "category": "buckets"
+    },
+    "You encounter some homesteaders who seem to have run their wagon off the road.  Either that or they found a wagon in the ditch and are pretending to be sad about it.": {
+      "pl": "Napotykasz osadników, którzy chyba zjechali wozem z drogi. Albo znaleźli wóz w rowie i tylko udają, że jest im z tego powodu smutno.",
+      "category": "buckets"
+    },
+    "Help them get it out": {
+      "pl": "Pomóż im go wyciągnąć",
+      "category": "buckets"
+    },
+    "You tie a rope to the wagon, grab the rope by your teeth, and tow them out of the ditch.": {
+      "pl": "Przywiązujesz linę do wozu, chwytasz ją zębami i wyciągasz ich z rowu.",
+      "category": "buckets"
+    },
+    "Wave at them and ride away": {
+      "pl": "Pomachaj im i odjedź",
+      "category": "buckets"
+    },
+    "You encounter a cowpoke trying to ride her horse up the 45-degree surface of a rocky ridge. They're both having a hard time.": {
+      "pl": "Napotykasz kowbojkę próbującą wjechać koniem po nachylonym pod 45 stopni skalistym zboczu. Oboje mają z tym kłopot.",
+      "category": "buckets"
+    },
+    "Give them a boost": {
+      "pl": "Podepchnij ich",
+      "category": "buckets"
+    },
+    "You dismount your parallel horse and get behind the diagonal one.  A couple of heaves and a ho, and the cowpoke crests the ridge.  She gives you a grateful tip of the hat and continues on her way.": {
+      "pl": "Zsiadasz ze swojego poziomego konia i ustawiasz się za tym po skosie. Kilka szarpnięć i hop — kowbojka wjeżdża na grzbiet zbocza. Wdzięcznie unosi kapelusz i rusza dalej.",
+      "category": "buckets"
+    },
+    "Leave them to their struggle.": {
+      "pl": "Zostaw ich z ich zmaganiami.",
+      "category": "buckets"
+    },
+    "You catch something out of the corner of your eye -- a horseshoe rolling down the hill toward you. It stops at the edge of the trail and falls over with a small <i>thump</i>. \"Hey!\" someone calls out. You look up to see two figures at the top of the hill, about a hundred yards away. \"Would you mind bringing that back?\" the man yells. \"We're playing horseshoes!\"": {
+      "pl": "Kątem oka łapiesz coś — podkowę toczącą się w twoją stronę ze zbocza. Zatrzymuje się na krawędzi szlaku i przewraca z cichym <i>puk</i>. „Hej!” — woła ktoś. Podnosisz wzrok i widzisz dwie postacie na szczycie wzgórza, jakieś sto jardów dalej. „Mógłbyś nam to przynieść?” — krzyczy mężczyzna. „Gramy w podkowy!”",
+      "category": "buckets"
+    },
+    "Pitch it to them": {
+      "pl": "Rzuć ją do nich",
+      "category": "buckets"
+    },
+    "You wind up and hurl the horseshoe up the hill. You hear a faint clank, and the the men whoop and cheer. Guess you got a ringer!": {
+      "pl": "Zamachujesz się i rzucasz podkową w górę zbocza. Słyszysz cichy brzęk, a mężczyźni wiwatują i pohukują. Chyba trafiłeś w słupek!",
+      "category": "buckets"
+    },
+    "Leave it": {
+      "pl": "Zostaw ją",
+      "category": "buckets"
+    },
+    "A faint wispy light at the side of the road resolves into a sad-looking ghost as you pass. Unable to speak, it just makes sad \"wooooo\" noises and gestures to its roadside graves-marker, which has fallen over. For some reason, it's a huge millstone.": {
+      "pl": "Słabe, mgliste światełko przy drodze zamienia się, gdy je mijasz, w smutno wyglądającego ducha. Nie może mówić, więc tylko wydaje smutne „łuuuu” i wskazuje na swój przydrożny nagrobek, który się przewrócił. Z jakiegoś powodu jest to ogromny kamień młyński.",
+      "category": "buckets"
+    },
+    "Stand it back up": {
+      "pl": "Postaw go z powrotem",
+      "category": "buckets"
+    },
+    "You heave the millstone back up on its edge, and wedge it with a couple of sticks. The ghost sighs with relief and fades away. Wiping off the moss, you see the epitaph: \"JUDD MILLSON 1837-1889 died when a millstone fell over on him\" ...oh my gosh, those weren't sticks! They were b- oh, no, yeah, these are definitely just sticks.": {
+      "pl": "Stawiasz kamień młyński z powrotem na krawędzi i podpierasz go kilkoma patykami. Duch wzdycha z ulgą i znika. Ścierając mech, widzisz epitafium: „JUDD MILLSON 1837-1889 zmarł, gdy przygniótł go kamień młyński” ...o rany, to nie były patyki! To były k- a nie, w sumie to zdecydowanie tylko patyki.",
+      "category": "buckets"
+    },
+    "Good luck with that, ghost.": {
+      "pl": "Powodzenia z tym, duchu.",
+      "category": "buckets"
+    },
+    "An odd bit of wood on the ground catches your eye, and on closer examination it appears to the the corner of an old wooden box mostly buried in the ground.": {
+      "pl": "Dziwny kawałek drewna na ziemi przyciąga twój wzrok, a przy bliższych oględzinach okazuje się rogiem starej drewnianej skrzyni, prawie całkiem zakopanej w ziemi.",
+      "category": "buckets"
+    },
+    "Haul it up!": {
+      "pl": "Wyciągnij ją!",
+      "category": "buckets"
+    },
+    "You wrench the old trunk out of the ground with a mighty grunt, and knock the rusted padlock off the front with a rock. It's full of experience points!": {
+      "pl": "Z potężnym stęknięciem wyrywasz starą skrzynię z ziemi i zbijasz kamieniem zardzewiałą kłódkę. Jest pełna punktów doświadczenia!",
+      "category": "buckets"
+    },
+    "It's probably just full of sour grapes.": {
+      "pl": "Pewnie jest pełna kwaśnych winogron.",
+      "category": "buckets"
+    },
+    "You run across a poor jackrabbit with his leg caught in a bear trap.  That's for bears, little guy -- you shouldn't be here!": {
+      "pl": "Natykasz się na biednego królika preriowego z łapą uwięzioną w niedźwiedziej pułapce. To pułapka na niedźwiedzie, mały — nie powinieneś tu być!",
+      "category": "buckets"
+    },
+    "Open the trap and let it go": {
+      "pl": "Otwórz pułapkę i wypuść go",
+      "category": "buckets"
+    },
+    "You pry open the trap and the jackrabbit scurries away to freedom.  Or to get eaten by a coyote.  Either way, you've done your good deed for the day.": {
+      "pl": "Rozwierasz pułapkę i królik pędzi ku wolności. Albo żeby zostać zjedzonym przez kojota. Tak czy inaczej, zrobiłeś dziś swój dobry uczynek.",
+      "category": "buckets"
+    },
+    "Leave it to its fate": {
+      "pl": "Zostaw go jego losowi",
+      "category": "buckets"
+    },
+    "There isn't a whole lot to occupy yourself during these long rides -- if you've seen one cloud that looks kind of like a duck, you've seen them all. It would be a good opportunity to exercise your upper-body, but you don't have any dumbbells.": {
+      "pl": "Podczas tak długiej jazdy niewiele jest, czym się zająć — jak widziałeś jedną chmurę przypominającą kaczkę, widziałeś je wszystkie. To dobra okazja, żeby poćwiczyć górną część ciała, ale nie masz żadnych hantli.",
+      "category": "buckets"
+    },
+    "Try to straighten a spare horseshoe": {
+      "pl": "Spróbuj wyprostować zapasową podkowę",
+      "category": "buckets"
+    },
+    "You spend some time grunting and puffing, trying to unbend a horseshoe with your bare hands. It doesn't work. But it's quite a work<i>out</i>.": {
+      "pl": "Spędzasz chwilę, stękając i sapiąc, próbując rozgiąć podkowę gołymi rękami. Nie wychodzi. Ale to niezły <i>trening</i>.",
+      "category": "buckets"
+    },
+    "Nah, waste of a good horseshoe": {
+      "pl": "Nie, szkoda dobrej podkowy",
+      "category": "buckets"
+    },
+    "Wouldn't you just know it, the trail is blocked by a bunch of boulders and fallen logs and barbell weights and an old cast-iron printing press, and all kinds of heavy stuff.": {
+      "pl": "A niech to, szlak jest zablokowany stertą głazów, powalonych pni, obciążników do sztangi i starej żeliwnej maszyny drukarskiej — i wszelkim innym ciężkim badziewiem.",
+      "category": "buckets"
+    },
+    "Move that heavy stuff": {
+      "pl": "Odsuń to ciężkie badziewie",
+      "category": "buckets"
+    },
+    "You flex your impressive muscles and move all that heavy stuff out of the way. Then, once you've ridden past it, you move it all back. After all, it isn't yours, and it would be rude to move someone else's stuff without permission.": {
+      "pl": "Napinasz imponujące mięśnie i odsuwasz cały ten ciężki majdan z drogi. Potem, gdy już przejedziesz, odkładasz wszystko z powrotem. W końcu to nie twoje, a przesuwanie cudzych rzeczy bez pozwolenia byłoby niegrzeczne.",
+      "category": "buckets"
+    },
+    "Ride around it": {
+      "pl": "Objedź to",
+      "category": "buckets"
+    },
+    "Partway down the trail, @horsename@ stumbles. They seem pretty tired from carrying you around all the time.": {
+      "pl": "W połowie szlaku @horsename@ potyka się. Wygląda na dość zmęczonego ciągłym dźwiganiem cię.",
+      "category": "buckets"
+    },
+    "Carry your horse for a while": {
+      "pl": "Poznieś konia przez chwilę",
+      "category": "buckets"
+    },
+    "You heave @horsename@ onto your back and carry them for the next leg of the journey, so they can rest. What a kind and responsible horse owner you are!": {
+      "pl": "Wrzucasz @horsename@ na plecy i niesiesz go przez kolejny odcinek podróży, żeby mógł odpocząć. Ależ z ciebie miły i odpowiedzialny właściciel konia!",
+      "category": "buckets"
+    },
+    "Sorry, horse!": {
+      "pl": "Wybacz, koniu!",
+      "category": "buckets"
+    },
+    "You come upon a covered wagon belonging to a newlywed couple heading west. It looks like one of their wagon wheels has broken, and though they have a spare, it was the heavy corner of the wagon and they don't have any way to lever it up to get the replacement on.": {
+      "pl": "Napotykasz kryty wóz należący do nowożeńców jadących na zachód. Wygląda na to, że jedno koło im się złamało, i choć mają zapasowe, było to ciężkie koło z rogu wozu, a oni nie mają czym go podważyć, żeby założyć zamiennik.",
+      "category": "buckets"
+    },
+    "Stop and help them out": {
+      "pl": "Zatrzymaj się i pomóż im",
+      "category": "buckets"
+    },
+    "You get your shoulders under the corner of the wagon and heave it upright, muscles straining. The couple get the wheel in place and bolted on as quick as possible, and then help you out from under the wagon, thanking you profusely. There isn't really a joke here, it's just a thing that happens I guess?": {
+      "pl": "Podkładasz ramiona pod róg wozu i unosisz go, napinając mięśnie. Para jak najszybciej zakłada koło i przykręca je, po czym pomaga ci wydostać się spod wozu, dziękując bez końca. Nie ma tu tak naprawdę żadnego żartu, to po prostu coś, co się zdarza, jak sądzę?",
+      "category": "buckets"
+    },
+    "Wish them luck": {
+      "pl": "Życz im szczęścia",
+      "category": "buckets"
+    },
+    "You hear a shout in the distance behind you, and a thunder of hooves. A riderless horse is racing toward you, reins flapping.": {
+      "pl": "Słyszysz krzyk gdzieś w oddali za sobą i grzmot kopyt. Ku tobie pędzi koń bez jeźdźca, z powiewającymi lejcami.",
+      "category": "buckets"
+    },
+    "Grab the reins": {
+      "pl": "Chwyć lejce",
+      "category": "buckets"
+    },
+    "You manage to snag the reins as the horse sprints past, and are yanked out of your saddle. The horse drags you for maybe a hundred yards before you get your legs under you and put up a fight, and eventually haul the beast to a stop. Tired and bruised, you lead the horse back to where its owner is panting up the road toward you -- a massively overweight man who is sweating profusely in the desert heat and smells like a dead cheese. No wonder the poor horse was so eager to get away.": {
+      "pl": "Udaje ci się złapać lejce, gdy koń przemyka obok, i zostajesz wyrwany z siodła. Koń wlecze cię może z sto jardów, zanim stajesz na nogach i stawiasz opór, w końcu zatrzymując bestię. Zmęczony i posiniaczony, prowadzisz konia z powrotem do jego właściciela, który sapiąc zbliża się drogą — potężnie otyły mężczyzna, który obficie się poci w pustynnym upale i śmierdzi jak zdechły ser. Nic dziwnego, że biedny koń tak bardzo chciał uciec.",
+      "category": "buckets"
+    },
+    "Watch it go": {
+      "pl": "Popatrz, jak odbiega",
+      "category": "buckets"
+    },
+    "Your path is blocked by a large moose. Although somewhat related to cows, moose are not evil -- they're just jerks, like most of the animal kingdom. They are also quite large. This one is just sort of staring at you and doesn't seem inclined to move.": {
+      "pl": "Drogę zagradza ci wielki łoś. Choć w pewnym stopniu spokrewnione z krowami, łosie nie są złe — po prostu są dupkami, jak większość zwierzęcego królestwa. Są też całkiem spore. Ten po prostu się na ciebie gapi i nie wygląda na skłonnego się ruszyć.",
+      "category": "buckets"
+    },
+    "Move that moose": {
+      "pl": "Przesuń tego łosia",
+      "category": "buckets"
+    },
+    "You pick up the moose and huck it into the bushes. It makes a very surprised noise and runs away.": {
+      "pl": "Podnosisz łosia i ciskasz go w krzaki. Wydaje bardzo zaskoczony dźwięk i ucieka.",
+      "category": "buckets"
+    },
+    "Go around": {
+      "pl": "Objedź go",
+      "category": "buckets"
+    },
+    "A burly lumberjack-looking fellow has set up a table in the middle of the road, with a sign that says \"TOLL ROAD: 1 ARM-WRASSLE\". He grins widely when he sees you and plants the elbow of his absurdly muscular right arm in the middle of the table.": {
+      "pl": "Umięśniony gość wyglądający na drwala ustawił stół na środku drogi, ze znakiem głoszącym „DROGA PŁATNA: 1 SIŁOWANIE NA RĘKĘ”. Widząc cię, uśmiecha się szeroko i stawia łokieć swojej absurdalnie umięśnionej prawej ręki na środku stołu.",
+      "category": "buckets"
+    },
+    "Take the challenge": {
+      "pl": "Podejmij wyzwanie",
+      "category": "buckets"
+    },
+    "You sit down across from the lumberjack and clasp hands. I'm not bothering to do the dialogue here, because it's all \"Hnnnng!\" \"<i>Hrrrrgh!</i>\" etc. Long story short, you eventually manage to force your opponent's arm to the table, and he graciously gestures for you to continue on your journey.": {
+      "pl": "Siadasz naprzeciwko drwala i splatasz z nim dłonie. Nie będę tu nawet pisał dialogów, bo to samo „Hnnnng!” „<i>Hrrrrgh!</i>” i tak dalej. W skrócie: w końcu udaje ci się dobić rękę przeciwnika do stołu, a on wielkodusznym gestem pozwala ci kontynuować podróż.",
+      "category": "buckets"
+    },
+    "Take the long way": {
+      "pl": "Wybierz drogę okrężną",
+      "category": "buckets"
+    },
+    "You encounter a family of scared settlers trying to pack their wagon to head back east out of Dirtwater.  They're having a hard time getting everything situated.": {
+      "pl": "Napotykasz rodzinę przestraszonych osadników próbujących spakować wóz, żeby wrócić na wschód z Dirtwater. Mają kłopot z poukładaniem wszystkiego.",
+      "category": "buckets"
+    },
+    "Help them pack": {
+      "pl": "Pomóż im się spakować",
+      "category": "buckets"
+    },
+    "Using your advanced spatial skills, you nestle everything into the wagon with space to spare.  Now they won't have to leave their children behind!": {
+      "pl": "Dzięki zaawansowanym umiejętnościom przestrzennym upychasz wszystko do wozu z zapasem miejsca. Teraz nie będą musieli zostawiać dzieci!",
+      "category": "buckets"
+    },
+    "Off the trail's shoulder, you see some ancient petroglyphs carved into a rock.": {
+      "pl": "Przy poboczu szlaku widzisz starożytne petroglify wyryte w skale.",
+      "category": "buckets"
+    },
+    "Translate them": {
+      "pl": "Przetłumacz je",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My first is the first of a burning coal.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje pierwsze jest pierwszym z płonącego węgla.” Intrygujące.",
+      "category": "buckets"
+    },
+    "Ignore them": {
+      "pl": "Zignoruj je",
+      "category": "buckets"
+    },
+    "Off the side of the trail, you see an old man struggling to get a rope untied from a fencepost.": {
+      "pl": "Przy szlaku widzisz starca, który zmaga się z odwiązaniem liny od słupka ogrodzenia.",
+      "category": "buckets"
+    },
+    "Help him untie it": {
+      "pl": "Pomóż mu ją odwiązać",
+      "category": "buckets"
+    },
+    "Using your advanced powers of observation and your intimate knowledge of the topological sciences, you make quick work of the knot and send the old feller on his way.  Too late, you notice that the other end of the rope was tied to the man's leg, and that there is a sign nailed to the fencepost reading \"INCORRIGIBLE THIEF.  DO NOT UNTIE.\"  Oh well.": {
+      "pl": "Dzięki zaawansowanym zdolnościom obserwacji i głębokiej znajomości nauk topologicznych szybko rozwiązujesz węzeł i wysyłasz starca w drogę. Za późno zauważasz, że drugi koniec liny był przywiązany do nogi mężczyzny, a na słupku przybita jest tabliczka: „NIEPOPRAWNY ZŁODZIEJ. NIE ODWIĄZYWAĆ.” No cóż.",
+      "category": "buckets"
+    },
+    "Tip your hat to him and ride on": {
+      "pl": "Uchyl przed nim kapelusza i jedź dalej",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My second’s the second of a conscious soul.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje drugie jest drugim ze świadomej duszy.” Intrygujące.",
+      "category": "buckets"
+    },
+    "You come upon a rushing river, which a family of four is attempting to cross. However, the bridge is only wide enough for two at a time, and they only have one lantern to light the way.": {
+      "pl": "Docierasz do rwącej rzeki, którą próbuje przeprawić się czteroosobowa rodzina. Most jest jednak na tyle wąski, że mieszczą się na nim tylko dwie osoby naraz, a rodzina ma tylko jedną latarnię do oświetlenia drogi.",
+      "category": "buckets"
+    },
+    "Help them solve this puzzle": {
+      "pl": "Pomóż im rozwiązać tę łamigłówkę",
+      "category": "buckets"
+    },
+    "You point out that it's broad daylight and they don't need the lantern. They seem a little embarrassed by this revelation, and let you cross the bridge first.": {
+      "pl": "Zwracasz uwagę, że jest jasny dzień i latarnia nie jest im potrzebna. Wyglądają na nieco zawstydzonych tym odkryciem i pozwalają ci przejść przez most jako pierwszemu.",
+      "category": "buckets"
+    },
+    "Find another path": {
+      "pl": "Znajdź inną drogę",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My third is the third of a clever rhyme.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje trzecie jest trzecim ze sprytnego rymu.” Intrygujące.",
+      "category": "buckets"
+    },
+    "You encounter a man who, for some reason, has set up three wooden posts sticking out of the ground, with the first one encircled by a pyramidal stack of differently-sized stone rings. The man is looking at the stones and scratching his head. When he sees you, he asks if you'd mind helping him move the stones to the third post.": {
+      "pl": "Napotykasz mężczyznę, który z jakiegoś powodu ustawił w ziemi trzy drewniane słupki, przy czym na pierwszym z nich piramidkowo ułożone są kamienne krążki różnej wielkości. Mężczyzna patrzy na kamienie i drapie się po głowie. Widząc cię, pyta, czy nie miałbyś nic przeciwko pomocy w przeniesieniu kamieni na trzeci słupek.",
+      "category": "buckets"
+    },
+    "Tell him what you think of his stone rings": {
+      "pl": "Powiedz mu, co myślisz o jego kamiennych krążkach",
+      "category": "buckets"
+    },
+    "You give the man and his stone rings the double middle-fingers and stride away with deep satisfaction.": {
+      "pl": "Pokazujesz mężczyźnie i jego kamiennym krążkom obydwa środkowe palce i odchodzisz z głęboką satysfakcją.",
+      "category": "buckets"
+    },
+    "Leave immediately": {
+      "pl": "Odejdź natychmiast",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My fourth is the fourth of nothing but time.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje czwarte jest czwartym z niczego innego jak czasu.” Intrygujące.",
+      "category": "buckets"
+    },
+    "As you ride across the lonely desert, a scrap of paper blows into your field of view.  You grab it, and discover that it's a half-finished crossword puzzle.": {
+      "pl": "Jadąc przez samotną pustynię, widzisz nadlatujący skrawek papieru. Łapiesz go i odkrywasz, że to w połowie ukończona krzyżówka.",
+      "category": "buckets"
+    },
+    "Solve it": {
+      "pl": "Rozwiąż ją",
+      "category": "buckets"
+    },
+    "You deftly fill in the answers to the rest of the clues, and responsibly deposit the puzzle in the nearest appropriate trash receptacle (a gulch).": {
+      "pl": "Zręcznie wypełniasz odpowiedzi na resztę haseł i odpowiedzialnie wyrzucasz krzyżówkę do najbliższego stosownego kosza na śmieci (wąwozu).",
+      "category": "buckets"
+    },
+    "Throw it away": {
+      "pl": "Wyrzuć ją",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My fifth is the fifth of a burning eye closing.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje piąte jest piątym z zamykającego się płonącego oka.” Intrygujące.",
+      "category": "buckets"
+    },
+    "In the front yard of a small adobe building just off the side of the trail, you see a young woman working on a broken water pump.  She pauses to dramatically wipe sweat from her brow with her hat.": {
+      "pl": "Na podwórku małego budynku z adobe tuż przy szlaku widzisz młodą kobietę naprawiającą zepsutą pompę wodną. Przerywa, żeby dramatycznie otrzeć pot z czoła kapeluszem.",
+      "category": "buckets"
+    },
+    "Help her fix it": {
+      "pl": "Pomóż jej to naprawić",
+      "category": "buckets"
+    },
+    "You offer to help, but she just jerks her thumb toward a sign on the front of the building reading \"CULLIGAN AND DAUGHTERS PUMP REPAIR.  ALL PUMPS REPAIRED, EFFORTLESSLY AND EXPERTLY.\" and continues working on it.  You learn a lot by watching her.": {
+      "pl": "Oferujesz pomoc, ale ona tylko wskazuje kciukiem tabliczkę na froncie budynku: „CULLIGAN I CÓRKI, NAPRAWA POMP. WSZYSTKIE POMPY NAPRAWIANE BEZ WYSIŁKU I FACHOWO.” i wraca do pracy. Wiele się uczysz, patrząc na nią.",
+      "category": "buckets"
+    },
+    "Wish her luck and ride on": {
+      "pl": "Życz jej powodzenia i jedź dalej",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My sixth is the sixth of demonic opposing.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje szóste jest szóstym z demonicznego przeciwstawiania.” Intrygujące.",
+      "category": "buckets"
+    },
+    "You come to a fork in the road. A pair of twins are standing near a sign that says \"WARNING: VICIOUS BEARS\". You ask the guys which path is safe, and they say they'd be glad to tell you, but one of them always lies, and the other always tells the truth.": {
+      "pl": "Docierasz do rozwidlenia drogi. Para bliźniaków stoi przy znaku głoszącym „UWAGA: DZIKIE NIEDŹWIEDZIE”. Pytasz ich, która droga jest bezpieczna, a oni mówią, że chętnie ci powiedzą, ale jeden z nich zawsze kłamie, a drugi zawsze mówi prawdę.",
+      "category": "buckets"
+    },
+    "Solve this tricky riddle": {
+      "pl": "Rozwiąż tę podchwytliwą zagadkę",
+      "category": "buckets"
+    },
+    "You suggest kicking both men repeatedly in the junk until they can agree which is the correct path, and they both point to the left.": {
+      "pl": "Proponujesz kopanie obu mężczyzn wielokrotnie w krocze, dopóki nie zgodzą się, która droga jest właściwa — i obaj wskazują w lewo.",
+      "category": "buckets"
+    },
+    "Leave and find a less annoying path": {
+      "pl": "Odejdź i znajdź mniej irytującą drogę",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My seventh’s the seventh of guardian stone.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje siódme jest siódmym ze strażniczego kamienia.” Intrygujące.",
+      "category": "buckets"
+    },
+    "You pass through a clearing and see a young goblin carving something into a tree. It appears to say \"GOLBINS RULE OK\".": {
+      "pl": "Przechodzisz przez polanę i widzisz młodego goblina wyrzynającego coś na drzewie. Wygląda na to, że napis głosi „GOBLINE RZONDZOM OK”.",
+      "category": "buckets"
+    },
+    "Stop them": {
+      "pl": "Powstrzymaj go",
+      "category": "buckets"
+    },
+    "You can't let this stand. You sternly tap the goblin on the shoulder, take their knife, and correct their spelling.": {
+      "pl": "Nie możesz na to pozwolić. Surowo klepiesz goblina w ramię, zabierasz mu nóż i poprawiasz ortografię.",
+      "category": "buckets"
+    },
+    "They seem to translate to \"My last are ES; speak to the one that’s alone.\" Intriguing.": {
+      "pl": "Zdają się tłumaczyć na: „Moje ostatnie to ES; przemów do tego, co samotne.” Intrygujące.",
+      "category": "buckets"
+    },
+    "New Hampshire": {
+      "pl": "New Hampshire",
+      "category": "buckets"
+    },
+    "New Jersey": {
+      "pl": "New Jersey",
+      "category": "buckets"
+    },
+    "New York": {
+      "pl": "New York",
+      "category": "buckets"
+    },
+    "North Carolina": {
+      "pl": "North Carolina",
+      "category": "buckets"
+    },
+    "North Dakota": {
+      "pl": "North Dakota",
+      "category": "buckets"
+    },
+    "Rhode Island": {
+      "pl": "Rhode Island",
+      "category": "buckets"
+    },
+    "South Dakota": {
+      "pl": "South Dakota",
+      "category": "buckets"
+    },
+    "West Virginia": {
+      "pl": "West Virginia",
+      "category": "buckets"
+    },
+    "%cc_cowboylastname%": {
+      "pl": "%cc_cowboylastname%",
+      "category": "buckets"
+    },
+    "%cc_cowboylastname% and Sons": {
+      "pl": "%cc_cowboylastname% i Synowie",
+      "category": "buckets"
+    },
+    "%cc_cowboylastname% and Co. ": {
+      "pl": "%cc_cowboylastname% i Ska ",
+      "category": "buckets"
+    },
+    "This is a certificate entitling the bearer to %stock_qty% shares of %stock_amalg% %stock_products%%stock_inc%, a company based in %stock_city%.": {
+      "pl": "Ten certyfikat uprawnia okaziciela do %stock_qty% udziałów w %stock_amalg% %stock_products%%stock_inc%, firmie z siedzibą w %stock_city%.",
+      "category": "buckets"
+    },
+    " Manufacturing": {
+      "pl": " Manufacturing",
+      "category": "buckets"
+    },
+    " Industries": {
+      "pl": " Industries",
+      "category": "buckets"
+    },
+    ", Inc.": {
+      "pl": ", Inc.",
+      "category": "buckets"
+    },
+    ", Limited": {
+      "pl": ", Limited",
+      "category": "buckets"
+    },
+    " Corporation": {
+      "pl": " Corporation",
+      "category": "buckets"
+    },
+    " Company": {
+      "pl": " Company",
+      "category": "buckets"
+    },
+    " Works": {
+      "pl": " Works",
+      "category": "buckets"
+    },
+    " Syndicate": {
+      "pl": " Syndicate",
+      "category": "buckets"
+    },
+    "Buggy Whip": {
+      "pl": "Bat do Bryczki",
+      "category": "buckets"
+    },
+    "Wagon Tongue": {
+      "pl": "Dyszel Wozu",
+      "category": "buckets"
+    },
+    "Canned Food": {
+      "pl": "Żywność w Puszkach",
+      "category": "buckets"
+    },
+    "Tool and Die": {
+      "pl": "Narzędzia i Matryce",
+      "category": "buckets"
+    },
+    "Butter Churn": {
+      "pl": "Maselnica",
+      "category": "buckets"
+    },
+    "Mission 1: Write the words 'I BELIEVE IN MYSELF AND MY ABILITY TO STEAL THINGS' five thousand times in your own blood. Or other people's blood is fine too, as long as you stole it from them.": {
+      "pl": "Misja 1: Napisz słowa „WIERZĘ W SIEBIE I SWOJĄ ZDOLNOŚĆ DO KRADZIEŻY” pięć tysięcy razy własną krwią. Cudza krew też się nada, o ile ją komuś ukradłeś.",
+      "category": "buckets"
+    },
+    "Mission 5: Break into the Spirit Medium's place when she's sleeping and steal her crystal bird skull. Don't give it back until she says 'The Thieves' Gil is the best and I wish I'd joined when I had the chance instead of being a big jerk about it.'": {
+      "pl": "Misja 5: Włam się do domu Medium Duchów, gdy śpi, i ukradnij jej kryształową czaszkę ptaka. Nie oddawaj jej, dopóki nie powie „Thieves' Gil jest najlepszy i szkoda, że nie dołączyłam, kiedy miałam okazję, zamiast robić z siebie wielkiego dupka.”",
+      "category": "buckets"
+    },
+    "Mission 10: Sneak into the tattoo shop and steal some ink so I can get a second recruitment pamphlet printed.": {
+      "pl": "Misja 10: Wkradnij się do salonu tatuażu i ukradnij trochę tuszu, żebym mógł wydrukować drugą ulotkę rekrutacyjną.",
+      "category": "buckets"
+    },
+    "Mission 1284: Make an eldritch doll out of raven bones and use it in the moonlight to commune with the arcane goddess of Thievin', who will send you on a quest inside a vision of the moment she became immortalized, on the slippery rooftops of a sleepy medieval town.": {
+      "pl": "Misja 1284: Zrób upiorną lalkę z kruczych kości i użyj jej w świetle księżyca, by porozumieć się z tajemną boginią Złodziejstwa, która wyśle cię na misję wewnątrz wizji chwili, w której stała się nieśmiertelna — na śliskich dachach sennego średniowiecznego miasteczka.",
+      "category": "buckets"
+    },
+    "Mission 780: Take a boat across the ocean to purchase a single bottle of olive oil from a small family-run shop with an attractive owner. While you're there, tell the attractive owner how handsome and good at thefts I am. Make it sound natural. ": {
+      "pl": "Misja 780: Popłyń łodzią przez ocean, żeby kupić jedną butelkę oliwy z oliwek w małym rodzinnym sklepiku z atrakcyjnym właścicielem. Będąc tam, powiedz temu atrakcyjnemu właścicielowi, jaki to ze mnie przystojniak i jak dobrze mi idą kradzieże. Niech zabrzmi to naturalnie. ",
+      "category": "buckets"
+    },
+    "Mission 31: Wait until the Mayor's speechwriter leaves the tavern and put a knife to his throat. Demand to know why the pamphlet isn't working. When he starts crying, tell him to do a better job next time, and make the 'I'm watching you' hand gesture before vanishing into the darkness.": {
+      "pl": "Misja 31: Poczekaj, aż pisarz przemówień burmistrza wyjdzie z tawerny, i przyłóż mu nóż do gardła. Zażądaj wyjaśnienia, czemu ulotka nie działa. Gdy zacznie płakać, powiedz mu, żeby następnym razem postarał się bardziej, zrób gest „obserwuję cię” i zniknij w ciemności.",
+      "category": "buckets"
+    },
+    "Mission 1287: Let the arcane goddess of Thievin' take over your body to carry out the heist she spent her whole life dreaming of: stealing the ring from the nose of the bull god Myr. Make sure you're at least a Level 9 Gil member before starting this mission or your body might be judged unworthy and destroyed. ": {
+      "pl": "Misja 1287: Pozwól tajemnej bogini Złodziejstwa przejąć twoje ciało, by przeprowadzić skok, o którym marzyła całe życie: kradzież pierścienia z nosa byczego boga Myra. Upewnij się, że masz co najmniej 9. poziom w Gil, zanim zaczniesz tę misję, bo twoje ciało może zostać uznane za niegodne i zniszczone. ",
+      "category": "buckets"
+    },
+    "Mission 23: Pick your own pocket without you noticing.": {
+      "pl": "Misja 23: Okradnij sam siebie tak, żebyś tego nie zauważył.",
+      "category": "buckets"
+    },
+    "BUTTONCLICK: UI_Button_Click,0.05,3": {
+      "pl": "BUTTONCLICK: UI_Button_Click,0.05,3",
+      "category": "buckets"
+    },
+    "BUTTONSELECT: UI_Button_Click,0.35,1.6": {
+      "pl": "BUTTONSELECT: UI_Button_Click,0.35,1.6",
+      "category": "buckets"
+    },
+    "BUTTONDIALOG: UI_Button_Click,0.15,2.0": {
+      "pl": "BUTTONDIALOG: UI_Button_Click,0.15,2.0",
+      "category": "buckets"
+    },
+    "INVENTORYOPEN: UI_Inventory_Open,0.7,1.5": {
+      "pl": "INVENTORYOPEN: UI_Inventory_Open,0.7,1.5",
+      "category": "buckets"
+    },
+    "INVENTORYCLOSE: UI_Inventory_Close,0.7": {
+      "pl": "INVENTORYCLOSE: UI_Inventory_Close,0.7",
+      "category": "buckets"
+    },
+    "CHARACTERSHEETOPEN: UI_Stats_Open": {
+      "pl": "CHARACTERSHEETOPEN: UI_Stats_Open",
+      "category": "buckets"
+    },
+    "CHARACTERSHEETCLOSE: UI_Stats_Close": {
+      "pl": "CHARACTERSHEETCLOSE: UI_Stats_Close",
+      "category": "buckets"
+    },
+    "OPTIONSOPEN: UI_Settings_Open,0.2": {
+      "pl": "OPTIONSOPEN: UI_Settings_Open,0.2",
+      "category": "buckets"
+    },
+    "OPTIONSCLOSE: UI_Settings_Close,0.2": {
+      "pl": "OPTIONSCLOSE: UI_Settings_Close,0.2",
+      "category": "buckets"
+    },
+    "SETTINGSOPEN: UI_Pause_Menu_Open": {
+      "pl": "SETTINGSOPEN: UI_Pause_Menu_Open",
+      "category": "buckets"
+    },
+    "SETTINGSCLOSE: UI_Pause_Menu_Close": {
+      "pl": "SETTINGSCLOSE: UI_Pause_Menu_Close",
+      "category": "buckets"
+    },
+    "MAPOPEN: UI_Map_Open": {
+      "pl": "MAPOPEN: UI_Map_Open",
+      "category": "buckets"
+    },
+    "MAPCLOSE: UI_Map_Close,0.8,1.25": {
+      "pl": "MAPCLOSE: UI_Map_Close,0.8,1.25",
+      "category": "buckets"
+    },
+    "UPGRADESKILL: UI_Button_Click,0.05,3": {
+      "pl": "UPGRADESKILL: UI_Button_Click,0.05,3",
+      "category": "buckets"
+    },
+    "SFXTEST: rico,1,1,8": {
+      "pl": "SFXTEST: rico,1,1,8",
+      "category": "buckets"
+    },
+    "RETURNTOTITLE: UI_Pause_Menu_Close": {
+      "pl": "RETURNTOTITLE: UI_Pause_Menu_Close",
+      "category": "buckets"
+    },
+    "DELETECHARCHECK: UI_Button_Click,0.5": {
+      "pl": "DELETECHARCHECK: UI_Button_Click,0.5",
+      "category": "buckets"
+    },
+    "DELETECHARUNCHECK: UI_Button_Click,0.5": {
+      "pl": "DELETECHARUNCHECK: UI_Button_Click,0.5",
+      "category": "buckets"
+    },
+    "DELETECHARBUTTON: UI_Button_Click,0.5": {
+      "pl": "DELETECHARBUTTON: UI_Button_Click,0.5",
+      "category": "buckets"
+    },
+    "DELETECHARCONFIRM: gun_rifle_,1,1,6": {
+      "pl": "DELETECHARCONFIRM: gun_rifle_,1,1,6",
+      "category": "buckets"
+    },
+    "DELETECHARCANCEL: UI_Button_Click,0.5": {
+      "pl": "DELETECHARCANCEL: UI_Button_Click,0.5",
+      "category": "buckets"
+    },
+    "STOREOPEN: UI_Stats_Open": {
+      "pl": "STOREOPEN: UI_Stats_Open",
+      "category": "buckets"
+    },
+    "STORECLOSE: UI_Stats_Close": {
+      "pl": "STORECLOSE: UI_Stats_Close",
+      "category": "buckets"
+    },
+    "STOREBUYITEM: UI_Get_Meat_,1,1,3": {
+      "pl": "STOREBUYITEM: UI_Get_Meat_,1,1,3",
+      "category": "buckets"
+    },
+    "STORESELLITEM: UI_Get_Meat_,1,1,3": {
+      "pl": "STORESELLITEM: UI_Get_Meat_,1,1,3",
+      "category": "buckets"
+    },
+    "Okay so a skeleton walks into a bar--": {
+      "pl": "Dobra, więc szkielet wchodzi do baru--",
+      "category": "buckets"
+    },
+    "And the bartender says -- wait, it's a horse, not a skeleton.  Sorry.": {
+      "pl": "A barman mówi -- czekaj, to koń, nie szkielet. Przepraszam.",
+      "category": "buckets"
+    },
+    "Anyway after that the bartender asks the horse...": {
+      "pl": "W każdym razie barman pyta konia...",
+      "category": "buckets"
+    },
+    "\"Hey, why is your face so long, buddy?\"": {
+      "pl": "„Hej, czemu masz taką long face, kolego?”",
+      "category": "buckets"
+    },
+    "All right, a guy walks into a bar.": {
+      "pl": "Dobra, facet wchodzi do baru.",
+      "category": "buckets"
+    },
+    "And the bartender says, \"Sorry, we don't serve goblins here.\"": {
+      "pl": "A barman mówi: „Przykro mi, nie obsługujemy tu goblinów.”",
+      "category": "buckets"
+    },
+    "Oh wait, I forgot to mention, the guy is a goblin.": {
+      "pl": "Ach, zapomniałem wspomnieć, że ten facet to goblin.",
+      "category": "buckets"
+    },
+    "Anyway, um... the end.": {
+      "pl": "W każdym razie, eee... koniec.",
+      "category": "buckets"
+    },
+    "Okay, here's a good one. Take my wife! Please!": {
+      "pl": "Dobra, ten jest dobry. Zabierzcie moją żonę! Proszę!",
+      "category": "buckets"
+    },
+    "Anyway, uh, I just flew in from Canadia!": {
+      "pl": "W każdym razie, eee, właśnie przyleciałem z Kanadii!",
+      "category": "buckets"
+    },
+    "Which is weird, right, because people can't fly?": {
+      "pl": "Co jest dziwne, prawda, bo ludzie nie potrafią latać?",
+      "category": "buckets"
+    },
+    "Except for in balloons or gliders, I guess.": {
+      "pl": "No, chyba że balonem albo szybowcem.",
+      "category": "buckets"
+    },
+    "We won't have actual airplanes for at least another couple of decades, anyway.": {
+      "pl": "I tak nie będzie prawdziwych samolotów jeszcze przez parę dekad.",
+      "category": "buckets"
+    },
+    "Okay so a guy walks into a bar,": {
+      "pl": "Dobra, więc facet wchodzi do baru,",
+      "category": "buckets"
+    },
+    "And he asks for a beer and a mop.": {
+      "pl": "I prosi o piwo i mopa.",
+      "category": "buckets"
+    },
+    "And the bartender says, \"What's the mop for?\"": {
+      "pl": "A barman pyta: „A po co mop?”",
+      "category": "buckets"
+    },
+    "And the guy replies, \"Because I'm a skeleton!\"": {
+      "pl": "A facet odpowiada: „Bo jestem szkieletem!”",
+      "category": "buckets"
+    },
+    "Boy, it was really <i>really</i> cold yesterday!": {
+      "pl": "Ale było wczoraj <i>naprawdę</i> zimno!",
+      "category": "buckets"
+    },
+    "You're supposed to ask me how cold it was.": {
+      "pl": "Miałeś zapytać, jak bardzo zimno.",
+      "category": "buckets"
+    },
+    "All right, here's a classic: What walks on four legs in the morning,": {
+      "pl": "Dobra, oto klasyk: Co rano chodzi na czterech nogach,",
+      "category": "buckets"
+    },
+    "And two legs in the afternoon,": {
+      "pl": "W południe na dwóch,",
+      "category": "buckets"
+    },
+    "And three legs at night?": {
+      "pl": "A wieczorem na trzech?",
+      "category": "buckets"
+    },
+    "A man! ...ba-dum-bum-psssht!": {
+      "pl": "Człowiek! ...ba-dum-bum-pssst!",
+      "category": "buckets"
+    },
+    "So my uncle Alex thinks he's a chicken?": {
+      "pl": "Więc mój wujek Alex myśli, że jest kurą?",
+      "category": "buckets"
+    },
+    "And um my wife suggested we should take him to see a psychiatrist.": {
+      "pl": "I moja żona zasugerowała, że powinniśmy zabrać go do psychiatry.",
+      "category": "buckets"
+    },
+    "And I said, maybe we should take him to a regular doctor?": {
+      "pl": "A ja na to, może zabierzmy go do zwykłego lekarza?",
+      "category": "buckets"
+    },
+    "Because I'm pretty sure it shouldn't be possible for a regular human man to lay eggs?": {
+      "pl": "Bo jestem raczej pewien, że zwykły człowiek nie powinien móc znosić jajek?",
+      "category": "buckets"
+    },
+    "So uh, I got a job as a manager on a baseball team. And all the players have weird names.": {
+      "pl": "Więc, eee, dostałem robotę jako menedżer drużyny baseballowej. A wszyscy gracze mają dziwne imiona.",
+      "category": "buckets"
+    },
+    "Like, there's one guy literally named \"Who\", and another one called \"I Don't Know\".": {
+      "pl": "No wiecie, jeden facet nazywa się dosłownie „Kto”, a drugi „Nie Wiem”.",
+      "category": "buckets"
+    },
+    "...Third base!": {
+      "pl": "...Trzecia baza!",
+      "category": "buckets"
+    },
+    "Knock knock.": {
+      "pl": "Puk puk.",
+      "category": "buckets"
+    },
+    "No really, come on. Knock knock.": {
+      "pl": "Nie, serio, dawaj. Puk puk.",
+      "category": "buckets"
+    },
+    "Who's there?": {
+      "pl": "Kto tam?",
+      "category": "buckets"
+    },
+    "Wait, what?": {
+      "pl": "Czekaj, co?",
+      "category": "buckets"
+    },
+    "Hold on...": {
+      "pl": "Chwila...",
+      "category": "buckets"
+    },
+    "Oh my God.": {
+      "pl": "O mój Boże.",
+      "category": "buckets"
+    },
+    "Seriously?": {
+      "pl": "Serio?",
+      "category": "buckets"
+    },
+    "Oh come on, Wasco.": {
+      "pl": "Ale weź, Wasco.",
+      "category": "buckets"
+    },
+    "That's it?": {
+      "pl": "To wszystko?",
+      "category": "buckets"
+    },
+    "finds a magical portal to": {
+      "pl": "znajduje magiczny portal do",
+      "category": "buckets"
+    },
+    "finds a hidden staircase leading to": {
+      "pl": "znajduje ukryte schody prowadzące do",
+      "category": "buckets"
+    },
+    "rides a strange train to": {
+      "pl": "jedzie dziwnym pociągiem do",
+      "category": "buckets"
+    },
+    "takes a zeppelin to": {
+      "pl": "leci sterowcem do",
+      "category": "buckets"
+    },
+    "suddenly awakens in": {
+      "pl": "nagle budzi się w",
+      "category": "buckets"
+    },
+    "is mysteriously transported to": {
+      "pl": "zostaje w tajemniczy sposób przeniesiony do",
+      "category": "buckets"
+    },
+    "accidentally opens a door to": {
+      "pl": "przez przypadek otwiera drzwi do",
+      "category": "buckets"
+    },
+    "takes a magical boat to": {
+      "pl": "płynie magiczną łodzią do",
+      "category": "buckets"
+    },
+    "gets lost in": {
+      "pl": "gubi się w",
+      "category": "buckets"
+    },
+    "gets kidnapped and taken to": {
+      "pl": "zostaje porwany i zabrany do",
+      "category": "buckets"
+    },
+    "%wt_inhabitantadj% %wt_inhabitanttype%": {
+      "pl": "%wt_inhabitantadj% %wt_inhabitanttype%",
+      "category": "buckets"
+    },
+    "candlestick maker": {
+      "pl": "wytwórca świec",
+      "category": "buckets"
+    },
+    "%wt_realmadj1% %wt_realmrealm%": {
+      "pl": "%wt_realmadj1% %wt_realmrealm%",
+      "category": "buckets"
+    },
+    "%wt_realmadj1%, %wt_realmadj2% %wt_realmrealm%": {
+      "pl": "%wt_realmadj1%, %wt_realmadj2% %wt_realmrealm%",
+      "category": "buckets"
+    },
+    "live as the slaves of": {
+      "pl": "żyją jako niewolnicy",
+      "category": "buckets"
+    },
+    "wage an eternal war against": {
+      "pl": "toczą wieczną wojnę z",
+      "category": "buckets"
+    },
+    "live in harmony with": {
+      "pl": "żyją w harmonii z",
+      "category": "buckets"
+    },
+    "hunt and eat": {
+      "pl": "polują i pożerają",
+      "category": "buckets"
+    },
+    "rule over": {
+      "pl": "rządzą",
+      "category": "buckets"
+    },
+    "are ruled over by": {
+      "pl": "są rządzeni przez",
+      "category": "buckets"
+    },
+    "perform plays for": {
+      "pl": "wystawiają sztuki dla",
+      "category": "buckets"
+    },
+    "battle against": {
+      "pl": "walczą z",
+      "category": "buckets"
+    },
+    "are besieged by": {
+      "pl": "są oblegani przez",
+      "category": "buckets"
+    },
+    "court and marry": {
+      "pl": "zalecają się i żenią z",
+      "category": "buckets"
+    },
+    "wage holy war against": {
+      "pl": "toczą świętą wojnę z",
+      "category": "buckets"
+    },
+    "protect and serve": {
+      "pl": "chronią i służą",
+      "category": "buckets"
+    },
+    "Ellsbury tells you a tale of %wt_protagonist/aan% who %wt_getsthere% %wt_realm/aan% inhabited by %wt_inhabitants%.": {
+      "pl": "Ellsbury opowiada ci historię o %wt_protagonist/aan%, który %wt_getsthere% %wt_realm/aan% zamieszkanego przez %wt_inhabitants%.",
+      "category": "buckets"
+    },
+    "Ellsbury tells you a tale about %wt_realm/aan% where %wt_inhabitants% %wt_relationship% %wt_inhabitants%.": {
+      "pl": "Ellsbury opowiada ci historię o %wt_realm/aan%, gdzie %wt_inhabitants% %wt_relationship% %wt_inhabitants%.",
+      "category": "buckets"
+    }
+  }
+}

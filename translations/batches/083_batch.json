@@ -1,0 +1,416 @@
+{
+  "_meta": {
+    "id": 83,
+    "name": "manual_review_buckets",
+    "status": "done",
+    "count": 50,
+    "limit": 1000,
+    "translated": 50,
+    "source": "translated/review/report_manual.json",
+    "validation": "manual linguistic review + catalog/token validation"
+  },
+  "strings": {
+    "Who, me?  Well heck stranger, I say all kinds o' things!  F'r'instance: %pete_ramblings%": {
+      "pl": "Kto, ja? A niech mnie, nieznajomy, ja tam gadam o najróżniejszych rzeczach! Na ten przykład: %pete_ramblings%",
+      "contexts": [
+        "data.json:buckets.reference_pete[16]"
+      ],
+      "category": "buckets"
+    },
+    "tumble: 0,        // how fast the projectile tumbles, measured in degrees per second": {
+      "pl": "tumble: 0, // jak szybko pocisk koziołkuje, mierzone w stopniach na sekundę",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[2]"
+      ],
+      "category": "buckets"
+    },
+    "SWAPSPRITE(target,slot,spritename[,x,y]) // replace a sprite.  target is \"me\" or \"target\", slot the gear slot to replace, x and y are optional pivot point": {
+      "pl": "SWAPSPRITE(target,slot,spritename[,x,y]) // podmień sprite'a. target to \"me\" lub \"target\", slot to gniazdo ekwipunku do wymiany, x i y to opcjonalne punkty obrotu",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[186]"
+      ],
+      "category": "buckets"
+    },
+    "stenchresist:  same": {
+      "pl": "stenchresist: analogicznie",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[11]"
+      ],
+      "category": "buckets"
+    },
+    "spookyresist:  same": {
+      "pl": "spookyresist: analogicznie",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[12]"
+      ],
+      "category": "buckets"
+    },
+    "speed: 400,     // the projectile moves this fast relative to the ground (so, exactly this fast if it doesn't have any arc at all)": {
+      "pl": "speed: 400, // pocisk porusza się z tą prędkością względem ziemi (czyli dokładnie z tą, jeśli nie leci łukiem)",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[0]"
+      ],
+      "category": "buckets"
+    },
+    "special2b:  Wind up (2 and 5) and (3 and 6)": {
+      "pl": "special2b: Nakręcenie (2 i 5) oraz (3 i 6)",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[54]"
+      ],
+      "category": "buckets"
+    },
+    "special2a:  Rotate outer sprites one position (needs fixing)": {
+      "pl": "special2a: Obróć zewnętrzne sprite'y o jedną pozycję (wymaga poprawy)",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[53]"
+      ],
+      "category": "buckets"
+    },
+    "special1c:  Spread out 3,4,6, rotate 1": {
+      "pl": "special1c: Rozprosz 3,4,6, obróć 1",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[56]"
+      ],
+      "category": "buckets"
+    },
+    "special1b:  Spread out (2 and 5) and (3 and 6), whirl 4": {
+      "pl": "special1b: Rozprosz (2 i 5) oraz (3 i 6), zawirowanie 4",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[51]"
+      ],
+      "category": "buckets"
+    },
+    "spawnRadius: 0,0                        // instead, spawn particles at a random distance between these two radii": {
+      "pl": "spawnRadius: 0,0 // zamiast tego twórz cząsteczki w losowej odległości między tymi dwoma promieniami",
+      "contexts": [
+        "data.json:buckets.reference_particlesystems[9]"
+      ],
+      "category": "buckets"
+    },
+    "snake:  Actor is snake": {
+      "pl": "snake: Aktor jest wężem",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[43]"
+      ],
+      "category": "buckets"
+    },
+    "skills:  comma-separated list of skills the monster can use (when given over to player control)": {
+      "pl": "skills: rozdzielona przecinkami lista umiejętności, których potwór może użyć (po przejęciu kontroli przez gracza)",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[14]"
+      ],
+      "category": "buckets"
+    },
+    "skeleton:  Actor is skeleton": {
+      "pl": "skeleton: Aktor jest szkieletem",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[45]"
+      ],
+      "category": "buckets"
+    },
+    "removenpcstoreitem(storeid,itemid,qty=1)  // remove an item (qty of -1 means remove all)": {
+      "pl": "removenpcstoreitem(storeid,itemid,qty=1) // usuń przedmiot (qty równe -1 oznacza usunięcie wszystkich)",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[117]"
+      ],
+      "category": "buckets"
+    },
+    "REMOVECOMBATANTPROPERTY(<grid position>, property name)         // remove a property from a combatant": {
+      "pl": "REMOVECOMBATANTPROPERTY(<grid position>, property name) // usuń cechę walczącego",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[129]"
+      ],
+      "category": "buckets"
+    },
+    "Rearranged / slightly different idioms.  \"far up and high away\"": {
+      "pl": "Przearanżowane / nieco inne idiomy. \"tam na górze i hen daleko\"",
+      "contexts": [
+        "data.json:buckets.reference_gary[6]"
+      ],
+      "category": "buckets"
+    },
+    "ondeath <script>:  Run a script when the actor gets damaged to 0 instead of playing their die animation and turning into a corpse": {
+      "pl": "ondeath <script>: Uruchom skrypt, gdy zdrowie aktora spadnie do 0, zamiast odtwarzać animację śmierci i zamieniać go w zwłoki",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[48]"
+      ],
+      "category": "buckets"
+    },
+    "ondamage:  This script runs when the actor gakes damage": {
+      "pl": "ondamage: Ten skrypt uruchamia się, gdy aktor odnosi obrażenia",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[6]"
+      ],
+      "category": "buckets"
+    },
+    "note:  Just a way to leave notes in the actor": {
+      "pl": "note: Sposób na pozostawienie notatek wewnątrz aktora",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[39]"
+      ],
+      "category": "buckets"
+    },
+    "muscle:  Muscle, defaults to 1": {
+      "pl": "muscle: Mięśnie, domyślnie 1",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[1]"
+      ],
+      "category": "buckets"
+    },
+    "movespeed: how fast the actor's walk animation runs.  default is: 256": {
+      "pl": "movespeed: jak szybko odtwarzana jest animacja chodu aktora. domyślnie: 256",
+      "contexts": [
+        "data.json:buckets.reference_bodybuilder[23]"
+      ],
+      "category": "buckets"
+    },
+    "meleedistance:  how far away to stand from the target's front edge (see 'frontoffset', below) when running \"movetotarget\"": {
+      "pl": "meleedistance: jak daleko stać od przedniej krawędzi celu (patrz 'frontoffset' poniżej) podczas wykonywania \"movetotarget\"",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[19]"
+      ],
+      "category": "buckets"
+    },
+    "meleeanim:  animation to play when executing the skill mob_basicmelee": {
+      "pl": "meleeanim: animacja odtwarzana podczas używania umiejętności mob_basicmelee",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[18]"
+      ],
+      "category": "buckets"
+    },
+    "laugh: Hey!  Hey oh.  Oh oh hey!  Oh!": {
+      "pl": "laugh: Ej! Ej och. Och och ej! Och!",
+      "contexts": [
+        "data.json:buckets.reference_gary[8]"
+      ],
+      "category": "buckets"
+    },
+    "istheplayer:  Actor is the PC.  Obviously don't ever use this anywhere else.": {
+      "pl": "istheplayer: Aktor to postać gracza. Oczywiście pod żadnym pozorem nie używaj tego nigdzie indziej.",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[40]"
+      ],
+      "category": "buckets"
+    },
+    "INITFIGHT(<optional waaid>)    // start to set up a fight. stage the fight in either the default WAA or the one passed in as an argument.": {
+      "pl": "INITFIGHT(<optional waaid>) // rozpocznij przygotowanie walki. Rozegraj walkę w domyślnym obszarze WAA lub tym przekazanym jako argument.",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[123]"
+      ],
+      "category": "buckets"
+    },
+    "human:  Actor is human": {
+      "pl": "human: Aktor jest człowiekiem",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[41]"
+      ],
+      "category": "buckets"
+    },
+    "hotresist:  Hot Resistance.  Defaults to 100.  >100 = vulnerable by diff, <100 = resistant by diff": {
+      "pl": "hotresist: Odporność na gorąco. Domyślnie 100. >100 = podatność o różnicę, <100 = odporność o różnicę",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[9]"
+      ],
+      "category": "buckets"
+    },
+    "hitprefab: name[,x[,y[,z]]]    // add a prefab after the projectile hits something": {
+      "pl": "hitprefab: name[,x[,y[,z]]] // dodaj prefabrykat, gdy pocisk w coś trafi",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[10]"
+      ],
+      "category": "buckets"
+    },
+    "hitemitter: name[,x[,y[,z]]]    // add a particle emitter after the projectile hits something": {
+      "pl": "hitemitter: name[,x[,y[,z]]] // dodaj emiter cząsteczek, gdy pocisk w coś trafi",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[6]"
+      ],
+      "category": "buckets"
+    },
+    "hitemitter1-10:    // more emitters": {
+      "pl": "hitemitter1-10: // dodatkowe emitery",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[8]"
+      ],
+      "category": "buckets"
+    },
+    "flyprefab: name[,x[,y[,z]]]    // add a prefab while the projectile is flying": {
+      "pl": "flyprefab: name[,x[,y[,z]]] // dodaj prefabrykat podczas lotu pocisku",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[9]"
+      ],
+      "category": "buckets"
+    },
+    "flyemitter: name[,x[,y[,z]]]    // add a particle emitter while the projectile is flying": {
+      "pl": "flyemitter: name[,x[,y[,z]]] // dodaj emiter cząsteczek podczas lotu pocisku",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[5]"
+      ],
+      "category": "buckets"
+    },
+    "flyemitter1-10:    // more emitters": {
+      "pl": "flyemitter1-10: // dodatkowe emitery",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[7]"
+      ],
+      "category": "buckets"
+    },
+    "extrainit:  run this script after \"monsterinit\" runs, in case you want to change properties based on some external factor (scale up based on how many killed, etc.)": {
+      "pl": "extrainit: uruchom ten skrypt po wykonaniu \"monsterinit\", jeśli chcesz zmienić właściwości na podstawie czynników zewnętrznych (np. skalowanie w górę na podstawie liczby zabitych wrogów)",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[49]"
+      ],
+      "category": "buckets"
+    },
+    "cow:  Actor is cow": {
+      "pl": "cow: Aktor jest krową",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[42]"
+      ],
+      "category": "buckets"
+    },
+    "coldresist:  same": {
+      "pl": "coldresist: analogicznie",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[10]"
+      ],
+      "category": "buckets"
+    },
+    "beast:  Actor is animal": {
+      "pl": "beast: Aktor jest zwierzęciem",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[44]"
+      ],
+      "category": "buckets"
+    },
+    "attackc:  Spread out 3 and 6, rotate and thrust 5": {
+      "pl": "attackc: Rozprosz 3 i 6, obróć i pchnij 5",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[55]"
+      ],
+      "category": "buckets"
+    },
+    "attackb:  Raise up sprites 2 and 5 like a shoulder and fist, then punch downward": {
+      "pl": "attackb: Unieś sprite'y 2 i 5 na kształt ramienia i pięści, a następnie uderz w dół",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[52]"
+      ],
+      "category": "buckets"
+    },
+    "attacka:  A punch style motion with sprite #5": {
+      "pl": "attacka: Ruch stylizowany na cios pięścią przy użyciu sprite'a nr 5",
+      "contexts": [
+        "data.json:buckets.reference_charactertemplates[49]"
+      ],
+      "category": "buckets"
+    },
+    "armor:  resistance to melee damage": {
+      "pl": "armor: odporność na obrażenia w zwarciu",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[13]"
+      ],
+      "category": "buckets"
+    },
+    "archeight: 0,    // how many units up and back down the projectile will fly during its flight. This is scaled up or down to fit the length of the flight, assuming a default length of 256.": {
+      "pl": "archeight: 0, // o ile jednostek w górę i w dół poleci pocisk w trakcie lotu. Wartość jest skalowana proporcjonalnie do długości lotu przy założeniu domyślnej długości równej 256.",
+      "contexts": [
+        "data.json:buckets.reference_projectiles[1]"
+      ],
+      "category": "buckets"
+    },
+    "animate:  This means it's a living thing and runs an AI script": {
+      "pl": "animate: Oznacza, że to żywa istota posiadająca skrypt SI",
+      "contexts": [
+        "data.json:buckets.reference_actorproperties[5]"
+      ],
+      "category": "buckets"
+    },
+    "addnpsctoreitem(storeid,itemid,qty,price) // add an item to an NPC store's inventory.  qty of -1 means infinite supply": {
+      "pl": "addnpsctoreitem(storeid,itemid,qty,price) // dodaj przedmiot do asortymentu sklepu NPC. qty równe -1 oznacza nieskończony zapas",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[115]"
+      ],
+      "category": "buckets"
+    },
+    "addjournal(fart) // Give the permaflag journal_fart and say \"Journal entry unlocked: fart\"  (only if you don't already have it)": {
+      "pl": "addjournal(fart) // Nadaj trwałą flagę journal_fart i wyświetl komunikat „Odblokowano wpis w dzienniku: pierd” (tylko jeśli gracz jeszcze jej nie posiada)",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[88]"
+      ],
+      "category": "buckets"
+    },
+    "ADDCOMBATANTPROPERTY(<grid position>, property name, property value)       // change a property on a placed actor": {
+      "pl": "ADDCOMBATANTPROPERTY(<grid position>, property name, property value) // zmień cechę umieszczonego na mapie aktora",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[128]"
+      ],
+      "category": "buckets"
+    },
+    "$numoptions$ is the number of options that have been presented.  Useful for something like: if ($numoptions$==0) option (done) Leave.": {
+      "pl": "$numoptions$ to liczba zaprezentowanych opcji dialogowych. Przydatne do konstrukcji typu: if ($numoptions$==0) option (done) Wyjdź.",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[120]"
+      ],
+      "category": "buckets"
+    },
+    "$lastoption$ is the text of the last button you hit.  Useful for having the character say aloud the thing from the sayoption.": {
+      "pl": "$lastoption$ to tekst ostatnio klikniętego przycisku. Przydatne, by postać wypowiedziała na głos kwestię wybraną przez gracza.",
+      "contexts": [
+        "data.json:buckets.reference_dialogcommands[119]"
+      ],
+      "category": "buckets"
+    }
+  },
+  "translations": {
+    "Who, me?  Well heck stranger, I say all kinds o' things!  F'r'instance: %pete_ramblings%": "Kto, ja? A niech mnie, nieznajomy, ja tam gadam o najróżniejszych rzeczach! Na ten przykład: %pete_ramblings%",
+    "tumble: 0,        // how fast the projectile tumbles, measured in degrees per second": "tumble: 0, // jak szybko pocisk koziołkuje, mierzone w stopniach na sekundę",
+    "SWAPSPRITE(target,slot,spritename[,x,y]) // replace a sprite.  target is \"me\" or \"target\", slot the gear slot to replace, x and y are optional pivot point": "SWAPSPRITE(target,slot,spritename[,x,y]) // podmień sprite'a. target to \"me\" lub \"target\", slot to gniazdo ekwipunku do wymiany, x i y to opcjonalne punkty obrotu",
+    "stenchresist:  same": "stenchresist: analogicznie",
+    "spookyresist:  same": "spookyresist: analogicznie",
+    "speed: 400,     // the projectile moves this fast relative to the ground (so, exactly this fast if it doesn't have any arc at all)": "speed: 400, // pocisk porusza się z tą prędkością względem ziemi (czyli dokładnie z tą, jeśli nie leci łukiem)",
+    "special2b:  Wind up (2 and 5) and (3 and 6)": "special2b: Nakręcenie (2 i 5) oraz (3 i 6)",
+    "special2a:  Rotate outer sprites one position (needs fixing)": "special2a: Obróć zewnętrzne sprite'y o jedną pozycję (wymaga poprawy)",
+    "special1c:  Spread out 3,4,6, rotate 1": "special1c: Rozprosz 3,4,6, obróć 1",
+    "special1b:  Spread out (2 and 5) and (3 and 6), whirl 4": "special1b: Rozprosz (2 i 5) oraz (3 i 6), zawirowanie 4",
+    "spawnRadius: 0,0                        // instead, spawn particles at a random distance between these two radii": "spawnRadius: 0,0 // zamiast tego twórz cząsteczki w losowej odległości między tymi dwoma promieniami",
+    "snake:  Actor is snake": "snake: Aktor jest wężem",
+    "skills:  comma-separated list of skills the monster can use (when given over to player control)": "skills: rozdzielona przecinkami lista umiejętności, których potwór może użyć (po przejęciu kontroli przez gracza)",
+    "skeleton:  Actor is skeleton": "skeleton: Aktor jest szkieletem",
+    "removenpcstoreitem(storeid,itemid,qty=1)  // remove an item (qty of -1 means remove all)": "removenpcstoreitem(storeid,itemid,qty=1) // usuń przedmiot (qty równe -1 oznacza usunięcie wszystkich)",
+    "REMOVECOMBATANTPROPERTY(<grid position>, property name)         // remove a property from a combatant": "REMOVECOMBATANTPROPERTY(<grid position>, property name) // usuń cechę walczącego",
+    "Rearranged / slightly different idioms.  \"far up and high away\"": "Przearanżowane / nieco inne idiomy. \"tam na górze i hen daleko\"",
+    "ondeath <script>:  Run a script when the actor gets damaged to 0 instead of playing their die animation and turning into a corpse": "ondeath <script>: Uruchom skrypt, gdy zdrowie aktora spadnie do 0, zamiast odtwarzać animację śmierci i zamieniać go w zwłoki",
+    "ondamage:  This script runs when the actor gakes damage": "ondamage: Ten skrypt uruchamia się, gdy aktor odnosi obrażenia",
+    "note:  Just a way to leave notes in the actor": "note: Sposób na pozostawienie notatek wewnątrz aktora",
+    "muscle:  Muscle, defaults to 1": "muscle: Mięśnie, domyślnie 1",
+    "movespeed: how fast the actor's walk animation runs.  default is: 256": "movespeed: jak szybko odtwarzana jest animacja chodu aktora. domyślnie: 256",
+    "meleedistance:  how far away to stand from the target's front edge (see 'frontoffset', below) when running \"movetotarget\"": "meleedistance: jak daleko stać od przedniej krawędzi celu (patrz 'frontoffset' poniżej) podczas wykonywania \"movetotarget\"",
+    "meleeanim:  animation to play when executing the skill mob_basicmelee": "meleeanim: animacja odtwarzana podczas używania umiejętności mob_basicmelee",
+    "laugh: Hey!  Hey oh.  Oh oh hey!  Oh!": "laugh: Ej! Ej och. Och och ej! Och!",
+    "istheplayer:  Actor is the PC.  Obviously don't ever use this anywhere else.": "istheplayer: Aktor to postać gracza. Oczywiście pod żadnym pozorem nie używaj tego nigdzie indziej.",
+    "INITFIGHT(<optional waaid>)    // start to set up a fight. stage the fight in either the default WAA or the one passed in as an argument.": "INITFIGHT(<optional waaid>) // rozpocznij przygotowanie walki. Rozegraj walkę w domyślnym obszarze WAA lub tym przekazanym jako argument.",
+    "human:  Actor is human": "human: Aktor jest człowiekiem",
+    "hotresist:  Hot Resistance.  Defaults to 100.  >100 = vulnerable by diff, <100 = resistant by diff": "hotresist: Odporność na gorąco. Domyślnie 100. >100 = podatność o różnicę, <100 = odporność o różnicę",
+    "hitprefab: name[,x[,y[,z]]]    // add a prefab after the projectile hits something": "hitprefab: name[,x[,y[,z]]] // dodaj prefabrykat, gdy pocisk w coś trafi",
+    "hitemitter: name[,x[,y[,z]]]    // add a particle emitter after the projectile hits something": "hitemitter: name[,x[,y[,z]]] // dodaj emiter cząsteczek, gdy pocisk w coś trafi",
+    "hitemitter1-10:    // more emitters": "hitemitter1-10: // dodatkowe emitery",
+    "flyprefab: name[,x[,y[,z]]]    // add a prefab while the projectile is flying": "flyprefab: name[,x[,y[,z]]] // dodaj prefabrykat podczas lotu pocisku",
+    "flyemitter: name[,x[,y[,z]]]    // add a particle emitter while the projectile is flying": "flyemitter: name[,x[,y[,z]]] // dodaj emiter cząsteczek podczas lotu pocisku",
+    "flyemitter1-10:    // more emitters": "flyemitter1-10: // dodatkowe emitery",
+    "extrainit:  run this script after \"monsterinit\" runs, in case you want to change properties based on some external factor (scale up based on how many killed, etc.)": "extrainit: uruchom ten skrypt po wykonaniu \"monsterinit\", jeśli chcesz zmienić właściwości na podstawie czynników zewnętrznych (np. skalowanie w górę na podstawie liczby zabitych wrogów)",
+    "cow:  Actor is cow": "cow: Aktor jest krową",
+    "coldresist:  same": "coldresist: analogicznie",
+    "beast:  Actor is animal": "beast: Aktor jest zwierzęciem",
+    "attackc:  Spread out 3 and 6, rotate and thrust 5": "attackc: Rozprosz 3 i 6, obróć i pchnij 5",
+    "attackb:  Raise up sprites 2 and 5 like a shoulder and fist, then punch downward": "attackb: Unieś sprite'y 2 i 5 na kształt ramienia i pięści, a następnie uderz w dół",
+    "attacka:  A punch style motion with sprite #5": "attacka: Ruch stylizowany na cios pięścią przy użyciu sprite'a nr 5",
+    "armor:  resistance to melee damage": "armor: odporność na obrażenia w zwarciu",
+    "archeight: 0,    // how many units up and back down the projectile will fly during its flight. This is scaled up or down to fit the length of the flight, assuming a default length of 256.": "archeight: 0, // o ile jednostek w górę i w dół poleci pocisk w trakcie lotu. Wartość jest skalowana proporcjonalnie do długości lotu przy założeniu domyślnej długości równej 256.",
+    "animate:  This means it's a living thing and runs an AI script": "animate: Oznacza, że to żywa istota posiadająca skrypt SI",
+    "addnpsctoreitem(storeid,itemid,qty,price) // add an item to an NPC store's inventory.  qty of -1 means infinite supply": "addnpsctoreitem(storeid,itemid,qty,price) // dodaj przedmiot do asortymentu sklepu NPC. qty równe -1 oznacza nieskończony zapas",
+    "addjournal(fart) // Give the permaflag journal_fart and say \"Journal entry unlocked: fart\"  (only if you don't already have it)": "addjournal(fart) // Nadaj trwałą flagę journal_fart i wyświetl komunikat „Odblokowano wpis w dzienniku: pierd” (tylko jeśli gracz jeszcze jej nie posiada)",
+    "ADDCOMBATANTPROPERTY(<grid position>, property name, property value)       // change a property on a placed actor": "ADDCOMBATANTPROPERTY(<grid position>, property name, property value) // zmień cechę umieszczonego na mapie aktora",
+    "$numoptions$ is the number of options that have been presented.  Useful for something like: if ($numoptions$==0) option (done) Leave.": "$numoptions$ to liczba zaprezentowanych opcji dialogowych. Przydatne do konstrukcji typu: if ($numoptions$==0) option (done) Wyjdź.",
+    "$lastoption$ is the text of the last button you hit.  Useful for having the character say aloud the thing from the sayoption.": "$lastoption$ to tekst ostatnio klikniętego przycisku. Przydatne, by postać wypowiedziała na głos kwestię wybraną przez gracza."
+  }
+}

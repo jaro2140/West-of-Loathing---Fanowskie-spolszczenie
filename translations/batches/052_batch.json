@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "id": 52,
+    "name": "review_waas",
+    "status": "done",
+    "count": 13,
+    "note": "Review jakosciowy kategorii 'waas' (385 wpisow - nazwy lokacji/scen WAA). Literowka: 'Magazynt'->'Magazyn', 'Dol'->'Dol' (brakujacy akcent w nazwie miejsca), 'Dom Srebnika'->'Dom Srebrnika' (brakujace 'r' - x2 w waas + 1 w kluczu danych bucket). Blad zgodnosci rodzaju: 'Tajne gabinet' (r.nijaki + r.meski rzeczownik)->'Tajny gabinet', 'Ostatni Stoisko' (r.meski + r.nijaki)->'Ostatnie Stoisko'. Niejednoznaczne polaczenie nazw wlasnych: 'Walka w pokoju Mrs. Gun Gun Manor WAA' (podwojne 'Gun Gun' bez separatora) -> dodano 'w' dla jasnosci. Niespojnosc terminologiczna znaleziona przy okazji w innych kategoriach dla tej samej postaci/lokacji: 'silversmith' mial 5 roznych renderowan w calym korpusie ('Srebrnik' poprawnie odmieniony raz, 'jubiler' 3x - mozliwe pomylenie z osobna postacia Jeweler/'Chatka Jubilera', 'Srebnika' literowka x3, 'zlotnictwie' (zle - zloto zamiast srebra!) x1) - naprawiono jednoznaczne bledy (literowke i zle metal), 'jubiler' vs 'Srebrnik' pozostawiono bez zmian (wymaga weryfikacji, czy to ta sama postac co Jeweler, czy odrebna - patrz nota do przegladu). 'Horse School' (nazwa lokacji) i 3 powiazane zdania dialogowe mialy az 4 rozne warianty w calym korpusie ('szkola koni' najczesciej, 'Szkola Konia', 'szkola dla koni', 'szkole konnej') -> ujednolicone do dominujacego 'szkola koni'."
+  },
+  "strings": {
+    "Dynamite Dan's Discount\\nDynamite Darehouse": {
+      "pl": "Rabat Dynamite Dana\\nMagazyn Dynamite Dana",
+      "category": "review_waas"
+    },
+    "Gun Manor Mrs. Gun Combat WAA": {
+      "pl": "Walka w pokoju Mrs. Gun w Gun Manor WAA",
+      "category": "review_waas"
+    },
+    "Horse School": {
+      "pl": "Szkoła Koni",
+      "category": "review_waas"
+    },
+    "Lost Dutch Oven Mine (Pit)": {
+      "pl": "Lost Dutch Oven Mine (Dół)",
+      "category": "review_waas"
+    },
+    "Secret Baron Manor Study": {
+      "pl": "Tajny gabinet Baron Manor",
+      "category": "review_waas"
+    },
+    "Silversmith's House": {
+      "pl": "Dom Srebrnika",
+      "category": "review_waas"
+    },
+    "Silversmith's House (Inside)": {
+      "pl": "Dom Srebrnika (W środku)",
+      "category": "review_waas"
+    },
+    "The Last Custard Stand": {
+      "pl": "Ostatnie Stoisko z Budyniem",
+      "category": "review_waas"
+    },
+    "silversmith: 5600,5300,silversmith,mapicon_house2,Silversmith's House,a": {
+      "pl": "silversmith: 5600,5300,silversmith,mapicon_house2,Dom Srebrnika,a",
+      "category": "review_waas"
+    },
+    "You read the book, and learn a lot more about silversmithing than you knew before.": {
+      "pl": "Czytasz książkę i uczysz się o srebrnictwie dużo więcej niż wcześniej wiedziałeś.",
+      "category": "review_waas"
+    },
+    "They don't even teach it in horse school.": {
+      "pl": "Tego nawet nie uczą w szkole koni.",
+      "category": "review_waas"
+    },
+    "You are learning so much about horse school.": {
+      "pl": "Uczysz się tyle o szkole koni.",
+      "category": "review_waas"
+    },
+    "Wow, that guy can make anything boring, even horse school": {
+      "pl": "Wow, ten gość potrafi znudzić wszystko, nawet szkołę koni",
+      "category": "review_waas"
+    }
+  }
+}

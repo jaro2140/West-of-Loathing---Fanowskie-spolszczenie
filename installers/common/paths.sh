@@ -94,7 +94,12 @@ file_size() {
 
 has_polish_text() {
   local f="$1"
-  strings "$f" 2>/dev/null | grep -q "Pa, biurku"
+  local count
+  # grep -c (nie -q) celowo: pod "set -o pipefail" "grep -q" zamyka potok
+  # wczesniej i wysyla SIGPIPE do "strings" na duzym pliku, co daje falszywe
+  # "NIE" mimo poprawnego patcha. "grep -c" czyta do konca, wiec nie SIGPIPE'uje.
+  count=$(strings "$f" 2>/dev/null | grep -c "Krowobij" || true)
+  [[ "${count:-0}" -gt 0 ]]
 }
 
 print_patch_plan() {
