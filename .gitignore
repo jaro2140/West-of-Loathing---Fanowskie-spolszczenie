@@ -4,7 +4,11 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 #User patchs
-./patches
+patches/*
+
+# Gotowe paczki release (za duze na git — wrzucane recznie jako zalacznik do GitHub Release)
+/*.zip
+/backup/
 
 # User-specific files
 *.rsuser
