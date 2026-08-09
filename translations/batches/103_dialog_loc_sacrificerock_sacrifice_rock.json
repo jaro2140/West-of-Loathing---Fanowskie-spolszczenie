@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "id": 103,
+    "name": "dialog_loc_sacrificerock_sacrifice_rock",
+    "description": "Dialogi przypisane do lokacji \"Sacrifice Rock\" (waa: sacrificerock).",
+    "status": "done",
+    "count": 3
+  },
+  "strings": {
+    "This rock has three shallow, oddly-shaped indentations on its surface.": {
+      "pl": "Na powierzchni tej skały są trzy płytkie, dziwnie ukształtowane wgłębienia.",
+      "contexts": [
+        "data.json:scripts.sacrificerock_therock_examine.start"
+      ],
+      "category": "dialog"
+    },
+    "You take a wild guess and assume that this is Sacrifice Rock itself.": {
+      "pl": "Strzelasz na oślep i zakładasz, że to sama Skała Ofiary.",
+      "contexts": [
+        "data.json:scripts.sacrificerock_therock.popup"
+      ],
+      "category": "dialog"
+    },
+    "You think that cow statuette you found in the lucky dip would fit in the middle indentation.": {
+      "pl": "Myślisz, że statuetka krowy z lucky dip pasowałaby w środkowe wgłębienie.",
+      "contexts": [
+        "data.json:scripts.sacrificerock_therock_examine.start"
+      ],
+      "category": "dialog"
+    }
+  }
+}

@@ -1,0 +1,1172 @@
+{
+  "_meta": {
+    "id": 46,
+    "name": "dialog_loc_cre_character_creation",
+    "description": "Dialogi przypisane do lokacji \"Character Creation\" (waa: cre).",
+    "status": "done",
+    "count": 158
+  },
+  "strings": {
+    "\"%adventurebook_title%\".": {
+      "pl": "\"%adventurebook_title%\".",
+      "contexts": [
+        "data.json:scripts.cre_yourbooks.firstread",
+        "data.json:scripts.cre_yourbooks.read"
+      ],
+      "category": "dialog"
+    },
+    "\"%cre_boringbook%\"": {
+      "pl": "\"%cre_boringbook%\"",
+      "contexts": [
+        "data.json:scripts.cre_brobookshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "%adventurebook_comment%": {
+      "pl": "%adventurebook_comment%",
+      "contexts": [
+        "data.json:scripts.cre_yourbooks.firstread",
+        "data.json:scripts.cre_yourbooks.read"
+      ],
+      "category": "dialog"
+    },
+    "%cre_boringbookreact%": {
+      "pl": "%cre_boringbookreact%",
+      "contexts": [
+        "data.json:scripts.cre_brobookshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "(Both Gary and the dark horse will refuse to ride with you as well.)": {
+      "pl": "(Gary i mroczny koń też odmówią jazdy z tobą.)",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip"
+      ],
+      "category": "dialog"
+    },
+    "(Gary will refuse to ride with you as well.)": {
+      "pl": "(Gary też odmówi jazdy z tobą.)",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip"
+      ],
+      "category": "dialog"
+    },
+    "(The dark horse will refuse to ride with you as well.)": {
+      "pl": "(Mroczny koń też odmówi jazdy z tobą.)",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip"
+      ],
+      "category": "dialog"
+    },
+    "??? [Not unlocked]": {
+      "pl": "??? [Nie odblokowano]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse",
+        "data.json:scripts.cre_skiptut.pardner"
+      ],
+      "category": "dialog"
+    },
+    "A present?": {
+      "pl": "Prezent?",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom2",
+        "data.json:scripts.cre_mother.mom3"
+      ],
+      "category": "dialog"
+    },
+    "All right then.  $promptvalue$ the horse.  It's got a nice ring to it.": {
+      "pl": "W porządku. Koń imieniem $promptvalue$. Ładnie to brzmi.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.yesname",
+        "data.json:scripts.npc_bshostler.yesname",
+        "data.json:scripts.npc_bshostler.yesnewname"
+      ],
+      "category": "dialog"
+    },
+    "Alrighty then, buckaroo! The hard road it is. Now, what horse would you like to take?": {
+      "pl": "No dobra, buckaroo! Wybrałeś trudną drogę. Którego konia bierzesz?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "Alrighty then, buckaroo! What horse would you like to take?": {
+      "pl": "No dobra, buckaroo! Którego konia bierzesz?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "Alrighty!  Automatic XP spending has been disabled.  You can change this back in the Options Menu at any time.": {
+      "pl": "Ekstra! Auto-wydawanie PD jest wyłączone. Możesz to zmienić w menu Opcji w każdej chwili.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.manual"
+      ],
+      "category": "dialog"
+    },
+    "Any horses or pardners you unlocked in any previous game will be available to you, and you'll start with @tutskip_maxmeat@ Meat and some of the more important items from Boring Springs.": {
+      "pl": "Konie i towarzysze odblokowani w poprzednich grach będą dostępni. Dostaniesz @tutskip_maxmeat@ Mięsa i część ważniejszych rzeczy z Boring Springs.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.start"
+      ],
+      "category": "dialog"
+    },
+    "Are you sure you want to name your horse $promptvalue$?": {
+      "pl": "Na pewno chcesz nazwać konia $promptvalue$?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.confirmname",
+        "data.json:scripts.npc_bshostler.confirmname",
+        "data.json:scripts.npc_bshostler.confirmnewname"
+      ],
+      "category": "dialog"
+    },
+    "Bring it on [Hard Mode]": {
+      "pl": "No to jedziemy [Tryb trudny]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip",
+        "data.json:scripts.tut_gethardhat.hardmode"
+      ],
+      "category": "dialog"
+    },
+    "But it's so dangerous!  60% of the people who go West get killed within a year, and that statistic is from <i>before</i> The Cows Came Home.": {
+      "pl": "Ale to takie niebezpieczne! 60% osób jadących na Zachód ginie w ciągu roku — a ta statystyka jest sprzed czasów, <i>zanim</i> Krowy Wróciły do Domu.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro3"
+      ],
+      "category": "dialog"
+    },
+    "Caw!": {
+      "pl": "Kra!",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.start",
+        "data.json:scripts.train_passenter6b.russ1",
+        "data.json:scripts.train_passenter6b.russ2",
+        "data.json:scripts.train_passenter6b.russ3"
+      ],
+      "category": "dialog"
+    },
+    "Caw!  Caw caw!": {
+      "pl": "Kra! Kra kra!",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.missyou"
+      ],
+      "category": "dialog"
+    },
+    "Choose a name for your horse": {
+      "pl": "Wybierz imię dla swojego konia",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.namehorse",
+        "data.json:scripts.npc_bshostler.namehorse",
+        "data.json:scripts.npc_bshostler.namenewhorse"
+      ],
+      "category": "dialog"
+    },
+    "Comb Hair": {
+      "pl": "Poczesaj włosy",
+      "contexts": [
+        "data.json:scripts.cre_desk.popup"
+      ],
+      "category": "dialog"
+    },
+    "Fairly normal": {
+      "pl": "Całkiem normalny",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.temperament"
+      ],
+      "category": "dialog"
+    },
+    "Feed Russell a cricket": {
+      "pl": "Daj Russellowi świerszcza",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.missyou"
+      ],
+      "category": "dialog"
+    },
+    "Finally, would you like to keep spending your XP automatically, or would you like to do it yourself?": {
+      "pl": "Na koniec: wydawać PD automatycznie, czy wolisz robić to sam?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.finish"
+      ],
+      "category": "dialog"
+    },
+    "Give her a name": {
+      "pl": "Nadaj jej imię",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse2",
+        "data.json:scripts.cre_skiptut.horse3",
+        "data.json:scripts.npc_bshostler.confirmhorse2",
+        "data.json:scripts.npc_bshostler.confirmhorse3",
+        "data.json:scripts.npc_bshostler.swaphorse3"
+      ],
+      "category": "dialog"
+    },
+    "Give him a name": {
+      "pl": "Nadaj mu imię",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse1",
+        "data.json:scripts.cre_skiptut.horse4",
+        "data.json:scripts.npc_bshostler.confirmhorse1",
+        "data.json:scripts.npc_bshostler.confirmhorse4",
+        "data.json:scripts.npc_bshostler.swaphorse1"
+      ],
+      "category": "dialog"
+    },
+    "Give him his puzzle back": {
+      "pl": "Oddaj mu układankę",
+      "contexts": [
+        "data.json:scripts.cre_brother.givecube",
+        "data.json:scripts.cre_brother.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "Go it alone [Not recommended]": {
+      "pl": "Samotnie [Nie polecane]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner"
+      ],
+      "category": "dialog"
+    },
+    "Go to Photo Studio": {
+      "pl": "Idź do studia foto",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "Go to Trailer Zone": {
+      "pl": "Idź do strefy przyczepy",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "Go to Twilight Zone": {
+      "pl": "Idź do Strefy Zmierzchu",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "Go West, Young $man$?": {
+      "pl": "Idź na zachód, młody $man$?",
+      "contexts": [
+        "data.json:scripts.cre_starttut.popup"
+      ],
+      "category": "dialog"
+    },
+    "Goblins with you can speaking?": {
+      "pl": "Gobliny ze mną mogą rozmawiać?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.language"
+      ],
+      "category": "dialog"
+    },
+    "Good...  good luck out there.  Be sure to say goodbye to your mother.": {
+      "pl": "Dobrze... powodzenia tam. Koniecznie pożegnaj się z mamą.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.thankyou"
+      ],
+      "category": "dialog"
+    },
+    "Goodbye phonograph!": {
+      "pl": "Pa, fonografie!",
+      "contexts": [
+        "data.json:scripts.cre_phonograph.popup"
+      ],
+      "category": "dialog"
+    },
+    "Goodbye Russell.  Be good.": {
+      "pl": "Pa, Russell. Bądź grzeczny.",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.cricket"
+      ],
+      "category": "dialog"
+    },
+    "Goodbye, bed.  Time to head West to chase my <i>real</i> dreams!": {
+      "pl": "Pa, łóżko. Pora ruszyć na Zachód za <i>prawdziwymi</i> marzeniami!",
+      "contexts": [
+        "data.json:scripts.cre_yourbed.saypopup"
+      ],
+      "category": "dialog"
+    },
+    "Goodbye, desk.": {
+      "pl": "Pa, biurku.",
+      "contexts": [
+        "data.json:scripts.cre_desk.popup"
+      ],
+      "category": "dialog"
+    },
+    "He's busy drawing pictures in the dust.": {
+      "pl": "Ma zajęcie — rysuje obrazki na piasku.",
+      "contexts": [
+        "data.json:scripts.cre_brother.already"
+      ],
+      "category": "dialog"
+    },
+    "He's got a point, you know.  Why <i>are</i> you going West, anyway?": {
+      "pl": "Ma trochę racji, wiesz. Po co <i>właściwie</i> jedziesz na Zachód?",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "He's just barely holding it together.  It's probably best for him if you just go.": {
+      "pl": "Ledwo trzyma się na nogach. Chyba lepiej już po prostu iść.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.didalready"
+      ],
+      "category": "dialog"
+    },
+    "Heh.  He loves stuff like this.": {
+      "pl": "Heh. Uwielbia takie rzeczy.",
+      "contexts": [
+        "data.json:scripts.cre_brotoybox.getpuz"
+      ],
+      "category": "dialog"
+    },
+    "Hey, a needle!": {
+      "pl": "Ej, igła!",
+      "contexts": [
+        "data.json:scripts.cre_haystack.search"
+      ],
+      "category": "dialog"
+    },
+    "Hey, Rufus.  Time for me to head West.": {
+      "pl": "Hej, Rufus. Pora ruszyć na Zachód.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "Heya Russell.  How you doin'?": {
+      "pl": "Siema, Russell. Jak tam leci?",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.start"
+      ],
+      "category": "dialog"
+    },
+    "His lip quivers a little.": {
+      "pl": "Warga mu lekko drży.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving"
+      ],
+      "category": "dialog"
+    },
+    "How would you describe your... sense of justice?": {
+      "pl": "Jak opisałbyś swój... zmysł sprawiedliwości?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.temperament"
+      ],
+      "category": "dialog"
+    },
+    "I changed my mind, I don't want to skip ahead": {
+      "pl": "Jednak nie — nie chcę nic pomijać",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "I did. Goodbye, Dad.": {
+      "pl": "Już się pożegnałem. Pa, tato.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.thankyou"
+      ],
+      "category": "dialog"
+    },
+    "I do not want this": {
+      "pl": "Tego nie chcę",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip",
+        "data.json:scripts.tut_gethardhat.hardmode"
+      ],
+      "category": "dialog"
+    },
+    "I just wanted one more hug before I leave.": {
+      "pl": "Potrzebuję jeszcze jednego przytulenia przed wyjazdem.",
+      "contexts": [
+        "data.json:scripts.cre_mother.anotherhug",
+        "data.json:scripts.cre_mother.hug2"
+      ],
+      "category": "dialog"
+    },
+    "I still don't understand why you're leaving.": {
+      "pl": "Nadal nie rozumiem, po co wyjeżdżasz.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "I was born ready to mosey on over there": {
+      "pl": "Na to czekałem całe życie",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.realfinish"
+      ],
+      "category": "dialog"
+    },
+    "I will, Mom.  Goodbye.": {
+      "pl": "Obiecuję, mamo. Pa.",
+      "contexts": [
+        "data.json:scripts.cre_mother.end"
+      ],
+      "category": "dialog"
+    },
+    "I will. Goodbye, Dad.": {
+      "pl": "Pożegnam się. Pa, tato.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.thankyou"
+      ],
+      "category": "dialog"
+    },
+    "I'll be okay.": {
+      "pl": "Dam sobie radę.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro3"
+      ],
+      "category": "dialog"
+    },
+    "I'll be okay.  You worry about taking care of Mom and Dad, I'll worry about me.": {
+      "pl": "Dam sobie radę. Ty dbaj o mamę i tatę, a ja o siebie.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro4"
+      ],
+      "category": "dialog"
+    },
+    "I'll grow into it.": {
+      "pl": "Urosnę do niej.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.hat"
+      ],
+      "category": "dialog"
+    },
+    "I'll miss you, Rufus.": {
+      "pl": "Będę za tobą tęsknił, Rufusie.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro4",
+        "data.json:scripts.cre_brother.bro5"
+      ],
+      "category": "dialog"
+    },
+    "I'm gonna miss you, buddy.": {
+      "pl": "Będę za tobą tęsknił, stary.",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.start",
+        "data.json:scripts.cre_ravenconvo.missyou"
+      ],
+      "category": "dialog"
+    },
+    "I'm leaving now, Mom.": {
+      "pl": "Muszę już iść, mamo.",
+      "contexts": [
+        "data.json:scripts.cre_mother.start",
+        "data.json:scripts.cre_mother.mom2"
+      ],
+      "category": "dialog"
+    },
+    "If you put this hat on, you won't ever be able to take it off, and things will be much harder for you.": {
+      "pl": "Jak założysz ten kask, nie zdejmiesz go już nigdy — i gra stanie się dużo trudniejsza.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip"
+      ],
+      "category": "dialog"
+    },
+    "It's a haystack.": {
+      "pl": "To stóg siana.",
+      "contexts": [
+        "data.json:scripts.cre_haystack.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's covered with all of his weird diagrams and charts.": {
+      "pl": "Całe usiane jego dziwnymi schematami i wykresami.",
+      "contexts": [
+        "data.json:scripts.cre_brodesk.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's our shelf full of souvenirs from old family vacations.": {
+      "pl": "To nasza półka pełna pamiątek ze starych rodzinnych wyjazdów.",
+      "contexts": [
+        "data.json:scripts.cre_souvenirshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's time for me to leave.": {
+      "pl": "Pora na mnie.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.hat"
+      ],
+      "category": "dialog"
+    },
+    "It's time to hit the trail": {
+      "pl": "Pora ruszyć w drogę",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.release"
+      ],
+      "category": "dialog"
+    },
+    "It's your kid brother's toybox.": {
+      "pl": "Skrzynka na zabawki młodszego brata.",
+      "contexts": [
+        "data.json:scripts.cre_brotoybox.popup"
+      ],
+      "category": "dialog"
+    },
+    "Keep spending it automatically": {
+      "pl": "Wydawaj automatycznie",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.finish"
+      ],
+      "category": "dialog"
+    },
+    "Leave Russell alone": {
+      "pl": "Zostaw Russella w spokoju",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.start"
+      ],
+      "category": "dialog"
+    },
+    "Listen, I... want you to have this.  It's $heirloom$.": {
+      "pl": "Słuchaj, chcę, żebyś to wziął. To $heirloom$.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving"
+      ],
+      "category": "dialog"
+    },
+    "Looks like this isn't your first rodeo!": {
+      "pl": "Wygląda na to, że to nie twój pierwszy rodeo!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.start"
+      ],
+      "category": "dialog"
+    },
+    "Maybe it's time for you to leave, too...": {
+      "pl": "Może i ty powinieneś stąd wylecieć...",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.cricket"
+      ],
+      "category": "dialog"
+    },
+    "No": {
+      "pl": "Nie",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.confirmname",
+        "data.json:scripts.item_elv_transponder.invpopup",
+        "data.json:scripts.item_elv_transponder.turnbackon",
+        "data.json:scripts.item_minipiano.invpopup",
+        "data.json:scripts.item_whisperstone.listen"
+      ],
+      "category": "dialog"
+    },
+    "No Goblintongue for you this time.": {
+      "pl": "Tym razem bez Goblińszczyzny.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.temperamenttemp"
+      ],
+      "category": "dialog"
+    },
+    "No time to screw around in the woods. Time to head West!": {
+      "pl": "Nie ma czasu na głupoty w lesie. Czas ruszać na Zachód!",
+      "contexts": [
+        "data.json:scripts.cre_treewall.thinkpopup"
+      ],
+      "category": "dialog"
+    },
+    "No, I want to play the prologue again": {
+      "pl": "Nie, chcę zagrać prolog jeszcze raz",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.start"
+      ],
+      "category": "dialog"
+    },
+    "Now pick a pardner": {
+      "pl": "Teraz wybierz towarzysza",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.yesname"
+      ],
+      "category": "dialog"
+    },
+    "Oh hey, this one might come in handy.": {
+      "pl": "Ej, ta może się przydać.",
+      "contexts": [
+        "data.json:scripts.cre_yourbooks.coolbook"
+      ],
+      "category": "dialog"
+    },
+    "Okay, looks like you're ready to mosey on over to Dirtwater!": {
+      "pl": "No to wygląda na to, że możesz ruszać do Dirtwater!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.realfinish"
+      ],
+      "category": "dialog"
+    },
+    "Okay.  If you say so.  I still think you'll be dead by Crimbo.": {
+      "pl": "Okej. Skoro tak mówisz. I tak obstawiam, że do Gwizdonek cię już nie będzie.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro4"
+      ],
+      "category": "dialog"
+    },
+    "Please be careful out there.  Write us a letter when you can.": {
+      "pl": "Uważaj na siebie. Napisz do nas, jak będziesz mógł.",
+      "contexts": [
+        "data.json:scripts.cre_mother.end"
+      ],
+      "category": "dialog"
+    },
+    "Plunder those memories": {
+      "pl": "Przeszperaj te wspomnienia",
+      "contexts": [
+        "data.json:scripts.cre_souvenirshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "Read another title": {
+      "pl": "Przeczytaj inny tytuł",
+      "contexts": [
+        "data.json:scripts.cre_yourbooks.firstread",
+        "data.json:scripts.cre_yourbooks.read"
+      ],
+      "category": "dialog"
+    },
+    "Rufus, you know how much I hate it here.  I can't stay.  I've gotta go where the action is.": {
+      "pl": "Rufus, wiesz, jak nienawidzę tego miejsca. Nie mogę tu zostać. Muszę jechać tam, gdzie coś się dzieje.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2c"
+      ],
+      "category": "dialog"
+    },
+    "Say goodbye": {
+      "pl": "Pożegnaj się",
+      "contexts": [
+        "data.json:scripts.cre_brother.start",
+        "data.json:scripts.cre_brother.bro1a"
+      ],
+      "category": "dialog"
+    },
+    "She hugs you.": {
+      "pl": "Przytula cię.",
+      "contexts": [
+        "data.json:scripts.cre_mother.end"
+      ],
+      "category": "dialog"
+    },
+    "She smiles and hugs you again.": {
+      "pl": "Uśmiecha się i znów cię przytula.",
+      "contexts": [
+        "data.json:scripts.cre_mother.hug2"
+      ],
+      "category": "dialog"
+    },
+    "Sigh, yes [Goblintongue]": {
+      "pl": "Eh, dobra [Goblińszczyzna]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.language"
+      ],
+      "category": "dialog"
+    },
+    "Skip to leaving BS": {
+      "pl": "Pomiń do wyjazdu z BS",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "So tidy!": {
+      "pl": "Ale porządek!",
+      "contexts": [
+        "data.json:scripts.cre_brobed.popup"
+      ],
+      "category": "dialog"
+    },
+    "Stack firewood": {
+      "pl": "Porządnie ułóż drewno",
+      "contexts": [
+        "data.json:scripts.cre_firewood.popup"
+      ],
+      "category": "dialog"
+    },
+    "Start spending it manually": {
+      "pl": "Wydawaj samemu",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.finish",
+        "data.json:scripts.tut_finished.autoxpcheck"
+      ],
+      "category": "dialog"
+    },
+    "Suit yourself!  Gonna be a hard road, I can tell you that for sure.": {
+      "pl": "Twoja sprawa! Będzie ci ciężko — tego ci gwarantuję.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.alone"
+      ],
+      "category": "dialog"
+    },
+    "Sure, I'll skip it": {
+      "pl": "Jasne, pomijam",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.start"
+      ],
+      "category": "dialog"
+    },
+    "Take Crazy Pete": {
+      "pl": "Weź Szalonego Peta",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner",
+        "data.json:scripts.tut_finished.yes"
+      ],
+      "category": "dialog"
+    },
+    "Take Doc Alice": {
+      "pl": "Weź Doc Alice",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner",
+        "data.json:scripts.tut_finished.yes"
+      ],
+      "category": "dialog"
+    },
+    "Take Gary the Goblin": {
+      "pl": "Weź Gary'ego Goblina",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner",
+        "data.json:scripts.tut_finished.yes"
+      ],
+      "category": "dialog"
+    },
+    "Take Gary the Goblin [Hates your hard hat]": {
+      "pl": "Weź Gary'ego Goblina [Nie cierpi twojego kasku]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner"
+      ],
+      "category": "dialog"
+    },
+    "Take Susie Cochrane": {
+      "pl": "Weź Susie Cochrane",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner",
+        "data.json:scripts.tut_finished.yes"
+      ],
+      "category": "dialog"
+    },
+    "test prompt": {
+      "pl": "test prompt",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "Thank him": {
+      "pl": "Podziękuj mu",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving",
+        "data.json:scripts.npc_cactusbill.givepaper"
+      ],
+      "category": "dialog"
+    },
+    "Thanks, Dad.": {
+      "pl": "Dzięki, tato.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.thankyou"
+      ],
+      "category": "dialog"
+    },
+    "That hat doesn't fit you, Dad.": {
+      "pl": "Ta czapka ci nie pasuje, tato.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.start",
+        "data.json:scripts.cre_dadconvo.hat"
+      ],
+      "category": "dialog"
+    },
+    "That's the one!  Enjoy it.": {
+      "pl": "Dokładnie ta! Miłej lektury.",
+      "contexts": [
+        "data.json:scripts.cre_mother.book1",
+        "data.json:scripts.cre_mother.book2",
+        "data.json:scripts.cre_mother.book3"
+      ],
+      "category": "dialog"
+    },
+    "The crazy horse": {
+      "pl": "Szalony koń",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "The crazy horse it is!": {
+      "pl": "To będzie szalony koń!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse4"
+      ],
+      "category": "dialog"
+    },
+    "The dark horse": {
+      "pl": "Mroczny koń",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "The dark horse [Hates your hard hat]": {
+      "pl": "Czarny koń [Nie cierpi twojego kasku]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "The dark horse it is!": {
+      "pl": "To będzie mroczny koń!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse2"
+      ],
+      "category": "dialog"
+    },
+    "The normal horse": {
+      "pl": "Normalny koń",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "The normal horse it is!": {
+      "pl": "To będzie normalny koń!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse1"
+      ],
+      "category": "dialog"
+    },
+    "The one about bartering?  Oh boy!": {
+      "pl": "Ta o targowaniu się? O rety!",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom3",
+        "data.json:scripts.cre_mother.book3"
+      ],
+      "category": "dialog"
+    },
+    "The one about desert survival?  Oh boy!": {
+      "pl": "Ta o przetrwaniu na pustyni? O rety!",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom3",
+        "data.json:scripts.cre_mother.book2"
+      ],
+      "category": "dialog"
+    },
+    "The one about picking locks?  Oh boy!": {
+      "pl": "Ta o otwieraniu zamków? O rety!",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom3",
+        "data.json:scripts.cre_mother.book1"
+      ],
+      "category": "dialog"
+    },
+    "The pale horse": {
+      "pl": "Blady koń",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse"
+      ],
+      "category": "dialog"
+    },
+    "The pale horse it is!": {
+      "pl": "To będzie blady koń!",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.horse3"
+      ],
+      "category": "dialog"
+    },
+    "There's just no opportunity here, kid.  If I'm gonna make something of myself, I gotta go where I can make some Meat.": {
+      "pl": "Tutaj nie ma perspektyw, młody. Jak chcę cokolwiek z siebie zrobić, muszę jechać tam, gdzie da się zarobić Mięso.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2b"
+      ],
+      "category": "dialog"
+    },
+    "This weird poster appeared here one night.": {
+      "pl": "Pewnej nocy na ścianie pojawił się ten dziwny plakat.",
+      "contexts": [
+        "data.json:scripts.cre_wasdposter.popup"
+      ],
+      "category": "dialog"
+    },
+    "Time for me to leave, Dad.": {
+      "pl": "Muszę już jechać, tato.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.start"
+      ],
+      "category": "dialog"
+    },
+    "To get off this stupid farm": {
+      "pl": "Wydostać się z tej głupiej farmy",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "To help people": {
+      "pl": "Żeby pomagać ludziom",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "To seek my fortune": {
+      "pl": "Szukać fortuny",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2"
+      ],
+      "category": "dialog"
+    },
+    "Turn it on": {
+      "pl": "Włącz",
+      "contexts": [
+        "data.json:scripts.cre_phonograph.popup",
+        "house.json:scripts.house_boilerfaucet.popup",
+        "house.json:scripts.house_floorlamp.off",
+        "house.json:scripts.house_tween_gramophone.popup"
+      ],
+      "category": "dialog"
+    },
+    "Very compassionate [Honorable]": {
+      "pl": "Bardzo współczujący [Honorowy]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.temperament"
+      ],
+      "category": "dialog"
+    },
+    "Very effective [Ruthless]": {
+      "pl": "Bardzo skuteczny [Bezwzględny]",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.temperament"
+      ],
+      "category": "dialog"
+    },
+    "We're gonna miss you, kiddo.  Oh, and before you leave, I got you a present.": {
+      "pl": "Będziemy za tobą tęsknić, kochanie. Aha, i zanim wyjedziesz — mam dla ciebie prezent.",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom2"
+      ],
+      "category": "dialog"
+    },
+    "Weird kid": {
+      "pl": "Dziwny z niego typ",
+      "contexts": [
+        "data.json:scripts.cre_brother.already",
+        "data.json:scripts.cre_brother.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "Welcome to the debug hat!": {
+      "pl": "Witaj w kapeluszu debugowym!",
+      "contexts": [
+        "data.json:scripts.cre_twilighthat.start"
+      ],
+      "category": "dialog"
+    },
+    "Well, first things first. Do you want to wear the hard hat?": {
+      "pl": "Najpierw sprawa pierwsza. Zakładasz twardy kask?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.skip"
+      ],
+      "category": "dialog"
+    },
+    "What a mess!": {
+      "pl": "Co za syf!",
+      "contexts": [
+        "data.json:scripts.cre_firewood.popup"
+      ],
+      "category": "dialog"
+    },
+    "What? No": {
+      "pl": "Co? Nie",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.language"
+      ],
+      "category": "dialog"
+    },
+    "Who would you like to take West with you as a pardner?": {
+      "pl": "Kogo zabierasz ze sobą na Zachód jako towarzysza?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.pardner"
+      ],
+      "category": "dialog"
+    },
+    "Would you like to skip the Boring Springs prologue and head straight to Dirtwater?": {
+      "pl": "Pominąć prolog w Boring Springs i od razu ruszyć do Dirtwater?",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.start"
+      ],
+      "category": "dialog"
+    },
+    "Yep!  It's that book you wanted for Crimbo.  I know it's early, but...": {
+      "pl": "Ta! To ta książka na Gwizdonki, o którą chodziło. Wiem, wcześnie, ale...",
+      "contexts": [
+        "data.json:scripts.cre_mother.mom3"
+      ],
+      "category": "dialog"
+    },
+    "You comb your hair one last time.": {
+      "pl": "Po raz ostatni czeszesz włosy.",
+      "contexts": [
+        "data.json:scripts.cre_desk.comb"
+      ],
+      "category": "dialog"
+    },
+    "You give him a playful punch on the arm.": {
+      "pl": "Przyjaźnie klepiesz go w ramię.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro5"
+      ],
+      "category": "dialog"
+    },
+    "You grab a cricket from your cricket bag and feed it to Russell.  He coos appreciatively and nuzzles your hand.": {
+      "pl": "Wyciągasz świerszcza z sakiewki na świerszcze i dajesz Russellowi. Burczy z zadowoleniem i ociera się o twoją dłoń.",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.cricket"
+      ],
+      "category": "dialog"
+    },
+    "You hand him the puzzle and he starts fidgeting with it.": {
+      "pl": "Podajesz mu układankę, a on zaraz zaczyna się z nią bawić.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro1a",
+        "data.json:scripts.cre_brother.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "You move the needle down to the cylinder and crank the handle a few times.": {
+      "pl": "Opuszczasz iglicę na cylinder i kręcisz korbelem kilka razy.",
+      "contexts": [
+        "data.json:scripts.cre_phonograph.e2"
+      ],
+      "category": "dialog"
+    },
+    "You open your bedroom window (not pictured) and unlatch the door to Russell's cage.  He winks at you, caws one last time, then flies away to the West.": {
+      "pl": "Otwierasz okno w sypialni (niewidoczne na ekranie) i otwierasz klatkę Russella. Mruga do ciebie, kracze po raz ostatni i odlatuje na Zachód.",
+      "contexts": [
+        "data.json:scripts.cre_ravenconvo.release"
+      ],
+      "category": "dialog"
+    },
+    "You pick up one of your brother's weird books and flip through it.": {
+      "pl": "Bierzesz jedną z dziwnych książek brata i kartkujesz ją.",
+      "contexts": [
+        "data.json:scripts.cre_brobookshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "You pull the needle away from the cylinder and stow the handle away.": {
+      "pl": "Odsuwasz iglicę od cylindra i chowasz korbel.",
+      "contexts": [
+        "data.json:scripts.cre_phonograph.e"
+      ],
+      "category": "dialog"
+    },
+    "You read the spine of one of your books.": {
+      "pl": "Czytasz okładkę jednej ze swoich książek.",
+      "contexts": [
+        "data.json:scripts.cre_yourbooks.firstread"
+      ],
+      "category": "dialog"
+    },
+    "You should give your brother Rufus his weird puzzle back.": {
+      "pl": "Powinieneś oddać bratu Rufusowi jego dziwną układankę.",
+      "contexts": [
+        "data.json:scripts.cre_starttut.talktorufus"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't leave without at least saying goodbye to your dad.": {
+      "pl": "Nie powinieneś wyjeżdżać, nie pożegnawszy się z tatą choćby krótko.",
+      "contexts": [
+        "data.json:scripts.cre_starttut.talktodad"
+      ],
+      "category": "dialog"
+    },
+    "You'll travel with Crazy Pete.": {
+      "pl": "W drogę ruszysz z Szalonym Petem.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.takepete",
+        "data.json:scripts.twilightzone_changepardner.takepete"
+      ],
+      "category": "dialog"
+    },
+    "You'll travel with Doc Alice.": {
+      "pl": "W drogę ruszysz z Doc Alice.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.takealice",
+        "data.json:scripts.twilightzone_changepardner.takealice"
+      ],
+      "category": "dialog"
+    },
+    "You'll travel with Gary the Goblin.": {
+      "pl": "W drogę ruszysz z Gary'm Goblinem.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.takegary",
+        "data.json:scripts.twilightzone_changepardner.takegary"
+      ],
+      "category": "dialog"
+    },
+    "You'll travel with Susie Cochrane.": {
+      "pl": "W drogę ruszysz z Susie Cochrane.",
+      "contexts": [
+        "data.json:scripts.cre_skiptut.takesusie",
+        "data.json:scripts.twilightzone_changepardner.takesusie"
+      ],
+      "category": "dialog"
+    },
+    "You've read the papers, Rufus.  The people out West are in trouble.  They need all the help they can get.": {
+      "pl": "Czytałeś gazety, Rufus. Ludzie na Zachodzie są w tarapatach. Potrzebują każdej pomocy, jaką dostaną.",
+      "contexts": [
+        "data.json:scripts.cre_brother.bro2a"
+      ],
+      "category": "dialog"
+    },
+    "Your brother Rufus is standing here looking nervous.  He's pretty good at looking nervous.": {
+      "pl": "Brat Rufus stoi tu i wygląda na zdenerwowanego. Całkiem nieźle mu to wychodzi.",
+      "contexts": [
+        "data.json:scripts.cre_brother.start"
+      ],
+      "category": "dialog"
+    },
+    "Your father morosely jabs at the haystack.": {
+      "pl": "Tata smutno dźga widły w stóg siana.",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.start"
+      ],
+      "category": "dialog"
+    },
+    "your grandmother's brass knuckles": {
+      "pl": "kastet twojej babci",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving"
+      ],
+      "category": "dialog"
+    },
+    "your grandmother's briefcase full of snakes": {
+      "pl": "teczka twojej babci pełna węży",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving"
+      ],
+      "category": "dialog"
+    },
+    "your grandmother's favorite can of beans": {
+      "pl": "ulubiona puszka fasoli twojej babci",
+      "contexts": [
+        "data.json:scripts.cre_dadconvo.leaving"
+      ],
+      "category": "dialog"
+    },
+    "Your mom raises her eyebrow.": {
+      "pl": "Mama unosi brew.",
+      "contexts": [
+        "data.json:scripts.cre_mother.anotherhug"
+      ],
+      "category": "dialog"
+    },
+    "Your mom smiles warmly as you approach.": {
+      "pl": "Mama wita cię ciepłym uśmiechem.",
+      "contexts": [
+        "data.json:scripts.cre_mother.start"
+      ],
+      "category": "dialog"
+    }
+  }
+}

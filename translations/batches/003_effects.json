@@ -1,0 +1,2927 @@
+{
+  "_meta": {
+    "id": 3,
+    "name": "effects",
+    "description": "Efekty (buffy/debuffy).",
+    "status": "done",
+    "count": 394
+  },
+  "strings": {
+    "[does not exist]": {
+      "pl": "[nie istnieje]",
+      "contexts": [
+        "data.json:effects.food_kelloggflakes.name"
+      ],
+      "category": "effects"
+    },
+    "A ghost messed up the name of this effect.  Or it might have been the whiskey.": {
+      "pl": "Duch pomieszał nazwę tego efektu. Albo to whiskey.",
+      "contexts": [
+        "data.json:effects.booze_ghostwhiskey.description"
+      ],
+      "category": "effects"
+    },
+    "A Lot of Nerve (Pills)": {
+      "pl": "Dużo nerwów (tabletki)",
+      "contexts": [
+        "data.json:effects.potion_nervepills.name",
+        "data.json:buckets.item_misc_effecttome_name[154]"
+      ],
+      "category": "effects"
+    },
+    "aaa": {
+      "pl": "aaa",
+      "contexts": [
+        "data.json:effects.food_test.name"
+      ],
+      "category": "effects"
+    },
+    "Am <i>I</i> Made Of Beans?": {
+      "pl": "Czy <i>ja</i> jestem z fasoli?",
+      "contexts": [
+        "data.json:effects.food_wienah1.name"
+      ],
+      "category": "effects"
+    },
+    "And they were great!": {
+      "pl": "I były świetne!",
+      "contexts": [
+        "data.json:effects.potion_lemonade.description"
+      ],
+      "category": "effects"
+    },
+    "Angry": {
+      "pl": "Wściekły",
+      "contexts": [
+        "data.json:effects.angry.name"
+      ],
+      "category": "effects"
+    },
+    "Apple Pied": {
+      "pl": "Po szarlotce",
+      "contexts": [
+        "data.json:effects.food_applepie.name",
+        "data.json:buckets.item_misc_effecttome_name[57]"
+      ],
+      "category": "effects"
+    },
+    "Arachnophilia": {
+      "pl": "Arachnofilia",
+      "contexts": [
+        "data.json:effects.booze_spider.name",
+        "data.json:buckets.item_misc_effecttome_name[53]"
+      ],
+      "category": "effects"
+    },
+    "Arcane Doggin'": {
+      "pl": "Tajemnicze hot-dogowanie",
+      "contexts": [
+        "data.json:effects.food_hotdog_curiosity.name",
+        "data.json:buckets.item_misc_effecttome_name[99]"
+      ],
+      "category": "effects"
+    },
+    "Athletic": {
+      "pl": "Atletyczny",
+      "contexts": [
+        "data.json:effects.booze_micro1.name",
+        "data.json:buckets.item_misc_effecttome_name[34]"
+      ],
+      "category": "effects"
+    },
+    "Bacharach Galactarius": {
+      "pl": "Bacharachowy mleczaj",
+      "contexts": [
+        "data.json:effects.potion_shroom1.name",
+        "data.json:buckets.item_misc_effecttome_name[168]"
+      ],
+      "category": "effects"
+    },
+    "Bananas!": {
+      "pl": "Banany!",
+      "contexts": [
+        "data.json:effects.food_banana.name",
+        "data.json:buckets.item_misc_effecttome_name[58]"
+      ],
+      "category": "effects"
+    },
+    "Bean-Blackened": {
+      "pl": "Fasolowo-Wypalony",
+      "contexts": [
+        "data.json:effects.food_blackbeans.name",
+        "data.json:buckets.item_misc_effecttome_name[68]"
+      ],
+      "category": "effects"
+    },
+    "Bean-Gilded": {
+      "pl": "Fasolowo-Złocony",
+      "contexts": [
+        "data.json:effects.food_beans8.name",
+        "data.json:buckets.item_misc_effecttome_name[66]"
+      ],
+      "category": "effects"
+    },
+    "Bean-Hardened": {
+      "pl": "Fasolowo-Zahartowany",
+      "contexts": [
+        "data.json:effects.food_beans6.name",
+        "data.json:buckets.item_misc_effecttome_name[64]"
+      ],
+      "category": "effects"
+    },
+    "Beer Ghosted": {
+      "pl": "Upiorzone piwo",
+      "contexts": [
+        "data.json:effects.booze_ghostbeer.name",
+        "data.json:buckets.item_misc_effecttome_name[23]"
+      ],
+      "category": "effects"
+    },
+    "Beer Hot Dog": {
+      "pl": "Piwna parówka",
+      "contexts": [
+        "data.json:effects.food_hotdog_brewery.name",
+        "data.json:buckets.item_misc_effecttome_name[98]"
+      ],
+      "category": "effects"
+    },
+    "Belly Full of Spiders": {
+      "pl": "Brzuch pełen pająków",
+      "contexts": [
+        "data.json:effects.food_spiderpie.name"
+      ],
+      "category": "effects"
+    },
+    "Black (Bean) Arts": {
+      "pl": "Czarne (fasolne) sztuki",
+      "contexts": [
+        "data.json:effects.food_beans2.name",
+        "data.json:buckets.item_misc_effecttome_name[60]"
+      ],
+      "category": "effects"
+    },
+    "Blossoming Rage": {
+      "pl": "Kwitnący szał",
+      "contexts": [
+        "data.json:effects.booze_blossomgin.name",
+        "data.json:buckets.item_misc_effecttome_name[9]"
+      ],
+      "category": "effects"
+    },
+    "Blue Ribbon": {
+      "pl": "Niebieska wstęga",
+      "contexts": [
+        "data.json:effects.booze_schmaltz.name",
+        "data.json:buckets.item_misc_effecttome_name[52]"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Bobcat": {
+      "pl": "Łaska bobcata",
+      "contexts": [
+        "data.json:effects.boon_skeleton4.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Buffalo": {
+      "pl": "Łaska bawołu",
+      "contexts": [
+        "data.json:effects.boon_skeleton7.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Desert Ape": {
+      "pl": "Łaska pustynnej małpy",
+      "contexts": [
+        "data.json:effects.boon_skeleton8.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Hawk": {
+      "pl": "Łaska jastrzębia",
+      "contexts": [
+        "data.json:effects.boon_skeleton5.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Jackrabbit": {
+      "pl": "Łaska królika",
+      "contexts": [
+        "data.json:effects.boon_skeleton1.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Owl": {
+      "pl": "Łaska sowy",
+      "contexts": [
+        "data.json:effects.boon_skeleton3.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Packrat": {
+      "pl": "Łaska szczura zbieracza",
+      "contexts": [
+        "data.json:effects.boon_skeleton6.name"
+      ],
+      "category": "effects"
+    },
+    "Boon of the Tortoise": {
+      "pl": "Łaska żółwia",
+      "contexts": [
+        "data.json:effects.boon_skeleton2.name"
+      ],
+      "category": "effects"
+    },
+    "Boot Doggin'": {
+      "pl": "Parówka butowa",
+      "contexts": [
+        "data.json:effects.food_hotdog_boots.name",
+        "data.json:buckets.item_misc_effecttome_name[97]"
+      ],
+      "category": "effects"
+    },
+    "Bourbon-Breaded": {
+      "pl": "W panierce z bourbonu",
+      "contexts": [
+        "data.json:effects.booze_breadwood.name",
+        "data.json:buckets.item_misc_effecttome_name[10]"
+      ],
+      "category": "effects"
+    },
+    "Brain Pied": {
+      "pl": "Mózgowy",
+      "contexts": [
+        "data.json:effects.food_brainpie.name",
+        "data.json:buckets.item_misc_effecttome_name[70]"
+      ],
+      "category": "effects"
+    },
+    "Brainy": {
+      "pl": "Bystry",
+      "contexts": [
+        "data.json:effects.booze_micro2.name",
+        "data.json:buckets.item_misc_effecttome_name[35]"
+      ],
+      "category": "effects"
+    },
+    "Bratwursted": {
+      "pl": "Parówkowany",
+      "contexts": [
+        "data.json:effects.food_goblinbrat.name",
+        "data.json:buckets.item_misc_effecttome_name[86]"
+      ],
+      "category": "effects"
+    },
+    "Built Blood": {
+      "pl": "Zbudowana krew",
+      "contexts": [
+        "data.json:effects.potion_bloodtonic.name",
+        "data.json:buckets.item_misc_effecttome_name[126]"
+      ],
+      "category": "effects"
+    },
+    "Butter Pied": {
+      "pl": "Maślany",
+      "contexts": [
+        "data.json:effects.food_butterpie.name",
+        "data.json:buckets.item_misc_effecttome_name[71]"
+      ],
+      "category": "effects"
+    },
+    "Buttered Up": {
+      "pl": "Omaślony",
+      "contexts": [
+        "data.json:effects.potion_cowbutter.name",
+        "data.json:buckets.item_misc_effecttome_name[138]"
+      ],
+      "category": "effects"
+    },
+    "Buttermouthed": {
+      "pl": "Maślousty",
+      "contexts": [
+        "data.json:effects.food_peanutbutter.name",
+        "data.json:buckets.item_misc_effecttome_name[107]"
+      ],
+      "category": "effects"
+    },
+    "Cactus Bitten": {
+      "pl": "Ukąsiony kaktusem",
+      "contexts": [
+        "data.json:effects.food_cactusbits.name",
+        "data.json:buckets.item_misc_effecttome_name[72]"
+      ],
+      "category": "effects"
+    },
+    "Cactus Drunk": {
+      "pl": "Kaktusowe upojenie",
+      "contexts": [
+        "data.json:effects.booze_cactusbeer.name",
+        "data.json:buckets.item_misc_effecttome_name[11]"
+      ],
+      "category": "effects"
+    },
+    "Caffeinated": {
+      "pl": "Pobudzony",
+      "contexts": [
+        "data.json:effects.potion_coffee.name",
+        "data.json:buckets.item_misc_effecttome_name[134]"
+      ],
+      "category": "effects"
+    },
+    "Carrot Topped": {
+      "pl": "Marchewkowy czubek",
+      "contexts": [
+        "data.json:effects.food_carrot.name",
+        "data.json:buckets.item_misc_effecttome_name[73]"
+      ],
+      "category": "effects"
+    },
+    "Cat's Eyes": {
+      "pl": "Kocie oczy",
+      "contexts": [
+        "data.json:effects.potion_candy2.name",
+        "data.json:buckets.item_misc_effecttome_name[128]"
+      ],
+      "category": "effects"
+    },
+    "Caviando": {
+      "pl": "Kawiarowy zawrót",
+      "contexts": [
+        "data.json:effects.food_caviar.name",
+        "data.json:buckets.item_misc_effecttome_name[74]"
+      ],
+      "category": "effects"
+    },
+    "Caviar is Spanish for \"to spelunk.\"": {
+      "pl": "Kawior po hiszpańsku to «jaskiniowanie».",
+      "contexts": [
+        "data.json:effects.food_caviar.description"
+      ],
+      "category": "effects"
+    },
+    "Chicory!": {
+      "pl": "Cykoria!",
+      "contexts": [
+        "data.json:effects.potion_goblinchicory.name",
+        "data.json:buckets.item_misc_effecttome_name[144]"
+      ],
+      "category": "effects"
+    },
+    "Cider Inside You": {
+      "pl": "Cydr w środku",
+      "contexts": [
+        "data.json:effects.booze_goblincider.name",
+        "data.json:buckets.item_misc_effecttome_name[26]"
+      ],
+      "category": "effects"
+    },
+    "Clove Rage": {
+      "pl": "Goździkowy szał",
+      "contexts": [
+        "data.json:effects.potion_candy1.name",
+        "data.json:buckets.item_misc_effecttome_name[127]"
+      ],
+      "category": "effects"
+    },
+    "Clowning Around": {
+      "pl": "Klauniada",
+      "contexts": [
+        "data.json:effects.food_clownsausage.name",
+        "data.json:buckets.item_misc_effecttome_name[75]"
+      ],
+      "category": "effects"
+    },
+    "Clownworthy": {
+      "pl": "Godny klauna",
+      "contexts": [
+        "data.json:effects.potion_clownwort.name",
+        "data.json:buckets.item_misc_effecttome_name[133]"
+      ],
+      "category": "effects"
+    },
+    "Cognactive Dissonance": {
+      "pl": "Kognaktywna dysonansja",
+      "contexts": [
+        "data.json:effects.booze_oiler1b.name",
+        "data.json:buckets.item_misc_effecttome_name[46]"
+      ],
+      "category": "effects"
+    },
+    "Cot In Mouthed": {
+      "pl": "Watą w ustach",
+      "contexts": [
+        "data.json:effects.cotinmouthed.name"
+      ],
+      "category": "effects"
+    },
+    "Cotton Candied": {
+      "pl": "Watocukrowany",
+      "contexts": [
+        "data.json:effects.food_cottoncandy.name",
+        "data.json:buckets.item_misc_effecttome_name[76]"
+      ],
+      "category": "effects"
+    },
+    "Cow Bilious": {
+      "pl": "Krowożółciowy",
+      "contexts": [
+        "data.json:effects.potion_cowbile.name",
+        "data.json:buckets.item_misc_effecttome_name[136]"
+      ],
+      "category": "effects"
+    },
+    "Cow Blooded": {
+      "pl": "Krowiej krwi",
+      "contexts": [
+        "data.json:effects.potion_cowblood.name",
+        "data.json:buckets.item_misc_effecttome_name[137]"
+      ],
+      "category": "effects"
+    },
+    "Cuscles": {
+      "pl": "Kremięśnie",
+      "contexts": [
+        "data.json:effects.food_custard1.name",
+        "data.json:buckets.item_misc_effecttome_name[79]"
+      ],
+      "category": "effects"
+    },
+    "Custard Chic": {
+      "pl": "Budniowy szyk",
+      "contexts": [
+        "data.json:effects.food_custard3.name",
+        "data.json:buckets.item_misc_effecttome_name[81]"
+      ],
+      "category": "effects"
+    },
+    "Dark-Blooded": {
+      "pl": "Mrocznej krwi",
+      "contexts": [
+        "data.json:effects.misc_bloodfountain.name",
+        "data.json:buckets.item_misc_effecttome_name[123]"
+      ],
+      "category": "effects"
+    },
+    "Dead Drunk": {
+      "pl": "Padnięty pijak",
+      "contexts": [
+        "data.json:effects.booze_grave2.name",
+        "data.json:buckets.item_misc_effecttome_name[29]"
+      ],
+      "category": "effects"
+    },
+    "Decently Tequillaed": {
+      "pl": "Przyzwoicie ztequilowane",
+      "contexts": [
+        "data.json:effects.booze_decenttequila.name",
+        "data.json:buckets.item_misc_effecttome_name[18]"
+      ],
+      "category": "effects"
+    },
+    "Decently Whisked": {
+      "pl": "Przyzwoicie zwhisky'owane",
+      "contexts": [
+        "data.json:effects.booze_decentwhiskey.name",
+        "data.json:buckets.item_misc_effecttome_name[19]"
+      ],
+      "category": "effects"
+    },
+    "Decently Wined": {
+      "pl": "Przyzwoicie zwinowane",
+      "contexts": [
+        "data.json:effects.booze_decentwine.name"
+      ],
+      "category": "effects"
+    },
+    "Decoration Inclination": {
+      "pl": "Skłonność do Dekoracji",
+      "contexts": [
+        "data.json:effects.decorationinclination.name"
+      ],
+      "category": "effects"
+    },
+    "Depressed Like a Rancher": {
+      "pl": "Przygnębiony jak Ranczer",
+      "contexts": [
+        "data.json:effects.potion_rancher.name",
+        "data.json:buckets.item_misc_effecttome_name[163]"
+      ],
+      "category": "effects"
+    },
+    "Dirtwatered": {
+      "pl": "Dirtwaterowany",
+      "contexts": [
+        "data.json:effects.booze_dirtwaterbourbon.name",
+        "data.json:buckets.item_misc_effecttome_name[20]"
+      ],
+      "category": "effects"
+    },
+    "Divine Disapproval": {
+      "pl": "Niebiańska dezaprobata",
+      "contexts": [
+        "data.json:effects.cowpunishment.name"
+      ],
+      "category": "effects"
+    },
+    "Doing Shots": {
+      "pl": "Robienie shotów",
+      "contexts": [
+        "data.json:effects.booze_oiler1.name",
+        "data.json:buckets.item_misc_effecttome_name[44]"
+      ],
+      "category": "effects"
+    },
+    "Drenched in Cologne": {
+      "pl": "Przesiąknięty kolonią",
+      "contexts": [
+        "data.json:effects.potion_cologne.name",
+        "data.json:buckets.item_misc_effecttome_name[135]"
+      ],
+      "category": "effects"
+    },
+    "Drinking that beer was equivalent to a college education.  And not like <i>your</i> college education, where all you did was drink beer.": {
+      "pl": "Wypicie tego piwa było równoważne z wykształceniem uniwersyteckim. I nie takim jak <i>twoje</i> wykształcenie uniwersyteckie, gdzie robiłeś tylko to samo — piłeś piwo.",
+      "contexts": [
+        "data.json:effects.booze_micro_books.description"
+      ],
+      "category": "effects"
+    },
+    "Eating all this food has made you sluggish, but at least anyone who tries to punch the stuffing out of you will have to punch the literal stuffing out of you first.": {
+      "pl": "Jedzenie całego tego jedzenia spowolniło cię, ale przynajmniej każdy, kto spróbuje wybebniać cię z wypełnienia, najpierw będzie musiał wybebniać ci dosłowne wypełnienie.",
+      "contexts": [
+        "data.json:effects.stuffedface.description"
+      ],
+      "category": "effects"
+    },
+    "Eggsistential Terror": {
+      "pl": "Jajoistencjalny terror",
+      "contexts": [
+        "data.json:effects.food_spider.name",
+        "data.json:buckets.item_misc_effecttome_name[115]"
+      ],
+      "category": "effects"
+    },
+    "El Vibrating": {
+      "pl": "El wibrujące",
+      "contexts": [
+        "data.json:effects.zzz_elv_monolith.name"
+      ],
+      "category": "effects"
+    },
+    "Elegant Doggin'": {
+      "pl": "Eleganckie dogowanie",
+      "contexts": [
+        "data.json:effects.food_hotdog2.name",
+        "data.json:buckets.item_misc_effecttome_name[94]"
+      ],
+      "category": "effects"
+    },
+    "Energized": {
+      "pl": "Naładowany",
+      "contexts": [
+        "data.json:effects.energized.name",
+        "data.json:buckets.item_misc_effecttome_name[55]"
+      ],
+      "category": "effects"
+    },
+    "Erudite": {
+      "pl": "Erudyta",
+      "contexts": [
+        "data.json:effects.booze_micro_books.name",
+        "data.json:buckets.item_misc_effecttome_name[37]"
+      ],
+      "category": "effects"
+    },
+    "Escargot Sophistication": {
+      "pl": "Wyrafinowany escargot",
+      "contexts": [
+        "data.json:effects.food_jelliedescargot.name",
+        "data.json:buckets.item_misc_effecttome_name[102]"
+      ],
+      "category": "effects"
+    },
+    "Every part of you wants more money.": {
+      "pl": "Każda część ciebie chce więcej pieniędzy.",
+      "contexts": [
+        "data.json:effects.boon_skeleton7.description"
+      ],
+      "category": "effects"
+    },
+    "Every time you open your mouth, you can hear the tongue you ate whispering from inside you.  <i>\"Mooooooo,\"</i> it whispers.  <i>\"Moooooo.\"</i>": {
+      "pl": "Za każdym razem, gdy otwierasz usta, słyszysz język, który zjadłeś, szeptany gdzieś we wnętrzu. <i>„Muuuuuuu”,</i> szepcze. <i>„Muuuuu.”</i>",
+      "contexts": [
+        "data.json:effects.food_cowtongue.description"
+      ],
+      "category": "effects"
+    },
+    "Expert Loafer": {
+      "pl": "Mistrz lenistwa",
+      "contexts": [
+        "data.json:effects.food_goblinloaf.name",
+        "data.json:buckets.item_misc_effecttome_name[88]"
+      ],
+      "category": "effects"
+    },
+    "Fancily Caffeinated": {
+      "pl": "Szykownie skofeinowany",
+      "contexts": [
+        "data.json:effects.potion_fancycoffee.name",
+        "data.json:buckets.item_misc_effecttome_name[141]"
+      ],
+      "category": "effects"
+    },
+    "Feeling Jerky": {
+      "pl": "Suszone nerwy",
+      "contexts": [
+        "data.json:effects.food_jerky.name",
+        "data.json:buckets.item_misc_effecttome_name[103]"
+      ],
+      "category": "effects"
+    },
+    "Fine Wined and Fine Dined": {
+      "pl": "Wyborne wino i wyborne jedzenie",
+      "contexts": [
+        "data.json:effects.booze_finewine.name"
+      ],
+      "category": "effects"
+    },
+    "Food Cubed": {
+      "pl": "Jedzenie w kostce",
+      "contexts": [
+        "data.json:effects.food_elv.name",
+        "data.json:buckets.item_misc_effecttome_name[82]"
+      ],
+      "category": "effects"
+    },
+    "Fortified Kidneys": {
+      "pl": "Wzmocnione nerki",
+      "contexts": [
+        "data.json:effects.food_beans4.name",
+        "data.json:buckets.item_misc_effecttome_name[62]"
+      ],
+      "category": "effects"
+    },
+    "Frisco Popped": {
+      "pl": "Wystrzelony z Frisco",
+      "contexts": [
+        "data.json:effects.potion_friscopoppy.name",
+        "data.json:buckets.item_misc_effecttome_name[142]"
+      ],
+      "category": "effects"
+    },
+    "Fudgemental": {
+      "pl": "Krówkowy krytykant",
+      "contexts": [
+        "data.json:effects.food_fudge.name",
+        "data.json:buckets.item_misc_effecttome_name[83]"
+      ],
+      "category": "effects"
+    },
+    "Full of Goblin Mescal": {
+      "pl": "Pełen goblin mescal",
+      "contexts": [
+        "data.json:effects.booze_goblinmescal.name"
+      ],
+      "category": "effects"
+    },
+    "Galactarius": {
+      "pl": "Mleczajowiec",
+      "contexts": [
+        "data.json:effects.food_shroom1.name",
+        "data.json:buckets.item_misc_effecttome_name[112]"
+      ],
+      "category": "effects"
+    },
+    "Ghost-Pickled": {
+      "pl": "Upiornie kiszony",
+      "contexts": [
+        "data.json:effects.food_ghostpickle.name",
+        "data.json:buckets.item_misc_effecttome_name[84]"
+      ],
+      "category": "effects"
+    },
+    "Ghsot Whiksey": {
+      "pl": "Duhowa Whiksey",
+      "contexts": [
+        "data.json:effects.booze_ghostwhiskey.name",
+        "data.json:buckets.item_misc_effecttome_name[24]"
+      ],
+      "category": "effects"
+    },
+    "Ginger Sober": {
+      "pl": "Imbirowa trzeźwość",
+      "contexts": [
+        "data.json:effects.potion_gingerbeer.name",
+        "data.json:buckets.item_misc_effecttome_name[143]"
+      ],
+      "category": "effects"
+    },
+    "Goat Stakes": {
+      "pl": "Kozie steki",
+      "contexts": [
+        "data.json:effects.food_goatsteak.name",
+        "data.json:buckets.item_misc_effecttome_name[85]"
+      ],
+      "category": "effects"
+    },
+    "Goblin Sandwiched": {
+      "pl": "Goblin w kanapce",
+      "contexts": [
+        "data.json:effects.food_goblinsandwich.name",
+        "data.json:buckets.item_misc_effecttome_name[89]"
+      ],
+      "category": "effects"
+    },
+    "Goblin Stewing": {
+      "pl": "Goblińskie gotowanie",
+      "contexts": [
+        "data.json:effects.food_goblinstew.name",
+        "data.json:buckets.item_misc_effecttome_name[90]"
+      ],
+      "category": "effects"
+    },
+    "Grave Demeanor": {
+      "pl": "Grobowa powaga",
+      "contexts": [
+        "data.json:effects.potion_grave.name",
+        "data.json:buckets.item_misc_effecttome_name[148]"
+      ],
+      "category": "effects"
+    },
+    "Grave Expression": {
+      "pl": "Grobowy wyraz",
+      "contexts": [
+        "data.json:effects.potion_gravedirt.name",
+        "data.json:buckets.item_misc_effecttome_name[149]"
+      ],
+      "category": "effects"
+    },
+    "Greasy Palms": {
+      "pl": "Tłuste dłonie",
+      "contexts": [
+        "data.json:effects.food_beans3.name",
+        "data.json:buckets.item_misc_effecttome_name[61]"
+      ],
+      "category": "effects"
+    },
+    "Greasy Toes": {
+      "pl": "Tłuste palce u stóp",
+      "contexts": [
+        "data.json:effects.potion_oopsall_toes.name"
+      ],
+      "category": "effects"
+    },
+    "Gulch Popped": {
+      "pl": "Pop z Gulch",
+      "contexts": [
+        "data.json:effects.potion_goblinlollipop.name",
+        "data.json:buckets.item_misc_effecttome_name[146]"
+      ],
+      "category": "effects"
+    },
+    "Gunpowder Leg": {
+      "pl": "Prochowa nóżka",
+      "contexts": [
+        "data.json:effects.food_house3.name"
+      ],
+      "category": "effects"
+    },
+    "Hagar's Agave": {
+      "pl": "Agawa Hagara",
+      "contexts": [
+        "data.json:effects.booze_hagar.name",
+        "data.json:buckets.item_misc_effecttome_name[31]"
+      ],
+      "category": "effects"
+    },
+    "Hahdened by Lobstah": {
+      "pl": "Utwardzony przez Lobstah",
+      "contexts": [
+        "data.json:effects.food_wienah3.name",
+        "data.json:buckets.item_misc_effecttome_name[122]"
+      ],
+      "category": "effects"
+    },
+    "Heartburn": {
+      "pl": "Zgaga",
+      "contexts": [
+        "data.json:effects.potion_housecandy2.name"
+      ],
+      "category": "effects"
+    },
+    "Heavily Caffeinated": {
+      "pl": "Mocno skofeinowany",
+      "contexts": [
+        "data.json:effects.potion_goblincoffee.name",
+        "data.json:buckets.item_misc_effecttome_name[145]"
+      ],
+      "category": "effects"
+    },
+    "Hedge Fun": {
+      "pl": "Fun z Żywopłotu",
+      "contexts": [
+        "data.json:effects.booze_hedge.name"
+      ],
+      "category": "effects"
+    },
+    "Hog Oiled": {
+      "pl": "Wieprzowanie",
+      "contexts": [
+        "data.json:effects.potion_hogoil.name",
+        "data.json:buckets.item_misc_effecttome_name[150]"
+      ],
+      "category": "effects"
+    },
+    "I guess this confirms that there is beer in Heaven.": {
+      "pl": "Chyba to potwierdza, że w niebie jest piwo.",
+      "contexts": [
+        "data.json:effects.booze_ghostbeer.description"
+      ],
+      "category": "effects"
+    },
+    "I Stuffed My Face At Texas Dan's": {
+      "pl": "Najebałem się w Texas Dan's",
+      "contexts": [
+        "data.json:effects.stuffedface.name"
+      ],
+      "category": "effects"
+    },
+    "Icy, Hot, Crusty": {
+      "pl": "Lodowy, gorący, skorupiasty",
+      "contexts": [
+        "data.json:effects.potion_oldointment.name",
+        "data.json:buckets.item_misc_effecttome_name[161]"
+      ],
+      "category": "effects"
+    },
+    "Id of the Great Snail": {
+      "pl": "Id wielkiego ślimaka",
+      "contexts": [
+        "data.json:effects.booze_greatsnail1.name"
+      ],
+      "category": "effects"
+    },
+    "Immaculately Beaned": {
+      "pl": "Nieskazitelnie fasolony",
+      "contexts": [
+        "data.json:effects.food_beans7.name",
+        "data.json:buckets.item_misc_effecttome_name[65]"
+      ],
+      "category": "effects"
+    },
+    "Immune from poison, being set on fire, and being disabled": {
+      "pl": "Odporność na truciznę, podpalenie i unieruchomienie",
+      "contexts": [
+        "data.json:effects.potion_oiler2b.code.bluetext"
+      ],
+      "category": "effects"
+    },
+    "In a pinch, you can loaf with the best of them.": {
+      "pl": "W potrzebie możesz leniuchować jak najlepsi z nich.",
+      "contexts": [
+        "data.json:effects.food_goblinloaf.description"
+      ],
+      "category": "effects"
+    },
+    "Increases your fart capacity.": {
+      "pl": "Zwiększa twoją pojemność pierdnięć.",
+      "contexts": [
+        "data.json:effects.food_test.description"
+      ],
+      "category": "effects"
+    },
+    "Inside of you, it's too dark to read the glyphs on the hot dog you just ate.": {
+      "pl": "We wnętrzu twojego ciała jest za ciemno, żeby przeczytać glify na parówce, którą właśnie zjadłeś.",
+      "contexts": [
+        "data.json:effects.food_hotdog_curiosity.description"
+      ],
+      "category": "effects"
+    },
+    "Instant Grit": {
+      "pl": "Błyskawiczny hart",
+      "contexts": [
+        "data.json:effects.food_instantgrits.name",
+        "data.json:buckets.item_misc_effecttome_name[101]"
+      ],
+      "category": "effects"
+    },
+    "It feels like there's a jackrabbit running around in your brain.  You want to get away from it, and fast.": {
+      "pl": "Czujesz, jakby w mózgu biegał królik preriowy. Chcesz od tego uciec — i to szybko.",
+      "contexts": [
+        "data.json:effects.boon_skeleton1.description"
+      ],
+      "category": "effects"
+    },
+    "It took a wicked lotta Muscle to chomp through the thick shell of that lobstah wienah, yaknowmsayin? Hey, hey buddy, I'm DESCRIBIN' heah! ": {
+      "pl": "Potrzeba było piekielnie dużo Mięśni, żeby przegryźć grubą skorupę tej homarowej parówy, wieszcotu gadam? Hej, hej, stary, ja tu OPISUJĘ! ",
+      "contexts": [
+        "data.json:effects.food_wienah3.description"
+      ],
+      "category": "effects"
+    },
+    "It's clear from the snail slime dripping down your chin that you enjoy the finer things in life.": {
+      "pl": "Po ślimakowej mazi spływającej ci po brodzie widać, że lubisz wykwintności.",
+      "contexts": [
+        "data.json:effects.food_jelliedescargot.description"
+      ],
+      "category": "effects"
+    },
+    "Jacked Flaps": {
+      "pl": "Podkręcone placki",
+      "contexts": [
+        "data.json:effects.food_goblinflapjacks.name",
+        "data.json:buckets.item_misc_effecttome_name[87]"
+      ],
+      "category": "effects"
+    },
+    "Jumbo Doggin'": {
+      "pl": "Jumbo-dogowanie",
+      "contexts": [
+        "data.json:effects.food_hotdog1.name",
+        "data.json:buckets.item_misc_effecttome_name[93]"
+      ],
+      "category": "effects"
+    },
+    "Jumping": {
+      "pl": "Skakanie",
+      "contexts": [
+        "data.json:effects.food_beans5.name",
+        "data.json:buckets.item_misc_effecttome_name[63]"
+      ],
+      "category": "effects"
+    },
+    "Laudanumb": {
+      "pl": "Laudanumertwień",
+      "contexts": [
+        "data.json:effects.potion_laudanum.name",
+        "data.json:buckets.item_misc_effecttome_name[151]"
+      ],
+      "category": "effects"
+    },
+    "Leathery": {
+      "pl": "Skórzany",
+      "contexts": [
+        "data.json:effects.booze_micro_tanner.name",
+        "data.json:buckets.item_misc_effecttome_name[41]"
+      ],
+      "category": "effects"
+    },
+    "Leathery Hot Dog": {
+      "pl": "Skórzana parówka",
+      "contexts": [
+        "data.json:effects.food_hotdog_tanner.name",
+        "data.json:buckets.item_misc_effecttome_name[100]"
+      ],
+      "category": "effects"
+    },
+    "Let's get crackin'!  Oh, I see you've already started crackin'.  Carry on, then.": {
+      "pl": "No to łamiemy! O, widzę, że już zacząłeś łamać. To rób dalej.",
+      "contexts": [
+        "data.json:effects.food_sodacrackers.description"
+      ],
+      "category": "effects"
+    },
+    "Let's get out of here -- there's no more beer.": {
+      "pl": "Wynośmy się stąd — nie ma już piwa.",
+      "contexts": [
+        "data.json:effects.booze_micro_boots.description"
+      ],
+      "category": "effects"
+    },
+    "Life Gave You Lemons": {
+      "pl": "Życie dało ci cytryny",
+      "contexts": [
+        "data.json:effects.potion_lemonade.name",
+        "data.json:buckets.item_misc_effecttome_name[152]"
+      ],
+      "category": "effects"
+    },
+    "Like an apple, you have two colors.  Unlike an apple, the red part of you is on the inside.  And now there's more of it.": {
+      "pl": "Jak jabłko masz dwa kolory. W przeciwieństwie do jabłka czerwona część jest u ciebie w środku. I teraz jest jej więcej.",
+      "contexts": [
+        "data.json:effects.food_applepie.description"
+      ],
+      "category": "effects"
+    },
+    "Literacy Hot Dog": {
+      "pl": "Literacki hot dog",
+      "contexts": [
+        "data.json:effects.food_hotdog_books.name",
+        "data.json:buckets.item_misc_effecttome_name[96]"
+      ],
+      "category": "effects"
+    },
+    "Magic- and Salad-Infused": {
+      "pl": "Nasączone magią i sałatą",
+      "contexts": [
+        "data.json:effects.food_hedge.name"
+      ],
+      "category": "effects"
+    },
+    "Makin' it Schnappy": {
+      "pl": "Robi schnapsa",
+      "contexts": [
+        "data.json:effects.booze_manly.name"
+      ],
+      "category": "effects"
+    },
+    "Meady and Meaty": {
+      "pl": "Miodowe i Mięsiste",
+      "contexts": [
+        "data.json:effects.booze_mead.name",
+        "data.json:buckets.item_misc_effecttome_name[33]"
+      ],
+      "category": "effects"
+    },
+    "Meated Out": {
+      "pl": "Wymięsiony",
+      "contexts": [
+        "data.json:effects.food_pottedmeat.name",
+        "data.json:buckets.item_misc_effecttome_name[110]"
+      ],
+      "category": "effects"
+    },
+    "Medicinized Insides": {
+      "pl": "Wymedykynowane wnętrzności",
+      "contexts": [
+        "data.json:effects.potion_oopsall_internal.name"
+      ],
+      "category": "effects"
+    },
+    "Menudid": {
+      "pl": "Flaczkowy",
+      "contexts": [
+        "data.json:effects.food_menudo.name",
+        "data.json:buckets.item_misc_effecttome_name[106]"
+      ],
+      "category": "effects"
+    },
+    "Mercurial": {
+      "pl": "Kapryśny",
+      "contexts": [
+        "data.json:effects.booze_micro_cook.name",
+        "data.json:buckets.item_misc_effecttome_name[39]"
+      ],
+      "category": "effects"
+    },
+    "Milk-Eyed": {
+      "pl": "Mlecznooki",
+      "contexts": [
+        "data.json:effects.potion_cowmilk.name",
+        "data.json:buckets.item_misc_effecttome_name[139]"
+      ],
+      "category": "effects"
+    },
+    "Miner's Alertness": {
+      "pl": "Górnicza czujność",
+      "contexts": [
+        "data.json:effects.booze_minerscoffee.name",
+        "data.json:buckets.item_misc_effecttome_name[42]"
+      ],
+      "category": "effects"
+    },
+    "Mirrorbeaned": {
+      "pl": "Lustrofasolowany",
+      "contexts": [
+        "data.json:effects.food_beans9.name",
+        "data.json:buckets.item_misc_effecttome_name[67]"
+      ],
+      "category": "effects"
+    },
+    "Moonshine-Struck": {
+      "pl": "Samogon-Oczarowany",
+      "contexts": [
+        "data.json:effects.booze_moonshine.name",
+        "data.json:buckets.item_misc_effecttome_name[43]"
+      ],
+      "category": "effects"
+    },
+    "Mussel Milked": {
+      "pl": "Małż wydojony",
+      "contexts": [
+        "data.json:effects.potion_goblinmusselmilk.name",
+        "data.json:buckets.item_misc_effecttome_name[147]"
+      ],
+      "category": "effects"
+    },
+    "New Amsterdamned": {
+      "pl": "Nowo-Przeklęty",
+      "contexts": [
+        "data.json:effects.booze_cocktail3.name",
+        "data.json:buckets.item_misc_effecttome_name[17]"
+      ],
+      "category": "effects"
+    },
+    "New Fashioned": {
+      "pl": "Nowomodny",
+      "contexts": [
+        "data.json:effects.booze_cocktail1.name",
+        "data.json:items.booze_cocktail1.name",
+        "data.json:buckets.item_misc_effecttome_name[15]"
+      ],
+      "category": "effects"
+    },
+    "Nuffin": {
+      "pl": "Nici",
+      "contexts": [
+        "data.json:effects.food_guffin.name",
+        "data.json:buckets.item_misc_effecttome_name[91]"
+      ],
+      "category": "effects"
+    },
+    "O For-Tuna": {
+      "pl": "O for-tunę",
+      "contexts": [
+        "data.json:effects.food_tuna.name",
+        "data.json:buckets.item_misc_effecttome_name[118]"
+      ],
+      "category": "effects"
+    },
+    "Oiled and Leathered": {
+      "pl": "Naoliwione i Obskórzone",
+      "contexts": [
+        "data.json:effects.food_house1.name"
+      ],
+      "category": "effects"
+    },
+    "Olive-Ginned-Up": {
+      "pl": "Oliwkowo-Napojony",
+      "contexts": [
+        "data.json:effects.booze_cocktail2.name",
+        "data.json:buckets.item_misc_effecttome_name[16]"
+      ],
+      "category": "effects"
+    },
+    "One Good Apple": {
+      "pl": "Jedno dobre jabłko",
+      "contexts": [
+        "data.json:effects.food_apple.name",
+        "data.json:buckets.item_misc_effecttome_name[56]"
+      ],
+      "category": "effects"
+    },
+    "Patently Energized": {
+      "pl": "Patentowo pobudzony",
+      "contexts": [
+        "data.json:effects.potion_oiler1b.name",
+        "data.json:buckets.item_misc_effecttome_name[157]"
+      ],
+      "category": "effects"
+    },
+    "Patently Invulnerable": {
+      "pl": "Patentowo niewrażliwy",
+      "contexts": [
+        "data.json:effects.potion_oiler2b.name",
+        "data.json:buckets.item_misc_effecttome_name[160]"
+      ],
+      "category": "effects"
+    },
+    "Patently Livered": {
+      "pl": "Patentowo wątrobiony",
+      "contexts": [
+        "data.json:effects.potion_oiler2.name",
+        "data.json:buckets.item_misc_effecttome_name[158]"
+      ],
+      "category": "effects"
+    },
+    "Patently Moisturized": {
+      "pl": "Patentowo nawilżony",
+      "contexts": [
+        "data.json:effects.potion_oiler1.name",
+        "data.json:buckets.item_misc_effecttome_name[155]"
+      ],
+      "category": "effects"
+    },
+    "Patently Visionary": {
+      "pl": "Patentowo wizjonerski",
+      "contexts": [
+        "data.json:effects.potion_oiler2a.name",
+        "data.json:buckets.item_misc_effecttome_name[159]"
+      ],
+      "category": "effects"
+    },
+    "Patently Vital": {
+      "pl": "Patentowo witalny",
+      "contexts": [
+        "data.json:effects.potion_oiler1a.name",
+        "data.json:buckets.item_misc_effecttome_name[156]"
+      ],
+      "category": "effects"
+    },
+    "People are strange when you're a stranger, and they're even stranger when you're a <i>drunk</i> stranger.": {
+      "pl": "Ludzie są dziwni, gdy jesteś obcym, a jeszcze dziwniejsi, gdy jesteś <i>pijanym</i> obcym.",
+      "contexts": [
+        "data.json:effects.booze_micro_curiosity.description"
+      ],
+      "category": "effects"
+    },
+    "Peppermint Eyes": {
+      "pl": "Miętowe oczy",
+      "contexts": [
+        "data.json:effects.potion_candy5.name",
+        "data.json:buckets.item_misc_effecttome_name[131]"
+      ],
+      "category": "effects"
+    },
+    "Picture of You": {
+      "pl": "Twój portret",
+      "contexts": [
+        "data.json:effects.portraiteffect.name",
+        "data.json:buckets.item_misc_effecttome_name[124]"
+      ],
+      "category": "effects"
+    },
+    "Plum Exuberant": {
+      "pl": "Śliwkowa ekspansja",
+      "contexts": [
+        "data.json:effects.food_plumpudding.name",
+        "data.json:buckets.item_misc_effecttome_name[109]"
+      ],
+      "category": "effects"
+    },
+    "Powah'd by Chowdah": {
+      "pl": "Napędzane chowdah",
+      "contexts": [
+        "data.json:effects.food_wienah2.name",
+        "data.json:buckets.item_misc_effecttome_name[121]"
+      ],
+      "category": "effects"
+    },
+    "Powdered Sugar": {
+      "pl": "Cukier puder",
+      "contexts": [
+        "data.json:effects.potion_housecandy3.name"
+      ],
+      "category": "effects"
+    },
+    "Pronto": {
+      "pl": "Migiem",
+      "contexts": [
+        "data.json:effects.booze_micro_boots.name",
+        "data.json:buckets.item_misc_effecttome_name[38]"
+      ],
+      "category": "effects"
+    },
+    "Purity of Glands": {
+      "pl": "Czystość gruczołów",
+      "contexts": [
+        "data.json:effects.purityofglands.name",
+        "data.json:buckets.item_misc_effecttome_name[171]"
+      ],
+      "category": "effects"
+    },
+    "Purity of Guts": {
+      "pl": "Czystość wnętrzności",
+      "contexts": [
+        "data.json:effects.purityofguts.name",
+        "data.json:buckets.item_misc_effecttome_name[172]"
+      ],
+      "category": "effects"
+    },
+    "Raised Steaks": {
+      "pl": "Podniesione steki",
+      "contexts": [
+        "data.json:effects.food_cowsteak.name",
+        "data.json:buckets.item_misc_effecttome_name[77]"
+      ],
+      "category": "effects"
+    },
+    "Raisin Awareness": {
+      "pl": "Rodzynkowa świadomość",
+      "contexts": [
+        "data.json:effects.food_custard2.name",
+        "data.json:buckets.item_misc_effecttome_name[80]"
+      ],
+      "category": "effects"
+    },
+    "Raisin' Heck": {
+      "pl": "Rodzynkowy chaos",
+      "contexts": [
+        "data.json:effects.food_raisins.name",
+        "data.json:buckets.item_misc_effecttome_name[111]"
+      ],
+      "category": "effects"
+    },
+    "Ranch Dressed": {
+      "pl": "Ranch Dressing",
+      "contexts": [
+        "data.json:effects.potion_rancher2.name",
+        "data.json:buckets.item_misc_effecttome_name[164]"
+      ],
+      "category": "effects"
+    },
+    "Ranch Punching": {
+      "pl": "Ranczowe okładanie",
+      "contexts": [
+        "data.json:effects.booze_rancher.name",
+        "data.json:buckets.item_misc_effecttome_name[50]"
+      ],
+      "category": "effects"
+    },
+    "Ranchers mostly dealt with depression by hitting things.": {
+      "pl": "Rancherzy radzili sobie z depresją głównie przez walenie w rzeczy.",
+      "contexts": [
+        "data.json:effects.potion_rancher.description"
+      ],
+      "category": "effects"
+    },
+    "Reading rare and mystical scrolls has increased your perception of all the stuff there is in the universe, not to mention all the stuff there is on the ground.": {
+      "pl": "Czytanie rzadkich i mistycznych zwojów zwiększyło twoją percepcję wszystkiego, co jest we wszechświecie — nie mówiąc o wszystkim, co leży na ziemi.",
+      "contexts": [
+        "data.json:effects.cowls_tomeread.description"
+      ],
+      "category": "effects"
+    },
+    "Ripped": {
+      "pl": "Rozwalony",
+      "contexts": [
+        "data.json:effects.booze_grave.name",
+        "data.json:buckets.item_misc_effecttome_name[28]"
+      ],
+      "category": "effects"
+    },
+    "Rooted": {
+      "pl": "Zakorzeniony",
+      "contexts": [
+        "data.json:effects.potion_rootbeer.name",
+        "data.json:buckets.item_misc_effecttome_name[165]"
+      ],
+      "category": "effects"
+    },
+    "Rum Rummager": {
+      "pl": "Przeszukiwacz rumu",
+      "contexts": [
+        "data.json:effects.booze_elv.name",
+        "data.json:buckets.item_misc_effecttome_name[21]"
+      ],
+      "category": "effects"
+    },
+    "Saspawhatever": {
+      "pl": "Saspacośtam",
+      "contexts": [
+        "data.json:effects.potion_sarsaparilla.name",
+        "data.json:buckets.item_misc_effecttome_name[166]"
+      ],
+      "category": "effects"
+    },
+    "Saucy Doggin'": {
+      "pl": "Pikantny hot dog",
+      "contexts": [
+        "data.json:effects.food_hotdog3.name",
+        "data.json:buckets.item_misc_effecttome_name[95]"
+      ],
+      "category": "effects"
+    },
+    "Sausage-Fortified Blood": {
+      "pl": "Kiełbasowe wzmocnienie krwi",
+      "contexts": [
+        "data.json:effects.food_bloodsausage.name",
+        "data.json:buckets.item_misc_effecttome_name[69]"
+      ],
+      "category": "effects"
+    },
+    "Schnappy Dresser": {
+      "pl": "Sznapsowy szyk",
+      "contexts": [
+        "data.json:effects.booze_oiler2.name",
+        "data.json:buckets.item_misc_effecttome_name[47]"
+      ],
+      "category": "effects"
+    },
+    "Scroll Up": {
+      "pl": "Przewiń w górę",
+      "contexts": [
+        "data.json:effects.cowls_tomeread.name"
+      ],
+      "category": "effects"
+    },
+    "Shockweeded": {
+      "pl": "Shockweedowany",
+      "contexts": [
+        "data.json:effects.potion_shockweed.name",
+        "data.json:buckets.item_misc_effecttome_name[167]"
+      ],
+      "category": "effects"
+    },
+    "Shot Full of Pie Holes": {
+      "pl": "Pełen dziur po tarcie",
+      "contexts": [
+        "data.json:effects.food_leadpie.name"
+      ],
+      "category": "effects"
+    },
+    "Sleeping in those metal pants made your night more restful than usual, and gave your polluted glands a chance to heal a little.": {
+      "pl": "Spanie w tych metalowych spodniach sprawiło, że noc była spokojniejsza niż zwykle, a zanieczyszczonym gruczołom dało się trochę zagoić.",
+      "contexts": [
+        "data.json:effects.purityofglands.description"
+      ],
+      "category": "effects"
+    },
+    "Slightly Ghostly": {
+      "pl": "Lekko upiorny",
+      "contexts": [
+        "data.json:effects.potion_bitoectoplasm.name",
+        "data.json:buckets.item_misc_effecttome_name[125]"
+      ],
+      "category": "effects"
+    },
+    "Slop-Fed": {
+      "pl": "Karmiony odpadami",
+      "contexts": [
+        "data.json:effects.food_slop.name",
+        "data.json:buckets.item_misc_effecttome_name[113]"
+      ],
+      "category": "effects"
+    },
+    "Slow and steady, and impervious to harm from above or behind.": {
+      "pl": "Powoli i pewnie, odporny na ciosy z góry i z tyłu.",
+      "contexts": [
+        "data.json:effects.boon_skeleton2.description"
+      ],
+      "category": "effects"
+    },
+    "Smile, and the whole world is jealous of how nice your teeth look.": {
+      "pl": "Uśmiechnij się, a cały świat będzie zazdrościł, jak ładne masz zęby.",
+      "contexts": [
+        "data.json:effects.potion_toothpowder.description"
+      ],
+      "category": "effects"
+    },
+    "Snake Shellacked": {
+      "pl": "Wężowy Shellak",
+      "contexts": [
+        "data.json:effects.booze_oiler2a.name",
+        "data.json:buckets.item_misc_effecttome_name[48]"
+      ],
+      "category": "effects"
+    },
+    "Snake-Stewed": {
+      "pl": "Wężowe duszone",
+      "contexts": [
+        "data.json:effects.food_stewedsnake.name",
+        "data.json:buckets.item_misc_effecttome_name[117]"
+      ],
+      "category": "effects"
+    },
+    "Snakewine Fortified": {
+      "pl": "Wzmocnione wężowe wino",
+      "contexts": [
+        "data.json:effects.booze_oiler1a.name",
+        "data.json:buckets.item_misc_effecttome_name[45]"
+      ],
+      "category": "effects"
+    },
+    "Soda Crackin'": {
+      "pl": "Krakersowanie",
+      "contexts": [
+        "data.json:effects.food_sodacrackers.name",
+        "data.json:buckets.item_misc_effecttome_name[114]"
+      ],
+      "category": "effects"
+    },
+    "Soda Hardened": {
+      "pl": "Utwardzone sodą",
+      "contexts": [
+        "data.json:effects.booze_hardsarsaparilla.name",
+        "data.json:buckets.item_misc_effecttome_name[32]"
+      ],
+      "category": "effects"
+    },
+    "Some of the gold from those beans has made it to your retinas, because everything looks golden.  Either that or the metal poisoning is starting to affect the visual cortex of your brain.  Either way, you want more stuff.": {
+      "pl": "Część złota z tych fasol trafiła do twoich siatkówek, bo wszystko wygląda na złote. Albo zatrucie metalem zaczyna wpływać na korę wzrokową mózgu. Tak czy inaczej, chcesz więcej rzeczy.",
+      "contexts": [
+        "data.json:effects.food_beans8.description"
+      ],
+      "category": "effects"
+    },
+    "Sore": {
+      "pl": "Obolały",
+      "contexts": [
+        "data.json:effects.sore.name"
+      ],
+      "category": "effects"
+    },
+    "Sparkling": {
+      "pl": "Musujący",
+      "contexts": [
+        "data.json:effects.potion_elv.name",
+        "data.json:buckets.item_misc_effecttome_name[140]"
+      ],
+      "category": "effects"
+    },
+    "Speaking in Tongues": {
+      "pl": "Mówienie językami",
+      "contexts": [
+        "data.json:effects.food_cowtongue.name",
+        "data.json:buckets.item_misc_effecttome_name[78]"
+      ],
+      "category": "effects"
+    },
+    "Spiritus Anguis": {
+      "pl": "Spiritus Anguis",
+      "contexts": [
+        "data.json:effects.booze_oiler2b.name",
+        "data.json:buckets.item_misc_effecttome_name[49]"
+      ],
+      "category": "effects"
+    },
+    "Sprinkled with Stardust": {
+      "pl": "Posypane gwiezdnym pyłem",
+      "contexts": [
+        "data.json:effects.potion_stardust.name",
+        "data.json:buckets.item_misc_effecttome_name[169]"
+      ],
+      "category": "effects"
+    },
+    "Steeled": {
+      "pl": "Utwardzony",
+      "contexts": [
+        "data.json:effects.potion_housecandy1.name"
+      ],
+      "category": "effects"
+    },
+    "Stunk Up": {
+      "pl": "Przesiąknięty smrodem",
+      "contexts": [
+        "data.json:effects.potion_cheapcigar.name",
+        "data.json:buckets.item_misc_effecttome_name[132]"
+      ],
+      "category": "effects"
+    },
+    "Sucking on that lollipop really made you think:  \"Why am I doing this?\"": {
+      "pl": "Ssanie tego lizaka naprawdę skłoniło cię do myśli: „Po co ja to robię?”",
+      "contexts": [
+        "data.json:effects.potion_goblinlollipop.description"
+      ],
+      "category": "effects"
+    },
+    "Sugar Gunslinger": {
+      "pl": "Cukrowy rewolwerowiec",
+      "contexts": [
+        "data.json:effects.potion_candy3.name",
+        "data.json:buckets.item_misc_effecttome_name[129]"
+      ],
+      "category": "effects"
+    },
+    "Sugared Pork Snout": {
+      "pl": "Cukrowy ryj wieprzowy",
+      "contexts": [
+        "data.json:effects.potion_candy4.name",
+        "data.json:buckets.item_misc_effecttome_name[130]"
+      ],
+      "category": "effects"
+    },
+    "Sugared-Up": {
+      "pl": "Nasłodzony",
+      "contexts": [
+        "data.json:effects.food_house2.name"
+      ],
+      "category": "effects"
+    },
+    "Surgical Gin Precision": {
+      "pl": "Precyzja chirurgicznego ginu",
+      "contexts": [
+        "data.json:effects.booze_surgicalgin.name",
+        "data.json:buckets.item_misc_effecttome_name[54]"
+      ],
+      "category": "effects"
+    },
+    "Tack Hard": {
+      "pl": "Twardy suchar",
+      "contexts": [
+        "data.json:effects.food_hardtack.name",
+        "data.json:buckets.item_misc_effecttome_name[92]"
+      ],
+      "category": "effects"
+    },
+    "Tainted bovine blood is mooooooving through your veins.": {
+      "pl": "Skażona wołowa krew przepływa przez twoje żyły — muuuu.",
+      "contexts": [
+        "data.json:effects.potion_cowblood.description"
+      ],
+      "category": "effects"
+    },
+    "Temporary Tumor": {
+      "pl": "Tymczasowy guz",
+      "contexts": [
+        "data.json:effects.booze_rockwhiskey.name",
+        "data.json:buckets.item_misc_effecttome_name[51]"
+      ],
+      "category": "effects"
+    },
+    "Tequila!": {
+      "pl": "Tequila!",
+      "contexts": [
+        "data.json:effects.booze_cheaptequila.name",
+        "data.json:buckets.item_misc_effecttome_name[12]"
+      ],
+      "category": "effects"
+    },
+    "That beer makes you want to get up and dance, just so everybody else can finally understand what a good dancer you are.": {
+      "pl": "To piwo sprawia, że chcesz wstać i tańczyć, żeby wszyscy wreszcie zrozumieli, jaki jesteś dobrym tancerzem.",
+      "contexts": [
+        "data.json:effects.booze_micro3.description"
+      ],
+      "category": "effects"
+    },
+    "That beer makes you want to stand up and expound at length on all the subjects you're an expert in, all of a sudden.": {
+      "pl": "To piwo nagle sprawia, że chcesz wstać i długo wykładać o wszystkich tematach, w których jesteś ekspertem.",
+      "contexts": [
+        "data.json:effects.booze_micro2.description"
+      ],
+      "category": "effects"
+    },
+    "That beer makes you want to stand up and invite people to punch you.": {
+      "pl": "To piwo sprawia, że chcesz wstać i zaprosić ludzi, żeby cię uderzyli.",
+      "contexts": [
+        "data.json:effects.booze_micro_tanner.description"
+      ],
+      "category": "effects"
+    },
+    "That beer makes you want to stand up and shout for everybody to look at how good you are at sports.": {
+      "pl": "To piwo sprawia, że chcesz wstać i krzyczeć, żeby wszyscy patrzyli, jaki jesteś dobry w sporcie.",
+      "contexts": [
+        "data.json:effects.booze_micro1.description"
+      ],
+      "category": "effects"
+    },
+    "That beer you drank has imbued you with the natural hardiness of the cactus.": {
+      "pl": "To piwo, które wypiłeś, napełniło cię naturalną wytrzymałością kaktusa.",
+      "contexts": [
+        "data.json:effects.booze_cactusbeer.description"
+      ],
+      "category": "effects"
+    },
+    "That candy lit a fire just above your ass, which is having more or less the same effect as a fire under it.": {
+      "pl": "Ten cukierek rozpalił ogień tuż nad twoim tyłkiem, co ma mniej więcej ten sam efekt co ogień pod nim.",
+      "contexts": [
+        "data.json:effects.potion_housecandy2.description"
+      ],
+      "category": "effects"
+    },
+    "That coffee was every bit as good as you anticipated.": {
+      "pl": "Ta kawa była dokładnie tak dobra, jak się spodziewałeś.",
+      "contexts": [
+        "data.json:effects.potion_perfectcoffee.description"
+      ],
+      "category": "effects"
+    },
+    "That goblin mescal is singing in your brain.  The singing is off key, which is distracting most of the other parts of your brain.": {
+      "pl": "Ten goblini mezcal śpiewa w twoim mózgu. Śpiew jest fałszywy, co rozprasza większość reszty mózgu.",
+      "contexts": [
+        "data.json:effects.booze_goblinmescal.description"
+      ],
+      "category": "effects"
+    },
+    "That guffin didn't do anything at all.": {
+      "pl": "Ten guffin w ogóle nic nie zrobił.",
+      "contexts": [
+        "data.json:effects.food_guffin.description"
+      ],
+      "category": "effects"
+    },
+    "That large bean disguised as a hot dog you ate has increased your Mystical connection with beans, beans, the magical fruit.": {
+      "pl": "Ta wielka fasola przebrana za hot doga zwiększyła twoje mistyczne połączenie z fasolami, fasolami, magicznym owocem.",
+      "contexts": [
+        "data.json:effects.food_wienah1.description"
+      ],
+      "category": "effects"
+    },
+    "That leather hot dog has got you running at full tilt toward the nearest outhouse.": {
+      "pl": "Ten skórzany hot dog kieruje cię pełną parą w stronę najbliższego wychodka.",
+      "contexts": [
+        "data.json:effects.food_hotdog_boots.description"
+      ],
+      "category": "effects"
+    },
+    "That magically tainted whiskey has given you a temporary boost to your brain power (and brain mass) and will almost certainly not have any lasting negative consequences.": {
+      "pl": "Ten magicznie skażony whiskey dał ci tymczasowy wzrost mocy mózgu (i masy mózgu) i prawie na pewno nie będzie miał trwałych negatywnych skutków.",
+      "contexts": [
+        "data.json:effects.booze_rockwhiskey.description"
+      ],
+      "category": "effects"
+    },
+    "That moonshine you drank represents everything that's bad about alcohol in equal measure.  It's a good thing you're drunk, or you might be moved to take up temperance!": {
+      "pl": "Ten bimber, który wypiłeś, reprezentuje w równym stopniu wszystko, co złe w alkoholu. Dobrze, że jesteś pijany, bo inaczej mógłbyś wziąć się za abstynencję!",
+      "contexts": [
+        "data.json:effects.booze_moonshine.description"
+      ],
+      "category": "effects"
+    },
+    "That potted meat stuff turned out to actually be pretty good!": {
+      "pl": "To mięso w puszce okazało się naprawdę całkiem dobre!",
+      "contexts": [
+        "data.json:effects.food_pottedmeat.description"
+      ],
+      "category": "effects"
+    },
+    "That raisin custard gives your brain the sugar it needs to function more effectively.": {
+      "pl": "Ten budyń z rodzynkami daje twojemu mózgowi cukier, którego potrzebuje, by działać skuteczniej.",
+      "contexts": [
+        "data.json:effects.food_custard2.description"
+      ],
+      "category": "effects"
+    },
+    "That sandwich made you feel weird.": {
+      "pl": "Ta kanapka sprawiła, że czujesz się dziwnie.",
+      "contexts": [
+        "data.json:effects.food_goblinsandwich.description"
+      ],
+      "category": "effects"
+    },
+    "That sausage tasted funny, but not as funny as your goofs and gags!": {
+      "pl": "Ta kiełbasa smakowała dziwnie, ale nie tak dziwnie jak twoje głupstwa i żarty!",
+      "contexts": [
+        "data.json:effects.food_clownsausage.description"
+      ],
+      "category": "effects"
+    },
+    "That seltzer you drank has got every aspect of your being sparkling.": {
+      "pl": "Ta woda gazowana, którą wypiłeś, sprawiła, że każdy aspekt twojego istnienia lśni.",
+      "contexts": [
+        "data.json:effects.potion_elv.description"
+      ],
+      "category": "effects"
+    },
+    "That sugar cookie really got your blood vibrating.": {
+      "pl": "To ciastko cukrowe naprawdę sprawiło, że twoja krew wibruje.",
+      "contexts": [
+        "data.json:effects.food_house2.description"
+      ],
+      "category": "effects"
+    },
+    "That time you spent with a mouthful of cot has really taught you what's important in life: keeping your mouth tightly closed so no more mouthfuls of cot can get in there. ": {
+      "pl": "Czas spędzony z ustami pełnymi waty naprawdę nauczył cię, co jest ważne w życiu: trzymać usta mocno zamknięte, żeby więcej waty tam nie wpadło. ",
+      "contexts": [
+        "data.json:effects.cotinmouthed.description"
+      ],
+      "category": "effects"
+    },
+    "That vile fluid made you so angry you could punch...  well, you could punch just about anything.": {
+      "pl": "Ten podły płyn sprawił, że jesteś tak wściekły, że mógłbyś uderzyć... no, mógłbyś uderzyć prawie cokolwiek.",
+      "contexts": [
+        "data.json:effects.booze_rancher.description"
+      ],
+      "category": "effects"
+    },
+    "That whiskey you drank has whisked your blood into a medium-strength frenzy.": {
+      "pl": "Ten whiskey, który wypiłeś, wprowadził twoją krew w szaleństwo średniej intensywności.",
+      "contexts": [
+        "data.json:effects.booze_decentwhiskey.description"
+      ],
+      "category": "effects"
+    },
+    "Thaumomorphic Awareness": {
+      "pl": "Taumomorficzna świadomość",
+      "contexts": [
+        "data.json:effects.sell_hexgem.name",
+        "data.json:buckets.item_misc_effecttome_name[173]"
+      ],
+      "category": "effects"
+    },
+    "The beer-battered hot dog you ate is now protecting you from the inside out.": {
+      "pl": "Hot dog w piwnym cieście, którego zjadłeś, chroni cię teraz od środka.",
+      "contexts": [
+        "data.json:effects.food_hotdog_brewery.description"
+      ],
+      "category": "effects"
+    },
+    "The bubbles in that cider have gone to your head, and the arsenic in it has gone to the rest of you.": {
+      "pl": "Bąbelki w tym cydrze uderzyły ci do głowy, a arsen w resztę ciebie.",
+      "contexts": [
+        "data.json:effects.booze_goblincider.description"
+      ],
+      "category": "effects"
+    },
+    "The fluid you've retained because of the salt in that hot dog has made it so your brain is the exact right size for your skull.": {
+      "pl": "Płyn, który zatrzymałeś przez sól w tym hot dogu, sprawił, że twój mózg ma idealny rozmiar do czaszki.",
+      "contexts": [
+        "data.json:effects.food_hotdog2.description"
+      ],
+      "category": "effects"
+    },
+    "The Green Goblin": {
+      "pl": "Zielony goblin",
+      "contexts": [
+        "data.json:effects.booze_goblinabsinthe.name"
+      ],
+      "category": "effects"
+    },
+    "The grits stuck deep in the cracks between your teeth remind you of the grit stuck deep in your spirit.": {
+      "pl": "Kasza kukurydziana utknięta głęboko między zębami przypomina twardziel tkwiącą głęboko w duszy.",
+      "contexts": [
+        "data.json:effects.food_instantgrits.description"
+      ],
+      "category": "effects"
+    },
+    "The gunpowder in that candy is really helping to steady your aim.": {
+      "pl": "Proch w tym cukierku naprawdę pomaga ustabilizować celowanie.",
+      "contexts": [
+        "data.json:effects.potion_candy3.description"
+      ],
+      "category": "effects"
+    },
+    "The smoothness of the chocolate custard you ate has smoothed out your entire demeanor.": {
+      "pl": "Gładkość czekoladowego budyniu, który zjadłeś, wygładziła całą twoją postawę.",
+      "contexts": [
+        "data.json:effects.food_custard3.description"
+      ],
+      "category": "effects"
+    },
+    "There's a fire in your belly, and it wants out.": {
+      "pl": "W brzuchu masz ogień i chce wyjść.",
+      "contexts": [
+        "data.json:effects.food_blackbeans.description"
+      ],
+      "category": "effects"
+    },
+    "They can smell you coming a mile away, and they love it!": {
+      "pl": "Wyczują cię z mili stąd — i im się to podoba!",
+      "contexts": [
+        "data.json:effects.potion_cologne.description"
+      ],
+      "category": "effects"
+    },
+    "They're very pure!": {
+      "pl": "Są bardzo czyste!",
+      "contexts": [
+        "data.json:effects.purityofglands.code.bluetext"
+      ],
+      "category": "effects"
+    },
+    "Thinking Beans": {
+      "pl": "Myślące fasole",
+      "contexts": [
+        "data.json:effects.food_beans1.name",
+        "data.json:buckets.item_misc_effecttome_name[59]"
+      ],
+      "category": "effects"
+    },
+    "This is here so these flakes won't show up in my report about foods without matching effects.\r\n\r\nXOXO,\r\nZack": {
+      "pl": "To tu po to, żeby te płatki nie trafiły do mojego raportu o jedzeniu bez pasujących efektów.\r\n\r\nCałusy,\r\nZack",
+      "contexts": [
+        "data.json:effects.food_kelloggflakes.description"
+      ],
+      "category": "effects"
+    },
+    "Those black beans have blackened your arts substantially.  And your arts were already pretty black to begin with.": {
+      "pl": "Te czarne fasole znacznie ściemniły twoje sztuki. A i tak były już całkiem czarne.",
+      "contexts": [
+        "data.json:effects.food_beans2.description"
+      ],
+      "category": "effects"
+    },
+    "Those gin blossoms made you angry enough to punch a fella all the way to Allison Road, which is a road over in Tulsa.": {
+      "pl": "Te rumiane plamki zdenerwowały cię na tyle, że uderzyłeś gościa aż do Allison Road, drogi w Tulsa.",
+      "contexts": [
+        "data.json:effects.booze_blossomgin.description"
+      ],
+      "category": "effects"
+    },
+    "Those little sugared balls you ate have made everything smell like meat, especially Meat.": {
+      "pl": "Te małe cukrowe kulki sprawiły, że wszystko pachnie mięsem — zwłaszcza Mięsem.",
+      "contexts": [
+        "data.json:effects.potion_candy4.description"
+      ],
+      "category": "effects"
+    },
+    "Tombstoned": {
+      "pl": "Nagrobkowany",
+      "contexts": [
+        "data.json:effects.food_pizza.name",
+        "data.json:buckets.item_misc_effecttome_name[108]"
+      ],
+      "category": "effects"
+    },
+    "Tripe Pied": {
+      "pl": "Placek z flaków",
+      "contexts": [
+        "data.json:effects.food_meatpie.name",
+        "data.json:buckets.item_misc_effecttome_name[105]"
+      ],
+      "category": "effects"
+    },
+    "Turnip Fueled": {
+      "pl": "Napędzany rzepą",
+      "contexts": [
+        "data.json:effects.food_turnip.name",
+        "data.json:buckets.item_misc_effecttome_name[119]"
+      ],
+      "category": "effects"
+    },
+    "Unlike rum of human origin, that stuff clarified your vision and increased your overall level of motivation to succeed.": {
+      "pl": "W przeciwieństwie do rumu ludzkiego pochodzenia, ta breja wyjaśniła ci wizję i zwiększyła motywację do sukcesu.",
+      "contexts": [
+        "data.json:effects.booze_elv.description"
+      ],
+      "category": "effects"
+    },
+    "Very Clean Teeth": {
+      "pl": "Bardzo czyste zęby",
+      "contexts": [
+        "data.json:effects.potion_toothpowder.name",
+        "data.json:buckets.item_misc_effecttome_name[170]"
+      ],
+      "category": "effects"
+    },
+    "Well, fine wined at least.  You're not really in the mood to dine on account of all the wine you drank.": {
+      "pl": "No, przynajmniej dobrze winowany. Nie masz ochoty na kolację po całym tym winie, które wypiłeś.",
+      "contexts": [
+        "data.json:effects.booze_finewine.description"
+      ],
+      "category": "effects"
+    },
+    "Well, that was definitely the scariest thing that's going to happen to you today.": {
+      "pl": "No, to z pewnością najstraszniejsza rzecz, jaka ci dziś spotka.",
+      "contexts": [
+        "data.json:effects.food_spiderpie.description"
+      ],
+      "category": "effects"
+    },
+    "Well, wined at least.": {
+      "pl": "No, przynajmniej winowany.",
+      "contexts": [
+        "data.json:effects.booze_cheapwine.description"
+      ],
+      "category": "effects"
+    },
+    "Well-Sapped Moustache": {
+      "pl": "Dobrze nasycony wąs",
+      "contexts": [
+        "data.json:effects.potion_moustachesap.name",
+        "data.json:buckets.item_misc_effecttome_name[153]"
+      ],
+      "category": "effects"
+    },
+    "What's up, buttercup?  Your level of butter-coatedness, that's what.": {
+      "pl": "Co słychać, masło? Twój poziom maślaności, o to chodzi.",
+      "contexts": [
+        "data.json:effects.potion_cowbutter.description"
+      ],
+      "category": "effects"
+    },
+    "Whiskey Machismo": {
+      "pl": "Whiskey Machismo",
+      "contexts": [
+        "data.json:effects.booze_cheapwhiskey.name",
+        "data.json:buckets.item_misc_effecttome_name[13]"
+      ],
+      "category": "effects"
+    },
+    "Whiskey Tango Foxtrot": {
+      "pl": "Whiskey Tango Foxtrot",
+      "contexts": [
+        "data.json:effects.booze_armywhiskey.name",
+        "data.json:buckets.item_misc_effecttome_name[8]"
+      ],
+      "category": "effects"
+    },
+    "Who wants to set a bunch of mice on fire with magic and then eat them?  You.": {
+      "pl": "Kto chce podpalić magicznie garść myszy i je zjeść? Ty.",
+      "contexts": [
+        "data.json:effects.boon_skeleton3.description"
+      ],
+      "category": "effects"
+    },
+    "Wined and Dined": {
+      "pl": "Winowany i nakarmiony",
+      "contexts": [
+        "data.json:effects.booze_cheapwine.name",
+        "data.json:buckets.item_misc_effecttome_name[14]"
+      ],
+      "category": "effects"
+    },
+    "Yea, though you walk through the valley of getting poisoned and set on fire and tied up or handcuffed to things, you shall fear none of the above.": {
+      "pl": "Choćbyś przechodził przez dolinę zatrucia, podpalenia i wiązania albo zakucia w kajdanki do rzeczy, niczego z powyższego się nie obawisz.",
+      "contexts": [
+        "data.json:effects.potion_oiler2b.description"
+      ],
+      "category": "effects"
+    },
+    "You accidentally got some peppermint oil in your eyes, and you're seeing all kinds of extra stuff.": {
+      "pl": "Przypadkiem dostałeś olejku miętowego w oczy i widzisz wszelakie dodatkowe rzeczy.",
+      "contexts": [
+        "data.json:effects.potion_candy5.description"
+      ],
+      "category": "effects"
+    },
+    "You are sore.": {
+      "pl": "Jesteś obolały.",
+      "contexts": [
+        "data.json:effects.sore.description"
+      ],
+      "category": "effects"
+    },
+    "You are what you eat, so in this case you're a jumbo hot dog.": {
+      "pl": "Jesteś tym, co jesz, więc w tym przypadku jesteś jumbo hot dogiem.",
+      "contexts": [
+        "data.json:effects.food_hotdog1.description"
+      ],
+      "category": "effects"
+    },
+    "You ate a weird mushroom, and you feel funny.": {
+      "pl": "Zjadłeś dziwny grzyb i czujesz się dziwnie.",
+      "contexts": [
+        "data.json:effects.food_shroom1.description"
+      ],
+      "category": "effects"
+    },
+    "You can see clearly, and you can shoot even more clearly.": {
+      "pl": "Widzisz wyraźnie i strzelasz jeszcze wyraźniej.",
+      "contexts": [
+        "data.json:effects.potion_oiler2a.description"
+      ],
+      "category": "effects"
+    },
+    "You can see every prairie dog within 400 yards of here.  In related news, there are a <i>really</i> surprising number of prairie dogs within 400 yards of here.  Must be a convention or something.": {
+      "pl": "Widzisz każdego preriowego psa w promieniu 400 jardów stąd. Przy okazji: jest tu <i>naprawdę</i> zaskakująco dużo preriowych psów w promieniu 400 jardów. Musi być jakiś kongres czy coś.",
+      "contexts": [
+        "data.json:effects.boon_skeleton5.description"
+      ],
+      "category": "effects"
+    },
+    "You drank an elixir sold to you by a huckster at a medicine show. What does it do? You'll have to figure that out for yourself!": {
+      "pl": "Wypiłeś eliksir od oszusta z medicine show. Co robi? Musisz sam się przekonać!",
+      "contexts": [
+        "data.json:effects.potion_oopsall_internal.description"
+      ],
+      "category": "effects"
+    },
+    "You drank some coffee, and it tasted great great great.  Great!  Great great.": {
+      "pl": "Wypiłeś kawę i smakowała świetnie świetnie świetnie. Świetnie! Świetnie świetnie.",
+      "contexts": [
+        "data.json:effects.potion_goblincoffee.description"
+      ],
+      "category": "effects"
+    },
+    "You eat bullets and spit shrapnel.  Literally.  You just did that exact thing I said.": {
+      "pl": "Jesz pociski i plujesz odłamkami. Dosłownie. Właśnie zrobiłeś dokładnie to, o czym mówiłem.",
+      "contexts": [
+        "data.json:effects.food_leadpie.description"
+      ],
+      "category": "effects"
+    },
+    "You feel a sense of enlightenment and wisdom that you're virtually certain you never could have achieved in an inland state.": {
+      "pl": "Czujesz olśnienie i mądrość, których na pewno nie osiągnąłbyś w stanie odległym od morza.",
+      "contexts": [
+        "data.json:effects.potion_friscopoppy.description"
+      ],
+      "category": "effects"
+    },
+    "You feel as if there is a tiny goblin whispering secrets to you from inside your brain, but there's also one stomping on your left kidney and another one hiding in your shoe.": {
+      "pl": "Czujesz, jakby mały goblin szeptał ci sekrety z wnętrza mózgu, ale jest też jeden tupiący po lewej nerce i jeden chowany w butcie.",
+      "contexts": [
+        "data.json:effects.booze_goblinabsinthe.description"
+      ],
+      "category": "effects"
+    },
+    "You feel like a part of you is missing, and you have a sneaking suspicion that it was stolen by that portrait.  Oh well.  At least it's the weak, vulnerable part.": {
+      "pl": "Czujesz, jakby brakowało części ciebie, i podejrzewasz, że ukradł ją ten portret. Ech. Przynajmniej słaba, wrażliwa część.",
+      "contexts": [
+        "data.json:effects.portraiteffect.description"
+      ],
+      "category": "effects"
+    },
+    "You feel like you could shake a clown to pieces just by holding onto it really tight.": {
+      "pl": "Czujesz, że mógłbyś potrząsnąć klauna na kawałki, trzymając go mocno.",
+      "contexts": [
+        "data.json:effects.boon_skeleton4.description"
+      ],
+      "category": "effects"
+    },
+    "You feel like you could think your way out of any situation right now.  Like even if you accidentally knocked over a whole row of horses and all of their cowboys were really mad at you.": {
+      "pl": "Czujesz, że teraz wymyślisz wyjście z każdej sytuacji. Nawet gdybyś przewrócił cały rząd koni, a kowboje byliby wściekli.",
+      "contexts": [
+        "data.json:effects.booze_cheaptequila.description"
+      ],
+      "category": "effects"
+    },
+    "You feel like you've been replaced by a younger, better looking version of yourself.": {
+      "pl": "Czujesz, jakbyś został zastąpiony młodszą, ładniejszą wersją siebie.",
+      "contexts": [
+        "data.json:effects.food_menudo.description"
+      ],
+      "category": "effects"
+    },
+    "You feel like your physical health has been multiplied by itself, and then multiplied by itself again.": {
+      "pl": "Czujesz, jakby twoje zdrowie fizyczne pomnożyło się przez siebie, a potem jeszcze raz przez siebie.",
+      "contexts": [
+        "data.json:effects.food_elv.description"
+      ],
+      "category": "effects"
+    },
+    "You had to summon up lots of chutzpah to eat that hot dog stuck inside a bowl of clam chowdah, and some of that chutzpah is still hanging around, along with all the chowdah you spilled on yourself while you were eating it. ": {
+      "pl": "Musiałeś zebrać mnóstwo tupetu, żeby zjeść hot doga w misce zupy z małży, i trochę tego tupetu wciąż tu wisi, razem z całą zupą, którą się pobrudziłeś, jedząc ją. ",
+      "contexts": [
+        "data.json:effects.food_wienah2.description"
+      ],
+      "category": "effects"
+    },
+    "You have a weird urge to go do giant snail stuff. It's probably good that you have very little idea what \"giant snail stuff\" means.": {
+      "pl": "Masz dziwną ochotę robić rzeczy wielkiego ślimaka. Chyba dobrze, że ledwo wiesz, co znaczy „rzeczy wielkiego ślimaka”.",
+      "contexts": [
+        "data.json:effects.booze_greatsnail1.description"
+      ],
+      "category": "effects"
+    },
+    "You have to get up <i>pretty early</i> in the morning to get more done than a desert ape, especially because desert apes have a habit of killing anything they find sleeping.": {
+      "pl": "Trzeba wstać <i>całkiem wcześnie</i> rano, żeby zrobić więcej niż pustynna małpa, zwłaszcza że pustynne małpy mają zwyczaj zabijania wszystkiego, co znajdą śpiące.",
+      "contexts": [
+        "data.json:effects.boon_skeleton8.description"
+      ],
+      "category": "effects"
+    },
+    "You just ate the <i>best</i> beans!  And you're not just saying that because you made them yourself.": {
+      "pl": "Właśnie zjadłeś <i>najlepsze</i> fasolki! I nie mówisz tego tylko dlatego, że sam je zrobiłeś.",
+      "contexts": [
+        "data.json:effects.food_beans7.description"
+      ],
+      "category": "effects"
+    },
+    "You just want to grab everything, take it back to your midden, and then roll around in it.": {
+      "pl": "Po prostu chcesz chwycić wszystko, zanieść do swojego śmietniska i się w tym poturlać.",
+      "contexts": [
+        "data.json:effects.boon_skeleton6.description"
+      ],
+      "category": "effects"
+    },
+    "You know what they say: \"Hard soda, hard skin.\"  Or at least that's what they should say, because it's how you feel now.": {
+      "pl": "Mówią: „Twarda soda, twarda skóra.” Albo przynajmniej powinni mówić, bo tak się teraz czujesz.",
+      "contexts": [
+        "data.json:effects.booze_hardsarsaparilla.description"
+      ],
+      "category": "effects"
+    },
+    "You know what you did.": {
+      "pl": "Wiesz, co zrobiłeś.",
+      "contexts": [
+        "data.json:effects.cowpunishment.description"
+      ],
+      "category": "effects"
+    },
+    "You know, on an intellectual level, that mussels are not mammals, but that stuff you drank was <i>definitely</i> milk.  It's confusing.": {
+      "pl": "Wiesz na poziomie intelektualnym, że małże nie są ssakami, ale to, co piłeś, to <i>zdecydowanie</i> było mleko. To mylące.",
+      "contexts": [
+        "data.json:effects.potion_goblinmusselmilk.description"
+      ],
+      "category": "effects"
+    },
+    "You read the entire hot dog!": {
+      "pl": "Czytasz całego hot doga!",
+      "contexts": [
+        "data.json:effects.food_hotdog_books.description"
+      ],
+      "category": "effects"
+    },
+    "You want to dance the night away!  With your first-grade teacher, for some reason...": {
+      "pl": "Chcesz tańczyć całą noc! Z nauczycielką z pierwszej klasy, z jakiegoś powodu...",
+      "contexts": [
+        "data.json:effects.booze_hagar.description"
+      ],
+      "category": "effects"
+    },
+    "You'll be damned if you're gonna take any crap from anybody about that wimpy-looking cocktail you just drank.": {
+      "pl": "Cholera, nie dasz sobą pomiatać nikomu za ten tandetnie wyglądający koktajl, który właśnie wypiłeś.",
+      "contexts": [
+        "data.json:effects.booze_cocktail3.description"
+      ],
+      "category": "effects"
+    },
+    "You're alert and ready to take on your day, as well as anybody who tries to attack you during your day.": {
+      "pl": "Jesteś czujny i gotowy na dzień, a także na każdego, kto spróbuje cię zaatakować w ciągu dnia.",
+      "contexts": [
+        "data.json:effects.potion_coffee.description"
+      ],
+      "category": "effects"
+    },
+    "You're all amped up on the three Ses: saltpetre, sulphur, and sugar.": {
+      "pl": "Jesteś naładowany trzema S: saletrą, siarką i cukrem.",
+      "contexts": [
+        "data.json:effects.potion_housecandy3.description"
+      ],
+      "category": "effects"
+    },
+    "You're all chicoried up.  Ol' Chicory, they call you.  Say, does anybody have any more chicory?  I could use some chicory, chicory, doc.  Chicory!": {
+      "pl": "Jesteś na cykorii. Stary Cykoria, tak ci mówią. Hej, ma ktoś jeszcze cykorii? Przydałaby mi się cykoria, cykoria, Doc. Cykoria!",
+      "contexts": [
+        "data.json:effects.potion_goblinchicory.description"
+      ],
+      "category": "effects"
+    },
+    "You're all liquored up and ready to punch something.": {
+      "pl": "Jesteś na pół i gotowy coś uderzyć.",
+      "contexts": [
+        "data.json:effects.booze_cheapwhiskey.description"
+      ],
+      "category": "effects"
+    },
+    "You're all sugared up and rearin' to go.": {
+      "pl": "Jesteś nasłodzony i gotowy do akcji.",
+      "contexts": [
+        "data.json:effects.food_cottoncandy.description"
+      ],
+      "category": "effects"
+    },
+    "You're almost able to convince yourself that having a belly full of that slop is preferable to being hungry.": {
+      "pl": "Prawie udaje ci się przekonać, że pełny brzuch tej brei lepszy niż głód.",
+      "contexts": [
+        "data.json:effects.food_slop.description"
+      ],
+      "category": "effects"
+    },
+    "You're an expert shooter in every sense.": {
+      "pl": "Jesteś ekspertem strzelectwa w każdym sensie.",
+      "contexts": [
+        "data.json:effects.booze_oiler1.description"
+      ],
+      "category": "effects"
+    },
+    "You're as sugared-up as a kid who broke into a candy store in the dead of night.": {
+      "pl": "Jesteś nasłodzony jak dziecko, które włamało się do sklepu ze słodyczami w środku nocy.",
+      "contexts": [
+        "data.json:effects.booze_manly.description"
+      ],
+      "category": "effects"
+    },
+    "You're at least 10% spider now by volume, you monster.": {
+      "pl": "Jesteś teraz co najmniej w 10% pająkiem objętościowo, potworze.",
+      "contexts": [
+        "data.json:effects.booze_spider.description"
+      ],
+      "category": "effects"
+    },
+    "You're chock full of El Vibrato energy, and you feel like you could take on the whole world.  Partly because you're stronger and smarter and faster, but partly because you're also overconfident.  It's not <i>that</i> big of a boost.": {
+      "pl": "Jesteś pełen energii El Vibrato i czujesz, że mógłbyś stawić czoła całemu światu. Częściowo bo jesteś silniejszy, mądrzejszy i szybszy, ale częściowo też przez przesadną pewność siebie. To nie <i>taki</i> wielki boost.",
+      "contexts": [
+        "data.json:effects.energized.description"
+      ],
+      "category": "effects"
+    },
+    "You're chock full of sausage and gristle, which makes you powerful, but you're also covered with grease, which makes you clumsy.": {
+      "pl": "Jesteś pełen kiełbasek i chrząstek, co cię wzmacnia, ale też pokryty tłuszczem, co cię niezgrabnia.",
+      "contexts": [
+        "data.json:effects.food_goblinbrat.description"
+      ],
+      "category": "effects"
+    },
+    "You're covered in butter, which both facilitates smooth movement and gives your skin a healthy-looking sheen.": {
+      "pl": "Jesteś pokryty masłem, co ułatwia płynny ruch i nadaje skórze zdrowy połysk.",
+      "contexts": [
+        "data.json:effects.food_butterpie.description"
+      ],
+      "category": "effects"
+    },
+    "You're covered with a mentholated ointment from back before the effectiveness of mentholated ointment was cut off at the knees by those clowns in Congress.": {
+      "pl": "Jesteś pokryty maścią mentolową sprzed czasów, gdy skuteczność maści mentolowej została ucięta przez tych klaunów w Kongresie.",
+      "contexts": [
+        "data.json:effects.potion_oldointment.description"
+      ],
+      "category": "effects"
+    },
+    "You're definitely sated, but the rumbling in your guts is both distracting and offensive to bystanders.": {
+      "pl": "Na pewno jesteś najedzony, ale burczenie w brzuchu rozprasza i obraża przechodniów.",
+      "contexts": [
+        "data.json:effects.food_goblinstew.description"
+      ],
+      "category": "effects"
+    },
+    "You're drunk enough to be convinced to fight for almost any cause.": {
+      "pl": "Jesteś na tyle pijany, że da się cię przekonać do walki za prawie każdą sprawę.",
+      "contexts": [
+        "data.json:effects.booze_armywhiskey.description"
+      ],
+      "category": "effects"
+    },
+    "You're equally chock full of roughage and mystical energy.": {
+      "pl": "Jesteś równie pełen błonnika i mistycznej energii.",
+      "contexts": [
+        "data.json:effects.food_hedge.description"
+      ],
+      "category": "effects"
+    },
+    "You're feeling less pain than you normally do.": {
+      "pl": "Czujesz mniej bólu niż zwykle.",
+      "contexts": [
+        "data.json:effects.potion_laudanum.description"
+      ],
+      "category": "effects"
+    },
+    "You're feeling like the kind of jerk who punches people in the face and doesn't even apologize.": {
+      "pl": "Czujesz się jak taki dupek, który bije ludzi w twarz i nawet się nie przeprasza.",
+      "contexts": [
+        "data.json:effects.food_jerky.description"
+      ],
+      "category": "effects"
+    },
+    "You're feeling so muscle-bound right now that if somebody said \"Hey, would anybody here be willing to lift this huge boulder,\" you'd reply \"Me'd do it.\"": {
+      "pl": "Czujesz się tak umięśniony, że gdyby ktoś powiedział „Hej, czy ktoś podniesie ten wielki głaz”, odpowiedziałbyś „Ja to zrobić.”",
+      "contexts": [
+        "data.json:effects.booze_mead.description"
+      ],
+      "category": "effects"
+    },
+    "You're feeling zesty, and you've got the mustard stains on your lips to prove it.": {
+      "pl": "Czujesz się pikantnie, a plamy musztardy na ustach to potwierdzają.",
+      "contexts": [
+        "data.json:effects.food_hotdog3.description"
+      ],
+      "category": "effects"
+    },
+    "You're fortified with hard tack, making it harder to attack you.": {
+      "pl": "Jesteś wzmocniony sucharami, co utrudnia cię atakowanie.",
+      "contexts": [
+        "data.json:effects.food_hardtack.description"
+      ],
+      "category": "effects"
+    },
+    "You're full of nutritious carbohydrates, but your mouth is full of sand so it's hard for you to tell jokes.": {
+      "pl": "Jesteś pełen pożywnych węglowodanów, ale usta masz pełne piasku, więc trudno opowiadać dowcipy.",
+      "contexts": [
+        "data.json:effects.food_goblinflapjacks.description"
+      ],
+      "category": "effects"
+    },
+    "You're going ape over the banana you just ate!": {
+      "pl": "Wariujesz z banana, którego właśnie zjadłeś!",
+      "contexts": [
+        "data.json:effects.food_banana.description"
+      ],
+      "category": "effects"
+    },
+    "You're imbued with the determination and single-mindedness of the walking dead.  Fortunately, you are not also imbued with their hygiene.": {
+      "pl": "Jesteś napełniony determinacją i zaciętością chodzących umarłych. Na szczęście nie ich higieną.",
+      "contexts": [
+        "data.json:effects.booze_grave2.description"
+      ],
+      "category": "effects"
+    },
+    "You're just a little bit past the curtain of this mortal realm, which makes you just a little bit harder to punch.": {
+      "pl": "Jesteś trochę za zasłoną tego śmiertelnego świata, co czyni cię trochę trudniejszym do uderzenia.",
+      "contexts": [
+        "data.json:effects.potion_bitoectoplasm.description"
+      ],
+      "category": "effects"
+    },
+    "You're just plum happy to be here!": {
+      "pl": "Po prostu jesteś szczęśliwy, że tu jesteś!",
+      "contexts": [
+        "data.json:effects.food_plumpudding.description"
+      ],
+      "category": "effects"
+    },
+    "You're madder'n a hornet.\r\nIf your anger level gets higher than @toughness@, you'll pass out from rage.": {
+      "pl": "Jesteś wściekły jak szerszeń.\r\nJeśli poziom złości przekroczy @toughness@, zemdlejesz ze wściekłości.",
+      "contexts": [
+        "data.json:effects.angry.description"
+      ],
+      "category": "effects"
+    },
+    "You're not sure if it's making you stronger, but it's certainly making you <i>look</i> stronger.": {
+      "pl": "Nie wiesz, czy cię wzmacnia, ale na pewno sprawia, że <i>wyglądasz</i> silniej.",
+      "contexts": [
+        "data.json:effects.potion_hogoil.description"
+      ],
+      "category": "effects"
+    },
+    "You're only half there, because the other half of you is in the spirit realm trying to digest that pickle you ate.": {
+      "pl": "Jesteś tylko w połowie tu, bo druga połowa jest w świecie duchów i trawi ogórka, którego zjadłeś.",
+      "contexts": [
+        "data.json:effects.food_ghostpickle.description"
+      ],
+      "category": "effects"
+    },
+    "You're properly anaesthetized.": {
+      "pl": "Jesteś właściwie znieczulony.",
+      "contexts": [
+        "data.json:effects.booze_surgicalgin.description"
+      ],
+      "category": "effects"
+    },
+    "You're reasonably drunk on reasonably good tequila. It makes reasoning easier, and more fun!": {
+      "pl": "Jesteś rozsądnie pijany rozsądnie dobrą tequilą. Rozumowanie jest łatwiejsze i fajniejsze!",
+      "contexts": [
+        "data.json:effects.booze_decenttequila.description"
+      ],
+      "category": "effects"
+    },
+    "You're relaxed and jittery in equal measure.": {
+      "pl": "Jesteś równocześnie zrelaksowany i nerwowy.",
+      "contexts": [
+        "data.json:effects.booze_minerscoffee.description"
+      ],
+      "category": "effects"
+    },
+    "You're seeing the world through the eyes of a cat.  Cats see the world as very slightly more magical than we do, as it turns out.": {
+      "pl": "Widzisz świat oczami kota. Koty widzą świat odrobinę bardziej magicznie niż my, okazuje się.",
+      "contexts": [
+        "data.json:effects.potion_candy2.description"
+      ],
+      "category": "effects"
+    },
+    "You're shellacked in both the \"drunk\" and the \"covered in a layer of hard resin\" senses.": {
+      "pl": "Jesteś oszelakowany, i to zarówno w sensie „pijany”, jak i „pokryty warstwą twardej żywicy”.",
+      "contexts": [
+        "data.json:effects.booze_oiler2a.description"
+      ],
+      "category": "effects"
+    },
+    "You're so hopped up on coffee that it might be more accurately described as leapt up.": {
+      "pl": "Jesteś tak nakręcony kawą, że trafniej byłoby powiedzieć, że wręcz podskakujesz.",
+      "contexts": [
+        "data.json:effects.potion_fancycoffee.description"
+      ],
+      "category": "effects"
+    },
+    "You're still angry about that \"beer.\"": {
+      "pl": "Wciąż jesteś wściekły na to „piwo”.",
+      "contexts": [
+        "data.json:effects.potion_gingerbeer.description"
+      ],
+      "category": "effects"
+    },
+    "You're still angry at whoever put clove flavoring in that candy.  It just isn't fair.  That person needs to be beaten.": {
+      "pl": "Wciąż jesteś wściekły na tego, kto dał goździkowy smak do tego cukierka. To po prostu niesprawiedliwe. Trzeba go okładać.",
+      "contexts": [
+        "data.json:effects.potion_candy1.description"
+      ],
+      "category": "effects"
+    },
+    "You're thinking it was a pretty good idea to eat those beans, and you're right!": {
+      "pl": "Myślisz, że jedzenie tych fasol było całkiem dobrym pomysłem — i masz rację!",
+      "contexts": [
+        "data.json:effects.food_beans1.description"
+      ],
+      "category": "effects"
+    },
+    "You're twinkling, twinkling, like a little star.": {
+      "pl": "Lśnisz, lśnisz jak mała gwiazdka.",
+      "contexts": [
+        "data.json:effects.potion_stardust.description"
+      ],
+      "category": "effects"
+    },
+    "You're up on all the smartest new trends, like drinking the cocktail you just drank!": {
+      "pl": "Jesteś na bieżąco z najmądrzejszymi trendami, jak picie koktajlu, który właśnie wypiłeś!",
+      "contexts": [
+        "data.json:effects.booze_cocktail1.description"
+      ],
+      "category": "effects"
+    },
+    "You're very in tune with your surroundings, and the location of loot therein.": {
+      "pl": "Jesteś bardzo zsynchronizowany z otoczeniem i lokalizacją łupu w nim.",
+      "contexts": [
+        "data.json:effects.sell_hexgem.description"
+      ],
+      "category": "effects"
+    },
+    "You're vibrating with extra potential and also with dangerous central nervous system stimulants.": {
+      "pl": "Wibrujesz dodatkowym potencjałem i niebezpiecznymi stymulantami ośrodkowego układu nerwowego.",
+      "contexts": [
+        "data.json:effects.potion_oiler1b.description"
+      ],
+      "category": "effects"
+    },
+    "You've aquired an air of sophistication unheard of before the invention of that cocktail.": {
+      "pl": "Nabyłeś powiew wyrafinowania niespotykanego przed wynalezieniem tego koktajlu.",
+      "contexts": [
+        "data.json:effects.booze_cocktail2.description"
+      ],
+      "category": "effects"
+    },
+    "You've been fortified with multiple forms of whole grain goodness.": {
+      "pl": "Zostałeś wzmocniony wieloma formami pełnoziarnistego dobra.",
+      "contexts": [
+        "data.json:effects.booze_breadwood.description"
+      ],
+      "category": "effects"
+    },
+    "You've been scraped clean from craw to crevice.": {
+      "pl": "Zostałeś wyskrobany od gardzieli po najdrobniejszą szczelinę.",
+      "contexts": [
+        "data.json:effects.purityofguts.description"
+      ],
+      "category": "effects"
+    },
+    "You've been supercharged by that El Vibrato monolith. (removed, had already done this)": {
+      "pl": "Zostałeś naładowany przez ten monolit El Vibrato. (usunięte, już zrobione)",
+      "contexts": [
+        "data.json:effects.zzz_elv_monolith.description"
+      ],
+      "category": "effects"
+    },
+    "You've been thoroughly cleansed": {
+      "pl": "Zostałeś dokładnie oczyszczony",
+      "contexts": [
+        "data.json:effects.purityofguts.code.bluetext"
+      ],
+      "category": "effects"
+    },
+    "You've drunk some fine cognac, and it's really making you wish you had more stuff.": {
+      "pl": "Wypiłeś dobry koniak i naprawdę chcesz mieć więcej rzeczy.",
+      "contexts": [
+        "data.json:effects.booze_oiler1b.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a bunch of jumping beans.  You might as well jump along with them, I guess.": {
+      "pl": "Zjadłeś masę jumping beans. Możesz skakać razem z nimi, chyba.",
+      "contexts": [
+        "data.json:effects.food_beans5.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a carrot, and your eyes are working better than they usually do.": {
+      "pl": "Zjadłeś marchewkę i oczy działają lepiej niż zwykle.",
+      "contexts": [
+        "data.json:effects.food_carrot.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a goat steak, which was gamy (which means it improves your game-playing) and hearty (which means it improves your heart.)": {
+      "pl": "Zjadłeś stek z kozy, który był wyrazisty (co znaczy, że poprawia twoją grę) i serdeczny (co znaczy, że poprawia twoje serce).",
+      "contexts": [
+        "data.json:effects.food_goatsteak.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a guts pie, and your guts are all full of extra guts now.": {
+      "pl": "Zjadłeś placek z flaków, i twoje flaki są teraz pełne dodatkowych flaków.",
+      "contexts": [
+        "data.json:effects.food_meatpie.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a nutritious and healthy meal of bread, cheese, meat, all three of which have been soaked in grease and salt.": {
+      "pl": "Zjadłeś pożywny, zdrowy posiłek z chleba, sera i mięsa, wszystkie trzy namoczone w tłuszczu i soli.",
+      "contexts": [
+        "data.json:effects.food_pizza.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten a nutritious turnip and you're ready to take on the whole world!": {
+      "pl": "Zjadłeś pożywną rzepę i jesteś gotowy stawić czoła całemu światu!",
+      "contexts": [
+        "data.json:effects.food_turnip.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten an entire beaker full of fudge, and you feel <i>great</i> about it.": {
+      "pl": "Zjadłeś całą kolbę fudge i czujesz się z tego <i>świetnie</i>.",
+      "contexts": [
+        "data.json:effects.food_fudge.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten an entire leg's worth of gunpowder, so you're ready to shoot and kick some stuff.": {
+      "pl": "Zjadłeś całą nogę prochu, więc jesteś gotowy strzelać i kopać.",
+      "contexts": [
+        "data.json:effects.food_house3.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten enough hard beans that your whole body is hard as a result.  I know that's hard to believe, but you'll just have to try hard to trust me.": {
+      "pl": "Zjadłeś tyle twardej fasoli, że w efekcie całe twoje ciało jest twarde. Wiem, że to twardy orzech do zgryzienia, ale postaraj się mi zaufać.",
+      "contexts": [
+        "data.json:effects.food_beans6.description"
+      ],
+      "category": "effects"
+    },
+    "You've eaten enough pig brains to know that eating pig brains makes you smarter.": {
+      "pl": "Zjadłeś wystarczająco mózgów świni, żeby wiedzieć, że jedzenie mózgów świni czyni cię mądrzejszym.",
+      "contexts": [
+        "data.json:effects.food_brainpie.description"
+      ],
+      "category": "effects"
+    },
+    "You've got a bandage on just in case you get wounded in the future.": {
+      "pl": "Masz bandaż na wypadek przyszłych ran.",
+      "contexts": [
+        "data.json:effects.potion_rancher2.description"
+      ],
+      "category": "effects"
+    },
+    "You've got a gullet full of shrub squeezins, and you're not afraid of anything.": {
+      "pl": "Masz pełne gardło shrub squeezins i niczego się nie boisz.",
+      "contexts": [
+        "data.json:effects.booze_hedge.description"
+      ],
+      "category": "effects"
+    },
+    "You've got a lot of nerves.  Extra ones.  In your brain.": {
+      "pl": "Masz dużo nerwów. Dodatkowych. W mózgu.",
+      "contexts": [
+        "data.json:effects.potion_nervepills.description"
+      ],
+      "category": "effects"
+    },
+    "You've got a serious, faraway look in your eyes.": {
+      "pl": "Masz poważne, odległe spojrzenie w oczach.",
+      "contexts": [
+        "data.json:effects.potion_grave.description"
+      ],
+      "category": "effects"
+    },
+    "You've got a stomach full of leather, which makes it easier to get punched.": {
+      "pl": "Masz brzuch pełen skóry, co ułatwia dostawanie w twarz.",
+      "contexts": [
+        "data.json:effects.food_hotdog_tanner.description"
+      ],
+      "category": "effects"
+    },
+    "You've got one foot in the grave and three sheets to the wind.": {
+      "pl": "Masz jedną nogę w grobie i jesteś urżnięty w trupa.",
+      "contexts": [
+        "data.json:effects.booze_grave.description"
+      ],
+      "category": "effects"
+    },
+    "You've gotten to the root of things, and you can see really clearly from down here.": {
+      "pl": "Dotarłeś do sedna sprawy i stąd spod spodu widzisz naprawdę wyraźnie.",
+      "contexts": [
+        "data.json:effects.potion_rootbeer.description"
+      ],
+      "category": "effects"
+    },
+    "You've had a bottle of that stuff you don't know how to spell.": {
+      "pl": "Wypiłeś butelkę tego trunku, którego nie umiesz napisać.",
+      "contexts": [
+        "data.json:effects.potion_sarsaparilla.description"
+      ],
+      "category": "effects"
+    },
+    "You've had a nutritious meal of preserved seafood, and you're ready to take on the entire world, just like a tuna would be if it was still alive.": {
+      "pl": "Zjadłeś pożywne danie z konserwowanych owoców morza i jesteś gotów zmierzyć się z całym światem — tak jak tuńczyk, gdyby jeszcze żył.",
+      "contexts": [
+        "data.json:effects.food_tuna.description"
+      ],
+      "category": "effects"
+    },
+    "You've had a weird microbrew, and there's no telling <i>what</i> you'll do next.": {
+      "pl": "Wypiłeś dziwne piwo rzemieślnicze i nie wiadomo, <i>co</i> zrobisz dalej.",
+      "contexts": [
+        "data.json:effects.booze_micro_cook.description"
+      ],
+      "category": "effects"
+    },
+    "You've had an entire month's worth of oil and leather in a single meal.  To be fair, the amount of leather you're <i>supposed</i> to eat in a month of pretty small.": {
+      "pl": "Zjadłeś całomiesięczną porcję oleju i skóry w jednym posiłku. Co prawda ilość skóry, którą <i>powinieneś</i> zjeść w miesiąc, jest dość niewielka.",
+      "contexts": [
+        "data.json:effects.food_house1.description"
+      ],
+      "category": "effects"
+    },
+    "You've Had Your Coffee": {
+      "pl": "Miałeś już swoją kawę",
+      "contexts": [
+        "data.json:effects.potion_perfectcoffee.name",
+        "data.json:buckets.item_misc_effecttome_name[162]"
+      ],
+      "category": "effects"
+    },
+    "You've internalized the spiritual nature of the snake and poured the physical manifestation of that nature down your piehole.": {
+      "pl": "Zinternalizowałeś duchową naturę węża i wlałeś jej fizyczną manifestację prosto w gębę.",
+      "contexts": [
+        "data.json:effects.booze_oiler2b.description"
+      ],
+      "category": "effects"
+    },
+    "You've kept the doctor at bay for one more day.": {
+      "pl": "Trzymasz lekarza z daleka jeszcze jeden dzień.",
+      "contexts": [
+        "data.json:effects.food_apple.description"
+      ],
+      "category": "effects"
+    },
+    "You've made the classic mistake -- you consumed something given to you by a hippy.": {
+      "pl": "Popełniłeś klasyczny błąd — zjadłeś coś, co dał ci hipis.",
+      "contexts": [
+        "data.json:effects.potion_shroom1.description"
+      ],
+      "category": "effects"
+    },
+    "You've rubbed some grave dirt under your eyes, and it's making you look really serious.  Ly.  At the concept of your own mortality.": {
+      "pl": "Pocierałeś trochę grobowej ziemi pod oczami, przez co wyglądasz teraz naprawdę poważnie wobec koncepcji własnej śmiertelności.",
+      "contexts": [
+        "data.json:effects.potion_gravedirt.description"
+      ],
+      "category": "effects"
+    },
+    "You've skipped all that boring character-building and taken a shortcut to greatness.": {
+      "pl": "Pominąłeś całe to nudne budowanie postaci i skróciłeś drogę do wielkości.",
+      "contexts": [
+        "data.json:effects.potion_oiler1a.description"
+      ],
+      "category": "effects"
+    },
+    "You've spent a bunch of Meat on nice furniture for your guest room in Portalhand, but is it enough? No, of course not, it'll never <i>be</i> enough. Your mind is spinning with ideas to maximize your Meat gain. ": {
+      "pl": "Wydałeś sporo Mięsa na ładne meble do pokoju gościnnego w Portalhand, ale czy to wystarczy? Nie, oczywiście że nie — nigdy <i>nie będzie</i> wystarczająco. Głowa ci się kręci od pomysłów, jak zmaksymalizować zyski Mięsa. ",
+      "contexts": [
+        "data.json:effects.decorationinclination.description"
+      ],
+      "category": "effects"
+    },
+    "You've taken a risk and eaten an infernally tainted beefsteak.": {
+      "pl": "Podejmujesz ryzyko i jesz piekielnie skażony stek wołowy.",
+      "contexts": [
+        "data.json:effects.food_cowsteak.description"
+      ],
+      "category": "effects"
+    },
+    "You've wet your whistle with Dirtwater Bourbon.  And it really needed it, after being dried out by all the dirt floating in the same Dirtwater Bourbon.": {
+      "pl": "Orzeźwiłeś gardło Dirtwater Bourbon. I naprawdę tego potrzebowało, po wysuszeniu przez cały ten brud unoszący się w tym samym Dirtwater Bourbon.",
+      "contexts": [
+        "data.json:effects.booze_dirtwaterbourbon.description"
+      ],
+      "category": "effects"
+    },
+    "Your blood has lots of extra blood in it.": {
+      "pl": "Twoja krew ma w sobie dużo dodatkowej krwi.",
+      "contexts": [
+        "data.json:effects.food_bloodsausage.description"
+      ],
+      "category": "effects"
+    },
+    "Your blood is thicker than usual, and there's also more of it.": {
+      "pl": "Twoja krew jest gęstsza niż zwykle i jest jej też więcej.",
+      "contexts": [
+        "data.json:effects.potion_bloodtonic.description"
+      ],
+      "category": "effects"
+    },
+    "Your body has been thickened slightly by the booze you drank.  Or maybe you're just swollen up from all the poison in it.": {
+      "pl": "Twoje ciało nieco zgęstniało od wypitego alkoholu. Albo po prostu spuchłeś od całego tego trucizny w środku.",
+      "contexts": [
+        "data.json:effects.booze_oiler1a.description"
+      ],
+      "category": "effects"
+    },
+    "Your bones and muscles are enriched with protein, soluble fats, and unthinkable horror.": {
+      "pl": "Twoje kości i mięśnie są wzbogacone białkiem, rozpuszczalnymi tłuszczami i niewyobrażalnym horrorem.",
+      "contexts": [
+        "data.json:effects.food_spider.description"
+      ],
+      "category": "effects"
+    },
+    "Your brain is crackling with desert lightning.": {
+      "pl": "Twój mózg trzaska pustynnymi błyskawicami.",
+      "contexts": [
+        "data.json:effects.food_cactusbits.description"
+      ],
+      "category": "effects"
+    },
+    "Your clothes and hair smell so awful that you're inured against external stenches.": {
+      "pl": "Twoje ubrania i włosy śmierdzą tak okropnie, że jesteś odporny na zewnętrzne smrody.",
+      "contexts": [
+        "data.json:effects.potion_cheapcigar.description"
+      ],
+      "category": "effects"
+    },
+    "Your clothes fit a little better now that you've had that schnapps.  At least you believe they do, which is the important thing.": {
+      "pl": "Ubrania lepiej na tobie leżą po tym sznapie. Przynajmniej w to wierzysz — a to najważniejsze.",
+      "contexts": [
+        "data.json:effects.booze_oiler2.description"
+      ],
+      "category": "effects"
+    },
+    "Your humours are all out of whack, but in a <i>good</i> way.": {
+      "pl": "Twoje humory są kompletnie rozjechane, ale w <i>dobry</i> sposób.",
+      "contexts": [
+        "data.json:effects.potion_cowbile.description"
+      ],
+      "category": "effects"
+    },
+    "Your kidneys have been expanded in both size and number, in order to contain more health.": {
+      "pl": "Twoje nerki powiększyły się i pomnożyły, żeby pomieścić więcej zdrowia.",
+      "contexts": [
+        "data.json:effects.food_beans4.description"
+      ],
+      "category": "effects"
+    },
+    "Your lips are stained red and there's a song on them, all thanks to the magic of wine.": {
+      "pl": "Twoje usta są czerwone od plam i jest na nich piosenka — dzięki magii wina.",
+      "contexts": [
+        "data.json:effects.booze_decentwine.description"
+      ],
+      "category": "effects"
+    },
+    "Your liver is bloated and darkened with extra blood.": {
+      "pl": "Twoja wątroba jest spuchnięta i ściemniona od dodatkowej krwi.",
+      "contexts": [
+        "data.json:effects.potion_oiler2.description"
+      ],
+      "category": "effects"
+    },
+    "Your mother didn't raise any people who were bad at fighting.": {
+      "pl": "Twoja matka nie wychowała nikogo, kto byłby słaby w walce.",
+      "contexts": [
+        "data.json:effects.food_raisins.description"
+      ],
+      "category": "effects"
+    },
+    "Your moustache is immaculately sapped.  It couldn't possibly be sapped any better.": {
+      "pl": "Twój wąs jest nieskazitelnie nasączony. Lepiej się już nie da.",
+      "contexts": [
+        "data.json:effects.potion_moustachesap.description"
+      ],
+      "category": "effects"
+    },
+    "Your mouth is all gummy and full of residual peanut butter, making it way harder to talk.": {
+      "pl": "Twoje usta są lepkie i pełne resztek masła orzechowego, przez co dużo trudniej mówić.",
+      "contexts": [
+        "data.json:effects.food_peanutbutter.description"
+      ],
+      "category": "effects"
+    },
+    "Your muscles and blood are reinforced with tiny little slivers of steel.": {
+      "pl": "Twoje mięśnie i krew są wzmocnione drobnymi drzazgami stali.",
+      "contexts": [
+        "data.json:effects.potion_housecandy1.description"
+      ],
+      "category": "effects"
+    },
+    "Your muscles are fortified with custard.": {
+      "pl": "Twoje mięśnie są wzmocnione budyniem.",
+      "contexts": [
+        "data.json:effects.food_custard1.description"
+      ],
+      "category": "effects"
+    },
+    "Your palms are still covered with the grease from those beans you ate, and it's making you want your palms to be greased even further.": {
+      "pl": "Twoje dłonie wciąż są pokryte tłuszczem od tych fasolek, które zjadłeś, i sprawia to, że chcesz, żeby były jeszcze bardziej nasmarowane.",
+      "contexts": [
+        "data.json:effects.food_beans3.description"
+      ],
+      "category": "effects"
+    },
+    "Your skin has been softened via the application of a moisturizing oil.  This is attractive to people.": {
+      "pl": "Twoja skóra została zmiękczona dzięki nawilżającemu olejowi. To przyciąga ludzi.",
+      "contexts": [
+        "data.json:effects.potion_oiler1.description"
+      ],
+      "category": "effects"
+    },
+    "Your skin has taken on a mirror sheen as a result of those mirrorbeans.": {
+      "pl": "Twoja skóra nabrała lustrzanego połysku dzięki tym fasolkom lustrzanym.",
+      "contexts": [
+        "data.json:effects.food_beans9.description"
+      ],
+      "category": "effects"
+    },
+    "Your skin is subtly changing color every few seconds.": {
+      "pl": "Twoja skóra subtelnie zmienia kolor co kilka sekund.",
+      "contexts": [
+        "data.json:effects.potion_clownwort.description"
+      ],
+      "category": "effects"
+    },
+    "Your snakelike guts are warm as a result of the snakelike snake you ate.": {
+      "pl": "Twoje wężowate wnętrzności są ciepłe dzięki wężowatemu wężowi, którego zjadłeś.",
+      "contexts": [
+        "data.json:effects.food_stewedsnake.description"
+      ],
+      "category": "effects"
+    },
+    "Your stomach keeps shocking all of the other organs that are near it.": {
+      "pl": "Twój żołądek ciągle poraża prądem wszystkie pobliskie narządy.",
+      "contexts": [
+        "data.json:effects.potion_shockweed.description"
+      ],
+      "category": "effects"
+    },
+    "Your third eye is halfway open": {
+      "pl": "Twoje trzecie oko jest w połowie otwarte",
+      "contexts": [
+        "data.json:effects.food_shroom1.code.bluetext"
+      ],
+      "category": "effects"
+    },
+    "Your third eye is open all the way": {
+      "pl": "Twoje trzecie oko jest otwarte całkowicie",
+      "contexts": [
+        "data.json:effects.potion_shroom1.code.bluetext"
+      ],
+      "category": "effects"
+    },
+    "Your toes are greasy from having slathered them with some kind of slippery goopus you bought from a huckster at a medicine show.": {
+      "pl": "Twoje palce u stóp są tłuste od posmarowania ich jakimś śliskim goopusem kupionym od oszusta na pokazie medycznym.",
+      "contexts": [
+        "data.json:effects.potion_oopsall_toes.description"
+      ],
+      "category": "effects"
+    },
+    "Your vision is clouded by milky visions of the future.": {
+      "pl": "Twój wzrok zasłaniają mleczne wizje przyszłości.",
+      "contexts": [
+        "data.json:effects.potion_cowmilk.description"
+      ],
+      "category": "effects"
+    },
+    "Your vitality has been boosted by some blood you drank from a fountain of blood.  This is probably totally safe and good.": {
+      "pl": "Twoja witalność została wzmocniona krwią wypitą z fontanny krwi. To pewnie całkowicie bezpieczne i dobre.",
+      "contexts": [
+        "data.json:effects.misc_bloodfountain.description"
+      ],
+      "category": "effects"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "id": 76,
+    "name": "dialog_loc_medicineshow_the_old_medicine_show",
+    "description": "Dialogi przypisane do lokacji \"The Old Medicine Show\" (waa: medicineshow).",
+    "status": "done",
+    "count": 5
+  },
+  "strings": {
+    "%medicineshow_a% %medicineshow_b%": {
+      "pl": "%medicineshow_a% %medicineshow_b%",
+      "contexts": [
+        "data.json:scripts.medicineshow_popup.popup"
+      ],
+      "category": "dialog"
+    },
+    "Go through it": {
+      "pl": "Przejdź przez to",
+      "contexts": [
+        "data.json:scripts.medicineshow_nightstand.popup",
+        "house.json:scripts.house_airbnb3leftdoor.popup",
+        "house.json:scripts.house_airbnb3rightdoor.popup",
+        "house.json:scripts.house_airbnb4armoire.e",
+        "house.json:scripts.house_airbnbpanelpop.gothrough"
+      ],
+      "category": "dialog"
+    },
+    "It's full of old snake pieces!": {
+      "pl": "Pełen starych wężowych kawałków!",
+      "contexts": [
+        "data.json:scripts.medicineshow_nightstand.e"
+      ],
+      "category": "dialog"
+    },
+    "It's the former resident's nightstand.": {
+      "pl": "To stolik nocny byłego mieszkańca.",
+      "contexts": [
+        "data.json:scripts.medicineshow_nightstand.popup"
+      ],
+      "category": "dialog"
+    },
+    "Most of these books are fake, but there's one real one.": {
+      "pl": "Większość tych książek to podróbki, ale jedna jest prawdziwa.",
+      "contexts": [
+        "data.json:scripts.medicineshow_bookshelf.popup"
+      ],
+      "category": "dialog"
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "_meta": {
+    "id": 66,
+    "name": "dialog_loc_frisco_frisco",
+    "description": "Dialogi przypisane do lokacji \"Frisco\" (waa: frisco).",
+    "status": "done",
+    "count": 86
+  },
+  "strings": {
+    "%frisco_ped1%": {
+      "pl": "%frisco_ped1%",
+      "contexts": [
+        "data.json:scripts.frisco_ped1.popup",
+        "data.json:buckets.inkwell_birdquip[16]"
+      ],
+      "category": "dialog"
+    },
+    "%frisco_ped2%": {
+      "pl": "%frisco_ped2%",
+      "contexts": [
+        "data.json:scripts.frisco_ped2.popup",
+        "data.json:buckets.inkwell_birdquip[17]"
+      ],
+      "category": "dialog"
+    },
+    "%frisco_ped3%": {
+      "pl": "%frisco_ped3%",
+      "contexts": [
+        "data.json:scripts.frisco_ped3.popup",
+        "data.json:buckets.inkwell_birdquip[18]"
+      ],
+      "category": "dialog"
+    },
+    "%frisco_ped4%": {
+      "pl": "%frisco_ped4%",
+      "contexts": [
+        "data.json:scripts.frisco_ped4.popup",
+        "data.json:buckets.inkwell_birdquip[19]"
+      ],
+      "category": "dialog"
+    },
+    "Ahh, gotcha.": {
+      "pl": "Aaa, rozumiem.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.frisco"
+      ],
+      "category": "dialog"
+    },
+    "An emperor? Where's your crown, then?": {
+      "pl": "Cesarz? To gdzie twoja korona?",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "Any idea how I can fix this?": {
+      "pl": "Masz pomysł, jak to naprawić?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye"
+      ],
+      "category": "dialog"
+    },
+    "As it happens, I lost my dang crown. Fool thing didn't fit right anyway. But without it, I can't issue any official permits, and that means no rails for you! Unless, of course... you were to give me a <i>new</i> crown. A <i>properly-fitting</i> one.": {
+      "pl": "Tak się składa, że zgubiłem cholerną koronę. I tak źle leżała. Bez niej nie mogę jednak wydawać oficjalnych pozwoleń, czyli nici z szyn! Chyba że... dasz mi <i>nową</i> koronę. <i>Dobrze dopasowaną.</i>",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "Aw, shucks. Don't mention it.": {
+      "pl": "Ach, daj spokój. Nie ma za co.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.finished"
+      ],
+      "category": "dialog"
+    },
+    "Best get goin'!": {
+      "pl": "Lepiej ruszać!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye2",
+        "data.json:scripts.pardner_talk.anteyefin"
+      ],
+      "category": "dialog"
+    },
+    "Bye bye barman!": {
+      "pl": "Pa pa, barman!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.hub"
+      ],
+      "category": "dialog"
+    },
+    "Clooncy, I sure could.": {
+      "pl": "Clooncy, jak najbardziej.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "D'you know that feller name a' Roy Bean? The one that collects all kindsa jellybeans? I think mebbe he's got one made of honey, and that it could help with yer predicament?": {
+      "pl": "Znasz takiego typa, Roya Beana? Tego, który zbiera wszelkie fasolki żelkowe? Chyba ma jedną z miodu, która mogłaby pomóc z twoim kłopotem?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye2"
+      ],
+      "category": "dialog"
+    },
+    "Great googly moogly. That's a heckuva thing! Hmm... fits pretty nice, though. All right, fine! You've got yourself a deal. Welcome to Frisco!": {
+      "pl": "Wielkie nieba i szelki. Ależ to cudo! Hmm... całkiem nieźle pasuje. No dobrze! Umowa stoi. Witaj we Frisco!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown2"
+      ],
+      "category": "dialog"
+    },
+    "Great! Thanks!": {
+      "pl": "Świetnie! Dzięki!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown1",
+        "data.json:scripts.frisco_norton.crown2",
+        "data.json:scripts.frisco_norton.crown3",
+        "data.json:scripts.frisco_norton.crown4"
+      ],
+      "category": "dialog"
+    },
+    "Hah! Have a taste of my famous ant-eye virus, sucker!": {
+      "pl": "Ha! Skosztuj mojego słynnego wirusa anty-ocznego, frajerze!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.nocrown"
+      ],
+      "category": "dialog"
+    },
+    "He points to a set of deep ruts off to the side of the railroad tracks.": {
+      "pl": "Wskazuje na głębokie koleiny z boku torów kolejowych.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain"
+      ],
+      "category": "dialog"
+    },
+    "He reaches into his pocket and grabs a handful of powder, which he throws in your face. Your eyes burn.": {
+      "pl": "Sięga do kieszeni, chwyta garść proszku i ciska nią ci w twarz. Palą cię oczy.",
+      "contexts": [
+        "data.json:scripts.frisco_norton.nocrown"
+      ],
+      "category": "dialog"
+    },
+    "Here's hoping you don't have to do that again, your stuntman could've been killed.": {
+      "pl": "Trudno, żebyś musiał to powtarzać — twój kaskader mógł zginąć.",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks2.start"
+      ],
+      "category": "dialog"
+    },
+    "Hmm, I don't think I want to give you a crown. Sorry.": {
+      "pl": "Hmm, chyba nie chcę dawać ci korony. Przykro mi.",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "Howdy! Welcome back!": {
+      "pl": "Witaj! Miło cię znowu widzieć!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.start"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, Clooncy.": {
+      "pl": "Witaj, Clooncy.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.start"
+      ],
+      "category": "dialog"
+    },
+    "Huh. Funny shape for a crown. Seems like real silver, though. Fits pretty nice, too. All right, fine! You've got yourself a deal. Welcome to Frisco!": {
+      "pl": "Hę. Dziwny kształt jak na koronę. Wygląda jednak na prawdziwe srebro. Całkiem dobrze pasuje. No dobrze! Umowa stoi. Witaj we Frisco!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown3"
+      ],
+      "category": "dialog"
+    },
+    "I don't have any crowns, sorry.": {
+      "pl": "Nie mam koron, przepraszam.",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "I think I heard 'bout a feller name a' Roy Bean, collects all kindsa jellybeans. Mebbe he's got one made of honey, and it could help with yer predicament?": {
+      "pl": "Chyba słyszałem o gościu nazwiskiem Roy Bean, co to zbiera wszelakie żelki. Może ma jakąś miodową i to by pomogło na twój kłopot?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye2"
+      ],
+      "category": "dialog"
+    },
+    "I'm Emperor Norton! I'm in charge of this city, and you can't build any train tracks here without my permission!": {
+      "pl": "Jestem cesarz Norton! To ja rządzę tym miastem i nie możecie tu budować żadnych torów bez mojego pozwolenia!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "I'm on it.": {
+      "pl": "Zajmę się tym.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.talknorton"
+      ],
+      "category": "dialog"
+    },
+    "I'm working on it!": {
+      "pl": "Pracuję nad tym!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stilleyes"
+      ],
+      "category": "dialog"
+    },
+    "I've been helping Manifest Destiny get the rail tracks laid. It was a tough job, but we finally got here!": {
+      "pl": "Pomagałem Manifest Destiny kłaść tory. Ciężka robota, ale w końcu dotarliśmy!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "I've been helping Manifest Destiny get the rail tracks laid. We're very, very, close, but haven't quite finished yet.": {
+      "pl": "Pomagałem Manifest Destiny kłaść tory. Jesteśmy bardzo, bardzo blisko, ale jeszcze nie całkiem skończyliśmy.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "I've got this creepy crown. [Give necromancer crown]": {
+      "pl": "Mam tę upiorną koronę. [Daj koronę nekromanty]",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "I've got this gold crown. [Give gold tooth crown]": {
+      "pl": "Mam tę złotą koronę. [Daj koronę ze złotego zęba]",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "I've got this weird crown. [Give El Vibrato crown]": {
+      "pl": "Mam tę dziwną koronę. [Daj koronę El Vibrato]",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "I've got this... silver crown. [Give turnip crown]": {
+      "pl": "Mam tę... srebrną koronę. [Daj koronę z rzodkiewki]",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "It's a flier of some sort.": {
+      "pl": "To jakaś ulotka.",
+      "contexts": [
+        "data.json:scripts.frisco_flyer.popup"
+      ],
+      "category": "dialog"
+    },
+    "Looks like @pardnername@ decided not to join you, on account of not having a stuntman, so you're on your own until you get back to Frisco.": {
+      "pl": "Wygląda na to, że @pardnername@ postanowił do ciebie nie dołączyć, bo nie ma kaskadera — jesteś sam, dopóki nie wrócisz do Frisco.",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks2.start"
+      ],
+      "category": "dialog"
+    },
+    "Looks like somebody on that train got a job as the projectionist.": {
+      "pl": "Wygląda na to, że ktoś z tego pociągu dostał robotę jako projekcjonista.",
+      "contexts": [
+        "data.json:scripts.frisco_finalcutscene.start"
+      ],
+      "category": "dialog"
+    },
+    "Mining fever?": {
+      "pl": "Gorączka górnicza?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.frisco"
+      ],
+      "category": "dialog"
+    },
+    "New to town?": {
+      "pl": "Nowy w mieście?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "Norton's taken the train off somewhere in the desert, you have to follow him!": {
+      "pl": "Norton zabrał pociąg gdzieś na pustynię. Musisz ruszyć za nim!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.start"
+      ],
+      "category": "dialog"
+    },
+    "Not just yet": {
+      "pl": "Jeszcze nie",
+      "contexts": [
+        "data.json:scripts.frisco_finalcutscene.start"
+      ],
+      "category": "dialog"
+    },
+    "NOTE: Doing this will not change anything about the world or your character. When the cut-scene is over, you'll still be right here and you can keep playing if you want.": {
+      "pl": "UWAGA: To nic nie zmieni w świecie ani w twojej postaci. Gdy scenka się skończy, nadal będziesz tu, gdzie jesteś, i możesz grać dalej, jeśli chcesz.",
+      "contexts": [
+        "data.json:scripts.frisco_finalcutscene.start"
+      ],
+      "category": "dialog"
+    },
+    "Oh no, did that rascal Norton do this to ya?  He was ravin' about some sort of ant-eye virus earlier.": {
+      "pl": "O nie, czy ten łajdak Norton ci to zrobił? Wcześniej bredził o jakimś wirusie anty-ocznym.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye"
+      ],
+      "category": "dialog"
+    },
+    "Oh, it's a fine town! Fella named Samson Frisco founded it way back, when the mines first opened out this way and everyone caught the fever.": {
+      "pl": "Och, to zacne miasto! Założył je niejaki Samson Frisco dawno temu, kiedy otwarto tutejsze kopalnie i wszystkich ogarnęła gorączka.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.frisco"
+      ],
+      "category": "dialog"
+    },
+    "Oh, them fellas're always blowin' off steam. I just let them go ahead and get their aggressions out. So long as they keep over there, away from what furniture I've got left.": {
+      "pl": "Och, ci faceci ciągle muszą spuszczać parę. Pozwalam im wyładować agresję, dopóki trzymają się tam, z dala od resztek moich mebli.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.brawl"
+      ],
+      "category": "dialog"
+    },
+    "Smee points to that set of deep ruts off to the side of the railroad tracks.": {
+      "pl": "Smee wskazuje głębokie koleiny z boku torów.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.start"
+      ],
+      "category": "dialog"
+    },
+    "Sounds like you could use a drink!": {
+      "pl": "Brzmi, jakby przydał ci się drink!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "Sure, show me the final cut-scene!": {
+      "pl": "Jasne, pokaż mi finałową scenkę!",
+      "contexts": [
+        "data.json:scripts.frisco_finalcutscene.start"
+      ],
+      "category": "dialog"
+    },
+    "Thanks! I'm @firstname@ @lastname@.": {
+      "pl": "Dzięki! Jestem @firstname@ @lastname@.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "That lunatic stole it!  He drove it off somewhere into the desert!  Norton's gone off the rails!": {
+      "pl": "Ten szaleniec to ukradł! Odwiózł to gdzieś na pustynię! Norton zwariował!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain"
+      ],
+      "category": "dialog"
+    },
+    "That makes zero sense, but I suppose I don't have a better plan.": {
+      "pl": "To nie ma za grosz sensu, ale chyba nie mam lepszego planu.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye2",
+        "data.json:scripts.pardner_talk.anteye1b"
+      ],
+      "category": "dialog"
+    },
+    "These are the tell-tale signs of a train robbery.": {
+      "pl": "To charakterystyczne ślady napadu na pociąg.",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks.popup"
+      ],
+      "category": "dialog"
+    },
+    "This fancypants calls himself the Emperor, and he won't let us build our tracks up to the station! Can you see if you can talk some sense into him?": {
+      "pl": "Ten elegancik nazywa siebie Cesarzem i nie pozwala nam doprowadzić torów do stacji! Sprawdzisz, czy da się przemówić mu do rozsądku?",
+      "contexts": [
+        "data.json:scripts.frisco_smee.talknorton"
+      ],
+      "category": "dialog"
+    },
+    "This is a nice station!  Too bad there's no train that runs to it yet.": {
+      "pl": "Ładna stacja! Szkoda, że jeszcze nie jeździ tu pociąg.",
+      "contexts": [
+        "data.json:scripts.frisco_trainstation.popup"
+      ],
+      "category": "dialog"
+    },
+    "This was a one-way train, so there's no sense in going in there now.": {
+      "pl": "To był pociąg jednokierunkowy, więc nie ma sensu tam teraz wchodzić.",
+      "contexts": [
+        "data.json:scripts.frisco_trainstation.popup"
+      ],
+      "category": "dialog"
+    },
+    "Turn around for a second so I can use your back to sign this permit. ...Aaaaand done! The movie theater up the street has the final cutscene, whenever you're ready.": {
+      "pl": "Odwróć się na chwilę, żebym mógł podpisać zezwolenie na twoich plecach. ...Iiii gotowe! Kino na końcu ulicy ma ostatnią scenkę, gdy tylko będziesz gotowy.",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown1",
+        "data.json:scripts.frisco_norton.crown2",
+        "data.json:scripts.frisco_norton.crown3",
+        "data.json:scripts.frisco_norton.crown4"
+      ],
+      "category": "dialog"
+    },
+    "Ugh, yeah, and I can't see well either.": {
+      "pl": "Uch, tak, ja też słabo widzę.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye"
+      ],
+      "category": "dialog"
+    },
+    "Uh oh.": {
+      "pl": "O nie.",
+      "contexts": [
+        "data.json:scripts.frisco_norton.trainnapping"
+      ],
+      "category": "dialog"
+    },
+    "We got the track laid right up to the station, now! The first ever cross-territory railroad, thanks to the Manifest Destiny Railroad Company... and principally you! You did a real good job, @firstname@ @lastname@.": {
+      "pl": "Ścieżka jest ustawiona na stacji! Pierwsza w historii kolej, dzięki Manifest Destiny Railroad Company... a przede wszystkim tobie! Dobrze się spisałeś, @firstname@@lastname@.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.finished"
+      ],
+      "category": "dialog"
+    },
+    "Well I'll be, a new face! I'm Clooncy, make yourself at home!": {
+      "pl": "A niech mnie, nowa twarz! Jestem Clooncy, rozgość się!",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.intro"
+      ],
+      "category": "dialog"
+    },
+    "Well! Gold and everything! It's certainly fancy... fits all right, too! All right, fine! You've got yourself a deal. Welcome to Frisco!": {
+      "pl": "Cóż! Złoto i w ogóle! Na pewno jest wyszukany... pasuje też w porządku! Dobra, w porządku! Umowa stoi. Witamy we Frisco!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown1"
+      ],
+      "category": "dialog"
+    },
+    "Well! I guess that just tears it, don't it? So not only do you not get that permit, but also...": {
+      "pl": "Cóż! To chyba przelewa czarę, prawda? Więc nie tylko nie dostajesz tego pozwolenia, ale także...",
+      "contexts": [
+        "data.json:scripts.frisco_norton.nocrown"
+      ],
+      "category": "dialog"
+    },
+    "What can I getcha?": {
+      "pl": "Co podać?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.start"
+      ],
+      "category": "dialog"
+    },
+    "What can you tell me about Frisco?": {
+      "pl": "Co możesz mi powiedzieć o Frisco?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.hub"
+      ],
+      "category": "dialog"
+    },
+    "What have you got?": {
+      "pl": "Co masz?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.hub"
+      ],
+      "category": "dialog"
+    },
+    "What in the sam-hill is this thing? It's <i>shaped</i> like a crown, but I've never seen a crown with all glowy lights on it... and is this made of some weird kind of stone? Hmm... lighter than it looks, though. Fits real nice, too. All right, fine! You've got yourself a deal. Welcome to Frisco!": {
+      "pl": "Co to jest? Jest <i>w kształcie</i> korony, ale nigdy nie widziałem korony ze świecącymi światłami... i czy to jest zrobione z jakiegoś dziwnego kamienia? Hmm... lżejszy niż wygląda. Pasuje bardzo ładnie. Dobra, w porządku! Umowa stoi. Witamy we Frisco!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.crown4"
+      ],
+      "category": "dialog"
+    },
+    "What was <i>that</i>!?": {
+      "pl": "Co to <i>było</i>!?",
+      "contexts": [
+        "data.json:scripts.frisco_norton.nocrown"
+      ],
+      "category": "dialog"
+    },
+    "What's going on, Smee?": {
+      "pl": "Co się dzieje, Smee?",
+      "contexts": [
+        "data.json:scripts.frisco_smee.talknorton"
+      ],
+      "category": "dialog"
+    },
+    "What's with the huge brawl going on over there?": {
+      "pl": "Co z tą wielką bójką tam?",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.hub"
+      ],
+      "category": "dialog"
+    },
+    "When you come to, Norton is gone and so is the train!": {
+      "pl": "Gdy odzyskujesz przytomność, Nortona nie ma i pociągu też!",
+      "contexts": [
+        "data.json:scripts.frisco_norton.trainnapping"
+      ],
+      "category": "dialog"
+    },
+    "Where'd the train go!?": {
+      "pl": "Gdzie podział się pociąg!?",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain"
+      ],
+      "category": "dialog"
+    },
+    "Whew!": {
+      "pl": "Uff!",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks2.start",
+        "data.json:scripts.mine4_office_talk.run",
+        "data.json:scripts.re_banditf1.hornswoggle",
+        "data.json:scripts.re_bandith1.intim2",
+        "data.json:scripts.re_bandith2.runaway"
+      ],
+      "category": "dialog"
+    },
+    "Who the heck are you?": {
+      "pl": "Kim ty do cholery jesteś?",
+      "contexts": [
+        "data.json:scripts.frisco_norton.start"
+      ],
+      "category": "dialog"
+    },
+    "Word on the street is that \"Projectionist Wanted 2\" is already in the works.": {
+      "pl": "Plotka głosi, że „Projectionist Wanted 2” jest już w produkcji.",
+      "contexts": [
+        "data.json:scripts.frisco_theaterdoor.popup"
+      ],
+      "category": "dialog"
+    },
+    "Would you like to watch this movie?  It's free, because movies have only recently been invented and nobody has figured out that they can charge for them yet.": {
+      "pl": "Chcesz obejrzeć ten film? Jest darmowy, bo filmy dopiero co wynaleziono i nikt jeszcze nie wymyślił, że można za nie płacić.",
+      "contexts": [
+        "data.json:scripts.frisco_finalcutscene.start"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, probably.": {
+      "pl": "Ta, pewnie.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain",
+        "house.json:scripts.house_ghostbuster_conversation.house_gallery_metlawyer"
+      ],
+      "category": "dialog"
+    },
+    "Yep, the kind you get from breathing too much dirt. Frisco was a doctor, y'see.": {
+      "pl": "Tak, takie, które dostajesz z oddychania za dużo brudu. Frisco był lekarzem.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.frisco"
+      ],
+      "category": "dialog"
+    },
+    "You can't focus on the tracks well enough to follow them.  You gotta get your eyes fixed!": {
+      "pl": "Nie możesz wystarczająco skupić się na tropach, żeby je śledzić. Musisz naprawić oczy!",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks.popup"
+      ],
+      "category": "dialog"
+    },
+    "You did it! Thanks, boss!": {
+      "pl": "Udało ci się! Dzięki, szefie!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.finished"
+      ],
+      "category": "dialog"
+    },
+    "You don't look well.": {
+      "pl": "Nie wyglądasz za dobrze.",
+      "contexts": [
+        "data.json:scripts.frisco_clooncybartender.anteye"
+      ],
+      "category": "dialog"
+    },
+    "You gotta get that train back!  This is embarrassing!": {
+      "pl": "Musisz odzyskać ten pociąg! To żenujące!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.start"
+      ],
+      "category": "dialog"
+    },
+    "You gotta get those eyes fixed, boss! Norton's getting away with our train!": {
+      "pl": "Musisz naprawić te oczy, szefie! Norton ucieka z naszym pociągiem!",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stilleyes"
+      ],
+      "category": "dialog"
+    },
+    "You jump onto @horsename@'s back and ride like the wind, following the railroad tracks back into the desert. When you finally catch up, you stand up on @horsename@'s saddle and leap onto the back of the train like a real badass, just barely catching the edge of the roof and pulling yourself up.": {
+      "pl": "Wskakujesz na grzbiet @horsename@ i jedziesz jak wiatr, śledząc tory z powrotem na pustynię. Gdy w końcu doganiasz, stajesz na siodle @horsename@ i skaczesz na tył pociągu jak prawdziwy twardziel, ledwo łapiąc krawędź dachu i ciągnąc się w górę.",
+      "contexts": [
+        "data.json:scripts.frisco_traintracks2.start"
+      ],
+      "category": "dialog"
+    },
+    "You should probably get that checked out, boss. That Norton fella said something about an \"ant-eye virus\"? Maybe someone around here knows something about that?": {
+      "pl": "Powinieneś to pewnie zbadać, szefie. Ten Norton wspomniał coś o „wirusie anty-ocznym”? Może ktoś tutaj wie coś na ten temat?",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain"
+      ],
+      "category": "dialog"
+    },
+    "You walk over to investigate, but you can't see it because of this weird hexagon thing your eyes are doing.": {
+      "pl": "Podchodzisz zbadać, ale nie widzisz tego przez dziwny heksagon, jaki robią twoje oczy.",
+      "contexts": [
+        "data.json:scripts.frisco_smee.stoletrain"
+      ],
+      "category": "dialog"
+    },
+    "Your vision goes all weird and you pass out...": {
+      "pl": "Twój wzrok robi się dziwny i tracisz przytomność...",
+      "contexts": [
+        "data.json:scripts.frisco_norton.nocrown"
+      ],
+      "category": "dialog"
+    }
+  }
+}

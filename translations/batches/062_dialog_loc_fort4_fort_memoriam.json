@@ -1,0 +1,1315 @@
+{
+  "_meta": {
+    "id": 62,
+    "name": "dialog_loc_fort4_fort_memoriam",
+    "description": "Dialogi przypisane do lokacji \"Fort Memoriam\" (waa: fort4).",
+    "status": "done",
+    "count": 183
+  },
+  "strings": {
+    "%fort4_darnit%": {
+      "pl": "%fort4_darnit%",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.lose"
+      ],
+      "category": "dialog"
+    },
+    "%fort4_gitgud%": {
+      "pl": "%fort4_gitgud%",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.lose",
+        "data.json:buckets.inkwell_birdquip[13]"
+      ],
+      "category": "dialog"
+    },
+    "%fort4_youwon%": {
+      "pl": "%fort4_youwon%",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.win1",
+        "data.json:scripts.fort4_playgame.win2",
+        "data.json:scripts.fort4_playgame.win3",
+        "data.json:scripts.fort4_playgame.win4",
+        "data.json:buckets.inkwell_birdquip[14]"
+      ],
+      "category": "dialog"
+    },
+    "...This is probably not a whole lot like what you missed.": {
+      "pl": "...To pewnie niewiele przypomina to, co przegapiłeś.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.story"
+      ],
+      "category": "dialog"
+    },
+    "[It's a nerd.]": {
+      "pl": "[To kujon.]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo.popup"
+      ],
+      "category": "dialog"
+    },
+    "All right, fine. Sorry guys, my <i>@dad@</i> says I have to go.": {
+      "pl": "Dobra, chłopaki, przepraszam, ale mój <i>@dad@</i> mówi, że muszę iść.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.intim"
+      ],
+      "category": "dialog"
+    },
+    "All right, well, you crouch down next to the spittoon. From the nauseatingly sweet stench coming off of it, it appears that these nerds haven't been using it as a makeshift urinal as you may have suspected, but rather they're using bright yellow lemon-lime soda-flavored chewing tobacco. Unless...": {
+      "pl": "Dobra, kucasz przy spluwaczce. Z mdląco słodkiego smrodu, który z niej bije, wnioskujesz, że te kujony nie używały jej jako prowizorycznego pisuaru, jak podejrzewałeś — one żują jaskrawożółty tytoń o smaku cytrynowo-limonkowej oranżady. Chyba że...",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "Are you the cemetery caretaker?": {
+      "pl": "Jesteś opiekunem cmentarza?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.opts",
+        "data.json:scripts.fort4_guyconvo2.opts",
+        "data.json:scripts.fort4_guyconvo3.opts",
+        "data.json:scripts.fort4_guyconvo4.opts",
+        "data.json:scripts.fort4_guyconvo5.opts"
+      ],
+      "category": "dialog"
+    },
+    "As you're about to walk away from the shelf, you notice a book that definitely doesn't belong here...": {
+      "pl": "Gdy masz odejść od półki, zauważasz książkę, która zdecydowanie tu nie pasuje...",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.study"
+      ],
+      "category": "dialog"
+    },
+    "Attitude is important. You feel like a winner, you play like a winner, right? If you wait until you've lost to leave, you'll go home feeling like a loser. Go home a <i>winner</i>, and soak in that sweet satisfaction of victory. Then you'll be ready to do it again next time.": {
+      "pl": "Nastawienie jest ważne. Czujesz się zwycięzcą, grasz jak zwycięzca, prawda? Jeśli poczekasz z odejściem do porażki, wrócisz do domu jak przegrany. Odejdź jako <i>zwycięzca</i> i napawaj się słodką satysfakcją. Wtedy następnym razem znów będziesz gotowy.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "Aw, jeez. Yeah, I guess you're right. All right, fine.": {
+      "pl": "O rany. Chyba masz rację. Dobra, niech będzie.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.outfox"
+      ],
+      "category": "dialog"
+    },
+    "Aw, nuts. All right, well, look -- I'm on a real winning streak here. I'll go back once it's over, okay?": {
+      "pl": "O nie. Słuchaj, mam tu świetną passę. Wrócę, kiedy się skończy, dobrze?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Can I play?": {
+      "pl": "Mogę grać?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.opts",
+        "data.json:scripts.tut_cardguys.start",
+        "data.json:scripts.tut_cardguys.caniplay"
+      ],
+      "category": "dialog"
+    },
+    "Conquistadors vs. Vikings would be pretty cool.": {
+      "pl": "Konkwistadorzy kontra wikingowie byliby całkiem nieźli.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.game"
+      ],
+      "category": "dialog"
+    },
+    "Early Skirmish (1884) [Not yet won]": {
+      "pl": "Wczesna potyczka (1884) [Jeszcze nie wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Early Skirmish (1884) [Won]": {
+      "pl": "Wczesna potyczka (1884) [Wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Exactly! And winning is how you do that!": {
+      "pl": "Właśnie! A robi się to, wygrywając!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.story"
+      ],
+      "category": "dialog"
+    },
+    "Getting good was the only way to keep my little brother from lording it over me all the time.": {
+      "pl": "Musiałem stać się dobry, żeby mój młodszy brat przestał się cały czas nade mną wywyższać.",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.guns"
+      ],
+      "category": "dialog"
+    },
+    "Godspeed, Guitar Man": {
+      "pl": "Powodzenia, Gitarowy Gościu",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.two"
+      ],
+      "category": "dialog"
+    },
+    "Grift.": {
+      "pl": "Przekręt.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Having fun?": {
+      "pl": "Dobrze się bawisz?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.story"
+      ],
+      "category": "dialog"
+    },
+    "He leaves with a dramatic eyeroll, and the other nerds snicker.": {
+      "pl": "Odchodzi z teatralnym przewróceniem oczami, a reszta kujonów chichocze.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.intim"
+      ],
+      "category": "dialog"
+    },
+    "He takes a telegraph key out of his pocket to show you.": {
+      "pl": "Wyciąga z kieszeni klucz telegraficzny, żeby ci pokazać.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Heh. I think you mean \"soft cover\".": {
+      "pl": "He. Chyba chodzi ci o „miękką okładkę”.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "Help yourself": {
+      "pl": "Pomagaj sobie",
+      "contexts": [
+        "data.json:scripts.fort4_snackshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "Help yourself if you want some candy!": {
+      "pl": "Jeśli chcesz cukierka, częstuj się!",
+      "contexts": [
+        "data.json:scripts.fort4_snackshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "Hey guys, I gotta get back to work. I'll catch you next week.": {
+      "pl": "Hej, chłopaki, muszę wracać do pracy. Widzimy się za tydzień.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.beat"
+      ],
+      "category": "dialog"
+    },
+    "Hey guys, I'm gonna cut out and go back to work, I'll catch you next week.": {
+      "pl": "Hej, chłopaki, będę się zbierał i wracał do pracy. Widzimy się za tydzień.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.outfox"
+      ],
+      "category": "dialog"
+    },
+    "Hey guys, I'm heading out. I'll be back to kick your butts again next week.": {
+      "pl": "Hej, chłopaki, wychodzę. Wrócę skopać wam tyłki za tydzień.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "Hey.": {
+      "pl": "Hej.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.meetagain",
+        "data.json:buckets.house_greetings[11]"
+      ],
+      "category": "dialog"
+    },
+    "Heya @firstname@.": {
+      "pl": "Hej, @firstname@.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.meetagain",
+        "data.json:scripts.fort4_guyconvo3.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Heya Jeff.": {
+      "pl": "Hej, Jeff.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Heya, @firstname@.": {
+      "pl": "Hej, @firstname@.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Heya, Melvin.": {
+      "pl": "Hej, Melvin.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Heya, Mike.": {
+      "pl": "Hej, Mike.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Heya. I'm Melvin.": {
+      "pl": "Hej. Jestem Melvin.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.start"
+      ],
+      "category": "dialog"
+    },
+    "Heya. What's up? Not into the game?": {
+      "pl": "Hej. Co słychać? Nie masz ochoty grać?",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.start"
+      ],
+      "category": "dialog"
+    },
+    "Hi, Buddy.": {
+      "pl": "Cześć, Buddy.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Hi, I'm Mike.": {
+      "pl": "Cześć, jestem Mike.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.start"
+      ],
+      "category": "dialog"
+    },
+    "Hi. I'm @firstname@.": {
+      "pl": "Cześć. Jestem @firstname@.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.start",
+        "data.json:scripts.fort4_guyconvo5.start",
+        "data.json:scripts.fort6_talkindude.intro"
+      ],
+      "category": "dialog"
+    },
+    "Hi. I'm Buddy.": {
+      "pl": "Cześć. Jestem Buddy.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.start"
+      ],
+      "category": "dialog"
+    },
+    "Hiya. I'm Jeff.": {
+      "pl": "Cześć. Jestem Jeff.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.start"
+      ],
+      "category": "dialog"
+    },
+    "Hmm, good point.": {
+      "pl": "Hmm, słuszna uwaga.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.game"
+      ],
+      "category": "dialog"
+    },
+    "Hornswoggle him [Hornswoggin' 4]": {
+      "pl": "Oszukaj go [Oszukiwanie 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "Hornswoggle him [Requires Hornswogglin' 4]": {
+      "pl": "Oszukaj go [Wymaga Oszukiwania 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "How do you figure?": {
+      "pl": "Jak to wyliczyłeś?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "How'd you get into this?": {
+      "pl": "Jak w to wszedłeś?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.opts",
+        "data.json:scripts.fort4_guyconvo3.opts"
+      ],
+      "category": "dialog"
+    },
+    "How's the game going?": {
+      "pl": "Jak idzie gra?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.opts"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, Ernie.": {
+      "pl": "Witaj, Ernie.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Howdy. I'm Ernie.": {
+      "pl": "Witaj. Jestem Ernie.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.start"
+      ],
+      "category": "dialog"
+    },
+    "Huh! You know, that makes a lot of sense.": {
+      "pl": "Hę! Wiesz, to ma dużo sensu.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "Huh... put my guitar skills to actual use? ...That's not a bad idea. Okay, cool!": {
+      "pl": "Hę... naprawdę wykorzystać moje umiejętności gitarowe? ...To nie jest zły pomysł. Dobra, świetnie!",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.two"
+      ],
+      "category": "dialog"
+    },
+    "I already know it, my brother used to bug me to play him all the time so he could test his strategies.": {
+      "pl": "Już to znam, mój brat zawsze nagabywał mnie, żebym z nim grał, bo chciał testować swoje strategie.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.play"
+      ],
+      "category": "dialog"
+    },
+    "I feel like we should give you some kind of prize... um... I've got some leftover guns from when I was gluing the figurines together. Want 'em?": {
+      "pl": "Chyba powinniśmy dać ci jakąś nagrodę... eee... zostało mi trochę broni po sklejaniu figurek. Chcesz?",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.guns"
+      ],
+      "category": "dialog"
+    },
+    "I have an idea.": {
+      "pl": "Mam pomysł.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.half"
+      ],
+      "category": "dialog"
+    },
+    "I have an idea. Instead of pretending to play in a band, why don't you join an actual band and play guitar for real? I know a place that's looking for talent.": {
+      "pl": "Mam pomysł. Zamiast udawać, że grasz w zespole, dołącz do prawdziwego i naprawdę graj na gitarze. Znam miejsce, które szuka talentów.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.two"
+      ],
+      "category": "dialog"
+    },
+    "I sure am.": {
+      "pl": "No jasne.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.four"
+      ],
+      "category": "dialog"
+    },
+    "I was in the actual war. Made it out with only a few scars and a limp, fortunately, on account of I spent the whole thing hiding in a cave. When I heard about re-enactments, I signed up to find out what I missed.": {
+      "pl": "Byłem na prawdziwej wojnie. Wyszedłem z niej ledwie z paroma bliznami i utykaniem, na szczęście — bo całą przesiedziałem w jaskini. Jak usłyszałem o rekonstrukcjach, zapisałem się, żeby sprawdzić, co mnie ominęło.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.story"
+      ],
+      "category": "dialog"
+    },
+    "I'll never understand you.": {
+      "pl": "Nigdy cię nie zrozumiem.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "I'm actually here to tell you to get back to work, because skeletons are wandering out of the place and causing trouble for the neighbors.": {
+      "pl": "Tak właściwie przyszedłem ci powiedzieć, żebyś wracał do pracy, bo szkielety wychodzą stąd i sprawiają kłopoty sąsiadom.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Intimidate him [Intimidatin' 4]": {
+      "pl": "Zastrasz go [Zastraszanie 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "Intimidate him [Requires Intimidatin' 4]": {
+      "pl": "Zastrasz go [Wymaga Zastraszania 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "It looks like you could get a hit on that front guy. He'd have partial cover, though.": {
+      "pl": "Wygląda na to, że mógłbyś trafić tego z przodu. Miałby jednak częściową osłonę.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "It was too much exercise. Also <i>somebody</i> kept refusing to lie down when he got killed!": {
+      "pl": "To było za dużo ruchu. Poza tym <i>ktoś</i> uparcie nie chciał się kłaść, kiedy go zabijano!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story2"
+      ],
+      "category": "dialog"
+    },
+    "It's all right, I have my portable.": {
+      "pl": "W porządku, mam swój przenośny.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "It's pretty good. I prefer the science-fiction version, though.": {
+      "pl": "Jest całkiem dobra. Wolę jednak wersję fantastycznonaukową.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.game"
+      ],
+      "category": "dialog"
+    },
+    "It's real interesting -- it has vehicles that move without horses, and guns that fire more than once before reloading.": {
+      "pl": "Jest naprawdę ciekawa — ma pojazdy poruszające się bez koni i broń, która strzela więcej niż raz przed przeładowaniem.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.game"
+      ],
+      "category": "dialog"
+    },
+    "It's the Jewel Saloon in Dirtwater. Tell them I sent ya.": {
+      "pl": "To Jewel Saloon w Dirtwater. Powiedz, że ja cię przysłałem.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.two"
+      ],
+      "category": "dialog"
+    },
+    "Keep Fort Memorial Beautiful": {
+      "pl": "Dbaj o piękno Fort Memorial",
+      "contexts": [
+        "data.json:scripts.fort4_watchtower.rembin"
+      ],
+      "category": "dialog"
+    },
+    "Leave while you're ahead": {
+      "pl": "Wynoś się, póki jesteś na plusie",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.opts"
+      ],
+      "category": "dialog"
+    },
+    "Like what?": {
+      "pl": "Na przykład?",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.start",
+        "data.json:scripts.pardner_talk.anteye2",
+        "data.json:scripts.pardner_talk.anteye2b",
+        "house.json:scripts.house_ghostbuster_conversation.house_billiards_peace",
+        "house.json:scripts.house_mrsgunfinal2.two"
+      ],
+      "category": "dialog"
+    },
+    "Lobber's Battle (1886) [Not yet won]": {
+      "pl": "Lobber's Battle (1886) [Jeszcze nie wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Lobber's Battle (1886) [Won]": {
+      "pl": "Lobber's Battle (1886) [Wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Long live the @king@!": {
+      "pl": "Niech żyje @king@!",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.five"
+      ],
+      "category": "dialog"
+    },
+    "Looks like I broke your winning streak.": {
+      "pl": "Wygląda na to, że przerwałem twoją passę zwycięstw.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "Man, I <i>know</i>, right?": {
+      "pl": "Stary, <i>wiem,</i> nie?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.game"
+      ],
+      "category": "dialog"
+    },
+    "Man, you and my brother would be bitter enemies.": {
+      "pl": "Stary, ty i mój brat bylibyście śmiertelnymi wrogami.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "Mom made Rufus stop drinking that brand of soda after he didn't sleep for four days and started yammering about putting our cat in a box to see if it was alive or not.": {
+      "pl": "Mama kazała Rufusowi przestać pić tę markę coli, kiedy nie spał przez cztery dni i zaczął paplać o wsadzeniu naszego kota do pudełka, żeby sprawdzić, czy żyje, czy nie.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk3.popup"
+      ],
+      "category": "dialog"
+    },
+    "Moooo.": {
+      "pl": "Muuuu.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.meetagain"
+      ],
+      "category": "dialog"
+    },
+    "Nah. I mean, I like games, that's why I hang out with these guys, but I've gotten bored of these strategy wargames. I want something different.": {
+      "pl": "Nie. To znaczy, lubię gry, dlatego trzymam się z tymi gośćmi, ale znudziły mi się strategiczne gry wojenne. Chcę czegoś innego.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.start"
+      ],
+      "category": "dialog"
+    },
+    "No no no. You've got it backwards. Now's the time to leave, while you're winning.": {
+      "pl": "Nie, nie, nie. Masz to na odwrót. Właśnie teraz trzeba odejść, póki wygrywasz.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "No, I just happened to be in the cemetery and saw your caretaker's shack. Listen, you should probably get back there. Weird things are happening in graveyards all over, and someone needs to keep an eye on those skeletons.": {
+      "pl": "Nie, akurat byłem na cmentarzu i zobaczyłem chatę dozorcy. Słuchaj, powinieneś tam wrócić. Na cmentarzach wszędzie dzieją się dziwne rzeczy i ktoś musi pilnować tych szkieletów.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "No, that's Jeff. I'm a paralegal.": {
+      "pl": "Nie, to Jeff. Jestem asystentem prawnym.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "No. Look dude, this is your job we're talking about. Take some responsibility, and go do your job, if you want to keep it.": {
+      "pl": "Nie. Słuchaj, stary, mówimy o twojej pracy. Weź odpowiedzialność i idź ją wykonać, jeśli chcesz ją zachować.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.intim"
+      ],
+      "category": "dialog"
+    },
+    "Nope! I am a dedicated unemployed layabout.": {
+      "pl": "Nie! Jestem oddanym bezrobotnym obibokiem.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Nope. I think Jeff said something about having a day job? It hasn't been that day for like two weeks though, ha ha <i>snort.</i>": {
+      "pl": "Nie. Chyba Jeff wspominał, że ma pracę na dzień? Tylko od jakichś dwóch tygodni nie nadszedł ten dzień, ha, ha. <i>parsknięcie.</i>",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Not many people would walk around in a cow hat in this day and age.": {
+      "pl": "W dzisiejszych czasach niewiele osób chodzi w krowim kapeluszu.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk5.popup"
+      ],
+      "category": "dialog"
+    },
+    "Not me. I'm an emergency telegraph operator.": {
+      "pl": "Nie ja. Jestem awaryjnym operatorem telegrafu.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Not to imply they were ever in fashion, or anything.": {
+      "pl": "Nie żebym sugerował, że kiedykolwiek były modne, czy coś.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk5.popup"
+      ],
+      "category": "dialog"
+    },
+    "Nothing, that's when it ends.": {
+      "pl": "Nic, wtedy się kończy.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "Oh": {
+      "pl": "Och",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.study",
+        "data.json:scripts.re_skeletonb2.intim"
+      ],
+      "category": "dialog"
+    },
+    "Oh man, you haven't seen \"The Dickson Experimental Sound Film\" yet? It's amazing!": {
+      "pl": "O rany, nie widziałeś jeszcze „Eksperymentalnego filmu dźwiękowego Dicksona”? Jest niesamowity!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "Oh well.  At least you learned something... useful...": {
+      "pl": "No cóż. Przynajmniej nauczyłeś się czegoś... użytecznego...",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.study"
+      ],
+      "category": "dialog"
+    },
+    "Oh! Well, uh, yeah! We had to mod them in ourselves. Cool, huh?": {
+      "pl": "Och! No, yyy, tak! Musieliśmy sami dodać je modem. Fajne, nie?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.game"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you probably aren't familiar with this type of board game, it's a very specialized form of entertainment.": {
+      "pl": "Och, pewnie nie znasz tego rodzaju gry planszowej. To bardzo wyspecjalizowana forma rozrywki.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.game"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you're playing fourth edition.": {
+      "pl": "Och, grasz w czwartą edycję.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "On second thought, no.": {
+      "pl": "Z drugiej strony, nie.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.four"
+      ],
+      "category": "dialog"
+    },
+    "Outfox him [Outfoxin' 4]": {
+      "pl": "Przechytrz go [Przechytrzanie 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "Outfox him [Requires Outfoxin' 4]": {
+      "pl": "Przechytrz go [Wymaga Przechytrzania 4]",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.knowopts"
+      ],
+      "category": "dialog"
+    },
+    "Play another battle": {
+      "pl": "Zagraj jeszcze jedną bitwę",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.lose"
+      ],
+      "category": "dialog"
+    },
+    "Play another one": {
+      "pl": "Zagraj jeszcze jedną",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.opts"
+      ],
+      "category": "dialog"
+    },
+    "Play their little game": {
+      "pl": "Zagraj w ich gierkę",
+      "contexts": [
+        "data.json:scripts.fort4_table.popup"
+      ],
+      "category": "dialog"
+    },
+    "Pretty good. We're on a real winning streak. If we'd been in charge of the army when the real war happened, things might have gone a lot differently!": {
+      "pl": "Całkiem dobrze. Mamy prawdziwą zwycięską passę. Gdybyśmy dowodzili armią podczas prawdziwej wojny, wszystko mogłoby potoczyć się zupełnie inaczej!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.game"
+      ],
+      "category": "dialog"
+    },
+    "Probably the real war was a lot more unbalanced in terms of unit allotments.": {
+      "pl": "Prawdziwa wojna była pewnie znacznie mniej zrównoważona pod względem przydziału jednostek.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.game"
+      ],
+      "category": "dialog"
+    },
+    "Quit playing": {
+      "pl": "Przestań grać",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.lose"
+      ],
+      "category": "dialog"
+    },
+    "Really? You're going to put your hand in the nerds' piss and/or spit bucket? Just gonna dive right in there, huh? Just gonna splish-splash around in that sticky yellow broth of spit and pee with no restraint whatsoever?": {
+      "pl": "Naprawdę? Włożysz rękę do kubełka na mocz i/lub plwocinę nerdów? Po prostu nurkniesz tam, co? Po prostu będziesz pluskać się w tej lepkiej, żółtej zupie ze śliny i moczu bez żadnej powściągliwości?",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.four"
+      ],
+      "category": "dialog"
+    },
+    "So how do you like this game?": {
+      "pl": "To jak ci się podoba ta gra?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.opts"
+      ],
+      "category": "dialog"
+    },
+    "Sorry to hassle you, but this is important. You gotta keep those soldiers in their holes.": {
+      "pl": "Przepraszam, że cię nękam, ale to ważne. Musisz trzymać tych żołnierzy w ich norach.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.intim"
+      ],
+      "category": "dialog"
+    },
+    "Sounds pretty avant-garde.": {
+      "pl": "Brzmi dość awangardowo.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "Stop playing around": {
+      "pl": "Przestań się bawić",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Study them [25 Mysticality]": {
+      "pl": "Przestudiuj je [Mistycyzm 25]",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.start"
+      ],
+      "category": "dialog"
+    },
+    "Study them [Requires 25 Mysticality]": {
+      "pl": "Przestudiuj je [Wymaga 25 Mistycyzmu]",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.start"
+      ],
+      "category": "dialog"
+    },
+    "Sure, thanks!": {
+      "pl": "Jasne, dzięki!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.guns",
+        "data.json:scripts.fort4_playgame.guns2"
+      ],
+      "category": "dialog"
+    },
+    "Thanks a bunch! I'll head out right now!": {
+      "pl": "Wielkie dzięki! Ruszam natychmiast!",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.two"
+      ],
+      "category": "dialog"
+    },
+    "That sounds hard, if you don't already know how to play guitar.": {
+      "pl": "To brzmi trudno, jeśli jeszcze nie umiesz grać na gitarze.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.half"
+      ],
+      "category": "dialog"
+    },
+    "The Battle of Cow Ridge (1889) [Not yet won]": {
+      "pl": "Bitwa o Cow Ridge (1889) [Jeszcze nie wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "The Battle of Cow Ridge (1889) [Won]": {
+      "pl": "Bitwa o Cow Ridge (1889) [Wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "The Battle of Medley (1887) [Not yet won]": {
+      "pl": "Bitwa o Medley (1887) [Jeszcze nie wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "The Battle of Medley (1887) [Won]": {
+      "pl": "Bitwa o Medley (1887) [Wygrana]",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "The liquid in this spittoon is bright yellow. I feel like that's all that needs to be said about it.": {
+      "pl": "Ciecz w tej spluwaczce jest jaskrawożółta. Chyba tyle wystarczy o niej powiedzieć.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.start"
+      ],
+      "category": "dialog"
+    },
+    "The other guys reply with a chorus of 'seeya's as he leaves.": {
+      "pl": "Pozostali odpowiadają chórem „seeya”, gdy odchodzi.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.beat"
+      ],
+      "category": "dialog"
+    },
+    "The others jeer and make dismissive gestures as he leaves.": {
+      "pl": "Pozostali gwizdzą i robią lekceważące gesty, gdy odchodzi.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.hornswoggle"
+      ],
+      "category": "dialog"
+    },
+    "The shelf is laden with candy.": {
+      "pl": "Półka obciążona cukierkami.",
+      "contexts": [
+        "data.json:scripts.fort4_snackshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "Then great, yeah! We're short a player on the cows' side. Step up to the table and grab some dice!": {
+      "pl": "To świetnie! Brakuje nam gracza po stronie krów. Podejdź do stołu i weź kości!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.play"
+      ],
+      "category": "dialog"
+    },
+    "Then where do you get the money to buy expensive wargaming miniatures?": {
+      "pl": "To skąd bierzesz pieniądze na drogie figurki do gier wojennych?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "There's a lot of those in this hobby, I've noticed.": {
+      "pl": "Zauważyłem, że w tym hobby jest ich sporo.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "This guy doesn't seem interested in the game. He's just noodling around on his guitar.": {
+      "pl": "Ten gość nie interesuje się grą. Gmera na gitarze.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarmanpop.popup"
+      ],
+      "category": "dialog"
+    },
+    "This guy is eating chips like they're going out of style.": {
+      "pl": "Ten gość je chipsy, jakby wychodziły z mody.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk2.popup"
+      ],
+      "category": "dialog"
+    },
+    "This guy is excitedly (and repeatedly) describing his favorite kinetoscope reel.": {
+      "pl": "Ten gość ekscytowanie (i w kółko) opowiada o ulubionej taśmie kinetoskopu.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk1.popup"
+      ],
+      "category": "dialog"
+    },
+    "This guy keeps peering intently at the figures on the table and muttering about \"line of sight\".": {
+      "pl": "Ten gość wpatruje się w figurki na stole i mamrocze o „linii wzroku”.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk4.popup"
+      ],
+      "category": "dialog"
+    },
+    "This pile of trash smells very, very bad.": {
+      "pl": "Ta sterta śmieci pachnie bardzo, bardzo źle.",
+      "contexts": [
+        "data.json:scripts.fort4_nastypile.popup"
+      ],
+      "category": "dialog"
+    },
+    "This shelf is stuffed full of rulebooks for the weird game those nerds are playing.": {
+      "pl": "Ta półka wypchana podręcznikami do dziwnej gry, w którą grają ci nerdy.",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.start"
+      ],
+      "category": "dialog"
+    },
+    "This table is covered with little toy soldiers and little toy cows and weird dice.": {
+      "pl": "Stół pokryty małymi żołnierzykami, małymi krowami i dziwnymi kośćmi.",
+      "contexts": [
+        "data.json:scripts.fort4_table.popup"
+      ],
+      "category": "dialog"
+    },
+    "Um. Doesn't that mean you should be at your listening post?": {
+      "pl": "Hmm. Czy to nie oznacza, że powinieneś być na swoim stanowisku odsłuchowym?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Unless?": {
+      "pl": "Chyba że?",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "Wait, he's a nerd. Nerds don't care about what's in style.": {
+      "pl": "Czekaj, to nerd. Nerdom nie zależy na tym, co jest modne.",
+      "contexts": [
+        "data.json:scripts.fort4_guytalk2.popup"
+      ],
+      "category": "dialog"
+    },
+    "We're doing historical re-enactments!": {
+      "pl": "Robimy rekonstrukcje historyczne!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story"
+      ],
+      "category": "dialog"
+    },
+    "Well, <i>yeah.</i> Third edition was a total kludge.": {
+      "pl": "<i>Trzecia edycja</i> była kompletną klapą.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "Well, another possibility is that they <i>have</i> been using it as a urinal, and they're all extremely diabetic. Which, now I think about it, is a real possibility. In fact, it is probable that both these things are true.": {
+      "pl": "No, inna możliwość jest taka, że <i>używali</i> tego jako pisuaru i wszyscy mają ciężką cukrzycę. Co, jak teraz o tym myślę, jest realną możliwością. W gruncie rzeczy prawdopodobne, że obie te rzeczy są prawdziwe.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.three"
+      ],
+      "category": "dialog"
+    },
+    "Well, good luck.": {
+      "pl": "No, powodzenia.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.half",
+        "house.json:scripts.house_ghostbuster_preconvo.intro"
+      ],
+      "category": "dialog"
+    },
+    "Well, I have a lot of time to read at my job, and mostly I read a lot of history. So when I saw a flyer for this 'historical re-enactment' thing, I thought it sounded interesting. They'd already quit doing real re-enactments by the time I joined, but this is pretty good too. And painting the figurines gives me something else to do at work.": {
+      "pl": "Cóż, mam dużo czasu na czytanie w mojej pracy i głównie czytam dużo historii. Kiedy zobaczyłem ulotkę na temat rekonstrukcji historycznej, pomyślałem, że to brzmi interesująco. Już przestali robić rekonstrukcje, zanim się przyłączyłem, ale to też jest całkiem niezłe. Malowanie figurek daje mi coś innego do roboty.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.story"
+      ],
+      "category": "dialog"
+    },
+    "Well, I like playing the guitar, so I was thinking some kind of guitar game? Where you pretend you're in a band and you have to hit the right chords?": {
+      "pl": "Lubię grać na gitarze, więc pomyślałem o jakiejś grze na gitarze? Gdzie udajesz, że jesteś w zespole i musisz trafić w odpowiednie akordy?",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.half"
+      ],
+      "category": "dialog"
+    },
+    "Well, of course! You gotta play to win! Otherwise, what's the point?": {
+      "pl": "Oczywiście! Musisz grać, żeby wygrać! W przeciwnym razie, jaki w tym sens?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.story"
+      ],
+      "category": "dialog"
+    },
+    "Well, okay, sure. But a historical one! Anyway, we only switched to this after we quit doing real re-enactments.": {
+      "pl": "Dobrze, jasne. Ale historyczny! W każdym razie, przełączyliśmy się na to dopiero po tym, jak rzuciliśmy rekonstrukcję.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story"
+      ],
+      "category": "dialog"
+    },
+    "Well, the rules are pretty complex. I don't think the others will want to stop to play a teaching game.": {
+      "pl": "Zasady są dość złożone. Nie sądzę, by inni chcieli przestać grać w grę.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.play"
+      ],
+      "category": "dialog"
+    },
+    "Well, there's two guys dancing while a third guy plays a violin into a huge cone. You can actually <i>hear</i> the violin! It's so great! And then a fourth guy walks in!": {
+      "pl": "Dwóch facetów tańczy, a trzeci gra na skrzypcach w wielkim stożku. Słychać <i>skrzypce</i>! To takie wspaniałe! A potem wchodzi czwarty facet!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "What does he do?": {
+      "pl": "Czym się zajmuje?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "What I mean is, you seem to be using Flintlock 4000 rules, but my brother's set didn't have cows.": {
+      "pl": "Chodzi mi o to, że używasz zasad Flintlock 4000, ale plan mojego brata nie miał krów.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.game"
+      ],
+      "category": "dialog"
+    },
+    "What's it about?": {
+      "pl": "O co chodzi?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.story"
+      ],
+      "category": "dialog"
+    },
+    "What's that like?": {
+      "pl": "Jak to jest?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.game"
+      ],
+      "category": "dialog"
+    },
+    "What's this game you're playing?": {
+      "pl": "W jaką grę grasz?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.opts"
+      ],
+      "category": "dialog"
+    },
+    "What's this kinetoscope reel you're talking about?": {
+      "pl": "O jakiej taśmie kinetoskopu mówisz?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo1.opts"
+      ],
+      "category": "dialog"
+    },
+    "What's with the hat?": {
+      "pl": "Co z tym kapeluszem?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.opts"
+      ],
+      "category": "dialog"
+    },
+    "Which battle would you like to recreate?": {
+      "pl": "Którą bitwę chciałbyś odtworzyć?",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.start"
+      ],
+      "category": "dialog"
+    },
+    "Whoa, that sounds really imba.": {
+      "pl": "To brzmi naprawdę imba.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.game"
+      ],
+      "category": "dialog"
+    },
+    "Why'd you quit?": {
+      "pl": "Czemu odszedłeś?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story"
+      ],
+      "category": "dialog"
+    },
+    "With a fanfare of sad trombones and a choir of angels retching, a sword rises out of the spittoon, held aloft by a wet, bedraggled, and miserable-looking woman's arm. Since you're already kneeling, the arm wastes no time before tapping you on both shoulders with the sword, splashing your clothes with yellow slime and officially declaring you @firstname@ @lastname@, @King@ of Filth. Congratulations. The sword clatters on the floor as the hand drops it with a shudder and withdraws into the spittoon.": {
+      "pl": "Przy fanfarze smutnych puzonów i chóru wymiotujących aniołów ze spluwaczki wynurza się miecz, unoszony przez mokrą, zalaną i nieszczęśliwie wyglądającą kobiecą rękę. Skoro już klęczysz, ręka nie traci czasu i dotyka mieczem obu twoich ramion, obryzgując ubrania żółtą breją i oficjalnie ogłaszając cię @firstname@ @lastname@, @King@ Brudu. Gratulacje. Miecz brzęczy o podłogę, gdy dłoń z drżeniem go puszcza i cofa się do spluwaczki.",
+      "contexts": [
+        "data.json:scripts.fort4_spittoon.five"
+      ],
+      "category": "dialog"
+    },
+    "Wow, you're really good at this game!": {
+      "pl": "Wow, jesteś naprawdę dobry w tej grze!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.guns"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, 'cause here if you lose the argument, nobody goes to jail.": {
+      "pl": "Jeśli przegrasz, nikt nie pójdzie do więzienia.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, dangit, I guess you did. GG.": {
+      "pl": "Chyba tak. GG.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.beat"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, it's pretty fun. I'm working on some rule-mods for naval combat, so we can do older wars, though. Like Conquistadors and Vikings and stuff.": {
+      "pl": "Tak, całkiem fajnie. Pracuję nad jakimiś modami do walki morskiej, więc możemy robić starsze wojny. Jak konkwistadorzy, wikingowie i takie tam.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.game"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, that's me. Did one of the other guys tell you? I try to keep it hush because people assume you're a weirdo if you work in a graveyard.": {
+      "pl": "Tak, to ja. Czy ktoś inny ci powiedział? Staram się utrzymać to w tajemnicy, bo ludzie zakładają, że jesteś dziwakiem, jeśli pracujesz na cmentarzu.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.areyouhim"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, they don't let me have my tape measure on the board when it isn't my turn anymore, so I have to eyeball it.": {
+      "pl": "Tak, nie pozwalają mi mieć mojej taśmy miarowej na tablicy, kiedy nie jest już moja kolej, więc muszę się temu przyjrzeć.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.game"
+      ],
+      "category": "dialog"
+    },
+    "Yeah. Better snacks, for one.": {
+      "pl": "Tak. Na przykład lepsze przekąski.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo3.story"
+      ],
+      "category": "dialog"
+    },
+    "Yeah. I thought of making like a real simplified version of a guitar? But then it wouldn't be much fun for <i>me</i>.": {
+      "pl": "Tak. Myślałem o zrobieniu naprawdę uproszczonej wersji gitary? Ale wtedy nie byłoby to dla mnie <i>zabawne</i>.",
+      "contexts": [
+        "data.json:scripts.fort4_guitarman.half"
+      ],
+      "category": "dialog"
+    },
+    "You already got everything good out of that mess.": {
+      "pl": "Już wyciągnąłeś z tego bałaganu wszystko, co dobre.",
+      "contexts": [
+        "data.json:scripts.fort4_nastypile.nope"
+      ],
+      "category": "dialog"
+    },
+    "You having line-of-sight issues?": {
+      "pl": "Masz problemy z linią wzroku?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.opts"
+      ],
+      "category": "dialog"
+    },
+    "You like this game?": {
+      "pl": "Lubisz tę grę?",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.opts"
+      ],
+      "category": "dialog"
+    },
+    "You missed!": {
+      "pl": "Spudłowałeś!",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story2"
+      ],
+      "category": "dialog"
+    },
+    "You notice a soupy discoloration of the rocks in the mountains to the east, and in the center of the stain -- the entrance to a mine!": {
+      "pl": "Zauważasz zupopodobne przebarwienie skał w górach na wschodzie, a w środku plamy — wejście do kopalni!",
+      "contexts": [
+        "data.json:scripts.fort4_watchtower.discovermine5"
+      ],
+      "category": "dialog"
+    },
+    "You notice a strange pattern in the trees surrounding a cluster of cairns in the distance.": {
+      "pl": "Zauważasz dziwny wzór w drzewach otaczających skupisko kopców w oddali.",
+      "contexts": [
+        "data.json:scripts.fort4_watchtower.discoverwestpole"
+      ],
+      "category": "dialog"
+    },
+    "You pore over the rules until you understand them perfectly enough to realize that they're for an entirely different game than these guys are actually playing.": {
+      "pl": "Wertujesz zasady, aż zrozumiesz je wystarczająco, by zorientować się, że dotyczą zupełnie innej gry niż ta, w którą ci goście grają.",
+      "contexts": [
+        "data.json:scripts.fort4_rulebooks.study"
+      ],
+      "category": "dialog"
+    },
+    "You power through the stench and find a few non-garbage items in the pile.": {
+      "pl": "Przebijasz się przez smród i znajdujesz w stosie kilka nie-śmieciowych przedmiotów.",
+      "contexts": [
+        "data.json:scripts.fort4_nastypile.inve"
+      ],
+      "category": "dialog"
+    },
+    "You prevailed in The Battle of Cow Ridge!": {
+      "pl": "Zwyciężyłeś w Bitwie o Cow Ridge!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.win1"
+      ],
+      "category": "dialog"
+    },
+    "You prevailed in The Battle of Medley!": {
+      "pl": "Zwyciężyłeś w Bitwie o Medley!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.win2"
+      ],
+      "category": "dialog"
+    },
+    "You prevailed in the Early Skirmish of 1884!": {
+      "pl": "Zwyciężyłeś we Wczesnej Potyczce 1884!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.win4"
+      ],
+      "category": "dialog"
+    },
+    "You prevailed in the Lobber's Battle of 1886!": {
+      "pl": "Zwyciężyłeś w Bitwie Lobberów 1886!",
+      "contexts": [
+        "data.json:scripts.fort4_playgame.win3"
+      ],
+      "category": "dialog"
+    },
+    "You see a giant cemetery in the distance -- the sign out front is so big you can read it from here!  REBOOT HILL.  Is what it says.": {
+      "pl": "Widzisz ogromny cmentarz w oddali — tablica z przodu jest tak wielka, że możesz ją odczytać stąd! REBOOT HILL. Tak właśnie jest napisane.",
+      "contexts": [
+        "data.json:scripts.fort4_watchtower.discovercemetery3"
+      ],
+      "category": "dialog"
+    },
+    "You see a ranch in the distance.  Well, you see what's left of a ranch in the distance.  Now it's mostly smoldering wreckage and scintillating fiery doorways to Hell.": {
+      "pl": "Widzisz ranczo w oddali. Cóż, widzisz to, co zostało z rancza w oddali. Teraz to głównie tliące się ruiny i migoczące ogniste bramy do Piekła.",
+      "contexts": [
+        "data.json:scripts.fort4_watchtower.discoverranch6"
+      ],
+      "category": "dialog"
+    },
+    "You seem to be taking this game real seriously.": {
+      "pl": "Wygląda na to, że traktujesz tę grę bardzo poważnie.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo4.opts"
+      ],
+      "category": "dialog"
+    },
+    "You're outflanked, and they still have reinforcement chits left. You've got maybe one cannon bombardment still in you, but the dice are way against you on this terrain. You've got two turns left, tops.": {
+      "pl": "Zostałeś oskrzydlony, a oni wciąż mają żetony posiłków. Masz w zanadrzu może jeszcze jeden ostrzał artyleryjski, ale kości na tym terenie totalnie ci nie sprzyjają. Zostały ci maksymalnie dwie tury.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.outfox"
+      ],
+      "category": "dialog"
+    },
+    "You're playing a tabletop wargame.": {
+      "pl": "Grasz w stołową grę bitewną.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo5.story"
+      ],
+      "category": "dialog"
+    },
+    "You've already lost, look at the table.": {
+      "pl": "Już przegrałeś, spójrz na stół.",
+      "contexts": [
+        "data.json:scripts.fort4_guyconvo2.outfox"
+      ],
+      "category": "dialog"
+    }
+  }
+}

@@ -12,11 +12,11 @@ West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dost
 
 
 # Status:
-- **Pre-release BETA v0.3** — teksty gotowe i trzykrotnie zweryfikowane, patch w fazie testów w grze przed pierwszym oficjalnym wydaniem
+- **Pre-release BETA v0.7** — teksty gotowe i wielokrotnie zweryfikowane, patch w fazie testów w grze przed pierwszym oficjalnym wydaniem
 
 
 ## Skala
-- **37 307** unikalnych stringów tekstu — **100% przetłumaczone** (dialogi, przedmioty, umiejętności, opisy, gra główna + DLC *The Reckonin' at Gun Manor*), przejrzane ręcznie w trzech niezależnych rundach jakości.
+- **37 307** unikalnych stringów tekstu — **100% przetłumaczone** (dialogi, przedmioty, umiejętności, opisy, gra główna + DLC *The Reckonin' at Gun Manor*), przejrzane ręcznie w kilku niezależnych rundach jakości.
 - **125** grafik menu/UI — **122 przetłumaczone**, 3 wciąż oczekują (lista w release notes).
 - **[Eksperymentalnie, macOS/Linux]** ~65 dodatkowych fraz UI zaszytych w kodzie gry (pasek walki, sklep, karta postaci itd.) tłumaczonych przez opcjonalny plugin BepInEx — patrz opis release'u.
 

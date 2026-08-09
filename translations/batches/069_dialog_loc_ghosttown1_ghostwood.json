@@ -1,0 +1,3204 @@
+{
+  "_meta": {
+    "id": 69,
+    "name": "dialog_loc_ghosttown1_ghostwood",
+    "description": "Dialogi przypisane do lokacji \"Ghostwood\" (waa: ghosttown1).",
+    "status": "done",
+    "count": 427
+  },
+  "strings": {
+    "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"... yep, that matches what it says here. Good. Where are you from?": {
+      "pl": "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"... tak, zgadza się z tym, co tu napisano. Dobrze. Skąd pochodzisz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5"
+      ],
+      "category": "dialog"
+    },
+    "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? Hmm, sorry @miss@, that doesn't match your visitor ID.": {
+      "pl": "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? Hmm, przepraszam, @miss@, to nie zgadza się z twoim identyfikatorem gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1e",
+        "data.json:scripts.ghosttown1_knock1.whiskey5e"
+      ],
+      "category": "dialog"
+    },
+    "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? Hmm, that's not what your temporary visitor permit says. I'm sorry, this can't be considered valid unless the names match.": {
+      "pl": "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? Hmm, to nie jest to, co jest napisane na twoim tymczasowym zezwoleniu dla gościa. Przykro mi, ale to nie może zostać uznane za ważne, dopóki imiona się nie zgadzają.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit4"
+      ],
+      "category": "dialog"
+    },
+    "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? That isn't the name on your visitor identification!": {
+      "pl": "\"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\"? To nie jest imię i nazwisko z twojego identyfikatora gościa!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3d",
+        "data.json:scripts.ghosttown1_knock5.permit11e"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$.": {
+      "pl": "$lastoption$.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1e",
+        "data.json:scripts.ghosttown1_knock1.whiskey5e",
+        "data.json:scripts.ghosttown1_knock4.permit3d",
+        "data.json:scripts.ghosttown1_knock5.temppermit4",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "...Cake.": {
+      "pl": "...Ciasto.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3f"
+      ],
+      "category": "dialog"
+    },
+    "...Color?": {
+      "pl": "...Kolor?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3"
+      ],
+      "category": "dialog"
+    },
+    "...I can't read this, it's just different sizes of O's.": {
+      "pl": "...Nie mogę tego przeczytać, to same O w różnych rozmiarach.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1c"
+      ],
+      "category": "dialog"
+    },
+    "...I don't have to fill anything out?": {
+      "pl": "...Nie muszę niczego wypełniać?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey6"
+      ],
+      "category": "dialog"
+    },
+    "...I see. Hmm. I don't see anything about this in the by-laws. Very well, I suppose it will do. Let's get you started on that visitor identification permit.": {
+      "pl": "...Rozumiem. Hmm. Nie widzę nic na ten temat w regulaminie. Cóż, sądzę, że wystarczy. Zajmijmy się twoim zezwoleniem identyfikacyjnym dla gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit"
+      ],
+      "category": "dialog"
+    },
+    "...If you're filling in the form, can't you just use your own pencil?": {
+      "pl": "...Skoro wypełniasz formularz, to nie możesz po prostu użyć własnego ołówka?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "...Is something wrong?": {
+      "pl": "...Coś nie tak?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit1"
+      ],
+      "category": "dialog"
+    },
+    "...Is what I'd like to say, but I'm out of form transfer envelopes.": {
+      "pl": "...Chciałbym to powiedzieć, ale skończyły mi się koperty do przekazywania formularzy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "...mmm, sorry, looks like we're out of those.": {
+      "pl": "...mmm, przepraszam, wygląda na to, że nam się skończyły.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3a"
+      ],
+      "category": "dialog"
+    },
+    "...Okay. Where do I get one?": {
+      "pl": "...Okej. Gdzie mogę taki zdobyć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "...Pie.": {
+      "pl": "...Placek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3f"
+      ],
+      "category": "dialog"
+    },
+    "...So how am I supposed to get a #3 pencil?": {
+      "pl": "...To jak niby mam zdobyć ołówek #3?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.nopencil"
+      ],
+      "category": "dialog"
+    },
+    "...Well, okay.": {
+      "pl": "...No dobra.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first",
+        "data.json:scripts.ghosttown1_knock5.number3"
+      ],
+      "category": "dialog"
+    },
+    "...Well, okay. Where can I get one?": {
+      "pl": "...No dobra. Gdzie mogę taki zdobyć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.firstb"
+      ],
+      "category": "dialog"
+    },
+    "...What?": {
+      "pl": "...Co?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6",
+        "data.json:scripts.ghosttown1_knock5.permit14b",
+        "data.json:scripts.pardner_talk.gary_mission1",
+        "data.json:scripts.pardner_talk.pete_roybean",
+        "data.json:scripts.pardner_talk.garyd"
+      ],
+      "category": "dialog"
+    },
+    "<i>Dammit.</i>": {
+      "pl": "<i>Cholera.</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7b",
+        "data.json:scripts.ghosttown1_knock5.realpermit7c"
+      ],
+      "category": "dialog"
+    },
+    "<i>Finally.</i>": {
+      "pl": "<i>Wreszcie.</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderc"
+      ],
+      "category": "dialog"
+    },
+    "<i>Kachunk</i>": {
+      "pl": "<i>Kachunk</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit10",
+        "data.json:scripts.ghosttown1_knock5.permit11f"
+      ],
+      "category": "dialog"
+    },
+    "<i>Scrib</i>": {
+      "pl": "<i>Skrab</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11i",
+        "data.json:scripts.ghosttown1_knock5.permit11j"
+      ],
+      "category": "dialog"
+    },
+    "<i>Scribble</i>": {
+      "pl": "<i>Skrabnięcie</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11f",
+        "data.json:scripts.ghosttown1_knock5.permit11g",
+        "data.json:scripts.ghosttown1_knock5.permit11h",
+        "data.json:scripts.ghosttown1_knock5.permit11k",
+        "data.json:scripts.ghosttown1_knock5.permit14b"
+      ],
+      "category": "dialog"
+    },
+    "<i>Sigh.</i>": {
+      "pl": "<i>Westchnienie.</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.4pencil",
+        "data.json:scripts.ghosttown1_knock5.realpermitretry"
+      ],
+      "category": "dialog"
+    },
+    "<i>sigh</i> \"Fine.\"": {
+      "pl": "<i>westchnienie</i> „Dobra.”",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.newtemp"
+      ],
+      "category": "dialog"
+    },
+    "@firstname@": {
+      "pl": "@firstname@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "@idfirstname@": {
+      "pl": "@idfirstname@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.realpermit2",
+        "data.json:scripts.ghosttown1_knock5.permit11c"
+      ],
+      "category": "dialog"
+    },
+    "@idfirstname@.": {
+      "pl": "@idfirstname@.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit3"
+      ],
+      "category": "dialog"
+    },
+    "@idlastname@": {
+      "pl": "@idlastname@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.realpermitgo"
+      ],
+      "category": "dialog"
+    },
+    "@idlastname@.": {
+      "pl": "@idlastname@.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit2"
+      ],
+      "category": "dialog"
+    },
+    "@idmiddlename@": {
+      "pl": "@idmiddlename@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.realpermit3",
+        "data.json:scripts.ghosttown1_knock5.permit11d"
+      ],
+      "category": "dialog"
+    },
+    "@lastname@": {
+      "pl": "@lastname@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "@middlename@": {
+      "pl": "@middlename@",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "@mr@ ...@idlastname@, was it? What can I do for you?": {
+      "pl": "@mr@ ...@idlastname@, zgadza się? Co mogę dla pana zrobić?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "A #3 pencil?": {
+      "pl": "Ołówek #3?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "A #3 pencil? Isn't a #2 pencil the usual kind?": {
+      "pl": "Ołówek nr 3? Zwykle nie używa się ołówków nr 2?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.number3"
+      ],
+      "category": "dialog"
+    },
+    "A ghostly bottle of beer materializes in your hand.": {
+      "pl": "W twojej dłoni materializuje się upiorna butelka piwa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1g"
+      ],
+      "category": "dialog"
+    },
+    "A little farm outside Boring Springs.": {
+      "pl": "Mała farma koło Boring Springs.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5",
+        "data.json:scripts.ghosttown1_knock5.temppermit5c"
+      ],
+      "category": "dialog"
+    },
+    "Absolutely! You can't transfer documents between departments without an Inter-Department Document Transfer Folder! It's unthinkable!": {
+      "pl": "Oczywiście! Nie można przenosić dokumentów między departamentami bez Międzydepartamentowej Teczki do Przenoszenia Dokumentów! To nie do pomyślenia!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1a"
+      ],
+      "category": "dialog"
+    },
+    "Adjunct Department of Records, how can I assist you?": {
+      "pl": "Pomocniczy Departament Akt, w czym mogę pomóc?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "Administration wants you to unstaple these papers.": {
+      "pl": "Administracja chce, żebyś usunął zszywki z tych papierów.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Ah! Perfect. That'll be 103 Meat, including the deposit on the bottle.": {
+      "pl": "Ach! Doskonale. To będzie 103 sztuki Mięsa, wliczając kaucję za butelkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Ah, a visitor! You'll be needing a visitor identification card.": {
+      "pl": "Ach, gość! Będzie ci potrzebna karta identyfikacyjna gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "Ah, hello! How can I help you, @mr@ @idlastname@?": {
+      "pl": "Ach, witam! W czym mogę pomóc, @mr@ @idlastname@?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "Ah, right.": {
+      "pl": "Ach, racja.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.second",
+        "data.json:scripts.re_gobling2.start"
+      ],
+      "category": "dialog"
+    },
+    "Ah, thanks for letting us know. We'll get a case sent over.": {
+      "pl": "Dzięki za wiadomość. Przyślemy skrzynkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey6"
+      ],
+      "category": "dialog"
+    },
+    "Ah. Okay, thanks.": {
+      "pl": "Ach. Okej, dzięki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Ah. Thanks.": {
+      "pl": "Ach. Dzięki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit0",
+        "data.json:scripts.ghosttown1_knock4.permit0"
+      ],
+      "category": "dialog"
+    },
+    "Ahh, you'll need to visit the Department of Administration for that. It's down at the end of the street.": {
+      "pl": "Aaa, musisz odwiedzić Departament Administracji. Jest na końcu ulicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit0"
+      ],
+      "category": "dialog"
+    },
+    "All right! That's everything taken care of. Breadwood's logging permit is hereby approved.": {
+      "pl": "Dobrze! Wszystko załatwione. Niniejszym zatwierdzam pozwolenie Breadwood na wyrąb.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14b"
+      ],
+      "category": "dialog"
+    },
+    "All right, fair enough.": {
+      "pl": "Dobra, niech będzie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_intro.popup"
+      ],
+      "category": "dialog"
+    },
+    "All right, how many bars are in the window of the Adjunct Department of Records?": {
+      "pl": "Dobrze, ile prętów jest w oknie Pomocniczego Departamentu Akt?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6"
+      ],
+      "category": "dialog"
+    },
+    "All right, I'll just need to ask you a few questions.": {
+      "pl": "Dobrze, muszę tylko zadać ci kilka pytań.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp2",
+        "data.json:scripts.ghosttown1_knock5.newtemp",
+        "data.json:scripts.ghosttown1_knock5.tempretry"
+      ],
+      "category": "dialog"
+    },
+    "All right, I'm back with an unstapled Breadwood logging file.": {
+      "pl": "Dobra, jestem z powrotem z aktami wycinki Breadwood — bez zszywek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "All right, just gotta take your name down for the requisition slip...": {
+      "pl": "Dobrze, muszę tylko zapisać twoje nazwisko na formularzu zapotrzebowania...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1a"
+      ],
+      "category": "dialog"
+    },
+    "All right, let me just ask you a few questions...": {
+      "pl": "Dobrze, zadam ci tylko kilka pytań...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermitretry"
+      ],
+      "category": "dialog"
+    },
+    "All right, let me just put those in an official Inter-Department Document Transfer Folder for you... there you are.": {
+      "pl": "Dobrze, włożę je tylko do oficjalnej Międzydepartamentowej Teczki do Przenoszenia Dokumentów... proszę bardzo.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit5"
+      ],
+      "category": "dialog"
+    },
+    "All right, let me try that whiskey requisition form again.": {
+      "pl": "Dobrze, spróbuję jeszcze raz z formularzem zapotrzebowania na whiskey.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5a"
+      ],
+      "category": "dialog"
+    },
+    "All right, let's have a look. Hmm... mm-hmm... mmm... Okay. I can't see any problems with this.": {
+      "pl": "Dobrze, zobaczmy. Hmm... mhm... mmm... W porządku. Nie widzę żadnych problemów.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11"
+      ],
+      "category": "dialog"
+    },
+    "All right, one second... Ah, here we are. Um, but...": {
+      "pl": "Dobrze, chwileczkę... Ach, jest. Yyy, ale...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2"
+      ],
+      "category": "dialog"
+    },
+    "All right, there you go.": {
+      "pl": "Dobrze, proszę bardzo.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit10"
+      ],
+      "category": "dialog"
+    },
+    "All right. First we'll need to fill out a requisition form.": {
+      "pl": "Dobrze. Najpierw musimy wypełnić formularz zapotrzebowania.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3"
+      ],
+      "category": "dialog"
+    },
+    "All right. I don't get much use out of it since we took Adjunct Records' stapler away anyway.": {
+      "pl": "Dobrze. I tak odkąd zabraliśmy zszywacz Pomocniczemu Departamentowi Akt, nie mam z tego wielkiego pożytku.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.beeropen"
+      ],
+      "category": "dialog"
+    },
+    "All right. Which color?": {
+      "pl": "Dobrze. Jaki kolor?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3"
+      ],
+      "category": "dialog"
+    },
+    "Alvarado": {
+      "pl": "Alvarado",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "And also here.": {
+      "pl": "I tutaj też.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11g"
+      ],
+      "category": "dialog"
+    },
+    "And here.": {
+      "pl": "I tutaj.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11i"
+      ],
+      "category": "dialog"
+    },
+    "And initial here.": {
+      "pl": "I parafka tutaj.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11h"
+      ],
+      "category": "dialog"
+    },
+    "And now you sign it here.": {
+      "pl": "A teraz podpisz tutaj.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11f"
+      ],
+      "category": "dialog"
+    },
+    "And sign here.": {
+      "pl": "I podpis tutaj.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11j"
+      ],
+      "category": "dialog"
+    },
+    "And sign it here...": {
+      "pl": "I podpisz tutaj...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11f"
+      ],
+      "category": "dialog"
+    },
+    "And that is...?": {
+      "pl": "A to jest...?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a"
+      ],
+      "category": "dialog"
+    },
+    "Anyway, what I actually need is...": {
+      "pl": "Tak naprawdę potrzebuję...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1c"
+      ],
+      "category": "dialog"
+    },
+    "Are you kidding me?": {
+      "pl": "Żartujesz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11k"
+      ],
+      "category": "dialog"
+    },
+    "Are you sure?": {
+      "pl": "Na pewno?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15"
+      ],
+      "category": "dialog"
+    },
+    "Arrrgh.": {
+      "pl": "Arrrgh.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3d",
+        "data.json:scripts.ghosttown1_knock5.realpermit4"
+      ],
+      "category": "dialog"
+    },
+    "Bar? Oh, you mean the Department of Libations. Sure, I can give you a whiskey requisition form.": {
+      "pl": "Bar? Ach, Departament Libacji. Jasne, mogę dać ci formularz zapotrzebowania na whiskey.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "Beer": {
+      "pl": "Piwo",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.booze1",
+        "data.json:buckets.stock_products[1]"
+      ],
+      "category": "dialog"
+    },
+    "Beer.": {
+      "pl": "Piwo.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1a"
+      ],
+      "category": "dialog"
+    },
+    "Blue": {
+      "pl": "Niebieski",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3",
+        "data.json:scripts.ghosttown1_knock4.whiskey3a",
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Bobcat": {
+      "pl": "Bobcat",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "Boring Springs.": {
+      "pl": "Boring Springs.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5"
+      ],
+      "category": "dialog"
+    },
+    "Boring Springs? Never heard of it. What's it like?": {
+      "pl": "Boring Springs? Nigdy nie słyszałem. Jak tam jest?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5a"
+      ],
+      "category": "dialog"
+    },
+    "Boring, just like it says on the label.": {
+      "pl": "Nudne, jak stoi na etykiecie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5a"
+      ],
+      "category": "dialog"
+    },
+    "Bring it back here when you've got it, and I'll put it in an official Inter-Department Document Transfer Folder for you.": {
+      "pl": "Przynieś go tutaj, a włożę go dla ciebie do oficjalnej Międzydepartamentowej Teczki do Przenoszenia Dokumentów.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1a"
+      ],
+      "category": "dialog"
+    },
+    "But": {
+      "pl": "Ale",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.tempvisit3b"
+      ],
+      "category": "dialog"
+    },
+    "But I don't have a stapler.": {
+      "pl": "Ale nie mam zszywacza.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "But I need a pencil for...": {
+      "pl": "Ale potrzebuję ołówka do...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.pencil"
+      ],
+      "category": "dialog"
+    },
+    "But it was six last time!": {
+      "pl": "Ale ostatnio było sześć!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7c"
+      ],
+      "category": "dialog"
+    },
+    "But?": {
+      "pl": "Ale?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c",
+        "data.json:scripts.npc_bshostler.abthorse4",
+        "data.json:scripts.npc_bshostler.abthorse4b",
+        "data.json:scripts.pardner_talk.alice_clownsdestroyed"
+      ],
+      "category": "dialog"
+    },
+    "Buy it [1000 Meat]": {
+      "pl": "Kup to [1000 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderb"
+      ],
+      "category": "dialog"
+    },
+    "Buy it [300 Meat]": {
+      "pl": "Kup to [300 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.ordera"
+      ],
+      "category": "dialog"
+    },
+    "Buy it [Requires 1000 Meat]": {
+      "pl": "Kup [Wymaga 1000 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderb"
+      ],
+      "category": "dialog"
+    },
+    "Buy it [Requires 103 Meat]": {
+      "pl": "Kup [Wymaga 103 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1f",
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Buy it [Requires 300 Meat]": {
+      "pl": "Kup [Wymaga 300 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.ordera"
+      ],
+      "category": "dialog"
+    },
+    "Buy it. [103 Meat]": {
+      "pl": "Kup to. [103 Mięsa]",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1f",
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Cake.": {
+      "pl": "Ciasto.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "Can I have that logging report now?": {
+      "pl": "Mogę już dostać raport z wyrębu?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit4"
+      ],
+      "category": "dialog"
+    },
+    "Can't transfer a form to a different department without a form transfer envelope. To make sure it doesn't get tampered with during transport.": {
+      "pl": "Nie można przenieść formularza do innego departamentu bez koperty do przenoszenia formularzy. Żeby nikt przy nim nie majstrował w drodze.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "Cheat through the Breadwood quest.": {
+      "pl": "Oszukaj w zadaniu Breadwood.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cheat.popup"
+      ],
+      "category": "dialog"
+    },
+    "Closed, I said! No visitor ID, no sale!": {
+      "pl": "Mówiłem, że zamknięte! Bez identyfikatora gościa nie ma sprzedaży!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.first"
+      ],
+      "category": "dialog"
+    },
+    "Correct. All right, everything seems to be in order. Allow me to officially welcome you to the town of Ghostwood. Here's your visitor ID.": {
+      "pl": "Zgadza się. Wszystko wygląda poprawnie. Oficjalnie witam w Ghostwood. Oto identyfikator gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7a"
+      ],
+      "category": "dialog"
+    },
+    "Correct. All right, everything seems to be in order. Here's your temporary visitor pass.": {
+      "pl": "Zgadza się. Wszystko wygląda poprawnie. Oto tymczasowa przepustka gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6b"
+      ],
+      "category": "dialog"
+    },
+    "Dammit!": {
+      "pl": "Cholera!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.tempvisit1b"
+      ],
+      "category": "dialog"
+    },
+    "Danger": {
+      "pl": "Niebezpieczeństwo",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "Department of Records. How can I help you, @mr@ @idlastname@?": {
+      "pl": "Departament Akt. W czym mogę pomóc, @mr@ @idlastname@?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Did that whiskey show up yet?": {
+      "pl": "I ta whiskey już dotarła?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey6",
+        "data.json:scripts.ghosttown1_knock1.whiskey7"
+      ],
+      "category": "dialog"
+    },
+    "Did you go tell the Department of Requisitions to set us up with a fresh case?": {
+      "pl": "Poszedłeś już powiedzieć Departamentowi Rekwizycji, żeby przydzielił nam nową skrzynkę?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey6b"
+      ],
+      "category": "dialog"
+    },
+    "Dirtwater.": {
+      "pl": "Dirtwater.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5"
+      ],
+      "category": "dialog"
+    },
+    "Do you have the Department of Records' staple remover?": {
+      "pl": "Masz rozszywacz z Departamentu Akt?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Don't worry! All you have to do is go to the Department of Requisitions next door and requisition one.": {
+      "pl": "Nie martw się! Wystarczy pójść do sąsiedniego Departamentu Rekwizycji i zarekwirować jeden.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2d"
+      ],
+      "category": "dialog"
+    },
+    "Don't worry, the form'll still be here when you get back.": {
+      "pl": "Nie martw się, formularz będzie tu na ciebie czekał.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1nopencil"
+      ],
+      "category": "dialog"
+    },
+    "Ehh... never mind.": {
+      "pl": "Ehh... nieważne.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1f",
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Eight.": {
+      "pl": "Osiem.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Eight?": {
+      "pl": "Osiem?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "Er... Justine?": {
+      "pl": "Eee... Justine?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit4"
+      ],
+      "category": "dialog"
+    },
+    "Excuse me while I go kill everything.": {
+      "pl": "Przepraszam, idę wszystko zabić.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14fail"
+      ],
+      "category": "dialog"
+    },
+    "Excuse me, but...": {
+      "pl": "Przepraszam, ale...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.first",
+        "data.json:scripts.ghosttown1_knock3.first",
+        "data.json:scripts.ghosttown1_knock4.first"
+      ],
+      "category": "dialog"
+    },
+    "Excuse me...": {
+      "pl": "Przepraszam...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.tempvisit",
+        "data.json:scripts.ghosttown1_knock4.tempvisit",
+        "data.json:scripts.ghosttown1_knock5.hitempexp"
+      ],
+      "category": "dialog"
+    },
+    "Excuse me?": {
+      "pl": "Słucham?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.tempvisit",
+        "data.json:scripts.ghosttown1_knock4.permit3e",
+        "data.json:scripts.ghosttown1_knock5.second",
+        "data.json:scripts.mine4_office_talk.start",
+        "data.json:scripts.punland_mainstage_bossfight_stage.start"
+      ],
+      "category": "dialog"
+    },
+    "Finally. Wonderful.": {
+      "pl": "Nareszcie. Cudownie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14b"
+      ],
+      "category": "dialog"
+    },
+    "First name?": {
+      "pl": "Imię?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "Forget it, I'm not thirsty anymore.": {
+      "pl": "Nieważne, już nie jestem spragniony.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "Forget it.": {
+      "pl": "Nieważne.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a",
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Go away!": {
+      "pl": "Idź sobie!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.first"
+      ],
+      "category": "dialog"
+    },
+    "Goldthwait": {
+      "pl": "Goldthwait",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "Good choice. Only one small problem, though.": {
+      "pl": "Dobry wybór. Jest tylko jeden drobny problem.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a"
+      ],
+      "category": "dialog"
+    },
+    "Good grief.": {
+      "pl": "O rety.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp2"
+      ],
+      "category": "dialog"
+    },
+    "Good. Now, just take this back to the mayor of Breadwood, and have him sign on this line here, and initial over here.": {
+      "pl": "Dobrze. Zanieś to teraz burmistrzowi Breadwood, niech podpisze się na tej linii i postawi inicjały tutaj.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11k"
+      ],
+      "category": "dialog"
+    },
+    "Got it. Thanks.": {
+      "pl": "Jasne. Dzięki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit0"
+      ],
+      "category": "dialog"
+    },
+    "Great! Ahh, there's nothing better than that new stapler smell.": {
+      "pl": "Świetnie! Ach, nie ma nic lepszego niż zapach nowego zszywacza.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit4"
+      ],
+      "category": "dialog"
+    },
+    "Great! Did you know the inventor of these things wanted to call them \"office chompers\"? Ridiculous, right? Anyway, that'll be 103 Meat, including the deposit on the bottle.": {
+      "pl": "Świetnie! Wiedziałeś, że wynalazca tych urządzeń chciał nazwać je „biurowymi gryzakami”? Niedorzeczne, prawda? W każdym razie będzie 103 Mięsa, wliczając kaucję za butelkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Great! Let me just have a look at those papers of yours... tsk, tsk, Adjunct Records up to his old tricks again, I see. These don't even need to be stapled -- that's what the Inter-Department Document Transfer Folder is for, after all!": {
+      "pl": "Świetnie! Tylko zerknę na te dokumenty... cmok, cmok, widzę, że Pomocniczy Departament Akt znów stosuje stare sztuczki. Tego nawet nie trzeba zszywać — od tego jest przecież Międzydepartamentowa Teczka do Przenoszenia Dokumentów!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit10"
+      ],
+      "category": "dialog"
+    },
+    "Great! Which file?": {
+      "pl": "Świetnie! Którą teczkę?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2"
+      ],
+      "category": "dialog"
+    },
+    "Great, thank you.": {
+      "pl": "Świetnie, dziękuję.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit5"
+      ],
+      "category": "dialog"
+    },
+    "Great, we'll send your mail there too.": {
+      "pl": "Świetnie, twoją pocztę też będziemy tam wysyłać.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5c"
+      ],
+      "category": "dialog"
+    },
+    "Great. Just sign this last line at the bottom, where it says 'receipt'.": {
+      "pl": "Świetnie. Podpisz jeszcze ostatnią linię na dole, przy słowie „pokwitowanie”.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14"
+      ],
+      "category": "dialog"
+    },
+    "Great. Where are you from, @idfirstname@ @idmiddlename@ @idlastname@?": {
+      "pl": "Świetnie. Skąd pochodzisz, @idfirstname@ @idmiddlename@ @idlastname@?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit4",
+        "data.json:scripts.ghosttown1_knock5.temppermit4b",
+        "data.json:scripts.ghosttown1_knock5.temppermit4c"
+      ],
+      "category": "dialog"
+    },
+    "Green": {
+      "pl": "Zielony",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3",
+        "data.json:scripts.ghosttown1_knock4.whiskey3a",
+        "data.json:scripts.ghosttown1_knock4.whiskey3b"
+      ],
+      "category": "dialog"
+    },
+    "Grrr.": {
+      "pl": "Grrr.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey7b",
+        "data.json:buckets.fort4_darnit[1]"
+      ],
+      "category": "dialog"
+    },
+    "Hah! Nice try, but it obviously doesn't work like that.": {
+      "pl": "Ha! Niezła próba, ale to oczywiście tak nie działa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.4pencil"
+      ],
+      "category": "dialog"
+    },
+    "Hello, @mr@ @idlastname@. How can I be of service?": {
+      "pl": "Witam, @mr@ @idlastname@. W czym mogę służyć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Hello, can I help you?": {
+      "pl": "Witam, mogę w czymś pomóc?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermitretry"
+      ],
+      "category": "dialog"
+    },
+    "Hello, this is the Department of Records. How may I be of... oh, your visitor's permit has expired.": {
+      "pl": "Dzień dobry, Departament Akt. W czym mogę... och, twoje zezwolenie dla gościa wygasło.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "Hello. Something I can get for you, @mr@ @idlastname@?": {
+      "pl": "Witam. Podać coś, @mr@ @idlastname@?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Hello?": {
+      "pl": "Halo?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.tempvisit",
+        "data.json:scripts.re_gobling3.start",
+        "data.json:scripts.re_gobling3.goblintongue",
+        "data.json:scripts.re_skeletonc3.intim",
+        "house.json:scripts.house_intercom_talk.notalk"
+      ],
+      "category": "dialog"
+    },
+    "Hello? Excuse me, I need a...": {
+      "pl": "Halo? Przepraszam, potrzebuję...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.pencil"
+      ],
+      "category": "dialog"
+    },
+    "Hello? The General Store won't give me a pencil without a visitor ID.": {
+      "pl": "Halo? Sklep Wielobranżowy nie da mi ołówka bez identyfikatora gościa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.nopencil"
+      ],
+      "category": "dialog"
+    },
+    "Here's that whiskey requisition form.": {
+      "pl": "Oto formularz rekwizycji whiskey.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5"
+      ],
+      "category": "dialog"
+    },
+    "Here's your staple remover back.": {
+      "pl": "Masz z powrotem swój rozszywacz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Here, I've got the Department of Records' staple remover.": {
+      "pl": "Proszę, mam rozszywacz z Departamentu Akt.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Hey, don't look at me that way. There's a lot of processing and forms for a booze delivery.": {
+      "pl": "Hej, nie patrz tak na mnie. Dostawa alkoholu wymaga mnóstwa procedur i formularzy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey6"
+      ],
+      "category": "dialog"
+    },
+    "Hmm... sorry, @miss@, my records show you've already bought a bottle, and it's limited to one per customer, what with limited supply and all. Care for a shot instead?": {
+      "pl": "Hmm... przepraszam, @miss@, ale według moich rejestrów kupiłeś już butelkę, a z powodu ograniczonych zapasów przypada tylko jedna na klienta. Może kieliszek?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderd"
+      ],
+      "category": "dialog"
+    },
+    "Hmm... that section has been downgraded from disuse. You'll need to pick it up from the Adjunct Department of Records, next door.": {
+      "pl": "Hmm... z powodu nieużywania ten dział został zdegradowany. Musisz odebrać go w sąsiednim Pomocniczym Departamencie Akt.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1a"
+      ],
+      "category": "dialog"
+    },
+    "Hmmm... Oooh! This is pretty juicy! I'm afraid you need full residency status before I can share it with you, though.": {
+      "pl": "Hmmm... Ooo! To naprawdę soczyste! Niestety musisz mieć status pełnego mieszkańca, zanim będę mógł się tym podzielić.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1b"
+      ],
+      "category": "dialog"
+    },
+    "Holy crap.": {
+      "pl": "O rany.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15",
+        "data.json:scripts.pardner_talk.gary_cemetery5",
+        "data.json:scripts.skullshadowhomestead_orderinggrandma.howdevice7"
+      ],
+      "category": "dialog"
+    },
+    "Howdy there, @fella@. New in town?": {
+      "pl": "Witaj, @fella@. Pierwszy raz w mieście?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "Howdy! Did you get a whiskey requisition form?": {
+      "pl": "Witaj! Masz formularz rekwizycji whiskey?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, welcome to the Department of... oh, sorry, looks like your visitor's pass expired.": {
+      "pl": "Witaj w Departamencie... och, przepraszam, wygląda na to, że twoja przepustka dla gościa wygasła.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "Huh. All the buildings in this little town are weirdly hazy and translucent, like... oh. Ghosts. It's a literal ghost town.": {
+      "pl": "Hm. Wszystkie budynki w tej małej miejscowości są dziwnie mgliste i przezroczyste, jakby... och. Duchy. To dosłowne miasto duchów.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_intro.popup"
+      ],
+      "category": "dialog"
+    },
+    "I am no longer amazed.": {
+      "pl": "Już mnie to nie zadziwia.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11"
+      ],
+      "category": "dialog"
+    },
+    "I didn't ask the same question as last time.": {
+      "pl": "Nie zadałem tego samego pytania co ostatnio.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7c"
+      ],
+      "category": "dialog"
+    },
+    "I don't have to sign anything to collect it?": {
+      "pl": "Nie muszę niczego podpisywać, żeby to odebrać?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15"
+      ],
+      "category": "dialog"
+    },
+    "I don't know how to do that.": {
+      "pl": "Nie wiem, jak to zrobić.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11k"
+      ],
+      "category": "dialog"
+    },
+    "I figured.": {
+      "pl": "Domyślałem się.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3"
+      ],
+      "category": "dialog"
+    },
+    "I guess so?": {
+      "pl": "Chyba tak?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "I have a... oh god, I loaned it to the mayor.": {
+      "pl": "Mam... o Boże, pożyczyłem go burmistrzowi.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1nopencil"
+      ],
+      "category": "dialog"
+    },
+    "I hereby vow to destroy this place. I will raze the buildings and salt the earth.": {
+      "pl": "Niniejszym przysięgam zniszczyć to miejsce. Zrównam budynki z ziemią, a ziemię posypię solą.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "I imagine it does, but I'm afraid I'm not authorized for unstapling. You'll have to take it back over to Records. Here y'are.": {
+      "pl": "Wyobrażam sobie, że tak, ale niestety nie mam uprawnień do rozszywania. Musisz zanieść to z powrotem do Departamentu Akt. Proszę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit9"
+      ],
+      "category": "dialog"
+    },
+    "I live wherever the wind takes me.": {
+      "pl": "Mieszkam tam, dokąd zepchnie mnie wiatr.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5"
+      ],
+      "category": "dialog"
+    },
+    "I loaned my pencil to the mayor.": {
+      "pl": "Pożyczyłem ołówek burmistrzowi.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14fail"
+      ],
+      "category": "dialog"
+    },
+    "I miss it already.": {
+      "pl": "Już za tym tęsknię.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5a"
+      ],
+      "category": "dialog"
+    },
+    "I need a #3 pencil.": {
+      "pl": "Potrzebuję ołówka nr 3.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "I need a drink. Immediately.": {
+      "pl": "Potrzebuję drinka. Natychmiast.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I need a form transfer envelope.": {
+      "pl": "Potrzebuję koperty do przeniesienia formularza.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I need a whiskey requisition form for the bar down the street.": {
+      "pl": "Potrzebuję formularza zapotrzebowania na whiskey do baru na rogu.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I need some papers unstapled.": {
+      "pl": "Potrzebuję, żeby ktoś rozspiął mi papiery.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I need to requisition a stapler.": {
+      "pl": "Potrzebuję zarekwirować zszywacz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I see. Well, that shouldn't be a problem. I'll just need to review the logging records to make sure there are no disqualifying incidents. Go to the Department of Records -- it's two doors down -- and tell them I need the Breadwood file pertaining to logging.": {
+      "pl": "Rozumiem. Cóż, to nie powinien być problem. Muszę tylko przejrzeć rejestry wyrębu, żeby się upewnić, że nie było żadnych dyskwalifikujących incydentów. Idź do Departamentu Akt — dwoje drzwi dalej — i powiedz im, że potrzebuję teczki Breadwood dotyczącej wyrębu.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit1"
+      ],
+      "category": "dialog"
+    },
+    "I suppose I could issue you a temporary visitor permit. You don't need a pencil for that one.": {
+      "pl": "Chyba mogę wystawić ci tymczasowe pozwolenie dla odwiedzających. Do tego ołówek nie jest potrzebny.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.nopencil"
+      ],
+      "category": "dialog"
+    },
+    "I suppose, but a #3 pencil is fifty percent more official!": {
+      "pl": "Niby tak, ale ołówek numer 3 jest o pięćdziesiąt procent bardziej oficjalny!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.number3"
+      ],
+      "category": "dialog"
+    },
+    "I usually use the Department of Records' staple remover. Could you go borrow it for me?": {
+      "pl": "Zwykle korzystam z rozszywacza Departamentu Akt. Mógłbyś go dla mnie pożyczyć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail2"
+      ],
+      "category": "dialog"
+    },
+    "I want the whole damn bottle.": {
+      "pl": "Chcę całą cholerną butelkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderb"
+      ],
+      "category": "dialog"
+    },
+    "I was hoping you wouldn't notice. Look, a #4 is, like, 33 percent more official, right?": {
+      "pl": "Liczyłem, że nie zauważysz. No weź, numer 4 jest jakieś 33 procent bardziej oficjalny, nie?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.4pencil"
+      ],
+      "category": "dialog"
+    },
+    "I will be, but the instructions say very clearly that the applicant must have a #3 pencil.": {
+      "pl": "Będę, ale instrukcja mówi bardzo wyraźnie, że wnioskodawca musi mieć ołówek numer 3.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "I'd be glad to!": {
+      "pl": "Z przyjemnością!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "I'll be happy to help fill in the forms. Most living people have trouble holding the pages. You'll be needing a #3 pencil.": {
+      "pl": "Chętnie pomogę wypełnić formularze. Większość żywych ma problem z utrzymaniem kartek. Będzie ci potrzebny ołówek numer 3.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "I'm back for that whiskey requisition form. Here's a transfer envelope.": {
+      "pl": "Wróciłem po formularz zapotrzebowania na whiskey. Oto koperta transferowa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I'm frankly amazed.": {
+      "pl": "Szczerze mówiąc, jestem zdumiony.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11"
+      ],
+      "category": "dialog"
+    },
+    "I'm here on behalf of the mayor of Breadwood. He needs a permit to do some logging in this area.": {
+      "pl": "Przychodzę w imieniu burmistrza Breadwood. Potrzebuje pozwolenia na wyręb w tej okolicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit0",
+        "data.json:scripts.ghosttown1_knock2.permit0",
+        "data.json:scripts.ghosttown1_knock3.permit0",
+        "data.json:scripts.ghosttown1_knock4.permit0"
+      ],
+      "category": "dialog"
+    },
+    "I'm here on behalf of the mayor of Breadwood. He needs a permit...": {
+      "pl": "Jestem w imieniu burmistrza Breadwood. Potrzebuje pozwolenia...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome",
+        "data.json:scripts.ghosttown1_knock2.welcome",
+        "data.json:scripts.ghosttown1_knock3.welcome",
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I'm just taking them next door, they're giving me a documents folder. It'll be fine.": {
+      "pl": "Zabieram je tylko do sąsiedniego biura, dadzą mi teczkę na dokumenty. Nic się nie stanie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2b"
+      ],
+      "category": "dialog"
+    },
+    "I'm out of whiskey requisition forms. Mind going down to Administration and picking one up for me?": {
+      "pl": "Skończyły mi się formularze zapotrzebowania na whiskey. Skoczysz do Administracji i przyniesiesz mi jeden?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a"
+      ],
+      "category": "dialog"
+    },
+    "I'm ready to redo the temporary visitor form.": {
+      "pl": "Mogę wypełnić formularz tymczasowego odwiedzającego jeszcze raz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.tempretry"
+      ],
+      "category": "dialog"
+    },
+    "I'm sorry, your visitor's permit has expired. Have a nice day.": {
+      "pl": "Przykro mi, twoje pozwolenie dla odwiedzających wygasło. Miłego dnia.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "I'm staying in Dirtwater at the moment.": {
+      "pl": "Na razie mieszkam w Dirtwater.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5",
+        "data.json:scripts.ghosttown1_knock5.temppermit5c"
+      ],
+      "category": "dialog"
+    },
+    "I'm supposed to pick up a file on the town of Breadwood.": {
+      "pl": "Mam odebrać akta dotyczące miasteczka Breadwood.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome",
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "I'm technically extra-municipal, since I'm just a visitor. So give me a blue one.": {
+      "pl": "Formalnie jestem pozamiejski, bo tylko odwiedzam. Więc daj mi niebieski.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3b"
+      ],
+      "category": "dialog"
+    },
+    "I've forgotten what I was supposed to be doing.": {
+      "pl": "Zapomniałem, co miałem robić.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.second"
+      ],
+      "category": "dialog"
+    },
+    "If you ever decide to set your sights a little higher, I can recommend a good drainage ditch.": {
+      "pl": "Gdybyś kiedyś postanowił mierzyć nieco wyżej, mogę polecić dobry rów melioracyjny.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5b"
+      ],
+      "category": "dialog"
+    },
+    "In two days.": {
+      "pl": "Za dwa dni.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey6"
+      ],
+      "category": "dialog"
+    },
+    "Initial": {
+      "pl": "Inicjał",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11h",
+        "data.json:scripts.ghosttown1_knock5.permit11i"
+      ],
+      "category": "dialog"
+    },
+    "Is something wrong?": {
+      "pl": "Coś nie tak?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14fail",
+        "data.json:scripts.re_banditg2.hornswoggle",
+        "house.json:scripts.house_ghost_glutton.livechili"
+      ],
+      "category": "dialog"
+    },
+    "Is that Breadwood logging permit ready yet?": {
+      "pl": "Czy to pozwolenie na wycinkę w Breadwood jest już gotowe?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Is that really necessary?": {
+      "pl": "Czy to naprawdę konieczne?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1a"
+      ],
+      "category": "dialog"
+    },
+    "It expires in eleven seconds.": {
+      "pl": "Wygasa za jedenaście sekund.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6b"
+      ],
+      "category": "dialog"
+    },
+    "It's a little more specific these days, but yes.": {
+      "pl": "Obecnie jest trochę bardziej szczegółowa, ale tak.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.firstb"
+      ],
+      "category": "dialog"
+    },
+    "It's a quiz to make sure you've actually been paying attention to and care about our little town, instead of just breezing through. To show your dedication.": {
+      "pl": "To quiz sprawdzający, czy naprawdę uważałeś i zależy ci na naszym miasteczku, zamiast tylko przemknąć przez nie bez zastanowienia. Masz wykazać swoje zaangażowanie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "Jeez, finally. I'm here on behalf of the mayor of Breadwood. He needs a permit to do some logging in this area.": {
+      "pl": "Rany, nareszcie. Jestem tu w imieniu burmistrza Breadwood. Potrzebuje pozwolenia na wyrąb lasu w tej okolicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Jeez, finally. I'm here on behalf of the mayor of Breadwood...": {
+      "pl": "O rany, w końcu. Jestem tu w imieniu burmistrza Breadwood...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Just a regular tan one, please.": {
+      "pl": "Zwykłą jasnobrązową, proszę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3a"
+      ],
+      "category": "dialog"
+    },
+    "Just a shot.": {
+      "pl": "Tylko jeden kieliszek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskeyorder"
+      ],
+      "category": "dialog"
+    },
+    "Justice": {
+      "pl": "Sprawiedliwość",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "Justice.": {
+      "pl": "Sprawiedliwość.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit4c"
+      ],
+      "category": "dialog"
+    },
+    "Knock, knock.": {
+      "pl": "Puk, puk.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome",
+        "data.json:scripts.ghosttown1_knock2.welcome",
+        "data.json:scripts.ghosttown1_knock3.welcome",
+        "data.json:scripts.ghosttown1_knock4.welcome",
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Last name?": {
+      "pl": "Nazwisko?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.realpermitgo"
+      ],
+      "category": "dialog"
+    },
+    "Lemme match that against your visitor ID... \"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\" -- Yup, that all looks good.": {
+      "pl": "Porównam to z identyfikatorem gościa... „$tempidfirstname$ $tempidmiddlename$ $tempidlastname$” — Tak, wszystko się zgadza.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "Lemme match that against your visitor ID... \"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\" -- Yup, that's fine. That'll be 103 Meat, including the deposit on the bottle...": {
+      "pl": "Porównam to z identyfikatorem gościa... „$tempidfirstname$ $tempidmiddlename$ $tempidlastname$” — Tak, w porządku. To będzie 103 Mięsa, razem z kaucją za butelkę...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1f"
+      ],
+      "category": "dialog"
+    },
+    "Let me check that against your visitor identification... \"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\" -- Okay, that's fine. I just need to stamp this here...": {
+      "pl": "Porównam to z pańskim identyfikatorem gościa... „$tempidfirstname$ $tempidmiddlename$ $tempidlastname$” — Dobrze, wszystko się zgadza. Muszę tylko przybić tutaj pieczątkę...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11f"
+      ],
+      "category": "dialog"
+    },
+    "Let me just check your visitor identification... \"$tempidfirstname$ $tempidmiddlename$ $tempidlastname$\" -- yep, that checks out. Cake or pie?": {
+      "pl": "Sprawdzę tylko pański identyfikator gościa... „$tempidfirstname$ $tempidmiddlename$ $tempidlastname$” — tak, zgadza się. Ciasto czy placek?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "Let me look... ah yes, here it is. And there you are.": {
+      "pl": "Zobaczmy... ach, tak, jest. I oto ty.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15"
+      ],
+      "category": "dialog"
+    },
+    "Let's get started on the paperwork for that logging permit.": {
+      "pl": "Zabierzmy się za dokumenty do pozwolenia na wyrąb.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11"
+      ],
+      "category": "dialog"
+    },
+    "Let's have a green one.": {
+      "pl": "Weźmy zieloną.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Let's try that logging permit paperwork again.": {
+      "pl": "Spróbujmy jeszcze raz z tą papierologią pozwolenia na wycinkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Local Gossip.": {
+      "pl": "Lokalne plotki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1x"
+      ],
+      "category": "dialog"
+    },
+    "Logging records.": {
+      "pl": "Ewidencja wycinki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1x"
+      ],
+      "category": "dialog"
+    },
+    "Logging reports for the town of Breadwood.": {
+      "pl": "Raporty z wyrębu dla miasta Breadwood.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2"
+      ],
+      "category": "dialog"
+    },
+    "Look. I have two boxes here. One says 'Cake' and the other says 'Pie'. I have to put a checkmark in one of them. Which is it gonna be?": {
+      "pl": "Spójrz. Mam tu dwa pola. Jedno z napisem „Ciasto”, drugie „Placek”. Muszę zaznaczyć jedno z nich. Które wybierasz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3f"
+      ],
+      "category": "dialog"
+    },
+    "Looks like you'll be needing another.": {
+      "pl": "Wygląda na to, że będziesz potrzebować kolejnego.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp2"
+      ],
+      "category": "dialog"
+    },
+    "Man, if this town weren't already dead...": {
+      "pl": "Stary, gdyby to miasto nie było już i tak martwe...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11e"
+      ],
+      "category": "dialog"
+    },
+    "Middle name?": {
+      "pl": "Drugie imię?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "Mur... Uh, Edgelord. I guess.": {
+      "pl": "Mor... Ee, Ponurak. Chyba.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit4"
+      ],
+      "category": "dialog"
+    },
+    "Murder": {
+      "pl": "Morderstwo",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "Murder.": {
+      "pl": "Morderstwo.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit4b"
+      ],
+      "category": "dialog"
+    },
+    "Must be a suburb. Beaverwood, Bestwood, Bitterwood, Bloodwood... Ah, here we are, Breadwood. Which section did you need?": {
+      "pl": "To pewnie przedmieście. Beaverwood, Bestwood, Bitterwood, Bloodwood... Ach, jest, Breadwood. Którego działu potrzebujesz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1"
+      ],
+      "category": "dialog"
+    },
+    "My visitor pass expired. Can I have another one?": {
+      "pl": "Moja przepustka dla gościa wygasła. Mogę dostać następną?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.newtemp"
+      ],
+      "category": "dialog"
+    },
+    "Naturally.": {
+      "pl": "Naturalnie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1a"
+      ],
+      "category": "dialog"
+    },
+    "Naturally. Different colors for different purposes. Tan for regular inter-department transfers, blue for extra-municipal transfers, red for emergencies, and green for bribes.": {
+      "pl": "Naturalnie. Różne kolory do różnych celów. Jasnobrązowe do zwykłych przesyłek międzywydziałowych, niebieskie do przesyłek pozamiejskich, czerwone do nagłych wypadków, a zielone do łapówek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3"
+      ],
+      "category": "dialog"
+    },
+    "Never heard of you!": {
+      "pl": "Nigdy o tobie nie słyszałem!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.first"
+      ],
+      "category": "dialog"
+    },
+    "Nine.": {
+      "pl": "Dziewięć.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Nine?": {
+      "pl": "Dziewięć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "No @sir@, this is serious business. I'll tell you what, though -- they should have a supply of spare form transfer envelopes at the Department of Requisitions next door.": {
+      "pl": "Nie, @sir@, to poważna sprawa. Ale powiem ci coś — w sąsiednim Departamencie Rekwizycji powinni mieć zapas kopert do przekazywania formularzy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey2b"
+      ],
+      "category": "dialog"
+    },
+    "No @sir@. That's it.": {
+      "pl": "Nie, @sir@. To wszystko.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15"
+      ],
+      "category": "dialog"
+    },
+    "No no, what if there's a freak gust of wind as soon as you leave here? It would be chaos!": {
+      "pl": "Nie, nie, a jeśli zaraz po twoim wyjściu zerwie się nagły podmuch wiatru? Zapanowałby chaos!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2b"
+      ],
+      "category": "dialog"
+    },
+    "No problem! You want a shot, or a whole bottle?": {
+      "pl": "Nie ma sprawy! Chcesz kieliszek czy całą butelkę?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskeyorder"
+      ],
+      "category": "dialog"
+    },
+    "No problem, we'll just fill out a requisition form.": {
+      "pl": "Nie ma problemu, po prostu wypełnimy formularz rekwizycji.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "No problem. Beer or whiskey?": {
+      "pl": "Nie ma problemu. Piwo czy whiskey?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.booze1"
+      ],
+      "category": "dialog"
+    },
+    "no result": {
+      "pl": "brak wyniku",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.start",
+        "data.json:scripts.ghosttown1_knock2.start",
+        "data.json:scripts.ghosttown1_knock3.start",
+        "data.json:scripts.ghosttown1_knock4.start",
+        "data.json:scripts.ghosttown1_knock5.start"
+      ],
+      "category": "dialog"
+    },
+    "No visitor ID, no supplies!": {
+      "pl": "Nie ma identyfikatora gościa, nie ma przyborów!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.pencil"
+      ],
+      "category": "dialog"
+    },
+    "No, certainly not. They aren't authorized to deal with anyone who doesn't have ID.": {
+      "pl": "Nie, oczywiście, że nie. Nie mają uprawnień do obsługi nikogo bez identyfikatora.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.nopencil"
+      ],
+      "category": "dialog"
+    },
+    "No, I changed my mind.": {
+      "pl": "Nie, zmieniłem zdanie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "No, it's <i>seventy-five percent</i> of a #4 pencil.": {
+      "pl": "Nie, to <i>siedemdziesiąt pięć procent</i> ołówka numer 4.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit"
+      ],
+      "category": "dialog"
+    },
+    "No, it's Breadwood.": {
+      "pl": "Nie, to Breadwood.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Nobody's home!": {
+      "pl": "Nikogo nie ma w domu!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.first"
+      ],
+      "category": "dialog"
+    },
+    "Nondescript": {
+      "pl": "Niepozorny",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit3"
+      ],
+      "category": "dialog"
+    },
+    "Nope, not yet. Try again tomorrow.": {
+      "pl": "Nie, jeszcze nie. Spróbuj jutro.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey7b"
+      ],
+      "category": "dialog"
+    },
+    "Nope, sorry, that's inter-municipal. Can't give you a blue one.": {
+      "pl": "Nie, przykro mi, to przesyłka międzymiejska. Nie mogę dać ci niebieskiej.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3b"
+      ],
+      "category": "dialog"
+    },
+    "Nope, that'll be handled on delivery.": {
+      "pl": "Nie, tym zajmą się przy dostawie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey6"
+      ],
+      "category": "dialog"
+    },
+    "Nope. Go count them and try again.": {
+      "pl": "Nie. Idź je policzyć i spróbuj ponownie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6a"
+      ],
+      "category": "dialog"
+    },
+    "Nope. I'm afraid you'll have to be a little more observant than that.": {
+      "pl": "Nie. Obawiam się, że musisz wykazać się większą spostrzegawczością.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7b",
+        "data.json:scripts.ghosttown1_knock5.realpermit7c"
+      ],
+      "category": "dialog"
+    },
+    "Not quite, but it should be ready tomorrow.": {
+      "pl": "Jeszcze nie, ale jutro powinno być gotowe.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15b"
+      ],
+      "category": "dialog"
+    },
+    "Not quite. It'll be about two more days.": {
+      "pl": "Jeszcze nie. Potrzeba mniej więcej dwóch dni.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15b"
+      ],
+      "category": "dialog"
+    },
+    "Not quite. It'll be an impossible amount of time? I think a bug happened. Or a time warp.": {
+      "pl": "Jeszcze nie. Zajmie to... niemożliwie dużo czasu? Chyba wkradł się błąd. Albo zakrzywienie czasu.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit15b"
+      ],
+      "category": "dialog"
+    },
+    "Not yet, I'm just steeling myself in anticipation.": {
+      "pl": "Jeszcze nie, właśnie się na to psychicznie szykuję.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Not yet. I'll be right back.": {
+      "pl": "Jeszcze nie. Zaraz wracam.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "Now now, don't get all bent outta shape. If you go tell the Department of Requisitions, they'll set us up with a fresh case.": {
+      "pl": "No już, nie denerwuj się tak. Jeśli zgłosisz to do Departamentu Rekwizycji, załatwią nam nową skrzynkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "Nowhere in particular.": {
+      "pl": "Nigdzie konkretnie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5"
+      ],
+      "category": "dialog"
+    },
+    "Nuts!": {
+      "pl": "A niech to!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6a"
+      ],
+      "category": "dialog"
+    },
+    "Obituaries.": {
+      "pl": "Nekrologi.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1x"
+      ],
+      "category": "dialog"
+    },
+    "Of course you don't.": {
+      "pl": "Oczywiście, że nie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "Oh dear.": {
+      "pl": "Ojej.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14fail"
+      ],
+      "category": "dialog"
+    },
+    "Oh yeah, I've heard of it. I hear it's a real craphole.": {
+      "pl": "A tak, słyszałem o tym. Podobno to prawdziwa dziura.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit5a"
+      ],
+      "category": "dialog"
+    },
+    "Oh, sorry! I'm only authorized for stapling, not <i>un</i>stapling. Try next door at the Department of Records, I think they have an unstapler there.": {
+      "pl": "Och, przepraszam! Mam upoważnienie tylko do zszywania, nie do <i>roz</i>szywania. Spróbuj obok, w Departamencie Akt. Chyba mają tam rozszywacz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit7"
+      ],
+      "category": "dialog"
+    },
+    "Oh, sorry, looks like your visitor's permit has expired. Have a nice day.": {
+      "pl": "Och, przepraszam, wygląda na to, że twoje pozwolenie na wizytę wygasło. Miłego dnia.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.tempvisit3"
+      ],
+      "category": "dialog"
+    },
+    "Oh, this is the Department of Requisitions. You need Administration, that's next door.": {
+      "pl": "Och, to Departament Rekwizycji. Potrzebujesz Administracji, jest obok.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit0"
+      ],
+      "category": "dialog"
+    },
+    "Oh, wait... this is a number <i>4</i> pencil.": {
+      "pl": "O, chwila... to ołówek numer <i>4</i>.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cactusa.good"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you mean 'Ghost Birth Announcements'. Here you go.": {
+      "pl": "Och, chodzi ci o „Ogłoszenia o narodzinach duchów”. Proszę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1c"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you want the Department of Records. It's next door. This is the <i>Adjunct</i> Department of Records.": {
+      "pl": "Och, potrzebujesz Departamentu Akt. Jest obok. To jest <i>Pomocniczy</i> Departament Akt.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you'll need to speak to the Department of Administration. It's the last building down.": {
+      "pl": "Och, musisz porozmawiać z Departamentem Administracji. To ostatni budynek w dół ulicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit0"
+      ],
+      "category": "dialog"
+    },
+    "Oh. Uh, sorry, I don't have anything to open the bottle with. And I don't think you'll be able to do it yourself.": {
+      "pl": "Och. Yyy, przepraszam, nie mam czym otworzyć butelki. A ty chyba nie zdołasz zrobić tego sam.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail"
+      ],
+      "category": "dialog"
+    },
+    "Oh. You're gonna need a #3 pencil.": {
+      "pl": "Och. Będziesz potrzebował ołówka nr 3.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1nopencil"
+      ],
+      "category": "dialog"
+    },
+    "okay": {
+      "pl": "okay",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cheat.popup"
+      ],
+      "category": "dialog"
+    },
+    "Okay, great.": {
+      "pl": "Okej, super.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.nopencil"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I got a pencil.": {
+      "pl": "Dobra, mam ołówek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.4pencil"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I got that file for you.": {
+      "pl": "Okej, mam dla ciebie ten plik.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I got you a stapler.": {
+      "pl": "Okej, przyniosłem ci zszywacz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I'll be right back.": {
+      "pl": "Okej, zaraz wracam.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.firstb",
+        "data.json:scripts.roybean_talk.takequest3"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I'm a fully-authorized unstapler, so that's no problem. ...Hmm.": {
+      "pl": "Dobra, mam pełne upoważnienie do rozszywania, więc to żaden problem. ...Hmm.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit8"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I'm back with those papers.": {
+      "pl": "Okej, wróciłem z tymi papierami.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Okay, last question: how many bars are in the windows of the Adjunct Department of Records?": {
+      "pl": "Dobra, ostatnie pytanie: ile krat znajduje się w oknach Pomocniczego Departamentu Akt?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Okay. I've got the mayor's signature on this logging permit form.": {
+      "pl": "Okej. Mam podpis burmistrza na tym formularzu pozwolenia na wycinkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Okay. Thanks.": {
+      "pl": "Okej. Dzięki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit0"
+      ],
+      "category": "dialog"
+    },
+    "One moment, please. ...Breadwood... Applewood, Antiwood, Badwood... did you mean Bagelwood?": {
+      "pl": "Chwileczkę. ...Breadwood... Applewood, Antiwood, Badwood... chodziło ci o Bagelwood?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1"
+      ],
+      "category": "dialog"
+    },
+    "Oof. Well, if you set your sights low enough, you'll never be disappointed.": {
+      "pl": "Uff. Cóż, jeśli mierzysz wystarczająco nisko, nigdy się nie rozczarujesz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5b"
+      ],
+      "category": "dialog"
+    },
+    "Ooh! It's cold!": {
+      "pl": "Och! Zimne!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1g"
+      ],
+      "category": "dialog"
+    },
+    "Ooh, a red one. You must <i>really</i> need that drink. Here you go, one whiskey requisition form.": {
+      "pl": "Och, czerwony. Musisz <i>naprawdę</i> potrzebować tego drinka. Proszę, jeden formularz rekwizycji whisky.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey4"
+      ],
+      "category": "dialog"
+    },
+    "Ooh, a red transfer envelope. You must really be thirsty. Okay, let's get this filled out...": {
+      "pl": "Och, czerwona koperta transferowa. Musisz być naprawdę spragniony. Dobra, wypełnijmy ją...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5"
+      ],
+      "category": "dialog"
+    },
+    "Ooh, looking to shortcut the system? That'll be three thousand Meat.": {
+      "pl": "Och, chcesz pójść na skróty? To będzie trzy tysiące Mięsa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "oops": {
+      "pl": "oops",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.start",
+        "data.json:scripts.ghosttown1_knock2.start",
+        "data.json:scripts.ghosttown1_knock3.start",
+        "data.json:scripts.ghosttown1_knock4.start",
+        "data.json:scripts.ghosttown1_knock5.start"
+      ],
+      "category": "dialog"
+    },
+    "Pico": {
+      "pl": "Pico",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "Pie.": {
+      "pl": "Placek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "Please don't mention it.": {
+      "pl": "Proszę, nie wspominaj o tym.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1b"
+      ],
+      "category": "dialog"
+    },
+    "Processing will take about forty-eight hours.": {
+      "pl": "Rozpatrzenie potrwa około czterdziestu ośmiu godzin.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14b"
+      ],
+      "category": "dialog"
+    },
+    "Puddin'": {
+      "pl": "Budyń",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "Rats.": {
+      "pl": "Szlag.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.second",
+        "data.json:scripts.goblin1_guard.keywrong",
+        "data.json:scripts.mine4_levergo.unlever",
+        "data.json:scripts.npc_bshostler.alreadygot",
+        "house.json:scripts.house_bellringer.booyes3"
+      ],
+      "category": "dialog"
+    },
+    "Red": {
+      "pl": "Czerwony",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3",
+        "data.json:scripts.ghosttown1_knock4.whiskey3a",
+        "data.json:scripts.ghosttown1_knock4.whiskey3b",
+        "data.json:scripts.ghosttown1_knock4.whiskey3d",
+        "data.json:buckets.cc_cowboyfirstname[20]"
+      ],
+      "category": "dialog"
+    },
+    "Right. A #3 pencil, here it is.": {
+      "pl": "Racja. Ołówek nr 3, proszę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit"
+      ],
+      "category": "dialog"
+    },
+    "Seven.": {
+      "pl": "Siedem.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Seven?": {
+      "pl": "Siedem?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "Sharpen a pencil": {
+      "pl": "Naostrz ołówek",
+      "contexts": [
+        "data.json:scripts.ghosttown1_sharpen.popup"
+      ],
+      "category": "dialog"
+    },
+    "Shartwright": {
+      "pl": "Shartwright",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "Sheesh.": {
+      "pl": "O rany.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.first",
+        "data.json:scripts.pardner_talk.gary_house_level1",
+        "house.json:scripts.house_ghostbuster_conversation.house_airbnb_peace",
+        "house.json:scripts.house_ghostbuster_conversation.house_foyer_spideralive"
+      ],
+      "category": "dialog"
+    },
+    "Sigh, fine.": {
+      "pl": "Westchnienie, dobra.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a"
+      ],
+      "category": "dialog"
+    },
+    "Sigh. So what do you propose?": {
+      "pl": "Ech. Co więc proponujesz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "Sigh...": {
+      "pl": "Westchnienie...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2b",
+        "data.json:buckets.wasco_response4[0]"
+      ],
+      "category": "dialog"
+    },
+    "Sign": {
+      "pl": "Podpisz",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11f",
+        "data.json:scripts.ghosttown1_knock5.permit11g",
+        "data.json:scripts.ghosttown1_knock5.permit11j",
+        "data.json:scripts.ghosttown1_knock5.permit14"
+      ],
+      "category": "dialog"
+    },
+    "Six.": {
+      "pl": "Sześć.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Six?": {
+      "pl": "Sześć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "Slapshank": {
+      "pl": "Slapshank",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "Slim": {
+      "pl": "Slim",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "So can I get that whiskey now?": {
+      "pl": "Czy mogę już dostać tę whisky?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "So long as it removes staples, I'll be happy.": {
+      "pl": "Będę zadowolony, dopóki usuwa zszywki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit9"
+      ],
+      "category": "dialog"
+    },
+    "So, I bring you a stapler, and you'll give me the file?": {
+      "pl": "Czyli przyniosę ci zszywacz, a ty dasz mi akta?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2d"
+      ],
+      "category": "dialog"
+    },
+    "So, you'll staple them together for me?": {
+      "pl": "Czyli zszyjesz je dla mnie?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "Someone's mounted a pencil sharpener on one of the balcony posts, for some reason.": {
+      "pl": "Ktoś zamontował temperówkę na jednym ze słupów balkonu, z jakiegoś powodu.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_sharpen.popup"
+      ],
+      "category": "dialog"
+    },
+    "Sorry! We're fresh out of whiskey.": {
+      "pl": "Przepraszam! Właśnie skończyła nam się whisky.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "Sorry, @fella@. No shirt, no shoes, no visitor ID, no service.": {
+      "pl": "Przepraszam, @fella@. Bez koszuli, bez butów, bez identyfikatora gościa — nie obsługujemy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.second"
+      ],
+      "category": "dialog"
+    },
+    "Sorry, can't help you unless you have a visitor ID!": {
+      "pl": "Przepraszam, bez identyfikatora gościa nie mogę ci pomóc!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.pencil"
+      ],
+      "category": "dialog"
+    },
+    "Sorry, I can't do business with you until you have a visitor identification card. Ain't supposed to even talk to you, really.": {
+      "pl": "Przepraszam, nie mogę robić z tobą interesów, dopóki nie masz identyfikatora gościa. Właściwie nie powinienem nawet z tobą rozmawiać.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "Sounds like a job for the Department of Administration. That's the building all the way down the other end of the street.": {
+      "pl": "Brzmi jak zadanie dla Departamentu Administracji. To budynek na samym końcu ulicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit0"
+      ],
+      "category": "dialog"
+    },
+    "Sounds reasonable to me. Here you go.": {
+      "pl": "Dla mnie brzmi rozsądnie. Proszę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3c"
+      ],
+      "category": "dialog"
+    },
+    "Spoke too soon, did you?": {
+      "pl": "Za wcześnie się odezwałeś, co?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit8"
+      ],
+      "category": "dialog"
+    },
+    "Suit yourself. Lemme know if you need something else.": {
+      "pl": "Jak chcesz. Daj znać, jeśli potrzebujesz czegoś jeszcze.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskeycancel"
+      ],
+      "category": "dialog"
+    },
+    "Sure did! And I think you'll be glad to hear that I saved that whiskey requisition form you already filled out.": {
+      "pl": "Owszem! Ucieszy cię też, że zachowałem wypełniony przez ciebie formularz rekwizycji whisky.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey7c"
+      ],
+      "category": "dialog"
+    },
+    "Sure do! That thing pops the tops off beer bottles like you wouldn't believe!": {
+      "pl": "Oczywiście! To otwiera butelki piwa jak szalone!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.permit9"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing...": {
+      "pl": "Jasne...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5a"
+      ],
+      "category": "dialog"
+    },
+    "Taint": {
+      "pl": "Skaż",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1c",
+        "data.json:scripts.ghosttown1_knock1.whiskey5c",
+        "data.json:scripts.ghosttown1_knock4.permit3b",
+        "data.json:scripts.ghosttown1_knock5.temppermit2",
+        "data.json:scripts.ghosttown1_knock5.realpermit2"
+      ],
+      "category": "dialog"
+    },
+    "Take the pencil": {
+      "pl": "Weź ołówek",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cactusa.popup"
+      ],
+      "category": "dialog"
+    },
+    "Tame": {
+      "pl": "Oswoj",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1b",
+        "data.json:scripts.ghosttown1_knock1.whiskey5b",
+        "data.json:scripts.ghosttown1_knock4.tempvisit2",
+        "data.json:scripts.ghosttown1_knock4.permit3a",
+        "data.json:scripts.ghosttown1_knock5.temppermitx"
+      ],
+      "category": "dialog"
+    },
+    "Tan": {
+      "pl": "Jasnobrązowy",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3",
+        "data.json:scripts.ghosttown1_knock4.whiskey3b",
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Ten.": {
+      "pl": "Dziesięć.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit6"
+      ],
+      "category": "dialog"
+    },
+    "Ten?": {
+      "pl": "Dziesięć?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6cont"
+      ],
+      "category": "dialog"
+    },
+    "Thank god.": {
+      "pl": "Dzięki Bogu.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit"
+      ],
+      "category": "dialog"
+    },
+    "Thank you. Say, was it always called Ghostwood, or...": {
+      "pl": "Dziękuję. A tak właściwie, zawsze nazywało się Ghostwood, czy...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7a"
+      ],
+      "category": "dialog"
+    },
+    "That idiot stapled the pages together right in the middle. This is why we took his damn stapler away in the first place! The file is unreadable -- you're going to have to take it back and tell him to unstaple it.": {
+      "pl": "Ten idiota zszył strony pośrodku. Właśnie dlatego zabraliśmy mu ten cholerny zszywacz! Dokumentu nie da się odczytać — musisz go odnieść i kazać mu wyjąć zszywki.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit6"
+      ],
+      "category": "dialog"
+    },
+    "That refers to the form's final destination. Where are you taking it?": {
+      "pl": "To pole dotyczy miejsca docelowego formularza. Dokąd go zabierasz?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3b"
+      ],
+      "category": "dialog"
+    },
+    "That'll be 300 Meat.": {
+      "pl": "To będzie 300 Mięsa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.ordera"
+      ],
+      "category": "dialog"
+    },
+    "That's a #4 pencil.": {
+      "pl": "To ołówek numer 4.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit"
+      ],
+      "category": "dialog"
+    },
+    "That's nice.": {
+      "pl": "To miło.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5a1",
+        "data.json:scripts.winklerfuggo_driver.susieintro"
+      ],
+      "category": "dialog"
+    },
+    "That, @sir@, is a number <i>4</i> pencil, not a number 3.": {
+      "pl": "To, @sir@, jest ołówek numer <i>4</i>, a nie numer 3.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.4pencil"
+      ],
+      "category": "dialog"
+    },
+    "The bar... I mean Department of Libations is out of whiskey.": {
+      "pl": "Bar... to znaczy Departament Napojów — skończył się whiskey.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "The Breadwood logging records? Fine, let's have a look... oh for the love of...": {
+      "pl": "Rejestry wyrębu z Breadwood? Dobrze, zobaczmy... o, na miłość...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit6"
+      ],
+      "category": "dialog"
+    },
+    "The Department of Libations needs to borrow your staple remover again.": {
+      "pl": "Departament Libacji znowu potrzebuje twojego rozszywacza.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.beeropen"
+      ],
+      "category": "dialog"
+    },
+    "The Department of Libations needs to borrow your staple remover...": {
+      "pl": "Departament Libacji musi pożyczyć twój rozszywacz...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.welcome"
+      ],
+      "category": "dialog"
+    },
+    "The Department of Libations.": {
+      "pl": "Departament Libacji.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3b"
+      ],
+      "category": "dialog"
+    },
+    "The Department of Records sent me over here to pick up a file.": {
+      "pl": "Departament Akt wysłał mnie po plik.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "The ghostly jailhouse seems to be stacked up with boxes of old papers? You don't see any ghost criminals, but usually there isn't anything longer than a life sentence anyway.": {
+      "pl": "Upiorne więzienie wygląda na zawalone skrzyniami starych papierów? Nie widzisz żadnych duchowych przestępców, ale i tak zwykle nie ma wyroków dłuższych niż dożywocie.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_door3.popup"
+      ],
+      "category": "dialog"
+    },
+    "The more I have to deal with this bureaucracy, the more of an emergency this becomes. Give me a red one.": {
+      "pl": "Im dłużej użeram się z tą biurokracją, tym bardziej nagła robi się ta sprawa. Daj mi czerwony.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3c"
+      ],
+      "category": "dialog"
+    },
+    "The one that just now expired?": {
+      "pl": "Ten, który właśnie wygasł?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp"
+      ],
+      "category": "dialog"
+    },
+    "The whole damn bottle.": {
+      "pl": "Cała cholerna butelka.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskeyorder"
+      ],
+      "category": "dialog"
+    },
+    "There ya go! Don't drink it all in one place!": {
+      "pl": "Proszę! Tylko nie wypij wszystkiego naraz!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.ordere"
+      ],
+      "category": "dialog"
+    },
+    "There ya go! Enjoy!": {
+      "pl": "Proszę! Smacznego!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderc"
+      ],
+      "category": "dialog"
+    },
+    "This ghostly general store seems to be selling mostly office supplies. Ghost office supplies.": {
+      "pl": "Upiorny sklep generalny sprzedaje głównie artykuły biurowe. Upiorne.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_door4.popup"
+      ],
+      "category": "dialog"
+    },
+    "This is a regular cactus. Well, the ghost of a regular cactus. Well, the ghost of a regular cactus with the ghost of a pencil stabbed into it.": {
+      "pl": "Zwykły kaktus. Cóż, duch zwykłego kaktusa. Cóż, duch kaktusa z duchem ołówka wbitym w niego.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cactusa.popup"
+      ],
+      "category": "dialog"
+    },
+    "This looks to be the ghost of the town hall. It looks like a regular town hall -- except, you know, the whole ghost thing.": {
+      "pl": "To chyba duch ratusza. Wygląda jak zwykły ratusz — poza, no wiesz, całą tą duchową sprawą.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_door5.popup"
+      ],
+      "category": "dialog"
+    },
+    "To open beer bottles.": {
+      "pl": "Do otwierania butelek piwa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit8"
+      ],
+      "category": "dialog"
+    },
+    "Trouble": {
+      "pl": "Kłopoty",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1d",
+        "data.json:scripts.ghosttown1_knock1.whiskey5d",
+        "data.json:scripts.ghosttown1_knock4.permit3c",
+        "data.json:scripts.ghosttown1_knock5.temppermit3",
+        "data.json:scripts.ghosttown1_knock5.realpermit3"
+      ],
+      "category": "dialog"
+    },
+    "Try the Department of Requisitions. It's just next door.": {
+      "pl": "Spróbuj w Departamencie Rekwizycji. Jest tuż obok.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.firstb"
+      ],
+      "category": "dialog"
+    },
+    "Try the town hall, down the end of the street.": {
+      "pl": "Spróbuj w ratuszu, na końcu ulicy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "Ugggggggh, <i>fine.</i>": {
+      "pl": "Ugggggggh, <i>dobrze.</i>",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey5f"
+      ],
+      "category": "dialog"
+    },
+    "Uggggh.": {
+      "pl": "Uggggh.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit11k",
+        "house.json:scripts.house_dictionary2.spider"
+      ],
+      "category": "dialog"
+    },
+    "Ugggh.": {
+      "pl": "Ugggh.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.tempvisit3b"
+      ],
+      "category": "dialog"
+    },
+    "Ugh. Fine.": {
+      "pl": "Ugh. Dobrze.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beeropenfail2"
+      ],
+      "category": "dialog"
+    },
+    "Ugh. This temporary pass is basically useless. Maybe there's somewhere else you can find a pencil around here.": {
+      "pl": "Ugh. Ta tymczasowa przepustka jest praktycznie bezużyteczna. Może gdzieś indziej znajdziesz ołówek.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.tempvisit",
+        "data.json:scripts.ghosttown1_knock2.tempvisit",
+        "data.json:scripts.ghosttown1_knock3.tempvisit",
+        "data.json:scripts.ghosttown1_knock4.tempvisit3"
+      ],
+      "category": "dialog"
+    },
+    "Ugh. Well, despite that, everything seems to be in order. I'll get this filed. Here's your stapler.": {
+      "pl": "Uch. Cóż, mimo tego wszystko wydaje się w porządku. Złożę dokument. Oto twój zszywacz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3i"
+      ],
+      "category": "dialog"
+    },
+    "Umm... I can't think of anything.": {
+      "pl": "Ymm... Nic mi nie przychodzi do głowy.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome",
+        "data.json:scripts.ghosttown1_knock2.welcome",
+        "data.json:scripts.ghosttown1_knock4.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Umm... nothing, I guess.": {
+      "pl": "Ymm... nic, zgaduję.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.welcome"
+      ],
+      "category": "dialog"
+    },
+    "We're closed!": {
+      "pl": "Zamknięte!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.first"
+      ],
+      "category": "dialog"
+    },
+    "Well yeah. I need to redo the visitor ID paperwork. I guess.": {
+      "pl": "Tak. Muszę przerobić dokumenty gościa. Chyba tak.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermitretry"
+      ],
+      "category": "dialog"
+    },
+    "Well, <i>fortunately</i>, I happen to be the one person in town officially authorized to use a stapler!": {
+      "pl": "<i>Na szczęście</i> jestem jedyną osobą w mieście oficjalnie upoważnioną do używania zszywacza!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2c"
+      ],
+      "category": "dialog"
+    },
+    "Well, about this temporary visitor pass...": {
+      "pl": "Jeśli chodzi o tymczasową przepustkę...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp"
+      ],
+      "category": "dialog"
+    },
+    "Well, actually I prefer...": {
+      "pl": "No, właściwie wolę...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "Well, everything has to be filed, and the actual permit has to be printed, and so on. You can pick it up in two days.": {
+      "pl": "Wszystko musi zostać złożone, a faktyczne pozwolenie musi być wydrukowane i tak dalej. Możesz odebrać za dwa dni.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14b"
+      ],
+      "category": "dialog"
+    },
+    "Well, howdy! What can I do for you, @mr@ @idlastname@?": {
+      "pl": "Jak leci? Co mogę dla pana zrobić, @mr@ @idlastname@?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.welcome"
+      ],
+      "category": "dialog"
+    },
+    "Well, I was wondering...": {
+      "pl": "Zastanawiałem się...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.tempvisit"
+      ],
+      "category": "dialog"
+    },
+    "Well, if you're gonna go around bribing people I might as well get my cut.": {
+      "pl": "Jeśli chcesz przekupić ludzi, to równie dobrze mogę dostać swoją działkę.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Well, it's just that I don't see the staple remover anywhere. Oh, that's right, The Department of Libations borrowed it.": {
+      "pl": "Po prostu nigdzie nie widzę rozszywacza. Zgadza się, Departament Libacji go pożyczył.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit8"
+      ],
+      "category": "dialog"
+    },
+    "Well, it's not much to look at, but it's home.": {
+      "pl": "No, nie powala, ale to dom.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5a"
+      ],
+      "category": "dialog"
+    },
+    "Well, that's rude.": {
+      "pl": "No, to niegrzeczne.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.first",
+        "data.json:scripts.ghosttown1_knock4.first"
+      ],
+      "category": "dialog"
+    },
+    "Well, these pages are all loose! I can't give them to you like this! What if they blow away?": {
+      "pl": "Te strony są luźne! Nie mogę ci ich tak dać! A jeśli je rozwieje wiatr?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit2b"
+      ],
+      "category": "dialog"
+    },
+    "What does that have to do with...": {
+      "pl": "Co to ma wspólnego z...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "What's your last name?": {
+      "pl": "Jak masz na nazwisko?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermitx",
+        "data.json:scripts.ghosttown1_knock5.temppermit"
+      ],
+      "category": "dialog"
+    },
+    "What? What for?": {
+      "pl": "Co? Po co?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.whiskey3d"
+      ],
+      "category": "dialog"
+    },
+    "Whiskey": {
+      "pl": "Whiskey",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.booze1",
+        "data.json:scripts.ghosttown1_knock1.whiskey8",
+        "data.json:buckets.stock_products[2]"
+      ],
+      "category": "dialog"
+    },
+    "Whiskey.": {
+      "pl": "Whiskey.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey1a"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, well, the post office doesn't deliver there. Try again.": {
+      "pl": "Poczta tam nie dostarczy. Spróbuj jeszcze raz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit5c"
+      ],
+      "category": "dialog"
+    },
+    "Yeah. I was wondering if...": {
+      "pl": "Tak. Zastanawiałem się, czy...",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "Yes. Total coincidence.": {
+      "pl": "Tak. Totalny zbieg okoliczności.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7a"
+      ],
+      "category": "dialog"
+    },
+    "Yes? How may I be of service?": {
+      "pl": "Tak? W czym mogę pomóc?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp"
+      ],
+      "category": "dialog"
+    },
+    "You aren't authorized! Shoo!": {
+      "pl": "Nie jesteś upoważniony! Sio!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.first"
+      ],
+      "category": "dialog"
+    },
+    "You bet! <i>Kerchunk!</i> Here you go, freshly-stapled and wind-resistant!": {
+      "pl": "Jasne! <i>Trach!</i> Proszę — świeżo zszyte i odporne na wiatr!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.permit4"
+      ],
+      "category": "dialog"
+    },
+    "You cover your face with your hands.": {
+      "pl": "Zakrywasz twarz dłońmi.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.permit14fail"
+      ],
+      "category": "dialog"
+    },
+    "You don't read Ghost?": {
+      "pl": "Nie czytasz Ghosta?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.permit1c"
+      ],
+      "category": "dialog"
+    },
+    "You got it! That'll be 1000 Meat.": {
+      "pl": "Załatwione! To będzie 1000 Mięsa.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.orderb"
+      ],
+      "category": "dialog"
+    },
+    "You haven't got any pencils to sharpen.": {
+      "pl": "Nie masz ołówków do ostrzenia.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_sharpen.pencil"
+      ],
+      "category": "dialog"
+    },
+    "You hear a sigh, and the sound of paper being torn up.": {
+      "pl": "Słyszysz westchnienie i dźwięk rwanego papieru.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.temppermit6a"
+      ],
+      "category": "dialog"
+    },
+    "You hear paper tearing.": {
+      "pl": "Słyszysz rwany papier.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.realpermit7b",
+        "data.json:scripts.ghosttown1_knock5.realpermit7c"
+      ],
+      "category": "dialog"
+    },
+    "You hear the sound of ghostly paper being torn up.": {
+      "pl": "Słyszysz dźwięk duchowego rwania papieru.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.beer1e",
+        "data.json:scripts.ghosttown1_knock4.permit3d",
+        "data.json:scripts.ghosttown1_knock5.realpermit4",
+        "data.json:scripts.ghosttown1_knock5.permit11e"
+      ],
+      "category": "dialog"
+    },
+    "You manage to snag the pencil with the corner of your temporary visitor permit and yank it out of the cactus. Nice!": {
+      "pl": "Udaje ci się złapać ołówek rogiem tymczasowego pozwolenia gościa i wyrwać go z kaktusa. Nieźle!",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cactusa.good"
+      ],
+      "category": "dialog"
+    },
+    "You mean the General Store?": {
+      "pl": "Chodzi ci o sklep?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.firstb"
+      ],
+      "category": "dialog"
+    },
+    "You mean the one I just gave you?": {
+      "pl": "Masz na myśli ten, który ci dałem?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.hitempexp"
+      ],
+      "category": "dialog"
+    },
+    "You might expect to be able to just walk straight through the door of a ghost building, but some kind of force is preventing that. I guess you could knock? On the force?": {
+      "pl": "Można by się spodziewać, że można przejść prosto przez drzwi duchowego budynku, ale jakaś siła temu zapobiega. Może zapukać? W siłę?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_door1.popup"
+      ],
+      "category": "dialog"
+    },
+    "You must be joking.": {
+      "pl": "Chyba żartujesz.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.whiskey2"
+      ],
+      "category": "dialog"
+    },
+    "You need a #3 pencil. For the visitor identification forms?": {
+      "pl": "Potrzebujesz ołówka nr 3. Na formularze identyfikacyjne?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.second"
+      ],
+      "category": "dialog"
+    },
+    "You peer through the wall of the stable -- instead of ghost horses, you see a lot of ghost filing cabinets.": {
+      "pl": "Zaglądasz przez ścianę stajni — zamiast duchowych koni widzisz mnóstwo duchowych szaf na akta.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_door2.popup"
+      ],
+      "category": "dialog"
+    },
+    "You stick the #4 pencil into the sharpener and grind off about a quarter of it.": {
+      "pl": "Wkładasz ołówek #4 do temperówki i ścierasz około ćwierci.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_sharpen.4pencil"
+      ],
+      "category": "dialog"
+    },
+    "You try to grab the pencil, but your hand keeps slipping through it.": {
+      "pl": "Próbujesz chwycić ołówek, ale ręka ciągle przechodzi przez niego.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_cactusa.nogood"
+      ],
+      "category": "dialog"
+    },
+    "You're a saint.": {
+      "pl": "Jesteś święty.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.whiskey7c"
+      ],
+      "category": "dialog"
+    },
+    "Your #3 pencil is already sharp enough, and if you grind it all the way down to a #2 it might cause a problem.": {
+      "pl": "Twój ołówek nr 3 jest już wystarczająco ostry, a jak zetrzesz go do nr 2, może to spowodować problem.",
+      "contexts": [
+        "data.json:scripts.ghosttown1_sharpen.pencil"
+      ],
+      "category": "dialog"
+    },
+    "Your dessert preference. Cake or pie?": {
+      "pl": "Twoje deserowe preferencje. Ciasto czy placek?",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.permit3e"
+      ],
+      "category": "dialog"
+    },
+    "Your fist makes a distant, echoey 'plap' sound on the barroom door, and a ghostly voice comes out of nowhere:": {
+      "pl": "Twoja pięść wydaje odległy, pełen echa dźwięk „plap” na drzwiach saloonu, a znikąd dobiega upiorny głos:",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock1.first"
+      ],
+      "category": "dialog"
+    },
+    "Your fist makes a distant, echoey 'plap' sound on the door of the general store, and a ghostly voice comes out of nowhere:": {
+      "pl": "Twoja pięść wydaje odległy, pełen echa dźwięk „plap” na drzwiach sklepu, a znikąd dobiega upiorny głos:",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock4.first"
+      ],
+      "category": "dialog"
+    },
+    "Your fist makes a distant, echoey 'plap' sound on the door of the town hall, and a ghostly voice comes out of nowhere:": {
+      "pl": "Twoja pięść wydaje odległy, pełen echa dźwięk „plap” na drzwiach ratusza, a znikąd dobiega upiorny głos:",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock5.first"
+      ],
+      "category": "dialog"
+    },
+    "Your fist makes a distant, echoey 'plap' sound on the jailhouse door, and a ghostly voice comes out of nowhere:": {
+      "pl": "Twoja pięść wydaje odległy, pełen echa dźwięk „plap” na drzwiach więzienia, a znikąd dobiega upiorny głos:",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock3.first"
+      ],
+      "category": "dialog"
+    },
+    "Your fist makes a distant, echoey 'plap' sound on the stable door, and a ghostly voice comes out of nowhere:": {
+      "pl": "Twoja pięść wydaje odległy, pełen echa dźwięk „plap” na drzwiach stajni, a znikąd dobiega upiorny głos:",
+      "contexts": [
+        "data.json:scripts.ghosttown1_knock2.first"
+      ],
+      "category": "dialog"
+    }
+  }
+}

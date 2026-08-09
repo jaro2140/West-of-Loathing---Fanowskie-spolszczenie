@@ -1,0 +1,763 @@
+{
+  "_meta": {
+    "id": 54,
+    "name": "dialog_loc_elvibrato3_curious_abandoned_well",
+    "description": "Dialogi przypisane do lokacji \"Curious Abandoned Well\" (waa: elvibrato3).",
+    "status": "done",
+    "count": 98
+  },
+  "strings": {
+    "\"^CURRENT TELEPORTER DESTINATION:^translate_elvibrato^ $curdest$\"": {
+      "pl": "\"^AKTUALNY CEL TELEPORTERA:^translate_elvibrato^ $curdest$\"",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "\"^DESTINATION UPDATED^translate_elvibrato^\"": {
+      "pl": "\"^CEL ZAKTUALIZOWANY^translate_elvibrato^\"",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.t1",
+        "data.json:scripts.elvibrato3_teleterminal.t2",
+        "data.json:scripts.elvibrato3_teleterminal.t3",
+        "data.json:scripts.elvibrato3_teleterminal.t4",
+        "data.json:scripts.elvibrato3_teleterminal.t5"
+      ],
+      "category": "dialog"
+    },
+    "\"^SELECT DESTINATION^translate_elvibrato^\"": {
+      "pl": "\"^WYBIERZ CEL^translate_elvibrato^\"",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "A floating construct appears on the dais!": {
+      "pl": "Na podium pojawia się unosząca się konstrukcja!",
+      "contexts": [
+        "data.json:scripts.elvibrato3_enemybutton.spawno"
+      ],
+      "category": "dialog"
+    },
+    "A pile of broken El Vibrato machinery.": {
+      "pl": "Stos zepsutej maszynerii El Vibrato.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_scrappile.popup",
+        "data.json:scripts.mine6_elvtrashpile.popup"
+      ],
+      "category": "dialog"
+    },
+    "A voice says ^$roll$^translate_elvibrato^.": {
+      "pl": "Głos mówi ^$roll$^translate_elvibrato^.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.picknumber"
+      ],
+      "category": "dialog"
+    },
+    "A well-roped well.": {
+      "pl": "Dobrze uwiązana studnia.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_well_rope.popup"
+      ],
+      "category": "dialog"
+    },
+    "and then": {
+      "pl": "a potem",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Approach it [Fight]": {
+      "pl": "Podejdź [Walka]",
+      "contexts": [
+        "data.json:scripts.elvibrato3_dronefight.popup",
+        "data.json:scripts.re_cowa1.start",
+        "data.json:scripts.re_elvmonster_c.start",
+        "data.json:scripts.re_elvmonster_d.start",
+        "data.json:scripts.re_elvmonster_e.start"
+      ],
+      "category": "dialog"
+    },
+    "Attach a rope": {
+      "pl": "Przyczep linę",
+      "contexts": [
+        "data.json:scripts.elvibrato3_well.popup"
+      ],
+      "category": "dialog"
+    },
+    "Attach a rope [Requires a rope]": {
+      "pl": "Przymocuj linę [Wymaga liny]",
+      "contexts": [
+        "data.json:scripts.elvibrato3_well.popup"
+      ],
+      "category": "dialog"
+    },
+    "Climb down": {
+      "pl": "Zejdź",
+      "contexts": [
+        "data.json:scripts.elvibrato3_well_rope.popup",
+        "data.json:scripts.fort1_watchtower.start",
+        "data.json:scripts.fort2_watchtower.start",
+        "data.json:scripts.fort3_watchtower.start",
+        "data.json:scripts.fort4_watchtower.start"
+      ],
+      "category": "dialog"
+    },
+    "Climb up": {
+      "pl": "Wespnij się",
+      "contexts": [
+        "data.json:scripts.elvibrato3_ropeup.popup",
+        "data.json:scripts.mine2_doorupto1.popup",
+        "data.json:scripts.train_upladder2.popup",
+        "data.json:scripts.train_upladder3.popup",
+        "data.json:scripts.train_upladder4.popup"
+      ],
+      "category": "dialog"
+    },
+    "Curses": {
+      "pl": "Cholera jasna",
+      "contexts": [
+        "data.json:scripts.elvibrato3_dronefight.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Do it again": {
+      "pl": "Zrób to jeszcze raz",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "followed by five buttons.": {
+      "pl": "a potem pięć guzików.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Gosh! Wonder where he went!": {
+      "pl": "Ojej! Ciekawe, dokąd poszedł!",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.correct"
+      ],
+      "category": "dialog"
+    },
+    "Grab them": {
+      "pl": "Chwyć je",
+      "contexts": [
+        "data.json:scripts.elvibrato3_cardtable.popup",
+        "data.json:scripts.fort6_timerift.start",
+        "data.json:scripts.mine6_elvcardtable.popup",
+        "data.json:scripts.mine7_cardtable.popup",
+        "data.json:scripts.re_binoculars.start"
+      ],
+      "category": "dialog"
+    },
+    "Hrm": {
+      "pl": "Hrm",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.notenough",
+        "data.json:scripts.mine6_elvvending.notenough"
+      ],
+      "category": "dialog"
+    },
+    "It says: ^DRONE FABRICATION ONLINE^translate_elvibrato^": {
+      "pl": "Napis: ^FABRYKACJA DRONÓW WŁĄCZONA^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_sign.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's an El Vibrato container.": {
+      "pl": "To pojemnik El Vibrato.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_chest1.popup",
+        "data.json:scripts.elvibrato3_chest2.popup",
+        "data.json:scripts.elv_chest.popup",
+        "data.json:scripts.mine5_elvchest.popup",
+        "data.json:scripts.mine7_elvchest.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's lifeless.": {
+      "pl": "Jest martwy.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_deadterminal.popup"
+      ],
+      "category": "dialog"
+    },
+    "Leave the terminal": {
+      "pl": "Opuść terminal",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.start",
+        "data.json:scripts.elvibrato4_terminal.mainopts",
+        "data.json:scripts.elvibrato4_terminal.projects",
+        "data.json:scripts.elvibrato4_terminal.selectproject",
+        "data.json:scripts.elvibrato4_terminal.military"
+      ],
+      "category": "dialog"
+    },
+    "Look at them": {
+      "pl": "Spójrz na nie",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.picknumber"
+      ],
+      "category": "dialog"
+    },
+    "Or just leave": {
+      "pl": "Albo po prostu wyjdź",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^AUDITORY NUISANCE CONTAINMENT^translate_elvibrato^": {
+      "pl": "Naciśnij ^IZOLACJA UCIĄŻLIWOŚCI DŹWIĘKOWYCH^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^DRONE FABRICATION^translate_elvibrato^": {
+      "pl": "Naciśnij ^FABRYKACJA DRONÓW^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 0^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 0^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 1^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 1^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 2^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 2^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 3^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 3^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 4^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 4^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 5^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 5^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EAST 6^translate_elvibrato^": {
+      "pl": "Naciśnij ^EAST 6^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EDUCATION FACILITY^translate_elvibrato^": {
+      "pl": "Naciśnij ^OBIEKT EDUKACYJNY^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^EQUIPMENT FABRICATION^translate_elvibrato^": {
+      "pl": "Naciśnij ^FABRYKACJA SPRZĘTU^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SECONDARY STORAGE^translate_elvibrato^": {
+      "pl": "Naciśnij ^POMOCNICZY MAGAZYN^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 0^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 0^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 1^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 1^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 2^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 2^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 3^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 3^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 4^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 4^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 5^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 5^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press ^SOUTH 6^translate_elvibrato^": {
+      "pl": "Naciśnij ^SOUTH 6^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "Press it": {
+      "pl": "Naciśnij to",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.start",
+        "data.json:scripts.elvibrato3_enemybutton.popup",
+        "data.json:scripts.elvibrato3_numberteacher.popup",
+        "data.json:scripts.elvibrato3_numberteacher2.reset",
+        "data.json:scripts.mine8_coalsmasher.phase2"
+      ],
+      "category": "dialog"
+    },
+    "Press the fifth one": {
+      "pl": "Naciśnij piąty",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the first one": {
+      "pl": "Naciśnij pierwszy",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the fourth one": {
+      "pl": "Naciśnij czwarty",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the second one": {
+      "pl": "Naciśnij drugi",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the seventh one": {
+      "pl": "Naciśnij siódmy",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the sixth one": {
+      "pl": "Naciśnij szósty",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Press the third one": {
+      "pl": "Naciśnij trzeci",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "Put in a large punchcard": {
+      "pl": "Włóż dużą kartę perforowaną",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.opts"
+      ],
+      "category": "dialog"
+    },
+    "Put in a small punchcard": {
+      "pl": "Włóż małą kartę perforowaną",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.opts"
+      ],
+      "category": "dialog"
+    },
+    "Scrounge": {
+      "pl": "Przeszukaj",
+      "contexts": [
+        "data.json:scripts.elvibrato3_scrappile.popup",
+        "data.json:scripts.mine6_elvtrashpile.popup"
+      ],
+      "category": "dialog"
+    },
+    "Seven buttons appear on top of the platform.": {
+      "pl": "Na platformie pojawia się siedem przycisków.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.picknumber"
+      ],
+      "category": "dialog"
+    },
+    "Seven different (but very similar) buttons appear.": {
+      "pl": "Pojawia się siedem różnych (ale bardzo podobnych) przycisków.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.b2"
+      ],
+      "category": "dialog"
+    },
+    "Seven new buttons appear.": {
+      "pl": "Pojawia się siedem nowych przycisków.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.deploy"
+      ],
+      "category": "dialog"
+    },
+    "The El Vibrato scraps in your pack vibrate, so you stick them in the slot, but nothing happens.  Must not be enough.": {
+      "pl": "Złom El Vibrato w plecaku wibruje, więc wciskasz go w slot, ale nic się nie dzieje. Chyba za mało.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.notenough",
+        "data.json:scripts.mine6_elvvending.notenough"
+      ],
+      "category": "dialog"
+    },
+    "The machine emits a noise like a duck and a slot opens.": {
+      "pl": "Maszyna wydaje dźwięk jak kaczka i otwiera się slot.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.notenough",
+        "data.json:scripts.mine6_elvvending.notenough"
+      ],
+      "category": "dialog"
+    },
+    "The machine emits a noise like a duck and a slot opens.  The El Vibrato scraps in your pack vibrate, so you cram some of them in the hole.  After five, the slot closes and reopens, having converted your garbage into jewelry!": {
+      "pl": "Maszyna wydaje dźwięk jak kaczka i otwiera się slot. Złom El Vibrato w plecaku wibruje, więc wciskasz go w otwór. Po pięciu slot zamyka się i otwiera ponownie — śmieci zamieniły się w biżuterię!",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.ring",
+        "data.json:scripts.elvibrato3_accvending.lapel"
+      ],
+      "category": "dialog"
+    },
+    "The ol' danglin' rope.": {
+      "pl": "Stary wiszący sznur.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_ropeup.popup"
+      ],
+      "category": "dialog"
+    },
+    "The screen on this machine says ^EQUIPMENT FABRICATION^translate_elvibrato^": {
+      "pl": "Ekran tej maszyny mówi ^EQUIPMENT FABRICATION^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.start"
+      ],
+      "category": "dialog"
+    },
+    "The screen reads": {
+      "pl": "Ekran pokazuje",
+      "contexts": [
+        "data.json:scripts.elvibrato3_teleterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "The screen reads ^SELECT NUISANCE DESTINATION^translate_elvibrato^.": {
+      "pl": "Ekran pokazuje ^SELECT NUISANCE DESTINATION^translate_elvibrato^.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "The screen reads:": {
+      "pl": "Ekran pokazuje:",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.alreadysent"
+      ],
+      "category": "dialog"
+    },
+    "The screen says \"^EDUCATION TERMINAL^translate_elvibrato^\";": {
+      "pl": "Ekran mówi „^EDUCATION TERMINAL^translate_elvibrato^”;",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "The seven buttons disappear and the original one button appears again.": {
+      "pl": "Siedem przycisków znika i znowu pojawia się jeden.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.reset"
+      ],
+      "category": "dialog"
+    },
+    "The terminal beeps, and the boopy floating guy behind you disappears in a puff of glowing squares.": {
+      "pl": "Terminal bipczy, a bujający się gość za tobą znika w chmurce świecących kwadracików.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.correct"
+      ],
+      "category": "dialog"
+    },
+    "The terminal emits a harsh buzz.": {
+      "pl": "Terminal wydaje ostry brzęk.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.check"
+      ],
+      "category": "dialog"
+    },
+    "The terminal emits a reassuring tone.": {
+      "pl": "Terminal wydaje uspokajający dźwięk.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.correct"
+      ],
+      "category": "dialog"
+    },
+    "The terminal resets to its original state.": {
+      "pl": "Terminal wraca do pierwotnego stanu.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.result"
+      ],
+      "category": "dialog"
+    },
+    "The transponder goes ape as you get close to the old well.": {
+      "pl": "Transponder szaleje, gdy zbliżasz się do starej studni.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_well.popup"
+      ],
+      "category": "dialog"
+    },
+    "There are a bunch of paper cards on this table.": {
+      "pl": "Na tym stole leży sterta papierowych kart.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_cardtable.popup",
+        "data.json:scripts.mine6_elvcardtable.popup",
+        "data.json:scripts.mine7_cardtable.popup"
+      ],
+      "category": "dialog"
+    },
+    "There are no buttons, but there's a very thin slot underneath the screen.": {
+      "pl": "Nie ma przycisków, ale pod ekranem jest bardzo cienka szczelina.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "There are two buttons.": {
+      "pl": "Są dwa przyciski.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.start"
+      ],
+      "category": "dialog"
+    },
+    "There doesn't seem to be anything else to do here.": {
+      "pl": "Wygląda na to, że nie ma tu już nic do zrobienia.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.alreadysent"
+      ],
+      "category": "dialog"
+    },
+    "There's a big button on a little pedestal.": {
+      "pl": "Na małym postumencie jest duży przycisk.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_enemybutton.popup"
+      ],
+      "category": "dialog"
+    },
+    "There's a single button available, labeled ^SELECT^translate_elvibrato^.": {
+      "pl": "Jest jeden przycisk z napisem ^SELECT^translate_elvibrato^.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.start"
+      ],
+      "category": "dialog"
+    },
+    "There's a single button on top of this machine.": {
+      "pl": "Na maszynie jest jeden przycisk.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher.popup"
+      ],
+      "category": "dialog"
+    },
+    "They're full of holes!": {
+      "pl": "Pełne dziur!",
+      "contexts": [
+        "data.json:scripts.elvibrato3_cardtable.take",
+        "data.json:scripts.mine6_elvcardtable.take",
+        "data.json:scripts.mine7_cardtable.take"
+      ],
+      "category": "dialog"
+    },
+    "This thing looks pretty hostile.": {
+      "pl": "Ta rzecz wygląda dość wrogo.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_dronefight.popup"
+      ],
+      "category": "dialog"
+    },
+    "Try again": {
+      "pl": "Spróbuj ponownie",
+      "contexts": [
+        "data.json:scripts.elvibrato3_booperterminal.result",
+        "data.json:scripts.ranch5_doughpress2.toolow",
+        "data.json:scripts.ranch5_oven2.toocold",
+        "house.json:scripts.house_greetmannequin.start",
+        "house.json:scripts.house_intercom_talk.talk"
+      ],
+      "category": "dialog"
+    },
+    "Unlock [El Vibrato keystone]": {
+      "pl": "Odblokuj [kluczowy kamień El Vibrato]",
+      "contexts": [
+        "data.json:scripts.elvibrato3_chest1.popup",
+        "data.json:scripts.elvibrato3_chest2.popup",
+        "data.json:scripts.elv_chest.popup",
+        "data.json:scripts.mine5_elvchest.popup",
+        "data.json:scripts.mine7_elvchest.popup"
+      ],
+      "category": "dialog"
+    },
+    "Unlock [Requires keystone]": {
+      "pl": "Odblokuj [Wymaga zwornika]",
+      "contexts": [
+        "data.json:scripts.elvibrato3_chest1.popup",
+        "data.json:scripts.elvibrato3_chest2.popup",
+        "data.json:scripts.elv_chest.popup",
+        "data.json:scripts.mine5_elvchest.popup",
+        "data.json:scripts.mine7_elvchest.popup"
+      ],
+      "category": "dialog"
+    },
+    "Whoa": {
+      "pl": "Wow",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.card1end",
+        "data.json:scripts.elvibrato3_langterminal.card2end",
+        "data.json:scripts.elvibrato4_terminal.doit",
+        "data.json:scripts.elv_monolith_waa.finishmonolith",
+        "data.json:scripts.food_shroom1.yes"
+      ],
+      "category": "dialog"
+    },
+    "Whoa, indeed.": {
+      "pl": "Wow, rzeczywiście.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.optstemp"
+      ],
+      "category": "dialog"
+    },
+    "You already know the word for that number, though.": {
+      "pl": "Choć znasz już słowo na tę liczbę.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.correct"
+      ],
+      "category": "dialog"
+    },
+    "You can't consciously make sense of what you're watching, but when it's over you know things you didn't know before.": {
+      "pl": "Świadomie nie rozumiesz tego, co oglądasz, ale gdy się kończy, wiesz rzeczy, których wcześniej nie wiedziałeś.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.card1",
+        "data.json:scripts.elvibrato3_langterminal.card2"
+      ],
+      "category": "dialog"
+    },
+    "You got zapped unconscious by that confounded contraption.": {
+      "pl": "Ten przeklęty mechanizm zwalił cię z nóg porażeniem.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_dronefight.lose"
+      ],
+      "category": "dialog"
+    },
+    "You have learned the El Vibrato word for <b>the number $roll$</b>!": {
+      "pl": "Nauczyłeś się słowa El Vibrato na <b>liczbę $roll$</b>!",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.correct"
+      ],
+      "category": "dialog"
+    },
+    "You have nothing else to learn from that kind of card.": {
+      "pl": "Nie masz już nic do nauczenia się z tego rodzaju karty.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.card1end",
+        "data.json:scripts.elvibrato3_langterminal.card2end"
+      ],
+      "category": "dialog"
+    },
+    "You insert the card into the slot.  The machine's screen springs into frenzied activity.": {
+      "pl": "Wkładasz kartę w gniazdo. Ekran maszyny wpada w szaleńczą aktywność.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.card1",
+        "data.json:scripts.elvibrato3_langterminal.card2"
+      ],
+      "category": "dialog"
+    },
+    "You learn the El Vibrato word for <b>$learnword$</b>.": {
+      "pl": "Uczysz się słowa El Vibrato na <b>$learnword$</b>.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_langterminal.card1",
+        "data.json:scripts.elvibrato3_langterminal.card2",
+        "data.json:scripts.elv_monolith_waa.start",
+        "data.json:scripts.re_elvcache_g.open",
+        "data.json:scripts.re_elvcache_h.open"
+      ],
+      "category": "dialog"
+    },
+    "You look at the buttons": {
+      "pl": "Patrzysz na guziki",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.butts"
+      ],
+      "category": "dialog"
+    },
+    "You press the button, and the machine speaks:": {
+      "pl": "Naciskasz guzik i maszyna mówi:",
+      "contexts": [
+        "data.json:scripts.elvibrato3_numberteacher2.start"
+      ],
+      "category": "dialog"
+    },
+    "You really showed that crazy contraption who's boss. (It's you. You're boss.)": {
+      "pl": "Naprawdę pokazałeś temu szalonemu mechanizmowi, kto tu rządzi. (Ty. To ty.)",
+      "contexts": [
+        "data.json:scripts.elvibrato3_dronefight.win"
+      ],
+      "category": "dialog"
+    },
+    "You're not sure what you're supposed to learn from that.": {
+      "pl": "Nie wiesz, czego masz się z tego nauczyć.",
+      "contexts": [
+        "data.json:scripts.elvibrato3_accvending.notenough",
+        "data.json:scripts.mine6_elvvending.notenough"
+      ],
+      "category": "dialog"
+    }
+  }
+}

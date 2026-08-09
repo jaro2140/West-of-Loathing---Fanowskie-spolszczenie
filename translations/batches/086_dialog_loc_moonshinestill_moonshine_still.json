@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "id": 86,
+    "name": "dialog_loc_moonshinestill_moonshine_still",
+    "description": "Dialogi przypisane do lokacji \"Moonshine Still\" (waa: moonshinestill).",
+    "status": "done",
+    "count": 6
+  },
+  "strings": {
+    "It's a still for turning moon into moonshine.": {
+      "pl": "To alembik do przekształcania księżyca w samogon.",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.begin"
+      ],
+      "category": "dialog"
+    },
+    "Make some [moon bits]": {
+      "pl": "Zrób trochę [kawałków księżyca]",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.begin"
+      ],
+      "category": "dialog"
+    },
+    "Make some [Requires moon bits]": {
+      "pl": "Zrób trochę [Wymaga kawałków księżyca]",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.begin"
+      ],
+      "category": "dialog"
+    },
+    "Make some more [moon bits]": {
+      "pl": "Zrób jeszcze trochę [kawałków księżyca]",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.makesome"
+      ],
+      "category": "dialog"
+    },
+    "There's a jar of moonshine under the spout.": {
+      "pl": "Pod kranem stoi słoik z bimbrem.",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.firstjar"
+      ],
+      "category": "dialog"
+    },
+    "You drop some moon bits into the hopper, wait a few minutes, and collect the liquid that comes out of the still.": {
+      "pl": "Wrzucasz kawałki księżyca do lejka, czekasz kilka minut i zbierasz płyn z alembiku.",
+      "contexts": [
+        "data.json:scripts.moonshinestill_usestill.makesome"
+      ],
+      "category": "dialog"
+    }
+  }
+}

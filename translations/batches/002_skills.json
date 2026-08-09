@@ -1,0 +1,2259 @@
+{
+  "_meta": {
+    "id": 2,
+    "name": "skills",
+    "description": "Umiejetnosci.",
+    "status": "done",
+    "count": 280
+  },
+  "strings": {
+    "(Doc's healing skill)": {
+      "pl": "(Umiejętność leczenia Doca)",
+      "contexts": [
+        "data.json:skills.xxx_doc_heal.description"
+      ],
+      "category": "skills"
+    },
+    "(Doc's scattergun attack)": {
+      "pl": "(Atak strzelbą Doca)",
+      "contexts": [
+        "data.json:skills.xxx_doc_scattergun.description"
+      ],
+      "category": "skills"
+    },
+    "[General Gob shoots you once and the pie safe twice]": {
+      "pl": "[Generał Gob strzela do ciebie raz, a do sejfu na ciasto dwa razy]",
+      "contexts": [
+        "data.json:skills.mob_generalgobshoot.description"
+      ],
+      "category": "skills"
+    },
+    "A basic bite.": {
+      "pl": "Podstawowe ugryzienie.",
+      "contexts": [
+        "data.json:skills.mob_bite.description"
+      ],
+      "category": "skills"
+    },
+    "A big punch!": {
+      "pl": "Potężny cios!",
+      "contexts": [
+        "data.json:skills.xxxattack_superpunch.description"
+      ],
+      "category": "skills"
+    },
+    "A feller has to get up pretty early in the morning to shoot you.": {
+      "pl": "Żeby cię postrzelić, trzeba wstać cholernie wcześnie rano.",
+      "contexts": [
+        "data.json:skills.quickdraw.description"
+      ],
+      "category": "skills"
+    },
+    "A haymaker is when you punch somebody while the sun shines.  There's a different name for when you punch somebody where the sun <i>doesn't</i> shine.": {
+      "pl": "Sierpowiec to uderzenie w twarz, gdy świeci słońce. Inaczej nazywa się uderzenie tam, gdzie słońce <i>nie</i> świeci.",
+      "contexts": [
+        "data.json:skills.haymaker.description"
+      ],
+      "category": "skills"
+    },
+    "Alice knows exactly where to saw to take a skeleton apart.": {
+      "pl": "Alice dokładnie wie, gdzie piłować, żeby rozłożyć szkielet na części.",
+      "contexts": [
+        "data.json:skills.alice_bonesaw.description"
+      ],
+      "category": "skills"
+    },
+    "Alice never goes anywhere without her shotgun riding shotgun.": {
+      "pl": "Alice nigdzie nie rusza się bez strzelby na fotelu pasażera.",
+      "contexts": [
+        "data.json:skills.alice_shotgunblast.description"
+      ],
+      "category": "skills"
+    },
+    "Alice still remembers a few tricks of the doctorin' trade.": {
+      "pl": "Alice wciąż pamięta kilka sztuczek z fachu lekarskiego.",
+      "contexts": [
+        "data.json:skills.alice_patchup.description"
+      ],
+      "category": "skills"
+    },
+    "All that's left is ass.": {
+      "pl": "Został tylko tyłek.",
+      "contexts": [
+        "data.json:skills.book_boots.description"
+      ],
+      "category": "skills"
+    },
+    "An egg needs to incubate. Even a clown egg. Egg.": {
+      "pl": "Jajko musi się wykluć. Nawet klaunie jajko. Jajko.",
+      "contexts": [
+        "data.json:skills.clownegg_incubate.description"
+      ],
+      "category": "skills"
+    },
+    "An option for yellow-bellied, lilly-livered cowards.": {
+      "pl": "Opcja dla żółtobrzuchych, tchórzliwych mięczaków.",
+      "contexts": [
+        "data.json:skills.giveup.description"
+      ],
+      "category": "skills"
+    },
+    "Anatomical Learnin'": {
+      "pl": "Anatomiczna nauka",
+      "contexts": [
+        "data.json:skills.anatomy.name",
+        "data.json:skills.anatomy.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Appalachian Skull Whisperin'": {
+      "pl": "Appalachijskie szeptanie do czaszek",
+      "contexts": [
+        "data.json:skills.skullwhisperer.name",
+        "data.json:skills.skullwhisperer.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "At any given point, there are millions of human teeth suspended in the clouds above us.  You just know how to jostle them loose.": {
+      "pl": "W każdej chwili miliony ludzkich zębów unoszą się w chmurach nad nami. Ty po prostu wiesz, jak je wstrząsnąć, żeby spadły.",
+      "contexts": [
+        "data.json:skills.rainofteeth.description"
+      ],
+      "category": "skills"
+    },
+    "Bad Medicine": {
+      "pl": "Złe lekarstwo",
+      "contexts": [
+        "data.json:skills.badmedicine.name",
+        "data.json:skills.badmedicine.levels[0].enchantments.name",
+        "data.json:skills.badmedicine.levels[1].enchantments.name",
+        "data.json:skills.badmedicine.levels[2].enchantments.name",
+        "data.json:skills.badmedicine.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Basic Melee Attack": {
+      "pl": "Podstawowy atak wręcz",
+      "contexts": [
+        "data.json:skills.mob_basicmelee.name",
+        "data.json:skills.mob_basicmelee.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Basic Ranged Attack": {
+      "pl": "Podstawowy atak dystansowy",
+      "contexts": [
+        "data.json:skills.mob_basicranged.name",
+        "data.json:skills.mob_basicranged.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Bean Golem": {
+      "pl": "Fasolowy golem",
+      "contexts": [
+        "data.json:skills.beangolem.name",
+        "data.json:skills.beangolem.levels[0].enchantments.name",
+        "data.json:skills.beangolem.levels[1].enchantments.name",
+        "data.json:skills.beangolem.levels[2].enchantments.name",
+        "data.json:skills.beangolem.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Beanshield": {
+      "pl": "Fasolowa tarcza",
+      "contexts": [
+        "data.json:skills.beanshield.name",
+        "data.json:skills.beanshield.levels[0].enchantments.name",
+        "data.json:skills.beanshield.levels[1].enchantments.name",
+        "data.json:skills.beanshield.levels[2].enchantments.name",
+        "data.json:skills.beanshield.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Beanwall": {
+      "pl": "Fasolowy mur",
+      "contexts": [
+        "data.json:skills.beanwall.name",
+        "data.json:skills.beanwall.levels[0].enchantments.name",
+        "data.json:skills.beanwall.levels[1].enchantments.name",
+        "data.json:skills.beanwall.levels[2].enchantments.name",
+        "data.json:skills.beanwall.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Beef Up": {
+      "pl": "Wyrastanie mięśni",
+      "contexts": [
+        "data.json:skills.beefup.name",
+        "data.json:skills.beefup.levels[0].enchantments.name",
+        "data.json:skills.beefup.levels[1].enchantments.name",
+        "data.json:skills.beefup.levels[2].enchantments.name",
+        "data.json:skills.beefup.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Beefy!": {
+      "pl": "Umięśnione!",
+      "contexts": [
+        "data.json:skills.xxxperk_beefy.name",
+        "data.json:skills.xxxperk_beefy.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Better Living through News": {
+      "pl": "Lepsze Życie przez Wiadomości",
+      "contexts": [
+        "data.json:skills.hedgenewsperk.name",
+        "data.json:skills.hedgenewsperk.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Big Spleen": {
+      "pl": "Wielka śledziona",
+      "contexts": [
+        "data.json:skills.bigspleen.name",
+        "data.json:skills.bigspleen.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Bite": {
+      "pl": "Ugryzienie",
+      "contexts": [
+        "data.json:skills.mob_bite.name",
+        "data.json:skills.mob_bite.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Bloodbeans": {
+      "pl": "Krwawe fasolki",
+      "contexts": [
+        "data.json:skills.bloodbeans.name",
+        "data.json:skills.bloodbeans.levels[0].enchantments.name",
+        "data.json:skills.bloodbeans.levels[1].enchantments.name",
+        "data.json:skills.bloodbeans.levels[2].enchantments.name",
+        "data.json:skills.bloodbeans.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Bonesaw": {
+      "pl": "Piła do Kości",
+      "contexts": [
+        "data.json:skills.alice_bonesaw.name",
+        "data.json:skills.alice_bonesaw.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Boon of Duke Bovicus": {
+      "pl": "Łaska księcia Bovicus",
+      "contexts": [
+        "data.json:skills.bovicusboon.name",
+        "data.json:skills.bovicusboon.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Boon of the Hedge": {
+      "pl": "Łaska żywopłotu",
+      "contexts": [
+        "data.json:skills.hedgeperk.name",
+        "data.json:skills.hedgeperk.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Brawny": {
+      "pl": "Muskularny",
+      "contexts": [
+        "data.json:skills.brawny.name",
+        "data.json:skills.brawny.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Breathe Fire": {
+      "pl": "Zionięcie ogniem",
+      "contexts": [
+        "data.json:skills.mob_breathefire.name",
+        "data.json:skills.mob_breathefire.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Buff Skeleton": {
+      "pl": "Wymuskowany szkielet",
+      "contexts": [
+        "data.json:skills.mob_buffskeleton.name",
+        "data.json:skills.mob_buffskeleton.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Build Cover": {
+      "pl": "Budowa osłony",
+      "contexts": [
+        "data.json:skills.susie_buildcover.name",
+        "data.json:skills.susie_buildcover.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Bull Stomp": {
+      "pl": "Tupnięcie byka",
+      "contexts": [
+        "data.json:skills.stomp.name",
+        "data.json:skills.stomp.levels[0].enchantments.name",
+        "data.json:skills.stomp.levels[1].enchantments.name",
+        "data.json:skills.stomp.levels[2].enchantments.name",
+        "data.json:skills.stomp.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Butter Bean": {
+      "pl": "Maślana fasolka",
+      "contexts": [
+        "data.json:skills.butterbean.name",
+        "data.json:skills.butterbean.levels[0].enchantments.name",
+        "data.json:skills.butterbean.levels[1].enchantments.name",
+        "data.json:skills.butterbean.levels[2].enchantments.name",
+        "data.json:skills.butterbean.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Casserole for Initiative": {
+      "pl": "Zapiekanka dla Inicjatywy",
+      "contexts": [
+        "data.json:skills.casseroleperk.name",
+        "data.json:skills.casseroleperk.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Clouded Eyes": {
+      "pl": "Zamglone oczy",
+      "contexts": [
+        "data.json:skills.necroproblem5.name",
+        "data.json:skills.necroproblem5.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Conjure up a wall of beans in front of you, which will provide cover from gunfire.": {
+      "pl": "Przywołaj przed sobą ścianę fasoli, która osłoni cię przed ostrzałem.",
+      "contexts": [
+        "data.json:skills.beanwall.description"
+      ],
+      "category": "skills"
+    },
+    "Conjure up a whirling sphere of beans that will protect you from melee attacks.": {
+      "pl": "Przywołaj wirującą kulę fasoli, która ochroni cię przed atakami wręcz.",
+      "contexts": [
+        "data.json:skills.beanshield.description"
+      ],
+      "category": "skills"
+    },
+    "Corrupt Obsession": {
+      "pl": "Skorumpowana obsesja",
+      "contexts": [
+        "data.json:skills.necroproblem6.name",
+        "data.json:skills.necroproblem6.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Cowrruption": {
+      "pl": "Krowrrupcja",
+      "contexts": [
+        "data.json:skills.cowrruption.name",
+        "data.json:skills.cowrruption.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Create Balloon Animal": {
+      "pl": "Stwórz zwierzątko z balona",
+      "contexts": [
+        "data.json:skills.balloonclown_createanimal.name",
+        "data.json:skills.balloonclown_createanimal.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Cry": {
+      "pl": "Płacz",
+      "contexts": [
+        "data.json:skills.sadclown_cry.name",
+        "data.json:skills.sadclown_cry.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Cursed Things Cursed": {
+      "pl": "Przeklęte przeklęte rzeczy",
+      "contexts": [
+        "data.json:skills.hell_curse.name",
+        "data.json:skills.hell_curse.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Dark Howdy": {
+      "pl": "Mroczne howdy",
+      "contexts": [
+        "data.json:skills.darkhowdy.name",
+        "data.json:skills.darkhowdy.levels[0].enchantments.name",
+        "data.json:skills.darkhowdy.levels[1].enchantments.name",
+        "data.json:skills.darkhowdy.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Dark Whisperin'": {
+      "pl": "Mroczne szeptanie",
+      "contexts": [
+        "data.json:skills.pete_darkwhisper.name",
+        "data.json:skills.pete_darkwhisper.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Deadeye": {
+      "pl": "Celne oko",
+      "contexts": [
+        "data.json:skills.deadeye.name",
+        "data.json:skills.deadeye.levels[0].enchantments.name",
+        "data.json:skills.deadeye.levels[1].enchantments.name",
+        "data.json:skills.deadeye.levels[2].enchantments.name",
+        "data.json:skills.deadeye.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Deft Hands": {
+      "pl": "Zwinne dłonie",
+      "contexts": [
+        "data.json:skills.defthands.name",
+        "data.json:skills.defthands.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Deploy Snake": {
+      "pl": "Wypuść węża",
+      "contexts": [
+        "data.json:skills.summonsnake.name",
+        "data.json:skills.summonsnake.levels[0].enchantments.name",
+        "data.json:skills.summonsnake.levels[1].enchantments.name",
+        "data.json:skills.summonsnake.levels[2].enchantments.name",
+        "data.json:skills.summonsnake.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Dickerin'": {
+      "pl": "Targulanka",
+      "contexts": [
+        "data.json:skills.dickerin.name",
+        "data.json:skills.dickerin.levels[0].enchantments.name",
+        "data.json:skills.dickerin.levels[1].enchantments.name",
+        "data.json:skills.dickerin.levels[2].enchantments.name",
+        "data.json:skills.dickerin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Dirty Poker": {
+      "pl": "Brudny poker",
+      "contexts": [
+        "data.json:skills.pokercheatin.name",
+        "data.json:skills.pokercheatin.levels[0].enchantments.name",
+        "data.json:skills.pokercheatin.levels[1].enchantments.name",
+        "data.json:skills.pokercheatin.levels[2].enchantments.name",
+        "data.json:skills.pokercheatin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Disable opponents for 1 round": {
+      "pl": "Unieruchamia przeciwników na 1 turę",
+      "contexts": [
+        "data.json:skills.darkhowdy.levels[0].enchantments.bluetext",
+        "data.json:skills.darkhowdy.levels[1].enchantments.bluetext",
+        "data.json:skills.darkhowdy.levels[2].enchantments.bluetext"
+      ],
+      "category": "skills"
+    },
+    "Do literally nothing.": {
+      "pl": "Dosłownie nic nie rób.",
+      "contexts": [
+        "data.json:skills.donothing.description"
+      ],
+      "category": "skills"
+    },
+    "Do Nothing": {
+      "pl": "Nic nie rób",
+      "contexts": [
+        "data.json:skills.donothing.name",
+        "data.json:skills.donothing.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Emaciated": {
+      "pl": "Wychudzony",
+      "contexts": [
+        "data.json:skills.necroproblem2.name",
+        "data.json:skills.necroproblem2.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Ever Vigilant": {
+      "pl": "Wiecznie czujny",
+      "contexts": [
+        "data.json:skills.vigilant.name",
+        "data.json:skills.vigilant.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Everybody out West can silversmith a <i>little</i>, but you?  You can do it a lot.": {
+      "pl": "Na Zachodzie każdy umie <i>nieco</i> srebrnictwa, ale ty? Ty umiesz dużo.",
+      "contexts": [
+        "data.json:skills.silversmithin.description"
+      ],
+      "category": "skills"
+    },
+    "Evil Eye": {
+      "pl": "Złe oko",
+      "contexts": [
+        "data.json:skills.mob_evileye.name",
+        "data.json:skills.mob_evileye.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Expert Poisoner": {
+      "pl": "Mistrz trucicielstwa",
+      "contexts": [
+        "data.json:skills.poisoner.name",
+        "data.json:skills.poisoner.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Expert Silversmithin'": {
+      "pl": "Mistrz srebrnictwa",
+      "contexts": [
+        "data.json:skills.silversmithin.name",
+        "data.json:skills.silversmithin.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Fan Hammer": {
+      "pl": "Szybkostrzał",
+      "contexts": [
+        "data.json:skills.fanhammer.name",
+        "data.json:skills.fanhammer.levels[0].enchantments.name",
+        "data.json:skills.fanhammer.levels[1].enchantments.name",
+        "data.json:skills.fanhammer.levels[2].enchantments.name",
+        "data.json:skills.fanhammer.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Fire Scattergun": {
+      "pl": "Ognista dubeltówka",
+      "contexts": [
+        "data.json:skills.xxx_doc_scattergun.name",
+        "data.json:skills.xxx_doc_scattergun.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Fireball": {
+      "pl": "Ognista kula",
+      "contexts": [
+        "data.json:skills.wizardcow_fireball.name",
+        "data.json:skills.wizardcow_fireball.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "First Aid": {
+      "pl": "Pierwsza pomoc",
+      "contexts": [
+        "data.json:skills.first_aid.name",
+        "data.json:skills.first_aid.levels[0].enchantments.name",
+        "data.json:skills.first_aid.levels[1].enchantments.name",
+        "data.json:skills.first_aid.levels[2].enchantments.name",
+        "data.json:skills.first_aid.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "First, do no harm.  Is how that oath you didn't take starts.": {
+      "pl": "Przede wszystkim nie szkodzić. Tak zaczyna się przysięga, której nie składałeś.",
+      "contexts": [
+        "data.json:skills.badmedicine.description"
+      ],
+      "category": "skills"
+    },
+    "Foragin'": {
+      "pl": "Zbieractwo",
+      "contexts": [
+        "data.json:skills.foragin.name",
+        "data.json:skills.foragin.levels[0].enchantments.name",
+        "data.json:skills.foragin.levels[1].enchantments.name",
+        "data.json:skills.foragin.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Friend of Horses": {
+      "pl": "Przyjaciel koni",
+      "contexts": [
+        "data.json:skills.horsefriend.name",
+        "data.json:skills.horsefriend.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Gary-Fu": {
+      "pl": "Gary-Fu",
+      "contexts": [
+        "data.json:skills.gary_garyfu.name",
+        "data.json:skills.gary_garyfu.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "General Gob's Triple Shot": {
+      "pl": "Potrójny Strzał generała Goba",
+      "contexts": [
+        "data.json:skills.mob_generalgobshoot.name",
+        "data.json:skills.mob_generalgobshoot.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Get smarter!": {
+      "pl": "Bądź sprytniejszy!",
+      "contexts": [
+        "data.json:skills.usetheoldbean.description"
+      ],
+      "category": "skills"
+    },
+    "Ghost Stampede": {
+      "pl": "Upiorna stampeda",
+      "contexts": [
+        "data.json:skills.skelthrall_spell2.name",
+        "data.json:skills.skelthrall_spell2.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Ghosts remember how to hug, but they don't remember how to make their hugs not creepy.": {
+      "pl": "Duchy pamiętają, jak przytulać, ale nie pamiętają, jak sprawić, żeby ich uściski nie były przerażające.",
+      "contexts": [
+        "data.json:skills.mob_spookyhug.description"
+      ],
+      "category": "skills"
+    },
+    "Give Up": {
+      "pl": "Poddaj się",
+      "contexts": [
+        "data.json:skills.giveup.name",
+        "data.json:skills.giveup.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Glamour": {
+      "pl": "Glamur",
+      "contexts": [
+        "data.json:skills.glamour.name",
+        "data.json:skills.glamour.levels[0].enchantments.name",
+        "data.json:skills.glamour.levels[1].enchantments.name",
+        "data.json:skills.glamour.levels[2].enchantments.name",
+        "data.json:skills.glamour.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Glamour is your appreciation of the finer things in life.  As it increases you'll be able to consume more cocktails, and you'll also be able to afford them!": {
+      "pl": "Glamur to twoje uznanie dla drobniejszych przyjemności życia. Im wyższy, tym więcej koktajli możesz wypić — i na tyle cię stać!",
+      "contexts": [
+        "data.json:skills.glamour.description"
+      ],
+      "category": "skills"
+    },
+    "Glutton For Punishment": {
+      "pl": "Łakomiec kary",
+      "contexts": [
+        "data.json:skills.gluttonforpunishment.name",
+        "data.json:skills.gluttonforpunishment.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Go Say Hi": {
+      "pl": "Idź powiedz cześć",
+      "contexts": [
+        "data.json:skills.balloonanimal_gosayhi.name",
+        "data.json:skills.balloonanimal_gosayhi.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Goblintongue": {
+      "pl": "Goblińszczyzna",
+      "contexts": [
+        "data.json:skills.goblintongue.name",
+        "data.json:skills.goblintongue.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Good Medicine": {
+      "pl": "Dobre lekarstwo",
+      "contexts": [
+        "data.json:skills.goodmedicine.name",
+        "data.json:skills.goodmedicine.levels[0].enchantments.name",
+        "data.json:skills.goodmedicine.levels[1].enchantments.name",
+        "data.json:skills.goodmedicine.levels[2].enchantments.name",
+        "data.json:skills.goodmedicine.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Gore": {
+      "pl": "Rozpruwanie",
+      "contexts": [
+        "data.json:skills.gore.name",
+        "data.json:skills.gore.levels[0].enchantments.name",
+        "data.json:skills.gore.levels[1].enchantments.name",
+        "data.json:skills.gore.levels[2].enchantments.name",
+        "data.json:skills.gore.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Great Northern Blizzard": {
+      "pl": "Wielka północna zamieć",
+      "contexts": [
+        "data.json:skills.blizzard.name",
+        "data.json:skills.blizzard.levels[0].enchantments.name",
+        "data.json:skills.blizzard.levels[1].enchantments.name",
+        "data.json:skills.blizzard.levels[2].enchantments.name",
+        "data.json:skills.blizzard.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Green Thumb": {
+      "pl": "Zielony kciuk",
+      "contexts": [
+        "data.json:skills.greenthumb.name",
+        "data.json:skills.greenthumb.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Grinnin' Skull": {
+      "pl": "Uśmiechnięta czaszka",
+      "contexts": [
+        "data.json:skills.spectralskull.name",
+        "data.json:skills.spectralskull.levels[0].enchantments.name",
+        "data.json:skills.spectralskull.levels[1].enchantments.name",
+        "data.json:skills.spectralskull.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Grit": {
+      "pl": "Twardziel",
+      "contexts": [
+        "data.json:skills.grit.name",
+        "data.json:skills.grit.levels[0].enchantments.name",
+        "data.json:skills.grit.levels[1].enchantments.name",
+        "data.json:skills.grit.levels[2].enchantments.name",
+        "data.json:skills.grit.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Gumption": {
+      "pl": "Zapał",
+      "contexts": [
+        "data.json:skills.gumption.name",
+        "data.json:skills.gumption.levels[0].enchantments.name",
+        "data.json:skills.gumption.levels[1].enchantments.name",
+        "data.json:skills.gumption.levels[2].enchantments.name",
+        "data.json:skills.gumption.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Gun Law": {
+      "pl": "Prawo broni",
+      "contexts": [
+        "data.json:skills.gunlaw.name",
+        "data.json:skills.gunlaw.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hammer Smack": {
+      "pl": "Uderzenie młotem",
+      "contexts": [
+        "data.json:skills.fighterclown_hammer.name",
+        "data.json:skills.fighterclown_hammer.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Have a wild shootin' party!": {
+      "pl": "Zrób dziką imprezę strzelecką!",
+      "contexts": [
+        "data.json:skills.shootenanny.description"
+      ],
+      "category": "skills"
+    },
+    "Having read Gretchen the Unholy Baker's casserole grimoire has made you just a little bit faster and more Mystical, just in case you're attacked by a banana-clam casserole one day and you need to kill it with magic.": {
+      "pl": "Przeczytanie grimorium zapiekanek od Gretchen Nieświętej Piekarzyni sprawiło, że jesteś odrobinę szybszy i bardziej Mistyczny — na wypadek, gdybyś kiedyś został zaatakowany przez zapiekankę z banana i małża i musiał ją zabić magią.",
+      "contexts": [
+        "data.json:skills.casseroleperk.description"
+      ],
+      "category": "skills"
+    },
+    "Haymaker": {
+      "pl": "Sierpowanie",
+      "contexts": [
+        "data.json:skills.haymaker.name",
+        "data.json:skills.haymaker.levels[0].enchantments.name",
+        "data.json:skills.haymaker.levels[1].enchantments.name",
+        "data.json:skills.haymaker.levels[2].enchantments.name",
+        "data.json:skills.haymaker.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Heart of Stone": {
+      "pl": "Kamienne serce",
+      "contexts": [
+        "data.json:skills.cairnperk_mus.name",
+        "data.json:skills.cairnperk_mus.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Heavy Trigger Finger": {
+      "pl": "Ciężki Palec na Spuście",
+      "contexts": [
+        "data.json:skills.cairnperk_mox.name",
+        "data.json:skills.cairnperk_mox.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hell Bolt": {
+      "pl": "Piekielny piorun",
+      "contexts": [
+        "data.json:skills.bovermind_ping.name",
+        "data.json:skills.bovermind_ping.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hell Heal": {
+      "pl": "Piekielne leczenie",
+      "contexts": [
+        "data.json:skills.bovermind_heal.name",
+        "data.json:skills.bovermind_heal.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hell Missile": {
+      "pl": "Piekielna rakieta",
+      "contexts": [
+        "data.json:skills.bovermind_nuke.name",
+        "data.json:skills.bovermind_nuke.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hell Raise": {
+      "pl": "Piekielne wzbudzenie",
+      "contexts": [
+        "data.json:skills.bovermind_boost.name",
+        "data.json:skills.bovermind_boost.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hellbender": {
+      "pl": "Piekielna salamandra",
+      "contexts": [
+        "data.json:skills.hellbender.name",
+        "data.json:skills.hellbender.levels[0].enchantments.name",
+        "data.json:skills.hellbender.levels[1].enchantments.name",
+        "data.json:skills.hellbender.levels[2].enchantments.name",
+        "data.json:skills.hellbender.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hellishly Tattooed": {
+      "pl": "Piekielnie wytatuowany",
+      "contexts": [
+        "data.json:skills.helltattoo.name",
+        "data.json:skills.helltattoo.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hits an opponent with a hammer, dealing 69 hilarious points of damage.": {
+      "pl": "Uderza przeciwnika młotem, zadając 69 zabawnych punktów obrażeń.",
+      "contexts": [
+        "data.json:skills.fighterclown_hammer.description"
+      ],
+      "category": "skills"
+    },
+    "Honorable": {
+      "pl": "Honorowy",
+      "contexts": [
+        "data.json:skills.honorable.name",
+        "data.json:skills.honorable.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Hornswogglin'": {
+      "pl": "Oszukiwanie",
+      "contexts": [
+        "data.json:skills.hornswogglin.name",
+        "data.json:skills.hornswogglin.levels[0].enchantments.name",
+        "data.json:skills.hornswogglin.levels[1].enchantments.name",
+        "data.json:skills.hornswogglin.levels[2].enchantments.name",
+        "data.json:skills.hornswogglin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "In the West, doctors are few, far between, expensive, and poorly trained.  You've decided it's safer to take matters into your own hands.": {
+      "pl": "Na Zachodzie lekarzy jest mało, są daleko, drodzy i słabo wyszkoleni. Postanowiłeś, że bezpieczniej wziąć sprawy w swoje ręce.",
+      "contexts": [
+        "data.json:skills.first_aid.description"
+      ],
+      "category": "skills"
+    },
+    "Incubate": {
+      "pl": "Inkubuj",
+      "contexts": [
+        "data.json:skills.clownegg_incubate.name",
+        "data.json:skills.clownegg_incubate.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Intimidatin'": {
+      "pl": "Zastraszanie",
+      "contexts": [
+        "data.json:skills.intimidatin.name",
+        "data.json:skills.intimidatin.levels[0].enchantments.name",
+        "data.json:skills.intimidatin.levels[1].enchantments.name",
+        "data.json:skills.intimidatin.levels[2].enchantments.name",
+        "data.json:skills.intimidatin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Kellogg-Brand Purity": {
+      "pl": "Czystość marki Kellogg",
+      "contexts": [
+        "data.json:skills.kelloggpower.name",
+        "data.json:skills.kelloggpower.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Kurtzian Charm": {
+      "pl": "Kurtyjski urok",
+      "contexts": [
+        "data.json:skills.kurtzmox.name",
+        "data.json:skills.kurtzmox.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Kurtzian Philosopher": {
+      "pl": "Kurtyjski filozof",
+      "contexts": [
+        "data.json:skills.kurtzmyst.name",
+        "data.json:skills.kurtzmyst.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Kurtzian Physique": {
+      "pl": "Kurtyjska sylwetka",
+      "contexts": [
+        "data.json:skills.kurtzmuscle.name",
+        "data.json:skills.kurtzmuscle.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Lantern Bash": {
+      "pl": "Uderzenie latarnią",
+      "contexts": [
+        "data.json:skills.pete_lanternsmack.name",
+        "data.json:skills.pete_lanternsmack.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Lasso": {
+      "pl": "Lasso",
+      "contexts": [
+        "data.json:skills.susie_lasso.name",
+        "data.json:skills.susie_lasso.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Lava Fava": {
+      "pl": "Lawa fasola",
+      "contexts": [
+        "data.json:skills.lavafava.name",
+        "data.json:skills.lavafava.levels[0].enchantments.name",
+        "data.json:skills.lavafava.levels[1].enchantments.name",
+        "data.json:skills.lavafava.levels[2].enchantments.name",
+        "data.json:skills.lavafava.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Leatherworkery": {
+      "pl": "Garbarstwo",
+      "contexts": [
+        "data.json:skills.leatherworkery.name",
+        "data.json:skills.leatherworkery.levels[0].enchantments.name",
+        "data.json:skills.leatherworkery.levels[1].enchantments.name",
+        "data.json:skills.leatherworkery.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Lockpickin' Expertise": {
+      "pl": "Wytrychowanie",
+      "contexts": [
+        "data.json:skills.lockpickin.name",
+        "data.json:skills.lockpickin.levels[0].enchantments.name",
+        "data.json:skills.lockpickin.levels[1].enchantments.name",
+        "data.json:skills.lockpickin.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Make an animal out of balloons. You're so talented!": {
+      "pl": "Zrób zwierzaka z balonów. Jesteś taki utalentowany!",
+      "contexts": [
+        "data.json:skills.balloonclown_createanimal.description"
+      ],
+      "category": "skills"
+    },
+    "Makes a balloon-squeaking noise so obnoxious the target is stunned for one round.": {
+      "pl": "Wydaje piszczący dźwięk balona tak irytujący, że cel jest ogłuszony na jedną rundę.",
+      "contexts": [
+        "data.json:skills.balloonclown_squeak.description"
+      ],
+      "category": "skills"
+    },
+    "Master Cookery": {
+      "pl": "Mistrzostwo kuchni",
+      "contexts": [
+        "data.json:skills.cookery.name",
+        "data.json:skills.cookery.levels[0].enchantments.name",
+        "data.json:skills.cookery.levels[1].enchantments.name",
+        "data.json:skills.cookery.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Master of Flushing": {
+      "pl": "Mistrz spłukiwania",
+      "contexts": [
+        "data.json:skills.toiletmaster.name",
+        "data.json:skills.toiletmaster.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Melee Attack": {
+      "pl": "Atak wręcz",
+      "contexts": [
+        "data.json:skills.attack_melee.name",
+        "data.json:skills.attack_melee.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Menacing Moo": {
+      "pl": "Groźne muu",
+      "contexts": [
+        "data.json:skills.moo.name",
+        "data.json:skills.moo.levels[0].enchantments.name",
+        "data.json:skills.moo.levels[1].enchantments.name",
+        "data.json:skills.moo.levels[2].enchantments.name",
+        "data.json:skills.moo.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Minesplainer": {
+      "pl": "Kopalniobjaśniacz",
+      "contexts": [
+        "data.json:skills.minesplainer.name",
+        "data.json:skills.minesplainer.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Moo at your foes, weakening their resolve and their muscles.": {
+      "pl": "Muuń wrogów, osłabiając ich determinację i mięśnie.",
+      "contexts": [
+        "data.json:skills.moo.description"
+      ],
+      "category": "skills"
+    },
+    "Mostly Scabs": {
+      "pl": "Głównie strupy",
+      "contexts": [
+        "data.json:skills.cactusskin.name",
+        "data.json:skills.cactusskin.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Muscle is a measure of how beefy you are.  It affects how much damage you do when you hit stuff, and how much damage you take when you get hit.": {
+      "pl": "Mięśnie mierzy, jak bardzo jesteś umięśniony. Wpływa na to, ile obrażeń zadajesz, gdy coś uderzasz, i ile otrzymujesz, gdy ktoś uderzy ciebie.",
+      "contexts": [
+        "data.json:skills.muscle.description"
+      ],
+      "category": "skills"
+    },
+    "Out of Gum": {
+      "pl": "Koniec gumy",
+      "contexts": [
+        "data.json:skills.book_boots.name",
+        "data.json:skills.book_boots.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Outfoxin'": {
+      "pl": "Przechytrzanie",
+      "contexts": [
+        "data.json:skills.outfoxin.name",
+        "data.json:skills.outfoxin.levels[0].enchantments.name",
+        "data.json:skills.outfoxin.levels[1].enchantments.name",
+        "data.json:skills.outfoxin.levels[2].enchantments.name",
+        "data.json:skills.outfoxin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Pass a Round (DEBUG)": {
+      "pl": "Przepuść rundę (DEBUG)",
+      "contexts": [
+        "data.json:skills.pass.name",
+        "data.json:skills.pass.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Pass a round of combat for debug purposes.": {
+      "pl": "Przepuść rundę walki do celów debugowania.",
+      "contexts": [
+        "data.json:skills.pass.description"
+      ],
+      "category": "skills"
+    },
+    "Passin' Fair Mycologist": {
+      "pl": "Przyzwoity grzybolog",
+      "contexts": [
+        "data.json:skills.mycology.name",
+        "data.json:skills.mycology.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Patch Up": {
+      "pl": "Opatrzenie",
+      "contexts": [
+        "data.json:skills.alice_patchup.name",
+        "data.json:skills.alice_patchup.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Peace of the Grave": {
+      "pl": "Spokój grobu",
+      "contexts": [
+        "data.json:skills.skelthrall_spell3.name",
+        "data.json:skills.skelthrall_spell3.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Pep Talk": {
+      "pl": "Przemowa",
+      "contexts": [
+        "data.json:skills.pete_peptalk.name",
+        "data.json:skills.pete_peptalk.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Perform three melee attacks": {
+      "pl": "Wykonaj trzy ataki wręcz",
+      "contexts": [
+        "data.json:skills.onetwothree.levels[0].enchantments.bluetext",
+        "data.json:skills.onetwothree.levels[1].enchantments.bluetext",
+        "data.json:skills.onetwothree.levels[2].enchantments.bluetext",
+        "data.json:skills.onetwothree.levels[3].enchantments.bluetext"
+      ],
+      "category": "skills"
+    },
+    "Pete bashes a dude with a lantern, dealing some Hot damage.": {
+      "pl": "Pete wali gościa latarnią, zadając trochę obrażeń od gorąca.",
+      "contexts": [
+        "data.json:skills.pete_lanternsmack.description"
+      ],
+      "category": "skills"
+    },
+    "Pete gives you (or whoever) a pep talk": {
+      "pl": "Pete robi tobie (albo komu tam) przemowę",
+      "contexts": [
+        "data.json:skills.pete_peptalk.description"
+      ],
+      "category": "skills"
+    },
+    "Pete hears things other folks don't hear, and sometimes he shares them, and they're <i>terrible</i>.": {
+      "pl": "Pete słyszy rzeczy, których inni nie słyszą, i czasem się nimi dzieli — a są <i>straszne</i>.",
+      "contexts": [
+        "data.json:skills.pete_darkwhisper.description"
+      ],
+      "category": "skills"
+    },
+    "Pistol Attack": {
+      "pl": "Atak pistoletem",
+      "contexts": [
+        "data.json:skills.attack_ranged.name",
+        "data.json:skills.attack_ranged.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Pops a balloon in front of a friendly target, drawing enemy attention to them for the rest of the round.": {
+      "pl": "Pęka balon przed sojusznikiem, przyciągając uwagę wrogów do niego do końca rundy.",
+      "contexts": [
+        "data.json:skills.balloonclown_pop.description"
+      ],
+      "category": "skills"
+    },
+    "Potionology": {
+      "pl": "Miksturoznawstwo",
+      "contexts": [
+        "data.json:skills.potionery.name",
+        "data.json:skills.potionery.levels[0].enchantments.name",
+        "data.json:skills.potionery.levels[1].enchantments.name",
+        "data.json:skills.potionery.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Quick / Drunk": {
+      "pl": "Szybki / pijany",
+      "contexts": [
+        "data.json:skills.book_brewery.name",
+        "data.json:skills.book_brewery.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Quick on the Draw": {
+      "pl": "Szybkie wyciągnięcie",
+      "contexts": [
+        "data.json:skills.quickdraw.name",
+        "data.json:skills.quickdraw.levels[0].enchantments.name",
+        "data.json:skills.quickdraw.levels[1].enchantments.name",
+        "data.json:skills.quickdraw.levels[2].enchantments.name",
+        "data.json:skills.quickdraw.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Rain of Teeth": {
+      "pl": "Deszcz zębów",
+      "contexts": [
+        "data.json:skills.rainofteeth.name",
+        "data.json:skills.rainofteeth.levels[0].enchantments.name",
+        "data.json:skills.rainofteeth.levels[1].enchantments.name",
+        "data.json:skills.rainofteeth.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Raise Skeletal Buddy": {
+      "pl": "Przywołanie szkieletowego kumpla",
+      "contexts": [
+        "data.json:skills.summonskeleton1.name",
+        "data.json:skills.summonskeleton1.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Raise Skeletal Gunslinger": {
+      "pl": "Przywołanie szkieletowego rewolwerowca",
+      "contexts": [
+        "data.json:skills.summonskeleton3.name",
+        "data.json:skills.summonskeleton3.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Raise Skeletal Thrall": {
+      "pl": "Przywołanie szkieletowego niewolnika",
+      "contexts": [
+        "data.json:skills.summonskeleton2.name",
+        "data.json:skills.summonskeleton2.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Remembered Lore": {
+      "pl": "Zapamiętana wiedza",
+      "contexts": [
+        "data.json:skills.book_curiosity.name",
+        "data.json:skills.book_curiosity.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Rifle Shot": {
+      "pl": "Strzał z karabinu",
+      "contexts": [
+        "data.json:skills.susie_rifleshot.name",
+        "data.json:skills.susie_rifleshot.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Ruthless": {
+      "pl": "Bezwzględny",
+      "contexts": [
+        "data.json:skills.ruthless.name",
+        "data.json:skills.ruthless.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Safecrackin'": {
+      "pl": "Sejfowanie",
+      "contexts": [
+        "data.json:skills.safecrackin.name",
+        "data.json:skills.safecrackin.levels[0].enchantments.name",
+        "data.json:skills.safecrackin.levels[1].enchantments.name",
+        "data.json:skills.safecrackin.levels[2].enchantments.name",
+        "data.json:skills.safecrackin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Salt Cloud": {
+      "pl": "Chmura soli",
+      "contexts": [
+        "data.json:skills.mob_saltcloud.name",
+        "data.json:skills.mob_saltcloud.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Say hello.  To <i>EVIL</i>.": {
+      "pl": "Przywitaj się. Ze <i>ZŁEM</i>.",
+      "contexts": [
+        "data.json:skills.darkhowdy.description"
+      ],
+      "category": "skills"
+    },
+    "Scattergun Blast": {
+      "pl": "Salwa z dubeltówki",
+      "contexts": [
+        "data.json:skills.alice_shotgunblast.name",
+        "data.json:skills.alice_shotgunblast.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Shadow Tumbleweed": {
+      "pl": "Cienista kłoda",
+      "contexts": [
+        "data.json:skills.skelthrall_spell1.name",
+        "data.json:skills.skelthrall_spell1.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Sheds the tears of a clown all over a friendly target, leaving them damp.": {
+      "pl": "Roni łzy klauna na przyjazny cel, zostawiając go wilgotnym.",
+      "contexts": [
+        "data.json:skills.sadclown_cry.description"
+      ],
+      "category": "skills"
+    },
+    "Shoot first, then shoot again, then shoot <i>again</i>, and then ask questions if there's anything left to ask questions of.": {
+      "pl": "Strzelaj najpierw, potem znowu, potem <i>jeszcze raz</i>, a pytania zadawaj, jeśli jeszcze zostanie ktoś, kto może odpowiadać.",
+      "contexts": [
+        "data.json:skills.fanhammer.description"
+      ],
+      "category": "skills"
+    },
+    "Shoot your target three times": {
+      "pl": "Strzel w cel trzy razy",
+      "contexts": [
+        "data.json:skills.fanhammer.levels[0].enchantments.bluetext",
+        "data.json:skills.fanhammer.levels[1].enchantments.bluetext",
+        "data.json:skills.fanhammer.levels[2].enchantments.bluetext",
+        "data.json:skills.fanhammer.levels[3].enchantments.bluetext"
+      ],
+      "category": "skills"
+    },
+    "Shootenanny": {
+      "pl": "Huczna strzelanina",
+      "contexts": [
+        "data.json:skills.shootenanny.name",
+        "data.json:skills.shootenanny.levels[0].enchantments.name",
+        "data.json:skills.shootenanny.levels[1].enchantments.name",
+        "data.json:skills.shootenanny.levels[2].enchantments.name",
+        "data.json:skills.shootenanny.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Silver Tongue": {
+      "pl": "Srebrny język",
+      "contexts": [
+        "data.json:skills.silvertongue.name",
+        "data.json:skills.silvertongue.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Skulls are scary, and ghosts are scary, so you know what would be <i>double</i> scary?  Yes you do.": {
+      "pl": "Czaszki są straszne, duchy są straszne, więc wiesz, co byłoby <i>podwójnie</i> straszne? Tak, wiesz.",
+      "contexts": [
+        "data.json:skills.spectralskull.description"
+      ],
+      "category": "skills"
+    },
+    "Snakewhip": {
+      "pl": "Wężowy bat",
+      "contexts": [
+        "data.json:skills.snakewhip.name",
+        "data.json:skills.snakewhip.levels[0].enchantments.name",
+        "data.json:skills.snakewhip.levels[1].enchantments.name",
+        "data.json:skills.snakewhip.levels[2].enchantments.name",
+        "data.json:skills.snakewhip.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Some of your patent medicines actually work!  You save those for your own use.": {
+      "pl": "Część twoich patentowych lekarstw naprawdę działa! Te zostawiasz dla siebie.",
+      "contexts": [
+        "data.json:skills.goodmedicine.description"
+      ],
+      "category": "skills"
+    },
+    "Sometimes, you just hate the ground.": {
+      "pl": "Czasem po prostu nienawidzisz ziemi.",
+      "contexts": [
+        "data.json:skills.stomp.description"
+      ],
+      "category": "skills"
+    },
+    "Song of the Spheres": {
+      "pl": "Pieśń sfer",
+      "contexts": [
+        "data.json:skills.cairnperk_myst.name",
+        "data.json:skills.cairnperk_myst.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Spawn Grunt": {
+      "pl": "Przywołaj rekruta",
+      "contexts": [
+        "data.json:skills.gary_spawngrunt.name",
+        "data.json:skills.gary_spawngrunt.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Spit-Free": {
+      "pl": "Bez plucia",
+      "contexts": [
+        "data.json:skills.spitfree.name",
+        "data.json:skills.spitfree.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Spittoon Hand": {
+      "pl": "Ręka spluwaczki",
+      "contexts": [
+        "data.json:skills.spittoonhand.name",
+        "data.json:skills.spittoonhand.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Spooky Hug": {
+      "pl": "Upiorny uścisk",
+      "contexts": [
+        "data.json:skills.mob_spookyhug.name",
+        "data.json:skills.mob_spookyhug.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Spore Blast": {
+      "pl": "Wybuch zarodników",
+      "contexts": [
+        "data.json:skills.gary_sporeblast.name",
+        "data.json:skills.gary_sporeblast.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Squeak": {
+      "pl": "Pisk",
+      "contexts": [
+        "data.json:skills.balloonclown_squeak.name",
+        "data.json:skills.balloonclown_squeak.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Stitch Up": {
+      "pl": "Zszyj",
+      "contexts": [
+        "data.json:skills.xxx_doc_heal.name",
+        "data.json:skills.xxx_doc_heal.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Stomp": {
+      "pl": "Deptaj",
+      "contexts": [
+        "data.json:skills.mob_stomp.name",
+        "data.json:skills.mob_stomp.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Strong Medicine": {
+      "pl": "Silne lekarstwo",
+      "contexts": [
+        "data.json:skills.strongmedicine.name",
+        "data.json:skills.strongmedicine.levels[0].enchantments.name",
+        "data.json:skills.strongmedicine.levels[1].enchantments.name",
+        "data.json:skills.strongmedicine.levels[2].enchantments.name",
+        "data.json:skills.strongmedicine.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Stupid Walking": {
+      "pl": "Głupie chodzenie",
+      "contexts": [
+        "data.json:skills.walkingstupid.name",
+        "data.json:skills.walkingstupid.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Summon a fava bean made of boiling lava, and hurl it at your unsuspecting foes!": {
+      "pl": "Przywołaj bobową fasolę z wrzącej lawy i miotnij nią w niczego niespodziewających się wrogów!",
+      "contexts": [
+        "data.json:skills.lavafava.description"
+      ],
+      "category": "skills"
+    },
+    "Summon a powerful golem made of beans who will (probably) do your bidding.": {
+      "pl": "Przywołaj potężnego golema z fasol, który (prawdopodobnie) wykona twoją wolę.",
+      "contexts": [
+        "data.json:skills.beangolem.description"
+      ],
+      "category": "skills"
+    },
+    "Summon a whirling blizzard of frozen Great Northern beans, dealing Cold damage to all of your enemies.": {
+      "pl": "Przywołaj wirującą zamieć zamrożonych fasol Great Northern, zadając wszystkim wrogom obrażenia od zimna.",
+      "contexts": [
+        "data.json:skills.blizzard.description"
+      ],
+      "category": "skills"
+    },
+    "Superpunch": {
+      "pl": "Supercios",
+      "contexts": [
+        "data.json:skills.xxxattack_superpunch.name",
+        "data.json:skills.xxxattack_superpunch.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Tap into your inner wellspring of beefiness, temporarily increasing your Muscle.": {
+      "pl": "Sięgnij po wewnętrzne źródło wołowatości, tymczasowo zwiększając Mięśnie.",
+      "contexts": [
+        "data.json:skills.beefup.description"
+      ],
+      "category": "skills"
+    },
+    "That <i>Frisco Examiner</i> subscription really paid off! Not that it was your subscription, but hey, what can you do?": {
+      "pl": "Ta subskrypcja <i>Frisco Examiner</i> naprawdę się opłaciła! Nie że to twoja subskrypcja, ale no, co zrobisz?",
+      "contexts": [
+        "data.json:skills.hedgenewsperk.description"
+      ],
+      "category": "skills"
+    },
+    "That tome certainly did have a lot of ancient magical secrets in it!": {
+      "pl": "Ten tom z pewnością zawierał mnóstwo starożytnych magicznych sekretów!",
+      "contexts": [
+        "data.json:skills.book_curiosity.description"
+      ],
+      "category": "skills"
+    },
+    "The extent to which you are truly gritty.  The higher it is, the tougher you'll be.": {
+      "pl": "Stopień, w jakim naprawdę jesteś twardzielem. Im wyższa, tym twardszy będziesz.",
+      "contexts": [
+        "data.json:skills.grit.description"
+      ],
+      "category": "skills"
+    },
+    "The Kurtzians have really taught you a lot.  About how to take advantage of hippies.": {
+      "pl": "Kurtzianie naprawdę dużo cię nauczyli. O tym, jak wykorzystywać hipisów.",
+      "contexts": [
+        "data.json:skills.kurtzmox.description"
+      ],
+      "category": "skills"
+    },
+    "The Ol' One Two Three": {
+      "pl": "Stare raz-dwa-trzy",
+      "contexts": [
+        "data.json:skills.onetwothree.name",
+        "data.json:skills.onetwothree.levels[0].enchantments.name",
+        "data.json:skills.onetwothree.levels[1].enchantments.name",
+        "data.json:skills.onetwothree.levels[2].enchantments.name",
+        "data.json:skills.onetwothree.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "The right combination of chemicals, extracts and oils can make you smarter, stronger and more stylish, respectively.": {
+      "pl": "Właściwa kombinacja chemikaliów, ekstraktów i olejków może uczynić cię mądrzejszym, silniejszym i bardziej stylowym — odpowiednio.",
+      "contexts": [
+        "data.json:skills.strongmedicine.description"
+      ],
+      "category": "skills"
+    },
+    "The word \"safe\" is a real misnomer when you're around.": {
+      "pl": "Słowo „sejf” to prawdziwie błędne określenie, gdy ty jesteś w pobliżu.",
+      "contexts": [
+        "data.json:skills.safecrackin.description"
+      ],
+      "category": "skills"
+    },
+    "They ain't yet invented a lock that'll keep you out!": {
+      "pl": "Jeszcze nie wynaleziono zamka, który cię powstrzyma!",
+      "contexts": [
+        "data.json:skills.lockpickin.description"
+      ],
+      "category": "skills"
+    },
+    "Thick Skin": {
+      "pl": "Gruba skóra",
+      "contexts": [
+        "data.json:skills.thickskin.name",
+        "data.json:skills.thickskin.levels[0].enchantments.name",
+        "data.json:skills.thickskin.levels[1].enchantments.name",
+        "data.json:skills.thickskin.levels[2].enchantments.name",
+        "data.json:skills.thickskin.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Thin Blood": {
+      "pl": "Cienka krew",
+      "contexts": [
+        "data.json:skills.necroproblem3.name",
+        "data.json:skills.necroproblem3.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "This field should never be displayed.": {
+      "pl": "To pole nigdy nie powinno się wyświetlać.",
+      "contexts": [
+        "data.json:skills.attack_melee.description",
+        "data.json:skills.attack_ranged.description",
+        "data.json:skills.bovermind_boost.description",
+        "data.json:skills.bovermind_heal.description",
+        "data.json:skills.bovermind_nuke.description"
+      ],
+      "category": "skills"
+    },
+    "This is your Mysticality.  It affects the amount of damage you do with spells, and the amount of damage you take from spells and elemental attacks from bad guys.": {
+      "pl": "To twój Mistycyzm. Wpływa na obrażenia, które zadajesz zaklęciami, oraz na obrażenia, które otrzymujesz od zaklęć i ataków żywiołowych złoczyńców.",
+      "contexts": [
+        "data.json:skills.mysticality.description"
+      ],
+      "category": "skills"
+    },
+    "This spell lets you conjure a giant bean made of pure butter, then use it to gum up an opponent's works.": {
+      "pl": "To zaklęcie pozwala przywołać gigantyczną fasolę z czystego masła i użyć jej, by zablokować mechanizmy przeciwnika.",
+      "contexts": [
+        "data.json:skills.butterbean.description"
+      ],
+      "category": "skills"
+    },
+    "To Serve Mankind": {
+      "pl": "Służyć ludzkości",
+      "contexts": [
+        "data.json:skills.book_cook.name",
+        "data.json:skills.book_cook.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Tough Customer": {
+      "pl": "Trudny klient",
+      "contexts": [
+        "data.json:skills.tough_customer.name",
+        "data.json:skills.tough_customer.levels[0].enchantments.name",
+        "data.json:skills.tough_customer.levels[1].enchantments.name",
+        "data.json:skills.tough_customer.levels[2].enchantments.name",
+        "data.json:skills.tough_customer.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Turns out that guy is onto something -- you really do feel stronger.": {
+      "pl": "Okazuje się, że ten gość ma rację — naprawdę czujesz się silniejszy.",
+      "contexts": [
+        "data.json:skills.kurtzmuscle.description"
+      ],
+      "category": "skills"
+    },
+    "Uncanny Presence": {
+      "pl": "Niesamowita obecność",
+      "contexts": [
+        "data.json:skills.uncanny.name",
+        "data.json:skills.uncanny.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Unlimited Bones": {
+      "pl": "Nieograniczone kości",
+      "contexts": [
+        "data.json:skills.unlimitedbones.name",
+        "data.json:skills.unlimitedbones.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Unlimited Grain": {
+      "pl": "Nieograniczone ziarno",
+      "contexts": [
+        "data.json:skills.unlimitedgrain.name",
+        "data.json:skills.unlimitedgrain.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Use The Ol' Bean": {
+      "pl": "Użyj starej fasoli",
+      "contexts": [
+        "data.json:skills.usetheoldbean.name",
+        "data.json:skills.usetheoldbean.levels[0].enchantments.name",
+        "data.json:skills.usetheoldbean.levels[1].enchantments.name",
+        "data.json:skills.usetheoldbean.levels[2].enchantments.name",
+        "data.json:skills.usetheoldbean.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Vampiric Yodel": {
+      "pl": "Wampirze jodłowanie",
+      "contexts": [
+        "data.json:skills.vampiricyodel.name",
+        "data.json:skills.vampiricyodel.levels[0].enchantments.name",
+        "data.json:skills.vampiricyodel.levels[1].enchantments.name",
+        "data.json:skills.vampiricyodel.levels[2].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Vein Glorious": {
+      "pl": "Żyła złota",
+      "contexts": [
+        "data.json:skills.richvein.name",
+        "data.json:skills.richvein.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Vinegar Shot": {
+      "pl": "Strzał octowy",
+      "contexts": [
+        "data.json:skills.mob_vinegargun.name",
+        "data.json:skills.mob_vinegargun.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Walks into enemy territory and self-destructs, dealing 30 damage to all opponents.": {
+      "pl": "Wchodzi na terytorium wroga i się autodestruuje, zadając 30 obrażeń wszystkim przeciwnikom.",
+      "contexts": [
+        "data.json:skills.balloonanimal_gosayhi.description"
+      ],
+      "category": "skills"
+    },
+    "Wary": {
+      "pl": "Czujny",
+      "contexts": [
+        "data.json:skills.wary.name",
+        "data.json:skills.wary.levels[0].enchantments.name",
+        "data.json:skills.wary.levels[1].enchantments.name",
+        "data.json:skills.wary.levels[2].enchantments.name",
+        "data.json:skills.wary.levels[3].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "What good is a briefcase full of snakes if you can't occasionally pull a snake out and tell it what to do?": {
+      "pl": "Po co walizka pełna węży, skoro nie możesz od czasu do czasu wyciągnąć węża i kazać mu, co ma robić?",
+      "contexts": [
+        "data.json:skills.summonsnake.description"
+      ],
+      "category": "skills"
+    },
+    "When you were a child, you wanted to walk so badly.  You finally have.": {
+      "pl": "Gdy byłeś dzieckiem, tak bardzo chciałeś chodzić. Wreszcie możesz.",
+      "contexts": [
+        "data.json:skills.walkingstupid.description"
+      ],
+      "category": "skills"
+    },
+    "Whip out a snake, then whip something with it!  This skill deals a flat amount of damage and poisons its target.": {
+      "pl": "Wyciągnij węża, a potem nim coś ubij! Ta umiejętność zadaje stałą ilość obrażeń i truci cel.",
+      "contexts": [
+        "data.json:skills.snakewhip.description"
+      ],
+      "category": "skills"
+    },
+    "White Hair": {
+      "pl": "Białe włosy",
+      "contexts": [
+        "data.json:skills.necroproblem1.name",
+        "data.json:skills.necroproblem1.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Withered Muscles": {
+      "pl": "Wyschłe mięśnie",
+      "contexts": [
+        "data.json:skills.necroproblem4.name",
+        "data.json:skills.necroproblem4.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Year-Round Tan": {
+      "pl": "Opalenizna przez cały rok",
+      "contexts": [
+        "data.json:skills.book_tanner.name",
+        "data.json:skills.book_tanner.levels[0].enchantments.name"
+      ],
+      "category": "skills"
+    },
+    "Yodelay-hee-<i>boo</i>.": {
+      "pl": "Jodlowa-hee-<i>buu</i>.",
+      "contexts": [
+        "data.json:skills.vampiricyodel.description"
+      ],
+      "category": "skills"
+    },
+    "You are a cold-blooded killer, and people can see it in your eyes.  It's often the last thing they see, in fact.": {
+      "pl": "Jesteś zimnokrwistym zabójcą i ludzie widzą to w twoich oczach. Często ostatnią rzecz, jaką widzą.",
+      "contexts": [
+        "data.json:skills.ruthless.description"
+      ],
+      "category": "skills"
+    },
+    "you are beefy and this is a perk.": {
+      "pl": "jesteś umięśniony i to jest bonus.",
+      "contexts": [
+        "data.json:skills.xxxperk_beefy.description"
+      ],
+      "category": "skills"
+    },
+    "You are reasonably well-informed about the specific subset of gun law pertaining to duels and duel-adjacent activities.": {
+      "pl": "Masz rozsądną wiedzę o szczególnym podzbiorze prawa broni dotyczącym pojedynków i pokrewnych aktywności.",
+      "contexts": [
+        "data.json:skills.duellaw.description"
+      ],
+      "category": "skills"
+    },
+    "You can bind the soul fragments left in chips of skull and then use them to summon skeletal wizards to do your bidding in combat!": {
+      "pl": "Możesz związać fragmenty dusz pozostawione w odłamkach czaszki i użyć ich do przywołania szkieletowych czarodziejów do walki!",
+      "contexts": [
+        "data.json:skills.summonskeleton2.description"
+      ],
+      "category": "skills"
+    },
+    "You can ensorcel loose teeth, which you can then use to summon a skeletal gunslinger in combat.": {
+      "pl": "Możesz zaczarować luźne zęby, których potem użyjesz do przywołania szkieletowego rewolwerowca w walce.",
+      "contexts": [
+        "data.json:skills.summonskeleton3.description"
+      ],
+      "category": "skills"
+    },
+    "You can ensorcel skeleton bones and then use them to summon skeletons to protect you in combat!": {
+      "pl": "Możesz zaczarować kości szkieletów i użyć ich do przywołania szkieletów chroniących cię w walce!",
+      "contexts": [
+        "data.json:skills.summonskeleton1.description"
+      ],
+      "category": "skills"
+    },
+    "You can hear stones singing in your head, all the time.  It's actually kind of annoying.": {
+      "pl": "Cały czas słyszysz w głowie, jak śpiewają kamienie. To właściwie trochę irytujące.",
+      "contexts": [
+        "data.json:skills.cairnperk_myst.description"
+      ],
+      "category": "skills"
+    },
+    "You care less and less about wordly matters.  Your interests lie beyond this plane's final curtain.": {
+      "pl": "Coraz mniej obchodzą cię sprawy doczesne. Twoje zainteresowania leżą za ostateczną kurtyną tej płaszczyzny.",
+      "contexts": [
+        "data.json:skills.necroproblem6.description"
+      ],
+      "category": "skills"
+    },
+    "You drive a hard bargain, and you never let anybody sell you the long end of a stick.": {
+      "pl": "Twardo targujesz się i nigdy nie pozwalasz nikomu sprzedać ci krótszego końca kija.",
+      "contexts": [
+        "data.json:skills.dickerin.description"
+      ],
+      "category": "skills"
+    },
+    "You feel very powerful, but a lot of your blood has been replaced with liquid evil.": {
+      "pl": "Czujesz się bardzo potężny, ale sporo krwi zastąpiło płynne zło.",
+      "contexts": [
+        "data.json:skills.bovicusboon.description"
+      ],
+      "category": "skills"
+    },
+    "You have a way of getting what you want.": {
+      "pl": "Masz sposób, żeby dostać to, czego chcesz.",
+      "contexts": [
+        "data.json:skills.intimidatin.description"
+      ],
+      "category": "skills"
+    },
+    "You just can't get enough of losing!": {
+      "pl": "Po prostu nie możesz się nacieszyć przegrywaniem!",
+      "contexts": [
+        "data.json:skills.gluttonforpunishment.description"
+      ],
+      "category": "skills"
+    },
+    "You know enough about gun laws to know that they who have the guns make the laws.": {
+      "pl": "Wiesz dość o prawie broni, żeby wiedzieć, że ci, którzy mają spluwy, tworzą prawo.",
+      "contexts": [
+        "data.json:skills.gunlaw.description"
+      ],
+      "category": "skills"
+    },
+    "You know how to get a lot more Meat out of Meat veins.": {
+      "pl": "Wiesz, jak wydobyć dużo więcej Mięsa z żył Mięsa.",
+      "contexts": [
+        "data.json:skills.richvein.description"
+      ],
+      "category": "skills"
+    },
+    "You know how to live off the land, by extracting food and booze and potions from the cactus parts of the land.": {
+      "pl": "Wiesz, jak żyć z ziemi, wydobywając jedzenie, trunki i mikstury z kaktusowych części ziemi.",
+      "contexts": [
+        "data.json:skills.foragin.description"
+      ],
+      "category": "skills"
+    },
+    "You know more about mushrooms than the average cowpoke.": {
+      "pl": "Wiesz o grzybach więcej niż przeciętny cowpoke.",
+      "contexts": [
+        "data.json:skills.mycology.description"
+      ],
+      "category": "skills"
+    },
+    "You know what makes a human being tick.  And how to stop one from tickin', come to that.": {
+      "pl": "Wiesz, co sprawia, że człowiek tyka. I jak sprawić, żeby przestał tykać, przy okazji.",
+      "contexts": [
+        "data.json:skills.anatomy.description"
+      ],
+      "category": "skills"
+    },
+    "You know where to find an effectively infinite supply of grain.": {
+      "pl": "Wiesz, gdzie znaleźć praktycznie nieskończone zapasy ziarna.",
+      "contexts": [
+        "data.json:skills.unlimitedgrain.description"
+      ],
+      "category": "skills"
+    },
+    "You made it to Frisco without getting any tobacco spit on you.  Feels good!": {
+      "pl": "Dotarłeś do Frisco bez plwociny tytoniowej na sobie. Dobre uczucie!",
+      "contexts": [
+        "data.json:skills.spitfree.description"
+      ],
+      "category": "skills"
+    },
+    "You really like horses, and horses really like you.  It really makes the horse inside you shine out.": {
+      "pl": "Naprawdę lubisz konie, a konie naprawdę lubią ciebie. Naprawdę sprawia, że koń w tobie błyszczy.",
+      "contexts": [
+        "data.json:skills.horsefriend.description"
+      ],
+      "category": "skills"
+    },
+    "You speak a little bit of Goblin.  At least enough to order a beer, which is the important thing.": {
+      "pl": "Mówisz trochę po goblinie. Przynajmniej tyle, żeby zamówić piwo, a to najważniejsze.",
+      "contexts": [
+        "data.json:skills.goblintongue.description"
+      ],
+      "category": "skills"
+    },
+    "You sure do think you know a lot about mining.": {
+      "pl": "Na pewno myślisz, że dużo wiesz o kopaniu.",
+      "contexts": [
+        "data.json:skills.minesplainer.description"
+      ],
+      "category": "skills"
+    },
+    "You tamper with the forces of nature, making you yourself a force of nature.": {
+      "pl": "Majstrujesz przy siłach natury, czyniąc siebie samego siłą natury.",
+      "contexts": [
+        "data.json:skills.hellbender.description"
+      ],
+      "category": "skills"
+    },
+    "You're a city slicker and a witty trickster.": {
+      "pl": "Jesteś miejskim cwaniakiem i dowcipnym oszustem.",
+      "contexts": [
+        "data.json:skills.hornswogglin.description"
+      ],
+      "category": "skills"
+    },
+    "You're a crack shot.  You can bullseye a bull's eye at 300 paces.  You can shoot a fish in a barrel, even if the fish is really small and the barrel is really big.": {
+      "pl": "Strzelasz jak z apteki. Trafiasz w tarczę z 300 kroków. Trafisz rybę w beczce, nawet jak ryba malutka, a beczka ogromna.",
+      "contexts": [
+        "data.json:skills.deadeye.description"
+      ],
+      "category": "skills"
+    },
+    "You're cow-tainted.  Curdled bovine energy flows through your every nook and cranny.": {
+      "pl": "Jesteś skażony krową. Skrzepła krowia energia przepływa przez każdy zakamarek.",
+      "contexts": [
+        "data.json:skills.cowrruption.description"
+      ],
+      "category": "skills"
+    },
+    "You're fluent in a very specific dialect of the whispers of the dead.": {
+      "pl": "Biegle mówisz bardzo specyficznym dialektem szeptów umarłych.",
+      "contexts": [
+        "data.json:skills.skullwhisperer.description"
+      ],
+      "category": "skills"
+    },
+    "You're gaunt and bony as a result of the dark arts you've been messin' around with.": {
+      "pl": "Jesteś wychudzony i kostny przez ciemne sztuki, którymi się bawiłeś.",
+      "contexts": [
+        "data.json:skills.necroproblem2.description"
+      ],
+      "category": "skills"
+    },
+    "You're keepin' an eye out for trouble, 'cause you know it's keepin' an eye out for you.": {
+      "pl": "Trzymasz oko na kłopoty, bo wiesz, że one trzymają oko na ciebie.",
+      "contexts": [
+        "data.json:skills.wary.description"
+      ],
+      "category": "skills"
+    },
+    "You're much better at poisoning things than you are at not poisoning them.": {
+      "pl": "Dużo lepiej trujesz rzeczy niż nie trujesz.",
+      "contexts": [
+        "data.json:skills.poisoner.description"
+      ],
+      "category": "skills"
+    },
+    "You're no greenhorn when it comes to foragin'.": {
+      "pl": "Nie jesteś zielonym w zbieractwie.",
+      "contexts": [
+        "data.json:skills.greenthumb.description"
+      ],
+      "category": "skills"
+    },
+    "You're now permanently marked with an embarrassing tattoo that will allow you to go back and forth through the Portal Hand to Hell. Congratulations?": {
+      "pl": "Masz teraz permanentny żenujący tatuaż, który pozwoli ci przechodzić przez Portal Hand do Piekła. Gratulacje?",
+      "contexts": [
+        "data.json:skills.helltattoo.description"
+      ],
+      "category": "skills"
+    },
+    "You're ready for anything, as long as anything is a fight.": {
+      "pl": "Jesteś gotowy na wszystko, o ile wszystko to walka.",
+      "contexts": [
+        "data.json:skills.vigilant.description"
+      ],
+      "category": "skills"
+    },
+    "You're rough and tumble, rowdy and ready to rumble.": {
+      "pl": "Jesteś twardy, hałaśliwy i gotowy do bójki.",
+      "contexts": [
+        "data.json:skills.tough_customer.description"
+      ],
+      "category": "skills"
+    },
+    "You're smarter than a box of rocks.": {
+      "pl": "Jesteś mądrzejszy od pudełka kamieni.",
+      "contexts": [
+        "data.json:skills.outfoxin.description"
+      ],
+      "category": "skills"
+    },
+    "You're well-versed in Kurtzian Philosophy, or at least you're clever enough to pretend to be.": {
+      "pl": "Znasz Kurtyjską Filozofię, albo przynajmniej jesteś na tyle sprytny, by udawać.",
+      "contexts": [
+        "data.json:skills.kurtzmyst.description"
+      ],
+      "category": "skills"
+    },
+    "You've been blessed by The Hedge.": {
+      "pl": "Zostałeś pobłogosławiony przez The Hedge.",
+      "contexts": [
+        "data.json:skills.hedgeperk.description"
+      ],
+      "category": "skills"
+    },
+    "You've been poked by so many cactuses that your body has built up an entire extra set of skin capillaries just to deal with the constant tiny puncture wounds.": {
+      "pl": "Tyle razy dźgnęły cię kaktusy, że ciało zbudowało dodatkowy zestaw naczyń skórnych na ciągłe drobne ranki.",
+      "contexts": [
+        "data.json:skills.cactusskin.description"
+      ],
+      "category": "skills"
+    },
+    "You've delved into so many occult mysteries that you're only, like, 80% real at this point.": {
+      "pl": "Zagłębiłeś się w tyle okultystycznych tajemnic, że jesteś teraz jakieś 80% realny.",
+      "contexts": [
+        "data.json:skills.uncanny.description"
+      ],
+      "category": "skills"
+    },
+    "You've got a strong moral compass and an accurate ethical protractor.": {
+      "pl": "Masz silny kompas moralny i precyzyjny kątomierz etyczny.",
+      "contexts": [
+        "data.json:skills.honorable.description"
+      ],
+      "category": "skills"
+    },
+    "You've got Moxie, kid.  And this is how much of it.  Moxie affects how much damage you do deal when shootin' and how much damage you take when gettin' shot.": {
+      "pl": "Masz Ikrę, dzieciaku. I tyle jej masz. Ikra wpływa na obrażenia przy strzelaniu i obrażenia, gdy dostajesz w strzałę.",
+      "contexts": [
+        "data.json:skills.moxie.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned enough about the quick and the drunk to know that you are both.": {
+      "pl": "Nauczyłeś się wystarczająco dużo o szybkich i pijanych, żeby wiedzieć, że jesteś i jednym, i drugim.",
+      "contexts": [
+        "data.json:skills.book_brewery.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned how to cheat at the weird variant of Poker they play in these parts.": {
+      "pl": "Nauczyłeś się oszukiwać w dziwnej odmianie pokera, w jaką grają w tych stronach.",
+      "contexts": [
+        "data.json:skills.pokercheatin.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned how to hit machines in just the right place to fix pretty much whatever's wrong with them.": {
+      "pl": "Nauczyłeś się uderzać maszyny we właściwe miejsce, żeby naprawić prawie wszystko, co z nimi nie tak.",
+      "contexts": [
+        "data.json:skills.percussive.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned that the only thing better than hitting an enemy once is hitting an enemy several times.": {
+      "pl": "Nauczyłeś się, że jedyną rzeczą lepszą od jednego uderzenia wroga jest uderzenie wroga kilka razy.",
+      "contexts": [
+        "data.json:skills.onetwothree.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned the secret to an all-year tan.  (The secret is paint.)": {
+      "pl": "Poznałeś sekret całorocznej opalenizny. (Sekret to farba.)",
+      "contexts": [
+        "data.json:skills.book_tanner.description"
+      ],
+      "category": "skills"
+    },
+    "You've learned when to hold them, when to fold them, and when to cut them into delightful animal shapes.": {
+      "pl": "Nauczyłeś się, kiedy trzymać, kiedy spasować, a kiedy wycinać z nich urocze kształty zwierząt.",
+      "contexts": [
+        "data.json:skills.hedgingyourbets.description"
+      ],
+      "category": "skills"
+    },
+    "You've secured access to an unlimited supply of bones, in case you need bones for anything.": {
+      "pl": "Zapewniłeś sobie dostęp do nieograniczonej podaży kości — na wypadek, gdybyś ich potrzebował.",
+      "contexts": [
+        "data.json:skills.unlimitedbones.description"
+      ],
+      "category": "skills"
+    },
+    "You've spent enough time in the triangular area where two trails merge to know how to most efficiently hurt a whole row of things.": {
+      "pl": "Spędziłeś wystarczająco dużo czasu w trójkątnym obszarze, gdzie łączą się dwie ścieżki, żeby wiedzieć, jak najefektywniej zranić cały rząd rzeczy.",
+      "contexts": [
+        "data.json:skills.gore.description"
+      ],
+      "category": "skills"
+    },
+    "Your blood is curdled with dark energy.  It's thinner and grayer than blood ought to be.": {
+      "pl": "Twoja krew jest ścięta mroczną energią. Jest cieńsza i bardziej szara, niż powinna być krew.",
+      "contexts": [
+        "data.json:skills.necroproblem3.description"
+      ],
+      "category": "skills"
+    },
+    "Your bloodstream is chock full of tiny beans, which are in turn chock full of restorative proteins.": {
+      "pl": "Twój krwiobieg jest przepełniony drobnymi fasolkami, które z kolei są przepełnione regenerującymi białkami.",
+      "contexts": [
+        "data.json:skills.bloodbeans.description"
+      ],
+      "category": "skills"
+    },
+    "Your body has been shattered on the altar of purity, and you have been reborn as more than a human.  This description is a registered trademark of Kellogg Ranch.": {
+      "pl": "Twoje ciało zostało rozbite na ołtarzu czystości i odrodziłeś się jako coś więcej niż człowiek. Ten opis jest zastrzeżonym znakiem towarowym Rancza Kellogg.",
+      "contexts": [
+        "data.json:skills.kelloggpower.description"
+      ],
+      "category": "skills"
+    },
+    "Your chemical experimentations have given you a comically oversized spleen.  Trust me, if you could see it, you'd laugh.": {
+      "pl": "Twoje chemiczne eksperymenty dały ci komicznie przerośniętą śledzionę. Uwierz mi, gdybyś ją widział, byś się śmiał.",
+      "contexts": [
+        "data.json:skills.bigspleen.description"
+      ],
+      "category": "skills"
+    },
+    "Your circulatory system is partly stone now, which makes your blood even more thicker than water than regular blood.": {
+      "pl": "Twój układ krążenia jest teraz częściowo kamienny, przez co twoja krew jest jeszcze gęstsza niż woda niż zwykła krew.",
+      "contexts": [
+        "data.json:skills.cairnperk_mus.description"
+      ],
+      "category": "skills"
+    },
+    "Your cooking skills have boiled over and splattered all over the sublime.": {
+      "pl": "Twoje umiejętności kulinarne wykipiały i rozprysnęły po całej wzniosłości.",
+      "contexts": [
+        "data.json:skills.cookery.description"
+      ],
+      "category": "skills"
+    },
+    "Your cow-punching experience has made you tough.": {
+      "pl": "Doświadczenie w uderzaniu krów uczyniło cię twardym.",
+      "contexts": [
+        "data.json:skills.brawny.description"
+      ],
+      "category": "skills"
+    },
+    "Your enemies cower before your kitchen prowess.": {
+      "pl": "Twoi wrogowie drżą przed twoją kucharską potęgą.",
+      "contexts": [
+        "data.json:skills.book_cook.description"
+      ],
+      "category": "skills"
+    },
+    "Your hair has gone prematurely white due to your meddling in the affairs of the netherworld.": {
+      "pl": "Twoje włosy przedwcześnie posiwiały od wtrącania się w sprawy zaświatów.",
+      "contexts": [
+        "data.json:skills.necroproblem1.description"
+      ],
+      "category": "skills"
+    },
+    "Your hand has been permanently stained by the rainbow-colored contents of a nasty spittoon.  On the bright side, that hand will never suffer anything worse than that ever again!": {
+      "pl": "Twoja dłoń została trwale poplamiona tęczową zawartością obrzydliwej spluwaczki. Z drugiej strony — nic gorszego już jej nigdy nie spotka!",
+      "contexts": [
+        "data.json:skills.spittoonhand.description"
+      ],
+      "category": "skills"
+    },
+    "Your hands are capable of doing the Devil's work even when they're not idle.": {
+      "pl": "Twoje ręce potrafią robić diabła robotę nawet gdy nie są bezczynne.",
+      "contexts": [
+        "data.json:skills.defthands.description"
+      ],
+      "category": "skills"
+    },
+    "Your level of get-up-and-git-er-done.  The higher it is, the quicker you are.": {
+      "pl": "Twój poziom zapału do działania. Im wyższy, tym szybszy jesteś.",
+      "contexts": [
+        "data.json:skills.gumption.description"
+      ],
+      "category": "skills"
+    },
+    "Your obsessive study of dark ancient tomes has made it so you can't see well enough to shoot worth a damn.": {
+      "pl": "Twoje obsesyjne studiowanie mrocznych starożytnych tomów sprawiło, że nie widzisz wystarczająco dobrze, żeby strzelać choćby trochę sensownie.",
+      "contexts": [
+        "data.json:skills.necroproblem5.description"
+      ],
+      "category": "skills"
+    },
+    "Your potion-mixing skills are the toast of the West.": {
+      "pl": "Na Zachodzie wznoszą toasty za twoje miksturowe talenty.",
+      "contexts": [
+        "data.json:skills.potionery.description"
+      ],
+      "category": "skills"
+    },
+    "Your single-minded obsession with death magic has led to you really neglecting your physical form.": {
+      "pl": "Twoja ślepa obsesja na punkcie magii śmierci sprawiła, że mocno zaniedbałeś swoją formę fizyczną.",
+      "contexts": [
+        "data.json:skills.necroproblem4.description"
+      ],
+      "category": "skills"
+    },
+    "Your skin is thick, like leather.": {
+      "pl": "Twoja skóra jest gruba jak skóra bydlęca.",
+      "contexts": [
+        "data.json:skills.thickskin.description"
+      ],
+      "category": "skills"
+    },
+    "Your toilet-flushing muscles are in fantastic shape!": {
+      "pl": "Twoje mięśnie do spuszczania klozetu są w fantastycznej formie!",
+      "contexts": [
+        "data.json:skills.toiletmaster.description"
+      ],
+      "category": "skills"
+    },
+    "Your tongue is actually silver!  Well, silver plated, but you'll be able to convince people it's really silver.": {
+      "pl": "Twój język jest naprawdę srebrny! Cóż, posrebrzany, ale przekonasz ludzi, że to prawdziwe srebro.",
+      "contexts": [
+        "data.json:skills.silvertongue.description"
+      ],
+      "category": "skills"
+    },
+    "Your trigger finger isn't fast, or itchy, but it is very dense.": {
+      "pl": "Twój palec na spuście nie jest szybki ani swędzący, ale jest bardzo gęsty.",
+      "contexts": [
+        "data.json:skills.cairnperk_mox.description"
+      ],
+      "category": "skills"
+    },
+    "Your understanding of occult cow anatomy allows you to make seriously enchanted leather goods.": {
+      "pl": "Twoja wiedza o okultystycznej anatomii krów pozwala ci robić poważnie zaczarowane wyroby skórzane.",
+      "contexts": [
+        "data.json:skills.leatherworkery.description"
+      ],
+      "category": "skills"
+    }
+  }
+}

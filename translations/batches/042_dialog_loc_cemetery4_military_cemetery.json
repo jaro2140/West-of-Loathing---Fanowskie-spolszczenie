@@ -1,0 +1,1292 @@
+{
+  "_meta": {
+    "id": 42,
+    "name": "dialog_loc_cemetery4_military_cemetery",
+    "description": "Dialogi przypisane do lokacji \"Military Cemetery\" (waa: cemetery4).",
+    "status": "done",
+    "count": 170
+  },
+  "strings": {
+    "$promptvalue$": {
+      "pl": "$promptvalue$",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz3",
+        "data.json:scripts.cemetery4_pickplot.postpuzz4",
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "%goblin_paragraph%": {
+      "pl": "%goblin_paragraph%",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start",
+        "data.json:scripts.fort1_generalgob.talk",
+        "data.json:scripts.goblin1_guard.start",
+        "data.json:scripts.goblin3_goblinpile.start",
+        "data.json:scripts.goblin3_guard1.start"
+      ],
+      "category": "dialog"
+    },
+    "%milcem_quiet%": {
+      "pl": "%milcem_quiet%",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.treasure1",
+        "data.json:scripts.cemetery4_pickplot.treasure2",
+        "data.json:scripts.cemetery4_pickplot.treasure3"
+      ],
+      "category": "dialog"
+    },
+    "%milcem_unquiet%": {
+      "pl": "%milcem_unquiet%",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt"
+      ],
+      "category": "dialog"
+    },
+    "1st Lt.": {
+      "pl": "por.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_rank[6]"
+      ],
+      "category": "dialog"
+    },
+    "23rd Beanslinger Div.": {
+      "pl": "23. Dyw. Fasolomantów",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[0]"
+      ],
+      "category": "dialog"
+    },
+    "2nd Lt.": {
+      "pl": "ppor.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_rank[7]"
+      ],
+      "category": "dialog"
+    },
+    "4077th Chef-Medic Div.": {
+      "pl": "4077. Dyw. Szef-Medyk",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[4]"
+      ],
+      "category": "dialog"
+    },
+    "420th Infantry Div.": {
+      "pl": "420. Dyw. Piechoty",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[1]"
+      ],
+      "category": "dialog"
+    },
+    "42nd Infantry Div.": {
+      "pl": "42. Dyw. Piechoty",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[2]"
+      ],
+      "category": "dialog"
+    },
+    "66th Beanslinger Div.": {
+      "pl": "66. Dyw. Fasolomantów",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.fort1_cabinet[42]"
+      ],
+      "category": "dialog"
+    },
+    "69th Innuendo Div.": {
+      "pl": "69. Dyw. Dwuznaczności",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[5]"
+      ],
+      "category": "dialog"
+    },
+    "76th Pyrotechnics Div.": {
+      "pl": "76. Dyw. Pirotechniki",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.fort1_cabinet[18]",
+        "data.json:buckets.milcem_division[3]"
+      ],
+      "category": "dialog"
+    },
+    "77th Armored Div.": {
+      "pl": "77. Dyw. Pancernej",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[7]"
+      ],
+      "category": "dialog"
+    },
+    "9th Cannoneer Div.": {
+      "pl": "9. Dyw. Artylerii",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_division[6]"
+      ],
+      "category": "dialog"
+    },
+    "<b>$div$</b>": {
+      "pl": "<b>$div$</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt"
+      ],
+      "category": "dialog"
+    },
+    "<b>$rank$ $skelname$</b>": {
+      "pl": "<b>$rank$ $skelname$</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt"
+      ],
+      "category": "dialog"
+    },
+    "<b>%milcem_division/$plotmod8$%</b>": {
+      "pl": "<b>%milcem_division/$plotmod8$%</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.treasure1",
+        "data.json:scripts.cemetery4_pickplot.treasure2",
+        "data.json:scripts.cemetery4_pickplot.treasure3"
+      ],
+      "category": "dialog"
+    },
+    "<b>%milcem_rank/$plotmod9$% $skelname$</b>": {
+      "pl": "<b>%milcem_rank/$plotmod9$% $skelname$</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.treasure1",
+        "data.json:scripts.cemetery4_pickplot.treasure2",
+        "data.json:scripts.cemetery4_pickplot.treasure3"
+      ],
+      "category": "dialog"
+    },
+    "<b>1st Lt. Gal Hauteur</b>": {
+      "pl": "<b>Por. Gal Hauteur</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "<b>1st Metapuzzle Div.</b>": {
+      "pl": "<b>1. Dyw. Metazagadek</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>...  ---  .-.  .-.  ---  .--</i></b>": {
+      "pl": "<b><i>... --- .-. .-. --- .--</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>6:00  10:15  1:30  10:37  7:23  4:30</i></b>": {
+      "pl": "<b><i>6:00 10:15 1:30 10:37 7:23 4:30</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz6"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>8  21  2  18  9  19</i></b>": {
+      "pl": "<b><i>8 21 2 18 9 19</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Beau to Ann Yem</i></b>": {
+      "pl": "<b><i>Beau to Ann Yem</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz4"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Believed these numbers</i></b>": {
+      "pl": "<b><i>Wierzył w te liczby</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Born in Distant Lands</i></b>": {
+      "pl": "<b><i>Urodzony w odległych krainach</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Colored her hair six times a day</i></b>": {
+      "pl": "<b><i>Farbowała włosy sześć razy dziennie</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz6"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Crushed at bash</i></b>": {
+      "pl": "<b><i>Zgnieciony na balu</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Died of a broken heart</i></b>": {
+      "pl": "<b><i>Umarł ze złamanego serca</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Died penniless and alone</i></b>": {
+      "pl": "<b><i>Umarł bez grosza i w samotności</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>DVWTVW</i></b>": {
+      "pl": "<b><i>DVWTVW</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>EHVARQ</i></b>": {
+      "pl": "<b><i>EHVARQ</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>for boulder salesmen</i></b>": {
+      "pl": "<b><i>dla handlarzy głazów</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>held the secret to immortality</i></b>": {
+      "pl": "<b><i>posiadał sekret nieśmiertelności</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "<b><i>Will be missed every second</i></b>": {
+      "pl": "<b><i>Będzie go brakować w każdej sekundzie</i></b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz4"
+      ],
+      "category": "dialog"
+    },
+    "<b>___th Mathematics Div.</b>": {
+      "pl": "<b>___. Dyw. Matematyczna</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2"
+      ],
+      "category": "dialog"
+    },
+    "<b>___th Naval Signals Div.</b>": {
+      "pl": "<b>___. Dyw. Sygnałów Morskich</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz6"
+      ],
+      "category": "dialog"
+    },
+    "<b>___th Party Div.</b>": {
+      "pl": "<b>___. Dyw. Imprezowa</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "<b>___th Pogo-stick Div.</b>": {
+      "pl": "<b>___. Dyw. Pogo</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz4"
+      ],
+      "category": "dialog"
+    },
+    "<b>___th Trading Div.</b>": {
+      "pl": "<b>___. Dyw. Handlowa</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "<b>__th Telegraph Div.</b>": {
+      "pl": "<b>__. Dyw. Telegraficzna</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1"
+      ],
+      "category": "dialog"
+    },
+    "<b>Cpl. Mort D. Funct</b>": {
+      "pl": "<b>Kpr. Mort D. Funct</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz4"
+      ],
+      "category": "dialog"
+    },
+    "<b>Gen. Wisen Heimer</b>": {
+      "pl": "<b>Gen. Wisen Heimer</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7"
+      ],
+      "category": "dialog"
+    },
+    "<b>Mjr. Samuel Less</b>": {
+      "pl": "<b>Mjr. Samuel Less</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1"
+      ],
+      "category": "dialog"
+    },
+    "<b>Pvt. Erin Nyovan</b>": {
+      "pl": "<b>Szer. Erin Nyovan</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "<b>Sgt. Denis Lawson</b>": {
+      "pl": "<b>Sierż. Denis Lawson</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "<b>Sgt. Maj. Starr Shine</b>": {
+      "pl": "<b>Sierż. sztab. Starr Shine</b>",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz6"
+      ],
+      "category": "dialog"
+    },
+    "A courier walks up to you.": {
+      "pl": "Do ciebie podchodzi kurier.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "According to General Heimer's will, I am supposed to deliver this to the person standing at his grave at this exact moment.": {
+      "pl": "Zgodnie z testamentem generała Heimera mam to przekazać osobie, która dokładnie w tej chwili stoi przy jego grobie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 11.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 11.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz6"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 111.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 111.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz2"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 230.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 230.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz3"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 37.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 37.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 370.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 370.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz4"
+      ],
+      "category": "dialog"
+    },
+    "After a moment you notice that you can just barely make out the Division number that had worn away over the years: 690.": {
+      "pl": "Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 690.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "Alright, let's get this over with.": {
+      "pl": "Dobra, miejmy to już z głowy.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Army gravediggers didn't start indexing at zero.": {
+      "pl": "Wojskowi grabarze nie zaczynali indeksowania od zera.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.zero"
+      ],
+      "category": "dialog"
+    },
+    "At the bottom of the package is a note that says, \"You've not heard the last from me.\"": {
+      "pl": "Na dnie paczki jest kartka z napisem: „Jeszcze o mnie usłyszycie.”",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Back": {
+      "pl": "Wstecz",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv4"
+      ],
+      "category": "dialog"
+    },
+    "Beyond this gate stand countless rows and columns of tombstones.": {
+      "pl": "Za tą bramą stoją niezliczone rzędy i kolumny nagrobków.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.start"
+      ],
+      "category": "dialog"
+    },
+    "Buy a bratwurst [50 Meat]": {
+      "pl": "Kup parówkę [50 Mięsa]",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.buyoptions"
+      ],
+      "category": "dialog"
+    },
+    "Buy a bratwurst [Requires 50 Meat]": {
+      "pl": "Kup bratwursta [Wymaga 50 Mięsa]",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.buyoptions"
+      ],
+      "category": "dialog"
+    },
+    "Check out at the flyers tacked to the wall": {
+      "pl": "Przeczytaj ulotki przybite do ściany",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.firsthub"
+      ],
+      "category": "dialog"
+    },
+    "Coincidentally, it's a book about mushrooms!": {
+      "pl": "Przypadkiem to książka o grzybach!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.myco"
+      ],
+      "category": "dialog"
+    },
+    "Curious": {
+      "pl": "Ciekawe",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv3",
+        "data.json:scripts.fort5_timerift.static",
+        "data.json:scripts.fort6_timerift.static",
+        "data.json:scripts.mine3_enterlevel2.start",
+        "data.json:scripts.ranch4_timerift.static"
+      ],
+      "category": "dialog"
+    },
+    "Dig it up [Fight]": {
+      "pl": "Wykop to [Walka]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt"
+      ],
+      "category": "dialog"
+    },
+    "Dig it up [Requires shovel]": {
+      "pl": "Wykop to [Wymaga łopaty]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:scripts.cemetery4_pickplot.treasure1",
+        "data.json:scripts.cemetery4_pickplot.treasure2",
+        "data.json:scripts.cemetery4_pickplot.treasure3",
+        "data.json:scripts.re_lootgravec.start"
+      ],
+      "category": "dialog"
+    },
+    "Dyeing": {
+      "pl": "Dyeing",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz6"
+      ],
+      "category": "dialog"
+    },
+    "Euonym": {
+      "pl": "Euonym",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz4"
+      ],
+      "category": "dialog"
+    },
+    "Gary ambles over and chats with the goblin. Both their attitudes toward the whole thing seem to be basically \"Hey, why not?\"": {
+      "pl": "Gary podchodzi powoli i gawędzi z goblinem. Oboje wobec całej tej sytuacji wydają się myśleć w zasadzie: „Hej, czemu nie?”",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.garytalk"
+      ],
+      "category": "dialog"
+    },
+    "Gary shrugs and waves bye to the goblin.": {
+      "pl": "Gary wzrusza ramionami i macha goblinowi na pożegnanie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.nah"
+      ],
+      "category": "dialog"
+    },
+    "Genius": {
+      "pl": "Genius",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "He hands you a package and leaves. (Thank goodness!)  You open it and inside is a huge gem.  Nice!": {
+      "pl": "Wręcza ci paczkę i wychodzi. (Na szczęście!) Otwierasz ją, a w środku jest ogromny klejnot. Nieźle!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "He hands you a package and then departs. You open the box and inside is a bunch of Meat.": {
+      "pl": "Wręcza ci paczkę i odchodzi. Otwierasz pudełko, a w środku jest sporo Mięsa.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Hey, they asking if wanting buying a weenie?": {
+      "pl": "Hej, oni pytać, czy chcieć kupić kiełbaskę?",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.garytalk"
+      ],
+      "category": "dialog"
+    },
+    "How does this even work? [Dream]": {
+      "pl": "Jak to w ogóle działa? [Sen]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Hubris": {
+      "pl": "Hubris",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz2"
+      ],
+      "category": "dialog"
+    },
+    "I am pretty sure you're not supposed to do that.": {
+      "pl": "Jestem raczej pewien, że nie powinieneś tego robić.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start"
+      ],
+      "category": "dialog"
+    },
+    "I'll keep that in mind": {
+      "pl": "Zapamiętam",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Instead of a coffin, you find an urn.  Looks like this soldier was cremated.  Or died in a fire.": {
+      "pl": "Zamiast trumny znajdujesz urnę. Wygląda na to, że tego żołnierza skremowano. Albo zginął w pożarze.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.digt1"
+      ],
+      "category": "dialog"
+    },
+    "Is very good at roasting, though! Crisp, but juicing! You wanting buying one?": {
+      "pl": "Ale bardzo dobre do pieczenia! Chrupkie, ale soczące! Chcieć kupić jedno?",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.youtalk"
+      ],
+      "category": "dialog"
+    },
+    "It's covered with old paint-spattered newspapers, and features a large collection of tiny jars of paint, as well as a jar of fine-tipped brushes, a can of thinner, and a stack of history books.": {
+      "pl": "Pokryte starymi gazetami poplamionymi farbą; stoi tu też spora kolekcja malutkich słoiczków z farbą, słoik z cienkimi pędzlami, puszka rozcieńczalnika i stos książek historycznych.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv3"
+      ],
+      "category": "dialog"
+    },
+    "It's the caretaker's shanty.": {
+      "pl": "To barak opiekuna.",
+      "contexts": [
+        "data.json:scripts.cemetery4_shed.popup"
+      ],
+      "category": "dialog"
+    },
+    "Let Gary handle this": {
+      "pl": "Niech Gary to ogarnie",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start"
+      ],
+      "category": "dialog"
+    },
+    "Like all chairs owned by one guy, it has years worth of lint and food crumbs underneath it.": {
+      "pl": "Jak każde krzesło należące do jednego faceta — pod spodem lata nagromadzonego kurzu i okruszków.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv2"
+      ],
+      "category": "dialog"
+    },
+    "Look at the tools": {
+      "pl": "Spójrz na narzędzia",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.firsthub"
+      ],
+      "category": "dialog"
+    },
+    "Look under the chair": {
+      "pl": "Zajrzyj pod krzesło",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.firsthub"
+      ],
+      "category": "dialog"
+    },
+    "Looks like the Mayor was right about him having wandered off. Guess you're gonna have to fetch him back here to do his job.": {
+      "pl": "Wygląda na to, że burmistrz miał rację co do tego, że się gdzieś zapodział. Chyba będziesz musiał go stąd sprowadzić, żeby robił swoją robotę.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.start"
+      ],
+      "category": "dialog"
+    },
+    "Maybe that's where the caretaker went.": {
+      "pl": "Może tam poszedł opiekun.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.findflyer"
+      ],
+      "category": "dialog"
+    },
+    "Nah.": {
+      "pl": "Nie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.buyoptions",
+        "data.json:scripts.mine2_locker.open3",
+        "data.json:scripts.puntown_grandma.stillhavebook"
+      ],
+      "category": "dialog"
+    },
+    "Next to that tombstone you find a pedestal with a leather-bound book on top of it.  Looks evil.  You'd better grab it before somebody else does.": {
+      "pl": "Obok tego nagrobka stoi cokół z oprawioną w skórę książką. Wygląda złowrogo. Lepiej ją chwyć, zanim zrobi to ktoś inny.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.necrobook"
+      ],
+      "category": "dialog"
+    },
+    "Next to that tombstone, you find a pile of refuse obviously left behind by one of the Necromancer's cultists.  In addition to being evil meddlers in dark forces best left unmeddled in, those jerks are real litterbugs!": {
+      "pl": "Obok tego nagrobka leży sterta śmieci, którą najwyraźniej zostawił jeden z kultystów Nekromanty. Oprócz tego, że to zli wtrącający się w mroczne moce, których lepiej nie tykać, ci łajdacy to prawdziwi bałaganiarze!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.necrotoken"
+      ],
+      "category": "dialog"
+    },
+    "No? Is good fire! Not to wasting it!": {
+      "pl": "Nie? To dobry ogień! Nie marnować go!",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start"
+      ],
+      "category": "dialog"
+    },
+    "Oh good, this weird dream again. Fun times.": {
+      "pl": "No i super, znowu ten dziwny sen. Fajnie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_puzzletitle.toptitle"
+      ],
+      "category": "dialog"
+    },
+    "Oh no, not again!": {
+      "pl": "O nie, znowu!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Oh, my head!": {
+      "pl": "Och, moja głowa!",
+      "contexts": [
+        "data.json:scripts.cemetery4_status.start"
+      ],
+      "category": "dialog"
+    },
+    "Ominous": {
+      "pl": "Groza.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Pick a plot to visit": {
+      "pl": "Wybierz kwaterę do odwiedzenia",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.pickplot"
+      ],
+      "category": "dialog"
+    },
+    "Plot 420 is completely overgrown with mushrooms.  You root around in the loose shroomage and find a book.": {
+      "pl": "Działka 420 całkiem zarosła grzybami. Przekopujesz luźną grzybnię i znajdujesz książkę.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.myco"
+      ],
+      "category": "dialog"
+    },
+    "Ruined": {
+      "pl": "Ruined",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz3"
+      ],
+      "category": "dialog"
+    },
+    "Say a word for the departed": {
+      "pl": "Powiedz słowo za zmarłego",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.puzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.puzz3"
+      ],
+      "category": "dialog"
+    },
+    "Say another word for the departed": {
+      "pl": "Powiedz kolejne słowo za zmarłego",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7",
+        "data.json:scripts.cemetery4_pickplot.puzz7break"
+      ],
+      "category": "dialog"
+    },
+    "Say something else": {
+      "pl": "Powiedz coś innego",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz3",
+        "data.json:scripts.cemetery4_pickplot.postpuzz4",
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "Scope out the desk": {
+      "pl": "Rozejrzyj biurko",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.firsthub"
+      ],
+      "category": "dialog"
+    },
+    "Seriously?": {
+      "pl": "Serio?",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7",
+        "data.json:scripts.clowns_tannery_hidingguy.howlong",
+        "data.json:buckets.wasco_response4[4]",
+        "house.json:scripts.house_dictionary2.pants"
+      ],
+      "category": "dialog"
+    },
+    "Sgt. Maj.": {
+      "pl": "sierż. sztab.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:buckets.milcem_rank[3]"
+      ],
+      "category": "dialog"
+    },
+    "Shined": {
+      "pl": "Shined",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Shrewd": {
+      "pl": "Shrewd",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Sigh [Dream]": {
+      "pl": "Westchnienie [Sen]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Since you already have a shovel, you leave it alone. It's not like you'd be able to dig twice as fast.": {
+      "pl": "Skoro masz już łopatę, zostawiasz ją w spokoju. I tak nie kopniesz dwa razy szybciej.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv1"
+      ],
+      "category": "dialog"
+    },
+    "Sizzle.": {
+      "pl": "Skwierczenie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Sleepy time!": {
+      "pl": "Pora spać!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Sorrow": {
+      "pl": "Sorrow",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1"
+      ],
+      "category": "dialog"
+    },
+    "Stop looting graves": {
+      "pl": "Przestań plądrować groby",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.optsagain"
+      ],
+      "category": "dialog"
+    },
+    "Stop visiting graves": {
+      "pl": "Przestań odwiedzać groby",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1",
+        "data.json:scripts.cemetery4_pickplot.puzz2",
+        "data.json:scripts.cemetery4_pickplot.puzz3",
+        "data.json:scripts.cemetery4_pickplot.puzz4",
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "Sweet!": {
+      "pl": "Super!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7",
+        "data.json:scripts.goblin1_house9.bomb",
+        "data.json:scripts.railcamp_dynamitejim.givedynamite",
+        "data.json:scripts.re_gobling2.fox2",
+        "data.json:scripts.re_skeletonc2.outfox"
+      ],
+      "category": "dialog"
+    },
+    "Talk to him [Goblintongue]": {
+      "pl": "Porozmawiaj z nim [Goblińska mowa]",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start"
+      ],
+      "category": "dialog"
+    },
+    "That hurts, you know! [Dream]": {
+      "pl": "To boli, wiesz! [Sen]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "The caretaker is sleeping off all that wargame adrenaline, it's probably best not to bother him.": {
+      "pl": "Opiekun śpi po całej tej wojennej adrenaliny — pewnie lepiej go nie niepokoić.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.hesback"
+      ],
+      "category": "dialog"
+    },
+    "The courier then knocks you cold with a cudgel.": {
+      "pl": "Kurier następnie obezwładnia cię pałką.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "The goblin shrugs and continues roasting his weenie.": {
+      "pl": "Goblin wzrusza ramionami i dalej opieka swoją parówkę.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.nah"
+      ],
+      "category": "dialog"
+    },
+    "The ground here is rocky, and it's pretty hard on your shovel.": {
+      "pl": "Ziemia tu jest skalista i dość męczy twoją łopatę.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.digt1",
+        "data.json:scripts.cemetery4_pickplot.digt2",
+        "data.json:scripts.cemetery4_pickplot.digt3"
+      ],
+      "category": "dialog"
+    },
+    "The will is very specific.  And very long.": {
+      "pl": "Testament jest bardzo szczegółowy. I bardzo długi.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "There's a shovel here.": {
+      "pl": "Tu leży łopata.",
+      "contexts": [
+        "data.json:scripts.cemetery4_shovel.popup"
+      ],
+      "category": "dialog"
+    },
+    "There's nothing else interesting among flyers, just that notice about the \"Military Re-enactment Enthusiasts Society\" meetings at Fort Memoriam, where you think the caretaker might have gone.  Finding him seems like the surest way to clean this boneyard up.": {
+      "pl": "W ulotkach nic ciekawego — tylko ogłoszenie o spotkaniach „Military Re-enactment Enthusiasts Society” w Posterunku Pamięci, gdzie mógł pójść opiekun. Jego znalezienie to chyba najpewniejszy sposób posprzątać ten cmentarz.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv4"
+      ],
+      "category": "dialog"
+    },
+    "This goblin is roasting a weenie over the eternal flame.": {
+      "pl": "Goblin piecze parówkę nad wiecznym płomieniem.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.start"
+      ],
+      "category": "dialog"
+    },
+    "This tombstone is blank. That's weird!": {
+      "pl": "Ten nagrobek jest pusty. Dziwne!",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7"
+      ],
+      "category": "dialog"
+    },
+    "This tombstone seems more ornate than most, though it's partially worn away. There's an epitaph inscribed as well:": {
+      "pl": "Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1",
+        "data.json:scripts.cemetery4_pickplot.puzz2",
+        "data.json:scripts.cemetery4_pickplot.puzz3",
+        "data.json:scripts.cemetery4_pickplot.puzz4",
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "True": {
+      "pl": "Prawda",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv1"
+      ],
+      "category": "dialog"
+    },
+    "Visit a different plot": {
+      "pl": "Odwiedź inną działkę",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.optsrepeat",
+        "data.json:scripts.cemetery4_pickplot.puzz1",
+        "data.json:scripts.cemetery4_pickplot.puzz2",
+        "data.json:scripts.cemetery4_pickplot.puzz3",
+        "data.json:scripts.cemetery4_pickplot.puzz4"
+      ],
+      "category": "dialog"
+    },
+    "Visit a plot": {
+      "pl": "Odwiedź działkę",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.opts"
+      ],
+      "category": "dialog"
+    },
+    "Visit another plot": {
+      "pl": "Odwiedź kolejną działkę",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.optsagain"
+      ],
+      "category": "dialog"
+    },
+    "Wait, what? [Dream]": {
+      "pl": "Czekaj, co? [Sen]",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "Wake up": {
+      "pl": "Obudź się",
+      "contexts": [
+        "data.json:scripts.cemetery4_puzzletitle.toptitle"
+      ],
+      "category": "dialog"
+    },
+    "Wedged": {
+      "pl": "Wedged",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "Well that was certainly enlightening...": {
+      "pl": "No, to było z pewnością pouczające...",
+      "contexts": [
+        "data.json:scripts.cemetery4_puzzleresolver.start"
+      ],
+      "category": "dialog"
+    },
+    "Well, they're not actually countless.  I've counted them, and there are 999 of them.": {
+      "pl": "No, nie są tak naprawdę niezliczone. Policzyłem je i jest ich 999.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.start"
+      ],
+      "category": "dialog"
+    },
+    "Well, tool singular. There's a shovel here.": {
+      "pl": "No, narzędzie w liczbie pojedynczej. Jest tu łopata.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.inv1"
+      ],
+      "category": "dialog"
+    },
+    "What would you like to say?": {
+      "pl": "Co chcesz powiedzieć? (odpowiedź podaj po angielsku)",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1ask",
+        "data.json:scripts.cemetery4_pickplot.puzz2ask",
+        "data.json:scripts.cemetery4_pickplot.puzz3ask",
+        "data.json:scripts.cemetery4_pickplot.puzz4ask",
+        "data.json:scripts.cemetery4_pickplot.puzz5ask"
+      ],
+      "category": "dialog"
+    },
+    "Y'know, you'd think you'd have learned by now that you shouldn't let your shovel write a check your gun can't cash.": {
+      "pl": "Wiesz, myślałbyś, że nauczyłeś się już, że nie powinieneś pozwalać łopacie wypisać czek, którego rewolwer nie może zrealizować.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.lose"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, but this is special fire. It's a special memorial thing. It's not meant for roasting weenies.": {
+      "pl": "Tak, ale to specjalny ogień. To coś specjalnego. Nie jest przeznaczony do pieczenia parówek.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.youtalk"
+      ],
+      "category": "dialog"
+    },
+    "You approach the grave.  It reads:": {
+      "pl": "Podchodzisz do grobu. Napis:",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postprompt",
+        "data.json:scripts.cemetery4_pickplot.treasure1",
+        "data.json:scripts.cemetery4_pickplot.treasure2",
+        "data.json:scripts.cemetery4_pickplot.treasure3",
+        "data.json:scripts.cemetery4_pickplot.puzz1"
+      ],
+      "category": "dialog"
+    },
+    "You approach the grave. It reads:": {
+      "pl": "Podchodzisz do grobu. Napis:",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7"
+      ],
+      "category": "dialog"
+    },
+    "You beat the skeleton and stuff what's left of it back into the gravehole.": {
+      "pl": "Pokonujesz szkielet i wciskasz resztki z powrotem do dołu grobu.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.win"
+      ],
+      "category": "dialog"
+    },
+    "You can visit an individual plot by number if you'd like.": {
+      "pl": "Możesz odwiedzić konkretną działkę po numerze, jeśli chcesz.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't shake the feeling General Heimer hasn't had his last word, though.": {
+      "pl": "Nie możesz się jednak pozbyć wrażenia, że generał Heimer nie powiedział ostatniego słowa.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "You continue to poke around in the shed.": {
+      "pl": "Dalej grzebiesz w szopie.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.hub"
+      ],
+      "category": "dialog"
+    },
+    "You cringe for a second, but he hands you a package and then departs. You open the box and inside is a bunch of Meat.": {
+      "pl": "Przez chwilę się wzdrygasz, ale wręcza ci paczkę i odchodzi. Otwierasz pudełko — w środku sporo Mięsa.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "You feel good about that word, but it feels like maybe you skipped a step or two.": {
+      "pl": "Dobrze czujesz się z tym słowem, ale chyba pominąłeś krok albo dwa.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "You find a flyer for a \"Military Re-enactment Enthusiasts Society\". Apparently they meet regularly at Fort Memoriam.": {
+      "pl": "Znajdujesz ulotkę „Military Re-enactment Enthusiasts Society”. Spotykają się regularnie w Posterunku Pamięci.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.findflyer"
+      ],
+      "category": "dialog"
+    },
+    "You grab the shovel and cram it in your pack.": {
+      "pl": "Chwytasz łopatę i wciskasz ją do plecaka.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.grabshovel"
+      ],
+      "category": "dialog"
+    },
+    "You make it down to the coffin and find a lockbox, which you open.": {
+      "pl": "Docierasz do trumny i znajdujesz skrzynkę na klucze, którą otwierasz.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.digt3"
+      ],
+      "category": "dialog"
+    },
+    "You make it down to the coffin and find a lockbox.  This soldier must've had no next of kin.  Sad.": {
+      "pl": "Docierasz do trumny i znajdujesz skrzynkę na klucze. Ten żołnierz najwyraźniej nie miał żadnych krewnych. Smutne.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.digt2"
+      ],
+      "category": "dialog"
+    },
+    "You make it down to the coffin and find...  not much to write home about.": {
+      "pl": "Docierasz do trumny i znajdujesz... niewiele wartego wspomnienia.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.digt1"
+      ],
+      "category": "dialog"
+    },
+    "You notice a rock on this grave inscribed with \"LOL,\" which everyone knows stands for \"Lots of Love.\"  How sweet!  Though you're not sure why they placed it upside-down.": {
+      "pl": "Zauważasz kamień na tym grobie z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz2",
+        "data.json:scripts.cemetery4_pickplot.puzz3",
+        "data.json:scripts.cemetery4_pickplot.puzz5"
+      ],
+      "category": "dialog"
+    },
+    "You notice that someone left a rock on this grave inscribed with \"LOL,\" which everyone knows stands for \"Lots of Love.\"  How sweet!  Though you're not sure why they placed it upside-down.": {
+      "pl": "Zauważasz, że ktoś zostawił na tym grobie kamień z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz1",
+        "data.json:scripts.cemetery4_pickplot.puzz4",
+        "data.json:scripts.cemetery4_pickplot.puzz6"
+      ],
+      "category": "dialog"
+    },
+    "You played with fire, and you got burned.": {
+      "pl": "Bawiłeś się ogniem i się poparzyłeś.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.lose"
+      ],
+      "category": "dialog"
+    },
+    "You poke around in the shed. The caretaker appears to have been shirking his duties for quite a while, judging by the dust and cobwebs.": {
+      "pl": "Grzebiesz w szopie. Opiekun najwyraźniej od dawna zaniedbuje obowiązki, sądząc po kurzu i pajęczynach.",
+      "contexts": [
+        "data.json:scripts.cemetery4_investigateshed.start"
+      ],
+      "category": "dialog"
+    },
+    "You return to the grave with the blank tombstone, but it has an inscription now.  Someone must have just been buried here!  The headstone reads:": {
+      "pl": "Wracasz do grobu z pustym nagrobkiem, ale ma już napis. Ktoś musiał tu właśnie zostać pochowany! Nagrobek głosi:",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7"
+      ],
+      "category": "dialog"
+    },
+    "You say a brief word for the departed.": {
+      "pl": "Wypowiadasz krótkie słowo za zmarłym.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz3",
+        "data.json:scripts.cemetery4_pickplot.postpuzz4",
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "You shake your head, unable to think of something to say.": {
+      "pl": "Kręcisz głową, nie mogąc wymyślić, co powiedzieć.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz3",
+        "data.json:scripts.cemetery4_pickplot.postpuzz4",
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "You somehow feel that wasn't quite the right thing to say.": {
+      "pl": "Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz1",
+        "data.json:scripts.cemetery4_pickplot.postpuzz2",
+        "data.json:scripts.cemetery4_pickplot.postpuzz3",
+        "data.json:scripts.cemetery4_pickplot.postpuzz4",
+        "data.json:scripts.cemetery4_pickplot.postpuzz5"
+      ],
+      "category": "dialog"
+    },
+    "You teach the goblin not to play with fire. At least not special commemorative fire, and not while you're around.": {
+      "pl": "Uczysz goblina, żeby nie bawił się ogniem. Przynajmniej nie specjalnym pamiątkowym ogniem i nie, gdy jesteś w pobliżu.",
+      "contexts": [
+        "data.json:scripts.cemetery4_goblin.win"
+      ],
+      "category": "dialog"
+    },
+    "You wait around for a minute, but nothing happens.": {
+      "pl": "Czekasz minutę, ale nic się nie dzieje.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.postpuzz7"
+      ],
+      "category": "dialog"
+    },
+    "You wake up in a heap at the entrance to the military cemetery.": {
+      "pl": "Budzisz się w stercie przy wejściu na wojskowy cmentarz.",
+      "contexts": [
+        "data.json:scripts.cemetery4_puzzleresolver.start"
+      ],
+      "category": "dialog"
+    },
+    "You wonder what that note could mean.": {
+      "pl": "Zastanawiasz się, co może znaczyć ta notatka.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.puzz7break"
+      ],
+      "category": "dialog"
+    },
+    "You're having some sort of strange dream.": {
+      "pl": "Masz jakiś dziwny sen.",
+      "contexts": [
+        "data.json:scripts.cemetery4_puzzletitle.toptitle"
+      ],
+      "category": "dialog"
+    },
+    "You've already visited that plot and done everything there is to do there.": {
+      "pl": "Już odwiedziłeś tę działkę i zrobiłeś wszystko, co można.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.alreadydid"
+      ],
+      "category": "dialog"
+    },
+    "Your shovel finally gives up the ghost, so to speak.": {
+      "pl": "Twoja łopata w końcu daje ducha, że tak powiem.",
+      "contexts": [
+        "data.json:scripts.cemetery4_pickplot.checkshovel"
+      ],
+      "category": "dialog"
+    }
+  }
+}

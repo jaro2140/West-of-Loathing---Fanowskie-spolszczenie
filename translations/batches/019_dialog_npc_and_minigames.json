@@ -1,0 +1,4118 @@
+{
+  "_meta": {
+    "id": 19,
+    "name": "dialog_npc_and_minigames",
+    "description": "Drobni NPC bez przypisanej lokacji + minigry (npc_*, pokergame_* itp).",
+    "status": "done",
+    "count": 570
+  },
+  "strings": {
+    "\"@firstname@. Wear this to bed next time you sleep. It's VERY URGENT. Mom and Dad say hi. Mom insisted on putting a pie in the box, even though I told her that would compromise the electronics and make the diodes smell like cinnamon. Hope you're not dead yet. If you are dead disregard this note. --Rufus\"": {
+      "pl": "\"@firstname@. Załóż to do łóżka, następnym razem, gdy będziesz spać. To BARDZO PILNE. Mama i Tata pozdrawiają. Mama upierała się, żeby włożyć do pudełka ciasto, chociaż mówiłem jej, że to popsuje elektronikę i diody będą pachnieć cynamonem. Mam nadzieję, że jeszcze nie umarłeś. Jeśli już nie żyjesz, zignoruj tę wiadomość. --Rufus\"",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.readnote"
+      ],
+      "category": "dialog"
+    },
+    "\"Congratulations, @firstname@ @lastname@e! In celebration of the 100th anniversary of the Great Sealing of the Portal Hand, we're offering YOU a free room at the historic Pickled Bird tavern! Come enjoy a pleasant vacation in our beautiful, VERY SAFE town, COMPLETELY FREE of eldritch monstrosities for the past 100 years!\"": {
+      "pl": "\"Gratulacje, @firstname@ @lastname@e! Z okazji 100. rocznicy Wielkiego Uszczelnienia Portal Hand oferujemy TOBIE darmowy pokój w historycznej tawernie Pickled Bird! Przyjedź na przyjemne wakacje w naszym pięknym, BARDZO BEZPIECZNYM mieście, CAŁKOWICIE WOLNYM od eldritchowych monstrów przez ostatnie 100 lat!\"",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelopenopardner"
+      ],
+      "category": "dialog"
+    },
+    "\"Congratulations, @firstname@ @lastname@e! In celebration of the 100th anniversary of the Great Sealing of the Portal Hand, we're offering YOU and YOUR PARDNER a free room at the historic Pickled Bird tavern! Come enjoy a pleasant vacation in our beautiful, VERY SAFE town, COMPLETELY FREE of eldritch monstrosities for the past 100 years!\"": {
+      "pl": "\"Gratulacje, @firstname@ @lastname@e! Z okazji 100. rocznicy Wielkiego Uszczelnienia Portal Hand oferujemy TOBIE i TWOJEMU PARDNEROWI darmowy pokój w historycznej tawernie Pickled Bird! Przyjedź na przyjemne wakacje w naszym pięknym, BARDZO BEZPIECZNYM mieście, CAŁKOWICIE WOLNYM od eldritchowych monstrów przez ostatnie 100 lat!\"",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "\"Get lost!\"": {
+      "pl": "\"Spadaj!”",
+      "contexts": [
+        "data.json:scripts.npc_alice_getlost.popup",
+        "data.json:scripts.npc_alice_getlost.whiskey"
+      ],
+      "category": "dialog"
+    },
+    "\"Sorry, no darts. -MGMT\"": {
+      "pl": "\"Przepraszamy, bez rzutek. -KIEROWNICTWO\"",
+      "contexts": [
+        "data.json:scripts.clooncys_dartboard.popup"
+      ],
+      "category": "dialog"
+    },
+    "$p1$ %poker_opponentcheat%": {
+      "pl": "$p1$ %poker_opponentcheat%",
+      "contexts": [
+        "data.json:scripts.pokergame.youlost"
+      ],
+      "category": "dialog"
+    },
+    "$p1$ %poker_opponentcheck%": {
+      "pl": "$p1$ %poker_opponentcheck%",
+      "contexts": [
+        "data.json:scripts.pokergame.afterp1check"
+      ],
+      "category": "dialog"
+    },
+    "$p1$ %poker_opponentraise%": {
+      "pl": "$p1$ %poker_opponentraise%",
+      "contexts": [
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "$p1$ %poker_p1reveal%": {
+      "pl": "$p1$ %poker_p1reveal%",
+      "contexts": [
+        "data.json:scripts.pokergame.endgame"
+      ],
+      "category": "dialog"
+    },
+    "$p1$ looks at $p2 and %poker_bothcheat%": {
+      "pl": "$p1$ patrzy na $p2 i %poker_bothcheat%",
+      "contexts": [
+        "data.json:scripts.pokergame.youlost"
+      ],
+      "category": "dialog"
+    },
+    "$p2$ %poker_opponentcheat%": {
+      "pl": "$p2$ %poker_opponentcheat%",
+      "contexts": [
+        "data.json:scripts.pokergame.youlost"
+      ],
+      "category": "dialog"
+    },
+    "$p2$ %poker_opponentcheck%": {
+      "pl": "$p2$ %poker_opponentcheck%",
+      "contexts": [
+        "data.json:scripts.pokergame.afterp1check"
+      ],
+      "category": "dialog"
+    },
+    "$p2$ %poker_opponentraise%": {
+      "pl": "$p2$ %poker_opponentraise%",
+      "contexts": [
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "$p2$ %poker_p2reveal%": {
+      "pl": "$p2$ %poker_p2reveal%",
+      "contexts": [
+        "data.json:scripts.pokergame.endgame"
+      ],
+      "category": "dialog"
+    },
+    "$sayround$  The pot is $pot$ Meat, and you estimate your chances of winning at around $winchance$ percent.": {
+      "pl": "$sayround$ Pula wynosi $pot$ Mięsa, a szacujesz swoje szanse na wygraną na około $winchance$ procent.",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "%poker_cheatgood%": {
+      "pl": "%poker_cheatgood%",
+      "contexts": [
+        "data.json:scripts.pokergame.cheat"
+      ],
+      "category": "dialog"
+    },
+    "%poker_continue%": {
+      "pl": "%poker_continue%",
+      "contexts": [
+        "data.json:scripts.pokergame.moveon"
+      ],
+      "category": "dialog"
+    },
+    "%poker_playercheck%": {
+      "pl": "%poker_playercheck%",
+      "contexts": [
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "%poker_playerfold%": {
+      "pl": "%poker_playerfold%",
+      "contexts": [
+        "data.json:scripts.pokergame.fold"
+      ],
+      "category": "dialog"
+    },
+    "%poker_playerreveal%": {
+      "pl": "%poker_playerreveal%",
+      "contexts": [
+        "data.json:scripts.pokergame.endgame"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_glamour%": {
+      "pl": "%poker_raise_glamour%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise6"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_grit%": {
+      "pl": "%poker_raise_grit%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise4"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_gumption%": {
+      "pl": "%poker_raise_gumption%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise5"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_moxie%": {
+      "pl": "%poker_raise_moxie%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise3"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_muscle%": {
+      "pl": "%poker_raise_muscle%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise1"
+      ],
+      "category": "dialog"
+    },
+    "%poker_raise_mysticality%": {
+      "pl": "%poker_raise_mysticality%",
+      "contexts": [
+        "data.json:scripts.pokergame.raise2"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_glamour%": {
+      "pl": "%poker_strat_glamour%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat6"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_grit%": {
+      "pl": "%poker_strat_grit%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat4"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_gumption%": {
+      "pl": "%poker_strat_gumption%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat5"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_moxie%": {
+      "pl": "%poker_strat_moxie%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat3"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_muscle%": {
+      "pl": "%poker_strat_muscle%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat1"
+      ],
+      "category": "dialog"
+    },
+    "%poker_strat_mysticality%": {
+      "pl": "%poker_strat_mysticality%",
+      "contexts": [
+        "data.json:scripts.pokergame.strat2"
+      ],
+      "category": "dialog"
+    },
+    "...Are you asking me if I'm related to someone because our last names <i>rhyme?</i>": {
+      "pl": "...Pytasz mnie, czy jestem z kimś spokrewniony, bo nasze nazwiska się <i>rymują?</i>",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.name"
+      ],
+      "category": "dialog"
+    },
+    "...Not typically, no.": {
+      "pl": "...Zazwyczaj nie, nie.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1b"
+      ],
+      "category": "dialog"
+    },
+    "...Sorry, @firstname@, the invitation's <i>just</i> for me. They're keeping the operation tight, is all. Nothing personal.": {
+      "pl": "...Przykro mi, @firstname@, to zaproszenie jest <i>tylko</i> dla mnie. Po prostu trzymają tę operację w ścisłej tajemnicy. Nic osobistego.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "<b>+20% win chance!</b>": {
+      "pl": "<b>+20% szans na wygraną!</b>",
+      "contexts": [
+        "data.json:scripts.pokergame.strat"
+      ],
+      "category": "dialog"
+    },
+    "<b>+30% win chance</b>": {
+      "pl": "<b>+30% szans na wygraną</b>",
+      "contexts": [
+        "data.json:scripts.pokergame.cheat"
+      ],
+      "category": "dialog"
+    },
+    "<b>+5% win chance</b>": {
+      "pl": "<b>+5% szans na wygraną</b>",
+      "contexts": [
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "<b>-10% win chance</b>": {
+      "pl": "<b>-10% szans na wygraną</b>",
+      "contexts": [
+        "data.json:scripts.pokergame.cheatfail"
+      ],
+      "category": "dialog"
+    },
+    "<i>I'm</i> going in a couple-few-some days. <i>You're</i> doing literally anything else so you don't die of boredom. Can't have that on my conscience.": {
+      "pl": "<i>Ja</i> jadę za parę-ładnych-kilka dni. <i>Ty</i> zajmiesz się dosłownie czymkolwiek innym, żeby nie umrzeć z nudów. Nie chciałbym mieć tego na sumieniu.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "<i>sigh.</i>": {
+      "pl": "<i>westchnienie.</i>",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "@sir/capitalize@, I must admit that you drive a hard bargain, but I find your terms acceptable!": {
+      "pl": "@sir/capitalize@, muszę przyznać, że twardo się targujesz, ale twoje warunki uznaję za akceptowalne!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.freedyn"
+      ],
+      "category": "dialog"
+    },
+    "[You haven't made a Stadia hat]": {
+      "pl": "[Nie zrobiłeś kapelusza Stadia]",
+      "contexts": [
+        "data.json:scripts.stadia_transitionhat.popup"
+      ],
+      "category": "dialog"
+    },
+    "A little bit of each": {
+      "pl": "Trochę każdego",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants"
+      ],
+      "category": "dialog"
+    },
+    "A regular cowboy hat": {
+      "pl": "Zwykły kapelusz kowboja",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.yes"
+      ],
+      "category": "dialog"
+    },
+    "A simple hatband": {
+      "pl": "Prosty pasek na kapelusz",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "A tophat": {
+      "pl": "Cylinder",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.yes"
+      ],
+      "category": "dialog"
+    },
+    "A... hat?": {
+      "pl": "K... kapelusz?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twoc"
+      ],
+      "category": "dialog"
+    },
+    "Actually, not right now": {
+      "pl": "Właściwie to nie teraz",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.start"
+      ],
+      "category": "dialog"
+    },
+    "Additional bullet pockets [+9 Ranged Damage]": {
+      "pl": "Dodatkowe kieszenie na naboje [+9 Obrażeń dystansowych]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Aerosolized Asbestos [20% Hot Resistance]": {
+      "pl": "Rozpylony azbest [20% Odporności na gorąco]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Afternoon, @maam@. What can I do for you?": {
+      "pl": "Dzień dobry, @maam@. W czym mogę pomóc?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.start"
+      ],
+      "category": "dialog"
+    },
+    "Ahh, I see.": {
+      "pl": "Aaa, rozumiem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2a"
+      ],
+      "category": "dialog"
+    },
+    "Alice won't let you in unless you bring some whiskey brand whiskey.": {
+      "pl": "Alice nie wpuści cię, dopóki nie przyniesiesz whiskey marki Whiskey.",
+      "contexts": [
+        "data.json:scripts.npc_tut_alice_noentry.start"
+      ],
+      "category": "dialog"
+    },
+    "All right, fine, you know what? Walk away if you want to.": {
+      "pl": "Dobra, dobrze, wiesz co? Idź sobie, skoro chcesz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whyisthisadeal"
+      ],
+      "category": "dialog"
+    },
+    "All right, guess I'll go have a sleepytime adventure!": {
+      "pl": "Dobra, chyba idę na senną przygodę!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink2",
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthinknopardner"
+      ],
+      "category": "dialog"
+    },
+    "All righty.  The boots will be called <b>$promptvalue$</b>.": {
+      "pl": "No dobrze. Buty będą się nazywać <b>$promptvalue$</b>.",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.checkname"
+      ],
+      "category": "dialog"
+    },
+    "Alrighty then.  Now that you've designed an amazing pair of pants, anybody you State Share with will get them.": {
+      "pl": "No dobrze. Skoro zaprojektowałeś niesamowitą parę spodni, każdy, z kim udostępnisz przez State Share, je dostanie.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.saveflags"
+      ],
+      "category": "dialog"
+    },
+    "Alrighty, thanks. Hope to see you soon.": {
+      "pl": "Dzięki. Mam nadzieję, że wkrótce się zobaczymy.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.sheleaves"
+      ],
+      "category": "dialog"
+    },
+    "An all-seeing eye": {
+      "pl": "Wszechwidzące oko",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "An infernal symbol": {
+      "pl": "Piekielny symbol",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "Ancient magical rock technology? That sounds pretty crazy!": {
+      "pl": "Starożytna magiczna technologia kamienna? Brzmi dość szalenie!",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2b"
+      ],
+      "category": "dialog"
+    },
+    "And just look how she's trying to hide behind the other horse there.": {
+      "pl": "Spójrz tylko, jak próbuje schować się za tamtym koniem.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse2b"
+      ],
+      "category": "dialog"
+    },
+    "And last (because they're on the bottom,) the soles.  What should they be made of?": {
+      "pl": "I na koniec (bo są na dole) podeszwy. Z czego mają być?",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "And that makes him see crazy things?": {
+      "pl": "I przez to widzi szalone rzeczy?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4b",
+        "data.json:scripts.npc_bshostler.abthorse4c"
+      ],
+      "category": "dialog"
+    },
+    "And that's why they call you Cactus Bill?": {
+      "pl": "I dlatego mówią na ciebie Cactus Bill?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet2",
+        "data.json:scripts.npc_cactusbill.meet3"
+      ],
+      "category": "dialog"
+    },
+    "And to the cunning skinner who brings me three rattlesnake hides, well, to that adventurous soul I will trade a fine silver pocketwatch!": {
+      "pl": "A przebiegłemu skórowaczowi, który przyniesie mi trzy skóry grzechotnika, wymienię piękny srebrny zegarek kieszonkowy!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start2"
+      ],
+      "category": "dialog"
+    },
+    "And what about a secondary boost?": {
+      "pl": "A co z dodatkowym wzmocnieniem?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "Annual goblin animal handling conference this year in Boring Springs being held! Gary wishing to going! Gary always wanting to learning how a cactus milking.": {
+      "pl": "Doroczna konferencja goblinowego obchodzenia się ze zwierzętami w tym roku w Boring Springs być! Gary chcieć jechać! Gary zawsze chcieć nauczyć się, jak kaktusa doić.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Ante up [$bet$ Meat]": {
+      "pl": "Wejdź do gry [$bet$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.pokergame.anteornot"
+      ],
+      "category": "dialog"
+    },
+    "Ante up [Requires $bet$ Meat]": {
+      "pl": "Postaw stawkę [Wymaga $bet$ sztuk Mięsa]",
+      "contexts": [
+        "data.json:scripts.pokergame.anteornot"
+      ],
+      "category": "dialog"
+    },
+    "Any time!": {
+      "pl": "Zawsze służę!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin3"
+      ],
+      "category": "dialog"
+    },
+    "Arcano... magical rocks?": {
+      "pl": "Arkano... magiczne kamienie?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1"
+      ],
+      "category": "dialog"
+    },
+    "Are you doing this research by yourself?": {
+      "pl": "Prowadzisz te badania sam?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Are you sure? I mean, this is close to the end of the game, so it's probably a pretty powerful hat.": {
+      "pl": "Na pewno? To blisko końca gry, więc to pewnie całkiem potężny kapelusz.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twoda"
+      ],
+      "category": "dialog"
+    },
+    "Armor": {
+      "pl": "Pancerz",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "Ask her about it": {
+      "pl": "Zapytaj ją o to",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist.popup"
+      ],
+      "category": "dialog"
+    },
+    "Ask the Winkler-Fuggo driver if there's a package for you": {
+      "pl": "Zapytaj kierowcę Winkler-Fuggo, czy nie ma dla ciebie paczki",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.inquireaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "At first you're excited because you think this barrel is full of pickles, but they turn out to be novelty rubber pickles.": {
+      "pl": "Najpierw się cieszysz, bo myślisz, że w beczce są ogórki, ale okazuje się, że to gumowe ogórki-zabawki.",
+      "contexts": [
+        "data.json:scripts.buttonwillow_barrel2.popup"
+      ],
+      "category": "dialog"
+    },
+    "Be careful with this, now!": {
+      "pl": "Uważaj z tym, dobrze!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.needle"
+      ],
+      "category": "dialog"
+    },
+    "Because never having being to Portalhand being, if guessing Gary having to. What letter saying being?": {
+      "pl": "Bo nigdy w Portalhand nie być, jeśli Gary zgadywać musi. Co litera mówić?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "Because we've never been to Portalhand, if I had to guess. What's it say?": {
+      "pl": "Bo nigdy nie byliśmy w Portalhand, tak zgaduję. Co jest napisane?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "Behind the outhouse at Orehole Mine.  Got it.  Thanks, Bill!": {
+      "pl": "Za wychodkiem w kopalni Orehole. Jasne. Dzięki, Bill!",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.thanks"
+      ],
+      "category": "dialog"
+    },
+    "Black": {
+      "pl": "Czarny",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.color",
+        "data.json:buckets.adventurebook_placeadjective[6]"
+      ],
+      "category": "dialog"
+    },
+    "Black leather": {
+      "pl": "Czarna skóra",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Boo": {
+      "pl": "Buu",
+      "contexts": [
+        "data.json:scripts.pokergame.youlost",
+        "data.json:scripts.re_cowe2.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Boring Springs Boneyard": {
+      "pl": "Cmentarz Boring Springs",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2",
+        "data.json:waas.tut_cemetery.name"
+      ],
+      "category": "dialog"
+    },
+    "Both": {
+      "pl": "Oba",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.color"
+      ],
+      "category": "dialog"
+    },
+    "Brade (though you <i>really</i> don't think his name is actually Brade) takes your soap and hands you a lock.": {
+      "pl": "Brade (choć <i>naprawdę</i> nie wierzysz, że tak w ogóle ma na imię) bierze twoje mydło i wręcza ci zamek.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.soap"
+      ],
+      "category": "dialog"
+    },
+    "Brade (which is so <i>not</i> a name) takes your needle and hands you a stick of dynamite.": {
+      "pl": "Brade (co w ogóle <i>nie</i> brzmi jak imię) bierze twoją igłę i wręcza ci laskę dynamitu.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.needle"
+      ],
+      "category": "dialog"
+    },
+    "Brade's eyes light up.": {
+      "pl": "Oczy Brade'a się rozświetlają.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.skins"
+      ],
+      "category": "dialog"
+    },
+    "But what <i>kind</i> of stripes?": {
+      "pl": "Ale jakiego <i>rodzaju</i> paski?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish2"
+      ],
+      "category": "dialog"
+    },
+    "Call [$bet$ Meat]": {
+      "pl": "Sprawdzam [$bet$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "Can you sell me a horse?": {
+      "pl": "Możesz mi sprzedać konia?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.start",
+        "data.json:scripts.npc_bshostler.buyhorse"
+      ],
+      "category": "dialog"
+    },
+    "Cancer?": {
+      "pl": "Nowotwór?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3"
+      ],
+      "category": "dialog"
+    },
+    "Check [+5% win chance]": {
+      "pl": "Czekam [+5% szans na wygraną]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Cleverly Raise [$bet$ Meat, $chal$ Mysticality]": {
+      "pl": "Sprytnie podbijam [$bet$ Mięsa, $chal$ Mistycyzm]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Cleverly Raise [Requires $bet$ Meat, $chal$ Mysticality]": {
+      "pl": "Sprytnie podbij [Wymaga $bet$ Mięsa, $chal$ Mistycyzmu]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Cleverly Strategize [$chal$ Mysticality]": {
+      "pl": "Sprytnie planuję [$chal$ Mistycyzm]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Cleverly Strategize [Requires $chal$ Mysticality]": {
+      "pl": "Sprytnie opracuj strategię [Wymaga $chal$ Mistycyzmu]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Color me intrigued! I'll take him!": {
+      "pl": "No, jestem zaintrygowany! Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4c"
+      ],
+      "category": "dialog"
+    },
+    "Count your Meat": {
+      "pl": "Policz swoje Mięso",
+      "contexts": [
+        "data.json:scripts.pokergame.fold"
+      ],
+      "category": "dialog"
+    },
+    "Dang, yeah": {
+      "pl": "No, ojej",
+      "contexts": [
+        "data.json:scripts.clooncys_brawl.dontexplode",
+        "data.json:scripts.mine5_snakepool.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Dark-colored jeans": {
+      "pl": "Ciemne dżinsy",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Debonair [+5 Moxie]": {
+      "pl": "Wytworny [+5 Ikra]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Designer perfume [20% Stench Resistance]": {
+      "pl": "Perfumy projektanta [20% Odporności na smród]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Diagonal": {
+      "pl": "Diagonalnie",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish2"
+      ],
+      "category": "dialog"
+    },
+    "Did you bring me something to read?": {
+      "pl": "Przyniosłeś coś do czytania?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.waitin"
+      ],
+      "category": "dialog"
+    },
+    "Disgusting. No thanks.": {
+      "pl": "Ohyda. Nie, dziękuję.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twod"
+      ],
+      "category": "dialog"
+    },
+    "Dive in! [fight]": {
+      "pl": "Wskocz! [Walka]",
+      "contexts": [
+        "data.json:scripts.clooncys_brawl.popup"
+      ],
+      "category": "dialog"
+    },
+    "Do it": {
+      "pl": "Zrób to",
+      "contexts": [
+        "data.json:scripts.stadia_transitionhat.popup",
+        "house.json:scripts.house_elevator.try3",
+        "house.json:scripts.house_hedgepoison1.popup"
+      ],
+      "category": "dialog"
+    },
+    "Do you have anything for @lastname@? First name @firstname@?": {
+      "pl": "Masz coś dla @lastname@? Imię: @firstname@?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Do you need any help with your experiments?": {
+      "pl": "Potrzebujesz pomocy z eksperymentami?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Do you understand?": {
+      "pl": "Rozumiesz?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.reallywalkaway"
+      ],
+      "category": "dialog"
+    },
+    "Doc! The Winkler-Fuggo wagon is a-parkin' on our street!": {
+      "pl": "Doc! Wóz Winkler-Fuggo zaparkował na naszej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Does what hurt?": {
+      "pl": "Co boli?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet4"
+      ],
+      "category": "dialog"
+    },
+    "Don't mention it.  Now if you could just... kinda... stick that newspaper to my face before you leave?": {
+      "pl": "Nie ma za co. A teraz mógłbyś może... no... przykleić mi tę gazetę do twarzy, zanim wyjdziesz?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.thanks"
+      ],
+      "category": "dialog"
+    },
+    "Don't sell it to him": {
+      "pl": "Nie sprzedawaj mu tego",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.shinyrock",
+        "data.json:scripts.npc_pete_tutorial.silvernugget",
+        "data.json:scripts.npc_pete_tutorial.meatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Dr. Morton's House": {
+      "pl": "Dom dr Mortona",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4",
+        "data.json:waas.geologist.name"
+      ],
+      "category": "dialog"
+    },
+    "Enchanted silver rivets [+9 Spell Damage]": {
+      "pl": "Zaczarowane srebrne nity [+9 Obrażeń od zaklęć]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Exclamation of a surprise!": {
+      "pl": "Okrzyk zaskoczenia!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garythatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Extra-flexible crotch [+1 Maximum AP]": {
+      "pl": "Superelastyczny krok [+1 Maks. PA]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Fake it": {
+      "pl": "Udawaj",
+      "contexts": [
+        "data.json:scripts.npc_tut_alice_noentry.start"
+      ],
+      "category": "dialog"
+    },
+    "Fancy snakeskin": {
+      "pl": "Szykowna skóra węża",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Fantastic! I'll take him!": {
+      "pl": "Fantastycznie! Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1c"
+      ],
+      "category": "dialog"
+    },
+    "Fine an' dandy!": {
+      "pl": "Pięknie i wspaniale!",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellnugget"
+      ],
+      "category": "dialog"
+    },
+    "First things first.  What style of hat do you want to make?": {
+      "pl": "Najpierw najważniejsze. Jaki styl kapelusza chcesz uszyć?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.yes"
+      ],
+      "category": "dialog"
+    },
+    "Fold": {
+      "pl": "Pas",
+      "contexts": [
+        "data.json:scripts.pokergame.loop",
+        "data.json:scripts.pokergame.check"
+      ],
+      "category": "dialog"
+    },
+    "For what it's worth, <i>I</i> think you should head up to the room and take a nap in that weird hat! Primarily because I have to drive to my next stop, and you're blocking the wagon.": {
+      "pl": "Jeśli chcesz znać <i>moje</i> zdanie, powinieneś pójść do pokoju i zdrzemnąć się w tym dziwnym kapeluszu! Głównie dlatego, że muszę jechać do następnego przystanku, a ty blokujesz wóz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink2"
+      ],
+      "category": "dialog"
+    },
+    "Forcefully Raise [$bet$ Meat, $chal$ Muscle]": {
+      "pl": "Siłowo podbijam [$bet$ Mięsa, $chal$ Mięśnie]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Forcefully Raise [Requires $bet$ Meat, $chal$ Muscle]": {
+      "pl": "Podbij siłą [Wymaga $bet$ Mięsa, $chal$ Mięśni]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Forcefully Strategize [$chal$ Muscle]": {
+      "pl": "Siłowo planuję [$chal$ Mięśnie]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Forcefully Strategize [Requires $chal$ Muscle]": {
+      "pl": "Opracuj strategię siłą [Wymaga $chal$ Mięśni]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Furry plush pants": {
+      "pl": "Futrzane pluszowe spodnie",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Gary not anything saying! Gary here standing releasing spores of a quietness.": {
+      "pl": "Gary nic nie mówić! Gary stać tutaj i wypuszczać zarodniki ciszy.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "Gary! The Winkler-Fuggo wagon is a-parkin' on our street!": {
+      "pl": "Gary! Wóz Winkler-Fuggo parkuje na naszej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Gauze [+20 Maximum HP]": {
+      "pl": "Gaza [+20 Maks. HP]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Gimme the one with the crazy eyes instead.": {
+      "pl": "Daj mi zamiast tego tego ze zwariowanymi oczami.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse"
+      ],
+      "category": "dialog"
+    },
+    "Gimme the one with the crazy eyes.": {
+      "pl": "Daj mi tego ze zwariowanymi oczami.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse",
+        "data.json:scripts.npc_bshostler.nodark",
+        "data.json:scripts.npc_bshostler.buyhorse4"
+      ],
+      "category": "dialog"
+    },
+    "Give him the newspaper": {
+      "pl": "Daj mu gazetę",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet5"
+      ],
+      "category": "dialog"
+    },
+    "Give him the newspaper.": {
+      "pl": "Daj mu gazetę.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.waitin"
+      ],
+      "category": "dialog"
+    },
+    "Glamorously Raise [$bet$ Meat, $chal$ Glamour]": {
+      "pl": "Podbijam z polotem [$bet$ Mięsa, $chal$ Glamuru]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Glamorously Raise [Requires $bet$ Meat, $chal$ Glamour]": {
+      "pl": "Podbij z polotem [Wymaga $bet$ Mięsa, $chal$ Glamuru]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Glamorously Strategize [$chal$ Glamour]": {
+      "pl": "Strategizuj z polotem [$chal$ Glamuru]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Glamorously Strategize [Requires $chal$ Glamour]": {
+      "pl": "Strategizuj z polotem [Wymaga $chal$ Glamuru]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Good choice.  The machine offers a variety of pants augmentations.": {
+      "pl": "Dobry wybór. Maszyna oferuje różne ulepszenia spodni.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Good choice. She's a sneaky one. I'll sell her to you for 1,000 Meat.": {
+      "pl": "Dobry wybór. Jest bardzo przebiegła. Sprzedam ci ją za 1000 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse2"
+      ],
+      "category": "dialog"
+    },
+    "Good choice. That's a good horse, if you like that sort of thing. I'll sell her for 1,000 Meat.": {
+      "pl": "Dobry wybór. To dobry koń, jeśli lubisz takie rzeczy. Sprzedam ją za 1 000 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse3"
+      ],
+      "category": "dialog"
+    },
+    "Good guess. Specifically, I'm an arcanogeologist.": {
+      "pl": "Dobre zgadywanie. Mówiąc konkretnie, jestem arkanogeologiem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1"
+      ],
+      "category": "dialog"
+    },
+    "Got anything for @lastname@? First name @firstname@?": {
+      "pl": "Masz coś dla @lastname@? Imię: @firstname@?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "Gotta run, talk to you later.": {
+      "pl": "Muszę lecieć, pogadamy później.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Grab the stuff from it": {
+      "pl": "Weź stamtąd rzeczy",
+      "contexts": [
+        "data.json:scripts.stadia_givehat.stadia"
+      ],
+      "category": "dialog"
+    },
+    "Great! I'll take him!": {
+      "pl": "Świetnie! Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1b"
+      ],
+      "category": "dialog"
+    },
+    "Great, I'll take her!": {
+      "pl": "Świetnie, biorę ją!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse2"
+      ],
+      "category": "dialog"
+    },
+    "Grit your Teeth and Raise [$bet$ Meat, $chal$ Grit]": {
+      "pl": "Zaciskaj zęby i podbijaj [$bet$ Mięsa, $chal$ Twardziel]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Grit your Teeth and Raise [Requires $bet$ Meat, $chal$ Grit]": {
+      "pl": "Zaciskaj zęby i podbijaj [Wymaga $bet$ Mięsa, $chal$ Hartu]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Grit your Teeth and Strategize [$chal$ Grit]": {
+      "pl": "Zaciskaj zęby i planuj [$chal$ Twardziel]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Grit your Teeth and Strategize [Requires $chal$ Grit]": {
+      "pl": "Zaciskaj zęby i planuj [Wymaga $chal$ Hartu]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Gumptiously Raise [$bet$ Meat, $chal$ Gumption]": {
+      "pl": "Z zapałem podbijaj [$bet$ Mięsa, $chal$ Zapał]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Gumptiously Raise [Requires $bet$ Meat, $chal$ Gumption]": {
+      "pl": "Z zapałem podbij [Wymaga $bet$ Mięsa, $chal$ Zapału]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Gumptiously Strategize [$chal$ Gumption]": {
+      "pl": "Z zapałem planuj [$chal$ Zapał]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Gumptiously Strategize [Requires $chal$ Gumption]": {
+      "pl": "Z zapałem planuj [Wymaga $chal$ Zapału]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "H...have you seen a rock that plays the banjo?": {
+      "pl": "C... czy widziałeś kamień grający na banjo?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4b"
+      ],
+      "category": "dialog"
+    },
+    "Ha ha. I mean doctoring when you're out on the trail, riding around in the boonies, just like what <i>we're</i> always doing. I could really level up my game if I go to this lousy conference.": {
+      "pl": "Ha, ha. Mam na myśli leczenie w drodze, kiedy przemierza się odludzia konno, tak jak <i>my</i> bez przerwy. Jeśli pojadę na tę durną konferencję, naprawdę mogę wejść na wyższy poziom.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Hain't I been <i>tellin'</i> ya t'get some metal on yer skull while yer asleepin', keep the dream ogres outta yer inner ear? They're both a wave an' a <i>particle,</i> y'know.": {
+      "pl": "Czy nie <i>mówiłem</i> ci, żebyś podczas snu osłaniał czaszkę metalem, żeby senne ogry nie wlazły ci do ucha wewnętrznego? Są jednocześnie falą i <i>cząstką,</i> wiesz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "Hard to say without more information, but your brother <i>did</i> pay Winkler-Fuggo delivery prices to get this thing to you faster than the pony mail. Reckon it's important <i>somehow.</i>": {
+      "pl": "Trudno powiedzieć bez dodatkowych informacji, ale twój brat <i>zapłacił</i> za dostawę Winkler-Fuggo, żeby przesyłka dotarła szybciej niż kucykową pocztą. Chyba jest <i>w jakiś sposób</i> ważna.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "Have you met The Perfessor?": {
+      "pl": "Znasz Perfessora?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Have you not... Oh, huh! You haven't messed around with the spittoons at all! Wow, buddy, you've been missing out on a real treat, let me tell you! You could have been doing some <i>really vile</i> things! Like <i>super</i> disgusting!": {
+      "pl": "A może nie... O, hej! W ogóle nie bawiłeś się spluwaczkami! O rany, stary, traciłeś prawdziwą gratkę, powiem ci! Mógłbyś robić <i>naprawdę obrzydliwe</i> rzeczy! <i>Super</i> obrzydliwe!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twob"
+      ],
+      "category": "dialog"
+    },
+    "He draws three little pictures on your map.": {
+      "pl": "Rysuje trzy małe obrazki na twojej mapie.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2"
+      ],
+      "category": "dialog"
+    },
+    "He grabs the rock and sticks it in his belt pouch, grinning.": {
+      "pl": "Chwyta kamień i wsuwa go do sakiewki przy pasie, uśmiechając się.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellrock"
+      ],
+      "category": "dialog"
+    },
+    "He grabs the skins and hands you a shiny pocketwatch.": {
+      "pl": "Chwyta skóry i wręcza ci lśniący zegarek kieszonkowy.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.skins"
+      ],
+      "category": "dialog"
+    },
+    "He has all his own teeth, and both original eyeballs. He comes with hooves and a tail for no extra charge.": {
+      "pl": "Ma wszystkie własne zęby i obie oryginalne gałki oczne. W cenie kopyta i ogon.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1b"
+      ],
+      "category": "dialog"
+    },
+    "He is a horse with four legs, and each leg has a weird horse knee that is double-hinged like a book cover.": {
+      "pl": "To koń z czterema nogami, a każda noga ma dziwny koński staw kolanowy, podwójnie zawiasowy jak okładka książki.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1"
+      ],
+      "category": "dialog"
+    },
+    "He shrugs.": {
+      "pl": "Wzrusza ramionami.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellrock"
+      ],
+      "category": "dialog"
+    },
+    "Hello again, @firstname@.": {
+      "pl": "Witaj ponownie, @firstname@.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.start"
+      ],
+      "category": "dialog"
+    },
+    "Here. When you find one, feed it some of these oats. That should send it back here.": {
+      "pl": "Proszę. Jak znajdziesz jednego, nakarm go trochą tego owsa. To powinno odesłać go z powrotem tutaj.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "Hey not bad, you got it in one. Dr. Josie Morton, at your service.": {
+      "pl": "Hej, nieźle, trafiłeś za pierwszym razem. Doktor Josie Morton, do usług.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1b"
+      ],
+      "category": "dialog"
+    },
+    "Hey, @pardnername@? What do you make of this?": {
+      "pl": "Hej, @pardnername@? Co o tym sądzisz?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.readnote"
+      ],
+      "category": "dialog"
+    },
+    "Hey, I may be gruff and pragmatic, but I enjoy a good stage musical as much as the next doctor.": {
+      "pl": "Hej, może jestem szorstka i pragmatyczna, ale lubię dobry musical tak samo jak każdy inny lekarz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.aliceintro"
+      ],
+      "category": "dialog"
+    },
+    "Hi! I'm @firstname@ @lastname@. My second guess was gonna be buttholes, but rocks don't have those.": {
+      "pl": "Cześć! Jestem @firstname@ @lastname@. Drugi typ to byłyby tyłki, ale kamienie ich nie mają.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1b"
+      ],
+      "category": "dialog"
+    },
+    "His work is really intriguing, but our fields of study don't overlap as much as you'd expect.": {
+      "pl": "Jego praca jest naprawdę intrygująca, ale nasze dziedziny badań nie pokrywają się tak bardzo, jak można by oczekiwać.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2"
+      ],
+      "category": "dialog"
+    },
+    "Hmm. Let me think on that and get back to you.": {
+      "pl": "Hmm. Przemyślę to i dam ci znać.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1",
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.buyhorse4"
+      ],
+      "category": "dialog"
+    },
+    "Hmm. Let me think on that.": {
+      "pl": "Hmm. Muszę to przemyśleć.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse",
+        "data.json:scripts.npc_bshostler.nodark"
+      ],
+      "category": "dialog"
+    },
+    "Hmm. Maybe I'll come back later.": {
+      "pl": "Hmm. Może wrócę później.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1",
+        "data.json:scripts.npc_bshostler.abthorse1b",
+        "data.json:scripts.npc_bshostler.abthorse1c"
+      ],
+      "category": "dialog"
+    },
+    "Hmm. Okay, well, in that case...": {
+      "pl": "Hmm. Okej, no to w takim razie...",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twoda"
+      ],
+      "category": "dialog"
+    },
+    "Hooray!!": {
+      "pl": "Hurra!!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.get"
+      ],
+      "category": "dialog"
+    },
+    "Horizontal": {
+      "pl": "Poziomo",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish2"
+      ],
+      "category": "dialog"
+    },
+    "How about a decoration?": {
+      "pl": "A może ozdoba?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "How about some free dynamite? [Dickerin']": {
+      "pl": "A może trochę darmowego dynamitu? [Targulanka]",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub"
+      ],
+      "category": "dialog"
+    },
+    "How about some free dynamite? [Requires Dickerin']": {
+      "pl": "Może trochę darmowego dynamitu? [Wymaga Targulanki]",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub"
+      ],
+      "category": "dialog"
+    },
+    "How about that ordinary-looking one instead.": {
+      "pl": "A może ta zwyczajnie wyglądająca?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse"
+      ],
+      "category": "dialog"
+    },
+    "How does that work?": {
+      "pl": "Jak to działa?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "How many are there?": {
+      "pl": "Ile ich jest?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake",
+        "data.json:scripts.npc_bshostler.questtake2"
+      ],
+      "category": "dialog"
+    },
+    "How's your whiskey experiment going?": {
+      "pl": "Jak idzie twój eksperyment z whiskey?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Howdy yourself!  And the name's Bill.  Cactus Bill.": {
+      "pl": "Howdy nawzajem! A na imię mi Bill. Kaktusowy Bill.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, Cactus Man!": {
+      "pl": "Howdy, Kaktusowy Gościu!",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.start",
+        "data.json:scripts.npc_cactusbill.meet"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, Dr. Morton.": {
+      "pl": "Howdy, dr Morton.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.start"
+      ],
+      "category": "dialog"
+    },
+    "Howdy...": {
+      "pl": "Howdy...",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start"
+      ],
+      "category": "dialog"
+    },
+    "Howdy... Brade.  What are you trading?": {
+      "pl": "Howdy... Brade. Czym handlujesz?",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start2"
+      ],
+      "category": "dialog"
+    },
+    "Huh, it's from the Portalhand Tourism Bureau. I've never been to Portalhand, have I? Wonder why they're sending me this letter.": {
+      "pl": "Hę, list z Biura Turystyki Portalhand. Nigdy nie byłem w Portalhand, prawda? Ciekawe, czemu go do mnie wysyłają.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelopenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Huh, it's from the Portalhand Tourism Bureau. We've never been to Portalhand, have we? Wonder why they're sending me this letter.": {
+      "pl": "Hę, list z Biura Turystyki Portalhand. Nigdy nie byliśmy w Portalhand, prawda? Ciekawe, czemu go do mnie wysyłają.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "Huh, no kidding.": {
+      "pl": "Hę, naprawdę.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicethatsweird"
+      ],
+      "category": "dialog"
+    },
+    "I am certainly willing to sell you my least interesting horse. He costs 1,000 Meat.": {
+      "pl": "Z chęcią sprzedam ci mojego najmniej interesującego konia. Kosztuje 1000 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1"
+      ],
+      "category": "dialog"
+    },
+    "I didn't know roads got sick.": {
+      "pl": "Nie wiedziałem, że drogi mogą chorować.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "I didn't say anything. Might be time to get your ears checked.": {
+      "pl": "Nic nie powiedziałem. Może czas sobie sprawdzić uszy.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "I don't <i>gotta</i> do nothin'. That's why I carry this gun around, to remind people how much nothin' I don't gotta do.": {
+      "pl": "Nie <i>muszę</i> nic robić. Właśnie dlatego noszę przy sobie tę spluwę, żeby przypominać ludziom, jak wiele nic nie muszę robić.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susieintro"
+      ],
+      "category": "dialog"
+    },
+    "I don't know how you spotted her hiding in that mine, but thanks for sending back my dark horse!": {
+      "pl": "Nie wiem, jak wypatrzyłeś ją ukrytą w tej kopalni, ale dzięki, że odesłałeś mi mojego czarnego konia!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin2"
+      ],
+      "category": "dialog"
+    },
+    "I don't think she'll let you ride her if you're wearin' that hat!  She's way too skittish for that.  Sorry, you'll have to choose another horse.": {
+      "pl": "Nie sądzę, żeby pozwoliła ci na sobie jeździć w tym kapeluszu! Jest na to zbyt płochliwa. Przepraszam, musisz wybrać innego konia.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.nodark"
+      ],
+      "category": "dialog"
+    },
+    "I don't understand why you're making this a big deal": {
+      "pl": "Nie rozumiem, czemu robisz z tego wielką sprawę",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.reallywalkaway"
+      ],
+      "category": "dialog"
+    },
+    "I don't want to get into particulars. Let's just say she sets a certain tone.": {
+      "pl": "Nie chcę wdawać się w szczegóły. Powiedzmy tylko, że wprowadza pewien nastrój.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse3b"
+      ],
+      "category": "dialog"
+    },
+    "I dunno. Whole thing reeks of hellcow to me. Reckon it's a trap. That bein' said, sometimes the best thing to do with a trap is go ahead an' spring it. That way ya know who's tryin' t'kill ya, an' you can get the drop on 'em with pistols loaded.": {
+      "pl": "Nie wiem. Cała sprawa cuchnie piekielną krową. To chyba pułapka. Ale czasem najlepiej po prostu uruchomić pułapkę. Wtedy wiesz, kto próbuje cię zabić, i możesz zaskoczyć go z naładowaną bronią.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "I expect a thank-you card from your descendants.": {
+      "pl": "Spodziewam się kartki z podziękowaniem od twoich potomków.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "I gotta go to Boring Springs for a 'mergency meeting of the Crazy Ol' Coots An' Prospectors Guild. We're <i>finally</i> gonna do somethin' about the Insect Overlords' ban on tomato kidneys.": {
+      "pl": "Muszę pojechać do Boring Springs na nadzwyczajne zebranie Gildii Szalonych Starych Dziadów i Poszukiwaczy. <i>Wreszcie</i> zrobimy coś z zakazem pomidorowych nerek wprowadzonym przez Władców Owadów.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "I guess I'll find <i>something</i> to do in Boring Springs while we're there.": {
+      "pl": "Chyba znajdę <i>coś</i> do roboty w Boring Springs, póki tam jesteśmy.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "I have a colleague who patented a design for a watch based on that property of it, but a twenty-three minute watch isn't very useful. Plus, y'know, the whole cancer thing.": {
+      "pl": "Mam kolegę, który opatentował projekt zegarka opartego na tej właściwości, ale zegarek dwudziestotrzyminutowy nie jest zbyt przydatny. Dochodzi też, no wiesz, cała sprawa z rakiem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3"
+      ],
+      "category": "dialog"
+    },
+    "I know you do friend, and if it were legal in this county I'd let you marry that spittoon and have a beautiful romantic honeymoon night with it, but unfortunately you're going to have to settle for wearing it as a hat.": {
+      "pl": "Wiem, wierzę ci, przyjacielu, i gdyby to było legalne w tym hrabstwie, pozwoliłbym ci poślubić tę spluwaczkę i spędzić z nią piękną romantyczną noc poślubną, ale niestety będziesz musiał zadowolić się noszeniem jej na głowie jako kapelusza.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.five"
+      ],
+      "category": "dialog"
+    },
+    "I know, right? Don't worry, though -- I saved the best for last. This one's a hat.": {
+      "pl": "No co, prawda? Ale spokojnie — na deser zostawiłem najlepsze. Tym razem to kapelusz.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twoc"
+      ],
+      "category": "dialog"
+    },
+    "I love it": {
+      "pl": "Uwielbiam to",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.four"
+      ],
+      "category": "dialog"
+    },
+    "I should probably leave him alone.": {
+      "pl": "Chyba powinienem go zostawić w spokoju.",
+      "contexts": [
+        "data.json:scripts.npc_pianoman.thinkpopup"
+      ],
+      "category": "dialog"
+    },
+    "I think it's more like he does it to forget about the crazy things he sees all the time anyway.": {
+      "pl": "Myślę, że robi to raczej po to, żeby zapomnieć o szaleństwach, które i tak ciągle widuje.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4c"
+      ],
+      "category": "dialog"
+    },
+    "I think that my name's not \"Winkler-Fuggo driver,\" it's Gerald. I <i>also</i> think you should go back to your room and try sleeping with that weird hat on. Primarily because I have to drive to my next stop, and you're blocking the wagon.": {
+      "pl": "Myślę, że nie nazywam się „woźnica Winkler-Fuggo”, tylko Gerald. Myślę <i>też</i>, że powinieneś wrócić do pokoju i spróbować pospać w tym dziwnym kapeluszu. Głównie dlatego, że muszę jechać na kolejny przystanek, a ty blokujesz wóz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthinknopardner"
+      ],
+      "category": "dialog"
+    },
+    "I think they like environments that are... thematically appropriate.": {
+      "pl": "Myślę, że lubią otoczenia, które są... tematycznie odpowiednie.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "I was gonna get Doc Alice to have a look at it, but she gave up doctoring.": {
+      "pl": "Chciałem, żeby Doktor Alice na to zerknęła, ale rzuciła doktorowanie.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice"
+      ],
+      "category": "dialog"
+    },
+    "I would <i>never!</i>": {
+      "pl": "Nigdy bym tego <i>nie zrobił!</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "I'll check!": {
+      "pl": "Sprawdzę!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "I'll come back when I get some dough.": {
+      "pl": "Wrócę, jak zdobędę trochę kasy.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1",
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.buyhorse4"
+      ],
+      "category": "dialog"
+    },
+    "I'll decide whether I'll be back or not": {
+      "pl": "Sam zdecyduję, czy wrócę",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whyisthisadeal"
+      ],
+      "category": "dialog"
+    },
+    "I'll go with the spooky pale one instead.": {
+      "pl": "Wolę raczej tego upiornie bladego.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse"
+      ],
+      "category": "dialog"
+    },
+    "I'll go with the spooky pale one.": {
+      "pl": "Biorę tego upiornie bladego.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse",
+        "data.json:scripts.npc_bshostler.nodark",
+        "data.json:scripts.npc_bshostler.buyhorse3"
+      ],
+      "category": "dialog"
+    },
+    "I'll take her!": {
+      "pl": "Biorę ją!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.confirmhorse2",
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.confirmhorse3"
+      ],
+      "category": "dialog"
+    },
+    "I'll take him!": {
+      "pl": "Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1",
+        "data.json:scripts.npc_bshostler.buyhorse4",
+        "data.json:scripts.npc_bshostler.confirmhorse4"
+      ],
+      "category": "dialog"
+    },
+    "I'll take some dynamite for this needle.": {
+      "pl": "Wezmę trochę dynamitu za tę igłę.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub",
+        "data.json:scripts.npc_bstrader.needle"
+      ],
+      "category": "dialog"
+    },
+    "I'll take that basic model.": {
+      "pl": "Wezmę ten podstawowy model.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse",
+        "data.json:scripts.npc_bshostler.nodark"
+      ],
+      "category": "dialog"
+    },
+    "I'll take that ol' silver nugget off yer hands, if ya like. Give ya 81 Meat fer it.": {
+      "pl": "Wezmę ten stary srebrny samorodek z twoich rąk, jeśli chcesz. Dam ci za niego 81 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.silvernugget"
+      ],
+      "category": "dialog"
+    },
+    "I'll take the shifty-looking dark one.": {
+      "pl": "Wezmę tego mrukliwego ciemnego.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse",
+        "data.json:scripts.npc_bshostler.buyhorse2"
+      ],
+      "category": "dialog"
+    },
+    "I'll trade this soap for a lock.": {
+      "pl": "Wymienię to mydło na zamek.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub",
+        "data.json:scripts.npc_bstrader.soap"
+      ],
+      "category": "dialog"
+    },
+    "I'll trade this soap for a lock. [Requires soap]": {
+      "pl": "Wymienię to mydło na kłódkę. [Wymaga mydła]",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub"
+      ],
+      "category": "dialog"
+    },
+    "I'm not here to drink -- I'm doing important research.": {
+      "pl": "Nie przyszedłem pić — prowadzę ważne badania.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "I'm pretty sure she was just being sarcastic.": {
+      "pl": "Jestem prawie pewien, że to był tylko sarkazm.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice2"
+      ],
+      "category": "dialog"
+    },
+    "I'm savoring the moment here. Hold your horses.": {
+      "pl": "Delektuję się chwilą. Wstrzymaj konie.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "I'm so happy you know the Winkler-Fuggo song, Doc.": {
+      "pl": "Tak się cieszę, że znasz piosenkę Winkler-Fuggo, pani Doktor.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.aliceintro"
+      ],
+      "category": "dialog"
+    },
+    "I'm still trying to find something.": {
+      "pl": "Nadal próbuję coś znaleźć.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.noread"
+      ],
+      "category": "dialog"
+    },
+    "I'm testing the effects of various liquids on hypercrystalline thaumomorphic diorites. Today's liquid is ethanol.": {
+      "pl": "Testuję wpływ różnych płynów na hiperkrystaliczne taumomorficzne dioryty. Dzisiejszy płyn to etanol.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1"
+      ],
+      "category": "dialog"
+    },
+    "I've given up. This is the last spittoon in the game, and I'm not going to try and convince you to not be the most disgusting person on Earth any more. Let's go, let's do this.": {
+      "pl": "Poddaję się. To ostatnia spluwaczka w grze i nie będę już próbował przekonywać cię, żebyś nie był najobrzydliwszym człowiekiem na Ziemi. No dalej, zróbmy to.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "I've got three rattler skins.": {
+      "pl": "Mam trzy skóry grzechotników.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.hub",
+        "data.json:scripts.npc_bstrader.skins"
+      ],
+      "category": "dialog"
+    },
+    "I... don't know what you're talking about?": {
+      "pl": "Ja... nie wiem, o czym mówisz?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "I... I would say \"tomatoes don't have kidneys,\" but you'd probably say \"not since the Insect Overlords banned them,\" and I don't know if I have the mental fortitude to actually have that exchange.": {
+      "pl": "Ja... powiedziałbym „pomidory nie mają nerek”, ale ty pewnie odparłbyś „nie mają, odkąd Insekci Władcy ich zakazali” i nie wiem, czy mam dość hartu ducha, żeby faktycznie odbyć tę wymianę zdań.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "If there's a package for me, then I bet it's made of meat!": {
+      "pl": "Jeśli jest dla mnie paczka, to na pewno z mięsa!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.peteintro"
+      ],
+      "category": "dialog"
+    },
+    "If there's a package for me, then my life would be complete!": {
+      "pl": "Jeśli jest dla mnie paczka, moje życie będzie kompletne!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.aliceintro",
+        "data.json:scripts.winklerfuggo_driver.nopardnerintro"
+      ],
+      "category": "dialog"
+    },
+    "If they haven't brought me anything, I'll kick 'em in the groin!": {
+      "pl": "Jeśli nic mi nie przyniosą, kopnę ich w krocze!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.aliceintro",
+        "data.json:scripts.winklerfuggo_driver.nopardnerintro"
+      ],
+      "category": "dialog"
+    },
+    "Indeed, let's do it": {
+      "pl": "No tak, zróbmy to",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.start"
+      ],
+      "category": "dialog"
+    },
+    "Interesting! I'll take him!": {
+      "pl": "Ciekawe! Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4b"
+      ],
+      "category": "dialog"
+    },
+    "Is that an actual nurse, or...": {
+      "pl": "To prawdziwa pielęgniarka czy...",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice2"
+      ],
+      "category": "dialog"
+    },
+    "Is this okay?": {
+      "pl": "Czy to w porządku?",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.checkname",
+        "data.json:scripts.stadia_makehat2.checkname",
+        "data.json:scripts.stadia_makepants2.checkname"
+      ],
+      "category": "dialog"
+    },
+    "Is... something wrong with him?": {
+      "pl": "Czy... z nim jest coś nie tak?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse4",
+        "data.json:scripts.npc_bshostler.abthorse4"
+      ],
+      "category": "dialog"
+    },
+    "It cannot hurting! Unless it killing you. That always being possibility.": {
+      "pl": "Nie może zaszkodzić! Chyba że cię zabić. To zawsze być możliwość.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "It wouldn't be so bad if I had something to read.  You don't happen to have a newspaper or anything, do ya?": {
+      "pl": "Nie byłoby tak źle, gdybym miał co czytać. Nie masz przypadkiem gazety albo czegoś?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet5"
+      ],
+      "category": "dialog"
+    },
+    "It's a pretty decent hand.  %poker_hand/capitalize%.": {
+      "pl": "To całkiem niezła ręka. %poker_hand/capitalize%.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "It's a real Frisco fracas!": {
+      "pl": "To prawdziwa frisco-bójka!",
+      "contexts": [
+        "data.json:scripts.clooncys_brawl.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's a really great hand!  %poker_hand/capitalize%.": {
+      "pl": "To naprawdę świetna ręka! %poker_hand/capitalize%.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "It's a really terrible hand.  %poker_hand/capitalize%.": {
+      "pl": "To naprawdę okropna ręka. %poker_hand/capitalize%.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "It's a relief, honestly. You look like you really would've kicked me in the groin like it says in the Winkler-Fuggo song.": {
+      "pl": "Szczerze mówiąc, to ulga. Wyglądasz, jakbyś naprawdę mógł kopnąć mnie w krocze, tak jak mówią w piosence Winkler-Fuggo.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "It's a Stadia Industries boot-designing machine.": {
+      "pl": "To maszyna Stadia Industries do projektowania butów.",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's a Stadia Industries hat-designing machine.": {
+      "pl": "To maszyna Stadia Industries do projektowania kapeluszy.",
+      "contexts": [
+        "data.json:scripts.stadia_makehat.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's a Stadia Industries pants-designing machine.": {
+      "pl": "To maszyna Stadia Industries do projektowania spodni.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's a totally garbage hand.  %poker_hand/capitalize%.": {
+      "pl": "To kompletnie śmieciowa ręka. %poker_hand/capitalize%.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "It's Dr. Josie Morton.": {
+      "pl": "To dr Josie Morton.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's interesting stuff, all right. If you ever meet him, tell him I said hi.": {
+      "pl": "To naprawdę ciekawy materiał. Jeśli kiedyś go spotkasz, pozdrów go ode mnie.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2b"
+      ],
+      "category": "dialog"
+    },
+    "It's the first round.": {
+      "pl": "To pierwsza runda.",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "It's the last round of betting.  Time to do or die.": {
+      "pl": "To ostatnia runda licytacji. Teraz albo nigdy.",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "It's the second round of betting.": {
+      "pl": "To druga runda licytacji.",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "It's the Winkler-Fuggo wagon, delivering packages to all the good (and bad, and morally neutral) children (and adults, and teenagers) who happened to order a package from a company that subcontracts with the Winkler-Fuggo delivery wagon service!": {
+      "pl": "To wóz Winkler-Fuggo, dostarczający paczki wszystkim dobrym (i złym, i moralnie neutralnym) dzieciom (i dorosłym, i nastolatkom), którzy akurat zamówili coś od firmy zlecającej dostawy wozowi Winkler-Fuggo!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "It's time to pull these boots up by their own straps.": {
+      "pl": "Czas podciągnąć te buty za własne sznurówki.",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.start"
+      ],
+      "category": "dialog"
+    },
+    "Jeez louise, don't get my hopes up like that!": {
+      "pl": "O rety, nie rób mi takich nadziei!",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4b"
+      ],
+      "category": "dialog"
+    },
+    "Just browsin', thanks.": {
+      "pl": "Tylko się rozglądam, dzięki.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.start"
+      ],
+      "category": "dialog"
+    },
+    "Just plain and simple": {
+      "pl": "Po prostu i bez fajerwerków",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "Just you waiting! Getting ready to a Gary's homemade cactus yogurt enjoying!": {
+      "pl": "Ty tylko czekać! Szykować się do smakowania domowego jogurtu kaktusowego Gary'ego!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Leather chaps": {
+      "pl": "Skórzane chapsy",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Let me look at the other options again.": {
+      "pl": "Pozwól, że jeszcze raz rzucę okiem na inne opcje.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.abthorse2",
+        "data.json:scripts.npc_bshostler.abthorse2b",
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.abthorse3"
+      ],
+      "category": "dialog"
+    },
+    "Let's not, actually": {
+      "pl": "W sumie to nie.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.start"
+      ],
+      "category": "dialog"
+    },
+    "Let's see, which one of these is going to be more exciting? Also, do I open the more exciting one first, or save it for last? Decisions, decisions...": {
+      "pl": "Zobaczmy, która będzie ciekawsza? I czy ciekawszą otworzyć najpierw, czy zostawić na koniec? Decyzje, decyzje...",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "Light-colored jeans": {
+      "pl": "Jasne dżinsy",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Listen, kid.  All this stuff what I been buyin' from ya... you been spendin' time unnerground, ain't'cha? Well, you lissen ta Ol' Pete's advice: You'll stay outta Orehole if ya know what's good for ya.  There's stuff down on the fortieth level that ain't worth messin' with for a @fella@ wants to keep @his@ eyes... if ya catch my meanin'.": {
+      "pl": "Słuchaj, młody. Cały ten towar, co od ciebie kupuję... grzebałeś się pod ziemią, co? No to posłuchaj rady Starego Pete'a: Trzymaj się z dala od Orehole, jeśli dbasz o siebie. Na czterdziestym poziomie są rzeczy, z którymi nie warto zadzierać, jeśli @fella@ chce zachować oczy... rozumiesz, o co chodzi.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.petewarning",
+        "data.json:buckets.reference_pete[14]"
+      ],
+      "category": "dialog"
+    },
+    "Look, we both know you'll have both of these packages ripped open within the next sixty seconds. Just pick one.": {
+      "pl": "Słuchaj, oboje wiemy, że oba te pakiety rozerwiesz w ciągu następnych sześćdziesięciu sekund. Po prostu wybierz jeden.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "Looks like my pale horse made it back safe. Thanks for your help!": {
+      "pl": "Wygląda na to, że mój Blady Koń bezpiecznie wrócił. Dzięki za pomoc!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin3"
+      ],
+      "category": "dialog"
+    },
+    "Love it. I'll take her!": {
+      "pl": "Super. Biorę ją!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse3"
+      ],
+      "category": "dialog"
+    },
+    "Maximum AP": {
+      "pl": "Maks. PA",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "Maximum HP": {
+      "pl": "Maks. HP",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "Maybe I'm going out on a limb here, but I'm guessing you're some kind of scientist.": {
+      "pl": "Może strzelam w ciemno, ale zgaduję, że jesteś jakimś naukowcem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press1"
+      ],
+      "category": "dialog"
+    },
+    "Megastarch [5 Armor]": {
+      "pl": "Megaskrobia [5 Pancerza]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Mm-hmm.": {
+      "pl": "Mm-hmm.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro",
+        "data.json:scripts.pardner_talk.alice_clownsdestroyed",
+        "data.json:scripts.pardner_talk.alice_custardstand",
+        "data.json:scripts.pardner_talk.alice_geologist",
+        "data.json:scripts.pardner_talk.alice_moonshinestill"
+      ],
+      "category": "dialog"
+    },
+    "More Item Drops": {
+      "pl": "Więcej dropów przedmiotów",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "More Meat Drops": {
+      "pl": "Więcej dropów Mięsa",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants2"
+      ],
+      "category": "dialog"
+    },
+    "Morton, huh? Any relation to that emperor guy?": {
+      "pl": "Morton, co? Jakiś związek z tym cesarzem?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "Moxie": {
+      "pl": "Ikra",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants",
+        "data.json:skills.moxie.name",
+        "data.json:skills.moxie.levels[0].enchantments.name",
+        "data.json:skills.moxie.levels[1].enchantments.name",
+        "data.json:skills.moxie.levels[2].enchantments.name"
+      ],
+      "category": "dialog"
+    },
+    "Moxiously Raise [$bet$ Meat, $chal$ Moxie]": {
+      "pl": "Z ikrą podbij [$bet$ Mięsa, $chal$ Ikra]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Moxiously Raise [Requires $bet$ Meat, $chal$ Moxie]": {
+      "pl": "Podbij z ikrą [Wymaga $bet$ Mięsa, $chal$ Ikry]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Moxiously Strategize [$chal$ Moxie]": {
+      "pl": "Z ikrą strategizuj [$chal$ Ikra]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Moxiously Strategize [Requires $chal$ Moxie]": {
+      "pl": "Strategizuj z ikrą [Wymaga $chal$ Ikry]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Much obliged, pardner!  Now let's see here, what can I do to return the favor.  Oh, I know -- my shovel!  I left it behind the outhouse at Orehole Mine.  It's yours if you go and get it.  I'm sure you'll find a use for it.": {
+      "pl": "Wielkie dzięki, kompanie! No to zobaczmy, czym mogę się odwdzięczyć. A, wiem — moja łopata! Zostawiłem ją za wychodkiem w Kopalni Orehole. Twoja, jeśli pójdziesz po nią. Na pewno ci się przyda.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.givepaper"
+      ],
+      "category": "dialog"
+    },
+    "Muscle": {
+      "pl": "Mięśnie",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants",
+        "data.json:skills.muscle.name",
+        "data.json:skills.muscle.levels[0].enchantments.name",
+        "data.json:skills.muscle.levels[1].enchantments.name",
+        "data.json:skills.muscle.levels[2].enchantments.name"
+      ],
+      "category": "dialog"
+    },
+    "My oh my, how brave you must be!": {
+      "pl": "O rety, musisz być odważny!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.skins"
+      ],
+      "category": "dialog"
+    },
+    "Mysterious [+5 Mysticality]": {
+      "pl": "Tajemniczy [+5 Mistycyzmu]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Mysticality": {
+      "pl": "Mistycyzm",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants",
+        "data.json:skills.mysticality.name",
+        "data.json:skills.mysticality.levels[0].enchantments.name",
+        "data.json:skills.mysticality.levels[1].enchantments.name",
+        "data.json:skills.mysticality.levels[2].enchantments.name"
+      ],
+      "category": "dialog"
+    },
+    "Mystically-runed suede": {
+      "pl": "Zamsz z mistycznymi runami",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Nah, I like this rock.  I think I'll keep it.": {
+      "pl": "Nie, podoba mi się ten kamień. Chyba go zatrzymam.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellrock"
+      ],
+      "category": "dialog"
+    },
+    "Nah, I'm gonna hold onto this one.": {
+      "pl": "Nie, trzymam to przy sobie.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellnugget"
+      ],
+      "category": "dialog"
+    },
+    "Nah, I'm saving this for later.": {
+      "pl": "Nie, odkładam to na później.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "No trades right now, thanks": {
+      "pl": "Teraz bez wymian, dzięki",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.endmenu"
+      ],
+      "category": "dialog"
+    },
+    "No, let me pick something else": {
+      "pl": "Nie, pozwól mi wybrać coś innego",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.checkname",
+        "data.json:scripts.stadia_makehat2.checkname",
+        "data.json:scripts.stadia_makepants2.checkname"
+      ],
+      "category": "dialog"
+    },
+    "No, never mind.": {
+      "pl": "Nie, nieważne.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.start",
+        "data.json:scripts.ghosttown1_knock1.orderd"
+      ],
+      "category": "dialog"
+    },
+    "No, not as such. He's perfectly functional.": {
+      "pl": "Nie, nie w tym sensie. Jest całkowicie sprawny.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4"
+      ],
+      "category": "dialog"
+    },
+    "No, seriously, open it now, I'm not giving you another option": {
+      "pl": "Nie, na serio, otwórz to teraz, nie daję ci innej opcji",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "No, that's just a coincidence.": {
+      "pl": "Nie, to tylko zbieg okoliczności.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet3"
+      ],
+      "category": "dialog"
+    },
+    "No, you're supposed to say \"If there's a package for me, then my life would be complete!\" It's the Winkler-Fuggo song! Whenever you see the Winkler-Fuggo wagon, you <i>gotta</i> do the Winkler-Fuggo song. It's the rules.": {
+      "pl": "Nie, masz powiedzieć: „Jeśli jest paczka dla mnie, moje życie stanie się kompletne!”. To piosenka Winkler-Fuggo! Kiedy widzisz wóz Winkler-Fuggo, <i>musisz</i> zaśpiewać piosenkę Winkler-Fuggo. Takie są zasady.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susieintro"
+      ],
+      "category": "dialog"
+    },
+    "No.  You never do that when you're sitting at the table.": {
+      "pl": "Nie. Nigdy tego nie robisz, kiedy siedzisz przy stole.",
+      "contexts": [
+        "data.json:scripts.pokergame.count"
+      ],
+      "category": "dialog"
+    },
+    "No. Forget it.": {
+      "pl": "Nie. Daj spokój.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twoda"
+      ],
+      "category": "dialog"
+    },
+    "No. This horse is utterly ordinary in every respect.": {
+      "pl": "Nie. Ten koń jest we wszystkim zupełnie przeciętny.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1c"
+      ],
+      "category": "dialog"
+    },
+    "No?": {
+      "pl": "Nie?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2"
+      ],
+      "category": "dialog"
+    },
+    "No? I'd've thought El Vibrato would be right up your alley! There's all kind of magical rocks in that stuff!": {
+      "pl": "Nie? Myślałem, że El Vibrato będzie w sam raz dla ciebie! Jest tam pełno magicznych skał!",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2a"
+      ],
+      "category": "dialog"
+    },
+    "Nobody knows, she just shut herself up in her office. Said she wouldn't talk to anyone except Nurse Whiskey.": {
+      "pl": "Nikt nie wie, po prostu zamknęła się w swoim gabinecie. Powiedziała, że nie będzie rozmawiać z nikim poza Pielęgniarką Whiskey.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice2"
+      ],
+      "category": "dialog"
+    },
+    "Nope! The ham gloves are already working. Great job, Pete.": {
+      "pl": "Nie! Rękawice z szynki już działają. Dobra robota, Pete.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.peteintro"
+      ],
+      "category": "dialog"
+    },
+    "Not great, but to be honest I wasn't expecting much. This test should really be done with pure ethanol, but it's too hard to get that out here. So I'm trying whiskey, just for the heck of it, but the impurities in it would screw up my findings even if I had any.": {
+      "pl": "Nie rewelacja, ale szczerze mówiąc, nie spodziewałem się wiele. Ten test naprawdę powinien się odbyć na czystym etanolu, ale tu ciężko go zdobyć. Więc próbuję whiskey — ot, tak dla beki — ale domieszki i tak zepsułyby wyniki, nawet gdybym jakieś miał.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3"
+      ],
+      "category": "dialog"
+    },
+    "Not right now, thanks": {
+      "pl": "Nie teraz, dzięki",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.start",
+        "house.json:scripts.house_photocounter.gotreward"
+      ],
+      "category": "dialog"
+    },
+    "Not sure I do, but... thanks!": {
+      "pl": "Nie jestem pewien, czy tak, ale... dzięki!",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.petewarning"
+      ],
+      "category": "dialog"
+    },
+    "Not that I noticed.": {
+      "pl": "O ile zauważyłem, nie.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin4"
+      ],
+      "category": "dialog"
+    },
+    "Nothin' on the hatrack today.": {
+      "pl": "Na wieszaku dziś nic nie ma.",
+      "contexts": [
+        "data.json:scripts.stadia_givehat.popup",
+        "data.json:scripts.autoscript__cre_livingroom__hatrack__saypopup.saypopup"
+      ],
+      "category": "dialog"
+    },
+    "Now that you've designed these boots, anybody you State Share with will get a pair of them, free of charge!": {
+      "pl": "Skoro zaprojektowałeś te buty, każdy, z kim udostępnisz przez State Share, dostanie parę gratis!",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.saveflags"
+      ],
+      "category": "dialog"
+    },
+    "Oddly compelling...": {
+      "pl": "Dziwnie wciągające...",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twod"
+      ],
+      "category": "dialog"
+    },
+    "Offer whiskey": {
+      "pl": "Zaoferuj whisky",
+      "contexts": [
+        "data.json:scripts.npc_alice_getlost.whiskey"
+      ],
+      "category": "dialog"
+    },
+    "Oh boy! You know what this means?": {
+      "pl": "O rany! Wiesz, co to oznacza?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Oh boy, another spittoon! Let's go!": {
+      "pl": "O rety, kolejna spluwaczka! Ruszajmy!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.start"
+      ],
+      "category": "dialog"
+    },
+    "Oh god, yes! Thank you! Please! I'd go fetch them myself, except for this injury. I'll give you 300 Meat each for finding them.": {
+      "pl": "O rany, tak! Dziękuję! Proszę! Sam bym poszedł po nie, gdyby nie ta kontuzja. Dam ci po 300 Mięsa za każdy znaleziony.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake"
+      ],
+      "category": "dialog"
+    },
+    "Oh!  Ha ha.  No, it's actually kinda nice.  The natural fermentation processes inside the cactus part of me keep me pretty drunk most of the time.  I guess it is a mite boring.": {
+      "pl": "O! Ha ha. Nie, właściwie całkiem fajnie. Naturalne procesy fermentacji w mojej kaktusowej części trzymają mnie w większości czasu całkiem pijanym. Chyba trochę nudno.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet4"
+      ],
+      "category": "dialog"
+    },
+    "Oh! Gary hoping it bringing spores Gary from mail-order self-bride company in Chicago city ordering! Better for a popping! Gary \"Most Good Father\" necktie going to receiving!": {
+      "pl": "Och! Gary mieć nadzieję, że to przynosić zarodniki zamówione w chicagowskiej firmie wysyłkowej z żonami do samodzielnego zrobienia! Lepsze do pękania! Gary dostać krawat „Najlepszy Ojciec”!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garyintro"
+      ],
+      "category": "dialog"
+    },
+    "Oh! That's... that's fine. I'm sure I can survive without you for a few days. It's just a few days, right?": {
+      "pl": "Och! To... to nic. Na pewno przetrwam bez ciebie kilka dni. To tylko kilka dni, prawda?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird2",
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Oh, and I almost forgot. Free with every horse purchase is a complimentary map.": {
+      "pl": "Och, prawie zapomniałem. Do każdego kupionego konia dołączamy darmową mapę.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.almostdone"
+      ],
+      "category": "dialog"
+    },
+    "Oh, duh, probably because I've never been to Portalhand. Let's see what it says.": {
+      "pl": "Och, no tak, pewnie dlatego, że nigdy nie byłem w Portalhand. Zobaczmy, co tam napisano.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelopenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Oh, I hope they've brought a knickknack from my sweetheart in Des Moines!": {
+      "pl": "Och, mam nadzieję, że przywieźli jakiś drobiazg od mojego ukochanego z Des Moines!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.aliceintro",
+        "data.json:scripts.winklerfuggo_driver.nopardnerintro"
+      ],
+      "category": "dialog"
+    },
+    "Oh, just anything a rock doesn't ordinarily do. Moving around on its own, defying gravity, displaying rudimentary intelligence...": {
+      "pl": "O, po prostu cokolwiek, czego skała zwykle nie robi. Porusza się sama, łamie grawitację, wykazuje prymitywną inteligencję...",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4"
+      ],
+      "category": "dialog"
+    },
+    "Oh, no, I was just what-iffing.": {
+      "pl": "Och, nie, tylko sobie gdybałem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4b"
+      ],
+      "category": "dialog"
+    },
+    "Oh, that's unrelated. Hypercrystalline thaumomorphic diorite turns blue every twenty-three minutes.": {
+      "pl": "Och, to nie ma związku. Hiperkrystaliczny dioryt taumomorficzny robi się niebieski co dwadzieścia trzy minuty.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3"
+      ],
+      "category": "dialog"
+    },
+    "Oh, you know. Every day I'm hostlin'.": {
+      "pl": "O, wiesz. Codziennie stajennym jestem.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.business"
+      ],
+      "category": "dialog"
+    },
+    "Oh.  Does it hurt?": {
+      "pl": "O. Boli?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet3",
+        "data.json:scripts.npc_cactusbill.meet4"
+      ],
+      "category": "dialog"
+    },
+    "Okay, a cowboy hat.  What color?": {
+      "pl": "Okej, kapelusz kowbojski. Jaki kolor?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.color"
+      ],
+      "category": "dialog"
+    },
+    "Okay, a tophat.  What color?": {
+      "pl": "Okej, cylinder. Jaki kolor?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.color"
+      ],
+      "category": "dialog"
+    },
+    "Okay, it's a deal.": {
+      "pl": "Okej, umowa stoi.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellnugget"
+      ],
+      "category": "dialog"
+    },
+    "Okay, next is the styling.  What are you going for, here?": {
+      "pl": "Okej, teraz styl. Na co się nastawiasz?",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Okay, Pete.  Here ya go.": {
+      "pl": "Okej, Pete. Proszę.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Okay, seriously, listen up. I know that maybe it's been a while since you last interfaced with this type of entertainment product. Maybe you're brand-new to this type of entertainment product in general. So let me explain this to you: although you will have a lot of freedom to make choices, more freedom than is necessary in some places, you are still, fundamentally, inhabiting a character. And the character you're inhabiting would <i>never, ever</i> walk away from the Winkler-Fuggo wagon if there was <i>any</i> chance it was carrying a package for them.": {
+      "pl": "Okej, poważnie, słuchaj. Wiem, że może minęło trochę czasu, odkąd ostatnio korzystałeś z tego typu produktu rozrywkowego. Może w ogóle dopiero zaczynasz z tego typu produktem rozrywkowym. Wyjaśnię więc: choć będziesz miał sporo swobody w wyborach — w niektórych miejscach nawet za dużo — wciąż, zasadniczo, wcielasz postać. A postać, którą wcielasz, <i>nigdy, przenigdy</i> nie odwróciłaby się od wozu Winkler-Fuggo, gdyby była choćby <i>cienka</i> szansa, że wiezie dla niej paczkę.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.reallywalkaway"
+      ],
+      "category": "dialog"
+    },
+    "Okay, she says you can come in.": {
+      "pl": "Okej, ona mówi, że możesz wejść.",
+      "contexts": [
+        "data.json:scripts.npc_tut_alice_noentry.getin"
+      ],
+      "category": "dialog"
+    },
+    "Okay, time to design some pants!": {
+      "pl": "Okej, czas zaprojektować spodnie!",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.start"
+      ],
+      "category": "dialog"
+    },
+    "Okay, when you put it like <i>that</i>": {
+      "pl": "Okej, jak to tak <i>ujmiesz</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.walkaway"
+      ],
+      "category": "dialog"
+    },
+    "Okay, will do!  See ya later!": {
+      "pl": "Okej, zrobione! Do zobaczenia!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "Okay.  Black and white stripes, then.": {
+      "pl": "Okej. To czarno-białe pasy.",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish2"
+      ],
+      "category": "dialog"
+    },
+    "Okay.  No hurry.  I'm not going anywhere, hahaha.": {
+      "pl": "Okej. Bez pośpiechu. Nigdzie nie idę, hahaha.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.noread"
+      ],
+      "category": "dialog"
+    },
+    "Okay. I gotta warn you, this horse has seen some sh... some stuff. But I'll sell him for 1,000 Meat.": {
+      "pl": "Dobra. Muszę cię ostrzec, ten koń widział niezłe gó... rzeczy. Ale sprzedam go za 1000 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse4"
+      ],
+      "category": "dialog"
+    },
+    "Ooh, mysterious. I'll take her!": {
+      "pl": "Och, tajemniczo. Biorę ją!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse3b"
+      ],
+      "category": "dialog"
+    },
+    "Open it immediately": {
+      "pl": "Otwórz to natychmiast",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "Open the medium-thick envelope": {
+      "pl": "Otwórz kopertę średniej grubości",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages",
+        "data.json:scripts.winklerfuggo_driver.choosepackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Open the melon-sized box": {
+      "pl": "Otwórz pudełko wielkości melona",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages",
+        "data.json:scripts.winklerfuggo_driver.choosepackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Orehole Mine": {
+      "pl": "Kopalnia Orehole",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2",
+        "data.json:waas.tut_mine1.name"
+      ],
+      "category": "dialog"
+    },
+    "Pete notices the nugget of silver you found earlier.": {
+      "pl": "Pete zauważa samorodek srebra, który znalazłeś wcześniej.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.silvernugget"
+      ],
+      "category": "dialog"
+    },
+    "Pete notices the shiny rock you're carrying and his wild eyes light up.": {
+      "pl": "Pete zauważa błyszczący kamień, który nosisz, i jego dzikie oczy się rozświetlają.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.shinyrock"
+      ],
+      "category": "dialog"
+    },
+    "Pete shrugs.": {
+      "pl": "Pete wzrusza ramionami.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Pete squints and points at the unrefined Meat ore you're carrying.": {
+      "pl": "Pete mruży oczy i wskazuje na nieprzetworzoną rudę Mięsa, którą nosisz.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.meatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Pete takes a swig of his whiskey.": {
+      "pl": "Pete łyka whiskey.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellhub"
+      ],
+      "category": "dialog"
+    },
+    "Pete! The Winkler-Fuggo wagon is a-parkin' on our street!": {
+      "pl": "Pete! Wóz Winkler-Fuggo stoi na naszej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete's eyes narrow as the gears in his head start to click. He fixes his gaze on you, and the tic in his eyelid seems more pronounced.": {
+      "pl": "Oczy Peta zawężają się, gdy w jego głowie zaczynają klikać trybiki. Wpatruje się w ciebie, a tik w powiece wydaje się wyraźniejszy.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.petewarning"
+      ],
+      "category": "dialog"
+    },
+    "Play another hand": {
+      "pl": "Rozdaj jeszcze raz",
+      "contexts": [
+        "data.json:scripts.pokergame.fold"
+      ],
+      "category": "dialog"
+    },
+    "Pleasure doin' business with ya!": {
+      "pl": "Przyjemnie robić z tobą interesy!",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Quick-bend knees [+5 Speed]": {
+      "pl": "Szybkie zgięcie kolan [+5 Szybkość]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Rats, I don't have that much Meat.": {
+      "pl": "Szlag, nie mam tyle Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1"
+      ],
+      "category": "dialog"
+    },
+    "Rats, I don't have that much.": {
+      "pl": "Szlag, nie mam tyle.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.buyhorse4"
+      ],
+      "category": "dialog"
+    },
+    "Read the note": {
+      "pl": "Przeczytaj notatkę",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openbox"
+      ],
+      "category": "dialog"
+    },
+    "Reveal your cards": {
+      "pl": "Odkryj karty",
+      "contexts": [
+        "data.json:scripts.pokergame.moveon"
+      ],
+      "category": "dialog"
+    },
+    "Right now I only have the one horse available.": {
+      "pl": "Na razie mam tylko jednego konia.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse"
+      ],
+      "category": "dialog"
+    },
+    "Right. When do we leave for Boring Springs?": {
+      "pl": "Dobrze. Kiedy ruszamy do Boring Springs?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Rings a bell, let me check... Yeah, I got a package for @firstname@ @lastname@. Sign here and I'll hand it over.": {
+      "pl": "Coś mi świta, sprawdzę... Tak, mam paczkę dla @firstname@ @lastname@. Podpisz tutaj, a ci ją wydam.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage",
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Riveted steel trousers": {
+      "pl": "Nitowane stalowe spodnie",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Rubber [+5 Speed]": {
+      "pl": "Guma [+5 Szybkość]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Rugged [+5 Muscle]": {
+      "pl": "Wytrzymały [+5 Mięśnie]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Run away": {
+      "pl": "Uciekaj",
+      "contexts": [
+        "data.json:scripts.pokergame.fold",
+        "data.json:scripts.railcamp_rockdude.start",
+        "data.json:scripts.re_elvmonster_f.start",
+        "data.json:scripts.re_skeletond3.start",
+        "data.json:scripts.re_undeada1.start"
+      ],
+      "category": "dialog"
+    },
+    "See what's in the box": {
+      "pl": "Zobacz, co w pudełku",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope",
+        "data.json:scripts.winklerfuggo_driver.openenvelopenopardner"
+      ],
+      "category": "dialog"
+    },
+    "See ya later, Pete.": {
+      "pl": "Na razie, Pete.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.endit"
+      ],
+      "category": "dialog"
+    },
+    "See? I knew you couldn't resist the call forever! Everyone loves a hat, even if it means soaking your entire head in other peoples' tobacco juice!": {
+      "pl": "Widzisz? Wiedziałem, że długo nie wytrzymasz! Każdy kocha kapelusz, nawet jeśli trzeba namoczyć w nim całą głowę w cudzym tytoniowym śluzie!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twodb"
+      ],
+      "category": "dialog"
+    },
+    "Sell him the nugget": {
+      "pl": "Sprzedaj mu samorodek",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.silvernugget"
+      ],
+      "category": "dialog"
+    },
+    "Sell him the ore": {
+      "pl": "Sprzedaj mu rudę",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.meatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Sell it to him": {
+      "pl": "Sprzedaj mu to",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.shinyrock"
+      ],
+      "category": "dialog"
+    },
+    "Seriously, though. Why are you ruining that whiskey with that rock?": {
+      "pl": "Serio. Po co psujesz tę whiskey tą skałą?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "She pays her tab, fishes the rock out of her whiskey, and leaves.": {
+      "pl": "Płaci rachunek, wyławia skałę z whiskey i wychodzi.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.sheleaves"
+      ],
+      "category": "dialog"
+    },
+    "She seems pretty smart. I'll take her!": {
+      "pl": "Wygląda na całkiem mądrą. Biorę ją!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse2b"
+      ],
+      "category": "dialog"
+    },
+    "Shelves laden with various goods.": {
+      "pl": "Półki obciążone różnymi towarami.",
+      "contexts": [
+        "data.json:scripts.buttonwillow_shelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "So by now it should be a laugh riot, right?": {
+      "pl": "No to już powinno być śmiesznie, prawda?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "So, the hat will be called <b>$promptvalue$</b>.": {
+      "pl": "Czyli kapelusz będzie się nazywał <b>$promptvalue$</b>.",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.checkname"
+      ],
+      "category": "dialog"
+    },
+    "So, the pants will be called <b>$promptvalue$</b>.": {
+      "pl": "Czyli spodnie będą się nazywały <b>$promptvalue$</b>.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.checkname"
+      ],
+      "category": "dialog"
+    },
+    "So... you think I should head up to the room and take a nap in this weird hat?": {
+      "pl": "Więc... myślisz, że powinienem iść do pokoju i zdrzemnąć się w tym dziwnym kapeluszu?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "Sorry, pal. Can't take ya with me on this one. Technic'lly ya shouldn't even <i>know</i> about it.": {
+      "pl": "Przepraszam, kolego. Tym razem nie mogę cię zabrać. Technicznie rzecz biorąc, nie powinieneś nawet o tym <i>wiedzieć.</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Sounds good! I'll take him!": {
+      "pl": "Brzmi dobrze! Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1"
+      ],
+      "category": "dialog"
+    },
+    "Sounds good! When do we go?": {
+      "pl": "Brzmi dobrze! Kiedy ruszamy?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Sounds like fun! When do we go?": {
+      "pl": "Brzmi jak zabawa! Kiedy ruszamy?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Spooky stuff?": {
+      "pl": "Upiorne rzeczy?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse3",
+        "data.json:scripts.npc_bshostler.abthorse3b"
+      ],
+      "category": "dialog"
+    },
+    "Spray-on insulation [20% Cole Resistance]": {
+      "pl": "Izolacja w sprayu [20% Odporności na chłód]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Stained cotton sweatpants": {
+      "pl": "Poplamione bawełniane dresy",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "Stained hide": {
+      "pl": "Poplamiona skóra",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Step one:  What should the boots be made of?": {
+      "pl": "Krok pierwszy: Z czego powinny być zrobione buty?",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Step right up, step right up!  Brade's the name, and trade's the game!": {
+      "pl": "Proszę podchodzić, proszę podchodzić! Brade to imię, a handel to gra!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start"
+      ],
+      "category": "dialog"
+    },
+    "Stick the newspaper to him": {
+      "pl": "Przyklej do niego gazetę",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.thanks"
+      ],
+      "category": "dialog"
+    },
+    "Striped rawhide": {
+      "pl": "Paskowana skóra",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Suit yerself.": {
+      "pl": "Jak tam wolisz.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellrock"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing!": {
+      "pl": "Jasna sprawa!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin2",
+        "data.json:scripts.wasco_wasco.prog3"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing.": {
+      "pl": "Jasna sprawa.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse1",
+        "data.json:scripts.npc_bshostler.swaphorse3",
+        "data.json:scripts.npc_bshostler.swaphorse4",
+        "data.json:scripts.re_trader.meetsally",
+        "house.json:scripts.house_employee6.fix"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing. I should warn you though -- horses get mighty attached to their riders. Once you've bought one, you won't be able to change your mind later.": {
+      "pl": "Jasna sprawa. Powinienem cię jednak ostrzec — konie bardzo przywiązują się do jeźdźców. Jak już kupisz konia, nie będziesz mógł później zmienić zdania.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse"
+      ],
+      "category": "dialog"
+    },
+    "Sure, I can always use more samples! If you find any interesting rocks, bring them by my house.": {
+      "pl": "Jasne, zawsze mogę użyć więcej próbek! Jak znajdziesz ciekawe skały, przynieś je do mojego domu.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4"
+      ],
+      "category": "dialog"
+    },
+    "Sure, I'll design a hat": {
+      "pl": "Jasne, zaprojektuję kapelusz",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.start"
+      ],
+      "category": "dialog"
+    },
+    "Sure.  Here ya go.": {
+      "pl": "Jasne. Proszę.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellrock"
+      ],
+      "category": "dialog"
+    },
+    "Susie! The Winkler-Fuggo wagon is a-parkin' on our street!": {
+      "pl": "Susie! Wóz Winkler-Fuggo zaparkował na naszej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie, some day science will discover how you are simultaneously so hilarious and so strongly opposed to the concept of fun.": {
+      "pl": "Susie, nauka kiedyś odkryje, jak możesz być jednocześnie tak zabawna i tak stanowczo przeciwna samej idei dobrej zabawy.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susieintro"
+      ],
+      "category": "dialog"
+    },
+    "T'aint no way that @horsename@'ll work out for ya if you're wearin' that hat.  I'm happy to trade her out for ya, though.": {
+      "pl": "Nie ma mowy, żeby @horsename@ się ciebie słuchała, kiedy nosisz ten kapelusz. Mogę ci ją jednak chętnie wymienić.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse"
+      ],
+      "category": "dialog"
+    },
+    "Talk to her": {
+      "pl": "Porozmawiaj z nią",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist.popup",
+        "data.json:scripts.clowns_circus_boxlady.popup",
+        "data.json:scripts.clowns_circus_boxlady.startopen",
+        "data.json:scripts.geologist_josiepopup.popup",
+        "data.json:scripts.geologist_josiequarrypopup.popup"
+      ],
+      "category": "dialog"
+    },
+    "Teflon [+1 Maximum AP]": {
+      "pl": "Teflon [+1 Maksymalne PA]",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "Thanks for finding my crazy horse. He was eating locoweed again, wasn't he?": {
+      "pl": "Dzięki za odnalezienie mojego narwanego konia. Znowu żarł traganek, prawda?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin4"
+      ],
+      "category": "dialog"
+    },
+    "Thanks! Here's the keys, ride safe!": {
+      "pl": "Dzięki! Oto klucze, jeźdź ostrożnie!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.confirmhorse1",
+        "data.json:scripts.npc_bshostler.confirmhorse2",
+        "data.json:scripts.npc_bshostler.confirmhorse3",
+        "data.json:scripts.npc_bshostler.confirmhorse4"
+      ],
+      "category": "dialog"
+    },
+    "Thanks, Gary, that's reassuring. I'm going to think about literally anything else now.": {
+      "pl": "Dzięki, Gary, to pocieszające. Teraz pomyślę dosłownie o czymkolwiek innym.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garyintro"
+      ],
+      "category": "dialog"
+    },
+    "That I'm <i>emotionally obligated</i> to sing the Winkler-Fuggo song as popularized in the stage musical \"A Horse Thief for a Husband.\"": {
+      "pl": "Że jestem <i>emocjonalnie zobowiązany</i> zaśpiewać piosenkę Winkler-Fuggo, spopularyzowaną przez musical sceniczny „A Horse Thief for a Husband”.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "That sounds fine to me!": {
+      "pl": "Mi to pasuje!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse"
+      ],
+      "category": "dialog"
+    },
+    "That there is a right shiny rock you got, stranger! I'll give ya seven Meat fer that rock.": {
+      "pl": "To całkiem błyszcząca skała, nieznajomy! Dam ci siedem Mięsa za tę skałę.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.shinyrock"
+      ],
+      "category": "dialog"
+    },
+    "That was a <i>little</i> funny the first time I heard it today.": {
+      "pl": "To było <i>trochę</i> śmieszne, gdy pierwszy raz dziś to usłyszałem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "That you're <i>emotionally obligated</i> to sing the Winkler-Fuggo song as popularized in the stage musical \"A Horse Thief for a Husband?\"": {
+      "pl": "Że jesteś <i>emocjonalnie zobowiązany</i> zaśpiewać piosenkę Winkler-Fuggo, spopularyzowaną w musicalu scenicznym „Złodziej koni na męża?”",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "That's all of them! I can't thank you enough. Here's a little extra for you.": {
+      "pl": "To już wszystkie! Nie wiem, jak ci dziękować. Oto mały bonus.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.turnin5"
+      ],
+      "category": "dialog"
+    },
+    "That's him!": {
+      "pl": "To on!",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2",
+        "data.json:scripts.dirtwater_postmaster.macready2"
+      ],
+      "category": "dialog"
+    },
+    "That's not <i>quite</i> how the Winkler-Fuggo song goes... wait a minute, you're not even doing the song, I bet. You're truthfully and accurately describing some meat that you ordered. Right?": {
+      "pl": "Piosenka Winkler-Fuggo brzmi <i>trochę</i> inaczej... chwila, założę się, że wcale jej nie śpiewasz. Po prostu zgodnie z prawdą i dokładnie opisujesz zamówione mięso. Prawda?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.peteintro"
+      ],
+      "category": "dialog"
+    },
+    "That's rough. Maybe I can help?": {
+      "pl": "Ciężko. Może mogę pomóc?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.losthorses",
+        "data.json:scripts.npc_bshostler.questtake"
+      ],
+      "category": "dialog"
+    },
+    "That's that, then!  Anybody you State Share with will now get the super cool hat you just designed.": {
+      "pl": "No to tyle! Każdy, z kim udostępnisz przez State Share, dostanie super fajny kapelusz, który właśnie zaprojektowałeś.",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.saveflags"
+      ],
+      "category": "dialog"
+    },
+    "That's... I was trying to do the Winkler-Fuggo song with you, but now I have so many questions I don't know if I want the answers to. Why is there a mail-order goblin self-bride company in Chicago?": {
+      "pl": "Ja... próbowałem zaśpiewać z tobą piosenkę Winkler-Fuggo, ale teraz mam tyle pytań, że chyba nie chcę znać odpowiedzi. Dlaczego w Chicago działa wysyłkowa firma oferująca goblińskie małżonki dla samych siebie?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garyintro"
+      ],
+      "category": "dialog"
+    },
+    "The dealer announces that the ante has been raised to $bet$.": {
+      "pl": "Krupier ogłasza, że ante podniesiono do $bet$.",
+      "contexts": [
+        "data.json:scripts.pokergame.youwon"
+      ],
+      "category": "dialog"
+    },
+    "The dealer gives the deck a shuffle, and then deals. A hand of cards glides across the table to you.": {
+      "pl": "Krupier tasuje talię, a potem rozdaje. Ręka kart sunie po stole w twoją stronę.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "The dealer tells you that the ante is $bet$ Meat.": {
+      "pl": "Krupier mówi, że ante wynosi $bet$ Mięsa.",
+      "contexts": [
+        "data.json:scripts.pokergame.startover"
+      ],
+      "category": "dialog"
+    },
+    "The first and most important aspect of pants is what kind of pants they are.": {
+      "pl": "Pierwszą i najważniejszą kwestią spodni jest to, jakie to w ogóle spodnie.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "The guy researching El Vibrato, out by Gustavson Gulch?": {
+      "pl": "Facet badający El Vibrato, koło Wąwozu Gustavsona?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2"
+      ],
+      "category": "dialog"
+    },
+    "The Hostler takes one look at your hat and shakes his head.": {
+      "pl": "Stajenny spogląda na twój kapelusz i kręci głową.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.swaphorse"
+      ],
+      "category": "dialog"
+    },
+    "The lady to your right introduces herself as $p1$ and the player to your left says his name is $p2$.": {
+      "pl": "Pani po twojej prawej przedstawia się jako $p1$, a gracz po lewej mówi, że nazywa się $p2$.",
+      "contexts": [
+        "data.json:scripts.pokergame.start"
+      ],
+      "category": "dialog"
+    },
+    "The machine offers six options:": {
+      "pl": "Maszyna oferuje sześć opcji:",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.go"
+      ],
+      "category": "dialog"
+    },
+    "The next step is choosing a protective chemical treatment.": {
+      "pl": "Następny krok to wybór odpowiedniego środka ochronnego.",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench2"
+      ],
+      "category": "dialog"
+    },
+    "The Winkler-Fuggo driver hands you a melon-sized box.": {
+      "pl": "Kierowca Winkler-Fuggo wręcza ci pudełko wielkości melona.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "The Winkler-Fuggo wagon is a-parkin' on my street!": {
+      "pl": "Wóz Winkler-Fuggo parkuje na mojej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.nopardnerintro"
+      ],
+      "category": "dialog"
+    },
+    "The Winkler-Fuggo wagon is a-parkin' on our street!": {
+      "pl": "Wóz Winkler-Fuggo stoi na naszej ulicy!",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "There was a weirdo outside calling himself Emperor Norton.": {
+      "pl": "Na zewnątrz był jakiś dziwak, który nazywał siebie cesarzem Nortonem.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.name"
+      ],
+      "category": "dialog"
+    },
+    "There's a vigilante group forming in Boring Springs. They've got a lead on one last cow herd that's been hiding in the area, and they're getting a posse together to wipe it out. My name must've come up as an interested party.": {
+      "pl": "W Boring Springs powstaje grupa samozwańczych stróżów prawa. Mają trop ostatniego stada krów ukrywającego się w okolicy i zbierają oddział, by je wybić. Moje nazwisko musiało paść jako zainteresowanej osoby.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "They're special pigeon-infused oats.": {
+      "pl": "To specjalny owies z nutą gołębia.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "This advanced device (it's steam-powered!) lets you design a hat that can then be shared with other people via a technology called State Sharing.": {
+      "pl": "To zaawansowane urządzenie (na parę!) pozwala zaprojektować kapelusz i udostępnić go innym przez State Sharing.",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.start"
+      ],
+      "category": "dialog"
+    },
+    "This animal handling conference is going to teach you how to milk a <i>cactus?</i> That's... unsurprising when I remember it's being run by goblins, and what goblins are like.": {
+      "pl": "Ta konferencja o opiece nad zwierzętami nauczy cię, jak doić <i>kaktus?</i> To... nie dziwi mnie, gdy przypomnę sobie, że prowadzą ją gobliny i jakie gobliny są.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "This barrel smells like pickles and looks like an empty pickle barrel.": {
+      "pl": "Beczka pachnie korniszonami i wygląda jak pusta beczka po ogórkach.",
+      "contexts": [
+        "data.json:scripts.buttonwillow_barrel1.popup"
+      ],
+      "category": "dialog"
+    },
+    "This hatrack has a little plaque on it that says \"State Share.\"": {
+      "pl": "Na stojaku tabliczka „State Share”.",
+      "contexts": [
+        "data.json:scripts.stadia_givehat.stadia"
+      ],
+      "category": "dialog"
+    },
+    "This is a spittoon, which you have refused to have anything to do with. You should feel good about this.": {
+      "pl": "To spluwaczka, z którą odmówiłeś jakiegokolwiek kontaktu. Powinieneś być z siebie dumny.",
+      "contexts": [
+        "data.json:scripts.clooncys_nospit.popup"
+      ],
+      "category": "dialog"
+    },
+    "This is the best day of my entire life.": {
+      "pl": "To najlepszy dzień w całym moim życiu.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "This is the most exciting day of my entire life.": {
+      "pl": "To najbardziej ekscytujący dzień w całym moim życiu.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "This is too much even for me.": {
+      "pl": "To nawet dla mnie za dużo.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.three"
+      ],
+      "category": "dialog"
+    },
+    "This lady has a rock in her whiskey.": {
+      "pl": "Ta dama ma kamień w whiskey.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist.popup"
+      ],
+      "category": "dialog"
+    },
+    "This puts the newly crafted hat on the hatrack.": {
+      "pl": "To kładzie świeżo wykonany kapelusz na wieszaku.",
+      "contexts": [
+        "data.json:scripts.stadia_transitionhat.popup"
+      ],
+      "category": "dialog"
+    },
+    "Thousand Snakes Gulch": {
+      "pl": "Thousand Snakes Gulch",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2",
+        "data.json:waas.tut_gulch.name"
+      ],
+      "category": "dialog"
+    },
+    "Three. Here, let me see your map. They pretty much always run away to the same places.": {
+      "pl": "Trzy. Daj, zobaczę mapę. Prawie zawsze uciekają w te same miejsca.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2"
+      ],
+      "category": "dialog"
+    },
+    "To apology, Gary must alone going. Goblin politics of a complicated. @firstname@ more fun elsewhere will having.": {
+      "pl": "Przepraszać, Gary musi iść sam. Goblińska polityka skomplikowana. @firstname@ będzie mieć więcej zabawy gdzie indziej.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "To tell you the truth though, it's pretty terrible. All of my horses keep running away.": {
+      "pl": "Szczerze mówiąc, to okropne. Wszystkie moje konie ciągle uciekają.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.losthorses"
+      ],
+      "category": "dialog"
+    },
+    "Try to cheat [+30% win chance]": {
+      "pl": "Spróbuj oszukać [+30% szans na wygraną]",
+      "contexts": [
+        "data.json:scripts.pokergame.loop"
+      ],
+      "category": "dialog"
+    },
+    "Uh... what else?": {
+      "pl": "Eee... co jeszcze?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse1",
+        "data.json:scripts.npc_bshostler.abthorse1b"
+      ],
+      "category": "dialog"
+    },
+    "Uh... what's with the excitement?": {
+      "pl": "Eee... skąd to podekscytowanie?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.start"
+      ],
+      "category": "dialog"
+    },
+    "Ultra-thick beltloops [+9 Melee Damage]": {
+      "pl": "Ultra-grube pętelki na pasek [+9 obrażeń wręcz]",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.ench1"
+      ],
+      "category": "dialog"
+    },
+    "Up cheering! Conference not for some days being. Time for adventure we first having! Box you receiving adventure containing, Gary assuming?": {
+      "pl": "Dopinguj! Konferencja nie będzie przez kilka dni. Czas na przygodę, którą przeżywamy po raz pierwszy! Pudełko, w którym otrzymasz przygodę, jak zakłada Gary?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garywhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Vertical": {
+      "pl": "Pionowy",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish2"
+      ],
+      "category": "dialog"
+    },
+    "Walk away from the wagon": {
+      "pl": "Odejdź od wozu",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.inquireaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "Well @sir@, today I am trading locks for soap and a stick of dynamite for a needle!": {
+      "pl": "Cóż @sir@, dzisiaj handluję zamkami za mydło i kijem dynamitu za igłę!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start2"
+      ],
+      "category": "dialog"
+    },
+    "Well @sir@, today I am trading locks for soap!": {
+      "pl": "Cóż @sir@, dzisiaj wymieniam zamki na mydło!",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start2"
+      ],
+      "category": "dialog"
+    },
+    "Well alrighty then.": {
+      "pl": "No dobrze więc.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "Well gosh, however did I miss out on that?": {
+      "pl": "No proszę, jakże mogłem tego nie zauważyć?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twob"
+      ],
+      "category": "dialog"
+    },
+    "Well, <i>I'm</i> certainly not going to stop you.": {
+      "pl": "No, <i>ja</i> na pewno cię nie powstrzymam.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.start"
+      ],
+      "category": "dialog"
+    },
+    "Well, as ya please.": {
+      "pl": "No, jak sobie życzysz.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.nosellnugget"
+      ],
+      "category": "dialog"
+    },
+    "Well, except for this completely ordinary one.": {
+      "pl": "No, poza tym zupełnie zwyczajnym.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.losthorses"
+      ],
+      "category": "dialog"
+    },
+    "Well, he's always sneaking off to Thousand Snakes Gulch to chew on the locoweed that grows there.": {
+      "pl": "Cóż, on zawsze wymyka się do Thousand Snakes Gulch by żuć lokozielsko, które tam rośnie.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4b"
+      ],
+      "category": "dialog"
+    },
+    "Well, I'll swing by if I find any interesting rocks.": {
+      "pl": "No, wpadnę, jak znajdę jakieś ciekawe skały.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4b"
+      ],
+      "category": "dialog"
+    },
+    "Well, if you happen to find one, keep me in mind.": {
+      "pl": "No, jak trafisz na takiego, pamiętaj o mnie.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet6"
+      ],
+      "category": "dialog"
+    },
+    "Well, not anymore.": {
+      "pl": "Już nie.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.name"
+      ],
+      "category": "dialog"
+    },
+    "Well, okay. I guess you'll just have to take solace in the knowledge that you aren't a wildly disgusting filth-drenched weirdo.": {
+      "pl": "No, dobrze. Chyba będziesz musiał pocieszyć się wiedzą, że nie jesteś obłąkanym, skąpanym w brudzie dziwakiem.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twodc"
+      ],
+      "category": "dialog"
+    },
+    "Well, she's real quiet. And she likes dark places.": {
+      "pl": "Jest naprawdę cicha. I lubi ciemne miejsca.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse2"
+      ],
+      "category": "dialog"
+    },
+    "Well, that's a shame -- hey! Your rock just turned blue!": {
+      "pl": "Szkoda... Hej! Twoja skała stała się niebieska!",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3"
+      ],
+      "category": "dialog"
+    },
+    "Well, to be honest, pardner, I drank too much cactus beer and it turned me into a cactus.  Doc Alice warned me this would happen, but I didn't listen.": {
+      "pl": "No, szczerze mówiąc, kompanie, wypiłem za dużo piwa kaktusowego i zamieniłem się w kaktusa. Doc Alice mnie ostrzegała, ale nie słuchałem.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet2"
+      ],
+      "category": "dialog"
+    },
+    "Western Medical Association decided to hold their next annual conference in Boring Springs. Reckon they spent all their money on new stethoscopes. Usually I skip these things, 'cause they're awful, but this year's theme is improvised road doctoring.": {
+      "pl": "Western Medical Association postanowiło zorganizować kolejną doroczną konferencję w Boring Springs. Pewnie wydali wszystkie pieniądze na nowe stetoskopy. Zazwyczaj pomijam te rzeczy, bo są okropne, ale w tym roku tematem przewodnim jest improwizowane dokowanie dróg.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "Whaddya say, Pete?": {
+      "pl": "Co ty na to, Pete?",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.start"
+      ],
+      "category": "dialog"
+    },
+    "What about a rock that plays the banjo?": {
+      "pl": "A co z kamieniem, który gra na banjo?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4"
+      ],
+      "category": "dialog"
+    },
+    "What are these pants called?": {
+      "pl": "Jak się nazywają te spodnie?",
+      "contexts": [
+        "data.json:scripts.stadia_makepants2.nameit"
+      ],
+      "category": "dialog"
+    },
+    "What can you tell me about him?": {
+      "pl": "Co możesz mi o nim powiedzieć?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse1",
+        "data.json:scripts.npc_bshostler.abthorse1"
+      ],
+      "category": "dialog"
+    },
+    "What counts as interesting? I haven't seen any rocks that turn blue.": {
+      "pl": "Co się liczy jako interesujące? Nie widziałem żadnych niebieskich skał.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press4"
+      ],
+      "category": "dialog"
+    },
+    "What do you think of all this, @pardnername@?": {
+      "pl": "Co o tym wszystkim myślisz, @pardnername@?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "What do you think of all this, Winkler-Fuggo driver?": {
+      "pl": "Co o tym wszystkim myślisz, kierowco Winkler-Fuggo?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.readnote"
+      ],
+      "category": "dialog"
+    },
+    "What do you want to call the boots?": {
+      "pl": "Jak nazwiesz buty?",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.pickname"
+      ],
+      "category": "dialog"
+    },
+    "What happened to you, Bill?": {
+      "pl": "Co ci się stało, Bill?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet",
+        "data.json:scripts.npc_cactusbill.meet2"
+      ],
+      "category": "dialog"
+    },
+    "What is this hat called?": {
+      "pl": "Jak się nazywa ten kapelusz?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.pickname"
+      ],
+      "category": "dialog"
+    },
+    "What kind of research do you do?": {
+      "pl": "Jakie prowadzisz badania?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.hub"
+      ],
+      "category": "dialog"
+    },
+    "What more could I ask for? I'll take him!": {
+      "pl": "Czego więcej mógłbym chcieć? Biorę go!",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse4"
+      ],
+      "category": "dialog"
+    },
+    "What sort of thing?": {
+      "pl": "Co za coś?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse3",
+        "data.json:scripts.npc_bshostler.abthorse3"
+      ],
+      "category": "dialog"
+    },
+    "What stat should this hat boost?": {
+      "pl": "Który atrybut ma wzmacniać ten kapelusz?",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.enchants"
+      ],
+      "category": "dialog"
+    },
+    "Whatever you say, ya big weirdo": {
+      "pl": "Jak tam mówisz, wielki dziwaku",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whyisthisadeal"
+      ],
+      "category": "dialog"
+    },
+    "When you say 'sneaky'...?": {
+      "pl": "Gdy mówisz „podstępny”...?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse2",
+        "data.json:scripts.npc_bshostler.abthorse2"
+      ],
+      "category": "dialog"
+    },
+    "Which one are you interested in?": {
+      "pl": "Który cię interesuje?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.buyhorse"
+      ],
+      "category": "dialog"
+    },
+    "Whiskey on the rocks, eh? Ha ha.": {
+      "pl": "Whiskey on the rocks, co? Ha ha.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.intro"
+      ],
+      "category": "dialog"
+    },
+    "White": {
+      "pl": "Biały",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.color"
+      ],
+      "category": "dialog"
+    },
+    "White leather": {
+      "pl": "Biała skóra",
+      "contexts": [
+        "data.json:scripts.stadia_makeboots2.go"
+      ],
+      "category": "dialog"
+    },
+    "Who, me?  Well heck, I say all kinds o' things!  F'r'instance: %pete_ramblings%": {
+      "pl": "Kto, ja? No proszę, mówię wszelkie rzeczy! Na przykład: %pete_ramblings%",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.start"
+      ],
+      "category": "dialog"
+    },
+    "Who?": {
+      "pl": "Kto?",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.name",
+        "data.json:scripts.skullshadowhomestead_grandmascabin_grandma.imeanheck"
+      ],
+      "category": "dialog"
+    },
+    "Why these places?": {
+      "pl": "Czemu te miejsca?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.questtake2",
+        "data.json:scripts.npc_bshostler.questtake3"
+      ],
+      "category": "dialog"
+    },
+    "Why would you <i>not</i> open it immediately": {
+      "pl": "Czemu <i>nie</i> otworzyć tego od razu",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "Why'd she do that?": {
+      "pl": "Czemu to zrobiła?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice",
+        "data.json:scripts.npc_bshostler.docalice2"
+      ],
+      "category": "dialog"
+    },
+    "Will do, Bill.": {
+      "pl": "Zrobione, Bill.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet6"
+      ],
+      "category": "dialog"
+    },
+    "Wind from lake providing right number of temperature! Do not worrying, Gary keeping promise to not popping until adventuring is being completing.": {
+      "pl": "Wiatr z jeziora zapewnia odpowiednią ilość temperatury! Nie martw się, Gary dotrzymaj obietnicy, że nie wyskoczysz dopóki przygoda nie dobiegnie końca.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.garyintro"
+      ],
+      "category": "dialog"
+    },
+    "Wizard stars": {
+      "pl": "Gwiazdy czarodzieja",
+      "contexts": [
+        "data.json:scripts.stadia_makehat2.embellish1"
+      ],
+      "category": "dialog"
+    },
+    "Yeah! Let's do it!": {
+      "pl": "Tak! Zróbmy to!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twodb"
+      ],
+      "category": "dialog"
+    },
+    "Yeah! Search that filthy spittoon!": {
+      "pl": "Tak! Przeszukaj tę brudną spluwaczkę!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.two"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, all my colleagues are back east. Well, there's a guy over near Gustavson Gulch who is in a similar line of work, but he's researching rocks that have been turned magical through ancient technology, and I'm more concerned with naturally-occurring magical rocks.": {
+      "pl": "Wszyscy moi koledzy wrócili na wschód. W pobliżu Wąwozu Gustavsona jest facet, który pracuje w podobnej branży, ale prowadzi badania nad skałami, które stały się magiczne dzięki starożytnej technologii, a ja bardziej przejmuję się naturalnymi magicznymi skałami.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2b"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, and it ain't startin' <i>immediate.</i> We got plenty time f'r another adventure first! Assumin' that package ya got s'gonna kick off a fresh adventure, yeah?": {
+      "pl": "Tak, i nie zaczyna się to <i>od razu</i>. Mamy mnóstwo <i>czasu</i> na kolejną przygodę! Załóżmy, że paczka, którą masz, rozpocznie nową przygodę.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, but those rocks were heavily modified by the El Vibratoans. My interest is in magical rocks in their naturally-occurring state.": {
+      "pl": "Tak, ale te skały zostały mocno zmodyfikowane przez lud El Vibrato. Interesują mnie magiczne skały w ich naturalnym stanie.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press2a"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, did you think I wasn't drinking this because of the flavor? It's because I don't want a tumor that can yell its own name.": {
+      "pl": "Myślałeś, że nie piję z powodu smaku? To dlatego, że nie chcę guza, który wykrzykuje swoje imię.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.press3b"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, don't look so glum, I'll be back before you know it. Anyway, the conference ain't for a little while yet. We've got time for an adventure first, assuming that package you got contains a call to adventure?": {
+      "pl": "Nie bądź taki ponury, wrócę zanim się obejrzysz. W każdym razie, do konferencji zostało jeszcze trochę czasu. Mamy czas na przygodę, zakładając, że paczka zawiera wezwanie do przygody?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.alicewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, honestly I also enjoy receiving packages, let's just ask": {
+      "pl": "Ta, szczerze mówiąc też lubię dostawać paczki, po prostu zapytajmy",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.reallywalkaway"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I bet.": {
+      "pl": "Ta, pewnie.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet4",
+        "data.json:scripts.npc_cactusbill.meet5"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I busted my knee while mucking out the showroom. Don't ask how, it's embarrassing.": {
+      "pl": "Tak, rozbiłem sobie kolano, sprzątając salon. Nie pytaj jak, to żenujące.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.docalice"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I guess so.": {
+      "pl": "Ta, chyba tak.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twodc",
+        "data.json:scripts.planarjunction_cantina_grandma.expo1"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I remember.": {
+      "pl": "Ta, pamiętam.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse2",
+        "data.json:scripts.npc_bshostler.abthorse2b"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I'll make short work of those rotten beefsteaks and be back before you know it. Anyway, it ain't for a while yet. We've got time to squeeze in an adventure first. Assuming that package you got is gonna start an adventure?": {
+      "pl": "Tak, zrobię krótką robotę z tych zgniłych steków i wrócę zanim się obejrzysz. W każdym razie, zanim to się zacznie, zostało jeszcze trochę czasu. Mamy czas na przygodę. Zakładając, że paczka zacznie przygodę?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.susiewhatsweird2"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, no thanks, I'm good": {
+      "pl": "Ta, nie, dzięki, w porządku",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.walkaway"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, probably. But not <i>hard.</i>": {
+      "pl": "Ta, pewnie. Ale nie <i>bardzo.</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackagenopardner"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, you just flip that old filthy encrusted spit-filled bucket over and plop it on your head and wear it as a hat! How's that sound?": {
+      "pl": "Ta, po prostu odwróć tę starą brudną, zaschniętą, pełną plwociny wiadro do góry nogami, połóż na głowie i noś jako kapelusz! Brzmi dobrze?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.twod"
+      ],
+      "category": "dialog"
+    },
+    "Yes, please": {
+      "pl": "Tak, poproszę",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.five"
+      ],
+      "category": "dialog"
+    },
+    "You ain't seem like someone got much use for unrefined ore, stranger. I'll buy it off'n ya fer 73 Meat.": {
+      "pl": "Nie wyglądasz na kogoś, kto ma po co surową rudę, nieznajomy. Odkupię ją od ciebie za 73 Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.meatnugget"
+      ],
+      "category": "dialog"
+    },
+    "You already have a horse. No take-backs.": {
+      "pl": "Masz już konia. Bez cofania.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.alreadygot"
+      ],
+      "category": "dialog"
+    },
+    "You ante up. $p1$ and $p2$ toss in $bet$ Meat each.": {
+      "pl": "Płacisz ante. $p1$ i $p2$ wrzucają po $bet$ Mięsa.",
+      "contexts": [
+        "data.json:scripts.pokergame.play"
+      ],
+      "category": "dialog"
+    },
+    "You approach the weird cactus-man hybrid.  He smiles at you.": {
+      "pl": "Podchodzisz do dziwnego hybrydy kaktusa i człowieka. Uśmiecha się do ciebie.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.start"
+      ],
+      "category": "dialog"
+    },
+    "You are the world's foulest human being. Congratulations!": {
+      "pl": "Jesteś najobrzydliwszym człowiekiem na świecie. Gratulacje!",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.get"
+      ],
+      "category": "dialog"
+    },
+    "You decide there's no sense in throwing the bathwater out with the baby, and you pocket the whiskey.": {
+      "pl": "Uznajesz, że nie ma sensu wylewać dziecka z kąpielą i chowasz whiskey do kieszeni.",
+      "contexts": [
+        "data.json:scripts.clooncys_geologist2.sheleaves"
+      ],
+      "category": "dialog"
+    },
+    "You emerged from that brawl relatively unscathed.": {
+      "pl": "Wyszedłeś z tej bójki stosunkowo bez szwanku.",
+      "contexts": [
+        "data.json:scripts.clooncys_brawl.win"
+      ],
+      "category": "dialog"
+    },
+    "You flip that beautiful brass bucket over and slap it onto your head, drenching yourself in hot brown tobacco spit. It washes down over your face and hair like a sewage waterfall, soaking your clothes, running down your collar and slithering into your underwear, and filling your boots. I can't even force myself to describe it in any more detail than that.": {
+      "pl": "Odwracasz piękne mosiężne wiadro i kładziesz na głowie, zalewając się gorącą brązową plwociną tytoniową. Spływa po twarzy i włosach jak ściekowa kaskada, mocząc ubranie, spływając pod kołnierz, wślizgując się w bieliznę i wypełniając buty. Nie dam rady opisać tego dokładniej.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.get"
+      ],
+      "category": "dialog"
+    },
+    "You get caught cheating %poker_caughtcheating%": {
+      "pl": "Złapano cię na oszustwie %poker_caughtcheating%",
+      "contexts": [
+        "data.json:scripts.pokergame.cheatfail"
+      ],
+      "category": "dialog"
+    },
+    "You give him the newspaper you found in the basement of the saloon.": {
+      "pl": "Dajesz mu gazetę, którą znalazłeś w piwnicy saloonu.",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.givepaper"
+      ],
+      "category": "dialog"
+    },
+    "You give him the nugget.  He chuckles and hands you some Meat.": {
+      "pl": "Dajesz mu samorodek. Chichocze i wręcza ci trochę Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellmeatnugget"
+      ],
+      "category": "dialog"
+    },
+    "You give him the nugget.  He smiles and hands you some Meat.": {
+      "pl": "Dajesz mu samorodek. Uśmiecha się i wręcza ci trochę Mięsa.",
+      "contexts": [
+        "data.json:scripts.npc_pete_tutorial.sellnugget"
+      ],
+      "category": "dialog"
+    },
+    "You gotta wake up <i>sometime,</i> @firstname@! They target the kidneys 'cause the kidneys filter the toxins out. S'all <i>connected.</i>": {
+      "pl": "Musisz się kiedyś <i>obudzić,</i> @firstname@! Celują w nerki, bo nerki filtrują toksyny. <i>Łączy.</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.petewhatsweird"
+      ],
+      "category": "dialog"
+    },
+    "You kneel down on the floor and throw your arms around the spittoon, giving the greasy brass bucket a great big hug. How about a kiss? Would you like to kiss it?": {
+      "pl": "Klękasz na podłodze i zarzucasz ramiona na spluwaczkę, biorąc tłuste mosiężne wiadro w wielki, serdeczny uścisk. A może całusa? Chcesz ją pocałować?",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.three"
+      ],
+      "category": "dialog"
+    },
+    "You know it baby": {
+      "pl": "Wiesz co, kochanie",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.three"
+      ],
+      "category": "dialog"
+    },
+    "You know...  Being... a cactus?": {
+      "pl": "Wiesz... Być... kaktusem?",
+      "contexts": [
+        "data.json:scripts.npc_cactusbill.meet4"
+      ],
+      "category": "dialog"
+    },
+    "You know... spooky stuff.": {
+      "pl": "Wiesz... upiorne rzeczy.",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.abthorse3"
+      ],
+      "category": "dialog"
+    },
+    "You look down at the melon-sized box and medium-thick envelope you're holding.": {
+      "pl": "Patrzysz w dół na pudełko wielkości melona i średnio-grubą kopertę, które trzymasz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "You pucker up and give the spittoon a great big kiss right on the rim. Is there tongue involved? Well, I'll leave that up to you, but even without it, it tastes like a burning horse.": {
+      "pl": "Ściągasz usta w dzióbek i dajesz spluwaczce wielkiego całusa prosto w brzeg. Czy jest w tym język? Cóż, to zostawię tobie — ale nawet bez niego smakuje jak płonący koń.",
+      "contexts": [
+        "data.json:scripts.clooncys_spittoon.four"
+      ],
+      "category": "dialog"
+    },
+    "You rip into the box and discover that it's the same size as a melon because it contains a covering for <i>your</i> melon, or, as it's sometimes called, a hat. More of a helmet, really. It's covered in wires, antennae, and components you don't hardly recognize at all. There's also a note.": {
+      "pl": "Rozdzierasz pudełko i odkrywasz, że jest wielkości melona, bo zawiera osłonę na <i>twój</i> melon, czyli jak to czasem nazywają, kapelusz. Raczej hełm. Pokryty przewodami, antenami i elementami, których ledwo rozpoznajesz. Jest też notatka.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openbox"
+      ],
+      "category": "dialog"
+    },
+    "You round on the Winkler-Fuggo wagon driver and shout your question politely but excitedly in the direction of his giant mustache.": {
+      "pl": "Odwracasz się do woźnicy wozu Winkler-Fuggo i grzecznie, lecz podekscytowanie krzyczysz pytanie w stronę jego wielkiego wąsa.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "You said something earlier about an injury?": {
+      "pl": "Wspomniałeś wcześniej o jakiejś kontuzji?",
+      "contexts": [
+        "data.json:scripts.npc_bshostler.start"
+      ],
+      "category": "dialog"
+    },
+    "You seriously doubt that his name is Brade.": {
+      "pl": "Poważnie wątpisz, że nazywa się Brade.",
+      "contexts": [
+        "data.json:scripts.npc_bstrader.start"
+      ],
+      "category": "dialog"
+    },
+    "You show the note and the weird hat to Doc Alice, who inspects them with a noncommittal expression on her face.": {
+      "pl": "Pokazujesz notatkę i dziwny kapelusz Doc Alice, która ogląda je z niezobowiązującą miną.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "You show the note and the weird hat to Gary, who examines them closely and... releases some spores, or something? You're still not sure how to read Gary's reactions.": {
+      "pl": "Pokazujesz notatkę i dziwny kapelusz Gary'emu, który dokładnie je ogląda i... uwalnia jakieś zarodniki, czy co? Wciąż nie wiesz, jak czytać reakcje Gary'ego.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "You show the note and the weird hat to Pete, who examines them gravely.": {
+      "pl": "Pokazujesz notatkę i dziwny kapelusz Pete'owi, który ogląda je poważnie.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "You show the note and the weird hat to Susie, who glances at them and grunts.": {
+      "pl": "Pokazujesz notatkę i dziwny kapelusz Susie, która rzuca na nie okiem i chrząka.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "You sign your name on the dotted line (who dotted this line?) and the Winkler-Fuggo driver hands you a melon-sized box.": {
+      "pl": "Podpisujesz się na linii kropkowanej (kto ją kropkował?) i woźnica Winkler-Fuggo wręcza ci pudełko wielkości melona.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.askaboutpackage"
+      ],
+      "category": "dialog"
+    },
+    "You sit down at the poker table.  A dealer emerges from somewhere in the back and sits down next to you.": {
+      "pl": "Siadasz przy stole do pokera. Krupier wyłania się skądś z tyłu i siada obok ciebie.",
+      "contexts": [
+        "data.json:scripts.pokergame.start"
+      ],
+      "category": "dialog"
+    },
+    "You talkin' to me or the lobsters?": {
+      "pl": "Mówisz do mnie czy do homarów?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "You talkin' to me? I didn't say anything.": {
+      "pl": "Mówisz do mnie? Nic nie mówiłem.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openpackages"
+      ],
+      "category": "dialog"
+    },
+    "You tear open the envelope and pull out a cardboard coupon with a letter attached.": {
+      "pl": "Rozdzierasz kopertę i wyciągasz kartonowy kupon z dołączonym listem.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.openenvelope"
+      ],
+      "category": "dialog"
+    },
+    "You want to walk away from the wagon? Really? This is the <i>Winkler-Fuggo</i> wagon, pal. It could be carrying <i>anything.</i> It could <i>change your life.</i>": {
+      "pl": "Chcesz odejść od wozu? Naprawdę? To wóz <i>Winkler-Fuggo</i>, stary. Może wieźć <i>cokolwiek.</i> Może <i>zmienić twoje życie.</i>",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.walkaway"
+      ],
+      "category": "dialog"
+    },
+    "You win!  You gather your haul.": {
+      "pl": "Wygrywasz! Zbierasz łup.",
+      "contexts": [
+        "data.json:scripts.pokergame.youwon"
+      ],
+      "category": "dialog"
+    },
+    "You'll be back.": {
+      "pl": "Wrócisz.",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whyisthisadeal"
+      ],
+      "category": "dialog"
+    },
+    "You've usually got a good read on these situations. Should I take Rufus's weird helmet for a spin?": {
+      "pl": "Zazwyczaj masz dobrego czuja w takich sytuacjach. Powinienem przetestować ten dziwaczny hełm Rufusa?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.whatdoyouthink"
+      ],
+      "category": "dialog"
+    },
+    "Your bravado wrote a check your fists couldn't cash.": {
+      "pl": "Twoja brawura wystawiła czek, którego pięści nie mogły zrealizować.",
+      "contexts": [
+        "data.json:scripts.clooncys_brawl.lose"
+      ],
+      "category": "dialog"
+    },
+    "Yup! Bought me a pair of ham gloves from a catalog! See, a thick layer o' ham keeps the moon wizards from getting control over yer fingers. Nobody's gonna make <i>me</i> play a Stradivarius ever again. <i>Yer</i> not gonna make me play a Stradivarius, are ya, @firstname@?": {
+      "pl": "Ano! Kupiłem sobie z katalogu parę szynkowych rękawic! Widzisz, gruba warstwa szynki powstrzymuje księżycowych czarnoksiężników przed przejęciem kontroli nad twoimi paluchami. Nikt już <i>mnie</i> nie zmusi do gry na Stradivariusie. <i>Ty</i> mnie nie zmusisz, prawda, @firstname@?",
+      "contexts": [
+        "data.json:scripts.winklerfuggo_driver.peteintro"
+      ],
+      "category": "dialog"
+    }
+  }
+}

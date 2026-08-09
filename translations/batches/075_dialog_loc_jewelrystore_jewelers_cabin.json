@@ -1,0 +1,384 @@
+{
+  "_meta": {
+    "id": 75,
+    "name": "dialog_loc_jewelrystore_jewelers_cabin",
+    "description": "Dialogi przypisane do lokacji \"Jeweler's Cabin\" (waa: jewelrystore).",
+    "status": "done",
+    "count": 53
+  },
+  "strings": {
+    "A goblin jewelsmith?": {
+      "pl": "Gobliński jubiler?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro"
+      ],
+      "category": "dialog"
+    },
+    "Bah! All of trash and garbage being!": {
+      "pl": "Ba! Same śmieci i odpadki być!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.trash"
+      ],
+      "category": "dialog"
+    },
+    "Er, no, never mind.": {
+      "pl": "Er, nie, nieważne.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.start"
+      ],
+      "category": "dialog"
+    },
+    "Have a look.": {
+      "pl": "Zobacz.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.start"
+      ],
+      "category": "dialog"
+    },
+    "Having some old soda bottles for grinding down, should working fine.": {
+      "pl": "Mieć trochę starych butelek po napojach do zmielenia, powinny działać dobrze.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "He says that's right, the finest jeweler in the territory!": {
+      "pl": "Mówi, że zgadza się — najlepszy jubiler na całym terytorium!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "He says yes, we have some glass of the finest optical quality. Is $cost$ meat acceptable?": {
+      "pl": "Mówi, że tak, mamy szkło najwyższej jakości optycznej. Czy $cost$ Mięsa to akceptowalna cena?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "Howdy. Are you Master Gerald?": {
+      "pl": "Witaj. Czy pan jest mistrzem Geraldem?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro"
+      ],
+      "category": "dialog"
+    },
+    "I need a pair of eyeglasses for a nearly blind watchtower lookout. Can you guys make them for me?": {
+      "pl": "Potrzebuję okularów dla prawie ślepego obserwatora z wieży strażniczej. Zrobicie mi takie?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "I need a pair of eyeglasses...": {
+      "pl": "Potrzebuję pary okularów...",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald apologizes, but there's nothing here he can work with.": {
+      "pl": "Mistrz Gerald przeprasza, ale nie ma tu niczego, z czym mógłby pracować.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.trash"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald has completed your spectacles with the utmost degree of craftsmanship. Here you are!": {
+      "pl": "Mistrz Gerald wykonał twoje okulary z najwyższym kunsztem. Proszę bardzo!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.buyglasses"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald only does bespoke work. If you bring in a sufficiently valuable gemstone, he'll craft it into a fine ring for you, for a fee.": {
+      "pl": "Mistrz Gerald wykonuje wyłącznie pracę na zamówienie. Jeśli przyniesiesz dostatecznie cenny kamień szlachetny, za opłatą zrobi z niego piękny pierścień.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes a look at the rocks you have with you.": {
+      "pl": "Mistrz Gerald przygląda się kamieniom, które masz przy sobie.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.optstemp"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your cool sapphire, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój chłodny szafir, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.sapphiregem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your cowseye, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twoje krowie oko, szlifuje je, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.cowgem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your effluvious emerald, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój wonny szmaragd, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.stinkgem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your massive diamond, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój ogromny diament, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.diamondgem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your polished thaumomorphic diorite and sets it in a fine ring for you.  He doesn't have to polish or cut it, because aeons of ley energy already did the job for him!  Maybe you should have given your $cost$ Meat to aeons of ley energy, not Gerald.": {
+      "pl": "Mistrz Gerald bierze twój wypolerowany taumomorficzny dioryt i osadza go w pięknym pierścionku. Nie musi go szlifować ani ciąć, bo eony energii ley zrobiły to za niego! Może powinieneś był dać swoje $cost$ Mięsa eonom energii ley, a nie Geraldowi.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.hexgem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your strange silvery crystal, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój dziwny srebrzysty kryształ, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.silicongem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your superdense coal, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój supergęsty węgiel, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.coalgem"
+      ],
+      "category": "dialog"
+    },
+    "Master Gerald takes your unbreakable ruby, cuts and polishes it, and sets it in a fine ring for you.": {
+      "pl": "Mistrz Gerald bierze twój niezniszczalny rubin, szlifuje go, poleruje i osadza w pięknym pierścionku.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.tontinegem"
+      ],
+      "category": "dialog"
+    },
+    "Mmm, maybe later.": {
+      "pl": "Mmm, może później.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "Most of them are Goblin celebrity gossip, and the crossword puzzles have already been filled in.": {
+      "pl": "Większość to goblinie plotki o celebrytach, a krzyżówki są już wypełnione.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_tablepop.popup"
+      ],
+      "category": "dialog"
+    },
+    "No trash rocks!": {
+      "pl": "Żadnych śmieciowych kamieni!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Oh no, Master Gerald is back there at his workbench. I'm just his assistant and translator.": {
+      "pl": "O nie, mistrz Gerald jest z tyłu przy swoim warsztacie. Ja mu tylko pomagam i tłumaczę.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro"
+      ],
+      "category": "dialog"
+    },
+    "Oh well, thanks anyway.": {
+      "pl": "No cóż, i tak dzięki.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.trash"
+      ],
+      "category": "dialog"
+    },
+    "Oh! Hello a customer!": {
+      "pl": "Och! Witaj, kliencie!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro"
+      ],
+      "category": "dialog"
+    },
+    "Okay, close enough for government working.": {
+      "pl": "Dobra, jak na robotę rządową wystarczy.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.buyglasses"
+      ],
+      "category": "dialog"
+    },
+    "Pluck 'em": {
+      "pl": "Wyrywaj je",
+      "contexts": [
+        "data.json:scripts.jewelrystore_vanity.popup"
+      ],
+      "category": "dialog"
+    },
+    "Sure. [$cost$ Meat]": {
+      "pl": "Jasne. [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "Sure. [Requires $cost$ Meat]": {
+      "pl": "Jasne. [Wymaga $cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "That's better.": {
+      "pl": "Lepiej.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_vanity.e",
+        "data.json:scripts.mine6_cultistguard.intim",
+        "data.json:scripts.pardner_talk.pete_fort2_interior"
+      ],
+      "category": "dialog"
+    },
+    "The clerk invites you to have a seat in their living area while Master Gerald gets to work cutting and grinding some glass into lenses and setting them in wire frames. You flip through an indecipherable goblin magazine while you wait.": {
+      "pl": "Urzędniczka zaprasza cię do siedzenia w ich salonie, podczas gdy Mistrz Gerald tnie i szlifuje szkło na soczewki i osadza je w drucianych oprawkach. Czekając, przeglądasz nieczytelny goblini magazyn.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.buyglasses"
+      ],
+      "category": "dialog"
+    },
+    "The clerk invites you to have a seat in their living area while Master Gerald gets to work cutting and grinding some glass into lenses and setting them into wire frames. You flip through a goblin magazine while you wait; the lead article seems to be about social interaction with humans, and the value of occasionally pretending to be dumber than you actually are.": {
+      "pl": "Urzędniczka zaprasza cię do siedzenia w ich salonie, podczas gdy Mistrz Gerald tnie i szlifuje szkło na soczewki i osadza je w drucianych oprawkach. Czekając, przeglądasz goblini magazyn; główny artykuł chyba o interakcji społecznej z ludźmi i o tym, że czasem warto udawać głupszego niż się jest.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.buyglasses"
+      ],
+      "category": "dialog"
+    },
+    "The clerk translates the question for Master Gerald, who thinks about it and then nods.": {
+      "pl": "Urzędniczka tłumaczy pytanie Mistrzowi Geraldowi, który się zastanawia i kiwa głową.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.glasses2"
+      ],
+      "category": "dialog"
+    },
+    "This appears to be their dining-table, but they've left out a stack of magazine for customers to look at while they're waiting. They're all in Goblin, though.": {
+      "pl": "To ich stół jadalny, ale zostawili stos magazynów dla klientów. Wszystkie po goblinie.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_tablepop.popup"
+      ],
+      "category": "dialog"
+    },
+    "This must be the assistant's toilet.  It doesn't have enough rusty scrap metal bolted onto it to be a goblin toilet.": {
+      "pl": "To musi być toaleta asystenta. Nie ma wystarczająco dużo zardzewiałego złomu przykręconego, by była goblini.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_toilet.popup"
+      ],
+      "category": "dialog"
+    },
+    "This one again?": {
+      "pl": "Znowu ten?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.start"
+      ],
+      "category": "dialog"
+    },
+    "Welcome back! Have you brought any gemstone that you would like Master Gerald to craft into rings for you?": {
+      "pl": "Witamy z powrotem! Przywiozłeś jakiś kamień szlachetny, z którego chciałbyś, żeby pan Gerald zrobił dla ciebie pierścień?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.start"
+      ],
+      "category": "dialog"
+    },
+    "Well, here's what I've got...": {
+      "pl": "No, oto co mam...",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Well, what do you know. I don't see anything on display, though?": {
+      "pl": "Cóż, co ty wiesz. Ale nie widzę nic na wystawie?",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Why, hello! Welcome to Master Gerald's jewelry shop!": {
+      "pl": "Cześć! Witamy w jubilerskim sklepie pana Geralda!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro"
+      ],
+      "category": "dialog"
+    },
+    "You betting your britches, @sonny@! And not forgetting it!": {
+      "pl": "Stawiasz swoje spodnie, @sonny@! I nie zapomnij o tym!",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.intro2"
+      ],
+      "category": "dialog"
+    },
+    "your cool sapphire [$cost$ Meat]": {
+      "pl": "twój chłodny szafir [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your cowseye [$cost$ Meat]": {
+      "pl": "twoje krowie oko [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your effluvious emerald [$cost$ Meat]": {
+      "pl": "twój wonny szmaragd [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "Your eyebrows are getting kind of wild.": {
+      "pl": "Twoje brwi robią się trochę dzikie.",
+      "contexts": [
+        "data.json:scripts.jewelrystore_vanity.popup"
+      ],
+      "category": "dialog"
+    },
+    "your massive diamond [$cost$ Meat]": {
+      "pl": "twój masywny diament [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your polished thaumomorphic diorite [$cost$ Meat]": {
+      "pl": "twój wypolerowany taumomorficzny dioryt [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your strange silvery crystal [$cost$ Meat]": {
+      "pl": "twój dziwny srebrzysty kryształ [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your superdense coal [$cost$ Meat]": {
+      "pl": "twój supergęsty węgiel [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    },
+    "your unbreakable ruby [$cost$ Meat]": {
+      "pl": "twój niezniszczalny rubin [$cost$ Mięsa]",
+      "contexts": [
+        "data.json:scripts.jewelrystore_shop.opts"
+      ],
+      "category": "dialog"
+    }
+  }
+}

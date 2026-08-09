@@ -1,0 +1,283 @@
+{
+  "_meta": {
+    "id": 53,
+    "name": "dialog_loc_elvibrato2_el_vibrato_chamber",
+    "description": "Dialogi przypisane do lokacji \"El Vibrato Chamber\" (waa: elvibrato2).",
+    "status": "done",
+    "count": 36
+  },
+  "strings": {
+    "\"^QUICKGATE OFFLINE^translate_elvibrato^.\"": {
+      "pl": "\"^QUICKGATE NIECZYNNY^translate_elvibrato^.\"",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.closegate"
+      ],
+      "category": "dialog"
+    },
+    "\"^QUICKGATE ONLINE^translate_elvibrato^.\"": {
+      "pl": "\"^QUICKGATE ONLINE^translate_elvibrato^.\"",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.opengate"
+      ],
+      "category": "dialog"
+    },
+    "A tinny voice says:": {
+      "pl": "Metaliczny głos mówi:",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.opengate",
+        "data.json:scripts.elvibrato2_tramterminal.closegate"
+      ],
+      "category": "dialog"
+    },
+    "A voice in your head suggests you leave these constructs to their own devices for today.": {
+      "pl": "Głos w twojej głowie sugeruje, żebyś na dziś zostawił te konstrukty w spokoju.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fightcollider.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "All three of them are sunk into the device, though, and un-pushable.": {
+      "pl": "Wszystkie trzy są jednak zapadnięte w urządzenie i nie da się ich wcisnąć.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_buttonbox.nope"
+      ],
+      "category": "dialog"
+    },
+    "Augh!  No!": {
+      "pl": "Augh! Nie!",
+      "contexts": [
+        "data.json:scripts.elvibrato2_toilet.e"
+      ],
+      "category": "dialog"
+    },
+    "Easy come, easy go.": {
+      "pl": "Co przyszło łatwo, poszło łatwo.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fightcollider.win",
+        "house.json:scripts.house_hedgeportal.win"
+      ],
+      "category": "dialog"
+    },
+    "Glowing letters read ^NORTH CENTRAL POSITRONIC REACTOR OFFLINE^translate_elvibrato^": {
+      "pl": "Lśniące litery głoszą ^PÓŁNOCNO-ŚRODKOWY REAKTOR POZYTRONOWY WYŁĄCZONY^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusesign.popup"
+      ],
+      "category": "dialog"
+    },
+    "Glowing letters read ^NORTH CENTRAL POSITRONIC REACTOR ONLINE^translate_elvibrato^": {
+      "pl": "Lśniące litery głoszą ^PÓŁNOCNO-ŚRODKOWY REAKTOR POZYTRONOWY WŁĄCZONY^translate_elvibrato^",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusesign.popup"
+      ],
+      "category": "dialog"
+    },
+    "Having beaten you to a pulp, the El Vibrato drones vanish.": {
+      "pl": "Po zmieleniu cię na papkę drony El Vibrato znikają.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fightcollider.lose"
+      ],
+      "category": "dialog"
+    },
+    "Huh, what's this thing?": {
+      "pl": "Hm, co to za rzecz?",
+      "contexts": [
+        "data.json:scripts.elvibrato2_toilet.popup"
+      ],
+      "category": "dialog"
+    },
+    "Insert a keystone": {
+      "pl": "Włóż kamień kluczowy",
+      "contexts": [
+        "data.json:scripts.elvibrato2_hatchest.popup",
+        "data.json:scripts.mine3_teleport.popup",
+        "data.json:scripts.mine8_teleporttrigger.popup"
+      ],
+      "category": "dialog"
+    },
+    "Insert power sphere": {
+      "pl": "Włóż kulę mocy",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.popup"
+      ],
+      "category": "dialog"
+    },
+    "It hurts, but the box moves -- it must be lighter than it looks!": {
+      "pl": "Boli, ale skrzynia się przesuwa — musi być lżejsza, niż wygląda!",
+      "contexts": [
+        "data.json:scripts.elvibrato2_batterybox.start"
+      ],
+      "category": "dialog"
+    },
+    "Leave it be": {
+      "pl": "Zostaw to w spokoju",
+      "contexts": [
+        "data.json:scripts.elvibrato2_batterybox.start",
+        "data.json:scripts.re_cowa2.start",
+        "data.json:scripts.re_elvcache_e.start",
+        "data.json:scripts.re_elvcache_f.start",
+        "data.json:scripts.re_elvcache_g.start"
+      ],
+      "category": "dialog"
+    },
+    "Neither am I [Fight]": {
+      "pl": "Ani ja [Walka]",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fightcollider.popup",
+        "data.json:scripts.elvibrato2_fightcollider.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "Push it": {
+      "pl": "Pchnij to",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.button",
+        "house.json:scripts.house_coalcart.popup"
+      ],
+      "category": "dialog"
+    },
+    "Push it again": {
+      "pl": "Pchnij jeszcze raz",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.opengate",
+        "data.json:scripts.elvibrato2_tramterminal.closegate"
+      ],
+      "category": "dialog"
+    },
+    "Push the first one": {
+      "pl": "Naciśnij pierwszy",
+      "contexts": [
+        "data.json:scripts.elvibrato2_buttonbox.start"
+      ],
+      "category": "dialog"
+    },
+    "Push the second one": {
+      "pl": "Naciśnij drugi",
+      "contexts": [
+        "data.json:scripts.elvibrato2_buttonbox.start"
+      ],
+      "category": "dialog"
+    },
+    "Push the third one": {
+      "pl": "Naciśnij trzeci",
+      "contexts": [
+        "data.json:scripts.elvibrato2_buttonbox.start"
+      ],
+      "category": "dialog"
+    },
+    "Replace it [El Vibrato cylinder]": {
+      "pl": "Wymień to [Cylinder El Vibrato]",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusebox.popup",
+        "data.json:scripts.elvibrato5_fusebox.popup",
+        "data.json:scripts.elvibrato6_fusebox.popup"
+      ],
+      "category": "dialog"
+    },
+    "Take it.": {
+      "pl": "Weź to.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusetable.popup",
+        "data.json:scripts.elvibrato3_fabtable.popup",
+        "data.json:scripts.fort1_cannonball.popup",
+        "data.json:scripts.mine6_fusetable.popup",
+        "data.json:scripts.mine7_fusetable.popup"
+      ],
+      "category": "dialog"
+    },
+    "The machine hums to life.": {
+      "pl": "Maszyna ożywa z brzęczeniem.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.insert"
+      ],
+      "category": "dialog"
+    },
+    "The machine is dark. There's a circular hole in the bottom.": {
+      "pl": "Maszyna jest ciemna. Na dole jest okrągły otwór.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.popup"
+      ],
+      "category": "dialog"
+    },
+    "The screen says $status$ and there's a button at the bottom labeled ^TOGGLE QUICKGATE^translate_elvibrato^.": {
+      "pl": "Ekran mówi $status$ i na dole jest przycisk ^TOGGLE QUICKGATE^translate_elvibrato^.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramterminal.button"
+      ],
+      "category": "dialog"
+    },
+    "There's a big cylinder on top of this big rectangle.": {
+      "pl": "Na tym dużym prostokącie stoi duży cylinder.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusetable.popup",
+        "data.json:scripts.mine6_fusetable.popup",
+        "data.json:scripts.mine7_fusetable.popup"
+      ],
+      "category": "dialog"
+    },
+    "There's a piece here that's pretty obviously broken.": {
+      "pl": "Leży tu element, który jest całkiem wyraźnie zepsuty.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fusebox.popup"
+      ],
+      "category": "dialog"
+    },
+    "There's a strange cloth loop inside. At least it feels more or less like cloth.": {
+      "pl": "W środku dziwna pętla z materiału. Przynajmniej tak się wydaje.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_hatchest.open"
+      ],
+      "category": "dialog"
+    },
+    "There's a trapezoidal section missing from this box.": {
+      "pl": "W tym pudle brakuje trapezowej sekcji.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_hatchest.popup"
+      ],
+      "category": "dialog"
+    },
+    "This seems like it might be a doorway, but there's no keyhole or handles or anything.": {
+      "pl": "To wygląda, jakby mogło być drzwiami, ale nie ma dziurki od klucza ani klamki.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_tramgateoff.popup"
+      ],
+      "category": "dialog"
+    },
+    "This strange device has three buttons on top of it.": {
+      "pl": "To dziwne urządzenie ma trzy guziki u góry.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_buttonbox.start"
+      ],
+      "category": "dialog"
+    },
+    "Those things aren't friendly.": {
+      "pl": "Te rzeczy nie są przyjazne.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_fightcollider.popup",
+        "data.json:scripts.elvibrato2_fightcollider.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "You bend over to examine the device, and accidentally stub your toe on it.": {
+      "pl": "Pochylasz się, żeby zbadać urządzenie, i przypadkiem uderzasz w nie palcem u nogi.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_batterybox.start"
+      ],
+      "category": "dialog"
+    },
+    "You grab the device.  The Perfessor will want to see this.": {
+      "pl": "Chwytasz urządzenie. Profesor będzie chciał to zobaczyć.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_batterybox.take"
+      ],
+      "category": "dialog"
+    },
+    "You have learned the El Vibrato word for <b>TOILET</b>.": {
+      "pl": "Nauczyłeś się słowa El Vibrato na <b>TOALETĘ</b>.",
+      "contexts": [
+        "data.json:scripts.elvibrato2_toilet.e"
+      ],
+      "category": "dialog"
+    }
+  }
+}

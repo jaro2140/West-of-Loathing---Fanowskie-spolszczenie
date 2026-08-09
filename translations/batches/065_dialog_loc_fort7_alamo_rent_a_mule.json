@@ -1,0 +1,344 @@
+{
+  "_meta": {
+    "id": 65,
+    "name": "dialog_loc_fort7_alamo_rent_a_mule",
+    "description": "Dialogi przypisane do lokacji \"Alamo Rent-A-Mule\" (waa: fort7).",
+    "status": "done",
+    "count": 47
+  },
+  "strings": {
+    "%fort7_mulefeatures%": {
+      "pl": "%fort7_mulefeatures%",
+      "contexts": [
+        "data.json:scripts.fort7_features.e"
+      ],
+      "category": "dialog"
+    },
+    "Ah, all right then! That will be 1500 Meat.": {
+      "pl": "Ach, no dobrze! To będzie 1500 sztuk Mięsa.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.rent"
+      ],
+      "category": "dialog"
+    },
+    "And if all <i>that</i> wasn't bad enough, I went and dropped my daughter's birthday present down a stupid hole at a stupid mine. And will anyone go and get it for me? Ha ha, yeah right.": {
+      "pl": "Jakby <i>tego</i> było mało, upuściłem prezent urodzinowy córki do głupiej dziury w głupiej kopalni. I czy ktoś zechce mi go przynieść? Ha, jasne.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Buy the contract [1,500 Meat]": {
+      "pl": "Kup kontrakt [1 500 Mięsa]",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.opts"
+      ],
+      "category": "dialog"
+    },
+    "Buy the contract [Requires 1,500 Meat]": {
+      "pl": "Kup umowę [Wymaga 1500 Mięsa]",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.opts"
+      ],
+      "category": "dialog"
+    },
+    "Did you find my daughter's bracelet yet?": {
+      "pl": "Znalazłeś już bransoletkę mojej córki?",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.checkquest"
+      ],
+      "category": "dialog"
+    },
+    "Do you mean this bracelet?": {
+      "pl": "Masz na myśli tę bransoletkę?",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Don't you have a horse? What do you need a mule for, if I may ask?": {
+      "pl": "Nie masz konia? Po co ci muł, jeśli można wiedzieć?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.rent"
+      ],
+      "category": "dialog"
+    },
+    "Excuse me, but didn't you ride up here on a horse?": {
+      "pl": "Przepraszam, ale czy nie przyjechałeś tu konno?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.no"
+      ],
+      "category": "dialog"
+    },
+    "Gosh...": {
+      "pl": "Rany...",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro"
+      ],
+      "category": "dialog"
+    },
+    "Great! Here's your contract-slash-certificate of title.": {
+      "pl": "Świetnie! Oto twoja umowa-łamane-przez-świadectwo własności.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.buy"
+      ],
+      "category": "dialog"
+    },
+    "Howdy, welcome to Alamo Rent-a-Mule. How can I help you?": {
+      "pl": "Witaj w Wypożyczalni Mułów Alamo. W czym mogę pomóc?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.start"
+      ],
+      "category": "dialog"
+    },
+    "I guess you have a point.": {
+      "pl": "Chyba masz rację.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.no",
+        "house.json:scripts.house_ghost_pantry.talkpants"
+      ],
+      "category": "dialog"
+    },
+    "I suppose technically we should change the name to Alamo Buy-a-Mule, but we'd have to change all our branding. And you can't really re-brand a mule, they're too wary after the first time.": {
+      "pl": "Pewnie formalnie powinniśmy zmienić nazwę na Alamo Kup-Muła, ale trzeba by zmienić cały branding. A muła nie bardzo da się prze-brandować — po pierwszym wypalaniu znaku robią się zbyt czujne.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.ask"
+      ],
+      "category": "dialog"
+    },
+    "I was looking to scavenge some free string to tie up the package with, and I dropped it. And <i>of course</i> because it's a bracelet it's round, so <i>of course</i> it rolls into a hole under some kind of stupid machine. Ugh!": {
+      "pl": "Szukałem jakiegoś darmowego sznurka do przewiązania paczki i ją upuściłem. I <i>oczywiście</i>, skoro to bransoletka, jest okrągła, więc <i>oczywiście</i> wturlała się w dziurę pod jakąś głupią maszyną. Ech!",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.takequest"
+      ],
+      "category": "dialog"
+    },
+    "I'd like to rent a mule.": {
+      "pl": "Chciałbym wypożyczyć muła.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.start"
+      ],
+      "category": "dialog"
+    },
+    "It lists a bunch of features you can pay extra for when renting a mule.": {
+      "pl": "Wymienia masę dodatków, za które możesz dopłacić przy wynajmie muła.",
+      "contexts": [
+        "data.json:scripts.fort7_features.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's a lifetime contract. The rental business isn't what it used to be, so we've made some changes to our business model.": {
+      "pl": "To umowa dożywotnia. Wynajem nie jest już tym, czym kiedyś, więc trochę zmieniliśmy model biznesowy.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.ask"
+      ],
+      "category": "dialog"
+    },
+    "Leave him to his complaining": {
+      "pl": "Zostaw go przy jego narzekaniu",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.start",
+        "data.json:scripts.fort7_complaintsguy.checkquest"
+      ],
+      "category": "dialog"
+    },
+    "Looks like this is where you go to rent a mule. Just judging from the sign, you know.": {
+      "pl": "Wygląda na to, że tu wynajmuje się muły. Sądząc po tablicy, wiesz.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.start"
+      ],
+      "category": "dialog"
+    },
+    "No problem! Thanks for choosing Alamo Rent-a-Mule, and please remember us for all your future mule needs!": {
+      "pl": "Nie ma problemu! Dziękujemy za wybranie Alamo Rent-a-Mule i prosimy pamiętać o nas przy wszystkich przyszłych potrzebach związanych z mułami!",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.buy"
+      ],
+      "category": "dialog"
+    },
+    "Oh great, another customer. As if I didn't have enough to deal with already, what with the paperwork, and the heat, and the mule bites, and someone keeps stealing my lunch out of the employee icebox, and my trick knuckle is acting up again...": {
+      "pl": "O, świetnie, kolejny klient. Jakbym już nie miał dość na głowie z papierkową robotą, upałem i ugryzieniami mułów, a do tego ktoś ciągle kradnie mój obiad z pracowniczej lodówki i ten przeklęty knykieć znowu mi dokucza...",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro"
+      ],
+      "category": "dialog"
+    },
+    "Oh, it's not for me. I'm picking one up for someone else.": {
+      "pl": "Och, to nie dla mnie. Odbieram go dla kogoś innego.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.rent"
+      ],
+      "category": "dialog"
+    },
+    "Oh, not far from here. A place called Deepest Delve Mine.": {
+      "pl": "O, niedaleko stąd. Miejsce zwane Kopalnią Najgłębszego Zejścia.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.takequest"
+      ],
+      "category": "dialog"
+    },
+    "Oh, pretty typical. By which I mean horrible. My shins are acting up, and my eyebrows are on the fritz, and you wouldn't believe the amount of paperwork I've got to do but of course the pencil sharpener is broken so I have to sharpen my pencil by hand with a nail file, and a scorpion got in my coffee and drank half of it.": {
+      "pl": "O, całkiem typowo. Czyli okropnie. Bolą mnie golenie, brwi szaleją, a nie uwierzysz, ile mam papierologii, ale oczywiście temperówka jest zepsuta, więc muszę temperować ołówek ręcznie pilnikiem do paznokci, a skorpion wpadł mi do kawy i wypił połowę.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.start"
+      ],
+      "category": "dialog"
+    },
+    "Oil it [oil can]": {
+      "pl": "Nasmaruj to [puszka na olej]",
+      "contexts": [
+        "data.json:scripts.fort7_basementdoor.popup"
+      ],
+      "category": "dialog"
+    },
+    "Oil it [Requires oil can]": {
+      "pl": "Nasmaruj to [Wymaga oliwiarki]",
+      "contexts": [
+        "data.json:scripts.fort7_basementdoor.popup"
+      ],
+      "category": "dialog"
+    },
+    "Okay well, good luck with that, bye.": {
+      "pl": "No cóż, powodzenia z tym, pa.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro2"
+      ],
+      "category": "dialog"
+    },
+    "Okay, I'll check it out.": {
+      "pl": "Okej, sprawdzę to.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.takequest",
+        "data.json:scripts.ranch2_hippy2.gethat2"
+      ],
+      "category": "dialog"
+    },
+    "Please remember us in the future if your horse breaks down, though.": {
+      "pl": "Pamiętaj jednak o nas w przyszłości, jeśli zepsuje ci się koń.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.no"
+      ],
+      "category": "dialog"
+    },
+    "So what do you need a mule for?": {
+      "pl": "Po co ci więc muł?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.no"
+      ],
+      "category": "dialog"
+    },
+    "Such as?": {
+      "pl": "Na przykład?",
+      "contexts": [
+        "data.json:scripts.fort7_features.popup"
+      ],
+      "category": "dialog"
+    },
+    "Sure would be nice to get a little peace and quiet, but nope, I've gotta stand here at this counter all day, and the hardwood floor isn't helping my sciatica, let me tell you. Don't even get me started on what they pay us around here, the mules eat better than I do.": {
+      "pl": "Miło byłoby zaznać ciszy i spokoju, ale nie — muszę cały dzień stać przy ladzie, a drewniana podłoga nie pomaga mojej rwie kulszowej. O płacy nawet nie zaczynajmy; muły jedzą lepiej ode mnie.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro"
+      ],
+      "category": "dialog"
+    },
+    "Thanks, I guess. Can you have to mule delivered to Fort Unnecessary, to the south?": {
+      "pl": "No dobra, dzięki. Możesz kazać dostarczyć muła do Posterunku Zbędnego, na południu?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.buy"
+      ],
+      "category": "dialog"
+    },
+    "The latch on this hatch is rusted shut.": {
+      "pl": "Zatrzask tego włazu zardzewiał na amen.",
+      "contexts": [
+        "data.json:scripts.fort7_basementdoor.popup"
+      ],
+      "category": "dialog"
+    },
+    "Well, that stinks. I mean thanks anyway. But that's about what I expected. Why do I even ask?": {
+      "pl": "No, śmierdzi. To znaczy i tak dzięki. Ale mniej więcej tego się spodziewałem. Po co w ogóle pytam?",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.checkquest"
+      ],
+      "category": "dialog"
+    },
+    "What else?": {
+      "pl": "Co jeszcze?",
+      "contexts": [
+        "data.json:scripts.fort7_features.e"
+      ],
+      "category": "dialog"
+    },
+    "What, really? Did a miracle just occur? I can hardly believe it.": {
+      "pl": "Co, naprawdę? Czy właśnie nastąpił cud? Ledwo w to wierzę.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.takequest"
+      ],
+      "category": "dialog"
+    },
+    "Where did you lose it?": {
+      "pl": "Gdzie to zgubiłeś?",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.takequest"
+      ],
+      "category": "dialog"
+    },
+    "Whoa Nelly! Why is it so expensive?": {
+      "pl": "Wow Nelly! Czemu tak drogo?",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.opts"
+      ],
+      "category": "dialog"
+    },
+    "Wow! Thanks a bundle! It's a real tragedy that there are so few selfless and kind-hearted people like you in the world, willing to do a hugely dangerous favor for a total stranger without any expectation of a reward.": {
+      "pl": "Wow! Wielkie dzięki! Prawdziwa tragedia, że na świecie jest tak mało bezinteresownych, dobrych ludzi jak ty, gotowych zrobić ogromną, niebezpieczną przysługę kompletnemu obcemu bez oczekiwania nagrody.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.yes"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, sure.": {
+      "pl": "Ta, jasne.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.buy",
+        "data.json:scripts.ghosttown1_knock1.whiskeycancel"
+      ],
+      "category": "dialog"
+    },
+    "Yeah. Sure.": {
+      "pl": "Ta. Jasne.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.yes"
+      ],
+      "category": "dialog"
+    },
+    "Yes, I found it.": {
+      "pl": "Tak, znalazłem.",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.gotit"
+      ],
+      "category": "dialog"
+    },
+    "You can't, never mind.": {
+      "pl": "Nie możesz, nieważne.",
+      "contexts": [
+        "data.json:scripts.fort7_rentaldude.start"
+      ],
+      "category": "dialog"
+    },
+    "You drench the hatch latch in oil and it pops open.": {
+      "pl": "Moczysz zatrzask włazu w oleju i wyskakuje.",
+      "contexts": [
+        "data.json:scripts.fort7_basementdoor.oil"
+      ],
+      "category": "dialog"
+    },
+    "You want me to go get it?": {
+      "pl": "Chcesz, żebym poszedł to zabrać?",
+      "contexts": [
+        "data.json:scripts.fort7_complaintsguy.intro2"
+      ],
+      "category": "dialog"
+    }
+  }
+}

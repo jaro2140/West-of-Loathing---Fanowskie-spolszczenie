@@ -4,6 +4,62 @@
 # Kolejnosc instalacji bundle (core, house, main_scene)
 PATCH_BUNDLES=(core house main_scene)
 
+# Wykrywa uklad katalogow: repo prywatne (Game_Translate/build/) albo paczka
+# release dla gracza (patches/ obok instalatorow). Ustawia PATCHES, BACKUP
+# i ORIGINAL_STREAMING.
+#
+# UWAGA: BACKUP ustawiony tutaj jest tylko WARTOSCIA DOMYSLNA/dziedziczona,
+# liczona wzgledem lokalizacji SKRYPTU/paczki instalatora. To nie jest
+# docelowe miejsce na trwaly stan instalacji (manifest BepInEx, kopie
+# oryginalnych plikow) - paczka bywa przenoszona na inny nosnik albo
+# rozpakowywana na nowo przy kazdej probie (Steam Deck, pendrive), wiec
+# cokolwiek zapisane obok NIEJ ginie miedzy uruchomieniami, mimo ze gra i
+# ewentualny juz zainstalowany BepInEx zostaja na miejscu. Po ustaleniu
+# $GAME_STREAMING kazdy skrypt MUSI nadpisac BACKUP wynikiem
+# game_backup_dir(), zeby zwiazac trwaly stan z folderem GRY (stalym), a nie
+# z folderem, z ktorego akurat uruchomiono instalator.
+resolve_layout() {
+  local root="$1"
+  if [[ -d "$root/Game_Translate/build/patches" ]]; then
+    PATCHES="$root/Game_Translate/build/patches"
+    BACKUP="$root/Game_Translate/build/backup"
+    ORIGINAL_STREAMING="$root/Game/original/StreamingAssets"
+  else
+    PATCHES="$root/patches"
+    BACKUP="$root/backup"
+    ORIGINAL_STREAMING="$root/original/StreamingAssets"
+  fi
+}
+
+# Trwaly katalog na backup/manifest, zwiazany z folderem GRY (dwa poziomy
+# wyzej od StreamingAssets), a nie z lokalizacja skryptu instalatora - patrz
+# uwaga przy resolve_layout(). Ukryty folder obok samej gry, wiec przetrwa
+# przeniesienie/rozpakowanie paczki instalatora na nowo.
+game_backup_dir() {
+  local game_streaming="$1"
+  echo "$(dirname "$(dirname "$game_streaming")")/.wol_pl_backup"
+}
+
+# Jednorazowa migracja z legacy BACKUP (zwiazanego z paczka) do nowego,
+# trwalego backup/manifest (zwiazanego z gra) - dla instalacji zrobionych
+# przed tym poprawka. Nie nadpisuje niczego, co juz jest w nowym miejscu.
+migrate_legacy_backup() {
+  local legacy="$1"
+  local target="$2"
+  [[ -d "$legacy" ]] || return 0
+  [[ "$legacy" == "$target" ]] && return 0
+  mkdir -p "$target"
+  local f base
+  for f in "$legacy"/*; do
+    [[ -e "$f" ]] || continue
+    base="$(basename "$f")"
+    if [[ ! -e "$target/$base" ]]; then
+      cp -R "$f" "$target/$base"
+      echo "  (migracja starego backupu: $base)"
+    fi
+  done
+}
+
 resolve_game_streaming() {
   local root="$1"
   shift
@@ -52,6 +108,12 @@ install_bundle() {
     exit 1
   fi
   if [[ ! -f "$bak" ]]; then
+    if [[ "$name" == "core" ]] && has_polish_text "$target"; then
+      echo "  UWAGA: brak backupu $name, a plik w grze wyglada na juz spatchowany (PL)."
+      echo "         Zapisuje go jako backup mimo to, ale MOZE NIE byc prawdziwym"
+      echo "         oryginalem EN. W razie watpliwosci zweryfikuj pliki gry w Steam"
+      echo "         (Wlasciwosci -> Zainstalowane pliki) przed instalacja."
+    fi
     cp "$target" "$bak"
     echo "  backup: $name ($(file_size "$bak") B)"
   fi

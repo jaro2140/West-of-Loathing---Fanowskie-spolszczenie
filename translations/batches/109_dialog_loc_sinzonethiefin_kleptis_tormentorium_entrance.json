@@ -1,0 +1,2305 @@
+{
+  "_meta": {
+    "id": 109,
+    "name": "dialog_loc_sinzonethiefin_kleptis_tormentorium_entrance",
+    "description": "Dialogi przypisane do lokacji \"Kleptis Tormentorium Entrance\" (waa: sinzonethiefin).",
+    "status": "done",
+    "count": 316
+  },
+  "strings": {
+    " . The pocketwatch was gone, and so was the miniature Warden.": {
+      "pl": " . Kieszonkowy zegarek zniknął, podobnie jak miniaturowy Nadzorca.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    " . The pocketwatch was gone, and so was...something else I needed for the project.": {
+      "pl": " . Kieszonkowy zegarek zniknął, podobnie jak... coś jeszcze, czego potrzebowałem do projektu.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "\"$mitzisentence1$ $mitzisentence2$ Kevin kept doing a bad job, so I yelled at him to leave me alone, and he left. At exactly 12:03 AM I heard a thump from outside the Warden's window, so I went to see if he was okay. The Warden was alone in his office sitting at his desk like everything was fine, so I went back to my tree$mitzisentence6$\"": {
+      "pl": "\"$mitzisentence1$ $mitzisentence2$ Kevin ciągle wszystko psuł, więc na niego nakrzyczałam, żeby zostawił mnie w spokoju, i poszedł sobie. Dokładnie o 00:03 usłyszałam łomot dobiegający zza okna Nadzorcy, więc poszłam sprawdzić, czy nic mu nie jest. Nadzorca siedział sam w swoim biurze przy biurku, jakby nic się nie stało, więc wróciłam na moje drzewo$mitzisentence6$\"",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "\"I was being very helpful to Mitzi until I glued my tail to my face and she told me to leave.  So I went to sulk in my Sulky Tree$kevinsentence3$\"": {
+      "pl": "\"Byłem bardzo pomocny dla Mitzi, dopóki nie przykleiłem sobie ogona do twarzy, a ona kazała mi wyjść. Więc poszedłem posmutnieć na moim Sulky Tree$kevinsentence3$\"",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.kevinstatement"
+      ],
+      "category": "dialog"
+    },
+    "\"I'd tell you if I had,\" she says.": {
+      "pl": "\"Powiedziałabym ci, gdybym miała,\" mówi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "\"Skurk?\"": {
+      "pl": "\"Skurk?\"",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "$candytakername$ made thump jumping out of window at midnight": {
+      "pl": "$candytakername$ huknął, wyskakując o północy przez okno",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "$candytakername$ was the one who made the thump at 12:03 AM. He was hiding in the Warden's office to steal candy, got scared, and jumped out the window.": {
+      "pl": "$candytakername$ to źródło huku o 00:03. Chował się w biurze Nadzorcy, żeby ukraść cukierki, przestraszył się i wyskoczył przez okno.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ I might actually just understand ferret at this point. Or maybe I just need to see a brain doctor. Hard to say.": {
+      "pl": "$lastoption$ Chyba na tym etapie naprawdę rozumiem już język fretek. Albo po prostu powinienem iść do lekarza od mózgu. Trudno powiedzieć.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ It really made the Warden suspicious of you.": {
+      "pl": "$lastoption$ To naprawdę wzbudziło podejrzenia Nadzorcy wobec ciebie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal3"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ Kevin <i>was</i> helping you, but the two of you weren't doing \"normal ferret things.\" You were doing some kind of repair job or craft project that involved the use of glue. Weren't you?": {
+      "pl": "$lastoption$ Kevin <i>rzeczywiście</i> ci pomagał, ale nie robiliście „normalnych fretczych rzeczy”. Robiliście jakąś naprawę albo projekt rękodzielniczy, w którym używaliście kleju. Prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ The one Kevin was helping you with. That's how he glued his tail to his face, wasn't it, trying to glue all the little Warden parts together.": {
+      "pl": "$lastoption$ Ten, przy którym pomagał ci Kevin. Tak właśnie przykleił sobie ogon do twarzy, prawda, próbując skleić wszystkie małe części Nadzorcy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal3"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ You <i>did</i> check the time when you heard the thump, but you didn't check it on the big park clock. Warden, are there any other timekeeping devices in the ferret rescue?": {
+      "pl": "$lastoption$ <i>Sprawdziłaś</i> godzinę, kiedy usłyszałaś łomot, ale nie na wielkim zegarze parkowym. Nadzorco, czy w schronisku dla fretek są jeszcze jakieś inne urządzenia do mierzenia czasu?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "$lastoption$ You were making a miniature version of the Warden. I found a little hat that looks just like the Warden's hat. There was also a miniature Warden badge that someone took from his desk. That's how Kevin glued his tail to his face, wasn't it, trying to glue all the parts together?": {
+      "pl": "$lastoption$ Robiłeś miniaturową wersję Nadzorcy. Znalazłem mały kapelusik, który wygląda dokładnie jak kapelusz Nadzorcy. Była też miniaturowa odznaka Nadzorcy, którą ktoś zabrał z jego biurka. Tak właśnie Kevin przykleił sobie ogon do twarzy, prawda, próbując skleić wszystkie części razem?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal2"
+      ],
+      "category": "dialog"
+    },
+    ". I must have dropped the tiny Warden hat when I climbed up.": {
+      "pl": ". Musiałem zgubić malutki kapelusz Nadzorcy, kiedy się wspinałem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.kevinstatement"
+      ],
+      "category": "dialog"
+    },
+    "...Unless I'm missing something, Junior Detective, you're trying to connect a statement with itself.": {
+      "pl": "...Jeśli czegoś nie przeoczyłem, Młody Detektywie, próbujesz połączyć zeznanie z samym sobą.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.tautology"
+      ],
+      "category": "dialog"
+    },
+    "<b>Added new evidence to investigation notes!</b>": {
+      "pl": "<b>Dodano nowy dowód do notatek śledczych!</b>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_sadtree_gethat.start",
+        "data.json:scripts.sinzone_thiefin_interior_candythief_convo.clock",
+        "data.json:scripts.sinzone_thiefin_interior_candythief_convo.thump5"
+      ],
+      "category": "dialog"
+    },
+    "<b>Kevin's statement has been updated</b>": {
+      "pl": "<b>Zaktualizowano zeznanie Kevina</b>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "<b>Mitzi's statement has been updated</b>": {
+      "pl": "<b>Zaktualizowano zeznanie Mitzi</b>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<b>That accomplished nothing</b>": {
+      "pl": "<b>To nic nie dało</b>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.tautology",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connectfail"
+      ],
+      "category": "dialog"
+    },
+    "<b>The investigation notes have been updated</b>": {
+      "pl": "<b>Notatki ze śledztwa zostały zaktualizowane</b>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*noncommittal skree*</i>": {
+      "pl": "<i>*wymijające skrzeczenie*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal4"
+      ],
+      "category": "dialog"
+    },
+    "<i>*sigh*</i>": {
+      "pl": "<i>*wzdycha*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "<i>*significant cough*</i>": {
+      "pl": "<i>*wymowne chrząknięcie*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skree skir skrik skrak*</i>": {
+      "pl": "<i>*skra skree skir skrik skrak*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skree skrik skru skree*</i>": {
+      "pl": "<i>*skra skree skrik skru skree*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skrik skraaa skraa skreee*</i>": {
+      "pl": "<i>*skra skrik skraaa skraa skreee*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2b"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skrik skree skrak skrik*</i>": {
+      "pl": "<i>*skra skrik skree skrak skrik*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skrik skree skreh skra skru skree skro*</i>": {
+      "pl": "<i>*skra skrik skree skreh skra skru skree skro*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi5"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra SKRIK SKRII skrak skroo*</i>": {
+      "pl": "<i>*skra SKRIK SKRII skrak skroo*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skra skurk skir skra skrii*</i>": {
+      "pl": "<i>*skra skurk skir skra skrii*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "<i>*SKRAK! skrik skra skrak skree skork skirk skeek*</i>": {
+      "pl": "<i>*SKRAK! skrik skra skrak skree skork skirk skeek*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*SKRAK! skrik skru skree skra skrir*</i>": {
+      "pl": "<i>*SKRAK! skrik skru skree skra skrir*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skra skrak skree skrik skree skork skirk*</i>": {
+      "pl": "<i>*skree skra skrak skree skrik skree skork skirk*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skra skrik skrak skru skra skree*</i>": {
+      "pl": "<i>*skree skra skrik skrak skru skra skree*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skra skrik skrurk skray skra skroo*</i>": {
+      "pl": "<i>*skree skra skrik skrurk skray skra skroo*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skra*</i>": {
+      "pl": "<i>*skree skra*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree SKREEE SKREEEE skrik skree skra skri*</i>": {
+      "pl": "<i>*skree SKREEE SKREEEE skrik skree skra skri*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrik skra skrak skrek*</i>": {
+      "pl": "<i>*skree skrik skra skrak skrek*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrik skra skrak skrii skre skruu*</i>": {
+      "pl": "<i>*skree skrik skra skrak skrii skre skruu*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrik skra skrak*</i>": {
+      "pl": "<i>*skree skrik skra skrak*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrik skree skra skree*</i>": {
+      "pl": "<i>*skree skrik skree skra skree*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrik skrik skree*</i>": {
+      "pl": "<i>*skree skrik skrik skree*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skrit skree skra skrik skar skruu*</i>": {
+      "pl": "<i>*skree skrit skree skra skrik skar skruu*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi4"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skree skwak skrik skwawk*</i>": {
+      "pl": "<i>*skree skwak skrik skwawk*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrek*</i>": {
+      "pl": "<i>*skrek*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrik skra skree skrak skrirk skik skra*</i>": {
+      "pl": "<i>*skrik skra skree skrak skrirk skik skra*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrik skra skree skrak skrurk*</i>": {
+      "pl": "<i>*skrik skra skree skrak skrurk*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrik skra skru skir skrak skrek skra*</i>": {
+      "pl": "<i>*skrik skra skru skir skrak skrek skra*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal3"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrik skruu*</i>": {
+      "pl": "<i>*skrik skruu*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "<i>*SKRIK skwa SKREEE skwik SKWAAA!*</i>": {
+      "pl": "<i>*SKRIK skwa SKREEE skwik SKWAAA!*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skrik! skrik skra skrek*</i>": {
+      "pl": "<i>*skrik! skrik skra skrek*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skruk skra skri skrik skar*</i>": {
+      "pl": "<i>*skruk skra skri skrik skar*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*SKRURK*</i>": {
+      "pl": "<i>*SKRURK*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skruu skrik skra skrak skra skre skreek*</i>": {
+      "pl": "<i>*skruu skrik skra skrak skra skre skreek*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*SKURK!*</i>": {
+      "pl": "<i>*SKURK!*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skwaaaaa? skree skwik skwa skweeee*</i>": {
+      "pl": "<i>*skwaaaaa? skree skwik skwa skweeee*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skwark skwee skak skuu skrik*</i>": {
+      "pl": "<i>*skwark skwee skak skuu skrik*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skwik skwa skwak skwu*</i>": {
+      "pl": "<i>*skwik skwa skwak skwu*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal5"
+      ],
+      "category": "dialog"
+    },
+    "<i>*skwik! SKREE skwik skwa skreer skwawk skwa*</i>": {
+      "pl": "<i>*skwik! SKREE skwik skwa skreer skwawk skwa*</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "<i>...</i>": {
+      "pl": "<i>...</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "<i>Mitzi!</i>": {
+      "pl": "<i>Mitzi!</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "A big clock that no longer works because the gears have been stolen by ferrets.": {
+      "pl": "Wielki zegar, który już nie chodzi, bo fretki ukradły koła zębate.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_bigclock.popup"
+      ],
+      "category": "dialog"
+    },
+    "A miniature replica of a park warden's hat... this could be a clue! I'd better add it to my notes.": {
+      "pl": "Miniaturowa replika kapelusza Nadzorcy parku... to może być trop! Lepiej dopiszę to do notatek.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_sadtree_gethat.start"
+      ],
+      "category": "dialog"
+    },
+    "A miniature version of the Warden's badge has also gone missing.": {
+      "pl": "Miniaturowa wersja odznaki Nadzorcy też zniknęła.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "Actually, I don't need any more from Kevin right now.": {
+      "pl": "Właściwie to na razie nic więcej od Kevina nie potrzebuję.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin"
+      ],
+      "category": "dialog"
+    },
+    "Actually, I don't need any more from Mitzi right now.": {
+      "pl": "Właściwie to na razie nic więcej od Mitzi nie potrzebuję.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi"
+      ],
+      "category": "dialog"
+    },
+    "Actually, I think you <i>could</i> help me! See, I keep my merit badges in my pocketwatch, and my pocketwatch has been stolen. When you walked in, I was interrogating my two favorite ferrets, because I highly suspect one or both of them stole it. But I don't have any proof, and they won't talk.": {
+      "pl": "Właściwie chyba <i>możesz</i> mi pomóc! Trzymam odznaki sprawności w zegarku kieszonkowym, a ktoś mi go ukradł. Kiedy wszedłeś, przesłuchiwałem moje dwie ulubione fretki, bo mocno podejrzewam, że jedna albo obie go ukradły. Nie mam jednak dowodów, a one nie chcą mówić.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2b"
+      ],
+      "category": "dialog"
+    },
+    "Actually, let me pick something else.": {
+      "pl": "Właściwie to wybiorę coś innego.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin"
+      ],
+      "category": "dialog"
+    },
+    "Actually, let's not connect evidence.": {
+      "pl": "Właściwie to nie łączmy dowodów.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2opts"
+      ],
+      "category": "dialog"
+    },
+    "Ah, I see. Junior Detective, Kevin would like to amend his statement to reflect that yes, it was in fact him who dropped the very cute little hat that looks just like mine.": {
+      "pl": "Ach, rozumiem. Młodszy Detektyw Kevin chciałby poprawić zeznanie i potwierdzić, że tak, to właśnie on upuścił ten przeuroczy kapelusik wyglądający zupełnie jak mój.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "All right, Junior Detective, let's hear your deduction.": {
+      "pl": "Dobrze, Młodszy Detektywie, posłuchajmy twojego rozumowania.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "All right, let's keep making connections!": {
+      "pl": "Dobrze, łączmy dalej!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchrevealcheck",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "And a little warden badge?": {
+      "pl": "I mała odznaka Nadzorcy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2"
+      ],
+      "category": "dialog"
+    },
+    "And here's fifty pinecones that were in my pocket, just because.": {
+      "pl": "A oto pięćdziesiąt szyszek, które miałam w kieszeni. Tak po prostu.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal8"
+      ],
+      "category": "dialog"
+    },
+    "And you didn't see anyone?": {
+      "pl": "I nikogo nie widziałeś?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "And... help me out here, what <i>are</i> normal ferret things?": {
+      "pl": "I... pomóż mi: co <i>właściwie</i> robią normalne fretki?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "Anything I can help with?": {
+      "pl": "Mogę w czymś pomóc?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro"
+      ],
+      "category": "dialog"
+    },
+    "As I suspected! This could blow the case wide open.": {
+      "pl": "Jak podejrzewałem! To może być przełom w całej sprawie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "Aww, Kevin, that's so sweet! Yes, he was very excited, he says.": {
+      "pl": "Och, Kevin, to takie słodkie! Tak, mówi, że był bardzo podekscytowany.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "Aww, the phrase \"little parts and accessories\" makes him sound <i>so cute</i>. I kind of want to put him in my mouth now.": {
+      "pl": "Zwrot „małe części i akcesoria” sprawia, że brzmi <i>przeuroczo.</i> Mam ochotę włożyć go do ust.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "Baby Candytaker": {
+      "pl": "Dzieciak Cukierkozabierak",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.start",
+        "data.json:scripts.sinzone_thiefin_interior_candythief_convo.start"
+      ],
+      "category": "dialog"
+    },
+    "Between that and this little hat I found under a weirdly despondent-looking tree, it seems like someone's been collecting objects to make a miniature version of you.": {
+      "pl": "Między tym a kapelusikiem znalezionym pod dziwnie przygnębionym drzewem wygląda na to, że ktoś zbiera przedmioty do stworzenia twojej miniaturowej wersji.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "Borrowed the watch, but it was taken": {
+      "pl": "Pożyczyłam zegarek, ale go zabrano",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "But Mitzi wouldn't let you help anymore after you glued your tail to your face, would she.": {
+      "pl": "Ale Mitzi nie pozwoliła ci więcej pomagać po tym, jak przykleiłeś ogon do twarzy, prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "But someone else took it before she had the chance to complete her model.": {
+      "pl": "Ale ktoś inny zabrał go, zanim zdążyła ukończyć model.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "Connection brain: Go!": {
+      "pl": "Mózg połączeń: Start!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect3"
+      ],
+      "category": "dialog"
+    },
+    "Correct-a-roony! It is not.": {
+      "pl": "Zgadzaśno! Nie jest.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "Dang, I was not expecting to feel bad for a tree today.": {
+      "pl": "Ojej, nie spodziewałem się, że dziś będę współczuć drzewu.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "Detectiving is rewarding": {
+      "pl": "Detektywistyka się opłaca",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_sadtree_gethat.start"
+      ],
+      "category": "dialog"
+    },
+    "Did not steal the watch": {
+      "pl": "Nie ukradła zegarka",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Doing normal ferret things, Kevin was helping": {
+      "pl": "Robiła normalne rzeczy fretki, Kevin pomagał",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Dropped the miniature Warden hat under Sulky Tree": {
+      "pl": "Upuszczono miniaturowy kapelusz Nadzorcy pod Sulky Tree",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin"
+      ],
+      "category": "dialog"
+    },
+    "Excited to hear your deduction!": {
+      "pl": "Nie mogę się doczekać twojej dedukcji!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect3"
+      ],
+      "category": "dialog"
+    },
+    "Found miniature Warden hat under sad-looking tree": {
+      "pl": "Znaleziono miniaturowy kapelusz Nadzorcy pod smętnym drzewem",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "Glued tail to own face while helping Mitzi": {
+      "pl": "Przykleił ogon do własnej twarzy, pomagając Mitzi",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin"
+      ],
+      "category": "dialog"
+    },
+    "Got it! Thanks for the lesson.": {
+      "pl": "Jasne! Dzięki za lekcję.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.lesson"
+      ],
+      "category": "dialog"
+    },
+    "Great! What piece of evidence do you want to connect that to?": {
+      "pl": "Świetnie! Z którym dowodem chcesz to powiązać?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2"
+      ],
+      "category": "dialog"
+    },
+    "Great, let's hear it!": {
+      "pl": "Świetnie, słuchamy!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchrevealsetup"
+      ],
+      "category": "dialog"
+    },
+    "Ha ha, of course! I'd have no business running a ferret rescue if I didn't!": {
+      "pl": "Ha, ha, oczywiście! Nie prowadziłbym azylu dla fretek, gdybym nie znał ich języka!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.speakferret"
+      ],
+      "category": "dialog"
+    },
+    "Ha ha, sure, why not!": {
+      "pl": "Ha, ha, jasne, czemu nie!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2"
+      ],
+      "category": "dialog"
+    },
+    "He says he doesn't know, because he didn't notice he was dropping it.": {
+      "pl": "Mówi, że nie wie, bo nie zauważył, że go upuszcza.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "He says he's not finished with some of the trompe l'oeil and chiaroscuro on my office building yet, but if we're done playing our fun detective game, he can go get the diorama out of his Sulky Tree.": {
+      "pl": "Mówi, że nie skończył jeszcze części trompe-l'œil i światłocienia na makiecie mojego biurowca, ale jeśli skończyliśmy już naszą zabawną grę w detektywów, może pójść po dioramę do swojego Ponurego Drzewa.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "He says it's the one that looks sad.": {
+      "pl": "Mówi, że chodzi o to, które wygląda smutno.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin2"
+      ],
+      "category": "dialog"
+    },
+    "He says no one else goes near his Sulky Tree. That's why it looks so sad, he says. It's lonely.": {
+      "pl": "Mówi, że nikt inny nie zbliża się do jego Ponurego Drzewa. Dlatego wygląda tak smutno, jak twierdzi. Jest samotne.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "He says yes, in the form of a little poem about sad trees being the place for sad thoughts.": {
+      "pl": "Mówi, że tak, w formie krótkiego wiersza o smutnych drzewach jako miejscu dla smutnych myśli.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "Heard thump outside Warden's window at exactly 12:03 AM": {
+      "pl": "Słyszała stuknięcie za oknem Nadzorcy dokładnie o 00:03",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Here's my theory:": {
+      "pl": "Oto moja teoria:",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "Here's what I think your secret project must have been:": {
+      "pl": "Oto, co moim zdaniem było twoim tajnym projektem:",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "Here, my notes combined with your notes.": {
+      "pl": "Proszę, moje notatki połączone z twoimi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "Hey, good thinking, Junior Detective! I'll add it to our investigation notes in case it is.": {
+      "pl": "Hej, dobrze myślisz, Młodszy Detektywie! Dodam to do naszych notatek śledczych na wypadek, gdyby miało znaczenie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.badge"
+      ],
+      "category": "dialog"
+    },
+    "Hmm... then we'll have to figure out what she's hiding.": {
+      "pl": "Hmm... to musimy się dowiedzieć, co ona ukrywa.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1"
+      ],
+      "category": "dialog"
+    },
+    "How flattering, a cute little myself! We'd better add that to our notes.": {
+      "pl": "Jak pochlebnie, słodka mała ja! Lepiej dodajmy to do notatek.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "Huh. Is that a standard part of ferret culture?": {
+      "pl": "Hę. To standardowy element kultury fretek?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal3"
+      ],
+      "category": "dialog"
+    },
+    "I <i>borrowed</i> the pocketwatch, but someone took it before I could return it.": {
+      "pl": "<i>Pożyczyłam</i> zegarek kieszonkowy, ale ktoś go zabrał, zanim zdążyłam go oddać.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "I <i>do</i> remember hearing that somewhere, yes.": {
+      "pl": "<i>Rzeczywiście</i> pamiętam, że gdzieś to słyszałam.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.tautology"
+      ],
+      "category": "dialog"
+    },
+    "I can answer this: eating, pooping, and stealing treasure. That's about all they do.": {
+      "pl": "Mogę na to odpowiedzieć: jedzenie, robienie kupy i kradzież skarbów. To mniej więcej wszystko, co robią.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "I can't thank you enough, Junior Detective! Here's your merit badge. You've more than earned it.": {
+      "pl": "Nie umiem ci wystarczająco podziękować, Młodszy Detektywie! Oto twoja odznaka zasługi. Zasłużyłeś na nią z naddatkiem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal8"
+      ],
+      "category": "dialog"
+    },
+    "I did <i>not</i> steal the pocketwatch.": {
+      "pl": "<i>Nie</i> ukradłam tego kieszonkowego zegarka.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "I found a miniature Warden hat underneath a sad-looking tree.": {
+      "pl": "Znalazłem miniaturowy kapelusz Nadzorcy pod smętnym drzewem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "I have some evidence to connect.": {
+      "pl": "Mam dowody do powiązania.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogateopts"
+      ],
+      "category": "dialog"
+    },
+    "I hope this doesn't seem self-centered, but I can't get over how cute it is that they made a tiny me.": {
+      "pl": "Mam nadzieję, że nie zabrzmi to egocentrycznie, ale nie mogę przeboleć, jakie to słodkie, że zrobili maleńką mnie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal5"
+      ],
+      "category": "dialog"
+    },
+    "I see how it is. Well, you don't have to tell me. I already have a pretty good idea what you and Kevin were working on.": {
+      "pl": "Rozumiem, jak sprawy stoją. Zresztą nie musisz mi mówić. I tak mam całkiem niezłe pojęcie, nad czym pracowaliście z Kevinem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "I understand. Good work, Junior Detective! Mitzi has officially changed her testimony to reflect the new facts.": {
+      "pl": "Rozumiem. Dobra robota, Młodszy Detektywie! Mitzi oficjalnie zmieniła zeznanie, żeby uwzględnić nowe fakty.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "I used to have a miniature version of my warden badge right in this drawer, but it's also gone missing.": {
+      "pl": "Miałem kiedyś miniaturową wersję mojej odznaki Nadzorcy, o, w tej szufladzie, ale też zaginęła.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.badge"
+      ],
+      "category": "dialog"
+    },
+    "I want to connect $connect1text$ with $connect2text$": {
+      "pl": "Chcę połączyć $connect1text$ z $connect2text$",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect3"
+      ],
+      "category": "dialog"
+    },
+    "I want to press a point.": {
+      "pl": "Chcę nacisnąć pewien punkt.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogateopts"
+      ],
+      "category": "dialog"
+    },
+    "I was doing normal ferret stuff all night and Kevin was helping me.": {
+      "pl": "Całą noc robiłam normalne fretkowe rzeczy, a Kevin mi pomagał.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "I was expecting to gloat more as a detective, but I <i>guess.</i>": {
+      "pl": "Spodziewałem się więcej się pocieszać jako detektyw, ale <i>no cóż.</i>",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "I was saying, I'm about to tell you all who did it.": {
+      "pl": "Mówiłem, że zaraz powiem wam wszystkim, kto to zrobił.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal"
+      ],
+      "category": "dialog"
+    },
+    "I'd like to interrogate the ferrets.": {
+      "pl": "Chciałbym przesłuchać fretki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "I'll circle back to this once I have more information.": {
+      "pl": "Do tego wrócę, jak będę miał więcej informacji.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2"
+      ],
+      "category": "dialog"
+    },
+    "I'll follow your lead, Junior Detective!": {
+      "pl": "Podążam za tobą, Młodszy Detektywie!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogate"
+      ],
+      "category": "dialog"
+    },
+    "I'll take that warden badge now, please.": {
+      "pl": "Wezmę teraz tę odznakę Nadzorcy, proszę.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "I'll tell you what <i>I</i> think his reason was.": {
+      "pl": "Powiem ci, co <i>ja</i> myślę, jaki miał powód.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "I'm done interrogating the ferrets.": {
+      "pl": "Skończyłem przesłuchiwać fretki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogateopts"
+      ],
+      "category": "dialog"
+    },
+    "I'm not sure if you were aware of this, but my pocketwatch is an exact scale-model replica of the large clock in the park. So, if the ferrets were making a diorama of the park, and needed something to use for the clock...": {
+      "pl": "Nie wiem, czy o tym wiesz, ale mój zegarek kieszonkowy to dokładna miniaturowa replika wielkiego zegara w parku. Więc jeśli fretki budowały dioramę parku i potrzebowały czegoś na zegar...",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "I'm sorry, Junior Detective, she said \"Figure it out yourself, if you're so smart.\"": {
+      "pl": "Przykro mi, Młodszy Detektywie, powiedziała: „Sam to sobie wykombinuj, skoro jesteś taki mądry”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "If you want to help me crack the case, I'll give you a crash course in detectivin'.": {
+      "pl": "Jeśli chcesz mi pomóc rozwikłać sprawę, zrobię ci przyspieszony kurs detektywowania.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2b"
+      ],
+      "category": "dialog"
+    },
+    "In that case, can you explain how Kevin glued his tail to his face? None of those activities I listed require glue.": {
+      "pl": "W takim razie możesz wyjaśnić, jak Kevin przykleił sobie ogon do pyszczka? Żadna z wymienionych przeze mnie aktywności nie wymaga kleju.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "In that case, how do you know <i>you</i> were the one who dropped it?": {
+      "pl": "W takim razie skąd wiesz, że to <i>ty</i> go upuściłeś?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "Is that right, children? You were making a little diorama of the park as a gift for me? On your 10-hellyear adoption anniversary? That's so thoughtful of you!": {
+      "pl": "Naprawdę, dzieci? Robiłyście dla mnie małą dioramę parku w prezencie? Na dziesiątą piekielnorocznicę waszej adopcji? To takie troskliwe!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Is that true, Mitzi? Hmm. I see. Junior Detective, Mitzi has updated her testimony to include a new confession.": {
+      "pl": "Czy to prawda, Mitzi? Hmm. Rozumiem. Młodszy Detektywie, Mitzi uzupełniła swoje zeznania o nowe wyznanie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "It seems like someone has been making a miniature version of the Warden.": {
+      "pl": "Wygląda na to, że ktoś robił miniaturową wersję Nadzorcy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "It's a big clock. Now that you're looking at it with detective eyes, something seems a little off about it.": {
+      "pl": "To wielki zegar. Teraz, gdy patrzysz na niego oczami detektywa, coś wydaje się nieco nie tak.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_bigclock.describeclocksus"
+      ],
+      "category": "dialog"
+    },
+    "It's a big clock. You didn't need me to tell you that, I hope.": {
+      "pl": "To wielki zegar. Mam nadzieję, że nie musiałem ci tego mówić.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_bigclock.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's okay, sweetheart. You can tell me.": {
+      "pl": "W porządku, kochanie. Możesz mi powiedzieć.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Kevin darts out of the room the second his cage door is opened and darts back in before the Warden has a chance to tell you the second ingredient of his gazpacho recipe (it was going to be cucumbers). In his weirdly human little hands Kevin carries an impressively photorealistic diorama of the ferret sanctuary, made out of pinecones and tape, complete with tiny Warden (sans hat) and park clock made out of the Warden's missing pocketwatch.": {
+      "pl": "Kevin wypada z klatki w sekundę po otwarciu drzwi i wpada z powrotem, zanim Nadzorca zdąży powiedzieć ci o drugim składniku swojego przepisu na gazpacho (miały to być ogórki). W swoich dziwnie ludzkich łapkach Kevin niesie imponująco fotorealistyczną dioramę sanktuarium fretek, zrobioną ze szyszek i taśmy, z miniaturowym Nadzorcą (bez kapelusza) i parkowym zegarem z zaginionego zegarka kieszonkowego Nadzorcy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal7"
+      ],
+      "category": "dialog"
+    },
+    "Kevin was helping me with a secret project.": {
+      "pl": "Kevin pomagał mi przy tajnym projekcie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.mitzistatement"
+      ],
+      "category": "dialog"
+    },
+    "Kevin was helping with a secret project": {
+      "pl": "Kevin pomagał przy tajnym projekcie",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Kevin! Why would you do such a thing, sweetheart?": {
+      "pl": "Kevin! Czemu zrobiłeś coś takiego, kochanie?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Kevin's statement: \"I must have dropped the tiny Warden hat when I climbed up.\"": {
+      "pl": "Zeznanie Kevina: „Musiałem upuścić malutki kapelusz Nadzorcy, kiedy się wspinałem”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin3"
+      ],
+      "category": "dialog"
+    },
+    "Kevin's statement: \"I was being very helpful to Mitzi until I glued my tail to my face and she told me to leave.\"": {
+      "pl": "Zeznanie Kevina: „Bardzo pomagałem Mitzi, dopóki nie przykleiłem sobie ogona do twarzy, a ona kazała mi wyjść”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin1",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin1"
+      ],
+      "category": "dialog"
+    },
+    "Kevin's statement: \"So I went to sulk in my Sulky Tree.\"": {
+      "pl": "Zeznanie Kevina: „Poszedłem więc smutnieć na moim Ponurym Drzewie”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin2"
+      ],
+      "category": "dialog"
+    },
+    "Kevin, how did you glue your tail to your face?": {
+      "pl": "Kevin, jak przykleiłeś sobie ogon do twarzy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "Kevin, the Sulky Tree that you hide in when you want to sulk is the sad-looking one, correct?": {
+      "pl": "Kevin, Ponure Drzewo, w którym chowasz się, kiedy chcesz się ponurzyć, to to wyglądające smutno, zgadza się?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "Kevin, which tree is your sulky tree?": {
+      "pl": "Kevin, które drzewo jest twoim Ponurym Drzewem?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin2"
+      ],
+      "category": "dialog"
+    },
+    "Kevin.": {
+      "pl": "Kevin.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.press"
+      ],
+      "category": "dialog"
+    },
+    "Kevin. You were really excited about making this diorama for your... I'm going to say \"dad.\" Your demon dad the Warden. Right?": {
+      "pl": "Kevin. Bardzo się cieszyłeś, że robisz tę dioramę dla swojego... powiedzmy, że „taty”. Twojego demonicznego taty Nadzorcy. Tak?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "Let me guess, he just said \"with glue,\" didn't he.": {
+      "pl": "Zgadnę: powiedział tylko „klejem”, prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "Let me tell you what I think happened.": {
+      "pl": "Pozwól, że opowiem, co moim zdaniem się stało.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "Let's look at Kevin's.": {
+      "pl": "Spójrzmy na Kevinowe.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.statements"
+      ],
+      "category": "dialog"
+    },
+    "Let's look at our investigation notes.": {
+      "pl": "Spójrzmy na nasze notatki ze śledztwa.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogateopts"
+      ],
+      "category": "dialog"
+    },
+    "Let's try something else!": {
+      "pl": "Spróbujmy czegoś innego!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.tautology",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connectfail"
+      ],
+      "category": "dialog"
+    },
+    "Maybe I will!": {
+      "pl": "Może i tak zrobię!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "Miniature version of badge also missing": {
+      "pl": "Miniaturowa wersja odznaki też zniknęła",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi says the little hat was on the little Warden when he went missing.": {
+      "pl": "Mitzi mówi, że mały kapelusik był na małym Nadzorcy, kiedy zniknął.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal4"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi! How rude! She says \"Yes, and it's none of your business.\"": {
+      "pl": "Mitzi! Ależ niegrzecznie! Mówi: „Tak, a to nie twoja sprawa”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi! That's not very nice.": {
+      "pl": "Mitzi! To niezbyt miłe.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"At exactly 12:03 AM I heard a thump from outside the Warden's window, so I went to see if he was okay.\"": {
+      "pl": "Zeznanie Mitzi: „Dokładnie o 00:03 usłyszałam łomot zza okna Nadzorcy, więc poszłam sprawdzić, czy nic mu nie jest”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi4",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi4"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"I <i>borrowed</i> the pocketwatch, but someone took it before I could return it.\"": {
+      "pl": "Zeznanie Mitzi: „<i>Pożyczyłam</i> zegarek kieszonkowy, ale ktoś go zabrał, zanim zdążyłam go oddać”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi1b",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"I did <i>not</i> steal the pocketwatch.\"": {
+      "pl": "Zeznanie Mitzi: „<i>Nie</i> ukradłam zegarka kieszonkowego”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi1",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi1"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"I was doing normal ferret stuff all night and Kevin was helping me.\"": {
+      "pl": "Zeznanie Mitzi: „Przez całą noc robiłam zwyczajne fretkowe rzeczy, a Kevin mi pomagał”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi2"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"Kevin kept doing a bad job, so I yelled at him to leave me alone, and he left.\"": {
+      "pl": "Zeznanie Mitzi: „Kevin ciągle wszystko psuł, więc nakrzyczałam na niego, żeby zostawił mnie w spokoju, i poszedł sobie”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi3"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"Kevin was helping me with a secret project.\"": {
+      "pl": "Zeznanie Mitzi: „Kevin pomagał mi przy tajnym projekcie”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi2b"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"The pocketwatch was gone, and so was the miniature Warden.\"": {
+      "pl": "Zeznanie Mitzi: „Zegarek kieszonkowy zniknął, podobnie jak miniaturowy Nadzorca”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi6b",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"The pocketwatch was gone, and so was...something else I needed for the project.\"": {
+      "pl": "Zeznanie Mitzi: „Zegarek kieszonkowy zniknął, podobnie jak... coś jeszcze, czego potrzebowałam do projektu”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi6",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi6"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi's statement: \"The Warden was alone in his office sitting at his desk like everything was fine, so I went back to my tree.\"": {
+      "pl": "Zeznanie Mitzi: „Nadzorca siedział sam za biurkiem w swoim biurze, jakby wszystko było w porządku, więc wróciłam na swoje drzewo”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi5",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi5"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi, you said Kevin was helping you do normal ferret things, correct? Eating, pooping, stealing treasure off the ground to torment the souls of dead thieves?": {
+      "pl": "Mitzi, powiedziałaś, że Kevin pomagał ci robić zwyczajne fretkowe rzeczy, zgadza się? Jeść, robić kupę, kraść skarby leżące na ziemi, żeby dręczyć dusze martwych złodziei?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi, you say you did not steal the pocketwatch, correct?": {
+      "pl": "Mitzi, twierdzisz, że nie ukradłaś zegarka kieszonkowego, zgadza się?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi, you say you found the miniature Warden missing along with the pocketwatch. When you saw him last, did he have all of his little parts and accessories?": {
+      "pl": "Mitzi, mówisz, że miniaturowy Nadzorca zniknął razem z zegarkiem. Kiedy widziałaś go po raz ostatni, miał wszystkie swoje małe części i akcesoria?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi.": {
+      "pl": "Mitzi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.press"
+      ],
+      "category": "dialog"
+    },
+    "Mitzi? It's a little suspicious when you say things like \"skrak skra,\" sweetheart.": {
+      "pl": "Mitzi? To trochę podejrzane, kiedy mówisz takie rzeczy jak „skrak skra”, kochanie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal"
+      ],
+      "category": "dialog"
+    },
+    "My work here is done. I do want my reward, though.": {
+      "pl": "Moja robota tu skończona. Chcę jednak nagrodę.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal7"
+      ],
+      "category": "dialog"
+    },
+    "Mysterious! Do you think it's a clue?": {
+      "pl": "Tajemnicze! Myślisz, że to wskazówka?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.badge"
+      ],
+      "category": "dialog"
+    },
+    "Nice to meet you, Warden... Warden. I'm here to redeem myself and earn a merit badge.": {
+      "pl": "Miło cię poznać, Nadzorco... Nadzorco. Jestem tu, żeby się odkupić i zdobyć odznakę sprawności.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro"
+      ],
+      "category": "dialog"
+    },
+    "No idea! These two just... say things sometimes. Ha ha!": {
+      "pl": "Nie mam pojęcia! Ta dwójka czasem po prostu... mówi różne rzeczy. Ha, ha!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal3"
+      ],
+      "category": "dialog"
+    },
+    "No, just your two eerily human little ferret hands.": {
+      "pl": "Nie, tylko twoje dwie niepokojąco ludzkie fretkowe łapki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "No, that <i>is</i> cute. You're absolutely allowed to find that cute. Anyway, we know Kevin dropped the hat, we know the hat was on the tiny Warden when he was stolen from Mitzi's tree, therefore the most likely explanation is that it was Kevin who stole the tiny Warden along with the pocketwatch! Did you or did you not, Kevin?": {
+      "pl": "Nie, to <i>jest</i> urocze. Zdecydowanie wolno ci uważać to za urocze. Tak czy inaczej wiemy, że Kevin upuścił kapelusz i że znajdował się on na małym Nadzorcy, kiedy ten został skradziony z drzewa Mitzi. Najbardziej prawdopodobne wyjaśnienie brzmi więc: to Kevin ukradł małego Nadzorcę razem z zegarkiem kieszonkowym! Zrobiłeś to czy nie, Kevin?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal5"
+      ],
+      "category": "dialog"
+    },
+    "Nothing that would involve, say, office supplies? Crafting materials?": {
+      "pl": "A nic, co wymagałoby, powiedzmy, artykułów biurowych? Materiałów rzemieślniczych?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "Oh! Junior Detective! I just made a connection of my own I'd like to share.": {
+      "pl": "Och! Młodszy Detektywie! Właśnie zauważyłem pewne powiązanie, którym chciałbym się podzielić.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchrevealsetup"
+      ],
+      "category": "dialog"
+    },
+    "Oh, I see we've got a new thief in town! Well, a big old howdy to ya and welcome to the Rescue. I'm Warden Xzyzylbl-Smith.": {
+      "pl": "Och, widzę, że mamy w mieście nowego złodzieja! No to wielkie „jak się masz” i witaj w Rescue. Jestem Nadzorca Xzyzylbl-Smith.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro"
+      ],
+      "category": "dialog"
+    },
+    "Oh, Kevin, it's beautiful! You did such an amazing job. And Mitzi, too, I can see all the work you both put into that little figurine of me. Come get a hug, you little scamps.": {
+      "pl": "Och, Kevin, to piękne! Wykonałeś niesamowitą robotę. Ty też, Mitzi — widzę, ile pracy włożyliście w tę małą figurkę mnie. Chodźcie się przytulić, urwisy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal7"
+      ],
+      "category": "dialog"
+    },
+    "Oh, yes! That's <i>very</i> exciting, isn't it, children?": {
+      "pl": "Och, tak! To <i>bardzo</i> ekscytujące, prawda, dzieci?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Oh. Oh no, what inconvenient timing.": {
+      "pl": "Och. O nie, co za niefortunny moment.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro"
+      ],
+      "category": "dialog"
+    },
+    "Okay, everybody, get ready to have your minds blown. I'm about to dynamite this case wide open.": {
+      "pl": "Dobra, wszyscy przygotujcie się na eksplozję umysłów. Zaraz wysadzę tę sprawę dynamitem na oścież.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal"
+      ],
+      "category": "dialog"
+    },
+    "Okay, great. There's just one thing, though: the big clock in the park had stopped at 10:15 the previous evening. So it wouldn't have <i>said</i> 12:03, it would have said 10:15.": {
+      "pl": "Dobra, świetnie. Jest tylko jedna rzecz: wielki zegar w parku zatrzymał się poprzedniego wieczoru o 22:15. Nie <i>wskazywałby</i> więc 12:03, tylko 22:15.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "Okay, how about this, then. Did you mean the miniature version of the Warden you and Kevin had been making out of $wardenpartshort$ and $otherwardenpart$?": {
+      "pl": "Dobra, to może tak. Czy chodziło ci o miniaturową wersję Nadzorcy, którą razem z Kevinem robiliście z $wardenpartshort$ i $otherwardenpart$?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2"
+      ],
+      "category": "dialog"
+    },
+    "Okay, Kevin. I'm unlocking your cage now. Be a good boy.": {
+      "pl": "Dobra, Kevin. Otwieram teraz twoją klatkę. Bądź grzeczny.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal7"
+      ],
+      "category": "dialog"
+    },
+    "Okay, next on the agenda...": {
+      "pl": "Okej, następny punkt porządku dziennego...",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.badge"
+      ],
+      "category": "dialog"
+    },
+    "Okay, so Kevin left Mitzi alone at 9:30...": {
+      "pl": "Okej, czyli Kevin zostawił Mitzi samą o 21:30...",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "Okay, we'll get through this investigation together, somehow.": {
+      "pl": "Okej, jakoś razem przejdziemy przez to śledztwo.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "Okay, which part?": {
+      "pl": "Dobra, która część?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin"
+      ],
+      "category": "dialog"
+    },
+    "On which statement?": {
+      "pl": "Które zeznanie?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin"
+      ],
+      "category": "dialog"
+    },
+    "Only my pocketwatch.": {
+      "pl": "Tylko mój zegarek kieszonkowy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Oooh, how exciting! Should I make popcorn? I've got a nice tin of heirloom blue blend... shoot, wait, I used that up last week. What a terrible host I am, offering you popcorn when I'm fresh out of popcorn. If you give me a minute to whip up some tortillas I can-": {
+      "pl": "Oooch, jak ekscytująco! Zrobić popcorn? Mam ładną puszkę tradycyjnej niebieskiej mieszanki... Kurczę, chwila, zużyłem ją w zeszłym tygodniu. Ale ze mnie okropny gospodarz, proponuję wam popcorn, kiedy właśnie mi się skończył. Jeśli dacie mi chwilę na przygotowanie tortilli, mogę-",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"$candytakername$ was the one who made the thump at 12:03 AM. He was hiding in the Warden's office to steal candy, got scared, and jumped out the window.\"": {
+      "pl": "nasza notatka: „$candytakername$ wywołał huk o 00:03. Ukrywał się w biurze Nadzorcy, żeby ukraść słodycze, przestraszył się i wyskoczył przez okno”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes4",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes4"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"A miniature version of the Warden's badge has also gone missing.\"": {
+      "pl": "nasza notatka: „Zaginęła również miniaturowa wersja odznaki Nadzorcy”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes2"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"I found a miniature Warden hat underneath a sad-looking tree.\"": {
+      "pl": "nasza notatka: „Pod smutno wyglądającym drzewem znalazłem miniaturowy kapelusz Nadzorcy”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes5",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes5"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"It seems like someone has been making a miniature version of the Warden.\"": {
+      "pl": "nasza notatka: „Wygląda na to, że ktoś robił miniaturową wersję Nadzorcy”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes6",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes6"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"The park clock stopped working at 10:15 PM last night when its gears were stolen by muscular ferrets.\"": {
+      "pl": "nasza notatka: „Zegar w parku przestał działać wczoraj o 22:15, gdy umięśnione fretki ukradły jego tryby”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes3"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"The watch went missing sometime between 6 PM yesterday and 6 AM this morning. The Warden did not see the culprit, but Mitzi & Kevin had opportunity and are clearly hiding something.\"": {
+      "pl": "nasza notatka: „Zegarek zaginął między wczorajszą 18:00 a dzisiejszą 6:00. Nadzorca nie widział sprawcy, ale Mitzi i Kevin mieli okazję i wyraźnie coś ukrywają”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes1"
+      ],
+      "category": "dialog"
+    },
+    "our note: \"The watch went missing sometime between dusk yesterday and dawn this morning. The Warden did not see the culprit, but Mitzi & Kevin had opportunity and are clearly hiding something.\"": {
+      "pl": "nasza notatka: „Zegarek zaginął między wczorajszym zmierzchem a dzisiejszym świtem. Nadzorca nie widział sprawcy, ale Mitzi i Kevin mieli okazję i wyraźnie coś ukrywają”.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes1"
+      ],
+      "category": "dialog"
+    },
+    "Park clock stopped working at 10:15 PM": {
+      "pl": "Zegar w parku przestał działać o 22:15",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "Pocketwatch was gone, along with miniature Warden": {
+      "pl": "Zegarek kieszonkowy zniknął, razem z miniaturowym Nadzorcą",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Pocketwatch was gone, along with... another project component": {
+      "pl": "Zegarek kieszonkowy zniknął, razem z... kolejnym elementem projektu",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Really, Kevin? He says yes, that was him.": {
+      "pl": "Naprawdę, Kevin? Mówi, że tak, to był on.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal5"
+      ],
+      "category": "dialog"
+    },
+    "Remind me how to detective?": {
+      "pl": "Przypomnij mi, jak się detektywuje?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "Right, I'm off to do some investigating.": {
+      "pl": "Dobrze, idę coś śledczyć.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "Sad-looking tree. Got it.": {
+      "pl": "Smutne drzewo. Jasne.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin2"
+      ],
+      "category": "dialog"
+    },
+    "See, I keep my merit badges in my pocketwatch, and my pocketwatch has been stolen. I was actually just in the middle of interrogating my two favorite ferrets, because I highly suspect one or both of them stole it. But I don't have any proof, and they won't talk.": {
+      "pl": "Widzisz, przechowuję odznaki zasługi w zegarku kieszonkowym, a zegarek został skradziony. Właśnie przesłuchiwałem moje dwie ulubione fretki, bo mocno podejrzewam, że jedna z nich lub obie go ukradły. Nie mam jednak żadnych dowodów, a one nie chcą mówić.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2a"
+      ],
+      "category": "dialog"
+    },
+    "She left it in her tree when she went to investigate the thump outside my window and it was gone when she got back.": {
+      "pl": "Zostawiła go w swoim drzewie, gdy poszła zbadać huk za moim oknem, a po powrocie już go nie było.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "She says <i>technically,</i> she wasn't referring to $wardenpartshort$ when she mentioned the missing component.": {
+      "pl": "Mówi, że <i>technicznie rzecz biorąc,</i> wspominając o brakującym elemencie, nie miała na myśli $wardenpartshort$.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail2",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2"
+      ],
+      "category": "dialog"
+    },
+    "She says it was 9:30 PM when she finally got sick of his nonsense, except she didn't say \"nonsense,\" she used a very naughty word.": {
+      "pl": "Mówi, że była 21:30, kiedy w końcu miała dość jego bzdur, tylko nie powiedziała „bzdur”, lecz użyła bardzo brzydkiego słowa.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "She says it wouldn't be any kind of secret project if she told you, now would it?": {
+      "pl": "Mówi, że gdyby ci powiedziała, nie byłby to żaden tajny projekt, prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2b"
+      ],
+      "category": "dialog"
+    },
+    "She says she categorically, definitionally, emphatically, beyond a shadow of a doubt did not steal the pocketwatch. For what it's worth, I've never known my ferrets to lie. That's a <i>different</i> part of Hell.": {
+      "pl": "Mówi, że kategorycznie, definicyjnie, stanowczo i bez cienia wątpliwości nie ukradła zegarka. Tak czy inaczej nigdy nie znałem fretki, która by kłamała. Od tego jest <i>inna</i> część Piekła.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1"
+      ],
+      "category": "dialog"
+    },
+    "She says she made a point of checking the exact time when she heard the noise in case a crime had happened and she needed to provide evidence. What good detective instincts! I'm so proud of my kids.": {
+      "pl": "Mówi, że specjalnie sprawdziła dokładną godzinę po usłyszeniu hałasu, na wypadek gdyby doszło do przestępstwa i trzeba było przedstawić dowody. Co za świetny instynkt detektywistyczny! Jestem taki dumny z moich dzieci.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi4"
+      ],
+      "category": "dialog"
+    },
+    "She says that's correct.": {
+      "pl": "Mówi, że to prawda.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.projectreveal"
+      ],
+      "category": "dialog"
+    },
+    "She says they might not take presents seriously where <i>you</i> come from, but she swore an oath on the graves of her ancestors that she would rather die than spoil a surprise gift.": {
+      "pl": "Mówi, że tam, skąd <i>pochodzisz,</i> możecie nie traktować prezentów poważnie, ale ona przysięgła na groby przodków, że wolałaby umrzeć, niż zepsuć niespodziankę.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal3"
+      ],
+      "category": "dialog"
+    },
+    "She says yes, he had his adorable little hat, his adorable little badge, his adorable little vest she made out of a tormented oak leaf, all the adorable little accoutrements.": {
+      "pl": "Mówi, że tak: miał swój przeuroczy kapelusik, przeuroczą odznakę, przeuroczą kamizelkę, którą zrobiła z liścia udręczonego dębu, i wszystkie przeurocze drobiazgi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6b"
+      ],
+      "category": "dialog"
+    },
+    "She says yes, he was.": {
+      "pl": "Mówi, że tak.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "She says yes, I was sitting at my desk with my back to the window and everything seemed to be in place. This exactly matches my recollection of 12:03 AM: I was sitting there having a normal one, reading a book. Didn't even hear the thump in question, but my ears aren't as sharp as Mitzi's, so that's not surprising.": {
+      "pl": "Mówi, że tak, siedziałem przy biurku plecami do okna i wszystko wyglądało na swoim miejscu. To dokładnie zgadza się z moimi wspomnieniami z 00:03: siedziałem spokojnie i czytałem książkę. Nie usłyszałem nawet wspomnianego huku, ale nie mam tak dobrego słuchu jak Mitzi, więc nic dziwnego.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi5"
+      ],
+      "category": "dialog"
+    },
+    "Show me a ferret's statement.": {
+      "pl": "Pokaż mi zeznanie fretki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.interrogateopts"
+      ],
+      "category": "dialog"
+    },
+    "Show me Mitzi's.": {
+      "pl": "Pokaż mi Mitzi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.statements"
+      ],
+      "category": "dialog"
+    },
+    "Show me those statements.": {
+      "pl": "Pokaż mi te zeznania.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "So here's what I think you did. I think you waited outside Mitzi's tree, like in a bush or something, for an opportunity to steal those. Which presented itself at 12:03 AM when $candytakername$ made a thump outside the Warden's window and Mitzi left her tree to investigate.": {
+      "pl": "Oto co moim zdaniem zrobiłeś. Czekałeś przed drzewem Mitzi, na przykład w krzakach, na okazję do kradzieży. Nadarzyła się o 00:03, kiedy $candytakername$ wywołał huk za oknem Nadzorcy, a Mitzi wyszła z drzewa, żeby to zbadać.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal4"
+      ],
+      "category": "dialog"
+    },
+    "So Kevin was helping you do normal ferret things?": {
+      "pl": "Czyli Kevin pomagał ci robić zwyczajne fretkowe rzeczy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "So she's positive it was 12:03 AM, because she checked the time. Got it.": {
+      "pl": "Czyli jest pewna, że była 00:03, bo sprawdziła czas. Jasne.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi4"
+      ],
+      "category": "dialog"
+    },
+    "So whatever this thump was, it didn't disturb you. Got it.": {
+      "pl": "Czyli ten łomot cię nie obudził. Jasne.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi5"
+      ],
+      "category": "dialog"
+    },
+    "So why were you so secretive about it?": {
+      "pl": "To czemu trzymałeś to w tajemnicy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal3",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal2"
+      ],
+      "category": "dialog"
+    },
+    "So you went to check on the Warden and found him alone at his desk looking completely unharmed?": {
+      "pl": "Czyli poszłaś sprawdzić, co z Nadzorcą, i znalazłaś go samego przy biurku, zupełnie nietkniętego?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi5"
+      ],
+      "category": "dialog"
+    },
+    "So, Kevin. When did you drop the Warden's tiny hat under your sulky tree?": {
+      "pl": "No dobrze, Kevin. Kiedy upuściłeś malutki kapelusz Nadzorcy pod swoim naburmuszonym drzewem?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin3"
+      ],
+      "category": "dialog"
+    },
+    "So, Mitzi. You and Kevin were working on a secret project together, correct?": {
+      "pl": "No dobrze, Mitzi. Pracowaliście z Kevinem nad tajnym projektem, zgadza się?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "So, Mitzi. You checked the time when you heard the thump, and the clock said 12:03 AM, correct?": {
+      "pl": "No dobrze, Mitzi. Sprawdziłaś godzinę po usłyszeniu huku, a zegar wskazywał 00:03, zgadza się?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "Someone making a miniature of the Warden": {
+      "pl": "Ktoś robi miniaturę Nadzorcy",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "Something from Kevin's statement.": {
+      "pl": "Coś z zeznania Kevina.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2opts"
+      ],
+      "category": "dialog"
+    },
+    "Something from Mitzi's statement.": {
+      "pl": "Coś z zeznania Mitzi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2opts"
+      ],
+      "category": "dialog"
+    },
+    "Something from our investigation notes.": {
+      "pl": "Coś z naszych notatek śledczych.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1opts",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2opts"
+      ],
+      "category": "dialog"
+    },
+    "Sorry! Sorry. You were saying?": {
+      "pl": "Przepraszam! Przepraszam. Co mówiłeś?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal"
+      ],
+      "category": "dialog"
+    },
+    "Sulked in Sulky Tree after Mitzi asked him to leave": {
+      "pl": "Smutniał w Sulky Tree po tym, jak Mitzi kazała mu wyjść",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1kevin",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2kevin"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing! I've got one right... oh, that's weird.": {
+      "pl": "Jasne! Mam jedną dokładnie... och, dziwne.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.badge"
+      ],
+      "category": "dialog"
+    },
+    "Sure thing, Junior Detective! Whose statement do you want to see?": {
+      "pl": "Oczywiście, Młodszy Detektywie! Czyje zeznanie chcesz zobaczyć?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.statements"
+      ],
+      "category": "dialog"
+    },
+    "Sure, no problem. What <i>do</i> you want as your first piece of connecting evidence?": {
+      "pl": "Jasne, żaden problem. Jaki dowód <i>chcesz</i> połączyć jako pierwszy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1back"
+      ],
+      "category": "dialog"
+    },
+    "Sure, no problem. What <i>do</i> you want as your second piece of connecting evidence?": {
+      "pl": "Jasne, żaden problem. Jaki dowód <i>chcesz</i> połączyć jako drugi?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2back"
+      ],
+      "category": "dialog"
+    },
+    "Sure. You were upset. I get it.": {
+      "pl": "Jasne. Byłeś zdenerwowany. Rozumiem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal3"
+      ],
+      "category": "dialog"
+    },
+    "Teach me how to detective.": {
+      "pl": "Naucz mnie detektywować.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "Thanks! I'm off to keep saving the multiverse now.": {
+      "pl": "Dzięki! Lecę ratować multiwersum.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal8"
+      ],
+      "category": "dialog"
+    },
+    "That miniature Warden was a key piece of your project, right, Mitzi?": {
+      "pl": "Ta miniatura Nadzorcy była kluczowym elementem twojego projektu, prawda, Mitzi?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal2"
+      ],
+      "category": "dialog"
+    },
+    "That's <i>very</i> interesting.": {
+      "pl": "To jest <i>bardzo</i> interesujące.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2"
+      ],
+      "category": "dialog"
+    },
+    "That's a roger!": {
+      "pl": "Przyjąłem!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.presskevin1"
+      ],
+      "category": "dialog"
+    },
+    "That's about it! Just let me know if you want to see the statements or interrogate the ferrets.": {
+      "pl": "To właściwie wszystko! Daj znać, jeśli chcesz przejrzeć zeznania albo przesłuchać fretki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.lesson"
+      ],
+      "category": "dialog"
+    },
+    "That's another clue we'll need to connect with something...": {
+      "pl": "To kolejna wskazówka, którą trzeba połączyć z czymś...",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "That's exactly what you used to check the time, isn't it, Mitzi? The Warden's pocketwatch?": {
+      "pl": "Właśnie tym sprawdzałaś godzinę, prawda, Mitzi? Zegarkiem kieszonkowym Nadzorcy?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal2"
+      ],
+      "category": "dialog"
+    },
+    "That's right, she says.": {
+      "pl": "Zgadza się, mówi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "The first piece of evidence I want to connect is $connect1text$": {
+      "pl": "Pierwszy dowód, który chcę połączyć, to $connect1text$",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2"
+      ],
+      "category": "dialog"
+    },
+    "The guy on the bench": {
+      "pl": "Facet na ławce",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.start"
+      ],
+      "category": "dialog"
+    },
+    "the miniature hat": {
+      "pl": "miniaturowy kapelusz",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealbadge"
+      ],
+      "category": "dialog"
+    },
+    "the miniature Warden badge": {
+      "pl": "miniaturowa odznaka Nadzorcy",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealhat"
+      ],
+      "category": "dialog"
+    },
+    "the miniature Warden hat": {
+      "pl": "miniaturowy kapelusz Nadzorcy",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealhat"
+      ],
+      "category": "dialog"
+    },
+    "The park clock is currently stopped at 10:15, but I'm not sure when that happened.": {
+      "pl": "Zegar w parku stoi na 10:15, ale nie wiem, kiedy to się stało.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "The park clock stopped working at 10:15 PM last night when its gears were stolen by muscular ferrets.": {
+      "pl": "Zegar w parku przestał działać o 22:15 wczoraj, gdy muskularne fretki ukradły jego koła zębate.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "the tiny badge": {
+      "pl": "malutka odznaka",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealbadge"
+      ],
+      "category": "dialog"
+    },
+    "the tiny hat": {
+      "pl": "malutki kapelusz",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealhat"
+      ],
+      "category": "dialog"
+    },
+    "the Warden's tiny warden badge": {
+      "pl": "malutka odznaka nadzorcy należąca do Nadzorcy",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealbadge"
+      ],
+      "category": "dialog"
+    },
+    "The watch went missing sometime between 6 PM yesterday and 6 AM this morning. The Warden did not see the culprit, but Mitzi & Kevin had opportunity and are clearly hiding something.": {
+      "pl": "Zegarek zniknął między 18:00 wczoraj a 6:00 dziś rano. Nadzorca nie widział sprawcy, ale Mitzi i Kevin mieli okazję i wyraźnie coś ukrywają.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.notes"
+      ],
+      "category": "dialog"
+    },
+    "Think you could help me crack the case? I'd give you a crash course in detectivin'.": {
+      "pl": "Pomożesz mi rozwiązać sprawę? Zrobiłbym ci przyspieszony kurs detektywistyki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro2a"
+      ],
+      "category": "dialog"
+    },
+    "This \"component\" you were missing, it wouldn't have been $wardenpart$, would it?": {
+      "pl": "Ten brakujący „element” to nie był przypadkiem $wardenpart$?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal"
+      ],
+      "category": "dialog"
+    },
+    "Uh, I'll bite. What's \"skrak skra?\"": {
+      "pl": "Eee, ugryję. Co to „skrak skra?”",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominirevealfail",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.autominireveal"
+      ],
+      "category": "dialog"
+    },
+    "Uh, yeah, have him do that.": {
+      "pl": "Eee, tak, niech to zrobi.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "Uh... I'm not quite following your logic there, Junior Detective.": {
+      "pl": "Uh... Nie do końca nadążam za twoją logiką, Młodszy Detektywie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connectfail"
+      ],
+      "category": "dialog"
+    },
+    "Very exciting! What's the first piece of evidence you'd like to connect?": {
+      "pl": "Bardzo ekscytujące! Jaki jest pierwszy dowód, który chcesz połączyć?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect"
+      ],
+      "category": "dialog"
+    },
+    "Very moving. So, Kevin. Can I assume it was you who dropped this tiny hat that I found on the ground under your Sulky Tree?": {
+      "pl": "Bardzo poruszające. Więc Kevinie. Czy mogę założyć, że to ty upuściłeś ten mały kapelusz, który znalazłem na ziemi pod twoim Sulky Tree?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "Warden, these two facts together prove that you can teach a horse to do bare-knuckled boxing, but that doesn't mean it has knuckles.": {
+      "pl": "Nadzorco, te dwa fakty razem dowodzą, że można nauczyć konia boksowania na golasa, ale to nie znaczy, że ma knykcie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connectfail"
+      ],
+      "category": "dialog"
+    },
+    "Warden, you kept a miniature version of your badge in your desk, and it's not there anymore, is it?": {
+      "pl": "Nadzorco, trzymałeś w biurku miniaturową wersję odznaki i już jej tam nie ma, prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.minireveal"
+      ],
+      "category": "dialog"
+    },
+    "Watch taken 6 PM-6 AM, Kevin & Mitzi hiding something": {
+      "pl": "Nagranie zrobione 18:00–6:00, Kevin i Mitzi coś ukrywają",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1notes"
+      ],
+      "category": "dialog"
+    },
+    "Watch taken between dusk & dawn, Kevin & Mitzi hiding something": {
+      "pl": "Nagranie między zmierzchem a świtem, Kevin i Mitzi coś ukrywają",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2notes"
+      ],
+      "category": "dialog"
+    },
+    "We also need to <b>interrogate</b> them. I've taken both of their sworn statements. If there's something you want more information about, you can <b>press</b> the point. If you find a contradiction, or two facts that seem to go together, you can <b>connect</b> the evidence.": {
+      "pl": "Musimy też <b>ich przesłuchać</b>. Zebrałem ich zeznania. Jeśli jest coś, o czym chcesz więcej informacji, <b>naciśnij</b> punkt. Jeśli znajdziesz sprzeczność, albo dwa fakty, które wydają się być razem, <b>możesz połączyć</b> dowody.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.lesson"
+      ],
+      "category": "dialog"
+    },
+    "We're both just accepting the implication that you speak ferret, right?": {
+      "pl": "Oboje po prostu akceptujemy domniemanie, że mówisz po fretkowemu, prawda?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.opts"
+      ],
+      "category": "dialog"
+    },
+    "We're really putting the pieces together now!": {
+      "pl": "Naprawdę składamy teraz kawałki układanki!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.hatdropreveal"
+      ],
+      "category": "dialog"
+    },
+    "Welcome back, Junior Detective! What's next on the agenda?": {
+      "pl": "Witaj z powrotem, młody detektywie! Co dalej?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.welcomeback"
+      ],
+      "category": "dialog"
+    },
+    "Well, that's a new wrinkle.": {
+      "pl": "No, to nowy zwrot akcji.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "Well, the first thing you could do would be to look around the park, see if you find anything. I'd do it myself, but I can't leave these two ferrets alone. They're such slippery little goofbags.": {
+      "pl": "Pierwszą rzeczą, jaką mógłbyś zrobić, to rozejrzeć się po parku i zobaczyć, czy coś znajdziesz. Zrobiłbym to sam, ale nie mogę zostawić tych dwóch fretek w spokoju. To takie śliskie dupki.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.lesson"
+      ],
+      "category": "dialog"
+    },
+    "Well, you don't have to start saying it too! Good gravy, my poor virgin ears.": {
+      "pl": "Nie musisz tego mówić! Dobry sos, moje biedne dziewicze uszy.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "Well, you know what they say, the first rule of Tautology Club is the first rule of Tautology Club.": {
+      "pl": "Wiesz, co mówią, pierwsza zasada klubu tautologicznego to pierwsza zasada klubu tautologicznego.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.tautology"
+      ],
+      "category": "dialog"
+    },
+    "Went back to tree because Warden seemed fine": {
+      "pl": "Wróciła do drzewa, bo Nadzorca wydawał się w porządku",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "What kind of secret project was Kevin helping you with?": {
+      "pl": "W jakim tajnym projekcie pomagał ci Kevin?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi2b"
+      ],
+      "category": "dialog"
+    },
+    "What's the trouble?": {
+      "pl": "Na czym polega kłopot?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.intro"
+      ],
+      "category": "dialog"
+    },
+    "When did you notice the pocketwatch was missing?": {
+      "pl": "Kiedy zauważyłeś zaginięcie zegarka?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi1b"
+      ],
+      "category": "dialog"
+    },
+    "When did you yell at Kevin to leave you alone?": {
+      "pl": "Kiedy krzyczałaś na Kevina, żeby zostawił cię w spokoju?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi3"
+      ],
+      "category": "dialog"
+    },
+    "Which ferret would you like to press for more information?": {
+      "pl": "Którą fretkę chciałbyś nacisnąć, aby uzyskać więcej informacji?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.press"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, \"skurk\" is right.": {
+      "pl": "Tak, \"skurk\" ma rację.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockreveal"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I had a feeling.": {
+      "pl": "Ta, miałem przeczucie.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal5"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I'm not really sure what I was going for there myself.": {
+      "pl": "Tak, nie jestem pewien, co tam robiłem.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connectfail"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, me too!": {
+      "pl": "Ja też!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect3"
+      ],
+      "category": "dialog"
+    },
+    "Yeah... you don't have to translate that. As I was saying! It's become very clear who the culprit is, and that's... Kevin!": {
+      "pl": "Nie musisz tego tłumaczyć. Jak mówiłem! Stało się jasne, kto jest winowajcą. Kevin!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal2"
+      ],
+      "category": "dialog"
+    },
+    "Yelled at Kevin for doing a bad job": {
+      "pl": "Nakrzyczała na Kevina za kiepską robotę",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect1mitzi",
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.connect2mitzi"
+      ],
+      "category": "dialog"
+    },
+    "Yes, of course. That's why Mitzi said she \"borrowed\" the pocketwatch. She intended to give it back to you as part of the diorama!": {
+      "pl": "Tak, oczywiście. Dlatego Mitzi powiedziała, że pożyczyła kieszonkowy zegarek. Chciała ci go oddać jako część dioramy!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "Yes. Cool. Excellent use of my time, this whole thing.": {
+      "pl": "Tak. Super. Doskonałe wykorzystanie mojego czasu, cała ta impreza.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal6"
+      ],
+      "category": "dialog"
+    },
+    "Yes. We'll need to keep connecting evidence until we figure out who.": {
+      "pl": "Tak. Musimy połączyć dowody, dopóki nie dowiemy się kto.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.clockwatchreveal"
+      ],
+      "category": "dialog"
+    },
+    "You could make your own diorama out of pine cones or whatever, but you were missing two key components: the tiny figure of the Warden, and his pocketwatch.": {
+      "pl": "Możesz zrobić własną dioramę z szyszek sosnowych, ale brakowało ci dwóch kluczowych elementów: malutkiej figury Nadzorcy i jego zegarka.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.culpritreveal4"
+      ],
+      "category": "dialog"
+    },
+    "You do? Please tell me, I'm so very curious!": {
+      "pl": "Naprawdę? Proszę, powiedz mi, jestem bardzo ciekawy!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.miniprojectreveal"
+      ],
+      "category": "dialog"
+    },
+    "You pick up the tiny object and inspect it.": {
+      "pl": "Podnosisz malutki przedmiot i oglądasz go.",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_sadtree_gethat.start"
+      ],
+      "category": "dialog"
+    },
+    "You said the pocketwatch was missing, and so was something else you needed for the project you and Kevin had been working on. What was the \"something else?\"": {
+      "pl": "Mówiłeś, że nie ma zegarka na kieszonkę, i było jeszcze coś, czego potrzebowałeś do projektu, nad którym pracowałeś z Kevinem. Co to było?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi6"
+      ],
+      "category": "dialog"
+    },
+    "You say it was 12:03 exactly when you heard the thump? Are you positive?": {
+      "pl": "Mówisz, że było dokładnie 12:03, kiedy usłyszałaś uderzenie? Jesteś pewna?",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.pressmitzi4"
+      ],
+      "category": "dialog"
+    },
+    "You spot a tiny object at the base of the sad-looking tree. A clue, probably!": {
+      "pl": "Dostrzegasz malutki przedmiot u podstawy smutno wyglądającego drzewa. Pewnie wskazówka!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_interior_sadtree.findhat"
+      ],
+      "category": "dialog"
+    },
+    "You're welcome!": {
+      "pl": "Proszę bardzo!",
+      "contexts": [
+        "data.json:scripts.sinzonethiefin_wardenoffice_warden.thanksforlesson",
+        "data.json:scripts.ui_button_charsheet.start"
+      ],
+      "category": "dialog"
+    }
+  }
+}

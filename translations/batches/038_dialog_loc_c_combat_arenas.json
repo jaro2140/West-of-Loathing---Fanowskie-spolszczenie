@@ -1,0 +1,5062 @@
+{
+  "_meta": {
+    "id": 38,
+    "name": "dialog_loc_c_combat_arenas",
+    "description": "Dialogi przypisane do lokacji \"Combat Arenas\" (waa: c).",
+    "status": "done",
+    "count": 697
+  },
+  "strings": {
+    " =$baseattack$+$bonus$+(me.moxie-target.moxie)+me.rangedbonus": {
+      "pl": " =$baseattack$+$bonus$+(me.moxie-target.moxie)+me.rangedbonus",
+      "contexts": [
+        "data.json:scripts.c_oiler2a.start"
+      ],
+      "category": "dialog"
+    },
+    " =$baseattack$+(me.moxie-target.moxie)+me.rangedbonus": {
+      "pl": " =$baseattack$+(me.moxie-target.moxie)+me.rangedbonus",
+      "contexts": [
+        "data.json:scripts.c_oiler2.start"
+      ],
+      "category": "dialog"
+    },
+    " =rand(1,4)": {
+      "pl": " =rand(1,4)",
+      "contexts": [
+        "data.json:scripts.c_chudfricker_ai.miss"
+      ],
+      "category": "dialog"
+    },
+    " =rand(1,8)": {
+      "pl": " =rand(1,8)",
+      "contexts": [
+        "data.json:scripts.c_ai_buffalobill.start",
+        "data.json:scripts.c_basic_ranged.aftersilver",
+        "data.json:scripts.c_bulletdense.start",
+        "data.json:scripts.c_bulletfire.start",
+        "data.json:scripts.c_bulletpoison.start"
+      ],
+      "category": "dialog"
+    },
+    " =rand(player.gear.pistol.damagelow, player.gear.pistol.damagehigh)": {
+      "pl": " =rand(player.gear.pistol.damagelow, player.gear.pistol.damagehigh)",
+      "contexts": [
+        "data.json:scripts.c_bulletdense.start",
+        "data.json:scripts.c_bulletfire.start",
+        "data.json:scripts.c_bulletpoison.start",
+        "data.json:scripts.c_oiler1.start",
+        "data.json:scripts.c_oiler1a.start"
+      ],
+      "category": "dialog"
+    },
+    " player.gear.pistol.damagehigh": {
+      "pl": " player.gear.pistol.damagehigh",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.start",
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletfire_desc.start",
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_bulletsilver.start"
+      ],
+      "category": "dialog"
+    },
+    " player.gear.pistol.damagelow": {
+      "pl": " player.gear.pistol.damagelow",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.start",
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletfire_desc.start",
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_bulletsilver.start"
+      ],
+      "category": "dialog"
+    },
+    " player.gear.weapon.damagehigh": {
+      "pl": " player.gear.weapon.damagehigh",
+      "contexts": [
+        "data.json:scripts.c_basic_melee.start",
+        "data.json:scripts.c_basic_melee_desc.start"
+      ],
+      "category": "dialog"
+    },
+    " player.gear.weapon.damagelow": {
+      "pl": " player.gear.weapon.damagelow",
+      "contexts": [
+        "data.json:scripts.c_basic_melee.start",
+        "data.json:scripts.c_basic_melee_desc.start"
+      ],
+      "category": "dialog"
+    },
+    " rand(player.gear.weapon.damagelow, player.gear.weapon.damagehigh)": {
+      "pl": " rand(player.gear.weapon.damagelow, player.gear.weapon.damagehigh)",
+      "contexts": [
+        "data.json:scripts.c_onetwothree.looptop"
+      ],
+      "category": "dialog"
+    },
+    "$damageamount$ HP": {
+      "pl": "$damageamount$ HP",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.start",
+        "data.json:scripts.c_damage_clownegg.start"
+      ],
+      "category": "dialog"
+    },
+    "$logmessage$": {
+      "pl": "$logmessage$",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.start"
+      ],
+      "category": "dialog"
+    },
+    "%@speakbucket@%": {
+      "pl": "%@speakbucket@%",
+      "contexts": [
+        "data.json:scripts.c_mob_speakdamage.start"
+      ],
+      "category": "dialog"
+    },
+    "%goblin_sentence%": {
+      "pl": "%goblin_sentence%",
+      "contexts": [
+        "data.json:scripts.c_mob_beampunch.start",
+        "data.json:scripts.re_goblinf1.start",
+        "data.json:scripts.re_gobling1.comm"
+      ],
+      "category": "dialog"
+    },
+    "%house_mrsgunbarks%": {
+      "pl": "%house_mrsgunbarks%",
+      "contexts": [
+        "data.json:scripts.c_house_mrsgun.start"
+      ],
+      "category": "dialog"
+    },
+    "%house_teagirlbark%": {
+      "pl": "%house_teagirlbark%",
+      "contexts": [
+        "data.json:scripts.c_house_teaghost.talk",
+        "data.json:buckets.inkwell_birdquip[22]"
+      ],
+      "category": "dialog"
+    },
+    "%pete_peptalk%": {
+      "pl": "%pete_peptalk%",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk.start"
+      ],
+      "category": "dialog"
+    },
+    "+ $heal$ HP": {
+      "pl": "+ $heal$ HP",
+      "contexts": [
+        "data.json:scripts.c_mobai_cortadaribs.boost"
+      ],
+      "category": "dialog"
+    },
+    "+$amt$ HP": {
+      "pl": "+$amt$ HP",
+      "contexts": [
+        "data.json:scripts.c_housemedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "+$amt$ to All Stats": {
+      "pl": "+$amt$ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost.start",
+        "data.json:scripts.c_mobai_cattleroyalequeen.dobuffs",
+        "data.json:scripts.c_pete_peptalk.start"
+      ],
+      "category": "dialog"
+    },
+    "+$buffamount$ Moxie": {
+      "pl": "+$buffamount$ Ikry",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.mox"
+      ],
+      "category": "dialog"
+    },
+    "+$buffamount$ Muscle": {
+      "pl": "+$buffamount$ Mięśni",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.mus"
+      ],
+      "category": "dialog"
+    },
+    "+$buffamount$ Mysticality": {
+      "pl": "+$buffamount$ Mistycyzmu",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.myst"
+      ],
+      "category": "dialog"
+    },
+    "+$buffamount$ to All Stats": {
+      "pl": "+$buffamount$ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.all"
+      ],
+      "category": "dialog"
+    },
+    "+$dmg$ HP": {
+      "pl": "+$dmg$ HP",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_healall.meanmo"
+      ],
+      "category": "dialog"
+    },
+    "+$heal$ HP": {
+      "pl": "+$heal$ HP",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine.start",
+        "data.json:scripts.c_mobai_hedgemyst1.start"
+      ],
+      "category": "dialog"
+    },
+    "+$healamount$ HP": {
+      "pl": "+$healamount$ HP",
+      "contexts": [
+        "data.json:scripts.c_alice_patchup.start",
+        "data.json:scripts.c_item_snakeliver.start"
+      ],
+      "category": "dialog"
+    },
+    "+$healval$ HP": {
+      "pl": "+$healval$ HP",
+      "contexts": [
+        "data.json:scripts.c_mob_healtarget.start"
+      ],
+      "category": "dialog"
+    },
+    "+$inc$ to All Stats": {
+      "pl": "+$inc$ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_strongmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "+$poisonamt$ Poison": {
+      "pl": "+$poisonamt$ Trucizny",
+      "contexts": [
+        "data.json:scripts.c_basicvenom.start"
+      ],
+      "category": "dialog"
+    },
+    "+1 Action Point": {
+      "pl": "+1 Punkt Akcji",
+      "contexts": [
+        "data.json:scripts.c_smellingsalts.start"
+      ],
+      "category": "dialog"
+    },
+    "+1 AP": {
+      "pl": "+1 PA",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowcultist.start"
+      ],
+      "category": "dialog"
+    },
+    "+1 AP (first-round bonus)": {
+      "pl": "+1 PA (bonus za pierwszą rundę)",
+      "contexts": [
+        "data.json:scripts.c_player_wakeup.afteroffhand"
+      ],
+      "category": "dialog"
+    },
+    "+10 HP": {
+      "pl": "+10 HP",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid.start",
+        "data.json:scripts.c_cowgame_armymedic.single"
+      ],
+      "category": "dialog"
+    },
+    "+10 Moxie": {
+      "pl": "+10 Ikry",
+      "contexts": [
+        "data.json:scripts.c_mob_moxieboost.start"
+      ],
+      "category": "dialog"
+    },
+    "+2 Action Points": {
+      "pl": "+2 Punkty Akcji",
+      "contexts": [
+        "data.json:scripts.c_locoweed.start"
+      ],
+      "category": "dialog"
+    },
+    "+20 HP": {
+      "pl": "+20 HP",
+      "contexts": [
+        "data.json:scripts.c_ai_elvdrone2.start",
+        "data.json:scripts.c_mob_elvheal.start"
+      ],
+      "category": "dialog"
+    },
+    "+3 Moxie": {
+      "pl": "+3 Ikry",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mox"
+      ],
+      "category": "dialog"
+    },
+    "+3 Muscle": {
+      "pl": "+3 Mięśni",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mus",
+        "data.json:scripts.c_saintbeefus.start"
+      ],
+      "category": "dialog"
+    },
+    "+3 Mysticality": {
+      "pl": "+3 Mistycyzmu",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.myst",
+        "data.json:scripts.c_mobai_cortadaskull.boost"
+      ],
+      "category": "dialog"
+    },
+    "+3 to All Stats": {
+      "pl": "+3 do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_mobai_robertocultist.selfbuff",
+        "data.json:scripts.c_mobai_sweetmyst.boost",
+        "data.json:scripts.c_mob_buffskeleton.start"
+      ],
+      "category": "dialog"
+    },
+    "+5 HP": {
+      "pl": "+5 HP",
+      "contexts": [
+        "data.json:scripts.c_basicmedicine.start",
+        "data.json:scripts.c_cowgame_armymedic.each"
+      ],
+      "category": "dialog"
+    },
+    "+@baseaoespookydamage@ HP!": {
+      "pl": "+@baseaoespookydamage@ HP!",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell3.healo"
+      ],
+      "category": "dialog"
+    },
+    "+@me.hpregen@ HP (Regen)": {
+      "pl": "+@me.hpregen@ HP (Regeneracja)",
+      "contexts": [
+        "data.json:scripts.c_player_wakeup.start"
+      ],
+      "category": "dialog"
+    },
+    "+@mystboost@ Mysticality": {
+      "pl": "+@mystboost@ Mistycyzmu",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_boost.pop"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.armorboost@ Armor!": {
+      "pl": "+@skill.armorboost@ Pancerza!",
+      "contexts": [
+        "data.json:scripts.c_beanshield.start"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.healamount@ HP": {
+      "pl": "+@skill.healamount@ HP",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal.start",
+        "data.json:scripts.c_firstaid.start"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.lifesteal@ HP": {
+      "pl": "+@skill.lifesteal@ HP",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel.start"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.muscleboost@ Muscle": {
+      "pl": "+@skill.muscleboost@ Mięśni",
+      "contexts": [
+        "data.json:scripts.c_beefup.start"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.mysticalityboost@ Mysticality": {
+      "pl": "+@skill.mysticalityboost@ Mistycyzmu",
+      "contexts": [
+        "data.json:scripts.c_usetheoldbean.start"
+      ],
+      "category": "dialog"
+    },
+    "+@skill.statgain@ Mysticality -@skill.statloss@ Muscle/Moxie": {
+      "pl": "+@skill.statgain@ Mistycyzmu -@skill.statloss@ Mięśni/Ikry",
+      "contexts": [
+        "data.json:scripts.c_darkhowdy.start"
+      ],
+      "category": "dialog"
+    },
+    "+me.hpregen HP (Regeneration)": {
+      "pl": "+me.hpregen HP (Regeneracja)",
+      "contexts": [
+        "data.json:scripts.c_hpregen.start"
+      ],
+      "category": "dialog"
+    },
+    "-$amt$ to All Stats": {
+      "pl": "-$amt$ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_gary_sporeblast.moo",
+        "data.json:scripts.c_mobai_hedgemoxie2.delevel",
+        "data.json:scripts.c_mobai_smallspider_dancer.delevel",
+        "data.json:scripts.c_wanderspider_myst.delevel"
+      ],
+      "category": "dialog"
+    },
+    "-$ap$ AP": {
+      "pl": "-$ap$ PA",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.tuba_takeap"
+      ],
+      "category": "dialog"
+    },
+    "-$damageamount$ HP": {
+      "pl": "-$damageamount$ HP",
+      "contexts": [
+        "data.json:scripts.c_house_food_takedamage.start"
+      ],
+      "category": "dialog"
+    },
+    "-$pamt$<pct> to All Stats": {
+      "pl": "-$pamt$<pct> do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_mob_itchingpowder.delevel"
+      ],
+      "category": "dialog"
+    },
+    "-$statreduce$ to All Stats": {
+      "pl": "-$statreduce$ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_kerosone.start"
+      ],
+      "category": "dialog"
+    },
+    "-$suckap$ AP": {
+      "pl": "-$suckap$ PA",
+      "contexts": [
+        "data.json:scripts.c_mobai_bigspider_squirter.squirt"
+      ],
+      "category": "dialog"
+    },
+    "-1 AP!": {
+      "pl": "-1 PA!",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemuscle1.start",
+        "data.json:scripts.c_mobai_hexrockrumbler.start"
+      ],
+      "category": "dialog"
+    },
+    "-2 to all stats!": {
+      "pl": "-2 do wszystkich statystyk!",
+      "contexts": [
+        "data.json:scripts.c_mob_saltcloud.start"
+      ],
+      "category": "dialog"
+    },
+    "-25<pct> Stats!": {
+      "pl": "-25<pct> Statystyk!",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.trombone_lowerstats_aside"
+      ],
+      "category": "dialog"
+    },
+    "-25<pct> to All Stats": {
+      "pl": "-25<pct> do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_spiderweb.start"
+      ],
+      "category": "dialog"
+    },
+    "-3 All Stats": {
+      "pl": "-3 do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_kerosene.handletarget"
+      ],
+      "category": "dialog"
+    },
+    "-3 to All Stats": {
+      "pl": "-3 do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_mob_spookydance.start"
+      ],
+      "category": "dialog"
+    },
+    "-3 to All Stats!": {
+      "pl": "-3 do Wszystkich statystyk!",
+      "contexts": [
+        "data.json:scripts.c_mobai_robertocultist.debuff"
+      ],
+      "category": "dialog"
+    },
+    "-75% to all Stats": {
+      "pl": "-75% do wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_suckray.start"
+      ],
+      "category": "dialog"
+    },
+    "-@damageap@ AP": {
+      "pl": "-@damageap@ PA",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start"
+      ],
+      "category": "dialog"
+    },
+    "-@debuffonhit@ Moxie": {
+      "pl": "-@debuffonhit@ Ikry",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.debuff"
+      ],
+      "category": "dialog"
+    },
+    "-@debuffonhit@ Muscle": {
+      "pl": "-@debuffonhit@ Mięśni",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.debuff"
+      ],
+      "category": "dialog"
+    },
+    "-@debuffonhit@ Mysticality": {
+      "pl": "-@debuffonhit@ Mistycyzmu",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.debuff"
+      ],
+      "category": "dialog"
+    },
+    "-@debuffonhit@ to All Stats": {
+      "pl": "-@debuffonhit@ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.debuff"
+      ],
+      "category": "dialog"
+    },
+    "-@skill.delevelamount@ to All Stats": {
+      "pl": "-@skill.delevelamount@ do Wszystkich statystyk",
+      "contexts": [
+        "data.json:scripts.c_butterbean.start"
+      ],
+      "category": "dialog"
+    },
+    "-@skill.moxreduce@ Moxie": {
+      "pl": "-@skill.moxreduce@ Ikry",
+      "contexts": [
+        "data.json:scripts.c_badmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "-@skill.musreduce@ Muscle": {
+      "pl": "-@skill.musreduce@ Mięśni",
+      "contexts": [
+        "data.json:scripts.c_moo.moo"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: @skill.name@</b>": {
+      "pl": "<b>Akcja: @skill.name@</b>",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start",
+        "data.json:scripts.c_balloonclown_createanimal_desc.start",
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: @skill.name@</b> (costs @skill.apcost@ AP)": {
+      "pl": "<b>Akcja: @skill.name@</b> (koszt: @skill.apcost@ PA)",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start",
+        "data.json:scripts.c_balloonclown_createanimal_desc.start",
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: @skill.name@</b> (costs @skill.apcost@ AP, usable once per fight)": {
+      "pl": "<b>Akcja: @skill.name@</b> (koszt: @skill.apcost@ PA, raz na walkę)",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start",
+        "data.json:scripts.c_balloonclown_createanimal_desc.start",
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Beta Blast (usable once per fight)</b>": {
+      "pl": "<b>Akcja: Wybuch beta (raz na walkę)</b>",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_suckray_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Bonesaw</b>": {
+      "pl": "<b>Akcja: Piła kostna</b>",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Build Cover (usable once per fight)</b>": {
+      "pl": "<b>Akcja: Budowa osłony (raz na walkę)</b>",
+      "contexts": [
+        "data.json:scripts.c_susie_buildcover_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Crack Shot</b>": {
+      "pl": "<b>Akcja: Celny strzał</b>",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Dark Whisperin' (usable once per fight)</b>": {
+      "pl": "<b>Akcja: Mroczne szeptanie (raz na walkę)</b>",
+      "contexts": [
+        "data.json:scripts.c_pete_darkwhisper_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Enlightenment Field</b>": {
+      "pl": "<b>Akcja: Pole oświecenia</b>",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Lantern Bash</b>": {
+      "pl": "<b>Akcja: Uderzenie latarnią</b>",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Lasso (usable once per fight)</b>": {
+      "pl": "<b>Akcja: Lasso (raz na walkę)</b>",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Medicinal Gas</b>": {
+      "pl": "<b>Akcja: Gaz leczniczy</b>",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_healall_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Patch Up</b>": {
+      "pl": "<b>Akcja: Opatrzenie</b>",
+      "contexts": [
+        "data.json:scripts.c_alice_patchup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Pep Talk</b>": {
+      "pl": "<b>Akcja: Przemowa</b>",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Scattergun Blast</b>": {
+      "pl": "<b>Akcja: Salwa z dubeltówki</b>",
+      "contexts": [
+        "data.json:scripts.c_alice_scattergun_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Science Blast</b>": {
+      "pl": "<b>Akcja: Naukowy wybuch</b>",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shootall_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Action: Shoot Science Pistol</b>": {
+      "pl": "<b>Akcja: Strzał z pistoletu naukowego</b>",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Item: @item.name@</b> <i>(won't end your turn)</i>": {
+      "pl": "<b>Przedmiot: @item.name@</b> <i>(nie kończy twojej tury)</i>",
+      "contexts": [
+        "data.json:scripts.c_antidote_desc.start",
+        "data.json:scripts.c_armyfirstaid_desc.start",
+        "data.json:scripts.c_basicmedicine_desc.start",
+        "data.json:scripts.c_basicvenom_desc.start",
+        "data.json:scripts.c_bowlingchunk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<b>Surrender</b>": {
+      "pl": "<b>Kapitulacja</b>",
+      "contexts": [
+        "data.json:scripts.c_giveup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "<color=blue>$damageamount$ HP (Cold)</color>": {
+      "pl": "<color=blue>$damageamount$ HP (Zimno)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.coldpop",
+        "data.json:scripts.c_damage_clownegg.coldpop"
+      ],
+      "category": "dialog"
+    },
+    "<color=green>$damageamount$ HP (Poison)</color>": {
+      "pl": "<color=green>$damageamount$ HP (Trucizna)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.poisonpop",
+        "data.json:scripts.c_damage_clownegg.poisonpop"
+      ],
+      "category": "dialog"
+    },
+    "<color=green>$damageamount$ HP (Stench)</color>": {
+      "pl": "<color=green>$damageamount$ HP (Smród)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.stinkpop",
+        "data.json:scripts.c_damage_clownegg.stinkpop"
+      ],
+      "category": "dialog"
+    },
+    "<color=grey>$damageamount$ HP (Spooky!)</color>": {
+      "pl": "<color=grey>$damageamount$ HP (Upiorność!)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.spookypop",
+        "data.json:scripts.c_damage_clownegg.spookypop"
+      ],
+      "category": "dialog"
+    },
+    "<color=grey>Insubstantial! $displayamount$ HP</color>": {
+      "pl": "<color=grey>Niematerialność! $displayamount$ HP</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.insubpop",
+        "data.json:scripts.c_damage_clownegg.insubpop"
+      ],
+      "category": "dialog"
+    },
+    "<color=orange>$damageamount$ HP (On Fire!)</color>": {
+      "pl": "<color=orange>$damageamount$ HP (W ogniu!)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.onfirepop",
+        "data.json:scripts.c_damage_clownegg.onfirepop"
+      ],
+      "category": "dialog"
+    },
+    "<color=purple>$damageamount$ HP (Sleaze)</color>": {
+      "pl": "<color=purple>$damageamount$ HP (Obciach)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.sleazepop",
+        "data.json:scripts.c_damage_clownegg.sleazepop"
+      ],
+      "category": "dialog"
+    },
+    "<color=red>$damageamount$ HP (Hot)</color>": {
+      "pl": "<color=red>$damageamount$ HP (Gorąco)</color>",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.hotpop",
+        "data.json:scripts.c_damage_clownegg.hotpop"
+      ],
+      "category": "dialog"
+    },
+    "=$dmg$ + (($dmg$*dishdmgscalepct*(player.house_diff-1))/100)": {
+      "pl": "=$dmg$ + (($dmg$*dishdmgscalepct*(player.house_diff-1))/100)",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.plate_damage"
+      ],
+      "category": "dialog"
+    },
+    "@beampop@": {
+      "pl": "@beampop@",
+      "contexts": [
+        "data.json:scripts.c_mob_beampunch.start"
+      ],
+      "category": "dialog"
+    },
+    "@beforemeleepop@": {
+      "pl": "@beforemeleepop@",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ anoints @target.name@ for $dmg$ Sleaze damage.": {
+      "pl": "@me.name/capitalize@ namaszcza @target.name@, zadając $dmg$ obrażeń od nieczystości.",
+      "contexts": [
+        "data.json:scripts.c_mobai_skeletoncardinal.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mobai_smallspider_beefer.start",
+        "data.json:scripts.c_mobai_smallspider_dancer.start",
+        "data.json:scripts.c_mobai_smallspider_spitter.start",
+        "data.json:scripts.c_wanderspider_mox.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ (using Muscle) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ (using Muscle) for $dmg$ damage and poisoning for $poisonamt$.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ (używając Mięśni), zadaje $dmg$ obrażeń i zatruwa na $poisonamt$.",
+      "contexts": [
+        "data.json:scripts.c_mobai_bigspider_breeder.start",
+        "data.json:scripts.c_mobai_bigspider_bruiser.start",
+        "data.json:scripts.c_mobai_bigspider_squirter.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start",
+        "data.json:scripts.c_skeleton2_ai.start",
+        "data.json:scripts.c_wanderspider_muscle.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ (using Mysticality) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ (używając Mistycyzmu) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_wanderspider_myst.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ with fiery breath (using Mysticality) for $dmg$ Hot damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ ognistym oddechem (używając Mistycyzmu) i zadaje $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathefire.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ with frigid breath (using Mysticality) for $dmg$ Cold damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ mroźnym oddechem (używając Mistycyzmu) i zadaje $dmg$ obrażeń od zimna.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathecold.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks @target.name@ with stinky breath (using Mysticality) for $dmg$ Stench damage.": {
+      "pl": "@me.name/capitalize@ atakuje @target.name@ cuchnącym oddechem (używając Mistycyzmu) i zadaje $dmg$ obrażeń od smrodu.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathestench.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks everybody (using Mysticality) for Cold damage.": {
+      "pl": "@me.name/capitalize@ atakuje wszystkich (używając Mistycyzmu), zadając obrażenia od zimna.",
+      "contexts": [
+        "data.json:scripts.c_mob_coldblastall.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ attacks everybody (using Mysticality) for some $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ atakuje wszystkich (używając Mistycyzmu), zadając trochę obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_elementblastall.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ beefs up, gaining $mus$ Muscle!": {
+      "pl": "@me.name/capitalize@ nabiera masy, zyskując $mus$ Mięśni!",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.eat_beef"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ bellows $ap$ of your AP away.": {
+      "pl": "@me.name/capitalize@ ryczy i odbiera ci $ap$ PA.",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.tuba_takeap"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ bites @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ gryzie @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_bite.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ blasts @target.name@ (using Mysticality) for $dam$ Spooky damage.": {
+      "pl": "@me.name/capitalize@ trafia @target.name@ (używając Mistycyzmu) i zadaje $dam$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.play_tuba"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ blasts @target.name@ (using Mysticality) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ trafia @target.name@ (używając Mistycyzmu) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_gaspachoblast.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ blasts @target.name@ with a cloud of salt (using Mysticality) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ trafia @target.name@ chmurą soli (używając Mistycyzmu) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_saltcloud.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ bonks @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ wali @target.name@ w łeb (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_bowltergeist.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ boosts the stats of all of your opponents by 3.": {
+      "pl": "@me.name/capitalize@ podnosi statystyki wszystkich twoich przeciwników o 3.",
+      "contexts": [
+        "data.json:scripts.c_mobai_sweetmyst.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ burns @target.name@ with a fireball (using Mysticality) for 1 Hot damage (@target.name@ is protected by its dampness!)": {
+      "pl": "@me.name/capitalize@ podpala @target.name@ ognistą kulą (używając Mistycyzmu), zadając 1 obrażenie od gorąca (@target.name@ chroni jego własna wilgoć!)",
+      "contexts": [
+        "data.json:scripts.c_wizardcow_fireball.dampdamage"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ buzzes your party's stats down by 25<pct>.": {
+      "pl": "@me.name/capitalize@ brzęczy i obniża statystyki twojej drużyny o 25<pct>.",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.play_trombone"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ casts a fireball out of its mouth at @target.name@ (using Mysticality) for $dmg$ Hot damage.": {
+      "pl": "@me.name/capitalize@ wypluwa ognistą kulę w @target.name@ (używając Mistycyzmu) i zadaje $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_wizardcow_fireball.undampdamage"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ clobbers @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ młóci @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemuscle1.start",
+        "data.json:scripts.c_mobai_hexrockrumbler.start",
+        "data.json:scripts.c_pyrobove_ai.normalattack"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ damages every soldier in the front column (using Mysticality).": {
+      "pl": "@me.name/capitalize@ rani każdego żołnierza w przedniej kolumnie (używając Mistycyzmu).",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowshadow.column1"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ damages every soldier in the middle column (using Mysticality).": {
+      "pl": "@me.name/capitalize@ rani każdego żołnierza w środkowej kolumnie (używając Mistycyzmu).",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowshadow.column2"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ damages every soldier in the rear column (using Mysticality).": {
+      "pl": "@me.name/capitalize@ rani każdego żołnierza w tylnej kolumnie (używając Mistycyzmu).",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowshadow.column3"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ directs @target.name@ (using Mysticality) to take $dam$ Spooky damage.": {
+      "pl": "@me.name/capitalize@ każe @target.name@ (używając Mistycyzmu) przyjąć $dam$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.just_attack"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ does a scary dance, reducing all of your allies' stats by $amt$.": {
+      "pl": "@me.name/capitalize@ tańczy straszny taniec, obniżając statystyki wszystkich sojuszników o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_mobai_smallspider_dancer.dance",
+        "data.json:scripts.c_wanderspider_myst.dance"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ does a spooky dance, reducing all of your stats by 3.": {
+      "pl": "@me.name/capitalize@ tańczy upiorny taniec, obniżając wszystkie twoje statystyki o 3.",
+      "contexts": [
+        "data.json:scripts.c_mob_spookydance.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ drains @target.name@ of $dmg$ life (using Mysticality.)": {
+      "pl": "@me.name/capitalize@ wysysa z @target.name@ $dmg$ życia (używając Mistycyzmu.)",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemyst1.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ drills @target.name@ with a shrill trill (using Mysticality) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ wierci @target.name@ przenikliwym trylem (używając Mistycyzmu) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_house_conductor.play_flute"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ fires a barrage of leaves (using Mysticality) against @target.name@, dealing $dmg$ damage 5 times.": {
+      "pl": "@me.name/capitalize@ ostrzeliwuje @target.name@ salwą liści (używając Mistycyzmu), zadając $dmg$ obrażeń 5 razy.",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemyst2.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ fires a bowling pin at @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ wystrzeliwuje kręgla w @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_bowltergeist.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ fires a ghostly pin at @target.name@ (using Mysticality) for $dmg$ Spooky damage.": {
+      "pl": "@me.name/capitalize@ wystrzeliwuje upiornego kręgla w @target.name@ (używając Mistycyzmu) i zadaje $dmg$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_bowltergeist.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ gores @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ nabija @target.name@ na rogi (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowgrunt.attack",
+        "data.json:scripts.c_mobai_cattleroyaleknight.finalizetarget"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals @target.name@ for $healval$ HP.": {
+      "pl": "@me.name/capitalize@ leczy @target.name@ o $healval$ HP.",
+      "contexts": [
+        "data.json:scripts.c_mob_healtarget.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals @target.name@ for 10 HP.": {
+      "pl": "@me.name/capitalize@ leczy @target.name@ o 10 HP.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armymedic.single"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals @target.name@ for 20 HP.": {
+      "pl": "@me.name/capitalize@ leczy @target.name@ o 20 HP.",
+      "contexts": [
+        "data.json:scripts.c_mob_elvheal.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals @target.name@ for 5 HP.": {
+      "pl": "@me.name/capitalize@ leczy @target.name@ o 5 HP.",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.heal"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals all of the other human soldiers for 5 HP.": {
+      "pl": "@me.name/capitalize@ leczy wszystkich pozostałych ludzkich żołnierzy o 5 HP.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armymedic.multiple"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ heals your team for @baseaoespookydamage@ HP.": {
+      "pl": "@me.name/capitalize@ leczy twoją drużynę o @baseaoespookydamage@ HP.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell3.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ hurls a grenade, dealing 2 damage to all of your troops.": {
+      "pl": "@me.name/capitalize@ rzuca granatem, zadając 2 obrażenia wszystkim twoim żołnierzom.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armygrenadier.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ increases @target.name@'s Moxie by 3.": {
+      "pl": "@me.name/capitalize@ zwiększa Ikrę @target.name@ o 3.",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mox"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ increases @target.name@'s Muscle by 3.": {
+      "pl": "@me.name/capitalize@ zwiększa Mięśnie @target.name@ o 3.",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mus"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ increases @target.name@'s Mysticality by 3.": {
+      "pl": "@me.name/capitalize@ zwiększa Mistycyzm @target.name@ o 3.",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.myst"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ increases all of @target.name@'s stats by 3.": {
+      "pl": "@me.name/capitalize@ zwiększa wszystkie statystyki @target.name@ o 3.",
+      "contexts": [
+        "data.json:scripts.c_mob_buffskeleton.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ increases The Bovermind's AP by 1.": {
+      "pl": "@me.name/capitalize@ zwiększa PA Bovermindu o 1.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_cowcultist.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ opens a can of peanut brittle -- wait, no, it's full of snakes!": {
+      "pl": "@me.name/capitalize@ otwiera puszkę orzechowych sezamków — chwila, nie, jest pełna węży!",
+      "contexts": [
+        "data.json:scripts.c_mob_canofsnakes.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ performs a special attack (using $whichstat/capitalize$) against @target.name@, dealing $dmg$ $element$ damage.": {
+      "pl": "@me.name/capitalize@ wykonuje specjalny atak (używając $whichstat/capitalize$) przeciw @target.name@, zadając $dmg$ obrażeń od $element$.",
+      "contexts": [
+        "data.json:scripts.c_mob_beampunch.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ performs a special attack against @target.name@ (using $beamstat/capitalize$) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ wykonuje atak specjalny przeciwko @target.name@ (używając $beamstat/capitalize$), zadając $dmg$ obrażeń typu $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_headbeam.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ performs a special attack against @target.name@ (using $stat/capitalize$) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ wykonuje specjalny atak przeciw @target.name@ (używając $stat/capitalize$) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_speakdamage.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ performs a special attack against @target.name@ (using $whichstat/capitalize$) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ wykonuje specjalny atak przeciw @target.name@ (używając $whichstat/capitalize$) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_ghostbarf.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ punches @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ wali @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armygrunt.attack"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ shoots @target.name@ (using Moxie) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ strzela do @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicranged.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ shoots @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "@me.name/capitalize@ strzela do @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armysniper.start",
+        "data.json:scripts.c_mob_basicranged.start",
+        "data.json:scripts.c_mob_basicranged2x.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ shoots @target.name@ (using Moxie) for $dmg$ Stench damage.": {
+      "pl": "@me.name/capitalize@ strzela do @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń od smrodu.",
+      "contexts": [
+        "data.json:scripts.c_mob_vinegargun.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ shrieks at @target.name@ (using Moxie,) dealing $dmg$ damage and reducing all stats by $reduce$.": {
+      "pl": "@me.name/capitalize@ wrzeszczy na @target.name@ (używając Ikry), zadając $dmg$ obrażeń i obniżając wszystkie statystyki o $reduce$.",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemoxie2.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ spits powerful venom at @target.name@.": {
+      "pl": "@me.name/capitalize@ pluje na @target.name@ potężnym jadem.",
+      "contexts": [
+        "data.json:scripts.c_mobai_smallspider_spitter.spitreal",
+        "data.json:scripts.c_wanderspider_mox.spitreal"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ squirts @target.name@ with gooey webbing, draining $suckap$ AP.": {
+      "pl": "@me.name/capitalize@ spryskuje @target.name@ lepką pajęczyną, wysysając $suckap$ PA.",
+      "contexts": [
+        "data.json:scripts.c_mobai_bigspider_squirter.squirt"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ stomps thunderously, dealing $dmg$ damage to your entire team.": {
+      "pl": "@me.name/capitalize@ tupie gromko, zadając $dmg$ obrażeń całej twojej drużynie.",
+      "contexts": [
+        "data.json:scripts.c_rockdude_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ stomps, dealing $dmg$ damage to everybody on your team.": {
+      "pl": "@me.name/capitalize@ tupie, zadając $dmg$ obrażeń każdemu w twojej drużynie.",
+      "contexts": [
+        "data.json:scripts.c_mob_stomp.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ taunts you.": {
+      "pl": "@me.name/capitalize@ prowokuje cię.",
+      "contexts": [
+        "data.json:scripts.c_house_teaghost.talk"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ throws empty dishes at you!": {
+      "pl": "@me.name/capitalize@ rzuca w ciebie pustymi talerzami!",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.throw_dishes"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ throws itching powder at you and your allies, reducing your stats by $pamt$ percent.": {
+      "pl": "@me.name/capitalize@ rzuca w ciebie i sojuszników proszkiem drażniącym, obniżając statystyki o $pamt$ procent.",
+      "contexts": [
+        "data.json:scripts.c_mob_itchingpowder.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ throws something at @target.name@ (using $stat/capitalize$) for $dmg$ $element/capitalize$ damage.": {
+      "pl": "@me.name/capitalize@ rzuca czymś w @target.name@ (używając $stat/capitalize$) i zadaje $dmg$ obrażeń od $element/capitalize$.",
+      "contexts": [
+        "data.json:scripts.c_mob_throwthing.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@ unleashes an unearthly shriek, dealing $dam$ damage to @target.name@.": {
+      "pl": "@me.name/capitalize@ wydaje z siebie nieziemski wrzask, zadając $dam$ obrażeń postaci @target.name@.",
+      "contexts": [
+        "data.json:scripts.c_house_teaghost.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@'s Moxie increases by $buffamount$.": {
+      "pl": "Ikra @me.name/capitalize@ wzrasta o $buffamount$.",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.mox"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@'s Moxie is increased by 10.": {
+      "pl": "Ikra @me.name/capitalize@ wzrasta o 10.",
+      "contexts": [
+        "data.json:scripts.c_mob_moxieboost.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@'s Muscle increases by $buffamount$.": {
+      "pl": "Mięśnie @me.name/capitalize@ wzrastają o $buffamount$.",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.mus"
+      ],
+      "category": "dialog"
+    },
+    "@me.name/capitalize@'s Mysticality increases by $buffamount$.": {
+      "pl": "Mistycyzm @me.name/capitalize@ wzrasta o $buffamount$.",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.myst"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ attacks all of your foes (using Mysticality) for Spooky damage.": {
+      "pl": "@me.name@ atakuje wszystkich twoich wrogów (używając Mistycyzmu), zadając obrażenia od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell2.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ blasts @target.name@ with a spectral skull (using Mysticality) for $dmg$ Spooky damage.": {
+      "pl": "@me.name@ trafia @target.name@ widmową czaszką (używając Mistycyzmu) i zadaje $dmg$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_spectralskull.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ blasts @target.name@ with lightning (using Mysticality) for $dmg$ damage.": {
+      "pl": "@me.name@ trafia @target.name@ piorunem (używając Mistycyzmu) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_lightningbolt.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ gives @target.name@ a spooky hug (using Mysticality) for $dmg$ Spooky damage.": {
+      "pl": "@me.name@ obejmuje @target.name@ upiornie (używając Mistycyzmu) i zadaje $dmg$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_mob_spookyhug.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ gives @target.name@ the evil eye (using Mysticality) for $dmg$ Spooky damage.": {
+      "pl": "@me.name@ rzuca @target.name@ złe spojrzenie (używając Mistycyzmu) i zadaje $dmg$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_mob_evileye.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ gives @target.name@ the old tumbleweed treatment, dealing $dmg$ Spooky damage.": {
+      "pl": "@me.name@ funduje @target.name@ klasyczną kurację kłodą, zadając $dmg$ obrażeń od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_skellthrall_spell1.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ heals @target.name@ for 20 HP.": {
+      "pl": "@me.name@ leczy @target.name@ o 20 HP.",
+      "contexts": [
+        "data.json:scripts.c_ai_elvdrone2.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ is disabled and does nothing.": {
+      "pl": "@me.name@ jest unieruchomiony i nic nie robi.",
+      "contexts": [
+        "data.json:scripts.c_status_disabled.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ is now drawing all the enemy attention for the rest of the round.": {
+      "pl": "@me.name@ teraz przyciąga całą uwagę wrogów do końca rundy.",
+      "contexts": [
+        "data.json:scripts.c_status_cattleroyale_popped.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ shoots @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "@me.name@ strzela do @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armydemonhunter.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ takes @me.onfire@ damage from being on fire.": {
+      "pl": "@me.name@ otrzymuje @me.onfire@ obrażeń od płomieni.",
+      "contexts": [
+        "data.json:scripts.c_status_onfire.start"
+      ],
+      "category": "dialog"
+    },
+    "@me.name@ takes @me.poisoned@ damage from poison.": {
+      "pl": "@me.name@ otrzymuje @me.poisoned@ obrażeń od trucizny.",
+      "contexts": [
+        "data.json:scripts.c_status_poisoned.start"
+      ],
+      "category": "dialog"
+    },
+    "@name/capitalize@ dies.": {
+      "pl": "@name/capitalize@ ginie.",
+      "contexts": [
+        "data.json:scripts.c_house_billiardballdie.start",
+        "data.json:scripts.c_house_pantsdie.afterboost"
+      ],
+      "category": "dialog"
+    },
+    "@name/capitalize@ is defeated.": {
+      "pl": "@name/capitalize@ zostaje pokonany.",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.die"
+      ],
+      "category": "dialog"
+    },
+    "@selfbuffshout@": {
+      "pl": "@selfbuffshout@",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.start"
+      ],
+      "category": "dialog"
+    },
+    "@shout@": {
+      "pl": "@shout@",
+      "contexts": [
+        "data.json:scripts.c_mob_beampunch.start",
+        "data.json:scripts.c_mob_elementblastall.start",
+        "data.json:scripts.c_mob_gaspachoblast.start",
+        "data.json:scripts.c_mob_headbeam.start",
+        "data.json:scripts.c_mob_speakdamage.start"
+      ],
+      "category": "dialog"
+    },
+    "@spellpop@": {
+      "pl": "@spellpop@",
+      "contexts": [
+        "data.json:scripts.c_mob_elementblastall.start"
+      ],
+      "category": "dialog"
+    },
+    "@target.name/capitalize@ is poisoned for $poisonamt$.": {
+      "pl": "@target.name/capitalize@ jest zatruty na $poisonamt$.",
+      "contexts": [
+        "data.json:scripts.c_basicvenom.start"
+      ],
+      "category": "dialog"
+    },
+    "@target.name/capitalize@ is poisoned for @poisononhit@.": {
+      "pl": "@target.name/capitalize@ jest zatruty na @poisononhit@.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start",
+        "data.json:scripts.c_mob_bite.start"
+      ],
+      "category": "dialog"
+    },
+    "@target.name/capitalize@ is set on fire for @fireonhit@.": {
+      "pl": "@target.name/capitalize@ zostaje podpalony na @fireonhit@.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicranged.start"
+      ],
+      "category": "dialog"
+    },
+    "@target.name/capitalize@ loses @damageap@ AP!": {
+      "pl": "@target.name/capitalize@ traci @damageap@ PA!",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee.start"
+      ],
+      "category": "dialog"
+    },
+    "@target.name/capitalize@ takes $dmg$ tableware damage.": {
+      "pl": "@target.name/capitalize@ otrzymuje $dmg$ obrażeń od zastawy stołowej.",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.plate_damage"
+      ],
+      "category": "dialog"
+    },
+    "@target.name@ bursts into flames!": {
+      "pl": "@target.name@ wybucha płomieniami!",
+      "contexts": [
+        "data.json:scripts.c_match.start"
+      ],
+      "category": "dialog"
+    },
+    "A buttered corpse is still just a corpse.": {
+      "pl": "Posmarowany masłem trup nadal jest tylko trupem.",
+      "contexts": [
+        "data.json:scripts.c_butterbean_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "A cactus will grow.": {
+      "pl": "Wyrośnie kaktus.",
+      "contexts": [
+        "data.json:scripts.c_canteen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "A corpse is already the least Moxious thing.": {
+      "pl": "Trup już z natury jest najmniej Ikrową rzeczą.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "A Grinnin' Skull needs somethin' to grin at, else it just ain't a Grinnin' Skull.": {
+      "pl": "Szczerząca Czaszka potrzebuje czegoś, do czego może się szczerzyć, bo inaczej nie jest Szczerzącą Czaszką.",
+      "contexts": [
+        "data.json:scripts.c_spectralskull_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "A Grinnin' Skull won't scare a corpse.": {
+      "pl": "Szczerząca Czaszka nie przestraszy trupa.",
+      "contexts": [
+        "data.json:scripts.c_spectralskull_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Activates an El Vibrato drone to fight for you.": {
+      "pl": "Aktywuje drona El Vibrato, który walczy za ciebie.",
+      "contexts": [
+        "data.json:scripts.c_elvdrone1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Activates an El Vibrato drone to heal you and your allies.": {
+      "pl": "Aktywuje drona El Vibrato, który leczy ciebie i sojuszników.",
+      "contexts": [
+        "data.json:scripts.c_elvdrone2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Aim...": {
+      "pl": "Celuj...",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.aim"
+      ],
+      "category": "dialog"
+    },
+    "Alice will instantly destroy a skeleton.": {
+      "pl": "Alice natychmiast zniszczy szkielet.",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "All of @me.name/capitalize@'s stats increase by $buffamount$.": {
+      "pl": "Wszystkie statystyki @me.name/capitalize@ rosną o $buffamount$.",
+      "contexts": [
+        "data.json:scripts.c_mob_selfbuff.all"
+      ],
+      "category": "dialog"
+    },
+    "All of @target.name@'s stats are reduced by 2.": {
+      "pl": "Wszystkie statystyki @target.name@ spadają o 2.",
+      "contexts": [
+        "data.json:scripts.c_mob_saltcloud.start"
+      ],
+      "category": "dialog"
+    },
+    "All Wet!": {
+      "pl": "Całkiem Mokry!",
+      "contexts": [
+        "data.json:scripts.c_canteen.start"
+      ],
+      "category": "dialog"
+    },
+    "Anointed!\\n\\n\\n": {
+      "pl": "Namaszczony!",
+      "contexts": [
+        "data.json:scripts.c_mobai_skeletoncardinal.start"
+      ],
+      "category": "dialog"
+    },
+    "Attacking nothing is less fun than attacking something.": {
+      "pl": "Atakowanie niczego jest mniej zabawne niż atakowanie czegoś.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee_desc.start",
+        "data.json:scripts.c_mob_basicranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Bean Up!": {
+      "pl": "Fasolnij się!",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.eat_beans"
+      ],
+      "category": "dialog"
+    },
+    "Beef Up!\\n(+$mus$ Muscle)": {
+      "pl": "Przypakuj!\n(+$mus$ Mięśni)",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.eat_beef"
+      ],
+      "category": "dialog"
+    },
+    "Biting nothing is less fun than biting something.": {
+      "pl": "Gryzienie niczego jest mniej zabawne niż gryzienie czegoś.",
+      "contexts": [
+        "data.json:scripts.c_mob_bite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Blood must be spilled.  This target has no blood.": {
+      "pl": "Krew musi zostać przelana. Ten cel nie ma krwi.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Breathe fire on target, dealing $dmg$ damage.": {
+      "pl": "Zioń ogniem na cel, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathefire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Buffalo Buffalo Buffalo Bill shoots @target.name@ for $dmg$ damage.": {
+      "pl": "Buffalo Buffalo Buffalo Bill strzela do @target.name@, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_ai_buffalobill.start"
+      ],
+      "category": "dialog"
+    },
+    "Build a wall of beans in front of you, providing cover from gunfire.": {
+      "pl": "Postaw przed sobą ścianę z fasoli, dając osłonę przed ogniem.",
+      "contexts": [
+        "data.json:scripts.c_beanwall_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Butter would just be wasted on that target.": {
+      "pl": "Masło tylko by się na tym celu zmarnowało.",
+      "contexts": [
+        "data.json:scripts.c_butterbean_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Bye bye!": {
+      "pl": "Pa, pa!",
+      "contexts": [
+        "data.json:scripts.c_teapartyghost_die.start"
+      ],
+      "category": "dialog"
+    },
+    "Can of snakes!": {
+      "pl": "Puszka węży!",
+      "contexts": [
+        "data.json:scripts.c_mob_canofsnakes.start"
+      ],
+      "category": "dialog"
+    },
+    "Cheese Up!": {
+      "pl": "Dosernij się!",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.eat_cheese"
+      ],
+      "category": "dialog"
+    },
+    "Cold damage": {
+      "pl": "Obrażenia od zimna",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "Cortada's rib cage heals all of her other parts (using Mysticality)!": {
+      "pl": "Klatka piersiowa Cortady leczy wszystkie jej pozostałe części (używając Mistycyzmu)!",
+      "contexts": [
+        "data.json:scripts.c_mobai_cortadaribs.start"
+      ],
+      "category": "dialog"
+    },
+    "Cortada's skull boosts the Mysticality all of her other parts by 3.": {
+      "pl": "Czaszka Cortady zwiększa Mistycyzm wszystkich jej pozostałych części o 3.",
+      "contexts": [
+        "data.json:scripts.c_mobai_cortadaskull.start"
+      ],
+      "category": "dialog"
+    },
+    "Covers the target in kerosene, weakening it and making it flammable.": {
+      "pl": "Pokrywa cel naftą, osłabiając go i czyniąc łatwopalnym.",
+      "contexts": [
+        "data.json:scripts.c_kerosene_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Daddy, why did you make me?": {
+      "pl": "Tatusiu, dlaczego mnie stworzyłeś?",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_createanimal.start"
+      ],
+      "category": "dialog"
+    },
+    "Dang, you're persistent!": {
+      "pl": "Kurczę, ale jesteś uparty!",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard_runaway.second"
+      ],
+      "category": "dialog"
+    },
+    "Deal $avgdamage$ Cold damage to all enemies.": {
+      "pl": "Zadaje $avgdamage$ obrażeń od zimna wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_blizzard_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Deal $avgdamage$ Spooky damage to all enemies.": {
+      "pl": "Zadaje $avgdamage$ obrażeń od upiorności wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_rainofteeth_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Deal approximately @baseaoespookydamage@ Spooky damage to all enemies.": {
+      "pl": "Zadaje około @baseaoespookydamage@ obrażeń od upiorności wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Deal between $lowdamage$ and $highdamage$ Cold damage to all enemies.": {
+      "pl": "Zadaje od $lowdamage$ do $highdamage$ obrażeń od zimna wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_blizzard_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Deal between $lowdamage$ and $highdamage$ Spooky damage to all enemies.": {
+      "pl": "Zadaje od $lowdamage$ do $highdamage$ obrażeń od upiorności wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_rainofteeth_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Deals $dmg$ damage to all opponents.": {
+      "pl": "Zadaje $dmg$ obrażeń wszystkim przeciwnikom.",
+      "contexts": [
+        "data.json:scripts.c_bullstomp_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "debug: @me.name@ popped status is now @me.cattleroyale_popped@": {
+      "pl": "debug: @me.name@ — status popped to teraz @me.cattleroyale_popped@",
+      "contexts": [
+        "data.json:scripts.c_cattleroyale_friendly_wakeup.start"
+      ],
+      "category": "dialog"
+    },
+    "debug: @target.name@ popped status is now @target.cattleroyale_popped@": {
+      "pl": "debug: @target.name@ — status popped to teraz @target.cattleroyale_popped@",
+      "contexts": [
+        "data.json:scripts.c_cattleroyale_balloonclown_wakeup.unpop"
+      ],
+      "category": "dialog"
+    },
+    "debug: @target.name@ popped status should now be @target.cattleroyale_popped@": {
+      "pl": "debug: @target.name@ — status popped powinien być teraz @target.cattleroyale_popped@",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_pop.start"
+      ],
+      "category": "dialog"
+    },
+    "debug: checking @target.name@ popped status which is @target.cattleroyale_popped@": {
+      "pl": "debug: sprawdzam status popped @target.name@, który wynosi @target.cattleroyale_popped@",
+      "contexts": [
+        "data.json:scripts.c_mobai_cattleroyaleknight.popcheck",
+        "data.json:scripts.c_mobai_cattleroyalewizard.popcheck"
+      ],
+      "category": "dialog"
+    },
+    "debug: dampness is @target.cattleroyale_damp@": {
+      "pl": "debug: wilgotność to @target.cattleroyale_damp@",
+      "contexts": [
+        "data.json:scripts.c_wizardcow_fireball.start"
+      ],
+      "category": "dialog"
+    },
+    "debug: didnothing is @beargorge_lazinquest_didnothing@": {
+      "pl": "debug: didnothing to @beargorge_lazinquest_didnothing@",
+      "contexts": [
+        "data.json:scripts.c_lazinquestbear_alpha_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "debug: queen casting buffs": {
+      "pl": "debug: królowa rzuca buffy",
+      "contexts": [
+        "data.json:scripts.c_mobai_cattleroyalequeen.castbuffs"
+      ],
+      "category": "dialog"
+    },
+    "debug: queen casting heals": {
+      "pl": "debug: królowa rzuca leczenie",
+      "contexts": [
+        "data.json:scripts.c_mobai_cattleroyalequeen.castheals"
+      ],
+      "category": "dialog"
+    },
+    "debug: queen casting Ultima": {
+      "pl": "debug: królowa rzuca Ultimę",
+      "contexts": [
+        "data.json:scripts.c_mobai_cattleroyalequeen.castultima"
+      ],
+      "category": "dialog"
+    },
+    "debug: temptarget is $temptarget$ or @target.name@": {
+      "pl": "debug: temptarget to $temptarget$ albo @target.name@",
+      "contexts": [
+        "data.json:scripts.c_mobai_cattleroyaleknight.finalizetarget"
+      ],
+      "category": "dialog"
+    },
+    "Destroying yourself isn't a good strategy.": {
+      "pl": "Samozniszczenie to kiepska strategia.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Distracted!": {
+      "pl": "Rozproszony!",
+      "contexts": [
+        "data.json:scripts.c_squeak.start"
+      ],
+      "category": "dialog"
+    },
+    "Doc Alice fires her scattergun, dealing $dmg$ damage to all enemies.": {
+      "pl": "Doc Alice strzela z dubeltówki, zadając $dmg$ obrażeń wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_alice_scattergun.start"
+      ],
+      "category": "dialog"
+    },
+    "Doc Alice heals @target.name@ for $healamount$ HP.": {
+      "pl": "Doc Alice leczy @target.name@ o $healamount$ HP.",
+      "contexts": [
+        "data.json:scripts.c_alice_patchup.start"
+      ],
+      "category": "dialog"
+    },
+    "Doc Alice saws the @target.name@ to pieces.": {
+      "pl": "Doc Alice rozcina @target.name@ piłą.",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw.start"
+      ],
+      "category": "dialog"
+    },
+    "Doc Alice will heal her target by $healamount$ HP.": {
+      "pl": "Doc Alice uleczy swój cel o $healamount$ HP.",
+      "contexts": [
+        "data.json:scripts.c_alice_patchup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Does nothing!": {
+      "pl": "Nic nie robi!",
+      "contexts": [
+        "data.json:scripts.c_mobai_cortadopelvis.start"
+      ],
+      "category": "dialog"
+    },
+    "Doing Round 1!": {
+      "pl": "Runda 1!",
+      "contexts": [
+        "data.json:scripts.c_player_wakeup.node1"
+      ],
+      "category": "dialog"
+    },
+    "Don't beat yourself up.": {
+      "pl": "Nie obwiniaj się.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_gore_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Don't waste bullets on corpses.": {
+      "pl": "Nie marnuj kul na trupy.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Don't waste bullets on the dead.": {
+      "pl": "Nie marnuj kul na umarłych.",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Don't waste medicine on the ground.": {
+      "pl": "Nie marnuj lekarstw na ziemię.",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Don't waste oil on corpses.  That's what I always say": {
+      "pl": "Nie marnuj oleju na trupy. Tak zawsze powtarzam.",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start",
+        "data.json:scripts.c_oiler1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Drink Up!\\n(Less Substantial)": {
+      "pl": "Wychyl do dna!\n(Mniej treściwe)",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.drink_booze"
+      ],
+      "category": "dialog"
+    },
+    "Each opponent will take $dmg$ damage.": {
+      "pl": "Każdy przeciwnik otrzyma $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_alice_scattergun_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Empty space doesn't have any Moxie to begin with.": {
+      "pl": "Pusta przestrzeń nie ma żadnej Ikry.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "FIRE!": {
+      "pl": "OGNIA!",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.shooot"
+      ],
+      "category": "dialog"
+    },
+    "Flammable!": {
+      "pl": "Łatwopalne!",
+      "contexts": [
+        "data.json:scripts.c_kerosone.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence blasts @target.name@, reducing their stats by 75 percent.": {
+      "pl": "Florence trafia @target.name@ promieniem, obniżając jego statystyki o 75 procent.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_suckray.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence blasts all of your opponents for $dmg$ damage.": {
+      "pl": "Florence ostrzeliwuje wszystkich twoich przeciwników, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shootall.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence boosts your party's Mysticality by @mystboost@.": {
+      "pl": "Florence zwiększa Mistycyzm twojej drużyny o @mystboost@.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_boost.pop"
+      ],
+      "category": "dialog"
+    },
+    "Florence doesn't experiment on herself.": {
+      "pl": "Florence nie eksperymentuje na sobie.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot_desc.start",
+        "data.json:scripts.c_ghostbuster_suckray_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence doesn't like to waste battery power by shooting nothing.": {
+      "pl": "Florence nie lubi marnować baterii, strzelając w pustkę.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot_desc.start",
+        "data.json:scripts.c_ghostbuster_suckray_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence heals your party for $dmg$ HP.": {
+      "pl": "Florence leczy twoją drużynę o $dmg$ HP.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_healall.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence shoots @target.name@ (using Mysticality) for $dmg$ damage.": {
+      "pl": "Florence strzela do @target.name@ (używając Mistycyzmu), zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence will bathe her target in radiation, reducing its stats by 75 percent.": {
+      "pl": "Florence skąpie cel promieniowaniem, obniżając jego statystyki o 75 procent.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_suckray_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence will heal your entire party for $dmg$ HP.": {
+      "pl": "Florence uleczy całą twoją drużynę o $dmg$ HP.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_healall_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence will shoot all of your enemies for $dmg$ damage.": {
+      "pl": "Florence ostrzeli wszystkich twoich wrogów, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shootall_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence will shoot her target for $dmg$ damage.": {
+      "pl": "Florence strzeli do swojego celu, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Florence will use her weird backpack to increase your party's Mysticality by @mystboost@.": {
+      "pl": "Florence użyje swojego dziwnego plecaka, aby zwiększyć Mistycyzm twojej drużyny o @mystboost@.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary blasts your enemies with his fungal spores, reducing all of their stats by $amt$.": {
+      "pl": "Gary trafia twoich wrogów grzybiczymi zarodnikami, obniżając wszystkie ich statystyki o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_gary_sporeblast.result"
+      ],
+      "category": "dialog"
+    },
+    "Gary can't Fu Himself.": {
+      "pl": "Gary nie może Fu samego siebie.",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary commits some Gary Fu!": {
+      "pl": "Gary funduje porcję Gary Fu!",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary Gary-Fus @target.name@ (using Muscle) for $dmg$ damage.": {
+      "pl": "Gary Gary-Fu'je @target.name@ (używając Mięśni) i zadaje $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu.again"
+      ],
+      "category": "dialog"
+    },
+    "Gary pops out a new goblin buddy!": {
+      "pl": "Gary wypuszcza nowego gobliniego kumpla!",
+      "contexts": [
+        "data.json:scripts.c_gary_spawngrunt.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary will blast all of your enemies with spores, reducing all of their stats by $amt$.": {
+      "pl": "Gary trafi wszystkich twoich wrogów zarodnikami, obniżając wszystkie ich statystyki o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_gary_sporeblast_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary will Gary-Fu the target $num$ times, dealing $lowdmg$-$highdmg$ damage with each blow.": {
+      "pl": "Gary Gary-Fu'je cel $num$ razy, zadając $lowdmg$-$highdmg$ obrażeń przy każdym uderzeniu.",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary will Gary-Fu the target, dealing $lowdmg$-$highdmg$ damage.": {
+      "pl": "Gary Gary-Fu'je cel, zadając $lowdmg$-$highdmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary will spawn a goblin grunt to assist you with the fight.": {
+      "pl": "Gary przywoła goblina-szeregowca, który pomoże ci w walce.",
+      "contexts": [
+        "data.json:scripts.c_gary_spawngrunt_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary-Fu doesn't work on corpses.": {
+      "pl": "Gary-Fu nie działa na trupy.",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gary-Fu isn't just for show!  Gary needs to Fu something alive!": {
+      "pl": "Gary-Fu nie jest tylko na pokaz! Gary musi Fu coś żywego!",
+      "contexts": [
+        "data.json:scripts.c_gary_garyfu_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "General Gob shoots @target.name@ (using Moxie) for $dmg$ damage, then shoots the pie safe twice.": {
+      "pl": "Generał Gob strzela do @target.name@ (używając Ikry) i zadaje $dmg$ obrażeń, a potem dwa razy do sejfu na ciasto.",
+      "contexts": [
+        "data.json:scripts.c_mob_generalgobshoot.start"
+      ],
+      "category": "dialog"
+    },
+    "Giving up is the same as losing.": {
+      "pl": "Poddanie się to to samo co przegrana.",
+      "contexts": [
+        "data.json:scripts.c_giveup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Gooey Web!": {
+      "pl": "Lepka Sieć!",
+      "contexts": [
+        "data.json:scripts.c_mobai_bigspider_squirter.squirt"
+      ],
+      "category": "dialog"
+    },
+    "Got the jump on 'em!": {
+      "pl": "Zaskoczyliśmy ich!",
+      "contexts": [
+        "data.json:scripts.c_prefight.start"
+      ],
+      "category": "dialog"
+    },
+    "Heal all friendly characters for @baseaoespookydamage@ HP.": {
+      "pl": "Ulecz wszystkich sojuszników o @baseaoespookydamage@ HP.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Heal your target for @skill.healamount@ HP.": {
+      "pl": "Ulecz cel o @skill.healamount@ HP.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Heal yourself for $heal$ HP.": {
+      "pl": "Ulecz się o $heal$ HP.",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Healing Protein!": {
+      "pl": "Lecznicze Białko!",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.heal"
+      ],
+      "category": "dialog"
+    },
+    "Hedges, heed my call!": {
+      "pl": "Żywopłoty, usłyszcie moje wezwanie!",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard_getready.shmart"
+      ],
+      "category": "dialog"
+    },
+    "Hell Bolting your own units will not help the cause.": {
+      "pl": "Rażenie Piekielnym Piorunem własnych jednostek nie pomoże sprawie.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke_desc.start",
+        "data.json:scripts.c_bovermind_ping_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hell Bolting yourself isn't a good strategy.": {
+      "pl": "Rażenie siebie Piekielnym Piorunem to kiepska strategia.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_ping_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hell Bolts are for killing humans, not the ground.": {
+      "pl": "Piekielne Pioruny służą do zabijania ludzi, a nie ziemi.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_ping_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hit every enemy in this row for $avgdamage$ damage.": {
+      "pl": "Uderz każdego wroga w tym rzędzie, zadając $avgdamage$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_gore_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Hit every enemy in this row for $lowdamage$ to $highdamage$ damage.": {
+      "pl": "Uderz każdego wroga w tym rzędzie, zadając od $lowdamage$ do $highdamage$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_gore_desc.display"
+      ],
+      "category": "dialog"
+    },
+    "Hitting corpses with lanterns is out of style.": {
+      "pl": "Bicie trupów latarniami wyszło z mody.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Horrified!": {
+      "pl": "Przerażony!",
+      "contexts": [
+        "data.json:scripts.c_darkhowdy.handletarget"
+      ],
+      "category": "dialog"
+    },
+    "Horrify your enemies (disabling them for one round).": {
+      "pl": "Przerażaj wrogów (unieruchamiając ich na jedną rundę).",
+      "contexts": [
+        "data.json:scripts.c_darkhowdy_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hot damage": {
+      "pl": "Obrażenia od gorąca",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver",
+        "data.json:scripts.c_bullstomp_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hot damage, foes will also catch fire": {
+      "pl": "Obrażenia od gorąca, wrogowie też się zapalą",
+      "contexts": [
+        "data.json:scripts.c_bullstomp_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hugs are only for the living.": {
+      "pl": "Uściski są tylko dla żywych.",
+      "contexts": [
+        "data.json:scripts.c_mob_spookyhug_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hugs are wasted on corpses.": {
+      "pl": "Uściski marnują się na trupach.",
+      "contexts": [
+        "data.json:scripts.c_mob_spookyhug_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Hungry!": {
+      "pl": "Głodny!",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.go_hungry"
+      ],
+      "category": "dialog"
+    },
+    "Hungry!\\n(Less Insubstantial)": {
+      "pl": "Głodny!\n(Mniej niematerialny)",
+      "contexts": [
+        "data.json:scripts.c_house_glutton.less_insubstantial"
+      ],
+      "category": "dialog"
+    },
+    "I don't have anything to attack!": {
+      "pl": "Nie mam czym atakować!",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armygrunt.start"
+      ],
+      "category": "dialog"
+    },
+    "I regret nothing!  These hats look really great!": {
+      "pl": "Niczego nie żałuję! Te kapelusze wyglądają naprawdę świetnie!",
+      "contexts": [
+        "data.json:scripts.c_bandit2_leader.start"
+      ],
+      "category": "dialog"
+    },
+    "I've had just about enough of you!": {
+      "pl": "Mam cię już serdecznie dosyć!",
+      "contexts": [
+        "data.json:scripts.c_norton_runaway.start"
+      ],
+      "category": "dialog"
+    },
+    "Immolation is the sincerest form of blaze, but you're not feeling very sincere right now.": {
+      "pl": "Samospalenie to najszczersza forma płomienia, ale ty nie masz teraz nastroju na szczerość.",
+      "contexts": [
+        "data.json:scripts.c_kerosene_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Immune to being on fire!": {
+      "pl": "Odporność na podpalenie!",
+      "contexts": [
+        "data.json:scripts.c_status_onfire.ditch"
+      ],
+      "category": "dialog"
+    },
+    "Immune to poison!": {
+      "pl": "Odporność na truciznę!",
+      "contexts": [
+        "data.json:scripts.c_status_poisoned.ditch"
+      ],
+      "category": "dialog"
+    },
+    "Immune!": {
+      "pl": "Odporność!",
+      "contexts": [
+        "data.json:scripts.c_status_disabled.ditch"
+      ],
+      "category": "dialog"
+    },
+    "Impervious to Direct Attack!": {
+      "pl": "Niewrażliwy na ataki bezpośrednie!",
+      "contexts": [
+        "data.json:scripts.c_impervious.start"
+      ],
+      "category": "dialog"
+    },
+    "Improving the enemy only weakens your own position.": {
+      "pl": "Ulepszanie wroga tylko osłabia twoją pozycję.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Increase the Muscle, Mysticality and Moxie of a skeleton by 3.": {
+      "pl": "Zwiększa Mięśnie, Mistycyzm i Ikrę szkieletu o 3.",
+      "contexts": [
+        "data.json:scripts.c_mob_buffskeleton_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Increase the target's stats by @skill.boostamount@.": {
+      "pl": "Zwiększa statystyki celu o @skill.boostamount@.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Increase your armor by @skill.armorboost@": {
+      "pl": "Zwiększa twój pancerz o @skill.armorboost@",
+      "contexts": [
+        "data.json:scripts.c_beanshield_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Increase your Muscle, Mysticality and Moxie by $inc$.": {
+      "pl": "Zwiększa twoje Mięśnie, Mistycyzm i Ikrę o $inc$.",
+      "contexts": [
+        "data.json:scripts.c_strongmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Incubating!": {
+      "pl": "Inkubacja!",
+      "contexts": [
+        "data.json:scripts.c_clownegg_incubate.start"
+      ],
+      "category": "dialog"
+    },
+    "Invulnerable!": {
+      "pl": "Niewrażliwy!",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.invuln",
+        "data.json:scripts.ui_desctarget.afterfirstline"
+      ],
+      "category": "dialog"
+    },
+    "It's a first aid kit, not a tool box.": {
+      "pl": "To apteczka, nie skrzynka z narzędziami.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "It's fungicide, not corpse cleaner.": {
+      "pl": "To środek grzybobójczy, nie płyn do czyszczenia zwłok.",
+      "contexts": [
+        "data.json:scripts.c_fungicide1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "It's pointless to throw a glob of spider web at nothing.": {
+      "pl": "Nie ma sensu rzucać kłębkiem pajęczyny w pustkę.",
+      "contexts": [
+        "data.json:scripts.c_spiderweb_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "It's technically garbage, but you still shouldn't waste it.": {
+      "pl": "Technicznie rzecz biorąc, to śmieć, ale i tak nie należy go marnować.",
+      "contexts": [
+        "data.json:scripts.c_bowlingchunk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "It's too late for first aid.": {
+      "pl": "Na pierwszą pomoc jest już za późno.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Itching powder!": {
+      "pl": "Swędzący proszek!",
+      "contexts": [
+        "data.json:scripts.c_mob_itchingpowder.start"
+      ],
+      "category": "dialog"
+    },
+    "Leaf Barrage!": {
+      "pl": "Liściasta nawałnica!",
+      "contexts": [
+        "data.json:scripts.c_mobai_hedgemyst2.start"
+      ],
+      "category": "dialog"
+    },
+    "Less Insubstantial!": {
+      "pl": "Mniej niematerialny!",
+      "contexts": [
+        "data.json:scripts.c_house_instrument_afterdeath.start"
+      ],
+      "category": "dialog"
+    },
+    "Livers can only be used on the living.  That's why they call them livers.": {
+      "pl": "Wątrób można używać tylko na żywych. Dlatego nazywają je żywotrobami.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Make a balloon animal to fight for your side.": {
+      "pl": "Zrób zwierzaka z balonów, żeby walczył po twojej stronie.",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_createanimal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Master!  Empower me!": {
+      "pl": "Mistrzu! Obdarz mnie mocą!",
+      "contexts": [
+        "data.json:scripts.c_mobai_robertocultist.selfbuff"
+      ],
+      "category": "dialog"
+    },
+    "Mob does stench breath attack with base damage @basedamage@": {
+      "pl": "Mob wykonuje atak smrodliwym oddechem z bazowymi obrażeniami @basedamage@",
+      "contexts": [
+        "data.json:scripts.c_mob_breathestench.start"
+      ],
+      "category": "dialog"
+    },
+    "Nah, you don't want to get silver poisoning.": {
+      "pl": "Nie, nie chcesz się zatruć srebrem.",
+      "contexts": [
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No Effect!": {
+      "pl": "Brak efektu!",
+      "contexts": [
+        "data.json:scripts.c_mob_evileye.start"
+      ],
+      "category": "dialog"
+    },
+    "No point in sawin' up bones that aren't moving.": {
+      "pl": "Nie ma sensu piłować kości, które się nie ruszają.",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense beating a dead... anything, really.": {
+      "pl": "Nie ma sensu tłuc martwego... właściwie czegokolwiek.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee_desc.start",
+        "data.json:scripts.c_mob_basicranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense biting a dead... anything, really.": {
+      "pl": "Nie ma sensu gryźć martwego... właściwie czegokolwiek.",
+      "contexts": [
+        "data.json:scripts.c_mob_bite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense giving a corpse the evil eye.": {
+      "pl": "Nie ma sensu rzucać trupowi złego spojrzenia.",
+      "contexts": [
+        "data.json:scripts.c_mob_evileye_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in attacking thin air.": {
+      "pl": "Nie ma sensu atakować powietrza.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in buttering the ground.": {
+      "pl": "Nie ma sensu smarować ziemi masłem.",
+      "contexts": [
+        "data.json:scripts.c_butterbean_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in goring thin air.": {
+      "pl": "Nie ma sensu bodzić powietrza.",
+      "contexts": [
+        "data.json:scripts.c_gore_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in poisoning a dead horse.": {
+      "pl": "Nie ma sensu truć martwego konia.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in wasting good snake oil by pouring it on the ground.": {
+      "pl": "Nie ma sensu marnować dobrego wężowego oleju, wylewając go na ziemię.",
+      "contexts": [
+        "data.json:scripts.c_snakespleen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense in wasting it on that.": {
+      "pl": "Nie ma sensu tego na to marnować.",
+      "contexts": [
+        "data.json:scripts.c_cowrepellent_desc.start",
+        "data.json:scripts.c_elvteleporter_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense tumbleweeding a corpse.": {
+      "pl": "Nie ma sensu stepokrzaczyć trupa.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense wasting good snake oil on a corpse.": {
+      "pl": "Nie ma sensu marnować dobrego wężowego oleju na trupa.",
+      "contexts": [
+        "data.json:scripts.c_snakespleen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense wasting such a valuable bullet by shooting the ground.": {
+      "pl": "Nie ma sensu marnować tak cennego pocisku, strzelając w ziemię.",
+      "contexts": [
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No sense wasting such a valuable bullet on a corpse.": {
+      "pl": "Nie ma sensu marnować tak cennego pocisku na trupa.",
+      "contexts": [
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "No way.": {
+      "pl": "Nie ma mowy.",
+      "contexts": [
+        "data.json:scripts.c_spiderweb_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Nooooo!  Not the pants!": {
+      "pl": "Nieeeee! Tylko nie spodnie!",
+      "contexts": [
+        "data.json:scripts.c_house_pantsdie.start"
+      ],
+      "category": "dialog"
+    },
+    "Nooooooo!": {
+      "pl": "Nieeeeeee!",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard_runaway.third"
+      ],
+      "category": "dialog"
+    },
+    "Nothing!": {
+      "pl": "Nic!",
+      "contexts": [
+        "data.json:scripts.c_fungicide1.notgoblin"
+      ],
+      "category": "dialog"
+    },
+    "Nutritious Yolk!": {
+      "pl": "Pożywne Żółtko!",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.myst"
+      ],
+      "category": "dialog"
+    },
+    "Okay, okay, I give up!": {
+      "pl": "Dobra, dobra, poddaję się!",
+      "contexts": [
+        "data.json:scripts.c_chetdie.start"
+      ],
+      "category": "dialog"
+    },
+    "Ow!  Dangit!": {
+      "pl": "Au! Cholera!",
+      "contexts": [
+        "data.json:scripts.c_bulletcrate_explode.start"
+      ],
+      "category": "dialog"
+    },
+    "Perform four melee attacks against your target, doing $totallow$ to $totalhigh$ total damage.": {
+      "pl": "Wykonaj cztery ataki wręcz przeciw celowi, zadając łącznie $totallow$–$totalhigh$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.fourth"
+      ],
+      "category": "dialog"
+    },
+    "Perform four melee attacks against your target, doing $totallow$ total damage.": {
+      "pl": "Wykonaj cztery ataki wręcz przeciw celowi, zadając łącznie $totallow$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.fourth"
+      ],
+      "category": "dialog"
+    },
+    "Perform three melee attacks against your target, doing $totallow$ to $totalhigh$ total damage.": {
+      "pl": "Wykonaj trzy ataki wręcz przeciw celowi, zadając łącznie $totallow$–$totalhigh$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.threetotal"
+      ],
+      "category": "dialog"
+    },
+    "Perform three melee attacks against your target, doing $totallow$ total damage.": {
+      "pl": "Wykonaj trzy ataki wręcz przeciw celowi, zadając łącznie $totallow$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.threetotal"
+      ],
+      "category": "dialog"
+    },
+    "Pete can't talk to the dead.": {
+      "pl": "Pete nie potrafi rozmawiać z umarłymi.",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete clobbers @target.name@ with his lantern (using Muscle) for $dmg$ Hot damage.": {
+      "pl": "Pete obciosuje @target.name@ latarnią (używając Mięśni), zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete gives @target.name@ a pep talk, increasing all of their stats by $amt$.": {
+      "pl": "Pete robi @target.name@ przemowę, zwiększając wszystkie statystyki o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete may be crazy, but he knows who his friends are.": {
+      "pl": "Pete może i jest szalony, ale wie, kim są jego przyjaciele.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete might like to talk to himself, but he doesn't like to talk to thin air.": {
+      "pl": "Pete może lubi rozmawiać sam ze sobą, ale nie lubi mówić do pustego powietrza.",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete whispers dark secrets, dealing $dmg$ Spooky damage to all of your foes.": {
+      "pl": "Pete szepcze mroczne sekrety, zadając $dmg$ obrażeń od upiorności wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_pete_darkwhisper.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete will deal @me.whisperdamage@ Spooky damage to all enemies": {
+      "pl": "Pete zada @me.whisperdamage@ obrażeń od upiorności wszystkim wrogom",
+      "contexts": [
+        "data.json:scripts.c_pete_darkwhisper_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete will give you (or whoever) a pep talk, raising all stats by $amt$.": {
+      "pl": "Pete zrobi tobie (albo komu tam) przemowę, podnosząc wszystkie statystyki o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete will hit the target with his lantern, dealing $dmg$ Hot damage.": {
+      "pl": "Pete trafi cel latarnią, zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pete's not crazy enough to hit himself with his own lantern.": {
+      "pl": "Pete nie jest aż tak szalony, żeby uderzyć się własną latarnią.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Poison Cured!": {
+      "pl": "Wyleczono Zatrucie!",
+      "contexts": [
+        "data.json:scripts.c_antidote.start"
+      ],
+      "category": "dialog"
+    },
+    "Poison Spit!": {
+      "pl": "Trująca Plwocina!",
+      "contexts": [
+        "data.json:scripts.c_mobai_smallspider_spitter.spit",
+        "data.json:scripts.c_wanderspider_mox.spit"
+      ],
+      "category": "dialog"
+    },
+    "Poison would be wasted on this thing.": {
+      "pl": "Trucizna zmarnowałaby się na tym stworze.",
+      "contexts": [
+        "data.json:scripts.c_basicvenom_desc.start",
+        "data.json:scripts.c_item_venom_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Poisoned!": {
+      "pl": "Zatruty!",
+      "contexts": [
+        "data.json:scripts.c_item_venom.start"
+      ],
+      "category": "dialog"
+    },
+    "Pop! Your balloon clown pops a balloon in front of @target.name@, drawing enemy attention to @target.name@ for @skill.skillduration@ round.": {
+      "pl": "Pop! Twój balonowy klaun pęka balon przed @target.name@, przyciągając uwagę wrogów do @target.name@ na @skill.skillduration@ rundę.",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_pop.start"
+      ],
+      "category": "dialog"
+    },
+    "Pop! Your balloon clown pops a balloon, drawing enemy attention to themselves for @skill.skillduration@ round.": {
+      "pl": "Pop! Twój balonowy klaun pęka balon, przyciągając uwagę wrogów do siebie na @skill.skillduration@ rundę.",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_pop.start"
+      ],
+      "category": "dialog"
+    },
+    "Pouring kerosene on the ground is bad for the environment.": {
+      "pl": "Wylewanie nafty na ziemię szkodzi środowisku.",
+      "contexts": [
+        "data.json:scripts.c_kerosene_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Pull a snake out of your briefcase and deploy it on your side of the battlefield.": {
+      "pl": "Wyciągnij węża z aktówki i wystaw go po swojej stronie pola bitwy.",
+      "contexts": [
+        "data.json:scripts.c_summonsnake_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Punch your target for $dmg$ damage and disable them for 1 round.": {
+      "pl": "Uderz cel, zadając $dmg$ obrażeń i unieruchamiając go na 1 rundę.",
+      "contexts": [
+        "data.json:scripts.c_haymaker_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Punch your target for $dmg$ damage and disable them for @skill.stunduration@ rounds.": {
+      "pl": "Uderz cel, zadając $dmg$ obrażeń i unieruchamiając go na @skill.stunduration@ rund.",
+      "contexts": [
+        "data.json:scripts.c_haymaker_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Punching a corpse is fun, but not productive.": {
+      "pl": "Bicie trupa jest zabawne, ale bezproduktywne.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Raise your Mysticality by @skill.statgain@ but lower your Muscle and Moxie by @skill.statloss@.": {
+      "pl": "Podnieś Mistycyzm o @skill.statgain@, ale obniż Mięśnie i Ikrę o @skill.statloss@.",
+      "contexts": [
+        "data.json:scripts.c_darkhowdy_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Ready...": {
+      "pl": "Gotowy...",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.ready"
+      ],
+      "category": "dialog"
+    },
+    "Reduce target's Muscle, Mysticality and Moxie by @skill.delevelamount@.": {
+      "pl": "Obniż Mięśnie, Mistycyzm i Ikrę celu o @skill.delevelamount@.",
+      "contexts": [
+        "data.json:scripts.c_butterbean_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Reduce the Muscle of all enemies by @skill.musreduce@.": {
+      "pl": "Obniż Mięśnie wszystkich wrogów o @skill.musreduce@.",
+      "contexts": [
+        "data.json:scripts.c_moo_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Resisted!": {
+      "pl": "Odparto!",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash.start"
+      ],
+      "category": "dialog"
+    },
+    "Retreat!": {
+      "pl": "Odwrót!",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard_runaway.start"
+      ],
+      "category": "dialog"
+    },
+    "Saint Beefus stomps angrily.  His Muscle increases by 3.": {
+      "pl": "Św. Beefus tupie z wściekłością. Jego Mięśnie rosną o 3.",
+      "contexts": [
+        "data.json:scripts.c_saintbeefus.start"
+      ],
+      "category": "dialog"
+    },
+    "Saint Pope summons a cardinal!": {
+      "pl": "Św. Pope przywołuje kardynała!",
+      "contexts": [
+        "data.json:scripts.c_mobai_skeletonpope.start"
+      ],
+      "category": "dialog"
+    },
+    "Santa Cortada's pelvis twirls meaninglessly.": {
+      "pl": "Miednica Santa Cortady bezsensownie się obraca.",
+      "contexts": [
+        "data.json:scripts.c_mobai_cortadopelvis.start"
+      ],
+      "category": "dialog"
+    },
+    "Scary Dance!": {
+      "pl": "Straszny Taniec!",
+      "contexts": [
+        "data.json:scripts.c_mobai_smallspider_dancer.dance",
+        "data.json:scripts.c_wanderspider_myst.dance"
+      ],
+      "category": "dialog"
+    },
+    "Self-destruct in enemy territory, dealing 30 damage to all opponents.": {
+      "pl": "Samozniszczenie na terytorium wroga, zadając 30 obrażeń wszystkim przeciwnikom.",
+      "contexts": [
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Shoot a bunch of targets at random.": {
+      "pl": "Strzelaj losowo w masę celów.",
+      "contexts": [
+        "data.json:scripts.c_shootenanny_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Shoot target for $dmg$ damage (assuming the target is not behind cover.)": {
+      "pl": "Strzel w cel, zadając $dmg$ obrażeń (zakładając, że cel nie jest za osłoną.)",
+      "contexts": [
+        "data.json:scripts.c_mob_basicranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Silenced!": {
+      "pl": "Wyciszony!",
+      "contexts": [
+        "data.json:scripts.c_silence.start"
+      ],
+      "category": "dialog"
+    },
+    "Sleaze damage": {
+      "pl": "Obrażenia od nieczystości",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "Slimy Whites!": {
+      "pl": "Oślizgłe Białka!",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mox"
+      ],
+      "category": "dialog"
+    },
+    "Snipe kneels and takes aim.": {
+      "pl": "Snipe klęka i celuje.",
+      "contexts": [
+        "data.json:scripts.c_snipefricker_ai.aim"
+      ],
+      "category": "dialog"
+    },
+    "Snipe shoots you right in the heart.": {
+      "pl": "Snipe strzela ci prosto w serce.",
+      "contexts": [
+        "data.json:scripts.c_snipefricker_ai.shooot"
+      ],
+      "category": "dialog"
+    },
+    "Spooky damage": {
+      "pl": "Obrażenia od upiorności",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "Squeeeeak! Your balloon clown makes a horrible noise, distracting @target.name@ for @skill.stunduration@ round.": {
+      "pl": "Skreeeeek! Twój balonowy klaun wydaje okropny dźwięk, rozpraszając @target.name@ na @skill.stunduration@ rundę.",
+      "contexts": [
+        "data.json:scripts.c_squeak.start"
+      ],
+      "category": "dialog"
+    },
+    "Stats Doubled!": {
+      "pl": "Statystyki Podwojone!",
+      "contexts": [
+        "data.json:scripts.c_house_pantsdie.start"
+      ],
+      "category": "dialog"
+    },
+    "Steal @skill.lifesteal@ HP from this enemy and stun them for one round.": {
+      "pl": "Ukradnij temu wrogowi @skill.lifesteal@ HP i ogłusz go na jedną rundę.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Steal @skill.lifesteal@ HP from this enemy.": {
+      "pl": "Ukradnij temu wrogowi @skill.lifesteal@ HP.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Stench damage": {
+      "pl": "Obrażenia od smrodu",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "Stop trying to hit yourself.": {
+      "pl": "Przestań próbować się uderzyć.",
+      "contexts": [
+        "data.json:scripts.c_haymaker_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Strong Albumen!": {
+      "pl": "Silne Białko!",
+      "contexts": [
+        "data.json:scripts.c_house_poachedegg.mus"
+      ],
+      "category": "dialog"
+    },
+    "Stun all enemies for 1 round.": {
+      "pl": "Ogłusz wszystkich wrogów na 1 rundę.",
+      "contexts": [
+        "data.json:scripts.c_moo_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Stun all enemies for @skill.disableamount@ rounds.": {
+      "pl": "Ogłusz wszystkich wrogów na @skill.disableamount@ rund.",
+      "contexts": [
+        "data.json:scripts.c_moo_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Stunned!": {
+      "pl": "Ogłuszony!",
+      "contexts": [
+        "data.json:scripts.c_status_disabled.start"
+      ],
+      "category": "dialog"
+    },
+    "Summon a bean golem to fight for you.": {
+      "pl": "Przywołaj fasolowego golema, by walczył za ciebie.",
+      "contexts": [
+        "data.json:scripts.c_beangolem_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Summon a skeletal buddy to get between you and the forces of evil.": {
+      "pl": "Przywołaj szkieletowego kumpla, by stanął między tobą a siłami zła.",
+      "contexts": [
+        "data.json:scripts.c_skeleton1_desc.start",
+        "data.json:scripts.c_summonskeleton1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Summon a skeletal gunslinger to watch your backbone.": {
+      "pl": "Przywołaj szkieletowego rewolwerowca, by pilnował twoich pleców.",
+      "contexts": [
+        "data.json:scripts.c_skeleton3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Summon a skeletal spellslinger who will obey your every command.": {
+      "pl": "Przywołaj szkieletowego czarodzieja, który wykona każde twoje polecenie.",
+      "contexts": [
+        "data.json:scripts.c_skeleton2_desc.start",
+        "data.json:scripts.c_summonskeleton2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Summon up 3 skeletal gunslingers who will have your backbone.": {
+      "pl": "Przywołaj 3 szkieletowych rewolwerowców, którzy będą pilnować twoich pleców.",
+      "contexts": [
+        "data.json:scripts.c_summonskeleton3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie builds some makeshift cover.": {
+      "pl": "Susie buduje prowizoryczną osłonę.",
+      "contexts": [
+        "data.json:scripts.c_susie_buildcover.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie doesn't like to shoot thin air.": {
+      "pl": "Susie nie lubi strzelać w powietrze.",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie doesn't want to tie up a corpse.": {
+      "pl": "Susie nie chce wiązać trupa.",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie has no interest in shooting things that are already dead.": {
+      "pl": "Susie nie ma ochoty strzelać do czegoś, co już nie żyje.",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie lassos @target.name@, disabling them for 1 round.": {
+      "pl": "Susie zakuwa @target.name@ lassem, unieruchamiając go na 1 rundę.",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie shoots @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "Susie strzela do @target.name@ (używając Ikry) zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie will hastily construct some cover in front of you.": {
+      "pl": "Susie szybko zbuduje przed tobą jakąś osłonę.",
+      "contexts": [
+        "data.json:scripts.c_susie_buildcover_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie will shoot her target for $dmg$ damage.": {
+      "pl": "Susie strzeli do celu zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie would never do that to you.": {
+      "pl": "Susie nigdy by ci tego nie zrobiła.",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Susie's rifle is too long for her to point it at herself.": {
+      "pl": "Karabin Susie jest za długi, żeby mogła wycelować go w siebie.",
+      "contexts": [
+        "data.json:scripts.c_susie_rifleshot_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Talking to inanimate objects is fun, but it's pointless.": {
+      "pl": "Rozmawianie z przedmiotami nieożywionymi jest zabawne, ale bezcelowe.",
+      "contexts": [
+        "data.json:scripts.c_pete_peptalk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target El Vibrato enemy will be harmlessly removed from the battle for ^MAINTENANCE^translate_elvibrato^.": {
+      "pl": "Wróg El Vibrato zostanie bez szwanku usunięty z walki na potrzeby ^MAINTENANCE^translate_elvibrato^.",
+      "contexts": [
+        "data.json:scripts.c_elvteleporter_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will also not be on fire anymore.": {
+      "pl": "Cel nie będzie już w ogniu.",
+      "contexts": [
+        "data.json:scripts.c_canteen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will be disabled for 1 round.": {
+      "pl": "Cel zostanie unieruchomiony na 1 rundę.",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will be disabled for 2 rounds.": {
+      "pl": "Cel zostanie unieruchomiony na 2 rundy.",
+      "contexts": [
+        "data.json:scripts.c_item_rope_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will be disabled for 3 rounds and take $dmg$ Hot damage.": {
+      "pl": "Cel zostanie unieruchomiony na 3 rundy i otrzyma $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will be disabled for 3 rounds, take $dmg$ Hot damage, and be set on fire.": {
+      "pl": "Cel zostanie unieruchomiony na 3 rundy, otrzyma $dmg$ obrażeń od gorąca i zapłonie.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will be disabled for 3 rounds.": {
+      "pl": "Cel zostanie unieruchomiony na 3 rundy.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will get wet.": {
+      "pl": "Cel się zmoczy.",
+      "contexts": [
+        "data.json:scripts.c_canteen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target will suffer $est$ Hot damage.": {
+      "pl": "Cel otrzyma $est$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_lavafava_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Target's Moxie will be reduced by @skill.moxreduce@.": {
+      "pl": "Ikra celu zostanie obniżona o @skill.moxreduce@.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Targeted cow will be destroyed.": {
+      "pl": "Wybrana krowa zostanie zniszczona.",
+      "contexts": [
+        "data.json:scripts.c_cowrepellent_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That enemy is invulnerable @target.invulnreason@.": {
+      "pl": "Ten wróg jest niewrażliwy @target.invulnreason@.",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw_desc.start",
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_basicvenom_desc.start",
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That isn't a thing that can be effectively lassoed.": {
+      "pl": "Tego nie da się skutecznie złapać na lasso.",
+      "contexts": [
+        "data.json:scripts.c_susie_lasso_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That isn't a thing that can be poisoned.": {
+      "pl": "Tego nie da się zatruć.",
+      "contexts": [
+        "data.json:scripts.c_basicvenom_desc.start",
+        "data.json:scripts.c_item_venom_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That only works on skeletons that are still moving around.": {
+      "pl": "To działa tylko na szkielety, które wciąż się ruszają.",
+      "contexts": [
+        "data.json:scripts.c_mob_buffskeleton_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That only works on skeletons.": {
+      "pl": "To działa tylko na szkielety.",
+      "contexts": [
+        "data.json:scripts.c_mob_buffskeleton_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target doesn't need any healin'.": {
+      "pl": "Ten cel nie potrzebuje leczenia.",
+      "contexts": [
+        "data.json:scripts.c_alice_patchup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target is already as flammable as it's gonna get.": {
+      "pl": "Ten cel jest już tak łatwopalny, jak to tylko możliwe.",
+      "contexts": [
+        "data.json:scripts.c_kerosene_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target is beyond even the best medicine.": {
+      "pl": "Temu celowi nie pomoże nawet najlepsze lekarstwo.",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target is beyond the reach of science.": {
+      "pl": "Ten cel znajduje się poza zasięgiem nauki.",
+      "contexts": [
+        "data.json:scripts.c_ghostbuster_shoot_desc.start",
+        "data.json:scripts.c_ghostbuster_suckray_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target would not appreciate your yodeling.  Not that a valid target would <i>appreciate</i> it, exactly.": {
+      "pl": "Ten cel nie doceni twojego jodłowania. Nie żeby odpowiedni cel naprawdę miał je <i>docenić</i>.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That target's goose is already cooked.": {
+      "pl": "Ten cel jest już usmażony.",
+      "contexts": [
+        "data.json:scripts.c_lavafava_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That thing doesn't have any Moxie to reduce.": {
+      "pl": "To coś nie ma Ikry, którą można obniżyć.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That unit cannot be improved anymore.": {
+      "pl": "Tej jednostki nie da się już bardziej ulepszyć.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That unit has already achieved ultimate glory.": {
+      "pl": "Ta jednostka osiągnęła już najwyższą chwałę.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That's not a cow.": {
+      "pl": "To nie jest krowa.",
+      "contexts": [
+        "data.json:scripts.c_cowrepellent_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That's not a skeleton.": {
+      "pl": "To nie jest szkielet.",
+      "contexts": [
+        "data.json:scripts.c_alice_bonesaw_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "That's not an El Vibrato enemy.": {
+      "pl": "To nie jest wróg El Vibrato.",
+      "contexts": [
+        "data.json:scripts.c_elvteleporter_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "The barrel is destroyed!": {
+      "pl": "Beczka została zniszczona!",
+      "contexts": [
+        "data.json:scripts.c_barrel_takedamage.destroy"
+      ],
+      "category": "dialog"
+    },
+    "The beanwall is destroyed.": {
+      "pl": "Fasolowy mur został zniszczony.",
+      "contexts": [
+        "data.json:scripts.c_beans1_takedamage.start"
+      ],
+      "category": "dialog"
+    },
+    "The bone barrier just continues being in the way.": {
+      "pl": "Kościana bariera po prostu dalej stoi na drodze.",
+      "contexts": [
+        "data.json:scripts.c_mobai_bonebarrier.start"
+      ],
+      "category": "dialog"
+    },
+    "The Bovermind blasts @target.name@ for 3 damage.": {
+      "pl": "Bovermind trafia @target.name@ za 3 obrażenia.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_ping.start"
+      ],
+      "category": "dialog"
+    },
+    "The Bovermind eradicates @target.name@.": {
+      "pl": "Bovermind unicestwia @target.name@.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke.start"
+      ],
+      "category": "dialog"
+    },
+    "The Bovermind heals @target.name@ for @skill.healamount@ HP.": {
+      "pl": "Bovermind leczy @target.name@ o @skill.healamount@ HP.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal.start"
+      ],
+      "category": "dialog"
+    },
+    "The Bovermind increases @target.name@'s stats by $amt$.": {
+      "pl": "Bovermind zwiększa statystyki @target.name@ o $amt$.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost.start"
+      ],
+      "category": "dialog"
+    },
+    "The bush is destroyed!": {
+      "pl": "Krzak zniszczony!",
+      "contexts": [
+        "data.json:scripts.c_hedge_takedamage.destroy"
+      ],
+      "category": "dialog"
+    },
+    "The cactus is destroyed!": {
+      "pl": "Kaktus zniszczony!",
+      "contexts": [
+        "data.json:scripts.c_cactus_takedamage.destroy"
+      ],
+      "category": "dialog"
+    },
+    "The clown egg hatched into a beautiful newborn hammer clown!": {
+      "pl": "Jajo klauna wykluło się w pięknego noworodka klauna młotkowego!",
+      "contexts": [
+        "data.json:scripts.c_clownegg_incubate.hatched"
+      ],
+      "category": "dialog"
+    },
+    "The clown egg is destroyed!": {
+      "pl": "Jajo klauna zniszczone!",
+      "contexts": [
+        "data.json:scripts.c_damage_clownegg.die"
+      ],
+      "category": "dialog"
+    },
+    "The coal snake egg is destroyed!": {
+      "pl": "Jajo węglowego węża zniszczone!",
+      "contexts": [
+        "data.json:scripts.c_damage_coalsnakeegg.start"
+      ],
+      "category": "dialog"
+    },
+    "The egg incubates quietly.": {
+      "pl": "Jajo cicho się inkubuje.",
+      "contexts": [
+        "data.json:scripts.c_clownegg_incubate.start"
+      ],
+      "category": "dialog"
+    },
+    "The enemy deserves no mercy.": {
+      "pl": "Wróg nie zasługuje na litość.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "The fungicide wasn't effective against this non-fungal foe.": {
+      "pl": "Grzybobójczy środek nie zadziałał na tego niegrzybowego wroga.",
+      "contexts": [
+        "data.json:scripts.c_fungicide1.notgoblin"
+      ],
+      "category": "dialog"
+    },
+    "The goblin attacks!": {
+      "pl": "Goblin atakuje!",
+      "contexts": [
+        "data.json:scripts.c_gary_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "The goblin's fungal flesh disintegrates and it suffers 25 damage.": {
+      "pl": "Grzybiczne ciało goblina rozpada się, a on otrzymuje 25 obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fungicide1.goblin"
+      ],
+      "category": "dialog"
+    },
+    "The ground isn't injured.": {
+      "pl": "Ziemia nie jest ranna.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "The Hedge Wizard blasts your party with enchanted shrubbery, dealing $dmg$ damage.": {
+      "pl": "Czarodziej Żywopłotu trafia twoją drużynę zaczarowanym krzewiarstwem, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard.start"
+      ],
+      "category": "dialog"
+    },
+    "The Hedge Wizard summons some monsters.": {
+      "pl": "Czarodziej Żywopłotu przywołuje potwory.",
+      "contexts": [
+        "data.json:scripts.c_house_hedgewizard_getready.shmart"
+      ],
+      "category": "dialog"
+    },
+    "The hunter's ghost aims.": {
+      "pl": "Duch łowcy celuje.",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.aim"
+      ],
+      "category": "dialog"
+    },
+    "The hunter's ghost blows you to Kingdom Come.": {
+      "pl": "Duch łowcy wysyła cię do Krainy Wiecznej.",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.shooot"
+      ],
+      "category": "dialog"
+    },
+    "The hunter's ghost gets ready.": {
+      "pl": "Duch łowcy się szykuje.",
+      "contexts": [
+        "data.json:scripts.c_ghost_hunter_ai.ready"
+      ],
+      "category": "dialog"
+    },
+    "The pile of bones is destroyed!": {
+      "pl": "Stos kości zniszczony!",
+      "contexts": [
+        "data.json:scripts.c_bonepile_takedamage.destroy"
+      ],
+      "category": "dialog"
+    },
+    "The pillar bonks you on the head (using Muscle) for $dmg$ damage with a big heavy skull.": {
+      "pl": "Filar uderza cię w głowę (używając Mięśni) za $dmg$ obrażeń wielką ciężką czaszką.",
+      "contexts": [
+        "data.json:scripts.c_mobai_skullpillar.start"
+      ],
+      "category": "dialog"
+    },
+    "The pillar shoots you (using Moxie) with a fast-moving skull bullet (or skullet,) dealing $dmg$ damage.": {
+      "pl": "Filar strzela do ciebie (używając Ikry) szybką czaszką-kulą (skullet), zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mobai_skullpillar.start"
+      ],
+      "category": "dialog"
+    },
+    "The pillar spooks you to the core (using Mysticality) with a spooky spectral skull, dealing $dmg$ damage.": {
+      "pl": "Filar przestrasza cię do głębi (używając Mistycyzmu) upiorną widmową czaszką, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mobai_skullpillar.start"
+      ],
+      "category": "dialog"
+    },
+    "The pyrobove breathes flames on you, setting you on fire for 3.": {
+      "pl": "Pyrobove zionie na ciebie płomieniami, podpalając cię na 3.",
+      "contexts": [
+        "data.json:scripts.c_pyrobove_ai.flameburst"
+      ],
+      "category": "dialog"
+    },
+    "The skeleton attacks!": {
+      "pl": "Szkielet atakuje!",
+      "contexts": [
+        "data.json:scripts.c_skeleton1_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "The snake bites you (using Muscle) for $dmg$ damage and 1 poison.": {
+      "pl": "Wąż gryzie cię (używając Mięśni), zadając $dmg$ obrażeń i 1 trucizny.",
+      "contexts": [
+        "data.json:scripts.c_snake2_ai.start",
+        "data.json:scripts.c_snake3_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "The snake bites you (using Muscle) for $dmg$ damage.": {
+      "pl": "Wąż gryzie cię (używając Mięśni), zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_snake1_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "The snake egg hatches!": {
+      "pl": "Jajo węża się wykluwa!",
+      "contexts": [
+        "data.json:scripts.c_coalsnakeegg_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "The table is destroyed!": {
+      "pl": "Stół jest zniszczony!",
+      "contexts": [
+        "data.json:scripts.c_tablecover_damage.start"
+      ],
+      "category": "dialog"
+    },
+    "The target dummy sits there like a dummy.": {
+      "pl": "Manekin siedzi tam jak manekin.",
+      "contexts": [
+        "data.json:scripts.c_targetdummy.start"
+      ],
+      "category": "dialog"
+    },
+    "The target will also be set on fire.": {
+      "pl": "Cel również zostanie podpalony.",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "The target will recover 10 HP.": {
+      "pl": "Cel odzyska 10 HP.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "The Yeast Beast stomps, dealing $dmg$ damage to your entire team.": {
+      "pl": "Bestia Drożdżowa tupie, zadając $dmg$ obrażeń całej drużynie.",
+      "contexts": [
+        "data.json:scripts.c_yeastbeast_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "There'd be no point in stealing life from yourself.": {
+      "pl": "Nie ma sensu kraść życia samemu sobie.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no point in beating a dead... whatever.": {
+      "pl": "Nie ma sensu bić martwego... czegokolwiek.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no sense giving the ground the evil eye.": {
+      "pl": "Nie ma sensu mierzyć ziemi złym spojrzeniem.",
+      "contexts": [
+        "data.json:scripts.c_mob_evileye_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no sense in punching a corpse.": {
+      "pl": "Nie ma sensu bić trupa.",
+      "contexts": [
+        "data.json:scripts.c_haymaker_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no sense in shooting that anymore.": {
+      "pl": "Nie ma sensu dalej do tego strzelać.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletfire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no sense in whipping a corpse.": {
+      "pl": "Nie ma sensu chłostać trupa.",
+      "contexts": [
+        "data.json:scripts.c_snakewhip_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "There's no sport in trying to lasso a corpse.": {
+      "pl": "Nie ma żadnego wyzwania w łapaniu trupa na lasso.",
+      "contexts": [
+        "data.json:scripts.c_item_rope_desc.start",
+        "data.json:scripts.c_ropeleather1_desc.start",
+        "data.json:scripts.c_ropeleather2_desc.start",
+        "data.json:scripts.c_ropeleather3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "These aren't the kind of beans you can plant.": {
+      "pl": "To nie jest fasola, którą można zasadzić.",
+      "contexts": [
+        "data.json:scripts.c_lavafava_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "These matches aren't suitable for cremations.": {
+      "pl": "Te zapałki nie nadają się do kremacji.",
+      "contexts": [
+        "data.json:scripts.c_match_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This isn't cremation-grade kerosene.": {
+      "pl": "To nie jest nafta kremacyjnej jakości.",
+      "contexts": [
+        "data.json:scripts.c_kerosene_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This isn't the proper venue for a cremation.": {
+      "pl": "To nie jest odpowiednie miejsce na kremację.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathefire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This medicine is only for things that are alive.": {
+      "pl": "To lekarstwo jest tylko dla żywych istot.",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This revolting human will be utterly destroyed.": {
+      "pl": "Ten odrażający człowiek zostanie całkowicie zniszczony.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This target is beyond healing.": {
+      "pl": "Tego celu nie da się uleczyć.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This thing is dangerous.  You shouldn't point it at yourself.": {
+      "pl": "To jest niebezpieczne. Nie należy celować tym w siebie.",
+      "contexts": [
+        "data.json:scripts.c_snakespleen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will cure you of the Poisoned status.": {
+      "pl": "To wyleczy cię ze statusu Zatrucie.",
+      "contexts": [
+        "data.json:scripts.c_antidote_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will deal 25 damage to the target (assuming the target is a goblin.)": {
+      "pl": "To zada celowi 25 obrażeń (zakładając, że celem jest goblin).",
+      "contexts": [
+        "data.json:scripts.c_fungicide1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will heal your target for 15 HP.": {
+      "pl": "To uleczy cel o 15 HP.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will inflict $amt$ damage on your target (based on your Muscle).": {
+      "pl": "To zada celowi $amt$ obrażeń (na podstawie twoich Mięśni).",
+      "contexts": [
+        "data.json:scripts.c_bowlingchunk_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will inflict $poisonamt$ poison on your target.": {
+      "pl": "To nałoży na cel $poisonamt$ trucizny.",
+      "contexts": [
+        "data.json:scripts.c_basicvenom_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will not end your turn.": {
+      "pl": "To nie zakończy twojej tury.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_beangolem_desc.start",
+        "data.json:scripts.c_beanshield_desc.start",
+        "data.json:scripts.c_beanwall_desc.start",
+        "data.json:scripts.c_beefup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "This will poison your target by $poisonamt$.  $poisonamt$ Poisons.  $poisonamt$ units of poison.": {
+      "pl": "To zatruje cel o $poisonamt$. $poisonamt$ trucizn. $poisonamt$ jednostek trucizny.",
+      "contexts": [
+        "data.json:scripts.c_item_venom_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Though it's fun to desecrate the corpses of soldiers, it's tactically pointless.": {
+      "pl": "Choć bezczeszczenie zwłok żołnierzy jest zabawne, taktycznie niczemu nie służy.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_nuke_desc.start",
+        "data.json:scripts.c_bovermind_ping_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Thud Fricker lays a beating down on you (using Muscle) for $dmg$ damage.": {
+      "pl": "Thud Fricker wbija cię (używając Mięśni), zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_thudfricker_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "Trying to shoot this target will hit @target.coveredby@ instead.": {
+      "pl": "Strzał w ten cel trafi w @target.coveredby@ zamiast w cel.",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.covered",
+        "data.json:scripts.c_bulletdense_desc.covered",
+        "data.json:scripts.c_bulletfire_desc.covered",
+        "data.json:scripts.c_bulletpoison_desc.covered",
+        "data.json:scripts.c_bulletsilver_desc.covered"
+      ],
+      "category": "dialog"
+    },
+    "Tumbleweeds can't hurt the ground.  Even spooky tumbleweeds.": {
+      "pl": "Kłęby pustynnych krzaków nie mogą zranić ziemi. Nawet upiorne kłęby.",
+      "contexts": [
+        "data.json:scripts.c_skelthrall_spell1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Uncle!  Uncle!": {
+      "pl": "Wujek! Wujek!",
+      "contexts": [
+        "data.json:scripts.c_norton_runaway3.start"
+      ],
+      "category": "dialog"
+    },
+    "Using this will restore 5 HP.": {
+      "pl": "Użycie tego przywróci 5 HP.",
+      "contexts": [
+        "data.json:scripts.c_basicmedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Using this will restore 50% of your Maximum HP (currently $amt$).": {
+      "pl": "Użycie tego przywróci 50% maksymalnego HP (obecnie $amt$).",
+      "contexts": [
+        "data.json:scripts.c_housemedicine_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "We've got a wounded soldier!": {
+      "pl": "Mamy rannego żołnierza!",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armymedic.single"
+      ],
+      "category": "dialog"
+    },
+    "We've got multiple wounded soldiers!": {
+      "pl": "Mamy wielu rannych żołnierzy!",
+      "contexts": [
+        "data.json:scripts.c_cowgame_armymedic.multiple"
+      ],
+      "category": "dialog"
+    },
+    "Whiff!": {
+      "pl": "Pudło!",
+      "contexts": [
+        "data.json:scripts.c_basic_damage.start",
+        "data.json:scripts.c_damage_clownegg.start"
+      ],
+      "category": "dialog"
+    },
+    "Whoa, they're quick!": {
+      "pl": "Są szybkie!",
+      "contexts": [
+        "data.json:scripts.c_prefight.start"
+      ],
+      "category": "dialog"
+    },
+    "Why blow up nothing when you could blow up something?": {
+      "pl": "Po co wysadzać nic, skoro można coś wysadzić?",
+      "contexts": [
+        "data.json:scripts.c_dynamite2_desc.start",
+        "data.json:scripts.c_dynamite_desc.start",
+        "data.json:scripts.c_superdynamite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Why shoot nothing when you could shoot anything?": {
+      "pl": "Po co strzelać, skoro można strzelać do czegokolwiek?",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Why swing a lantern if you're not even going to hit anything?": {
+      "pl": "Po co machać latarnią, skoro w nic nie uderzysz?",
+      "contexts": [
+        "data.json:scripts.c_pete_lanternbash_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will bite target for $dmg$ damage.": {
+      "pl": "Ugryzie cel, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_bite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal $dmg$ damage.": {
+      "pl": "Zada $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_mob_basicmelee_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal $dmg$ Spooky damage!": {
+      "pl": "Zada $dmg$ obrażeń upiornych!",
+      "contexts": [
+        "data.json:scripts.c_mob_evileye_desc.start",
+        "data.json:scripts.c_mob_spookyhug_desc.start",
+        "data.json:scripts.c_skelthrall_spell1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal $dmg$ Spooky damage.": {
+      "pl": "Zada $dmg$ obrażeń upiornych.",
+      "contexts": [
+        "data.json:scripts.c_spectralskull_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 1 Hot damage, and set the target on fire if the target is flammable.": {
+      "pl": "Zada 1 obrażenie od gorąca i podpali cel, jeśli jest łatwopalny.",
+      "contexts": [
+        "data.json:scripts.c_match_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 10 Hot damage, and set the target on fire if the target is flammable.": {
+      "pl": "Zada 10 obrażeń od gorąca i podpali cel, jeśli jest łatwopalny.",
+      "contexts": [
+        "data.json:scripts.c_snakespleen_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 20 damage to the target.": {
+      "pl": "Zada 20 obrażeń celowi.",
+      "contexts": [
+        "data.json:scripts.c_dynamite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 30 damage to all enemies.": {
+      "pl": "Zada 30 obrażeń wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_elvgrenade_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 40 damage to the target.": {
+      "pl": "Zada 40 obrażeń celowi.",
+      "contexts": [
+        "data.json:scripts.c_dynamite2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will deal 999 damage to the target.": {
+      "pl": "Zada 999 obrażeń celowi.",
+      "contexts": [
+        "data.json:scripts.c_superdynamite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Will reduce a target's Muscle, Mysticality and Moxie by 25 percent.": {
+      "pl": "Zmniejszy Mięśnie, Mistycyzm i Ikrę celu o 25 procent.",
+      "contexts": [
+        "data.json:scripts.c_spiderweb_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Wimpy fires his gun in a random direction, hitting nothing.": {
+      "pl": "Wimpy strzela w losowym kierunku, nie trafiając w nic.",
+      "contexts": [
+        "data.json:scripts.c_chudfricker_ai.miss"
+      ],
+      "category": "dialog"
+    },
+    "Wimpy gets lucky and one of his wild shots hits you.": {
+      "pl": "Wimpy ma szczęście i jeden z jego dzikich strzałów trafia w ciebie.",
+      "contexts": [
+        "data.json:scripts.c_chudfricker_ai.hit"
+      ],
+      "category": "dialog"
+    },
+    "You are powerless in the eyes of the Master.": {
+      "pl": "Jesteś bezsilny w oczach Mistrza.",
+      "contexts": [
+        "data.json:scripts.c_mobai_robertocultist.debuff"
+      ],
+      "category": "dialog"
+    },
+    "You are silenced and can only use basic attacks.": {
+      "pl": "Jesteś uciszony i można używać tylko podstawowych ataków.",
+      "contexts": [
+        "data.json:scripts.c_antidote_desc.start",
+        "data.json:scripts.c_armyfirstaid_desc.start",
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start",
+        "data.json:scripts.c_balloonclown_createanimal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You aren't interested in punching nothing.": {
+      "pl": "Nie jesteś zainteresowany biciem niczego.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You aren't into self-flagellation.": {
+      "pl": "Nie lubisz samobiczowania.",
+      "contexts": [
+        "data.json:scripts.c_snakewhip_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You aren't poisoned.": {
+      "pl": "Nie jesteś otruty.",
+      "contexts": [
+        "data.json:scripts.c_antidote_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You beef up, increasing your Muscle by @skill.muscleboost@.": {
+      "pl": "Umięśniasz się, zwiększając Mięśnie o @skill.muscleboost@.",
+      "contexts": [
+        "data.json:scripts.c_beefup.start"
+      ],
+      "category": "dialog"
+    },
+    "You blast @target.name@ (using Mysticality) with a lavafava, dealing $dmg$ Hot damage.": {
+      "pl": "Trafiasz @target.name@ (używając Mistycyzmu) lawafawą, zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_lavafava.handletarget"
+      ],
+      "category": "dialog"
+    },
+    "You can only steal death from that, at this point.": {
+      "pl": "W tym momencie można ukraść tylko śmierć.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can only use that skill on yourself.": {
+      "pl": "Możesz używać tej umiejętności tylko na sobie.",
+      "contexts": [
+        "data.json:scripts.c_firstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can play with matches and you can play with yourself, but you can't do both at the same time.": {
+      "pl": "Możesz grać zapałkami i możesz grać ze sobą, ale nie możesz robić obu jednocześnie.",
+      "contexts": [
+        "data.json:scripts.c_match_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't fan a hammer that doesn't exist.": {
+      "pl": "Nie możesz użyć Szybkostrzału na broni, która nie istnieje.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't fan the hammer unless the gun is pointed away from you.": {
+      "pl": "Nie możesz użyć Szybkostrzału, dopóki broń nie jest skierowana od ciebie.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't gore anyone on your side of the fight.": {
+      "pl": "Nie możesz zatłuc nikogo po swojej stronie walki.",
+      "contexts": [
+        "data.json:scripts.c_gore_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't have a shootenanny without a shootin' iron!": {
+      "pl": "Nie możesz mieć strzelaniny bez giwery!",
+      "contexts": [
+        "data.json:scripts.c_shootenanny_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't set nothing on fire.": {
+      "pl": "Nie można niczego podpalić.",
+      "contexts": [
+        "data.json:scripts.c_mob_breathefire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't use a bullet without a gun.": {
+      "pl": "Nie można użyć kuli bez broni.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletfire_desc.start",
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You can't use gun oil without a gun.": {
+      "pl": "Nie można użyć oleju z broni bez broni.",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start",
+        "data.json:scripts.c_oiler1b_desc.start",
+        "data.json:scripts.c_oiler1_desc.start",
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2b_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You conjure up a beanshield, increasing your armor by @skill.armorboost@.": {
+      "pl": "Przywołujesz fasolową tarczę, zwiększając pancerz o @skill.armorboost@.",
+      "contexts": [
+        "data.json:scripts.c_beanshield.start"
+      ],
+      "category": "dialog"
+    },
+    "You conjure up a beanwall.": {
+      "pl": "Przywołujesz fasolowy mur.",
+      "contexts": [
+        "data.json:scripts.c_beanwall.addsides"
+      ],
+      "category": "dialog"
+    },
+    "You conjure up a blizzard of Great Northern beans, dealing Cold damage to all your foes.": {
+      "pl": "Przywołujesz zamieć Wielkich Północnych fasoli, zadając wszystkim wrogom obrażenia od zimna.",
+      "contexts": [
+        "data.json:scripts.c_blizzard.start"
+      ],
+      "category": "dialog"
+    },
+    "You conjure up a ghastly rain of teeth, dealing Spooky damage to all of your foes.": {
+      "pl": "Przywołujesz upiorny deszcz zębów, zadając wszystkim wrogom obrażenia od upiorności.",
+      "contexts": [
+        "data.json:scripts.c_rainofteeth.start"
+      ],
+      "category": "dialog"
+    },
+    "You conjure up some beanwalls.": {
+      "pl": "Przywołujesz kilka fasolowych murów.",
+      "contexts": [
+        "data.json:scripts.c_beanwall.addsides"
+      ],
+      "category": "dialog"
+    },
+    "You deliver a fierce haymaker, dealing $dmg$ damage and disabling @target.name@ for 1 round.": {
+      "pl": "Zadajesz mocny haymaker, zadając $dmg$ obrażeń i unieruchamiając @target.name@ na 1 rundę.",
+      "contexts": [
+        "data.json:scripts.c_haymaker.start"
+      ],
+      "category": "dialog"
+    },
+    "You deliver a fierce haymaker, dealing $dmg$ damage and disabling @target.name@ for @skill.stunduration@ rounds.": {
+      "pl": "Zadajesz mocny haymaker, zadając $dmg$ obrażeń i unieruchamiając @target.name@ na @skill.stunduration@ rund.",
+      "contexts": [
+        "data.json:scripts.c_haymaker.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a bean golem.": {
+      "pl": "Rzucasz w boj golema z fasoli.",
+      "contexts": [
+        "data.json:scripts.c_beangolem.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a golem!": {
+      "pl": "Rzucasz w boj golema!",
+      "contexts": [
+        "data.json:scripts.c_summonskeleton1.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a skeletal gunslinger.": {
+      "pl": "Rzucasz w boj szkieletowego rewolwerowca.",
+      "contexts": [
+        "data.json:scripts.c_skeleton3.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a skeletal thrall.": {
+      "pl": "Rzucasz w boj szkieletowego niewolnika.",
+      "contexts": [
+        "data.json:scripts.c_skeleton2.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a skeleton buddy.": {
+      "pl": "Rzucasz w boj szkieletowego kumpla.",
+      "contexts": [
+        "data.json:scripts.c_skeleton1.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a skeleton trall!": {
+      "pl": "Rzucasz w boj szkieletowego niewolnika!",
+      "contexts": [
+        "data.json:scripts.c_summonskeleton2.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy a snake!": {
+      "pl": "Rzucasz w boj węża!",
+      "contexts": [
+        "data.json:scripts.c_summonsnake.start"
+      ],
+      "category": "dialog"
+    },
+    "You deploy an El Vibrato drone.": {
+      "pl": "Rzucasz w boj drona El Vibrato.",
+      "contexts": [
+        "data.json:scripts.c_elvdrone1.start",
+        "data.json:scripts.c_elvdrone2.start"
+      ],
+      "category": "dialog"
+    },
+    "You do literally nothing.": {
+      "pl": "Dosłownie nic nie robisz.",
+      "contexts": [
+        "data.json:scripts.c_donothing.start"
+      ],
+      "category": "dialog"
+    },
+    "You don't feel like blowing yourself up today.": {
+      "pl": "Nie masz dziś ochoty wysadzić się w powietrze.",
+      "contexts": [
+        "data.json:scripts.c_dynamite2_desc.start",
+        "data.json:scripts.c_dynamite_desc.start",
+        "data.json:scripts.c_superdynamite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You don't have enough AP to use this skill": {
+      "pl": "Nie masz dość PA, aby użyć tej umiejętności",
+      "contexts": [
+        "data.json:scripts.c_badmedicine_desc.start",
+        "data.json:scripts.c_balloonanimal_gosayhi_desc.start",
+        "data.json:scripts.c_balloonclown_createanimal_desc.start",
+        "data.json:scripts.c_basic_melee_desc.start",
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You don't want to set the world on fire.": {
+      "pl": "Nie chcesz podpalić świata.",
+      "contexts": [
+        "data.json:scripts.c_bulletfire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You don't want to waste the fungicide.": {
+      "pl": "Nie chcesz marnować fungicydu.",
+      "contexts": [
+        "data.json:scripts.c_fungicide1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You douse @target.name@ with kerosene, rendering them weaker and more flammable.": {
+      "pl": "Oblewasz @target.name@ naftą, czyniąc go słabszym i bardziej łatwopalnym.",
+      "contexts": [
+        "data.json:scripts.c_kerosene.handletarget"
+      ],
+      "category": "dialog"
+    },
+    "You douse @target.name@ with water.": {
+      "pl": "Oblewasz @target.name@ wodą.",
+      "contexts": [
+        "data.json:scripts.c_canteen.start"
+      ],
+      "category": "dialog"
+    },
+    "You douse yourself with water.": {
+      "pl": "Oblewasz się wodą.",
+      "contexts": [
+        "data.json:scripts.c_canteen.start"
+      ],
+      "category": "dialog"
+    },
+    "You drink the emetic and disgustingly purge your body of poison.": {
+      "pl": "Pijesz wymiotne i obrzydliwie oczyszczasz ciało z trucizny.",
+      "contexts": [
+        "data.json:scripts.c_antidote.start"
+      ],
+      "category": "dialog"
+    },
+    "You eat the loco weed, restoring 2 AP.": {
+      "pl": "Jesz loco weed, odzyskując 2 PA.",
+      "contexts": [
+        "data.json:scripts.c_locoweed.start"
+      ],
+      "category": "dialog"
+    },
+    "You gore an entire row of enemies (using Muscle) for various amounts of damage.": {
+      "pl": "Przebijasz cały rząd wrogów (używając Mięśni), zadając różne ilości obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_gore.finish"
+      ],
+      "category": "dialog"
+    },
+    "You hate the smell of this stuff.": {
+      "pl": "Nienawidzisz tego zapachu.",
+      "contexts": [
+        "data.json:scripts.c_fungicide1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You have no interest in burning yourself.": {
+      "pl": "Nie chcesz się spalić.",
+      "contexts": [
+        "data.json:scripts.c_lavafava_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You have no interest in shooting <i>or</i> poisoning yourself, let alone both.": {
+      "pl": "Nie masz interesu w strzelaniu <i>lub</i> zatruciu się, nie mówiąc już o obu.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal @target.name@ for $healamount$ HP.": {
+      "pl": "Leczysz @target.name@ o $healamount$ HP.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal @target.name@ for 10 HP.": {
+      "pl": "Leczysz @target.name@ o 10 HP.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for $amt$ HP.": {
+      "pl": "Leczysz siebie o $amt$ HP.",
+      "contexts": [
+        "data.json:scripts.c_housemedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for $heal$ HP.": {
+      "pl": "Leczysz siebie o $heal$ HP.",
+      "contexts": [
+        "data.json:scripts.c_goodmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for $healamount$ HP.": {
+      "pl": "Leczysz siebie o $healamount$ HP.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for 10 HP.": {
+      "pl": "Leczysz siebie o 10 HP.",
+      "contexts": [
+        "data.json:scripts.c_armyfirstaid.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for 5 HP.": {
+      "pl": "Leczysz siebie o 5 HP.",
+      "contexts": [
+        "data.json:scripts.c_basicmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "You heal yourself for @skill.healamount@.": {
+      "pl": "Leczysz siebie o @skill.healamount@.",
+      "contexts": [
+        "data.json:scripts.c_firstaid.start"
+      ],
+      "category": "dialog"
+    },
+    "You hit @target.name@ with a basic melee attack (Muscle) and deal $dam$ damage.": {
+      "pl": "Uderzasz @target.name@ podstawowym atakiem wręcz (Mięśnie) i zadajesz $dam$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee.afterdamage"
+      ],
+      "category": "dialog"
+    },
+    "You hit @target.name@ with a basic pistol attack (using Moxie) and deal $dam$ damage.": {
+      "pl": "Trafiasz @target.name@ podstawowym atakiem z pistoletu (używając Ikry) i zadajesz $dam$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged.afterdamage"
+      ],
+      "category": "dialog"
+    },
+    "You hose the cow down with Kine-Off.": {
+      "pl": "Spryskujesz krowę Kine-Offem.",
+      "contexts": [
+        "data.json:scripts.c_cowrepellent.start"
+      ],
+      "category": "dialog"
+    },
+    "You hurl a chunk of bowling ball at @target.name@, dealing $dmg$ damage damage.": {
+      "pl": "Ciskasz kawałkiem kuli do kręgli w @target.name@, zadając $dmg$ obrażeń obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_bowlingchunk.start"
+      ],
+      "category": "dialog"
+    },
+    "You hurl a glob of spider web at @target.name@, reducing its stats by 25 percent.": {
+      "pl": "Ciskasz bryłą pajęczyny w @target.name@, obniżając jego statystyki o 25 procent.",
+      "contexts": [
+        "data.json:scripts.c_spiderweb.start"
+      ],
+      "category": "dialog"
+    },
+    "You hurl a stick of dynamite at @target.name@, dealing 20 damage.": {
+      "pl": "Ciskasz lontem dynamitu w @target.name@, zadając 20 obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_dynamite.start"
+      ],
+      "category": "dialog"
+    },
+    "You hurl a stick of dynamite at @target.name@, dealing 40 damage.": {
+      "pl": "Ciskasz lontem dynamitu w @target.name@, zadając 40 obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_dynamite2.start"
+      ],
+      "category": "dialog"
+    },
+    "You hurl the snake spleen at @target.name@, dealing $dmg$ Hot damage.": {
+      "pl": "Ciskasz wężową śledzionę w @target.name@, zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_snakespleen.start"
+      ],
+      "category": "dialog"
+    },
+    "You lasso @target.name@, disabling them for 2 rounds.": {
+      "pl": "Złapiesz @target.name@ lassem, unieruchamiając go na 2 rundy.",
+      "contexts": [
+        "data.json:scripts.c_item_rope.start"
+      ],
+      "category": "dialog"
+    },
+    "You lasso @target.name@, disabling them for 3 rounds and dealing $dmg$ Hot damage and setting them on fire for 5.": {
+      "pl": "Złapiesz @target.name@ lassem, unieruchamiając go na 3 rundy, zadając $dmg$ obrażeń od gorąca i podpalając na 5.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather3.start"
+      ],
+      "category": "dialog"
+    },
+    "You lasso @target.name@, disabling them for 3 rounds and dealing $dmg$ Hot damage.": {
+      "pl": "Złapiesz @target.name@ lassem, unieruchamiając go na 3 rundy i zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather2.start"
+      ],
+      "category": "dialog"
+    },
+    "You lasso @target.name@, disabling them for 3 rounds.": {
+      "pl": "Złapiesz @target.name@ lassem, unieruchamiając go na 3 rundy.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather1.start"
+      ],
+      "category": "dialog"
+    },
+    "You light the match and flick it at @target.name@, dealing $dmg$ damage.": {
+      "pl": "Zapalasz zapałkę i ciskasz nią w @target.name@, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_match.start"
+      ],
+      "category": "dialog"
+    },
+    "You like punching things, but empty space isn't really a thing.": {
+      "pl": "Lubisz walić w różne rzeczy, ale pusta przestrzeń nie jest rzeczą.",
+      "contexts": [
+        "data.json:scripts.c_haymaker_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You like whipping things, but empty space isn't really a thing.": {
+      "pl": "Lubisz biczować, ale puste miejsce nie jest rzeczą.",
+      "contexts": [
+        "data.json:scripts.c_snakewhip_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You load up the gun oil and hose @target.name@ down with flame (using Moxie) for $dmg$ Hot damage.": {
+      "pl": "Napełniasz olej do broni i spryskujesz @target.name@ płomieniem (używając Ikry), zadając $dmg$ obrażeń od gorąca.",
+      "contexts": [
+        "data.json:scripts.c_oiler1.start",
+        "data.json:scripts.c_oiler1a.start"
+      ],
+      "category": "dialog"
+    },
+    "You load up the gun oil and hose @target.name@ down with venom (using Moxie) for $dmg$ damage and $poisonamt$ poison.": {
+      "pl": "Napełniasz olej do broni i spryskujesz @target.name@ jadem (używając Ikry), zadając $dmg$ obrażeń i $poisonamt$ trucizny.",
+      "contexts": [
+        "data.json:scripts.c_oiler2.start",
+        "data.json:scripts.c_oiler2a.start"
+      ],
+      "category": "dialog"
+    },
+    "You load up the gun oil and hose all of your foes down with flame (using Moxie).": {
+      "pl": "Napełniasz olej do broni i spryskujesz wszystkich wrogów płomieniem (używając Ikry).",
+      "contexts": [
+        "data.json:scripts.c_oiler1b.start"
+      ],
+      "category": "dialog"
+    },
+    "You load up the gun oil and hose all of your foes down with venom (using Moxie).": {
+      "pl": "Napełniasz olej do broni i spryskujesz wszystkich wrogów jadem (używając Ikry).",
+      "contexts": [
+        "data.json:scripts.c_oiler2b.start"
+      ],
+      "category": "dialog"
+    },
+    "You open a dialogue and rap with your opponents about how you're both just trying to get your needs met. They seem receptive, and the fight ends non-violently.": {
+      "pl": "Otwierasz dialog i rozmawiasz z przeciwnikami o tym, jak obie strony próbują zaspokoić swoje potrzeby. Wydają się otwarci i walka kończy się bez przemocy.",
+      "contexts": [
+        "data.json:scripts.c_lovebullet.start"
+      ],
+      "category": "dialog"
+    },
+    "You poison @target.name@ for 5.": {
+      "pl": "Trujesz @target.name@ na 5.",
+      "contexts": [
+        "data.json:scripts.c_item_venom.start"
+      ],
+      "category": "dialog"
+    },
+    "You poison yourself for 5.": {
+      "pl": "Trujesz siebie na 5.",
+      "contexts": [
+        "data.json:scripts.c_item_venom.start"
+      ],
+      "category": "dialog"
+    },
+    "You pop some smelling salts and recover 1 AP.": {
+      "pl": "Wąchasz sole amonu i odzyskujesz 1 PA.",
+      "contexts": [
+        "data.json:scripts.c_smellingsalts.start"
+      ],
+      "category": "dialog"
+    },
+    "You pour water on the ground, and a cactus springs to life!": {
+      "pl": "Wlewasz wodę na ziemię i kaktus ożywa!",
+      "contexts": [
+        "data.json:scripts.c_canteen.cactusspawn"
+      ],
+      "category": "dialog"
+    },
+    "You punch @target.name@ (using Muscle) for $dam$ damage.": {
+      "pl": "Uderzasz @target.name@ (używając Mięśni), zadając $dam$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree.looptop"
+      ],
+      "category": "dialog"
+    },
+    "You quaff some strong medicine, raising all of your stats by @skill.statincrease@.": {
+      "pl": "Wypijasz mocne lekarstwo, podnosząc wszystkie statystyki o @skill.statincrease@.",
+      "contexts": [
+        "data.json:scripts.c_strongmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "You really shouldn't use this stuff against yourself.": {
+      "pl": "Nie powinieneś używać tego przeciwko sobie.",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start",
+        "data.json:scripts.c_oiler1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You reduce @target.name@'s Moxie by @skill.moxreduce@.": {
+      "pl": "Obniżasz Ikrę @target.name@ o @skill.moxreduce@.",
+      "contexts": [
+        "data.json:scripts.c_badmedicine.start"
+      ],
+      "category": "dialog"
+    },
+    "You reduce all of @target.name@'s stats by @skill.delevelamount@.": {
+      "pl": "Obniżasz wszystkie statystyki @target.name@ o @skill.delevelamount@.",
+      "contexts": [
+        "data.json:scripts.c_butterbean.start"
+      ],
+      "category": "dialog"
+    },
+    "You regenerate @me.hpregen@ HP.": {
+      "pl": "Regenerujesz @me.hpregen@ HP.",
+      "contexts": [
+        "data.json:scripts.c_hpregen.start"
+      ],
+      "category": "dialog"
+    },
+    "You shoot @target.name@ (using Moxie) for $dmg$ damage.": {
+      "pl": "Strzelasz do @target.name@ (używając Ikry) zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "You shoot @target.name@ (using Moxie) with a chemical bullet, dealing $dmg$ damage and applying 5 poison.": {
+      "pl": "Strzelasz do @target.name@ (używając Ikry) pociskiem chemicznym, zadając $dmg$ obrażeń i nakładając 5 trucizny.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison.start"
+      ],
+      "category": "dialog"
+    },
+    "You shoot @target.name@ (using Moxie) with a silver bullet, dealing $dmg$ damage.": {
+      "pl": "Strzelasz do @target.name@ (używając Ikry) srebrnym pociskiem, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_bulletsilver.start"
+      ],
+      "category": "dialog"
+    },
+    "You shoot @target.name@ (using Moxie) with an extra-dense bullet, dealing $dmg$ damage.": {
+      "pl": "Strzelasz do @target.name@ (używając Ikry) supergęstym pociskiem, zadając $dmg$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense.start"
+      ],
+      "category": "dialog"
+    },
+    "You shoot @target.name@ (using Moxie) with an incendiary bullet, dealing $dmg$ damage and applying 3 fire.": {
+      "pl": "Strzelasz do @target.name@ (używając Ikry) pociskiem zapalającym, zadając $dmg$ obrażeń i nakładając 3 ogień.",
+      "contexts": [
+        "data.json:scripts.c_bulletfire.start"
+      ],
+      "category": "dialog"
+    },
+    "You shoot the target with your finger, dealing $dam$ damage.  Pew pew!": {
+      "pl": "Strzelasz do celu palcem, zadając $dam$ obrażeń. Pew pew!",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged.afterdamage"
+      ],
+      "category": "dialog"
+    },
+    "You shoot wildly into the air!": {
+      "pl": "Strzelasz na oślep w powietrze!",
+      "contexts": [
+        "data.json:scripts.c_shootenanny.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't just waste matches.": {
+      "pl": "Nie powinieneś marnować zapałek.",
+      "contexts": [
+        "data.json:scripts.c_match_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't poison the earth.": {
+      "pl": "Nie powinieneś zatruwać ziemi.",
+      "contexts": [
+        "data.json:scripts.c_basicvenom_desc.start",
+        "data.json:scripts.c_item_venom_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't punch yourself that many times.": {
+      "pl": "Nie powinieneś bić się tyle razy.",
+      "contexts": [
+        "data.json:scripts.c_onetwothree_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't shoot the ground once, much less multiple times.": {
+      "pl": "Nie powinieneś strzelać raz w ziemię, a tym bardziej kilka razy.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste a perfectly good liver by throwing it on the ground.": {
+      "pl": "Nie powinieneś marnować idealnej wątroby rzucając ją na ziemię.",
+      "contexts": [
+        "data.json:scripts.c_item_snakeliver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste bullets shooting at nothing.": {
+      "pl": "Nie powinieneś marnować kul strzelających do niczego.",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste oil by shooting it into the ground.  Didn't your mother teach you that?": {
+      "pl": "Nie powinieneś marnować oleju strzelając w ziemię. Matka cię tego nie nauczyła?",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start",
+        "data.json:scripts.c_oiler1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste perfectly good bullet oil on the ground.": {
+      "pl": "Nie powinieneś marnować na ziemię dobrego oleju.",
+      "contexts": [
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste perfectly good bullets on the ground.": {
+      "pl": "Nie powinieneś marnować dobrych kul na ziemi.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste perfectly good dynamite on a corpse.": {
+      "pl": "Nie powinieneś marnować idealnego dynamitu na zwłoki.",
+      "contexts": [
+        "data.json:scripts.c_dynamite2_desc.start",
+        "data.json:scripts.c_dynamite_desc.start",
+        "data.json:scripts.c_superdynamite_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste perfectly good web on a corpse.": {
+      "pl": "Nie powinieneś marnować idealnej sieci na zwłoki.",
+      "contexts": [
+        "data.json:scripts.c_spiderweb_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste rope.  Especially nice rope like this.": {
+      "pl": "Nie powinieneś marnować liny. Szczególnie ładnej liny jak ta.",
+      "contexts": [
+        "data.json:scripts.c_ropeleather1_desc.start",
+        "data.json:scripts.c_ropeleather2_desc.start",
+        "data.json:scripts.c_ropeleather3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste rope.  There are kids in China who don't have any rope at all.": {
+      "pl": "Nie powinieneś marnować liny. W Chinach są dzieci, które w ogóle nie mają liny.",
+      "contexts": [
+        "data.json:scripts.c_item_rope_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You shouldn't waste that bullet on yourself.": {
+      "pl": "Nie powinieneś marnować tej kuli na siebie.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletfire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You stomp the ground like a raging bull, dealing $dmg$ damage to all your enemies.": {
+      "pl": "Tupiesz ziemią jak wściekły byk, zadając $dmg$ obrażeń wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_bullstomp.start"
+      ],
+      "category": "dialog"
+    },
+    "You summon up a skeleton posse!": {
+      "pl": "Przywołujesz szkieletową bandę!",
+      "contexts": [
+        "data.json:scripts.c_summonskeleton3.start"
+      ],
+      "category": "dialog"
+    },
+    "You surrender!  You surrender!": {
+      "pl": "Poddajesz się! Poddajesz się!",
+      "contexts": [
+        "data.json:scripts.c_giveup.start"
+      ],
+      "category": "dialog"
+    },
+    "You toss the El Vibrato grenade, dealing 30 damage to all of your foes.": {
+      "pl": "Rzucasz granat El Vibrato, zadając 30 obrażeń wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_elvgrenade.start"
+      ],
+      "category": "dialog"
+    },
+    "You twiddle your thumbs.": {
+      "pl": "Kręcisz kciukami.",
+      "contexts": [
+        "data.json:scripts.c_pass.start"
+      ],
+      "category": "dialog"
+    },
+    "You unleash a deafening moo, reducing the Muscle of all of your enemies by @skill.musreduce@.": {
+      "pl": "Wydajesz ogłuszające bęczenie, obniżając Mięśnie wszystkich wrogów o @skill.musreduce@.",
+      "contexts": [
+        "data.json:scripts.c_moo.result"
+      ],
+      "category": "dialog"
+    },
+    "You use the El Vibrato maintenance teleporter to banish @target.name@.": {
+      "pl": "Używasz teleportera serwisowego El Vibrato, by wygnać @target.name@.",
+      "contexts": [
+        "data.json:scripts.c_elvteleporter.start"
+      ],
+      "category": "dialog"
+    },
+    "You use your old bean, increasing your Mysticality by @skill.mysticalityboost@.": {
+      "pl": "Używasz swojej starej fasolki, zwiększając Mistycyzm o @skill.mysticalityboost@.",
+      "contexts": [
+        "data.json:scripts.c_usetheoldbean.start"
+      ],
+      "category": "dialog"
+    },
+    "You utter a Dark Howdy, increasing your Mysticality by @skill.statgain@ and reducing your other stats by @skill.statloss@.": {
+      "pl": "Wypowiadasz Ciemne Howdy, zwiększając Mistycyzm o @skill.statgain@ i obniżając pozostałe statystyki o @skill.statloss@.",
+      "contexts": [
+        "data.json:scripts.c_darkhowdy.start"
+      ],
+      "category": "dialog"
+    },
+    "You utter the forbidden yodel, stealing @skill.lifesteal@ from @target.name@.": {
+      "pl": "Wypowiadasz zakazane jodłowanie, kradnąc @skill.lifesteal@ od @target.name@.",
+      "contexts": [
+        "data.json:scripts.c_vampiricyodel.start"
+      ],
+      "category": "dialog"
+    },
+    "You whip @target.name@ for $dmg$ damage, applying $poisonamt$ poison.": {
+      "pl": "Biczujesz @target.name@ zadając $dmg$ obrażeń i nakładając $poisonamt$ trucizny.",
+      "contexts": [
+        "data.json:scripts.c_snakewhip.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $dmg$ damage and apply $psn$ Poison.": {
+      "pl": "Zadasz $dmg$ obrażeń i nałożysz $psn$ trucizny.",
+      "contexts": [
+        "data.json:scripts.c_snakewhip_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ $damword$ to this target.": {
+      "pl": "Zadasz $low$ $damword$ temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ damage to this target and poison them.": {
+      "pl": "Zadasz $low$ obrażeń temu celowi i zatrujesz go.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ damage to this target and set them on fire.": {
+      "pl": "Zadasz $low$ obrażeń temu celowi i podpalisz go.",
+      "contexts": [
+        "data.json:scripts.c_bulletfire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ damage to this target.": {
+      "pl": "Zadasz $low$ obrażeń temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ Hot damage to this target and set them on fire.": {
+      "pl": "Zadasz $low$ obrażeń od gorąca temu celowi i podpalisz go.",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$ Hot damage to this target.": {
+      "pl": "Zadasz $low$ obrażeń od gorąca temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_oiler1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ $damword$ to this target.": {
+      "pl": "Zadasz $low$-$high$ $damword$ temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_basic_melee_desc.aftersilver",
+        "data.json:scripts.c_basic_ranged_desc.aftersilver"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ damage to this target and poison them.": {
+      "pl": "Zadasz $low$-$high$ obrażeń temu celowi i zatrujesz go.",
+      "contexts": [
+        "data.json:scripts.c_bulletpoison_desc.start",
+        "data.json:scripts.c_oiler2a_desc.start",
+        "data.json:scripts.c_oiler2_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ damage to this target and set them on fire.": {
+      "pl": "Zadasz $low$-$high$ obrażeń temu celowi i podpalisz go.",
+      "contexts": [
+        "data.json:scripts.c_bulletfire_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ damage to this target.": {
+      "pl": "Zadasz $low$-$high$ obrażeń temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_bulletdense_desc.start",
+        "data.json:scripts.c_bulletsilver_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ Hot damage to this target and set them on fire.": {
+      "pl": "Zadasz $low$-$high$ obrażeń od gorąca temu celowi i podpalisz go.",
+      "contexts": [
+        "data.json:scripts.c_oiler1a_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal $low$-$high$ Hot damage to this target.": {
+      "pl": "Zadasz $low$-$high$ obrażeń od gorąca temu celowi.",
+      "contexts": [
+        "data.json:scripts.c_oiler1_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal 3 damage to this revolting human.": {
+      "pl": "Zadasz 3 obrażeń temu odrażającemu człowiekowi.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_ping_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal around $low$ damage to all enemies, and poison them.": {
+      "pl": "Zadasz około $low$ obrażeń wszystkim wrogom i zatrujesz ich.",
+      "contexts": [
+        "data.json:scripts.c_oiler2b_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal around $low$ Hot damage to all enemies.": {
+      "pl": "Zadasz około $low$ obrażeń od gorąca wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_oiler1b_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal around $low$-$high$ damage to all enemies, and poison them.": {
+      "pl": "Zadasz około $low$-$high$ obrażeń wszystkim wrogom i zatrujesz ich.",
+      "contexts": [
+        "data.json:scripts.c_oiler2b_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will deal around $low$-$high$ Hot damage to all enemies.": {
+      "pl": "Zadasz około $low$-$high$ obrażeń od gorąca wszystkim wrogom.",
+      "contexts": [
+        "data.json:scripts.c_oiler1b_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will do literally nothing.": {
+      "pl": "Dosłownie nic nie zrobisz.",
+      "contexts": [
+        "data.json:scripts.c_donothing_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will gain 1 AP.": {
+      "pl": "Zyskasz 1 PA.",
+      "contexts": [
+        "data.json:scripts.c_smellingsalts_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will gain 2 AP.": {
+      "pl": "Zyskasz 2 PA.",
+      "contexts": [
+        "data.json:scripts.c_locoweed_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will recover @skill.healamount@ HP.": {
+      "pl": "Odzyskasz @skill.healamount@ PZ.",
+      "contexts": [
+        "data.json:scripts.c_firstaid_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You will shoot this target four times, doing $totallow$ to $totalhigh$ total damage.": {
+      "pl": "Strzelisz do tego celu cztery razy, zadając łącznie $totallow$ do $totalhigh$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.fourth"
+      ],
+      "category": "dialog"
+    },
+    "You will shoot this target four times, doing $totallow$ total damage.": {
+      "pl": "Strzelisz do tego celu cztery razy, zadając łącznie $totallow$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.fourth"
+      ],
+      "category": "dialog"
+    },
+    "You will shoot this target three times, doing $totallow$ to $totalhigh$ total damage.": {
+      "pl": "Strzelisz do tego celu trzy razy, zadając łącznie $totallow$ do $totalhigh$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.threetotal"
+      ],
+      "category": "dialog"
+    },
+    "You will shoot this target three times, doing $totallow$ total damage.": {
+      "pl": "Strzelisz do tego celu trzy razy, zadając łącznie $totallow$ obrażeń.",
+      "contexts": [
+        "data.json:scripts.c_fanhammer_desc.threetotal"
+      ],
+      "category": "dialog"
+    },
+    "You will twiddle your thumbs.": {
+      "pl": "Będziesz kręcić kciukami.",
+      "contexts": [
+        "data.json:scripts.c_pass_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You'll never take us alive!  And we'll also never pay for this house!": {
+      "pl": "Nigdy nie zabierzesz nas żywych! I nigdy nie zapłacimy za ten dom!",
+      "contexts": [
+        "data.json:scripts.c_bandit1leader_ai.start"
+      ],
+      "category": "dialog"
+    },
+    "You're here to destroy the earth, not heal it.": {
+      "pl": "Jesteś tu, by zniszczyć Ziemię, a nie ją uzdrawiać.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_heal_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You're here to destroy the earth, not improve it.": {
+      "pl": "Jesteś tu, by zniszczyć Ziemię, a nie ją ulepszać.",
+      "contexts": [
+        "data.json:scripts.c_bovermind_boost_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You're not really into self-bondage.": {
+      "pl": "Niezbyt kręci cię samozwiązywanie.",
+      "contexts": [
+        "data.json:scripts.c_item_rope_desc.start",
+        "data.json:scripts.c_ropeleather1_desc.start",
+        "data.json:scripts.c_ropeleather2_desc.start",
+        "data.json:scripts.c_ropeleather3_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "You're too close to yourself to do that.": {
+      "pl": "Jesteś za blisko siebie, żeby to zrobić.",
+      "contexts": [
+        "data.json:scripts.c_basic_ranged_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Your balloon animal explodes violently, as if there's another way for a balloon animal to explode, dealing 30 damage to all opponents.": {
+      "pl": "Twoje balonowe zwierzątko wybucha gwałtownie — jakby balonowe zwierzątko mogło wybuchać inaczej — zadając 30 obrażeń wszystkim przeciwnikom.",
+      "contexts": [
+        "data.json:scripts.c_balloonanimal_gosayhi.start"
+      ],
+      "category": "dialog"
+    },
+    "Your balloon clown quickly crafts an animal out of balloons.": {
+      "pl": "Twój balonowy klaun szybko robi zwierzątko z balonów.",
+      "contexts": [
+        "data.json:scripts.c_balloonclown_createanimal.start"
+      ],
+      "category": "dialog"
+    },
+    "Your hammer clown smacks the target for 69 melee damage. Nifty.": {
+      "pl": "Twój klaun z młotem uderza cel za 69 obrażeń wręcz. Fajnie.",
+      "contexts": [
+        "data.json:scripts.c_fighterclown_hammer.start"
+      ],
+      "category": "dialog"
+    },
+    "Your Muscle will increase by @skill.muscleboost@.": {
+      "pl": "Twoje Mięśnie wzrosną o @skill.muscleboost@.",
+      "contexts": [
+        "data.json:scripts.c_beefup_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Your Mysticality will increase by @skill.mysticalityboost@.": {
+      "pl": "Twój Mistycyzm wzrośnie o @skill.mysticalityboost@.",
+      "contexts": [
+        "data.json:scripts.c_usetheoldbean_desc.start"
+      ],
+      "category": "dialog"
+    },
+    "Your sad clown weeps all over @target.name@, leaving them damp.": {
+      "pl": "Twój smutny klaun płacze po całym @target.name@, zostawiając go wilgotnego.",
+      "contexts": [
+        "data.json:scripts.c_sadclown_cry.start"
+      ],
+      "category": "dialog"
+    },
+    "Your sad clown weeps all over themselves, becoming damp.": {
+      "pl": "Twój smutny klaun płacze po sobie, stając się wilgotnym.",
+      "contexts": [
+        "data.json:scripts.c_sadclown_cry.start"
+      ],
+      "category": "dialog"
+    }
+  }
+}

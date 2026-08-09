@@ -10,7 +10,8 @@ if exist "%ROOT%Game_Translate\build\patches\core" (
 )
 
 if not exist "%PATCHES%\core" (
-  echo Blad: brak patches\core — pobierz najnowszy release i wypakuj obok tego pliku
+  echo Blad: brak patches\core
+  echo Najpierw: python _App\src\pack.py
   exit /b 1
 )
 

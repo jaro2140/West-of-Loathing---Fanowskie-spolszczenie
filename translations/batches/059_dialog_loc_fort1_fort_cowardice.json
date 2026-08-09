@@ -1,0 +1,975 @@
+{
+  "_meta": {
+    "id": 59,
+    "name": "dialog_loc_fort1_fort_cowardice",
+    "description": "Dialogi przypisane do lokacji \"Fort Cowardice\" (waa: fort1).",
+    "status": "done",
+    "count": 131
+  },
+  "strings": {
+    "%fort1_cabinet/$mult1$%\\n%fort1_cabinet/$mult2$%\\n%fort1_cabinet/$mult3$%\\n%fort1_cabinet/$mult4$%\\n%fort1_cabinet/$mult5$%\\n%fort1_cabinet/$mult6$%\\n%fort1_cabinet/$mult7$%": {
+      "pl": "%fort1_cabinet/$mult1$%\\n%fort1_cabinet/$mult2$%\\n%fort1_cabinet/$mult3$%\\n%fort1_cabinet/$mult4$%\\n%fort1_cabinet/$mult5$%\\n%fort1_cabinet/$mult6$%\\n%fort1_cabinet/$mult7$%",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "<i>Destroy a</i>-- huh?": {
+      "pl": "<i>Zniszczyć</i>-- co?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.four"
+      ],
+      "category": "dialog"
+    },
+    "A goblin deposits you at the base of the ladder before heading back into its hole.": {
+      "pl": "Goblin zostawia cię u podstawy drabiny i wraca do swojej dziury.",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.lose"
+      ],
+      "category": "dialog"
+    },
+    "A voice in your head tells you that you've already rung that triangle enough times today.": {
+      "pl": "Głos w twojej głowie mówi, że na dziś już wystarczająco wiele razy dzwoniłeś tym trójkątem.",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "An unlocked footlocker.  I guess that makes it just... a footer?": {
+      "pl": "Kufer bez zamka. Czyli to już chyba tylko... kufe?",
+      "contexts": [
+        "data.json:scripts.fort1_tent1locker1.popup"
+      ],
+      "category": "dialog"
+    },
+    "Ask again": {
+      "pl": "Zapytaj ponownie",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.two"
+      ],
+      "category": "dialog"
+    },
+    "Attack them [Fight]": {
+      "pl": "Zaatakuj ich [Walka]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.talk",
+        "data.json:scripts.re_cowd2.start",
+        "data.json:scripts.re_goblinf2.talkoptions",
+        "data.json:scripts.re_goblinh1.talkoptions",
+        "data.json:scripts.re_goblinh2.talk"
+      ],
+      "category": "dialog"
+    },
+    "Bah! A human will never understanding!": {
+      "pl": "Ba! Człowiek nigdy nie zrozumieć!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.two"
+      ],
+      "category": "dialog"
+    },
+    "Based on the papers and anatomical diagrams scattered across its surface, you're guessing this desk belonged to Fort Cowardice's nurse.": {
+      "pl": "Po papierach i diagramach anatomicznych porozrzucanych po blacie domyślasz się, że to biurko pielęgniarki z Posterunku Cykorów.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.start"
+      ],
+      "category": "dialog"
+    },
+    "Bless this mess.": {
+      "pl": "Pobłogosław ten bajzel.",
+      "contexts": [
+        "data.json:scripts.fort1_messtable.get"
+      ],
+      "category": "dialog"
+    },
+    "But... now what?": {
+      "pl": "Ale... co teraz?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkedit"
+      ],
+      "category": "dialog"
+    },
+    "Could you elaborating on that?": {
+      "pl": "Mógłbyś to jakoś wytłumaczając?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.talk"
+      ],
+      "category": "dialog"
+    },
+    "Crack the safe [Requires Safecrackin' 1]": {
+      "pl": "Włam się do sejfu [Wymaga Sejfowania 1]",
+      "contexts": [
+        "data.json:scripts.fort1_nursesafe.popup",
+        "data.json:scripts.ranch1_safe.popup",
+        "data.json:scripts.re_meatsafeb.start",
+        "data.json:scripts.re_meatsafec.start"
+      ],
+      "category": "dialog"
+    },
+    "Crack the safe [Safecrackin' 1]": {
+      "pl": "Włam się do sejfu [Sejfowanie 1]",
+      "contexts": [
+        "data.json:scripts.fort1_nursesafe.popup",
+        "data.json:scripts.mine2_locker.open3",
+        "data.json:scripts.ranch1_safe.popup",
+        "data.json:scripts.re_meatsafeb.start",
+        "data.json:scripts.re_meatsafec.start"
+      ],
+      "category": "dialog"
+    },
+    "Dangit.": {
+      "pl": "Nie do wiary.",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.dontexplode",
+        "data.json:scripts.mine1_snakehole3.dontexplode",
+        "data.json:scripts.ranch2_hippy2.getbane",
+        "house.json:scripts.house_ghost_billiards.hasgoodcue"
+      ],
+      "category": "dialog"
+    },
+    "Examine them": {
+      "pl": "Zbadaj je",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.popup",
+        "data.json:items.humanash.uselink"
+      ],
+      "category": "dialog"
+    },
+    "Fine. You read one:": {
+      "pl": "Dobrze. Czytasz jeden:",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "General Gob strides out the door, jaw clenched, eyes resolute with pie-hatred.": {
+      "pl": "Generał Gob wychodzi przez drzwi, z zaciśniętą szczęką i oczami pełnymi nienawiści do ciast.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.heleaves"
+      ],
+      "category": "dialog"
+    },
+    "Get their attention": {
+      "pl": "Zwróć ich uwagę",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.start"
+      ],
+      "category": "dialog"
+    },
+    "Get their attention <i>with violence</i> [Fight]": {
+      "pl": "Zwróć ich uwagę <i>przemocą</i> [Walka]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.start"
+      ],
+      "category": "dialog"
+    },
+    "Go down the ladder": {
+      "pl": "Zejdź po drabinie",
+      "contexts": [
+        "data.json:scripts.fort1_ladderhole.popup"
+      ],
+      "category": "dialog"
+    },
+    "Go in guns blazing [Fight]": {
+      "pl": "Wejdź z bronią w ręku [Walka]",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.start"
+      ],
+      "category": "dialog"
+    },
+    "Head inside": {
+      "pl": "Wejdź do środka",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.bomb",
+        "data.json:scripts.goblin1_house3.picklock",
+        "data.json:scripts.goblin1_house8.picklock",
+        "data.json:scripts.goblin1_treasuredoor.unlock",
+        "house.json:scripts.house_airbnbdoor1.unbar"
+      ],
+      "category": "dialog"
+    },
+    "Head into the tent": {
+      "pl": "Wejdź do namiotu",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.win"
+      ],
+      "category": "dialog"
+    },
+    "Hey wait, what's this?  This looks like it might be important.": {
+      "pl": "Hej, chwila, co to? Wygląda na coś ważnego.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.papers"
+      ],
+      "category": "dialog"
+    },
+    "Hooray, you are success! A pie is so very destroyed being!": {
+      "pl": "Hurra, ty być sukcesem! Ciasto być bardzo zniszczone!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkedit"
+      ],
+      "category": "dialog"
+    },
+    "Hornswoggle them [Hornswogglin' 2]": {
+      "pl": "Oszukaj ich [Oszukiwanie 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "Hornswoggle them [Requires Hornswogglin' 2]": {
+      "pl": "Oszukaj ich [Wymaga Oszukiwania 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "How annoying": {
+      "pl": "Jakie to irytujące",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "Hurrying and checking a pie!": {
+      "pl": "Pospieszać się i sprawdzać ciasto!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkwait"
+      ],
+      "category": "dialog"
+    },
+    "I can't get enough": {
+      "pl": "Nie mogę mieć dość",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "I... I doing it?": {
+      "pl": "Ja... ja to robić?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkedit"
+      ],
+      "category": "dialog"
+    },
+    "In general, this is a door.  More specifically, it's the door to the general's office.  Even more specifically, it's the locked door to the general's office.": {
+      "pl": "Ogólnie rzecz biorąc, to drzwi. Dokładniej — drzwi do biura generała. Jeszcze dokładniej — zamknięte drzwi do biura generała.",
+      "contexts": [
+        "data.json:scripts.fort1_generaldoor.popup"
+      ],
+      "category": "dialog"
+    },
+    "Intimidate them [Intimidatin' 2]": {
+      "pl": "Zastrasz ich [Zastraszanie 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "Intimidate them [Requires Intimidatin' 2]": {
+      "pl": "Zastrasz ich [Wymaga Zastraszania 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "It's a spice rack.": {
+      "pl": "To stojak na przyprawy.",
+      "contexts": [
+        "data.json:scripts.fort1_spicecabinet.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's an unusually-sized cannonball.": {
+      "pl": "To kula armatnia o nietypowym rozmiarze.",
+      "contexts": [
+        "data.json:scripts.fort1_cannonball.popup"
+      ],
+      "category": "dialog"
+    },
+    "It's just a bunch of unlabeled green shakers.  Better leave them alone -- they might be poison instead of spices, for all you know.": {
+      "pl": "To tylko sterta nieoznakowanych zielonych solniczek. Lepiej ich nie ruszać — równie dobrze mogą być trucizną zamiast przypraw, kto wie.",
+      "contexts": [
+        "data.json:scripts.fort1_spicecabinet.open"
+      ],
+      "category": "dialog"
+    },
+    "Just like the old saying goes: when life gives you cannons, make a cannonade.": {
+      "pl": "Jak mówi stare przysłowie: jak życie daje ci armaty, zrób salwę armatnią.",
+      "contexts": [
+        "data.json:scripts.fort1_cannons.thinkpopup"
+      ],
+      "category": "dialog"
+    },
+    "Keep Fort Cowardice Beautiful": {
+      "pl": "Dbaj o piękno Posterunku Cykorów",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.rembin"
+      ],
+      "category": "dialog"
+    },
+    "Keep trying": {
+      "pl": "Próbuj dalej",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.three"
+      ],
+      "category": "dialog"
+    },
+    "Kick it open": {
+      "pl": "Wykop to",
+      "contexts": [
+        "data.json:scripts.fort1_tent1locker2.popup",
+        "data.json:scripts.fort3_footlocker2.popup",
+        "data.json:scripts.fort3_footlocker4.popup",
+        "data.json:scripts.ranch2_crate.popup"
+      ],
+      "category": "dialog"
+    },
+    "Leave the tent": {
+      "pl": "Opuść namiot",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.gary"
+      ],
+      "category": "dialog"
+    },
+    "Leave them to their business": {
+      "pl": "Zostaw ich przy ich interesach",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.start"
+      ],
+      "category": "dialog"
+    },
+    "Leaving the gun. Fighting a pie with honor, with fists.": {
+      "pl": "Zostawić broń. Walczyć z ciastem honorowo, pięściami.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.gun"
+      ],
+      "category": "dialog"
+    },
+    "Little green unlabelled jars. Hopefully, this is the stuff the chef was looking for.": {
+      "pl": "Małe zielone słoiczki bez etykiet. Miejmy nadzieję, że to właśnie tego szukał szef kuchni.",
+      "contexts": [
+        "data.json:scripts.fort1_spicecabinet.givepeter"
+      ],
+      "category": "dialog"
+    },
+    "Look at the diagrams": {
+      "pl": "Spójrz na diagramy",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.options"
+      ],
+      "category": "dialog"
+    },
+    "Look at the papers": {
+      "pl": "Spójrz na papiery",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.options"
+      ],
+      "category": "dialog"
+    },
+    "Look, so many holes in a pie safe! You winning! A pie is dead!": {
+      "pl": "Patrz, tyle dziur w szafce na ciasto! Ty wygrywać! Ciasto jest martwe!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.four"
+      ],
+      "category": "dialog"
+    },
+    "Looking, I pretty sure being a pie is destroyed.": {
+      "pl": "Patrzeć, ja prawie pewien, że ciasto być zniszczone.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.four"
+      ],
+      "category": "dialog"
+    },
+    "Looks like there's still some good mess left.": {
+      "pl": "Wygląda na to, że zostało jeszcze trochę dobrego syfu.",
+      "contexts": [
+        "data.json:scripts.fort1_messtable.popup"
+      ],
+      "category": "dialog"
+    },
+    "No, another!": {
+      "pl": "Nie, kolejny!",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "No, really, I want details": {
+      "pl": "Nie, naprawdę, chcę szczegółów",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e"
+      ],
+      "category": "dialog"
+    },
+    "No, really. Why a pie shooting?": {
+      "pl": "Nie, naprawdę. Dlaczego strzelać ciasto?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.three"
+      ],
+      "category": "dialog"
+    },
+    "No, this is my cross bearing. I must going and continuing the fight.": {
+      "pl": "Nie, to mój krzyż do niesienia. Muszę iść i kontynuować walkę.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "Not bothering!  Letting them sleep!": {
+      "pl": "Nie przeszkadzam! Niech śpią!",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.gary"
+      ],
+      "category": "dialog"
+    },
+    "Now you're just looking at the same ones you've read before.  What is wrong with you?": {
+      "pl": "Teraz tylko patrzysz na te same, które już czytałeś. Co z tobą nie tak?",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "Oh no! This violencing will never ending!": {
+      "pl": "O nie! To przemocowanie nigdy się nie skończyć!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "Okay, okay.": {
+      "pl": "Okej, okej.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkwait",
+        "data.json:scripts.fort1_tentdoor1.gary",
+        "data.json:scripts.pardner_talk.pete_34",
+        "data.json:scripts.pardner_talk.alice_34",
+        "data.json:scripts.pardner_talk.gary_34"
+      ],
+      "category": "dialog"
+    },
+    "Okay. I wishing you good luck against a forces of pie.": {
+      "pl": "Dobra. Życzyć ci powodzenia przeciw siłom ciasta.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.six"
+      ],
+      "category": "dialog"
+    },
+    "One shaker of saltpeter is enough.": {
+      "pl": "Jedna paczka saletry wystarczy.",
+      "contexts": [
+        "data.json:scripts.fort1_spicecabinet.open"
+      ],
+      "category": "dialog"
+    },
+    "Open the footer": {
+      "pl": "Otwórz skrzynię",
+      "contexts": [
+        "data.json:scripts.fort1_tent1locker1.popup"
+      ],
+      "category": "dialog"
+    },
+    "Outfox them [Outfoxin' 2]": {
+      "pl": "Przechytrz ich [Przechytrzanie 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "Outfox them [Requires Outfoxin' 2]": {
+      "pl": "Przechytrz ich [Wymaga Przechytrzania 2]",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "Render them looted": {
+      "pl": "Ograb je",
+      "contexts": [
+        "data.json:scripts.fort1_nurseshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "Ring it and bring it! [Fight]": {
+      "pl": "Zadzwoń i sprowadź ich! [Walka]",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.popup",
+        "data.json:scripts.fort1_triangle.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "Ringing this triangle would probably rile up a few goblins.": {
+      "pl": "Dzwonienie tym trójkątem pewnie wkurzy kilku goblinów.",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.popup",
+        "data.json:scripts.fort1_triangle.hardstart"
+      ],
+      "category": "dialog"
+    },
+    "Ringing this triangle would probably rile up a goblin or two.": {
+      "pl": "Dzwonienie tym trójkątem pewnie wkurzy goblina albo dwóch.",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.popup"
+      ],
+      "category": "dialog"
+    },
+    "Salute them.": {
+      "pl": "Zasalutuj im.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.convoend"
+      ],
+      "category": "dialog"
+    },
+    "Satisfied?": {
+      "pl": "Zadowolony?",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e2"
+      ],
+      "category": "dialog"
+    },
+    "Say, uh... What you are doing?": {
+      "pl": "Powiedz, eee... Co ty robisz?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.talk"
+      ],
+      "category": "dialog"
+    },
+    "Say, uh... What'cha doing?": {
+      "pl": "Powiedz, yyy... Co robisz?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.talk"
+      ],
+      "category": "dialog"
+    },
+    "Set off a fungicide bomb": {
+      "pl": "Zdetonuj bombę fungicydową",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.start"
+      ],
+      "category": "dialog"
+    },
+    "Shooting pies!  Always!  Always shooting pies!": {
+      "pl": "Strzelać ciastami! Zawsze! Zawsze strzelać ciastami!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.talk"
+      ],
+      "category": "dialog"
+    },
+    "Shut up! So much <i>angry!</i>": {
+      "pl": "Zamknąć się! Tak dużo <i>złości!</i>",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.three"
+      ],
+      "category": "dialog"
+    },
+    "So much doing it!": {
+      "pl": "Tak bardzo robić to!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkedit"
+      ],
+      "category": "dialog"
+    },
+    "Sorry being, not wishing to enabling this behavior.": {
+      "pl": "Przepraszać, nie chcieć wspierać takiego zachowania.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "Thanking you.": {
+      "pl": "Dziękowanie ci.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.six"
+      ],
+      "category": "dialog"
+    },
+    "That sign says TOILET in goblin, which makes it seem pretty likely that goblins use this tent as a toilet.  No way are you gonna go in there.": {
+      "pl": "Ten znak mówi TOALETA po goblińsku, co sprawia, że gobliny prawdopodobnie używają tego namiotu jako toalety. Nie ma mowy, żebyś tam wszedł.",
+      "contexts": [
+        "data.json:scripts.fort1_tent3door.popup"
+      ],
+      "category": "dialog"
+    },
+    "The goblin seated at this desk is repeatedly firing their pistol at that pie safe.": {
+      "pl": "Goblin siedzący przy tym biurku w kółko strzela z pistoletu w tę szafkę na wypieki.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.start"
+      ],
+      "category": "dialog"
+    },
+    "The last thing you see before your vision goes black is all of those goblins getting back into their cots and falling asleep again.": {
+      "pl": "Ostatnie, co widzisz, zanim ciemnieje, to gobliny wracające do swoich łóżek i znowu zasypiające.",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.lose"
+      ],
+      "category": "dialog"
+    },
+    "The lock on this footlocker has rusted away to almost nothing.": {
+      "pl": "Zamek tej skrzyni zardzewiał prawie do zera.",
+      "contexts": [
+        "data.json:scripts.fort1_tent1locker2.popup",
+        "data.json:scripts.fort3_footlocker2.popup",
+        "data.json:scripts.fort3_footlocker4.popup"
+      ],
+      "category": "dialog"
+    },
+    "The papers are mostly just boring medical records.  Dental daguerrotypes, lamentations that antibiotics haven't been discovered yet, that kind of thing.": {
+      "pl": "Papiery to głównie nudne dokumenty medyczne. Daguerrotypy zębów, lamenty, że antybiotyki jeszcze nie wynaleziono — tego typu rzeczy.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.papers"
+      ],
+      "category": "dialog"
+    },
+    "There's a single pie inside, shot to pieces.": {
+      "pl": "W środku jeden placek, postrzelony w drzazgi.",
+      "contexts": [
+        "data.json:scripts.fort1_piesafe.yep"
+      ],
+      "category": "dialog"
+    },
+    "They are incredibly boring.": {
+      "pl": "Są niesamowicie nudne.",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.e"
+      ],
+      "category": "dialog"
+    },
+    "They're a bunch of drawings of sliced-open bodies.": {
+      "pl": "To rysunki rozkrojonych ciał.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.charts"
+      ],
+      "category": "dialog"
+    },
+    "They're just a bunch of disgusting drawings of sliced-open bodies.": {
+      "pl": "To po prostu obrzydliwe rysunki rozkrojonych ciał.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.charts"
+      ],
+      "category": "dialog"
+    },
+    "This cabinet is mostly empty, but there are a handful of boring personnel records in the back of one drawer.": {
+      "pl": "Szafka prawie pusta, w tylnej części szuflady nudne akta personalne.",
+      "contexts": [
+        "data.json:scripts.fort1_filingcabinet.popup"
+      ],
+      "category": "dialog"
+    },
+    "This footlocker is still locked.": {
+      "pl": "Kufer wciąż zamknięty.",
+      "contexts": [
+        "data.json:scripts.fort1_tent1locker3.popup",
+        "data.json:scripts.fort2_footlocker3.popup",
+        "data.json:scripts.fort2_footlocker6.popup",
+        "data.json:scripts.fort3_footlocker1.popup",
+        "data.json:scripts.fort3_footlocker3.popup"
+      ],
+      "category": "dialog"
+    },
+    "This leads down into a cave -- this must be how the goblins got into the fort.": {
+      "pl": "To prowadzi w dół do jaskini — gobliny musiały tędy dostać się do fortu.",
+      "contexts": [
+        "data.json:scripts.fort1_ladderhole.popup"
+      ],
+      "category": "dialog"
+    },
+    "This safe is labeled \"CONTROLLED SUBSTANCES.\"  This must be where they store the really effective stuff.": {
+      "pl": "Ten sejf ma etykietę „CONTROLLED SUBSTANCES”. Tu muszą trzymać naprawdę skuteczne rzeczy.",
+      "contexts": [
+        "data.json:scripts.fort1_nursesafe.popup"
+      ],
+      "category": "dialog"
+    },
+    "This shelf still has some unlooted medical supplies on it.": {
+      "pl": "Na tej półce wciąż są niezrabowane materiały medyczne.",
+      "contexts": [
+        "data.json:scripts.fort1_nurseshelf.popup"
+      ],
+      "category": "dialog"
+    },
+    "This sign has some crazy goblin writing on it.": {
+      "pl": "Ten znak ma szalone goblie pismo.",
+      "contexts": [
+        "data.json:scripts.fort1_toiletsign.popup"
+      ],
+      "category": "dialog"
+    },
+    "This sign has the goblin word for TOILET on it.": {
+      "pl": "Ten znak ma goblie słowo na TOALETĘ.",
+      "contexts": [
+        "data.json:scripts.fort1_toiletsign.popup"
+      ],
+      "category": "dialog"
+    },
+    "This spice cabinet has provided all the value it's going to provide.": {
+      "pl": "Ta szafeczka na przyprawy dała już z siebie wszystko, co mogła.",
+      "contexts": [
+        "data.json:scripts.fort1_spicecabinet.open"
+      ],
+      "category": "dialog"
+    },
+    "This was once a reception desk, but now the most appropriate thing for it to receive would be a free trip to the dump.": {
+      "pl": "Kiedyś to było biurko recepcji, teraz najbardziej powinno przyjąć darmową wycieczkę na wysypisko.",
+      "contexts": [
+        "data.json:scripts.fort1_receptiondesk.popup"
+      ],
+      "category": "dialog"
+    },
+    "To destroying, obviously! Must to destroying a terrible pie!": {
+      "pl": "Do zniszczenia, oczywiście! Trzeba zniszczyć okropny placek!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.two"
+      ],
+      "category": "dialog"
+    },
+    "Um... I guess... you finding another pie?": {
+      "pl": "Um... Chyba... znalazłeś kolejne ciasto?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "Wait. Leaving a hat here. It will not safe being.": {
+      "pl": "Czekać. Zostawiam tutaj kapelusz. Nie będzie to bezpieczne.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.hat"
+      ],
+      "category": "dialog"
+    },
+    "Waiting here, I will checking.": {
+      "pl": "Czekam tu, ja będę sprawdzać.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.four"
+      ],
+      "category": "dialog"
+    },
+    "Well, that was weird. I guess I'm the General now!": {
+      "pl": "No, to było dziwne. Chyba jestem teraz generałem!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.heleaves"
+      ],
+      "category": "dialog"
+    },
+    "What I shooting now?": {
+      "pl": "Co teraz kręcę?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.checkedit"
+      ],
+      "category": "dialog"
+    },
+    "What is wrong with a pie?": {
+      "pl": "Co jest nie tak z ciastem?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.two"
+      ],
+      "category": "dialog"
+    },
+    "What? There more pies being?": {
+      "pl": "Co? Jest więcej ciast?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "Why shooting a pie?": {
+      "pl": "Dlaczego strzelasz do ciasta?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.two"
+      ],
+      "category": "dialog"
+    },
+    "Woof, it's heavy!": {
+      "pl": "Uff, ciężkie!",
+      "contexts": [
+        "data.json:scripts.fort1_cannonball.get"
+      ],
+      "category": "dialog"
+    },
+    "Yeah, I...  What?": {
+      "pl": "Ta, ja... Co?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.dontexplode"
+      ],
+      "category": "dialog"
+    },
+    "Yes, correct being. I will fighting each pie as if it is first pie being.": {
+      "pl": "Tak, poprawna istoto. Będę walczyć z każdym ciastem jak z pierwszym ciastem będącym.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.hatgun"
+      ],
+      "category": "dialog"
+    },
+    "Yes, you are correct. Truly a pie must be with my own strength fighting.": {
+      "pl": "Tak, masz rację. Naprawdę ciasto musi być walczone moją własną siłą.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.gun"
+      ],
+      "category": "dialog"
+    },
+    "Yes. Good. You protecting a hat for me.": {
+      "pl": "Tak. Dobrze. Ty chronić kapelusz dla mnie.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.hat"
+      ],
+      "category": "dialog"
+    },
+    "Yes? A world is full of pies!": {
+      "pl": "Tak? Świat jest pełen ciast!",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.five"
+      ],
+      "category": "dialog"
+    },
+    "You bolster your supply of medical goods at the expense of the shelf's.": {
+      "pl": "Uzupełniasz zapas medykamentów kosztem półki.",
+      "contexts": [
+        "data.json:scripts.fort1_nurseshelf.get"
+      ],
+      "category": "dialog"
+    },
+    "You climb down from the watchtower and pitch the binoculars in a nearby trash can.": {
+      "pl": "Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.rembin",
+        "data.json:scripts.fort2_watchtower.rembin",
+        "data.json:scripts.fort3_watchtower.rembin",
+        "data.json:scripts.fort4_watchtower.rembin",
+        "data.json:scripts.fort5_watchtower.rembin"
+      ],
+      "category": "dialog"
+    },
+    "You climb up into the watchtower and take a look around.": {
+      "pl": "Wspinasz się na strażnicę i rozglądasz się.",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.start",
+        "data.json:scripts.fort2_watchtower.start",
+        "data.json:scripts.fort3_watchtower.start",
+        "data.json:scripts.fort4_watchtower.start",
+        "data.json:scripts.fort5_watchtower.start"
+      ],
+      "category": "dialog"
+    },
+    "You feel like the world's most bullet-riddled pie.": {
+      "pl": "Czujesz się jak najbardziej postrzelone ciasto na świecie.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.lose"
+      ],
+      "category": "dialog"
+    },
+    "You hear the sounds of several goblins snoring inside this tent.": {
+      "pl": "Słyszysz chrapanie kilku goblinów w tym namiocie.",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.start"
+      ],
+      "category": "dialog"
+    },
+    "You lost!": {
+      "pl": "Przegrałeś!",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.lose",
+        "data.json:scripts.pokergame.youlost"
+      ],
+      "category": "dialog"
+    },
+    "You open the safe and put the controlled substances under your own control.": {
+      "pl": "Otwierasz sejf i przejmujesz kontrolę nad substancjami kontrolowanymi.",
+      "contexts": [
+        "data.json:scripts.fort1_nursesafe.open"
+      ],
+      "category": "dialog"
+    },
+    "You peek through the bullet holes. Yep, that pie is shot to hell.": {
+      "pl": "Zaglądasz przez dziury po kulach. Tak, ten placek jest zrujnowany.",
+      "contexts": [
+        "data.json:scripts.fort1_piesafe.check"
+      ],
+      "category": "dialog"
+    },
+    "You pick the lock!": {
+      "pl": "Otwierasz zamek!",
+      "contexts": [
+        "data.json:scripts.fort1_generaldoor.picklock",
+        "data.json:scripts.fort1_tent1locker3.picklock",
+        "data.json:scripts.fort2_footlocker3.picklock",
+        "data.json:scripts.fort2_footlocker4.picklock",
+        "data.json:scripts.fort3_footlocker1.picklock"
+      ],
+      "category": "dialog"
+    },
+    "You press the cap on the fungus bomb, toss it into the tent, and hold the flaps closed until the popping and sizzling noises stop.  You should be safe in there now.": {
+      "pl": "Zatrzaskujesz grzybową bombę, wrzucasz ją do namiotu i trzymasz klapy zamknięte, aż ustaną trzaski i skwierczenia. Teraz powinno być tam bezpiecznie.",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.bomb"
+      ],
+      "category": "dialog"
+    },
+    "You probably shouldn't try to open this pie safe while that goblin is shooting it.": {
+      "pl": "Pewnie nie powinieneś próbować otwierać tego sejfu na placek, gdy goblin w niego strzela.",
+      "contexts": [
+        "data.json:scripts.fort1_piesafe.nope"
+      ],
+      "category": "dialog"
+    },
+    "You put an end to that pie-shooting goblin's reign of terror.  All the world's pies thank you.": {
+      "pl": "Kończysz panowanie terroru goblina strzelającego w placki. Wszystkie placki świata ci dziękują.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.win"
+      ],
+      "category": "dialog"
+    },
+    "You see a horse apple big enough to -- well, big enough to see from here.": {
+      "pl": "Widzisz końskie jabłko wystarczająco duże, żeby — no, wystarczająco duże, żeby widać je stąd.",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.discoverbigapple"
+      ],
+      "category": "dialog"
+    },
+    "You see a splash of greenery in a canyon up north -- must be a spring there!": {
+      "pl": "W kanionie na północy widzisz plamę zieleni — musi tam być źródło!",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.discoversnakespring"
+      ],
+      "category": "dialog"
+    },
+    "You should leaving a hat and gun. Having a fresh start.": {
+      "pl": "Powinieneś zostawić czapkę i broń. Od nowa.",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.hatgun"
+      ],
+      "category": "dialog"
+    },
+    "You spy an old mission a ways north of town.": {
+      "pl": "Dostrzegasz starą misję na północ od miasteczka.",
+      "contexts": [
+        "data.json:scripts.fort1_watchtower.discovercemetery2"
+      ],
+      "category": "dialog"
+    },
+    "You take a moment to correlate the drawings to what you saw in Janet's box in the circus sideshow, and come away with some new insights.": {
+      "pl": "Po chwili łączysz rysunki z tym, co widziałeś w skrzynce Janet w cyrkowym sideshow, i wychodzisz z nowymi spostrzeżeniami.",
+      "contexts": [
+        "data.json:scripts.fort1_nursedesk.synergy"
+      ],
+      "category": "dialog"
+    },
+    "You won the fight!  Go you!": {
+      "pl": "Wygrałeś walkę! Brawo ty!",
+      "contexts": [
+        "data.json:scripts.fort1_triangle.win"
+      ],
+      "category": "dialog"
+    },
+    "You've heroically defeated the sleeping goblins who were guarding... their beds.": {
+      "pl": "Bohatersko pokonałeś śpiących goblinów, którzy strzegli... swoich łóżek.",
+      "contexts": [
+        "data.json:scripts.fort1_tentdoor1.win"
+      ],
+      "category": "dialog"
+    },
+    "You... certain being?": {
+      "pl": "Ty... być pewien?",
+      "contexts": [
+        "data.json:scripts.fort1_generalgob.four"
+      ],
+      "category": "dialog"
+    }
+  }
+}
