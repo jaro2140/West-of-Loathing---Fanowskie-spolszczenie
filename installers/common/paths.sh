@@ -4,9 +4,7 @@
 # Kolejnosc instalacji bundle (core, house, main_scene)
 PATCH_BUNDLES=(core house main_scene)
 
-# Wykrywa uklad katalogow: repo prywatne (Game_Translate/build/) albo paczka
-# release dla gracza (patches/ obok instalatorow). Ustawia PATCHES, BACKUP
-# i ORIGINAL_STREAMING.
+# Resolves platform-specific paths in the private repository or release package.
 #
 # UWAGA: BACKUP ustawiony tutaj jest tylko WARTOSCIA DOMYSLNA/dziedziczona,
 # liczona wzgledem lokalizacji SKRYPTU/paczki instalatora. To nie jest
@@ -20,14 +18,46 @@ PATCH_BUNDLES=(core house main_scene)
 # z folderem, z ktorego akurat uruchomiono instalator.
 resolve_layout() {
   local root="$1"
-  if [[ -d "$root/Game_Translate/build/patches" ]]; then
-    PATCHES="$root/Game_Translate/build/patches"
-    BACKUP="$root/Game_Translate/build/backup"
-    ORIGINAL_STREAMING="$root/Game/original/StreamingAssets"
+  local platform="$2"
+  local original_platform="$platform"
+  [[ "$platform" == "windows" ]] && original_platform="win"
+  local original_root="$root/Game/original_${original_platform}"
+  local private_original="$original_root/StreamingAssets"
+  if [[ -d "$original_root/West of Loathing_Data/StreamingAssets" ]]; then
+    private_original="$original_root/West of Loathing_Data/StreamingAssets"
+  fi
+  local private_build="$root/Game_Translate/build/patches/$platform"
+  local private_staging="$root/Installers/patches/$platform"
+  local release_patches="$root/patches/$platform"
+
+  if [[ -f "$private_build/core" ]]; then
+    PATCHES="$private_build"
+    BACKUP="$root/Game_Translate/build/backup/$platform"
+    ORIGINAL_STREAMING="$private_original"
+  elif [[ -f "$private_staging/core" ]]; then
+    PATCHES="$private_staging"
+    BACKUP="$root/Installers/backup/$platform"
+    ORIGINAL_STREAMING="$private_original"
   else
-    PATCHES="$root/patches"
-    BACKUP="$root/backup"
-    ORIGINAL_STREAMING="$root/original/StreamingAssets"
+    PATCHES="$release_patches"
+    BACKUP="$root/backup/$platform"
+    ORIGINAL_STREAMING="$root/original/$platform/StreamingAssets"
+  fi
+}
+
+verify_patch_platform() {
+  local patches="$1"
+  local expected="$2"
+  local marker="$patches/platform.txt"
+  if [[ ! -f "$marker" ]]; then
+    echo "Blad: brak $marker"
+    return 1
+  fi
+  local actual
+  actual="$(tr -d '[:space:]' < "$marker")"
+  if [[ "$actual" != "$expected" ]]; then
+    echo "Blad: patch '$actual' nie jest przeznaczony dla platformy '$expected'."
+    return 1
   fi
 }
 

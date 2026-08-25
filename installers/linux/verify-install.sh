@@ -1,53 +1,33 @@
 #!/usr/bin/env bash
-# Weryfikuje instalacje patcha tekstowego oraz (jesli dotyczy) pluginu
-# BepInEx. Jeden skrypt dla Linux/SteamOS i macOS.
-#
-# Windows: uzyj installers\windows\verify-install.bat zamiast tego skryptu.
+# Verifies the Polish patch installation on Linux/SteamOS.
+# Verifies text files and BepInEx installed by the Linux installer.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-if [[ -d "$SCRIPT_DIR/../Game_Translate" ]]; then
-  ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-else
-  ROOT="$SCRIPT_DIR"
-fi
-
-INSTALLERS_DIR="$ROOT/installers"
-[[ -d "$INSTALLERS_DIR" ]] || INSTALLERS_DIR="$ROOT/Installers"
+INSTALLERS_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+ROOT="$(cd "$INSTALLERS_DIR/.." && pwd)"
 # shellcheck source=common/paths.sh
 source "$INSTALLERS_DIR/common/paths.sh"
 # shellcheck source=common/bepinex.sh
 source "$INSTALLERS_DIR/common/bepinex.sh"
 
-resolve_layout "$ROOT"
-
 OS_NAME="$(uname -s 2>/dev/null || echo Unknown)"
-case "$OS_NAME" in
-  Linux*)
-    OS_LABEL="Linux/SteamOS"
-    BEPINEX_OS="linux"
-    GAME_CANDIDATES=(
-      "$HOME/.local/share/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/root/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-    )
-    ;;
-  Darwin*)
-    OS_LABEL="macOS"
-    BEPINEX_OS="macos"
-    GAME_CANDIDATES=(
-      "$HOME/Library/Application Support/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-    )
-    ;;
-  *)
-    echo "Ten skrypt obsluguje Linux/SteamOS i macOS."
-    echo "Na Windows uruchom: installers\\windows\\verify-install.bat"
-    exit 1
-    ;;
-esac
+if [[ "$OS_NAME" != Linux* ]]; then
+  echo "Ten instalator jest przeznaczony dla Linux/SteamOS."
+  exit 1
+fi
+
+PLATFORM="linux"
+OS_LABEL="Linux/SteamOS"
+BEPINEX_OS="linux"
+GAME_CANDIDATES=(
+  "$HOME/.local/share/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+  "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+  "$HOME/.steam/root/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+  "$HOME/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+)
+
+resolve_layout "$ROOT" "$PLATFORM"
 
 echo "=== West of Loathing PL — weryfikacja ($OS_LABEL) ==="
 echo ""
@@ -56,6 +36,7 @@ if [[ ! -f "$PATCHES/core" ]]; then
   echo "BLAD: brak $PATCHES/core — uruchom: python _App/src/pack.py"
   exit 1
 fi
+verify_patch_platform "$PATCHES" "$PLATFORM"
 
 echo "Patch:"
 echo "  $PATCHES/core ($(file_size "$PATCHES/core") B)"

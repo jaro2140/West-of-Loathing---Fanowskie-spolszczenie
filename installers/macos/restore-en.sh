@@ -1,49 +1,28 @@
 #!/usr/bin/env bash
-# Przywraca oryginalny (EN) patch tekstowy oraz — jesli byl zainstalowany —
-# cofa plugin BepInEx. Jeden skrypt dla Linux/SteamOS i macOS.
-#
-# Windows: uzyj installers\windows\restore-en.bat zamiast tego skryptu.
+# Restores text files and BepInEx installed by the macOS installer.
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-if [[ -d "$SCRIPT_DIR/../Game_Translate" ]]; then
-  ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
-else
-  ROOT="$SCRIPT_DIR"
-fi
-
-INSTALLERS_DIR="$ROOT/installers"
-[[ -d "$INSTALLERS_DIR" ]] || INSTALLERS_DIR="$ROOT/Installers"
+INSTALLERS_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+ROOT="$(cd "$INSTALLERS_DIR/.." && pwd)"
 # shellcheck source=common/paths.sh
 source "$INSTALLERS_DIR/common/paths.sh"
 # shellcheck source=common/bepinex.sh
 source "$INSTALLERS_DIR/common/bepinex.sh"
 
-resolve_layout "$ROOT"
-
 OS_NAME="$(uname -s 2>/dev/null || echo Unknown)"
-case "$OS_NAME" in
-  Linux*)
-    GAME_CANDIDATES=(
-      "$HOME/.local/share/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/root/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.var/app/com.valvesoftware.Steam/data/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-    )
-    ;;
-  Darwin*)
-    GAME_CANDIDATES=(
-      "$HOME/Library/Application Support/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-      "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
-    )
-    ;;
-  *)
-    echo "Ten skrypt obsluguje Linux/SteamOS i macOS."
-    echo "Na Windows uruchom: installers\\windows\\restore-en.bat"
-    exit 1
-    ;;
-esac
+if [[ "$OS_NAME" != Darwin* ]]; then
+  echo "Ten instalator jest przeznaczony dla macOS."
+  exit 1
+fi
+
+PLATFORM="macos"
+GAME_CANDIDATES=(
+  "$HOME/Library/Application Support/Steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+  "$HOME/.steam/steam/steamapps/common/West of Loathing/West of Loathing_Data/StreamingAssets"
+)
+
+resolve_layout "$ROOT" "$PLATFORM"
 
 if ! GAME_STREAMING="$(resolve_game_streaming "$ROOT" "${GAME_CANDIDATES[@]}")"; then
   echo "Nie znaleziono instalacji gry. Ustaw WOL_STREAMING w game-path.env"
