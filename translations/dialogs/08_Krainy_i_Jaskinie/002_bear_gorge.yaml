@@ -1,0 +1,1720 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: bear_gorge
+zrodlowy_batch: 034_dialog_loc_beargorge_bear_gorge.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 14
+liczba_wpisow: 97
+sceny:
+- kolejnosc_w_danych_gry: 239
+  skrypt: beargorge_crystalpete
+  pomieszczenie: &id001
+    id: beargorge
+    nazwa_en: Bear Gorge
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: completedquest
+    wpisy:
+    - id: wol_789405482d4358346c1a
+      kontekst: data.json:scripts.beargorge_crystalpete.completedquest
+      linia: 1
+      sekcja_skryptu: completedquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Congratulations, scout, you now know everything that I know about Lazin'.
+      pl: Gratulacje, skaucie, wiesz już wszystko, co ja wiem o Lenieniu się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bbd14829b91b4abeec1
+      kontekst: data.json:scripts.beargorge_crystalpete.completedquest
+      linia: 2
+      sekcja_skryptu: completedquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Honestly, it's really just the one thing, "don't do anything." Took a lot of my precious cosmic energy to pad it out for so long.
+      pl: 'Szczerze mówiąc, chodzi tylko o jedną rzecz: „nic nie rób”. Rozciągnięcie jej na tak długo pochłonęło mnóstwo mojej cennej kosmicznej energii.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo_opts
+    wpisy:
+    - id: wol_92f264aace6ab893d6a4
+      kontekst: data.json:scripts.beargorge_crystalpete.convo_opts
+      linia: 3
+      sekcja_skryptu: convo_opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Did I pass?
+      pl: Zdałem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pass
+    wpisy:
+    - id: wol_81cb34a4b59995a20ebb
+      kontekst: data.json:scripts.beargorge_crystalpete.pass
+      linia: 5
+      sekcja_skryptu: pass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, let's see. You failed @beargorge_lazinquest_testsfailed@ of my little tests, and you did/didn't demonstrate Lazin' ability in the fight with those bears. @beargorge_lazinquest_fightwon@
+      pl: Zobaczmy. Zawiodłeś w @beargorge_lazinquest_testsfailed@ z moich małych testów, a w walce z tymi niedźwiedziami wykazałeś/nie wykazałeś zdolności do Lenienia się. @beargorge_lazinquest_fightwon@
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@beargorge_lazinquest_testsfailed@'
+      - '@beargorge_lazinquest_fightwon@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_331d25337d9ab432d9a8
+      kontekst: data.json:scripts.beargorge_crystalpete.pass
+      linia: 6
+      sekcja_skryptu: pass
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That being said, I'm too lazy to pass you no matter how well you did. Sorry, scout.
+      pl: Niemniej jestem zbyt leniwy, żeby cię przepuścić, niezależnie od tego, jak dobrze ci poszło. Wybacz, skaucie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9a81fff1e2d963912f2
+      kontekst: data.json:scripts.beargorge_crystalpete.pass
+      linia: 7
+      sekcja_skryptu: pass
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: In that case, can you fail me instead? [Outfoxin' 2]
+      pl: W takim razie, możesz mnie zamiast tego oblać? [Przechytrzanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: failmethen
+    wpisy:
+    - id: wol_bb2e10cb173b374b35ba
+      kontekst: data.json:scripts.beargorge_crystalpete.failmethen
+      linia: 9
+      sekcja_skryptu: failmethen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, that's a good point. I guess I'm also too lazy to fail you, which means you pass.
+      pl: Och, słuszna uwaga. Chyba jestem również zbyt leniwy, żeby cię oblać, co oznacza, że zdałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4178e7320a27ef8724f0
+      kontekst: data.json:scripts.beargorge_crystalpete.failmethen
+      linia: 10
+      sekcja_skryptu: failmethen
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Congratulations, scout! Here's your official certificate of lazin' mastery, by which I mean this white cotton undershirt. I'm headin' back to the gun shop to take a nap.
+      pl: Gratulacje, skaucie! Oto oficjalny certyfikat mistrzostwa w Lenieniu się, czyli biały bawełniany podkoszulek. Wracam do sklepu z bronią na drzemkę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_36705ec06e4e4cdd7fa7
+      kontekst: data.json:scripts.beargorge_crystalpete.failmethen
+      linia: 11
+      sekcja_skryptu: failmethen
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nuts
+    wpisy:
+    - id: wol_fdb8e6e7bb538ceacb81
+      kontekst: data.json:scripts.beargorge_crystalpete.nuts
+      linia: 14
+      sekcja_skryptu: nuts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We can start the whole training session over, if you've a mind to! I've got nowhere else to be for the next few years.
+      pl: Możemy zacząć całą sesję treningową od nowa, jeśli masz na to ochotę! Nie mam gdzie być przez następne kilka lat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo_opts
+    wpisy:
+    - id: wol_52fda023371ee67ec367
+      kontekst: data.json:scripts.beargorge_crystalpete.convo_opts
+      linia: 16
+      sekcja_skryptu: convo_opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Did I fail?
+      pl: Oblałem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fail
+    wpisy:
+    - id: wol_81cb34a4b59995a20ebb
+      kontekst: data.json:scripts.beargorge_crystalpete.fail
+      linia: 18
+      sekcja_skryptu: fail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, let's see. You failed @beargorge_lazinquest_testsfailed@ of my little tests, and you did/didn't demonstrate Lazin' ability in the fight with those bears. @beargorge_lazinquest_fightwon@
+      pl: Zobaczmy. Zawiodłeś w @beargorge_lazinquest_testsfailed@ z moich małych testów, a w walce z tymi niedźwiedziami wykazałeś/nie wykazałeś zdolności do Lenienia się. @beargorge_lazinquest_fightwon@
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@beargorge_lazinquest_testsfailed@'
+      - '@beargorge_lazinquest_fightwon@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c09ad3cff774cd29572d
+      kontekst: data.json:scripts.beargorge_crystalpete.fail
+      linia: 19
+      sekcja_skryptu: fail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That being said, I'm too lazy to fail you no matter how well you did. So I guess that means you pass!
+      pl: Niemniej jestem zbyt leniwy, żeby cię oblać, niezależnie od tego, jak dobrze ci poszło. Czyli chyba zdajesz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4178e7320a27ef8724f0
+      kontekst: data.json:scripts.beargorge_crystalpete.fail
+      linia: 20
+      sekcja_skryptu: fail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Congratulations, scout! Here's your official certificate of lazin' mastery, by which I mean this white cotton undershirt. I'm headin' back to the gun shop to take a nap.
+      pl: Gratulacje, skaucie! Oto oficjalny certyfikat mistrzostwa w Lenieniu się, czyli biały bawełniany podkoszulek. Wracam do sklepu z bronią na drzemkę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_36705ec06e4e4cdd7fa7
+      kontekst: data.json:scripts.beargorge_crystalpete.fail
+      linia: 21
+      sekcja_skryptu: fail
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo_opts
+    wpisy:
+    - id: wol_c67368095bb6777139ea
+      kontekst: data.json:scripts.beargorge_crystalpete.convo_opts
+      linia: 22
+      sekcja_skryptu: convo_opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Were the bears really necessary?
+      pl: Czy niedźwiedzie były naprawdę konieczne?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bears
+    wpisy:
+    - id: wol_0de7cff8967c3800b611
+      kontekst: data.json:scripts.beargorge_crystalpete.bears
+      linia: 24
+      sekcja_skryptu: bears
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'As far as the universe is concerned: is anything?'
+      pl: 'Z punktu widzenia wszechświata: czy cokolwiek istnieje?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: activequest
+    wpisy:
+    - id: wol_0cad43583318cc40fd7b
+      kontekst: data.json:scripts.beargorge_crystalpete.activequest
+      linia: 25
+      sekcja_skryptu: activequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Glad you made it, camper! Go ahead and sit on that stump right there and I'll stop procrastinatin' on teaching you Lazin'.
+      pl: Dobrze, że dotarłeś, obozowiczu! Siadaj na tym pniaku, a ja przestanę zwlekać z nauczeniem cię Leniuchowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.beargorge_crystalpete.activequest
+      linia: 26
+      sekcja_skryptu: activequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 240
+  skrypt: beargorge_lazinquest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5d9430f17b628d63baee
+      kontekst: data.json:scripts.beargorge_lazinquest.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Glad you're here, Student of the Lazy Way! We're going to start with--
+      pl: Dobrze, że jesteś, Uczniu Leniwej Drogi! Zaczniemy od—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_810203d917f5ed91984d
+      kontekst: data.json:scripts.beargorge_lazinquest.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, wait, I forgot. Before we get started, you'll definitely want to tie your food up under that aspen tree so it doesn't attract bears. I've got a spare rope.
+      pl: Och, czekaj, zapomniałem. Zanim zaczniemy, koniecznie podwieś jedzenie pod tamtą osiką, żeby nie zwabiło niedźwiedzi. Mam zapasową linę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4235e372d10005d90112
+      kontekst: data.json:scripts.beargorge_lazinquest.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You go ahead. I'll wait.
+      pl: Śmiało. Zaczekam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 242
+  skrypt: beargorge_lazinquest_test1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 47
+  sekcje:
+  - etykieta: succeeded
+    wpisy:
+    - id: wol_30f379be8fe6dafa1239
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.succeeded
+      linia: 1
+      sekcja_skryptu: succeeded
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great job, camper! That was my first little test, and you passed.
+      pl: Świetna robota, obozowiczu! To był mój pierwszy mały test i udało ci się go zdać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_61afc01d16bd24bcffbc
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.succeeded
+      linia: 2
+      sekcja_skryptu: succeeded
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Remember when I told you to sit on the stump and do <i>nothin'?</i> That's the one true secret to Lazin', don't do <i>anything</i>. Keep not forgetting that and you'll do great.
+      pl: 'Pamiętasz, jak kazałem ci siedzieć na pniaku i nie robić <i>nic?</i> To jedyny prawdziwy sekret Lenienia się: nie rób <i>niczego.</i> Nie zapominaj o tym, a świetnie sobie poradzisz.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part2
+    wpisy:
+    - id: wol_da9822f1592977360ab2
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2
+      linia: 5
+      sekcja_skryptu: part2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The second secret to truly ascended Lazin' is to clear your mind of any earthly thoughts. Picture an unloaded pistol. No bullets in any of the chambers. Nothing in the barrel. All is void.
+      pl: Drugim sekretem prawdziwie wzniosłego Lenienia się jest oczyszczenie umysłu ze wszystkich ziemskich myśli. Wyobraź sobie rozładowany pistolet. Ani jednego naboju w żadnej komorze. Nic w lufie. Wszędzie pustka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_880171278d4080e2525a
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2
+      linia: 6
+      sekcja_skryptu: part2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Can you see it in your mind's eye, camper?
+      pl: Widzisz to oczami wyobraźni, obozowiczu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1787056ab59dd4787fd5
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2
+      linia: 7
+      sekcja_skryptu: part2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yup!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part2yes
+    wpisy:
+    - id: wol_e4de892b9d92cfaa7b1d
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2yes
+      linia: 9
+      sekcja_skryptu: part2yes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, dangit, scout, you fell for it again!
+      pl: Kurczę, skaucie, znowu się nabrałeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e734b44fa5c98a3b165f
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2yes
+      linia: 10
+      sekcja_skryptu: part2yes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, dangit, scout, that was another trick, and you failed this time.
+      pl: Kurczę, skaucie, to była kolejna sztuczka i tym razem oblałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3519e9b53548a27f4284
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2yes
+      linia: 11
+      sekcja_skryptu: part2yes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You'll never master Lazin' if you go around visualizin' things in your mind's eye. Phew! I need a nap just thinkin' about it.
+      pl: Nigdy nie opanujesz Lenienie się, jeśli zaczniesz wizualizować rzeczy w swoim umyśle. Phew! Muszę się zdrzemnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part3
+    wpisy:
+    - id: wol_07e5dbbbc46c6903193a
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 14
+      sekcja_skryptu: part3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Your next lesson in Lazin'...
+      pl: Twoja następna lekcja Leniuchowania...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b1c6e4b57285ec40cdac
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 15
+      sekcja_skryptu: part3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...is going to have to wait, because there''s a bear walking up to you.'
+      pl: '...będzie musiało poczekać, bo idzie w twoją stronę niedźwiedź.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6c0439ff6786a9785ec
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 16
+      sekcja_skryptu: part3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '[speaking bear]'
+      pl: '[mówiący niedźwiedź]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[speaking bear]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30010ec06ffd28253865
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 17
+      sekcja_skryptu: part3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He's interested in the hot dog I sneaky slipped into your pocket earlier in case you showed up without any food on you. Do you act impassively, like a rock in the stream of the cosmos, and let him have it?
+      pl: Interesuje go hot dog, którego wcześniej podstępnie wsunąłem ci do kieszeni na wypadek, gdybyś zjawił się bez jedzenia. Zachowujesz niewzruszony spokój niczym skała w strumieniu kosmosu i pozwalasz mu go zabrać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1787056ab59dd4787fd5
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 18
+      sekcja_skryptu: part3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yup!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part3yes
+    wpisy:
+    - id: wol_ae0f39d83897c9996252
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3yes
+      linia: 20
+      sekcja_skryptu: part3yes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, camper! Actin' impassively is still actin', and the secret of Lazin' is to <i>not act</i>.
+      pl: Przepraszam, obozowiczu! Zachowywanie się beznamiętnie to nadal zachowywanie się, a sekretem Lenienia się jest <i>brak działania.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_70f86aa0997925a9d41c
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3yes
+      linia: 21
+      sekcja_skryptu: part3yes
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't get discouraged. You'll stop not getting the hang of it eventually.
+      pl: Nie zniechęcaj się. W końcu przestaniesz nie łapać, o co chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part4
+    wpisy:
+    - id: wol_c6c0439ff6786a9785ec
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 24
+      sekcja_skryptu: part4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '[speaking bear]'
+      pl: '[mówiący niedźwiedź]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[speaking bear]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a686bce7569a454b892
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 25
+      sekcja_skryptu: part4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He says he's going to call some of his bear friends over and they're going to fight you for your hot dog. Do you stop them?
+      pl: Mówi, że zawoła kilku niedźwiedzich przyjaciół i będą z tobą walczyć o hot doga. Powstrzymujesz ich?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f155f64b7206f256f76a
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 26
+      sekcja_skryptu: part4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't stop them. [Fight]
+      pl: Nie powstrzymuję ich. [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5bcc0139b30f98d6f88
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 27
+      sekcja_skryptu: part4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't <i>not</i> stop them? [Don't not fight]
+      pl: To znaczy, że ich <i>nie</i> powstrzymuję? [Nie nie walcz]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - '[Don''t not fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d938f7ca00f0aefa823
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 28
+      sekcja_skryptu: part4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Whichever, a bear fight would be refreshingly straightforward. [Fight]
+      pl: Cokolwiek, walka z niedźwiedziem byłaby orzeźwiająco prosta. [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b144bc36ac730c0cbdbc
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part4
+      linia: 29
+      sekcja_skryptu: part4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm a pacifist, so... whichever one <i>doesn't</i> start a fight?
+      pl: Jestem pacyfistą, więc... ten, który <i>nie</i> rozpoczyna walki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pacifist
+    wpisy:
+    - id: wol_16a24eeb312ca4d21e8b
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.pacifist
+      linia: 31
+      sekcja_skryptu: pacifist
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: State law says I have to allow that. Just try not to get too active with your pacifism, or I'll have to not avoid a heart-to-heart with you about it.
+      pl: Prawo stanowe mówi, że muszę na to pozwolić. Tylko nie bądź zbyt aktywny w swoim pacyfizmie, bo będę musiał nie unikać szczerej rozmowy z tobą na ten temat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b5c700ab73facb3111f7
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.pacifist
+      linia: 32
+      sekcja_skryptu: pacifist
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: In any event, you didn't stop the bears from taking your hot dog, so congratulations!
+      pl: Tak czy inaczej, nie przeszkodziłeś niedźwiedziom zabrać ci hot doga, więc gratulacje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8681b5df1febdd5880a
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.pacifist
+      linia: 33
+      sekcja_skryptu: pacifist
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Come over and talk to me for a minute. This one's not a trick, I promise.
+      pl: Podejdź i porozmawiaj ze mną chwilę. To nie jest sztuczka, obiecuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part3yes
+    wpisy:
+    - id: wol_d4e314f0de75a72067b7
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3yes
+      linia: 35
+      sekcja_skryptu: part3yes
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What, <i>seriously</i>?
+      pl: Co, <i>naprawdę</i>?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seriously
+    wpisy:
+    - id: wol_43ccb4805e88b0602086
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 36
+      sekcja_skryptu: seriously
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ I'm not supposed to sit quietly by and let the bear take my hot dog?
+      pl: $lastoption$ Nie powinienem po prostu siedzieć cicho i pozwolić niedźwiedziowi zabrać mojego hot doga?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f081b691cdf6e0b4c6b
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 37
+      sekcja_skryptu: seriously
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Correct.
+      pl: Zgadza się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1211927ca4db6213a433
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 38
+      sekcja_skryptu: seriously
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So what's the alternative, <i>stop</i> him from taking it?
+      pl: A jaka jest alternatywa, <i>powstrzymać</i> go przed zabraniem tego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_102c72e9b669238c0992
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 39
+      sekcja_skryptu: seriously
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, that would also constitute doing something, and wouldn't be very Lazin' of you at all.
+      pl: Nie, to również oznaczałoby zrobienie czegoś, a to wcale nie byłoby zgodne z Lenieniem się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c9fd63074c7e8e09788
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 40
+      sekcja_skryptu: seriously
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I guess I understand.
+      pl: Chyba rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getit
+    wpisy:
+    - id: wol_4f95ca7e2de9b47bc9ca
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.getit
+      linia: 42
+      sekcja_skryptu: getit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, wrong again, scout! Understandin' is <i>way</i> too much effort for the truly Lazin'. The trick is to <i>not</i> understand.
+      pl: Przepraszam, znowu źle, skaucie! Rozumienie wymaga <i>zdecydowanie</i> zbyt wiele wysiłku od prawdziwie Leniących się. Sztuka polega na tym, żeby <i>nie</i> rozumieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seriously
+    wpisy:
+    - id: wol_83988c72cd076dea5d20
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.seriously
+      linia: 44
+      sekcja_skryptu: seriously
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't get this at all.
+      pl: W ogóle tego nie ogarniam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontgetit
+    wpisy:
+    - id: wol_6b0d29dd8463b094761b
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.dontgetit
+      linia: 46
+      sekcja_skryptu: dontgetit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: See, now you're getting the hang of it, scout!
+      pl: Widzisz, zaczynasz łapać, o co chodzi, skaucie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1d18493b043dcf974e1
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.dontgetit
+      linia: 47
+      sekcja_skryptu: dontgetit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Understandin' is <i>way</i> too much effort for the truly Lazin'. The trick is to <i>not</i> understand.
+      pl: Rozumienie wymaga <i>zdecydowanie</i> zbyt wiele wysiłku od prawdziwie Leniących się. Sztuka polega na tym, żeby <i>nie</i> rozumieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac65f7ec264ccdb9cca6
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.dontgetit
+      linia: 48
+      sekcja_skryptu: dontgetit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: By that metric, you're doin' great.
+      pl: Według tej miary idzie ci świetnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part3
+    wpisy:
+    - id: wol_1b0e7403225b17ec8330
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3
+      linia: 50
+      sekcja_skryptu: part3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part3no
+    wpisy:
+    - id: wol_8c732bfede5dfb5b3f44
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part3no
+      linia: 52
+      sekcja_skryptu: part3no
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Correctamundo, scout! Letting the bear have your hot dog would be doing <i>something</i>, and the secret of Lazin' is to do <i>nothin'</i>. Well played!
+      pl: Zgadzamundo, skaucie! Oddanie hot doga niedźwiedziowi oznaczałoby zrobienie <i>czegoś,</i> a sekretem Lenienia się jest nie robić <i>nic.</i> Dobra robota!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part2
+    wpisy:
+    - id: wol_1b0e7403225b17ec8330
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2
+      linia: 54
+      sekcja_skryptu: part2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: part2no
+    wpisy:
+    - id: wol_1b8b5f4527ec4e451e53
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2no
+      linia: 56
+      sekcja_skryptu: part2no
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's the correct answer! Great job, scout. You'd never master Lazin' if you went around visualizin' things in your mind's eye like that.
+      pl: To prawidłowa odpowiedź! Świetna robota, skaucie. Nigdy nie opanujesz Lenienia się, jeśli będziesz tak wszystko wizualizować oczami wyobraźni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_296bb4e1975127006227
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.part2no
+      linia: 57
+      sekcja_skryptu: part2no
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Phew! I need a nap just thinkin' about it.
+      pl: Uff! Od samego myślenia potrzebuję drzemki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: failed
+    wpisy:
+    - id: wol_46d017c283d6e4a86cde
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.failed
+      linia: 59
+      sekcja_skryptu: failed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, sorry, camper, that was my first little test, and you failed!
+      pl: Przepraszam, obozowiczu, to był mój pierwszy mały test i oblałeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9bab43cc3c05e3f5e403
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.failed
+      linia: 60
+      sekcja_skryptu: failed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Remember when I told you to sit on the stump and do <i>nothin'?</i> I mean that. Doing nothing is the one true secret to Lazin'.
+      pl: Pamiętasz, jak kazałem ci siedzieć na pniaku i nie robić <i>nic?</i> Mówiłem poważnie. Nierobienie niczego to jedyny prawdziwy sekret Lenienia się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1dcf3093fac7ecf830c2
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.failed
+      linia: 61
+      sekcja_skryptu: failed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't worry, it'll get easier the more you don't practice.
+      pl: Nie martw się, będzie coraz łatwiej, im dłużej nie będziesz ćwiczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_4f1133df9f715df77bc6
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Congratulations, camper! You didn't stop the bears from taking your hot dog.
+      pl: Gratulacje, obozowiczu! Nie powstrzymałeś niedźwiedzi przed zabraniem hot doga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8681b5df1febdd5880a
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Come over and talk to me for a minute. This one's not a trick, I promise.
+      pl: Podejdź i porozmawiaj ze mną chwilę. To nie jest sztuczka, obiecuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d0b3b8f8eb6fe79aa1a9
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That looked like it hurt, camper! Come over and talk to me for a minute.
+      pl: To chyba bolało, obozowiczu! Podejdź i porozmawiaj ze mną chwilę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_b2a17151c74bf0864d43
+      kontekst: data.json:scripts.beargorge_lazinquest_test1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It did in fact hurt
+      pl: Faktycznie bolało
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 243
+  skrypt: beargorge_stump
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: startquest
+    wpisy:
+    - id: wol_025fabcd5c51e4aecd77
+      kontekst: data.json:scripts.beargorge_stump.startquest
+      linia: 1
+      sekcja_skryptu: startquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the stump Crystal Packin' Pete wanted you to sit down on.
+      pl: To musi być pień, na którym Crystal Packin' Pete chciał, żebyś usiadł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94f1306d4187f7199729
+      kontekst: data.json:scripts.beargorge_stump.startquest
+      linia: 2
+      sekcja_skryptu: startquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit on it, Ralph
+      pl: Usiądź na tym, Ralph
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 244
+  skrypt: bigapple_bigapple
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: finale
+    wpisy:
+    - id: wol_36705ec06e4e4cdd7fa7
+      kontekst: data.json:scripts.bigapple_bigapple.finale
+      linia: 9
+      sekcja_skryptu: finale
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 295
+  skrypt: booze_ghostwhiskey
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_36705ec06e4e4cdd7fa7
+      kontekst: data.json:scripts.booze_ghostwhiskey.yes
+      linia: 4
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 485
+  skrypt: clowns_circus_bobshow
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: cont5
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.clowns_circus_bobshow.cont5
+      linia: 22
+      sekcja_skryptu: cont5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: okay
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.clowns_circus_bobshow.okay
+      linia: 23
+      sekcja_skryptu: okay
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1131
+  skrypt: dirtwater_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: seven
+    wpisy:
+    - id: wol_36705ec06e4e4cdd7fa7
+      kontekst: data.json:scripts.dirtwater_spittoon.seven
+      linia: 17
+      sekcja_skryptu: seven
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hooray!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1523
+  skrypt: geocave_rock
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: giverock
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.geocave_rock.giverock
+      linia: 5
+      sekcja_skryptu: giverock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1561
+  skrypt: ghosttown1_knock3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: permit2d
+    wpisy:
+    - id: wol_1787056ab59dd4787fd5
+      kontekst: data.json:scripts.ghosttown1_knock3.permit2d
+      linia: 34
+      sekcja_skryptu: permit2d
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yup!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1604
+  skrypt: goblin3_guard3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talk
+    wpisy:
+    - id: wol_1b0e7403225b17ec8330
+      kontekst: data.json:scripts.goblin3_guard3.talk
+      linia: 6
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1694
+  skrypt: item_eat_steak
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1787056ab59dd4787fd5
+      kontekst: data.json:scripts.item_eat_steak.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yup!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1882
+  skrypt: mine6_cultistguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: horn2
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.mine6_cultistguard.horn2
+      linia: 30
+      sekcja_skryptu: horn2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: alice_tannery_shed
+    wpisy:
+    - id: wol_1b0e7403225b17ec8330
+      kontekst: data.json:scripts.pardner_talk.alice_tannery_shed
+      linia: 2
+      sekcja_skryptu: alice_tannery_shed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_tannery_shed
+    wpisy:
+    - id: wol_1b0e7403225b17ec8330
+      kontekst: data.json:scripts.pardner_talk.pete_tannery_shed
+      linia: 2
+      sekcja_skryptu: pete_tannery_shed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope!
+      pl: Nie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_silversmith_interior
+    wpisy:
+    - id: wol_1787056ab59dd4787fd5
+      kontekst: data.json:scripts.pardner_talk.pete_silversmith_interior
+      linia: 4
+      sekcja_skryptu: pete_silversmith_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yup!
+      pl: Tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_fort3_interior
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.susie_fort3_interior
+      linia: 4
+      sekcja_skryptu: susie_fort3_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_5
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.pete_5
+      linia: 3
+      sekcja_skryptu: pete_5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_5
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.alice_5
+      linia: 3
+      sekcja_skryptu: alice_5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_5
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.gary_5
+      linia: 3
+      sekcja_skryptu: gary_5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_5
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.susie_5
+      linia: 3
+      sekcja_skryptu: susie_5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_23
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.pete_23
+      linia: 3
+      sekcja_skryptu: pete_23
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_23
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.alice_23
+      linia: 3
+      sekcja_skryptu: alice_23
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_23
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.gary_23
+      linia: 3
+      sekcja_skryptu: gary_23
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_23
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.susie_23
+      linia: 3
+      sekcja_skryptu: susie_23
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_24
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.pete_24
+      linia: 3
+      sekcja_skryptu: pete_24
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_24
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.alice_24
+      linia: 3
+      sekcja_skryptu: alice_24
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_24
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.gary_24
+      linia: 3
+      sekcja_skryptu: gary_24
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_24
+    wpisy:
+    - id: wol_30488c10a83d50a8166d
+      kontekst: data.json:scripts.pardner_talk.susie_24
+      linia: 3
+      sekcja_skryptu: susie_24
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay!
+      pl: Okej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []

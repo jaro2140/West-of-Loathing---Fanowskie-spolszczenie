@@ -1,0 +1,5366 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: gustavson_gulch
+zrodlowy_batch: 070_dialog_loc_goblin1_gustavson_gulch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 54
+liczba_wpisow: 308
+sceny:
+- kolejnosc_w_danych_gry: 1568
+  skrypt: goblin1_destroyedcrate
+  pomieszczenie: &id001
+    id: goblin1
+    nazwa_en: Gustavson Gulch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_41089350907ca7d52607
+      kontekst: data.json:scripts.goblin1_destroyedcrate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Holy cow, this is full of dynamite!  How did it survive!?
+      pl: O rany, to jest pełne dynamitu! Jak to przetrwało!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_540847eff9a465d4b103
+      kontekst: data.json:scripts.goblin1_destroyedcrate.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.  Carefully.
+      pl: Weź to. Ostrożnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_bcb2b3a58f25122cf988
+      kontekst: data.json:scripts.goblin1_destroyedcrate.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You very, very slowly gather up the dynamite in the crate.
+      pl: Bardzo, bardzo powoli zbierasz dynamit ze skrzyni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1569
+  skrypt: goblin1_guard
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 98
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bdb6cc690e95d29522d2
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancily-dressed goblin steps forward.
+      pl: Do przodu wychodzi elegancko ubrany goblin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22ca4b5220a061134fa9
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, hello! Being a mayor! Welcome! Now, going away, please.
+      pl: Cześć, halo! Być burmistrzem! Witamy! Teraz iść stąd, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3fdf35b77c13a29d1876
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin seems friendly, but blocks your entry into the gulch.
+      pl: Goblin wydaje się przyjazny, ale blokuje ci wejście do wąwozu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ad407aa7d793be30c3b5
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to the goblin [Goblintongue]
+      pl: Porozmawiaj z goblinem [Goblińska mowa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Goblintongue]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tricky
+    wpisy:
+    - id: wol_80a9db46eaeace78bf6d
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 6
+      sekcja_skryptu: tricky
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can I not coming in?
+      pl: Ja nie móc wejść?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ffd971003952ddf0e6d
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 7
+      sekcja_skryptu: tricky
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry! Only for goblins being, very private.
+      pl: Przepraszać! Tylko dla goblinów, bardzo prywatne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3a3c79d39fcf3ea12baf
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 8
+      sekcja_skryptu: tricky
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outmuscle him [Intimidatin' 2]
+      pl: Pokaż mu, kto silniejszy [Zastraszanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_2edc90721d3444e60308
+      kontekst: data.json:scripts.goblin1_guard.intim
+      linia: 9
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You roll up your sleeves to show your bulging arm muscles. The goblin is either unimpressed, or doesn't recognize the menace in the gesture. So you pick him up and toss him over the wall of the gorge.
+      pl: Podwijasz rękawy, pokazując wypukłe mięśnie ramion. Goblin albo nie jest pod wrażeniem, albo nie rozpoznaje grozy w tym geście. Więc podnosisz go i rzucasz za ścianę wąwozu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tricky
+    wpisy:
+    - id: wol_6b3d74e41a7e5274eed7
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 11
+      sekcja_skryptu: tricky
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outmuscle him [Requires Intimidatin' 2]
+      pl: Pokaż mu, kto silniejszy [Wymaga Zastraszania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc0f57e53ca6438f4483
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 12
+      sekcja_skryptu: tricky
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outthink him [Outfoxin'  2]
+      pl: Przechytrz go [Przechytrzanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin''  2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_54bf2646322ced2fff20
+      kontekst: data.json:scripts.goblin1_guard.outfox
+      linia: 13
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This is not very nice! Don't you want to fostering better of human-goblin relations?
+      pl: To nie być zbyt miłe! Nie chcieć pielęgnować lepszych relacji ludzko-goblińskich?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52002d89aecc79a1347e
+      kontekst: data.json:scripts.goblin1_guard.outfox
+      linia: 14
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmmm. Hmmm.
+      pl: Hmmm. Hmmm.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f51b8b8e74955e9e025
+      kontekst: data.json:scripts.goblin1_guard.outfox
+      linia: 15
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I could being new human ambassador! And you go to human town, being their goblin ambassador!
+      pl: Ja móc być nowy ambasador ludzki! A ty iść do miasto ludzi, być ich ambasador goblinów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c3a9a76beaa2c0f107a
+      kontekst: data.json:scripts.goblin1_guard.outfox
+      linia: 16
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Guessing that might be a good idea. Diplomatics, yes! Okay!
+      pl: Zgadywać, że to może być dobry pomysł. Dyplomatyki, tak! Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_64bc6176d03dd9197056
+      kontekst: data.json:scripts.goblin1_guard.outfox
+      linia: 17
+      sekcja_skryptu: outfox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mayor shakes your hand, and starts walking toward Dirtwater.
+      pl: Burmistrz ściska ci dłoń i idzie w stronę Dirtwater.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tricky
+    wpisy:
+    - id: wol_c57e2f267169a77843ae
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 19
+      sekcja_skryptu: tricky
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outthink him [Requires Outfoxin' 2]
+      pl: Przechytrz go [Wymaga Przechytrzania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_62d65e969a090fcbd68c
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 20
+      sekcja_skryptu: tricky
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trick him into leaving [Hornswogglin' 2]
+      pl: Namów go do odejścia [Oszukiwanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_739bcc0d27aeefdc9dfc
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 21
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey though! Outside the gorge, I was seeing a thing you liking a lot!
+      pl: Ale hej! Poza wąwozem widziałem coś, co ty bardzo lubić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed4532112fb61e65df81
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 22
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! What thing?
+      pl: Och! Jaka rzecz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1f0ac8c0e6577b3998c
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 23
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What thing do you liking a lot?
+      pl: Co ci się bardzo podoba?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_209a2412fe496819ba31
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 24
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm... pies?
+      pl: Hmm... placki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_326304a04879ff8c5e46
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 25
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There are pies <i>all over</i> out there being.
+      pl: Tam na zewnątrz być <i>wszędzie</i> placki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d40cd8e2f59e9270cec9
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 26
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This seeming dubious but would neglectful being to not checking it out.
+      pl: To wyglądać podejrzanie, ale zaniedbaniem być nie sprawdzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0db383a807af358b144f
+      kontekst: data.json:scripts.goblin1_guard.hornswoggle
+      linia: 27
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mayor takes a fork out of his pocket, and leaves.
+      pl: Burmistrz wyciąga widelec z kieszeni i wychodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tricky
+    wpisy:
+    - id: wol_e70d9eef4d554cb0cc92
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 29
+      sekcja_skryptu: tricky
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Trick him into leaving [Requires Hornswogglin' 2]
+      pl: Nakłoń go podstępem do odejścia [Wymaga Oszukiwania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2230038d2ab0f2aee73c
+      kontekst: data.json:scripts.goblin1_guard.tricky
+      linia: 30
+      sekcja_skryptu: tricky
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave
+      pl: Po prostu wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ee64f2c5ad94198c9971
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 31
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack! [Fight]
+      pl: Atak! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4154d92903016aa25c9
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 32
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back away
+      pl: Cofnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddlesdone
+    wpisy:
+    - id: wol_2c0500989b2c81ffb3f2
+      kontekst: data.json:scripts.goblin1_guard.riddlesdone
+      linia: 33
+      sekcja_skryptu: riddlesdone
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello again!  Very happy, remembering fun riddling times with you!
+      pl: Witaj znowu! Bardzo szczęśliwy, wspominam zabawne czasy zagadek z tobą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a5687f488e3ac3ed22c
+      kontekst: data.json:scripts.goblin1_guard.riddlesdone
+      linia: 34
+      sekcja_skryptu: riddlesdone
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello and yes, thanks!
+      pl: Witaj i tak, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e748105b743f105690d
+      kontekst: data.json:scripts.goblin1_guard.riddlesdone
+      linia: 35
+      sekcja_skryptu: riddlesdone
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You being welcome here every time! Except not past here, where standing.
+      pl: Ty być tu mile widziany za każdym razem! Tylko nie dalej niż tu, gdzie stoisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_413a1892b6569de781ce
+      kontekst: data.json:scripts.goblin1_guard.riddlesdone
+      linia: 36
+      sekcja_skryptu: riddlesdone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tip your hat and leave
+      pl: Kiwnij kapeluszem i wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddlesagain
+    wpisy:
+    - id: wol_e02481dfcd85f902d4ea
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain
+      linia: 37
+      sekcja_skryptu: riddlesagain
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm ready to try the riddle contest again.
+      pl: Jestem gotowy spróbować konkursu zagadek jeszcze raz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_01768da10db8bf8d8d70
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain
+      linia: 38
+      sekcja_skryptu: riddlesagain
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Okay! First riddle still this:'
+      pl: 'Okej! Pierwsza zagadka wciąż ta:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e6d6ba733eab9df73087
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain
+      linia: 39
+      sekcja_skryptu: riddlesagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A crazy thing! Having no legs at morning, and no legs after noon, and also no legs having at night! What is that?
+      pl: Szalone coś! Rano bez nóg, po południu bez nóg, a wieczorem też bez nóg! Co to takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles2b
+    wpisy:
+    - id: wol_e1389232e003e21f8f0f
+      kontekst: data.json:scripts.goblin1_guard.riddles2b
+      linia: 40
+      sekcja_skryptu: riddles2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A man.
+      pl: Mężczyzna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wrong
+    wpisy:
+    - id: wol_e79e31a9aa4f31acb646
+      kontekst: data.json:scripts.goblin1_guard.wrong
+      linia: 42
+      sekcja_skryptu: wrong
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope! This answer is no good!
+      pl: Nie! Ta odpowiedź jest zła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba5a52ccfa3468ad06c0
+      kontekst: data.json:scripts.goblin1_guard.wrong
+      linia: 43
+      sekcja_skryptu: wrong
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But--
+      pl: Ale--
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b295c100bb32fa87d1e
+      kontekst: data.json:scripts.goblin1_guard.wrong
+      linia: 44
+      sekcja_skryptu: wrong
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It so wrong being! SO wrong!
+      pl: To tak źle być! TAK źle!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_42b63238ce0948c90827
+      kontekst: data.json:scripts.goblin1_guard.wrong
+      linia: 45
+      sekcja_skryptu: wrong
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, dangit.
+      pl: No, cholera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_106d78b5a885f7b263b4
+      kontekst: data.json:scripts.goblin1_guard.wrong
+      linia: 46
+      sekcja_skryptu: wrong
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away in shame
+      pl: Odejdź z wstydem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles2b
+    wpisy:
+    - id: wol_e10c75550a46e5dfdcc3
+      kontekst: data.json:scripts.goblin1_guard.riddles2b
+      linia: 47
+      sekcja_skryptu: riddles2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A no-leg horse.
+      pl: Koń bez nóg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_401b53da36660af7d895
+      kontekst: data.json:scripts.goblin1_guard.riddles2b
+      linia: 48
+      sekcja_skryptu: riddles2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: An egg.
+      pl: Jajko.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles3
+    wpisy:
+    - id: wol_04d098c6d1b4bebc9244
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 50
+      sekcja_skryptu: riddles3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay, yes! A egg having no legs, ever! Correct!
+      pl: Okej, tak! Jajo nie mające nóżek, nigdy! Poprawnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e8d55f0ab82ea1eda26
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 51
+      sekcja_skryptu: riddles3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, except if hatching into something that legs having.
+      pl: Z wyjątkiem tego, że wylęga się w coś, co ma nogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28b13adb74c5e88f4ec7
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 52
+      sekcja_skryptu: riddles3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But then is not egg any more! So who caring?
+      pl: Ale wtedy już jajkiem nie być! Więc kogo obchodzić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d29faaea05ae65b7f562
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 53
+      sekcja_skryptu: riddles3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, sure.
+      pl: Dobra, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e078493423599a82c0c
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 54
+      sekcja_skryptu: riddles3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Next riddle! You ready?
+      pl: Następna zagadka! Gotowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles3b
+    wpisy:
+    - id: wol_4ef00b68b5ae7f0d5e29
+      kontekst: data.json:scripts.goblin1_guard.riddles3b
+      linia: 57
+      sekcja_skryptu: riddles3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: More eating, lighter getting! Lighter getting, shorter living! What am I?
+      pl: Więcej jeść, lżejsze się robić! Lżejsze się robić, krócej żyć! Czym jestem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2470ce80c74aacf342fe
+      kontekst: data.json:scripts.goblin1_guard.riddles3b
+      linia: 58
+      sekcja_skryptu: riddles3b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A fire.
+      pl: Ogień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wrongfire
+    wpisy:
+    - id: wol_0e7a54da2ed57bcf584e
+      kontekst: data.json:scripts.goblin1_guard.wrongfire
+      linia: 60
+      sekcja_skryptu: wrongfire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha no! Fire is not alive!
+      pl: Ha, ha, nie! Ogień nie być żywy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a7a017d118419748f9c
+      kontekst: data.json:scripts.goblin1_guard.wrongfire
+      linia: 61
+      sekcja_skryptu: wrongfire
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, but...
+      pl: Dobra, ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_443da22b20dfe09043d9
+      kontekst: data.json:scripts.goblin1_guard.wrongfire
+      linia: 62
+      sekcja_skryptu: wrongfire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You are wrong!
+      pl: Mylisz się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_106d78b5a885f7b263b4
+      kontekst: data.json:scripts.goblin1_guard.wrongfire
+      linia: 63
+      sekcja_skryptu: wrongfire
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away in shame
+      pl: Odejdź z wstydem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles3b
+    wpisy:
+    - id: wol_401b53da36660af7d895
+      kontekst: data.json:scripts.goblin1_guard.riddles3b
+      linia: 64
+      sekcja_skryptu: riddles3b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: An egg.
+      pl: Jajko.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca38c9b8d1bda9a6c86b
+      kontekst: data.json:scripts.goblin1_guard.riddles3b
+      linia: 65
+      sekcja_skryptu: riddles3b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A snake.
+      pl: Wąż.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a423ead4d1e45114047f
+      kontekst: data.json:scripts.goblin1_guard.riddles3b
+      linia: 66
+      sekcja_skryptu: riddles3b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A mayor.
+      pl: Burmistrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles4
+    wpisy:
+    - id: wol_5b41c6a7e0d01e9400e2
+      kontekst: data.json:scripts.goblin1_guard.riddles4
+      linia: 68
+      sekcja_skryptu: riddles4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm... Okay! Yes! I <i>am</i> a mayor! Correct! Hooray!
+      pl: Ymm... Okej! Tak! <i>Jestem</i> burmistrzem! Poprawnie! Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fff6418172ce286d4777
+      kontekst: data.json:scripts.goblin1_guard.riddles4
+      linia: 70
+      sekcja_skryptu: riddles4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! One more riddling! Ready?
+      pl: Dobra! Jeszcze jedna zagadka! Gotowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles4b
+    wpisy:
+    - id: wol_e6fdfa4dca79cd23b4b0
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 73
+      sekcja_skryptu: riddles4b
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Last riddle! Here is it!
+      pl: Okej! Ostatnia zagadka! Oto ona!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85906febac4b39096afe
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 74
+      sekcja_skryptu: riddles4b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Metal thing with little teeth! In a hole will turning round, entrance to my house is found! Where is it?
+      pl: Metalowa rzecz z małymi zębami! W dziurze się obracać, wejście do mego domu otwierać! Gdzie to jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc1e7660c08664027628
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 75
+      sekcja_skryptu: riddles4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Under your welcome mat?
+      pl: Pod twoją wycieraczką?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keywrong
+    wpisy:
+    - id: wol_96bde4928acfeee5e6fc
+      kontekst: data.json:scripts.goblin1_guard.keywrong
+      linia: 77
+      sekcja_skryptu: keywrong
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No! Did looking there already!
+      pl: Nie! Już tam patrzeć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_106d78b5a885f7b263b4
+      kontekst: data.json:scripts.goblin1_guard.keywrong
+      linia: 79
+      sekcja_skryptu: keywrong
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away in shame
+      pl: Odejdź z wstydem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles4b
+    wpisy:
+    - id: wol_5bc5e99374793d14486f
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 80
+      sekcja_skryptu: riddles4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: In your vest pocket?
+      pl: W kieszeni kamizelki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed43ceaac480d3181e0b
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 81
+      sekcja_skryptu: riddles4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: In your hat?
+      pl: W kapeluszu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce8a3407c1f1b73c2a32
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 82
+      sekcja_skryptu: riddles4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: An egg?
+      pl: Jajko?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c9cc1473df1af65b20f
+      kontekst: data.json:scripts.goblin1_guard.riddles4b
+      linia: 83
+      sekcja_skryptu: riddles4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have it. Here.
+      pl: Mam to. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles5
+    wpisy:
+    - id: wol_5ce4fac5fa03538997c0
+      kontekst: data.json:scripts.goblin1_guard.riddles5
+      linia: 85
+      sekcja_skryptu: riddles5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yay! You solving it! You winning riddling contest for sure!
+      pl: Hurra! Ty rozwiązujesz! Ty na pewno wygrywasz konkurs zagadek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_02afdcdb99952379ac92
+      kontekst: data.json:scripts.goblin1_guard.riddles5
+      linia: 87
+      sekcja_skryptu: riddles5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, you can dynamite having. Don't eating it all at once!
+      pl: Proszę, możesz mieć dynamit. Nie zjadać całego naraz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f2b45af02b38e69c5cd
+      kontekst: data.json:scripts.goblin1_guard.riddles5
+      linia: 88
+      sekcja_skryptu: riddles5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the dynamite and your leave
+      pl: Weź dynamit i wynoś się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles2b
+    wpisy:
+    - id: wol_ca38c9b8d1bda9a6c86b
+      kontekst: data.json:scripts.goblin1_guard.riddles2b
+      linia: 89
+      sekcja_skryptu: riddles2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A snake.
+      pl: Wąż.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wrongsnake
+    wpisy:
+    - id: wol_e79e31a9aa4f31acb646
+      kontekst: data.json:scripts.goblin1_guard.wrongsnake
+      linia: 91
+      sekcja_skryptu: wrongsnake
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope! This answer is no good!
+      pl: Nie! Ta odpowiedź jest zła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6da685862392aecc3f08
+      kontekst: data.json:scripts.goblin1_guard.wrongsnake
+      linia: 92
+      sekcja_skryptu: wrongsnake
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What? But a snake doesn't have any legs.
+      pl: Co? Ale wąż nie ma nóg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_423679652babecaa8776
+      kontekst: data.json:scripts.goblin1_guard.wrongsnake
+      linia: 93
+      sekcja_skryptu: wrongsnake
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wrong! A snake having ONE legs!
+      pl: Źle! Wąż z jedną nogą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_106d78b5a885f7b263b4
+      kontekst: data.json:scripts.goblin1_guard.wrongsnake
+      linia: 95
+      sekcja_skryptu: wrongsnake
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away in shame
+      pl: Odejdź z wstydem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddlesagain2
+    wpisy:
+    - id: wol_ac8551a55f1b50701e8a
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain2
+      linia: 96
+      sekcja_skryptu: riddlesagain2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'd liking to trying the riddle again.
+      pl: Ja chcieć próbować zagadka jeszcze raz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_935f4061fb96c4a029fc
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain2
+      linia: 97
+      sekcja_skryptu: riddlesagain2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Ready?
+      pl: Dobra! Gotowy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5205e3ee55726572dda4
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain2
+      linia: 98
+      sekcja_skryptu: riddlesagain2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ready!
+      pl: Gotowe!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddlesagain3
+    wpisy:
+    - id: wol_ac8551a55f1b50701e8a
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain3
+      linia: 99
+      sekcja_skryptu: riddlesagain3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'd liking to trying the riddle again.
+      pl: Ja chcieć próbować zagadka jeszcze raz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_935f4061fb96c4a029fc
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain3
+      linia: 100
+      sekcja_skryptu: riddlesagain3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay! Ready?
+      pl: Dobra! Gotowy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5205e3ee55726572dda4
+      kontekst: data.json:scripts.goblin1_guard.riddlesagain3
+      linia: 101
+      sekcja_skryptu: riddlesagain3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ready!
+      pl: Gotowe!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: garystart
+    wpisy:
+    - id: wol_82efe424a16221dcd19d
+      kontekst: data.json:scripts.goblin1_guard.garystart
+      linia: 102
+      sekcja_skryptu: garystart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary taps you on the shoulder.
+      pl: Gary klepie cię po ramieniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8283264105c6f8e8b57c
+      kontekst: data.json:scripts.goblin1_guard.garystart
+      linia: 103
+      sekcja_skryptu: garystart
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's up, Gary?
+      pl: Co słychać, Gary?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: friends
+    wpisy:
+    - id: wol_08cd7294b9e56857a248
+      kontekst: data.json:scripts.goblin1_guard.friends
+      linia: 105
+      sekcja_skryptu: friends
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Is okay! I will handling this!
+      pl: Jest okej! Ja to ogarniam!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_175633d551146e3a7073
+      kontekst: data.json:scripts.goblin1_guard.friends
+      linia: 106
+      sekcja_skryptu: friends
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary and the mayor converse for a bit, too quickly for you to follow what they're saying.
+      pl: Gary i burmistrz rozmawiają chwilę zbyt szybko, żebyś nadążył za tym, co mówią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_15b4ed69680c3df06715
+      kontekst: data.json:scripts.goblin1_guard.friends
+      linia: 107
+      sekcja_skryptu: friends
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What did he say?
+      pl: Co powiedział?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles
+    wpisy:
+    - id: wol_f01c2bf8ab708099bb79
+      kontekst: data.json:scripts.goblin1_guard.riddles
+      linia: 109
+      sekcja_skryptu: riddles
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: He is saying okay for giving dynamite, boom! But you having to riddling first.
+      pl: On mówi okej za dynamit, bum! Ale ty musisz najpierw zagadkować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7c0a723932cd9f2380a
+      kontekst: data.json:scripts.goblin1_guard.riddles
+      linia: 110
+      sekcja_skryptu: riddles
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Riddling?
+      pl: Zagadki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29afcf2a1c04a33a8e73
+      kontekst: data.json:scripts.goblin1_guard.riddles
+      linia: 111
+      sekcja_skryptu: riddles
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Yes! Yes yes! A contest game!
+      pl: Tak! Tak tak! Gra konkursowa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d41eeed7389ee360f8cf
+      kontekst: data.json:scripts.goblin1_guard.riddles
+      linia: 112
+      sekcja_skryptu: riddles
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay...  Let's having it.
+      pl: Okej... No to dawaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles2
+    wpisy:
+    - id: wol_2c80f84dc476f3421a2c
+      kontekst: data.json:scripts.goblin1_guard.riddles2
+      linia: 114
+      sekcja_skryptu: riddles2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mayor clears their throat.
+      pl: Burmistrz odchrząkuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e6d6ba733eab9df73087
+      kontekst: data.json:scripts.goblin1_guard.riddles2
+      linia: 115
+      sekcja_skryptu: riddles2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: A crazy thing! Having no legs at morning, and no legs after noon, and also no legs having at night! What is that?
+      pl: Szalone coś! Rano bez nóg, po południu bez nóg, a wieczorem też bez nóg! Co to takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9bcf4e5050810c0c1f43
+      kontekst: data.json:scripts.goblin1_guard.riddles2
+      linia: 116
+      sekcja_skryptu: riddles2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You glance at Gary.
+      pl: Rzucasz okiem na Gary'ego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3d4f9bc4867fe3aa81e
+      kontekst: data.json:scripts.goblin1_guard.riddles2
+      linia: 117
+      sekcja_skryptu: riddles2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey! Gary not helping! That would being cheating! Bad! Bad!
+      pl: Hej! Gary nie pomaga! To by było oszukiwanie! Złe! Złe!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles
+    wpisy:
+    - id: wol_67d52531753225320724
+      kontekst: data.json:scripts.goblin1_guard.riddles
+      linia: 118
+      sekcja_skryptu: riddles
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let's come back later.
+      pl: Wrócimy później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_ff5c7b531a11684f27b0
+      kontekst: data.json:scripts.goblin1_guard.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reduced that tophatted goblin to a pile of very fancy mushrooms.  The gulch is your oyster now!
+      pl: Zredukowałeś goblina w cylinderze do sterty bardzo eleganckich grzybów. Wąwóz należy do ciebie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_be96aeae2f05ba9e255a
+      kontekst: data.json:scripts.goblin1_guard.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got the crap beaten out of you by a goblin in a fancy tophat.
+      pl: Goblin w eleganckim cylinderze solidnie cię obił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1570
+  skrypt: goblin1_guard1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6bfab3671c1b69ef16bd
+      kontekst: data.json:scripts.goblin1_guard1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is paying more attention to their book ("Goblet") than to you, but you're pretty sure you aren't gonna just be waltzing on by.
+      pl: Ten goblin bardziej skupia się na swojej książce („Goblet”) niż na tobie, ale raczej nie przejdziesz tak po prostu obok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_432ae2272551991189db
+      kontekst: data.json:scripts.goblin1_guard1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Spoil the ending
+      pl: Zdradź zakończenie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trick
+    wpisy:
+    - id: wol_021065fbaf4b80064544
+      kontekst: data.json:scripts.goblin1_guard1.trick
+      linia: 4
+      sekcja_skryptu: trick
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey! Goblet! Good book! What thinking about how Goratio is only surviving one at the end? Everyone else dying! Poisoning, swording! Pow! Blam!
+      pl: Hej! Goblet! Dobra książka! Co myśleć o tym, że Goratio być jedynym żywym na końcu? Wszyscy inni umierać! Trucie, mieczowanie! Bum! Łup!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6922b11031bd758efff3
+      kontekst: data.json:scripts.goblin1_guard1.trick
+      linia: 5
+      sekcja_skryptu: trick
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Agh! No! Wow! Spoilers!
+      pl: Ach! Nie! Rany! Spoilery!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26d9285321fbd776c5a6
+      kontekst: data.json:scripts.goblin1_guard1.trick
+      linia: 6
+      sekcja_skryptu: trick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard runs out of the cave with their hands over their ears.
+      pl: Strażnik wybiega z jaskini z dłońmi na uszach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_811e466fa98cd0c98032
+      kontekst: data.json:scripts.goblin1_guard1.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be for now
+      pl: Na razie zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_3688d504a8c2f8e7a386
+      kontekst: data.json:scripts.goblin1_guard1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Guess those goblins should've spent less time standing around here, and more time standing around somewhere else that you didn't want to loot!
+      pl: Wygrałeś! Te gobliny powinny były stać gdzie indziej, skoro tu chciałeś łupić!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ed5b23463f8f812b07fe
+      kontekst: data.json:scripts.goblin1_guard1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblins kick your butt, and then they chuck you out of the cave.
+      pl: Gobliny cię obłupują, a potem wyrzucają z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1571
+  skrypt: goblin1_guard2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8ce2e69088d69b2145e9
+      kontekst: data.json:scripts.goblin1_guard2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin guard is whittling a little wooden bird call, but they're not too busy to beat you up if you try to get past them.
+      pl: Goblin-strażnik struga drewniany gwizdek, ale pobije cię, gdy spróbujesz przejść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35819c1fcd8647201949
+      kontekst: data.json:scripts.goblin1_guard2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b359c41ae0d820f0ff1
+      kontekst: data.json:scripts.goblin1_guard2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try out your new bird call skills
+      pl: Wypróbuj nowe umiejętności naśladowania ptaków
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trick
+    wpisy:
+    - id: wol_d36f8e062f7d78e5c3c5
+      kontekst: data.json:scripts.goblin1_guard2.trick
+      linia: 4
+      sekcja_skryptu: trick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You duck behind a stalagmite and do your great crested grebe impression.
+      pl: Chowasz się za stalagmit i robisz swoją imitację perkozki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98776dab1045cfd1e1bd
+      kontekst: data.json:scripts.goblin1_guard2.trick
+      linia: 5
+      sekcja_skryptu: trick
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Gasp! A great crested grebe! Wow!
+      pl: Och! Uch! Perkoz dwuczuby! Łał!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95e3af779606024fe333
+      kontekst: data.json:scripts.goblin1_guard2.trick
+      linia: 6
+      sekcja_skryptu: trick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard pulls a pair of binoculars out of his uniform and runs out of the cave.
+      pl: Strażnik wyciąga lornetkę z munduru i wybiega z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_811e466fa98cd0c98032
+      kontekst: data.json:scripts.goblin1_guard2.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be for now
+      pl: Na razie zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_3688d504a8c2f8e7a386
+      kontekst: data.json:scripts.goblin1_guard2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! Guess those goblins should've spent less time standing around here, and more time standing around somewhere else that you didn't want to loot!
+      pl: Wygrałeś! Te gobliny powinny były stać gdzie indziej, skoro tu chciałeś łupić!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ed5b23463f8f812b07fe
+      kontekst: data.json:scripts.goblin1_guard2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblins kick your butt, and then they chuck you out of the cave.
+      pl: Gobliny cię obłupują, a potem wyrzucają z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1572
+  skrypt: goblin1_guard3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_79dc051607c846ab0839
+      kontekst: data.json:scripts.goblin1_guard3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unlike the other two guards, this one is being very attentive, and seems very suspicious of you. Also unlike the other two guards, they have a nametag that says "Gene".
+      pl: W przeciwieństwie do dwóch innych strażników, ten jest bardzo czujny i bardzo cię podejrzewa. Ma też identyfikator „Gene”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35819c1fcd8647201949
+      kontekst: data.json:scripts.goblin1_guard3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57c18483d38dba89ab82
+      kontekst: data.json:scripts.goblin1_guard3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Remind them about their café shift
+      pl: Przypomnij im o zmianie w kawiarni
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trick
+    wpisy:
+    - id: wol_c3de6570ecda1a5b7dc4
+      kontekst: data.json:scripts.goblin1_guard3.trick
+      linia: 4
+      sekcja_skryptu: trick
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey! Gene! You supposing working at café today! You forgetting?
+      pl: Hej! Gene! Ty mieć dziś pracować w kawiarni! Zapominać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c59ce7051abac6632bbd
+      kontekst: data.json:scripts.goblin1_guard3.trick
+      linia: 5
+      sekcja_skryptu: trick
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Wow! Oh no!
+      pl: Och! Łał! O nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a801fa9cfa81ef2c0ee8
+      kontekst: data.json:scripts.goblin1_guard3.trick
+      linia: 6
+      sekcja_skryptu: trick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin quickly takes off their guard uniform and puts on a café uniform, and races out of the cave.
+      pl: Goblin szybko zdejmuje mundur strażnika, zakłada mundurek kawiarniany i wybiega z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_9e0c0bc08913b27cd0ce
+      kontekst: data.json:scripts.goblin1_guard3.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them be for now
+      pl: Na razie zostaw ich w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_a7e0698224f1395bd07c
+      kontekst: data.json:scripts.goblin1_guard3.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won! So much for those guards!
+      pl: Wygrałeś! Koniec z tymi strażnikami!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d00a7ec2a9c5b05d70a9
+      kontekst: data.json:scripts.goblin1_guard3.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. Gene kicks your butt all the way out of the cave.
+      pl: Przegrałeś. Gene wykopuje cię z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1573
+  skrypt: goblin1_house1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_edc7292544d2eaf34349
+      kontekst: data.json:scripts.goblin1_house1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a quiet rustling, as though a single goblin were rummaging through a crate filled with straw.
+      pl: Słyszysz cichy szelest, jakby jeden goblin grzebał w skrzyni pełnej siana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ca430a6af097192eef4
+      kontekst: data.json:scripts.goblin1_house1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in and beat the straw out of it [Fight]
+      pl: Wejdź i wytrzep z tego słomę [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_d055b8f636ec30e158f3
+      kontekst: data.json:scripts.goblin1_house1.empty
+      linia: 4
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This building didn't have anything interesting in it.
+      pl: W budynku nie było nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_590e6c88c7a2bb53beaa
+      kontekst: data.json:scripts.goblin1_house1.empty
+      linia: 5
+      sekcja_skryptu: empty
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah.
+      pl: A tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_f3f3082fabbf952d9d7b
+      kontekst: data.json:scripts.goblin1_house1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You made that trigger-happy goblin trigger-sad instead.
+      pl: Sprawiłeś, że ten goblin od spustu stał się goblinem od smutku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_77e0272a785afe0b7b2c
+      kontekst: data.json:scripts.goblin1_house1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig through the crates the goblin was rummaging through, but there's nothing interesting in any of them.
+      pl: Przeszukujesz skrzynie, w których grzebał goblin, ale w żadnej nie ma nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_cd50a0089b4377f683d5
+      kontekst: data.json:scripts.goblin1_house1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're never gonna get the stuff in that crate if you keep getting the crate kicked out of you.
+      pl: Nigdy nie dostaniesz rzeczy ze skrzyni, jeśli ci ciągle wykopują skrzynię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1574
+  skrypt: goblin1_house2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a2f3a91e2361814aaa19
+      kontekst: data.json:scripts.goblin1_house2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You listen at the door. It's quiet inside.
+      pl: Podsłuchujesz przy drzwiach. W środku cicho.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_18dc5ced1137bab3563c
+      kontekst: data.json:scripts.goblin1_house2.goin
+      linia: 3
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shack is filled with crude bookshelves. The bookshelves, in turn, are filled with crude books.
+      pl: Chatka pełna prostych półek. Półki pełne prostych książek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c608b7a3515b3692b2bd
+      kontekst: data.json:scripts.goblin1_house2.goin
+      linia: 4
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read one at random
+      pl: Przeczytaj losowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: readone
+    wpisy:
+    - id: wol_142d480872013d35793c
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 5
+      sekcja_skryptu: readone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a book entitled %goblin_phrase%
+      pl: Podnosisz książkę zatytułowaną %goblin_phrase%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%goblin_phrase%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17c56d96efcc7a9f782d
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 6
+      sekcja_skryptu: readone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You flip to a random page, which reads:'
+      pl: 'Otwierasz losową stronę, na której jest:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_372cdf543a9424d68bbb
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 7
+      sekcja_skryptu: readone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%goblin_sentence% %goblin_sentence% %goblin_sentence% %goblin_sentence% %goblin_sentence%"'
+      pl: '"%goblin_sentence% %goblin_sentence% %goblin_sentence% %goblin_sentence% %goblin_sentence%"'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%goblin_sentence%'
+      - '%goblin_sentence%'
+      - '%goblin_sentence%'
+      - '%goblin_sentence%'
+      - '%goblin_sentence%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5651f22bfc2eb35128ab
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 8
+      sekcja_skryptu: readone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't say you get much out of it.
+      pl: Nie powiesz, że dużo z tego masz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f738c070723947ae496
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 9
+      sekcja_skryptu: readone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: '"Read" something else'
+      pl: „Przeczytaj” coś innego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_939f7871d454b3603422
+      kontekst: data.json:scripts.goblin1_house2.menu
+      linia: 12
+      sekcja_skryptu: menu
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Three titles catch your attention:'
+      pl: 'Trzy tytuły przyciągają uwagę:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_207c0bb183475bc00bb0
+      kontekst: data.json:scripts.goblin1_house2.menu
+      linia: 13
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: So Very Complicated Numbers
+      pl: Bardzo Skomplikowane Liczby
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1
+    wpisy:
+    - id: wol_61ed80dc45b6c6aeec42
+      kontekst: data.json:scripts.goblin1_house2.book1
+      linia: 14
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All you can tell about this book is that it concerns extremely high-level mathematics. You don't have the vocabulary to understand any of it, and probably still wouldn't if it was written in English. Your brother would probably love it.
+      pl: Jedyne, co wiesz o tej książce, to że dotyczy matematyki na bardzo wysokim poziomie. Nie masz słownictwa, żeby cokolwiek zrozumieć, i pewnie nadal byś nie zrozumiał, nawet gdyby była po angielsku. Twój brat pewnie by ją uwielbiał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2002b0c4b3552aefad80
+      kontekst: data.json:scripts.goblin1_house2.book1
+      linia: 15
+      sekcja_skryptu: book1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Browse more
+      pl: Przeglądaj więcej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_042b8d389bf769f3afdc
+      kontekst: data.json:scripts.goblin1_house2.menu
+      linia: 17
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: How To Bird Noise
+      pl: Jak Robić Ptasi Dźwięk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: wol_53364ae3bcc9adcd40ec
+      kontekst: data.json:scripts.goblin1_house2.book2
+      linia: 18
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This book is an extremely detailed treatise on the sounds that different birds make. You probably wouldn't expect to learn how to do an accurate great crested grebe impression from a book, but that's how detailed it is.
+      pl: Bardzo szczegółowy traktat o dźwiękach ptaków. Nie spodziewałbyś się nauczyć się naśladować perkozę z książki — a jednak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2002b0c4b3552aefad80
+      kontekst: data.json:scripts.goblin1_house2.book2
+      linia: 19
+      sekcja_skryptu: book2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Browse more
+      pl: Przeglądaj więcej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_6a939aef16092f9c283f
+      kontekst: data.json:scripts.goblin1_house2.menu
+      linia: 21
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alice Going Into a Seeing Glass
+      pl: Alice wchodząca w zwierciadło
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3
+    wpisy:
+    - id: wol_5bad1577e30ab6b8efaa
+      kontekst: data.json:scripts.goblin1_house2.book3
+      linia: 22
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This popular children''s novel has been translated into Goblin. "Jabberwocky" still reads pretty much the same: "Oh! It brillig being and toves of slithing did in a wabe gyring and also gimboling!"'
+      pl: 'Ta popularna powieść dla dzieci została przetłumaczona na goblini. „Jabberwocky” brzmi mniej więcej tak samo: „Oh! It brillig being and toves of slithing did in a wabe gyring and also gimboling!”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2002b0c4b3552aefad80
+      kontekst: data.json:scripts.goblin1_house2.book3
+      linia: 23
+      sekcja_skryptu: book3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Browse more
+      pl: Przeglądaj więcej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_60f91f3a66717ad58d31
+      kontekst: data.json:scripts.goblin1_house2.menu
+      linia: 25
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop browsing
+      pl: Przestań przeglądać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1575
+  skrypt: goblin1_house3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2953230ec21fa3a74e49
+      kontekst: data.json:scripts.goblin1_house3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You listen at the door, but don't hear anything.
+      pl: Podsłuchujesz przy drzwiach, ale nic nie słyszysz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16bc55bb66c74cf1f190
+      kontekst: data.json:scripts.goblin1_house3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check out the inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_5a96c754e84fb8ffb147
+      kontekst: data.json:scripts.goblin1_house3.goin
+      linia: 3
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rats, looks like the door is locked.
+      pl: Szlag, wygląda na to, że drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_181a5c78af5bd5a77bea
+      kontekst: data.json:scripts.goblin1_house3.picklock
+      linia: 5
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make short work of the lock.
+      pl: Szybko otwierasz zamek.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin2
+    wpisy:
+    - id: wol_a63558bc30d3aebe1de6
+      kontekst: data.json:scripts.goblin1_house3.goin2
+      linia: 7
+      sekcja_skryptu: goin2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You enter what turns out to be a delicatessen, and help yourself to what turn out to be sandwiches. Probably.
+      pl: Wchodzisz do czegoś, co okazuje się delikatesem, i bierzesz to, co okazuje się kanapkami. Prawdopodobnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_08cb82ca1922c5fcec84
+      kontekst: data.json:scripts.goblin1_house3.empty
+      linia: 13
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already raided this deli.
+      pl: Już splądrowałeś ten deli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1576
+  skrypt: goblin1_house4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_eb2496ccae957db88fed
+      kontekst: data.json:scripts.goblin1_house4.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no sound coming from inside.
+      pl: Ze środka nie dochodzi żaden dźwięk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_108bdd121f02bd7551b2
+      kontekst: data.json:scripts.goblin1_house4.goin
+      linia: 3
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shack is filled with thousands of tiny cabinets, each labeled with a number in Goblin.
+      pl: Chatka pełna tysięcy malutkich szafek, każda z numerem po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9f2e6fbd93d7039381e
+      kontekst: data.json:scripts.goblin1_house4.goin
+      linia: 4
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shack is filled with thousands of tiny cabinets, each labeled with some nonsensical glyphs.
+      pl: Chatka pełna tysięcy malutkich szafek z bezsensownymi glifami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_64b44557ce95be70243d
+      kontekst: data.json:scripts.goblin1_house4.menu
+      linia: 5
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Look in drawer #69105'
+      pl: Zajrzyj do szuflady nr 69105
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getkey
+    wpisy:
+    - id: wol_6f0e9e9c35f9cf10c351
+      kontekst: data.json:scripts.goblin1_house4.getkey
+      linia: 6
+      sekcja_skryptu: getkey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no key (or anything else) to be found in this drawer.
+      pl: W tej szufladzie nie ma klucza (ani niczego innego).
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e7b9f73bf57610bb891b
+      kontekst: data.json:scripts.goblin1_house4.getkey
+      linia: 7
+      sekcja_skryptu: getkey
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep digging around
+      pl: Grzeb dalej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_968d5717ac56d6596bd3
+      kontekst: data.json:scripts.goblin1_house4.menu
+      linia: 9
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look in a random drawer
+      pl: Zajrzyj do losowej szuflady
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rand1
+    wpisy:
+    - id: wol_f7a7c3b3a8440597f1f2
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 10
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing in the drawer, but you find an old lollipop stuck to the bottom of the drawer above it.
+      pl: Szuflada pusta, ale na spodzie szuflady nad nią przyklejony stary lizak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_db59160eb294e1aa53e8
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 11
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This drawer has a sandwich in it.  It must've been filed under sandwich.
+      pl: W szufladzie kanapka. Musiała być zapisana jako kanapka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3bdaed373dd3d1a120c
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 12
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This one contains a rolled-up pair of terrible pants.
+      pl: Ten zawiera zwiniętą parę okropnych spodni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_325a58d24dbdbf5cf5ef
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 13
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't find anything else interesting.
+      pl: Nie znajdujesz nic więcej ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 14
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 15
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 16
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 17
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c996e7afd70193569cd
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 18
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wait, what's this?  Nope, nothing, false alarm.
+      pl: Czekaj, co to jest? Nie, nic, fałszywy alarm.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 19
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 20
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 21
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 22
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2c32e6cba2c7e69376
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 23
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Still nothing.
+      pl: Wciąż nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9bc0eb4804cb401a4d3d
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 24
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Eureka!
+      pl: Eureka!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0396be7f5f06413b4885
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 25
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's definitely the last one.
+      pl: To na pewno ostatnia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98f66704b7cccb02a0e8
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 26
+      sekcja_skryptu: rand1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I mean it.  There's nothing left in here.
+      pl: Mówię serio. Tu już nic nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_127e00c2743fdc59b025
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 27
+      sekcja_skryptu: rand1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep looking
+      pl: Szukaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a20d589259d5cea77340
+      kontekst: data.json:scripts.goblin1_house4.rand1
+      linia: 28
+      sekcja_skryptu: rand1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Quit looking
+      pl: Przestań się rozglądać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_fb9bea31f812ceb08766
+      kontekst: data.json:scripts.goblin1_house4.menu
+      linia: 29
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look in a more random drawer
+      pl: Zajrzyj do bardziej losowej szuflady
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1f7eb274ceadd11ca76a
+      kontekst: data.json:scripts.goblin1_house4.menu
+      linia: 30
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look in an even randomer drawer
+      pl: Zajrzyj do jeszcze bardziej losowej szuflady
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_721787f1903ad2e407e1
+      kontekst: data.json:scripts.goblin1_house4.menu
+      linia: 31
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop looking
+      pl: Przestań patrzeć
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1577
+  skrypt: goblin1_house5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_afd69df8732e0893af84
+      kontekst: data.json:scripts.goblin1_house5.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a couple of goblins rustling around in there.  Sounds like they're doing something really important!
+      pl: Słyszysz parę goblinów grzebiących w środku. Brzmi, jakby robili coś naprawdę ważnego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96f358fbdb6a687902a5
+      kontekst: data.json:scripts.goblin1_house5.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Interrupt them [Fight]
+      pl: Przerwij im [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e5a3cfcf4cb0bea77bfc
+      kontekst: data.json:scripts.goblin1_house5.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ignore it and move on
+      pl: Zignoruj to i idź dalej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadydone
+    wpisy:
+    - id: wol_be7b9dea055002f40f80
+      kontekst: data.json:scripts.goblin1_house5.alreadydone
+      linia: 4
+      sekcja_skryptu: alreadydone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already cleared out this useless building.
+      pl: Już oczyściłeś ten bezużyteczny budynek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_725c52871393adb81c8e
+      kontekst: data.json:scripts.goblin1_house5.alreadydone
+      linia: 5
+      sekcja_skryptu: alreadydone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah.  I'm still mad about that.
+      pl: A tak. Wciąż mnie to wkurza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_a841b4e24416081af2d8
+      kontekst: data.json:scripts.goblin1_house5.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gave those fishmongering goblins whatfor!
+      pl: Dałeś tym goblinom-handlarzom ryb nauczkę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f7f569ae35c1904c8ad
+      kontekst: data.json:scripts.goblin1_house5.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look around the building, but it turns out to just be filled with rotting fish.
+      pl: Rozglądasz się po budynku, ale okazuje się, że jest po prostu pełen gnijącej ryby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_1c3af17dd3ddaf8a0960
+      kontekst: data.json:scripts.goblin1_house5.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're beaten half to death, and to add insult to injury, you smell like fish.
+      pl: Jesteś pobity na pół śmierci, a do urazy dochodzi jeszcze zapach ryb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rats
+    wpisy:
+    - id: wol_05c91ff6bd561e38752d
+      kontekst: data.json:scripts.goblin1_house5.rats
+      linia: 5
+      sekcja_skryptu: rats
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, not rats.  Fish.
+      pl: Nie, nie szczury. Ryby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1578
+  skrypt: goblin1_house6
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b11b3bcdf249c424b53f
+      kontekst: data.json:scripts.goblin1_house6.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't hear anything inside here.
+      pl: Nic tu w środku nie słychać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_5514d04ca2fbf73374e8
+      kontekst: data.json:scripts.goblin1_house6.goin
+      linia: 3
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shack contains a bed and a desk.
+      pl: Chatka ma łóżko i biurko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f5bc6104f35307ee80f
+      kontekst: data.json:scripts.goblin1_house6.goin
+      linia: 4
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate the bed
+      pl: Zbadaj łóżko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bed
+    wpisy:
+    - id: wol_723d00995a9eeecfae3e
+      kontekst: data.json:scripts.goblin1_house6.bed
+      linia: 5
+      sekcja_skryptu: bed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's made of cactus logs, with a blanket made of woven-together cactus needles.  That can't be comfortable.
+      pl: Zrobiony z kaktusowych kłód, z kocem utkanym z połączonych kaktusowych igieł. To nie może być wygodne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6566faa198e8967dbace
+      kontekst: data.json:scripts.goblin1_house6.bed
+      linia: 6
+      sekcja_skryptu: bed
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check out the desk
+      pl: Przejrzyj biurko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desk
+    wpisy:
+    - id: wol_5431431e838ba23aa6ac
+      kontekst: data.json:scripts.goblin1_house6.desk
+      linia: 7
+      sekcja_skryptu: desk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The desk is strewn with folders.  You notice one that says "IMPORTANT SECRETS" on it.
+      pl: Biurko usiane teczkami. Zauważasz jedną z napisem „IMPORTANT SECRETS”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_263d056a11bee0de8ff2
+      kontekst: data.json:scripts.goblin1_house6.desk
+      linia: 8
+      sekcja_skryptu: desk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The desk is strewn with folders, all labeled in those nonsense goblin words.
+      pl: Biurko usiane teczkami, wszystkie opisane tymi bezsensownymi goblinimi słowami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4bd2b1ba502b1fee69bc
+      kontekst: data.json:scripts.goblin1_house6.desk
+      linia: 9
+      sekcja_skryptu: desk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing worth investigating here.
+      pl: Nic tu nie warto badać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29d7e96cf274d158bfde
+      kontekst: data.json:scripts.goblin1_house6.desk
+      linia: 10
+      sekcja_skryptu: desk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read the important secrets.
+      pl: Przeczytaj ważne sekrety.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: readit
+    wpisy:
+    - id: wol_bed8f5540872497e6d7d
+      kontekst: data.json:scripts.goblin1_house6.readit
+      linia: 11
+      sekcja_skryptu: readit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You learn a variety of secrets, though the only one that's actually pertinent to your circumstances is that there's a spare key to the treasure cave in drawer 69105 in the storage hut.
+      pl: Uczysz się wielu sekretów, choć jedyny istotny dla twojej sytuacji mówi, że zapasowy klucz do jaskini skarbów jest w szufladzie 69105 w magazynie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: desk
+    wpisy:
+    - id: wol_89a029b5f4e422648814
+      kontekst: data.json:scripts.goblin1_house6.desk
+      linia: 13
+      sekcja_skryptu: desk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at the bed
+      pl: Spójrz na łóżko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bed
+    wpisy:
+    - id: wol_4ee0ed2089e44b1c9465
+      kontekst: data.json:scripts.goblin1_house6.bed
+      linia: 15
+      sekcja_skryptu: bed
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the shack
+      pl: Opuść barakę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_3b240135f919747066a1
+      kontekst: data.json:scripts.goblin1_house6.goin
+      linia: 16
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate the desk
+      pl: Zbadaj biurko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7520ede5098cb0288d29
+      kontekst: data.json:scripts.goblin1_house6.goin
+      linia: 17
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate the outdoors (by leaving)
+      pl: Zbadaj plener (wychodząc stamtąd)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1579
+  skrypt: goblin1_house7
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c5fa282c2149a26b9e35
+      kontekst: data.json:scripts.goblin1_house7.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear some dramatic-sounding nonsense through the door.
+      pl: Słyszysz przez drzwi jakieś dramatycznie brzmiące bzdury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d18f3924554865ef70ea
+      kontekst: data.json:scripts.goblin1_house7.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You want some drama [Fight]
+      pl: Chcesz trochę dramatu [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_177d246b509c215dfe39
+      kontekst: data.json:scripts.goblin1_house7.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You don't want no drama
+      pl: Nie chcesz dramatu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadydone
+    wpisy:
+    - id: wol_118c3d2fa03d32f51474
+      kontekst: data.json:scripts.goblin1_house7.alreadydone
+      linia: 4
+      sekcja_skryptu: alreadydone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already done everything you can do here.
+      pl: Już zrobiłeś tu wszystko, co można.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87cfcdbaf90e9dedbefe
+      kontekst: data.json:scripts.goblin1_house7.alreadydone
+      linia: 5
+      sekcja_skryptu: alreadydone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh okay
+      pl: O, okej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: speakstart
+    wpisy:
+    - id: wol_e99e813513f203b75b17
+      kontekst: data.json:scripts.goblin1_house7.speakstart
+      linia: 6
+      sekcja_skryptu: speakstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press your ear to the door and hear somebody delivering what sound like lines from Hamlet, except in Goblintongue.
+      pl: Przykładasz ucho do drzwi i słyszysz kogoś recytującego coś jak kwestie z Hamleta, tylko po Goblintongue.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c1adfa08ba83325a286
+      kontekst: data.json:scripts.goblin1_house7.speakstart
+      linia: 7
+      sekcja_skryptu: speakstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: From this vantage point, you also notice a sign next to the door reading "Backstage Entrance Here It Being!" with an arrow pointing to the back of the building.
+      pl: Z tego punktu widzenia zauważasz też tabliczkę przy drzwiach z napisem „Wejście kulisowe tu być!” i strzałką w stronę tyłu budynku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69e99dde61efc55d97bd
+      kontekst: data.json:scripts.goblin1_house7.speakstart
+      linia: 8
+      sekcja_skryptu: speakstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in and break a leg [Fight]
+      pl: Wejdź i połam mu nogę [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8eabdcd0b9d0a306a45f
+      kontekst: data.json:scripts.goblin1_house7.speakstart
+      linia: 9
+      sekcja_skryptu: speakstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head backstage
+      pl: Idź za kulisy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backstage
+    wpisy:
+    - id: wol_4605130e7a27216bdbf5
+      kontekst: data.json:scripts.goblin1_house7.backstage
+      linia: 10
+      sekcja_skryptu: backstage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sneak backstage and watch the play from behind a curtain. Not only is it a Goblin version of Hamlet, it's also been rewritten as a one-man show.
+      pl: Zakradasz się za kulisy i oglądasz sztukę spoza kurtyny. To nie tylko goblińska wersja Hamleta, ale też przerobiona na one-man show.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6317fe4c744d2dc4e7a
+      kontekst: data.json:scripts.goblin1_house7.backstage
+      linia: 11
+      sekcja_skryptu: backstage
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To being, or to not being? Oh! That is a question! Could it better thinking to suffering a crazy things, and arrows? Or fighting so many bad things for stopping them because fighting? To dying, to sleeping; to sleeping, hey! Dreaming maybe! But! Oh! Problems! If dreaming crazy when living, what dreams having after dying? Wow! Pretty weird probably!
+      pl: Być albo nie być? O! To jest pytanie! Czy lepiej myśleć, by cierpieć szalone rzeczy i strzały? Czy walczyć z wieloma złymi rzeczami, żeby je zatrzymać, bo walczyć? Umierać, spać; spać, hej! Może śnić! Ale! O! Problemy! Jeśli śnić szaleństwa podczas życia, jakie sny mieć po śmierci? Wow! Pewnie bardzo dziwne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: back2
+    wpisy:
+    - id: wol_9f94d431f95130760243
+      kontekst: data.json:scripts.goblin1_house7.back2
+      linia: 13
+      sekcja_skryptu: back2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You watch for a while. The bits where the actor has to do a swordfight with themselves are pretty entertaining.
+      pl: Patrzysz chwilę. Fragmenty, gdzie aktor musi pojedynkować się sam ze sobą, są całkiem zabawne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: speakstart
+    wpisy:
+    - id: wol_ebc46c3d9078d75aaa8a
+      kontekst: data.json:scripts.goblin1_house7.speakstart
+      linia: 15
+      sekcja_skryptu: speakstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take off
+      pl: Wynoś się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_0faea0250a1dea63c1df
+      kontekst: data.json:scripts.goblin1_house7.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You close the curtains on the goblin's final performance.
+      pl: Zasuwasz kurtynę na ostatnim występie goblina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_a58774fef70c0f532e67
+      kontekst: data.json:scripts.goblin1_house7.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You were dramatically outclassed by that goblin.
+      pl: Ten goblin dramatycznie cię przewyższył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_2cbf5a8985919464442a
+      kontekst: data.json:scripts.goblin1_house7.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alas, poor me
+      pl: Biada, nieszczęsny ja
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1580
+  skrypt: goblin1_house8
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2953230ec21fa3a74e49
+      kontekst: data.json:scripts.goblin1_house8.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You listen at the door, but don't hear anything.
+      pl: Podsłuchujesz przy drzwiach, ale nic nie słyszysz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16bc55bb66c74cf1f190
+      kontekst: data.json:scripts.goblin1_house8.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check out the inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_f665ea57c878aff8bfe2
+      kontekst: data.json:scripts.goblin1_house8.goin
+      linia: 3
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like the door is locked. Dangit.
+      pl: Wygląda na to, że drzwi są zamknięte. Cholera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_181a5c78af5bd5a77bea
+      kontekst: data.json:scripts.goblin1_house8.picklock
+      linia: 5
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make short work of the lock.
+      pl: Szybko otwierasz zamek.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin2
+    wpisy:
+    - id: wol_7d3eff3d0dd8fb65852d
+      kontekst: data.json:scripts.goblin1_house8.goin2
+      linia: 7
+      sekcja_skryptu: goin2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You enter what turns out to be a café, and reconstruct a few cups of chicory from the leavings in various dirty cups and sinks.
+      pl: Wchodzisz do czegoś, co okazuje się kawiarnią, i rekonstruujesz kilka filiżanek cykorii z resztek w brudnych kubkach i zlewach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_454ba60e66668568b45e
+      kontekst: data.json:scripts.goblin1_house8.goin2
+      linia: 8
+      sekcja_skryptu: goin2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stop to wonder why a café wouldn't be open at this time of day.  You see a schedule posted on the wall and sure enough, it says somebody named Gene is supposed to be working this shift.
+      pl: Zatrzymujesz się, zastanawiając, czemu kawiarnia nie jest otwarta o tej porze. Na ścianie widzisz grafik i rzeczywiście, ktoś imieniem Gene ma pracować na tej zmianie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_19944a9f8bd892ac9368
+      kontekst: data.json:scripts.goblin1_house8.goin2
+      linia: 9
+      sekcja_skryptu: goin2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He always was a shiftless layabout, that Gene.
+      pl: Zawsze był leniwym obibokiem, ten Gene.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gene
+    wpisy:
+    - id: wol_37eeb536032be01cfebb
+      kontekst: data.json:scripts.goblin1_house8.gene
+      linia: 15
+      sekcja_skryptu: gene
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You enter the café, where Gene is begrudgingly working the counter.
+      pl: Wchodzisz do kawiarni, gdzie Gene niechętnie stoi za ladą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_535970b26748901b51ea
+      kontekst: data.json:scripts.goblin1_house8.gene
+      linia: 16
+      sekcja_skryptu: gene
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy some chicory [50 Meat]
+      pl: Kup trochę cykorii [50 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[50 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy
+    wpisy:
+    - id: wol_3bfb82ec69fc5ec4ef9f
+      kontekst: data.json:scripts.goblin1_house8.buy
+      linia: 17
+      sekcja_skryptu: buy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat and Gene sighs loudly as he makes you a cup of chicory.
+      pl: Oddajesz Mięso, a Gene głośno wzdycha, robiąc ci filiżankę cykorii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5449b24a7587d8bb8a4a
+      kontekst: data.json:scripts.goblin1_house8.buy
+      linia: 18
+      sekcja_skryptu: buy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Gene
+      pl: Dzięki, Gene
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gene
+    wpisy:
+    - id: wol_535970b26748901b51ea
+      kontekst: data.json:scripts.goblin1_house8.gene
+      linia: 19
+      sekcja_skryptu: gene
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy some chicory [50 Meat]
+      pl: Kup trochę cykorii [50 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[50 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_4c662dbc78c64dcd691a
+      kontekst: data.json:scripts.goblin1_house8.empty
+      linia: 21
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already raided this café.
+      pl: Już splądrowałeś tę kawiarnię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1581
+  skrypt: goblin1_house9
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8874550158a3165ed3f8
+      kontekst: data.json:scripts.goblin1_house9.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a bunch of gruff goblin voices gruffly griping at each other inside.
+      pl: Słyszysz w środku grupę chrapliwych goblinich głosów chrapliwie narzekających na siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f113dd38fd6473efe97
+      kontekst: data.json:scripts.goblin1_house9.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Exterminate them [fungicide bomb]
+      pl: Zlikwiduj je [bomba grzybobójcza]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[fungicide bomb]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bomb
+    wpisy:
+    - id: wol_b7b496a6e0e695df2a4f
+      kontekst: data.json:scripts.goblin1_house9.bomb
+      linia: 3
+      sekcja_skryptu: bomb
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the door a crack and toss the bomb in.  A few minutes later, after the fumes settle, you enter the shack and survey the carnage.
+      pl: Otwierasz drzwi na szczelinę i wrzucasz bombę. Kilka minut później, gdy opadną opary, wchodzisz do chaty i oglądasz rzeź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d29f6f8f098b0c180d70
+      kontekst: data.json:scripts.goblin1_house9.bomb
+      linia: 4
+      sekcja_skryptu: bomb
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a very profitable carnage! Three whole goblins worth of carnage!
+      pl: To bardzo dochodowa rzeź! Cała rzeź z trzech goblinów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_3a932ce913ca5be7dda5
+      kontekst: data.json:scripts.goblin1_house9.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head in guns blazin' [Fight]
+      pl: Wejdź z bronią w ręku [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadydone
+    wpisy:
+    - id: wol_a2491a955c078281a91b
+      kontekst: data.json:scripts.goblin1_house9.alreadydone
+      linia: 8
+      sekcja_skryptu: alreadydone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already dealt with those guys.
+      pl: Już załatwiłeś tych gości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_415b34f318350c9fc72f
+      kontekst: data.json:scripts.goblin1_house9.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You win! That'd show them, if they weren't dead now!
+      pl: Wygrywasz! To im pokaże, gdyby teraz nie byli martwi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d2d57e5bb1cb16381fb0
+      kontekst: data.json:scripts.goblin1_house9.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got the tar beaten out of your stuffing.
+      pl: Wybili z ciebie całą smołę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_93d7deac9f2ce8108733
+      kontekst: data.json:scripts.goblin1_house9.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: And how
+      pl: I to jak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1582
+  skrypt: goblin1_init
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: ruins
+    wpisy:
+    - id: wol_4cf678dce4720d836f1f
+      kontekst: data.json:scripts.goblin1_init.ruins
+      linia: 1
+      sekcja_skryptu: ruins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa, the skeletons from Fort Alldead really did a number on this place!
+      pl: Wow, szkielety z Posterunku Trupów naprawdę zrobiły tu numer!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_208467c8095ea8a9064d
+      kontekst: data.json:scripts.goblin1_init.ruins
+      linia: 2
+      sekcja_skryptu: ruins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You almost feel bad for the gulch goblins.
+      pl: Prawie żal ci goblinów z wąwozu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3d572ddd49469bfc73e6
+      kontekst: data.json:scripts.goblin1_init.ruins
+      linia: 3
+      sekcja_skryptu: ruins
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.  Almost.
+      pl: Ta. Prawie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1583
+  skrypt: goblin1_maptable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_930ee45ef7ae801bd153
+      kontekst: data.json:scripts.goblin1_maptable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This one looks heavy as well as pointy.
+      pl: Ten też wygląda ciężko i naostrzony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: look
+    wpisy:
+    - id: wol_3bd77856c35b3aa9cbd6
+      kontekst: data.json:scripts.goblin1_maptable.look
+      linia: 3
+      sekcja_skryptu: look
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey! Wow! It contains an entire year's supply of dynamite! Nice!
+      pl: Hej! Wow! Jest tam roczny zapas dynamitu! Super!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1584
+  skrypt: goblin1_sign1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bd6ae23d3050390e0953
+      kontekst: data.json:scripts.goblin1_sign1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "NOTHING INTERESTING" in Goblin.
+      pl: Znak mówi „NOTHING INTERESTING” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_83944f66d94324491e3b
+      kontekst: data.json:scripts.goblin1_sign1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign's got some goblin gibberish on it.
+      pl: Znak ma na sobie jakiś goblini bełkot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1585
+  skrypt: goblin1_sign2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_46565ad841850652cd54
+      kontekst: data.json:scripts.goblin1_sign2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "LIBRARY" in Goblin.
+      pl: Znak mówi „LIBRARY” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3211aea365b970a61a58
+      kontekst: data.json:scripts.goblin1_sign2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign's got some nonsense goblin writing on it.
+      pl: Znak ma na sobie jakieś bezsensowne goblinie pismo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1586
+  skrypt: goblin1_sign3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c82d4090c7b0d76b8b98
+      kontekst: data.json:scripts.goblin1_sign3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "DELICATESSEN" in Goblin.
+      pl: Znak mówi „DELICATESSEN” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f99adee2068283199232
+      kontekst: data.json:scripts.goblin1_sign3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign's got some random goblinese scrawlings on it.
+      pl: Znak ma na sobie jakieś przypadkowe goblińskie bazgroły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1587
+  skrypt: goblin1_sign4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0e3438221e36b08c6067
+      kontekst: data.json:scripts.goblin1_sign4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "STORAGE" in Goblin.
+      pl: Znak mówi „STORAGE” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dea9ef001e5294b392bd
+      kontekst: data.json:scripts.goblin1_sign4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Inscrutable goblin writing.
+      pl: Niezrozumiałe goblińskie pismo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1588
+  skrypt: goblin1_sign5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4c0f8296b0e6bc034da7
+      kontekst: data.json:scripts.goblin1_sign5.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "RED HERRING STORAGE" in Goblin.
+      pl: Znak mówi „RED HERRING STORAGE” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_31ab8791a166f97b8792
+      kontekst: data.json:scripts.goblin1_sign5.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nonsense goblin writing.
+      pl: Bełkot goblinów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1589
+  skrypt: goblin1_sign6
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_252f9b9573bfbe571448
+      kontekst: data.json:scripts.goblin1_sign6.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "MAYOR'S HOUSE" in Goblin.
+      pl: Znak mówi „MAYOR'S HOUSE” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7cde74b51b5daaa19bf7
+      kontekst: data.json:scripts.goblin1_sign6.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin gibberish on this sign is in a slightly nicer font than usual.
+      pl: Goblini bełkot na tym znaku jest w nieco ładniejszej czcionce niż zwykle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1590
+  skrypt: goblin1_sign7
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bdcb07d9accf57f55014
+      kontekst: data.json:scripts.goblin1_sign7.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "THEATRE" in Goblin.
+      pl: Znak mówi „THEATRE” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a0c7bc1574e2ef53688
+      kontekst: data.json:scripts.goblin1_sign7.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign's got some goblin gibberish written on it in old-timey letters.
+      pl: Znak ma na sobie jakiś goblini bełkot zapisany staroświeckimi literami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1591
+  skrypt: goblin1_sign8
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4804050a43557b16ea23
+      kontekst: data.json:scripts.goblin1_sign8.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "CAFE" in Goblin.
+      pl: Znak mówi „CAFE” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe360711a29c747068f6
+      kontekst: data.json:scripts.goblin1_sign8.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign's covered in goblin nonsense.
+      pl: Znak pokryty goblinim bełkotem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1592
+  skrypt: goblin1_sign9
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c4c91c21f2fc50aa497b
+      kontekst: data.json:scripts.goblin1_sign9.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "GUARD BARRACKS" in Goblin.
+      pl: Znak mówi „GUARD BARRACKS” po goblinsku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c8796078ade7ce0b2c4
+      kontekst: data.json:scripts.goblin1_sign9.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign is covered in goblin nonsense.
+      pl: Znak pokryty goblinim bełkotem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1593
+  skrypt: goblin1_treasure1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_234d8e478c916303350f
+      kontekst: data.json:scripts.goblin1_treasure1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh! It's a rare and valuable Treasure Chest cactus!
+      pl: O! To rzadki i cenny kaktus-skarb!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1594
+  skrypt: goblin1_treasure2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_17a70d2a4e03f7726605
+      kontekst: data.json:scripts.goblin1_treasure2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Careful! These things are pointy.
+      pl: Ostrożnie! Te rzeczy są ostre.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1595
+  skrypt: goblin1_treasure3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c726ac0d6e4afca86df2
+      kontekst: data.json:scripts.goblin1_treasure3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a cactussy treasure box!
+      pl: To kaktusowa skrzynia ze skarbem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_b19abd02120775aca4e0
+      kontekst: data.json:scripts.goblin1_treasure3.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's full of jewelry!
+      pl: Pełen biżuterii!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1596
+  skrypt: goblin1_treasuredoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6fde7c06e855cec54b08
+      kontekst: data.json:scripts.goblin1_treasuredoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sadly, this door is locked.
+      pl: Niestety, te drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4075207a3b1a91df841
+      kontekst: data.json:scripts.goblin1_treasuredoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [treasure cave spare key]
+      pl: Odblokuj [zapasowy klucz jaskini skarbów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[treasure cave spare key]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_1069edf8171f4c017979
+      kontekst: data.json:scripts.goblin1_treasuredoor.unlock
+      linia: 3
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the door.
+      pl: Otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_4e0bf2c8b888f7d36acf
+      kontekst: data.json:scripts.goblin1_treasuredoor.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [treasure cave key]
+      pl: Odblokuj [klucz jaskini skarbów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[treasure cave key]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000059
+  skrypt: house_coaltergeist
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hasbomb
+    wpisy:
+    - id: wol_67d52531753225320724
+      kontekst: house.json:scripts.house_coaltergeist.hasbomb
+      linia: 28
+      sekcja_skryptu: hasbomb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let's come back later.
+      pl: Wrócimy później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000112
+  skrypt: house_ghost_lawyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: givehat2
+    wpisy:
+    - id: wol_15b4ed69680c3df06715
+      kontekst: house.json:scripts.house_ghost_lawyer.givehat2
+      linia: 308
+      sekcja_skryptu: givehat2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What did he say?
+      pl: Co powiedział?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: keephat
+    wpisy:
+    - id: wol_15b4ed69680c3df06715
+      kontekst: house.json:scripts.house_ghost_lawyer.keephat
+      linia: 327
+      sekcja_skryptu: keephat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What did he say?
+      pl: Co powiedział?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000246
+  skrypt: house_stacks_digin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: newspapers
+    wpisy:
+    - id: wol_127e00c2743fdc59b025
+      kontekst: house.json:scripts.house_stacks_digin.newspapers
+      linia: 12
+      sekcja_skryptu: newspapers
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep looking
+      pl: Szukaj dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1720
+  skrypt: item_necrojournal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 3_1solve
+    wpisy:
+    - id: wol_9bc0eb4804cb401a4d3d
+      kontekst: data.json:scripts.item_necrojournal.3_1solve
+      linia: 26
+      sekcja_skryptu: 3_1solve
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Eureka!
+      pl: Eureka!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1740
+  skrypt: item_rubixcube
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_590e6c88c7a2bb53beaa
+      kontekst: data.json:scripts.item_rubixcube.nope
+      linia: 4
+      sekcja_skryptu: nope
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah.
+      pl: A tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1861
+  skrypt: mine4_top_pile2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: search
+    wpisy:
+    - id: wol_325a58d24dbdbf5cf5ef
+      kontekst: data.json:scripts.mine4_top_pile2.search
+      linia: 3
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't find anything else interesting.
+      pl: Nie znajdujesz nic więcej ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1930
+  skrypt: mine8_cultists1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_2230038d2ab0f2aee73c
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 32
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave
+      pl: Po prostu wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1932
+  skrypt: mine8_cultists2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_2230038d2ab0f2aee73c
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 37
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave
+      pl: Po prostu wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1956
+  skrypt: necrotower_fight3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b4154d92903016aa25c9
+      kontekst: data.json:scripts.necrotower_fight3.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back away
+      pl: Cofnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1965
+  skrypt: necrotower_necromancer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alicestop
+    wpisy:
+    - id: wol_ba5a52ccfa3468ad06c0
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 35
+      sekcja_skryptu: alicestop
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: But--
+      pl: Ale--
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: garye
+    wpisy:
+    - id: wol_8283264105c6f8e8b57c
+      kontekst: data.json:scripts.pardner_talk.garye
+      linia: 127
+      sekcja_skryptu: garye
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's up, Gary?
+      pl: Co słychać, Gary?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: garyh
+    wpisy:
+    - id: wol_8283264105c6f8e8b57c
+      kontekst: data.json:scripts.pardner_talk.garyh
+      linia: 186
+      sekcja_skryptu: garyh
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's up, Gary?
+      pl: Co słychać, Gary?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_1
+    wpisy:
+    - id: wol_590e6c88c7a2bb53beaa
+      kontekst: data.json:scripts.pardner_talk.pete_1
+      linia: 3
+      sekcja_skryptu: pete_1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah.
+      pl: A tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1993
+  skrypt: planarjunction_cantina_bartender
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: jouzudesu
+    wpisy:
+    - id: wol_ba5a52ccfa3468ad06c0
+      kontekst: data.json:scripts.planarjunction_cantina_bartender.jouzudesu
+      linia: 97
+      sekcja_skryptu: jouzudesu
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But--
+      pl: Ale--
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2100
+  skrypt: punland_fairestwheelclerk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: outoftickets
+    wpisy:
+    - id: wol_67d52531753225320724
+      kontekst: data.json:scripts.punland_fairestwheelclerk.outoftickets
+      linia: 83
+      sekcja_skryptu: outoftickets
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let's come back later.
+      pl: Wrócimy później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2137
+  skrypt: puntown_lenora
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5205e3ee55726572dda4
+      kontekst: data.json:scripts.puntown_lenora.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ready!
+      pl: Gotowe!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2254
+  skrypt: ranch5_sifter2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: crank
+    wpisy:
+    - id: wol_2230038d2ab0f2aee73c
+      kontekst: data.json:scripts.ranch5_sifter2.crank
+      linia: 19
+      sekcja_skryptu: crank
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave
+      pl: Po prostu wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2282
+  skrypt: re_banditb1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_35819c1fcd8647201949
+      kontekst: data.json:scripts.re_banditb1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2285
+  skrypt: re_banditc1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b4154d92903016aa25c9
+      kontekst: data.json:scripts.re_banditc1.start
+      linia: 16
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back away
+      pl: Cofnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2288
+  skrypt: re_banditd1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_35819c1fcd8647201949
+      kontekst: data.json:scripts.re_banditd1.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2290
+  skrypt: re_banditd3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_35819c1fcd8647201949
+      kontekst: data.json:scripts.re_banditd3.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2315
+  skrypt: re_cowd1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ee64f2c5ad94198c9971
+      kontekst: data.json:scripts.re_cowd1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack! [Fight]
+      pl: Atak! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2473
+  skrypt: roybean_spittoontalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: two
+    wpisy:
+    - id: wol_b4154d92903016aa25c9
+      kontekst: data.json:scripts.roybean_spittoontalk.two
+      linia: 16
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back away
+      pl: Cofnij się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2595
+  skrypt: train_door1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unlock
+    wpisy:
+    - id: wol_1069edf8171f4c017979
+      kontekst: data.json:scripts.train_door1.unlock
+      linia: 4
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the door.
+      pl: Otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2596
+  skrypt: train_door2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unlock
+    wpisy:
+    - id: wol_1069edf8171f4c017979
+      kontekst: data.json:scripts.train_door2.unlock
+      linia: 3
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the door.
+      pl: Otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2598
+  skrypt: train_door4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unlock
+    wpisy:
+    - id: wol_1069edf8171f4c017979
+      kontekst: data.json:scripts.train_door4.unlock
+      linia: 3
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the door.
+      pl: Otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2716
+  skrypt: tut_mine_hole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: boom
+    wpisy:
+    - id: wol_5205e3ee55726572dda4
+      kontekst: data.json:scripts.tut_mine_hole.boom
+      linia: 6
+      sekcja_skryptu: boom
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ready!
+      pl: Gotowe!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

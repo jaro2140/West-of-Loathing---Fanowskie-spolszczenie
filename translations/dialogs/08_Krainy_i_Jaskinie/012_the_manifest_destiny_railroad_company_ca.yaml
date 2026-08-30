@@ -1,0 +1,1200 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: the_manifest_destiny_railroad_company_ca
+zrodlowy_batch: 095_dialog_loc_railcamp2_the_manifest_destiny_railroad_company_ca.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 6
+liczba_wpisow: 72
+sceny:
+- kolejnosc_w_danych_gry: 2151
+  skrypt: railcamp2_bridgebill
+  pomieszczenie: &id001
+    id: railcamp2
+    nazwa_en: The Manifest Destiny Railroad Company Camp (Canyonside)
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 38
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_f2d4545de0676a624c1a
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 1
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, boss.
+      pl: Witaj, szefie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_67462dcd899ec43aaacc
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 2
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Smee. Stuck again?
+      pl: Witaj, Smee. Znowu utknąłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a528fbf012387c951b3
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 3
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep. Got ourselves one helluva canyon to get across, and no materials for bridge-building.
+      pl: Tak. Mamy jeden piekielny kanion do przejścia, i żadnych materiałów do budowy mostów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7881f2a33e86b1cd009b
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 5
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's an old mine town up north called Breadwood -- they opened a lumber camp after the mines dried up. If you can fix a deal with them for the lumber we need, I can handle the engineering side of things.
+      pl: Na północy jest stare górnicze miasteczko Breadwood. Gdy kopalnie wyschły, otworzyli obóz drwali. Jeśli dogadasz się z nimi w sprawie potrzebnego drewna, ja zajmę się stroną inżynieryjną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_025e615c7ad9dc8a3d85
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 6
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, where is it?
+      pl: Okej, gdzie to jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_aab985c16b6b71c4f694
+      kontekst: data.json:scripts.railcamp2_bridgebill.yes
+      linia: 8
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Smee marks the location of the Breadwood camp on your map.
+      pl: Smee zaznacza na mapie obóz Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_737ff4c4706512aff07d
+      kontekst: data.json:scripts.railcamp2_bridgebill.yes
+      linia: 9
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Course, anything you can find to build a bridge out of is fine by me, but that seems like the simplest option.'
+      pl: No pewnie, wszystko, z czego dałoby się zbudować most, mi pasuje, ale to wygląda na najprostszą opcję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_77adabf040a84da0cbc5
+      kontekst: data.json:scripts.railcamp2_bridgebill.intro
+      linia: 11
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ah, yeah, I know the place.
+      pl: Ach, ta, znam to miejsce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: builtbridge_elv
+    wpisy:
+    - id: wol_5ecb9247f7d24d8fad50
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_elv
+      linia: 12
+      sekcja_skryptu: builtbridge_elv
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't think I trust these new-fangled materials and techniques. Look at the weird lights all over it! Still, I guess if it works it works... and the only method we have to test it is to run a train over it.
+      pl: Nie ufam tym nowomodnym materiałom i technikom. Spójrz tylko na te dziwne światełka! Ale jeśli działa, to chyba działa... a jedyny sposób, żeby to sprawdzić, to przejechać po tym pociągiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7c3ea7ee034ae26f745
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_elv
+      linia: 13
+      sekcja_skryptu: builtbridge_elv
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It'll be fine. I'm pretty sure.
+      pl: Będzie dobrze. Jestem całkiem pewien.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: moveon
+    wpisy:
+    - id: wol_cbb615da3dfbb29a880b
+      kontekst: data.json:scripts.railcamp2_bridgebill.moveon
+      linia: 15
+      sekcja_skryptu: moveon
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now we just have to lay tracks the rest of the way into Frisco and our work is done -- both mine and yours. See you there, Boss!
+      pl: Teraz musimy już tylko ułożyć tory aż do Frisco i nasza robota będzie skończona — zarówno moja, jak i twoja. Do zobaczenia na miejscu, szefie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_acf966d55c8410a5d87b
+      kontekst: data.json:scripts.railcamp2_bridgebill.moveon
+      linia: 16
+      sekcja_skryptu: moveon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Seeya!
+      pl: Na razie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: builtbridge_bones
+    wpisy:
+    - id: wol_8c82e074046573c39a2a
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_bones
+      linia: 17
+      sekcja_skryptu: builtbridge_bones
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, when I signed onto this crew, the last thing I expected to see was a horde of living skeletons swarming up outta nowhere and building a bridge out of themselves.
+      pl: Cóż, kiedy podpisałem się w tej załodze, ostatnią rzeczą, jakiej się spodziewałem, była horda żywych szkieletów, rojących się znikąd i budujących z siebie most.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46d9bbaaae950ec16f10
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_bones
+      linia: 19
+      sekcja_skryptu: builtbridge_bones
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't like it, and I'm pretty sure it's haunted, and I'm pretty sure any train we drive over it is doomed to also be haunted, or cursed, or both.
+      pl: Nie podoba mi się, jestem prawie pewien, że jest nawiedzony, i jestem prawie pewien, że każdy pociąg, który po nim przejedzie, również będzie nawiedzony, przeklęty albo jedno i drugie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b70366ff675ed4f02341
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_bones
+      linia: 20
+      sekcja_skryptu: builtbridge_bones
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw, don't be a scaredy-cat. It's fine.
+      pl: Nie bądź tchórzem. Nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48ac816e632382977953
+      kontekst: data.json:scripts.railcamp2_bridgebill.builtbridge_bones
+      linia: 21
+      sekcja_skryptu: builtbridge_bones
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It does at least seem structurally sound. I guess we haven't got much in the way of choice.
+      pl: Przynajmniej konstrukcja wygląda na solidną. Chyba nie mamy wielkiego wyboru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afterstart
+    wpisy:
+    - id: wol_e02a9b8cffa5fa59e3c0
+      kontekst: data.json:scripts.railcamp2_bridgebill.afterstart
+      linia: 23
+      sekcja_skryptu: afterstart
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, boss. Any luck with this whole bridge situation?
+      pl: Witaj, szefie. Szczęście dopisuje w sprawie mostu?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3c497df79eb7d226a29
+      kontekst: data.json:scripts.railcamp2_bridgebill.afterstart
+      linia: 24
+      sekcja_skryptu: afterstart
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er, not just yet.
+      pl: Er, jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: onebridge
+    wpisy:
+    - id: wol_e02a9b8cffa5fa59e3c0
+      kontekst: data.json:scripts.railcamp2_bridgebill.onebridge
+      linia: 25
+      sekcja_skryptu: onebridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, boss. Any luck with this whole bridge situation?
+      pl: Witaj, szefie. Szczęście dopisuje w sprawie mostu?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87591f1354b32d183f1b
+      kontekst: data.json:scripts.railcamp2_bridgebill.onebridge
+      linia: 26
+      sekcja_skryptu: onebridge
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I may have just the thing.  It's a bit... unconventional, though.
+      pl: Mogę mieć coś w sam raz. Jest tylko trochę... niekonwencjonalne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e55f374495b3457d4cc9
+      kontekst: data.json:scripts.railcamp2_bridgebill.onebridge
+      linia: 28
+      sekcja_skryptu: onebridge
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Let me go take a quick look at the canyon first.
+      pl: Najpierw szybko obejrzę kanion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5bc5c0e394c5c120fd95
+      kontekst: data.json:scripts.railcamp2_bridgebill.onebridge
+      linia: 29
+      sekcja_skryptu: onebridge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head to the telescope
+      pl: Idź do teleskopu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gotlumber
+    wpisy:
+    - id: wol_f9efedf28e8778c6744c
+      kontekst: data.json:scripts.railcamp2_bridgebill.gotlumber
+      linia: 30
+      sekcja_skryptu: gotlumber
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, boss! Good news, we got that lumber shipment in from Breadwood, and we're ready to go!
+      pl: Hej, szefie! Dobre wieści, dotarła dostawa drewna z Breadwood i możemy ruszać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ad73b07ae5c3e45fec5c
+      kontekst: data.json:scripts.railcamp2_bridgebill.gotlumber
+      linia: 31
+      sekcja_skryptu: gotlumber
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You got the bridge built already?
+      pl: Już zbudowałeś most?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39e2995d6c74758b5f0f
+      kontekst: data.json:scripts.railcamp2_bridgebill.gotlumber
+      linia: 32
+      sekcja_skryptu: gotlumber
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! Most of the passengers were so bored, they chipped in to help.
+      pl: Tak! Większość pasażerów była tak znudzona, że pomogli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf37bc46a2ce983c51ec
+      kontekst: data.json:scripts.railcamp2_bridgebill.gotlumber
+      linia: 33
+      sekcja_skryptu: gotlumber
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wow, nice.
+      pl: Wow, nieźle.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: multibridge
+    wpisy:
+    - id: wol_e02a9b8cffa5fa59e3c0
+      kontekst: data.json:scripts.railcamp2_bridgebill.multibridge
+      linia: 34
+      sekcja_skryptu: multibridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, boss. Any luck with this whole bridge situation?
+      pl: Witaj, szefie. Szczęście dopisuje w sprawie mostu?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_131beca901f2bbbda328
+      kontekst: data.json:scripts.railcamp2_bridgebill.multibridge
+      linia: 35
+      sekcja_skryptu: multibridge
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I think so...
+      pl: Chyba tak...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_456f8d2e06ac227784c4
+      kontekst: data.json:scripts.railcamp2_bridgebill.multibridge
+      linia: 36
+      sekcja_skryptu: multibridge
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: But it's hard to explain. [El Vibrato model bridge]
+      pl: Ale trudno to wytłumaczyć. [Most modelowy El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[El Vibrato model bridge]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: oddbridge
+    wpisy:
+    - id: wol_99078edf2bd98bed2fd4
+      kontekst: data.json:scripts.railcamp2_bridgebill.oddbridge
+      linia: 38
+      sekcja_skryptu: oddbridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That sounds ominous.
+      pl: To brzmi złowieszczo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4099bf9a5b4355b8fdd
+      kontekst: data.json:scripts.railcamp2_bridgebill.oddbridge
+      linia: 39
+      sekcja_skryptu: oddbridge
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Let me just go take a quick look at the canyon first.
+      pl: Najpierw tylko szybko obejrzę kanion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5bc5c0e394c5c120fd95
+      kontekst: data.json:scripts.railcamp2_bridgebill.oddbridge
+      linia: 40
+      sekcja_skryptu: oddbridge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head to the telescope
+      pl: Idź do teleskopu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: multibridge
+    wpisy:
+    - id: wol_48efb6ff9ca6114cd106
+      kontekst: data.json:scripts.railcamp2_bridgebill.multibridge
+      linia: 41
+      sekcja_skryptu: multibridge
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: But you may not like it. [Necromancy, Bones]
+      pl: Ale może ci się nie spodobać. [Nekromancja, Kości]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Necromancy, Bones]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_361153f9e84c892938dc
+      kontekst: data.json:scripts.railcamp2_bridgebill.multibridge
+      linia: 42
+      sekcja_skryptu: multibridge
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I secured the lumber from Breadwood.
+      pl: Zabezpieczyłem drewno z Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: woodbridge
+    wpisy:
+    - id: wol_470a020316455305b212
+      kontekst: data.json:scripts.railcamp2_bridgebill.woodbridge
+      linia: 44
+      sekcja_skryptu: woodbridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I know!  The lumber shipment from Breadwood just arrived, and we're ready to build it!
+      pl: Wiem! Dostawa drewna z Breadwood właśnie dotarła i możemy go zbudować!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6534a3beecb06f53a118
+      kontekst: data.json:scripts.railcamp2_bridgebill.woodbridge
+      linia: 46
+      sekcja_skryptu: woodbridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! Most of the passengers are so bored, they want to help.
+      pl: Tak! Większość pasażerów jest tak znudzona, że chcą pomóc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13ac8314a6952d5ff294
+      kontekst: data.json:scripts.railcamp2_bridgebill.woodbridge
+      linia: 47
+      sekcja_skryptu: woodbridge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You also help lend a hand, and it all happens so quickly that it's almost as if no time has passed before the bridge is built.
+      pl: Też pomagasz, i wszystko dzieje się tak szybko, że prawie jakby nie minęło czasu, zanim most jest gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf37bc46a2ce983c51ec
+      kontekst: data.json:scripts.railcamp2_bridgebill.woodbridge
+      linia: 48
+      sekcja_skryptu: woodbridge
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wow, nice.
+      pl: Wow, nieźle.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2152
+  skrypt: railcamp2_jellybeanguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_48f70c9c0741fd6a35e6
+      kontekst: data.json:scripts.railcamp2_jellybeanguy.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That guy has stopped messing with his watch and started... eating jellybeans?
+      pl: Ten gość przestał majstrować przy zegarku i zaczął... jeść jelly beans?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2153
+  skrypt: railcamp2_jellybeanguy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ea57215dc033c68a4326
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What'cha got there? Jellybeans?
+      pl: Co tam masz? Żelki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b29326ba8965facfc6d4
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can I have one?
+      pl: Mogę dostać jedną?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2c7e022ba232af72388
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Please?
+      pl: Proszę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_e5c98ece47ac8b9a789f
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.node2
+      linia: 7
+      sekcja_skryptu: node2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No. Get'cher own.
+      pl: Nie. Weź sobie własne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6313af6fbc69fd0fb852
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.node2
+      linia: 8
+      sekcja_skryptu: node2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, I never.
+      pl: No, nigdy w życiu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e00773bd1be55849aad
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.node2
+      linia: 9
+      sekcja_skryptu: node2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where'd you get them?
+      pl: Skąd je masz?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: where
+    wpisy:
+    - id: wol_321b9718bd954d07bc75
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.where
+      linia: 11
+      sekcja_skryptu: where
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: A little ways south'a here. From a fella name'a Roy Bean.
+      pl: Trochę na południe stąd. Od faceta, co ma na imię Roy Bean.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_2e00773bd1be55849aad
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where'd you get them?
+      pl: Skąd je masz?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beenhere
+    wpisy:
+    - id: wol_d8f4cab9e699d5c80b72
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.beenhere
+      linia: 14
+      sekcja_skryptu: beenhere
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: You sure I can't have one of those jellybeans?
+      pl: Na pewno nie mogę dostać jednej z tych żelatynek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6141ead99eedbd87d306
+      kontekst: data.json:scripts.railcamp2_jellybeanguy2.beenhere
+      linia: 16
+      sekcja_skryptu: beenhere
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, it was worth a shot.
+      pl: No, warto było spróbować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2154
+  skrypt: railcamp2_telescope
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e2d856b3fbe53b1b9c80
+      kontekst: data.json:scripts.railcamp2_telescope.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's one of those pay telescopes for tourists.  This one was designed by a promising young artist named Edvard Munch!
+      pl: To jeden z tych płatnych teleskopów dla turystów. Ten zaprojektował obiecujący młody artysta imieniem Edvard Munch!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8142d55897cf87c5a6da
+      kontekst: data.json:scripts.railcamp2_telescope.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it [5 Meat]
+      pl: Użyj tego [5 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1cd58170c5e7a4156be
+      kontekst: data.json:scripts.railcamp2_telescope.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Use it [Requires 5 Meat]
+      pl: Użyj go [Wymaga 5 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2155
+  skrypt: railcamp2_usetelescope
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_214c677ddb48bfa37ed9
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pay your meat and look through the telescope at the Big Canyon.
+      pl: Płacisz mięso i patrzysz przez teleskop na Wielki Kanion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21f8c723af5a66e37a0a
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It sure is big!  It'll take quite a bridge to get across that thing, that's for sure.
+      pl: Ale wielkie! Żeby to przekroczyć, trzeba będzie niezłego mostu, to pewne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6f8f04ce85f29442b12
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could go tell Smee you squared away the lumber shipment from Breadwood.
+      pl: Mógłbyś powiedzieć Smee, że załatwiłeś dostawę drewna z Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17b7ad7aa6fd3b7aebe9
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could use your Nex-Mex powers to build a bridge of bones.
+      pl: Mógłbyś użyć mocy Nex-Mex, żeby zbudować most z kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3edb5eada5b0de50bdf1
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could activate that El Vibrato bridge model and see if it does anything useful.
+      pl: Mógłbyś aktywować model mostu El Vibrato i zobaczyć, czy coś robi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9d618b0fac51f27555d2
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Conjure a bone bridge [Necromancy, Bones]
+      pl: Przywołaj most z kości [Nekromancja, Kości]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Necromancy, Bones]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bonedeploy
+    wpisy:
+    - id: wol_33db51a8de71f6d5ff48
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonedeploy
+      linia: 7
+      sekcja_skryptu: bonedeploy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your eyes glow black as you shout names that are also instructions.  After a few minutes, an army of skeletons arrives. Silent but for the xylophone-like clatter of bone against bone, the skeletons disassemble each other and constuct a bridge spanning the chasm. It takes only a half-hour or so before the last skeleton has slotted itself into place and the unnatural lights in all of the skulls' eye sockets fade out.
+      pl: Twoje oczy świecą na czarno, gdy wykrzykujesz imiona, które są też instrukcjami. Po kilku minutach dociera armia szkieletów. Cicho, poza ksylofonowym brzękiem kości o kości, szkielety rozmontowują się nawzajem i budują most nad przepaścią. Zajmuje to zaledwie pół godziny, zanim ostatni szkielet wskoczy na miejsce, a nienaturalne światła we wszystkich oczodołach zgasną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a261362d10e4defd18b4
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonedeploy
+      linia: 8
+      sekcja_skryptu: bonedeploy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Muahahahaaa
+      pl: Buahahahaaa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_27885de1b14646dac178
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Activate the model [El Vibrato model bridge]
+      pl: Uruchom model [Most modelowy El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[El Vibrato model bridge]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elvdeploy
+    wpisy:
+    - id: wol_68cced9080759e61cd62
+      kontekst: data.json:scripts.railcamp2_usetelescope.elvdeploy
+      linia: 10
+      sekcja_skryptu: elvdeploy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You twiddle the model until it bleeps and little lights flash on it. A few minutes later, a huge swarm of spider-like El Vibrato robots climb out of the canyon, hauling large stone blocks and other materials, which they swiftly weld together with strange blue lights. The entire process takes no more than ten minutes, and the drones vanish back into the canyon leaving behind a weird but very sturdy-looking bridge.
+      pl: Majstrujesz przy modelu, aż zapiszczy i migają lampki. Kilka minut później z kanionu wypełza ogromna chmara pająkowatych robotów El Vibrato, ciągnąc wielkie kamienne bloki i inne materiały, które szybko spawają dziwnymi niebieskimi światłami. Cały proces trwa nie więcej niż dziesięć minut, a drony znikają z powrotem w kanionie, zostawiając dziwny, ale bardzo solidny most.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ce8b0e734beb352c7ea7
+      kontekst: data.json:scripts.railcamp2_usetelescope.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ayup
+      pl: Jo
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: woodenbridge
+    wpisy:
+    - id: wol_1e0aba143c956fd01df1
+      kontekst: data.json:scripts.railcamp2_usetelescope.woodenbridge
+      linia: 13
+      sekcja_skryptu: woodenbridge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the wooden bridge you built with your own two hands.  By using those two hands to provide services for the Breadwood lumberjacks, I mean.
+      pl: Patrzysz na drewniany most, który zbudowałeś własnymi rękami. Chodzi o to, że użyłeś tych rąk do świadczenia usług drwalom z Breadwood, mam na myśli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f66c71d682ed4f04dc19
+      kontekst: data.json:scripts.railcamp2_usetelescope.woodenbridge
+      linia: 14
+      sekcja_skryptu: woodenbridge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, my own two hands
+      pl: Tak, moimi własnymi rękami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elvbridge
+    wpisy:
+    - id: wol_3a0604c4ab5e9929343d
+      kontekst: data.json:scripts.railcamp2_usetelescope.elvbridge
+      linia: 15
+      sekcja_skryptu: elvbridge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You run your eyes along the majestic, fantastical, nearly incomprehensible bridge. How is it possible that such technology even exists, let alone that it exists in almost total secrecy? Who were the people that built these machines? And perhaps more importantly: what happened to them?'
+      pl: 'Przesuwasz wzrok po majestatycznym, fantastycznym, niemal niepojętym moście. Jak to możliwe, że taka technologia w ogóle istnieje, a co dopiero w niemal całkowitej tajemnicy? Kim byli ludzie, którzy zbudowali te maszyny? A może ważniejsze: co się z nimi stało?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fe5878f991030a09d79
+      kontekst: data.json:scripts.railcamp2_usetelescope.elvbridge
+      linia: 16
+      sekcja_skryptu: elvbridge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Awe
+      pl: Ach
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bonebridge
+    wpisy:
+    - id: wol_4f0ffd3ffb4ee1ebaccd
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonebridge
+      linia: 17
+      sekcja_skryptu: bonebridge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A hollow laughs escapes your throat as you gaze at the bridge your dark powers have created. The feeling of power is intoxicating. Power over life and death -- what a rush!
+      pl: Gdy patrzysz na most, który stworzyły twoje mroczne moce, z gardła wydobywa ci się pusty śmiech. Uczucie mocy jest odurzające. Władza nad życiem i śmiercią — co za jazda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b896c82c20d5f37e1d7
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonebridge
+      linia: 18
+      sekcja_skryptu: bonebridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If I hear one more evil cackle out of you, I'm going to blow your damn head off.
+      pl: Jeśli usłyszę od ciebie jeszcze jeden złowieszczy rechot, odstrzelę ci ten cholerny łeb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e45441cc105c5cbce26
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonebridge
+      linia: 19
+      sekcja_skryptu: bonebridge
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: <i>*cough*</i> Sorry.
+      pl: <i>*kaszel*</i> Przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b13664ecf1df7ab1608
+      kontekst: data.json:scripts.railcamp2_usetelescope.bonebridge
+      linia: 20
+      sekcja_skryptu: bonebridge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Muahahaha!
+      pl: Buahahaha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2538
+  skrypt: skullshadowhomestead_orderinggrandma
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: howdevice10
+    wpisy:
+    - id: wol_99078edf2bd98bed2fd4
+      kontekst: data.json:scripts.skullshadowhomestead_orderinggrandma.howdevice10
+      linia: 229
+      sekcja_skryptu: howdevice10
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That sounds ominous.
+      pl: To brzmi złowieszczo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []

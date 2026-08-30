@@ -1,0 +1,1663 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: soupstock_lode
+zrodlowy_batch: 081_dialog_loc_mine5_soupstock_lode.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 21
+liczba_wpisow: 91
+sceny:
+- kolejnosc_w_danych_gry: 1000265
+  skrypt: house_tweenarmoire
+  pomieszczenie: &id001
+    id: mine5
+    nazwa_en: Soupstock Lode
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: g
+    wpisy:
+    - id: wol_302b17884a2c83d55cb3
+      kontekst: house.json:scripts.house_tweenarmoire.g
+      linia: 11
+      sekcja_skryptu: g
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's the last entry.
+      pl: To ostatni wpis.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1863
+  skrypt: mine5_diary
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_794a78d4730b1e043c59
+      kontekst: data.json:scripts.mine5_diary.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a diary under the crude pillow of this bedroll.
+      pl: Pod prostą poduszką tego śpiwora leży pamiętnik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1864
+  skrypt: mine5_diary2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_18a94f57b8a5af3aa13c
+      kontekst: data.json:scripts.mine5_diary2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Entry 1:'
+      pl: 'Wpis 1:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b427ee9ce980b1b6aa1
+      kontekst: data.json:scripts.mine5_diary2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mine is the worst. It sucks so bad here. I have been in some lousy mines, but this one really takes the cake. Everything smells like soup! The walls are slick with it! I swear, I can feel it getting into my pores! If I went to a doctor for a blood test he'd probably tell me my blood is tomato-basil bisque or whatever.
+      pl: Ta kopalnia jest najgorsza. Tu jest tak okropnie. Byłem w kiepskich kopalniach, ale ta bierze ciasto. Wszystko pachnie zupą! Ściany od niej śliskie! Przysięgam, czuję, jak wchodzi mi w pory! Gdybym poszedł na badanie krwi, lekarz powiedziałby, że mam zupę pomidorowo-bazyliową czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page2
+    wpisy:
+    - id: wol_aae252b3e8012dca82ae
+      kontekst: data.json:scripts.mine5_diary2.page2
+      linia: 4
+      sekcja_skryptu: page2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Entry 2:'
+      pl: 'Wpis 2:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99d654b998324db654f6
+      kontekst: data.json:scripts.mine5_diary2.page2
+      linia: 5
+      sekcja_skryptu: page2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: We've finally managed to get deep enough to hear The Master, but it turned out the dang soup table is higher than we thought. We're spending 90% of our time bailing the stuff out, and only 10% digging.
+      pl: Wreszcie udało nam się zejść na tyle głęboko, by usłyszeć Mistrza, ale okazało się, że cholerny stół zupowy jest wyżej, niż myśleliśmy. 90% czasu wylewamy tę breję, a tylko 10% kopiemy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '% of our time bailing the stuff out, and only 10%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ee00dc2cdecf47e6cc7
+      kontekst: data.json:scripts.mine5_diary2.page2
+      linia: 6
+      sekcja_skryptu: page2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I've got noodles in my boots. I hate this so much.
+      pl: Mam makaron w butach. Nienawidzę tego tak bardzo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page3
+    wpisy:
+    - id: wol_d2c22007d4fa3d470c73
+      kontekst: data.json:scripts.mine5_diary2.page3
+      linia: 8
+      sekcja_skryptu: page3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Entry 3:'
+      pl: 'Wpis 3:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eafaf8b26b896830fd22
+      kontekst: data.json:scripts.mine5_diary2.page3
+      linia: 9
+      sekcja_skryptu: page3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now the damn elevator's busted.  It was always making a rattling noise and the guys off-shift couldn't sleep -- that finally stopped, but it stopped because the elevator itself stopped and we can't move it at all!  Why did we even set up camp here?
+      pl: Teraz ta cholerna winda padła. Zawsze grzechotała i chłopaki po zmianie nie mogli spać — w końcu przestała, ale dlatego, że padła sama winda i w ogóle nie da się jej ruszyć! Po co w ogóle rozbiliśmy tu obóz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b9bb9802dbe1aa76412
+      kontekst: data.json:scripts.mine5_diary2.page3
+      linia: 10
+      sekcja_skryptu: page3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I had to spend the whole day scrounging around to find replacement 137, 59, and 23 lb. compression springs for repairs. Will install them tomorrow.
+      pl: Cały dzień musiałem grzebać, żeby znaleźć zapasowe sprężyny dociskowe na 137, 59 i 23 funty do napraw. Jutro je zamontuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page4
+    wpisy:
+    - id: wol_a35dd9f01b172248a882
+      kontekst: data.json:scripts.mine5_diary2.page4
+      linia: 12
+      sekcja_skryptu: page4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Entry 4:'
+      pl: 'Wpis 4:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ddf6a7c9c0a8d05469f
+      kontekst: data.json:scripts.mine5_diary2.page4
+      linia: 13
+      sekcja_skryptu: page4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boss says we're giving up here and heading into a real deep mine they found up northwest. It's a shame we wasted all this work, but hot damn it'll be good to get away from this soup. I will never eat soup again in my life.
+      pl: Szef mówi, że tu kończymy i idziemy do prawdziwie głębokiej kopalni, którą znaleźli na północny zachód. Szkoda zmarnowanej roboty, ale cholera, dobrze będzie uciec od tej zupy. W życiu już nigdy nie zjem zupy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_23fdc3d69991750723e3
+      kontekst: data.json:scripts.mine5_diary2.page4
+      linia: 14
+      sekcja_skryptu: page4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Got the springs installed proper-like, with the strongest behind the shortest bolt and so on, but there's no time to wrench everything down.  Gotta pack! Not like the elevator matters much anyway, any more.
+      pl: Sprężyny zamontowane jak trzeba — najmocniejsza za najkrótszym śrubem i tak dalej — ale nie ma czasu, żeby wszystko dokręcić. Trzeba pakować! I tak winda już niewiele znaczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ae3c92e8f495da67c17b
+      kontekst: data.json:scripts.mine5_diary2.page4
+      linia: 15
+      sekcja_skryptu: page4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I really hope I don't screw up again and forget my diary here when it's time to leave. I don't think I've ever managed to fill in more than ten pages in the same diary.
+      pl: Naprawdę mam nadzieję, że znowu nie spartolę i nie zapomnę tu dziennika, gdy nadejdzie czas wyjazdu. Chyba nigdy nie udało mi się wypełnić więcej niż dziesięciu stron w tym samym dzienniku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_302b17884a2c83d55cb3
+      kontekst: data.json:scripts.mine5_diary2.page4
+      linia: 16
+      sekcja_skryptu: page4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's the last entry.
+      pl: To ostatni wpis.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page3
+    wpisy:
+    - id: wol_f6798f59c106acf4f65f
+      kontekst: data.json:scripts.mine5_diary2.page3
+      linia: 17
+      sekcja_skryptu: page3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop reading
+      pl: Przestań czytać
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page2
+    wpisy:
+    - id: wol_f6798f59c106acf4f65f
+      kontekst: data.json:scripts.mine5_diary2.page2
+      linia: 18
+      sekcja_skryptu: page2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop reading
+      pl: Przestań czytać
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_f6798f59c106acf4f65f
+      kontekst: data.json:scripts.mine5_diary2.start
+      linia: 19
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop reading
+      pl: Przestań czytać
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1865
+  skrypt: mine5_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2f4707a5a5891d2e7870
+      kontekst: data.json:scripts.mine5_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This elevator is inoperative.
+      pl: Winda nie działa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_45e26c8caaf09b115deb
+      kontekst: data.json:scripts.mine5_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attempt to fix it
+      pl: Spróbuj to naprawić
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1866
+  skrypt: mine5_elevator2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_355d570112dee8918ce8
+      kontekst: data.json:scripts.mine5_elevator2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see three different-sized bolts on the side of the elevator which are all very loose. There's a sign that says "3200 lbs. pressure required," and some sort of gauge which currently reads "0," whatever that means.
+      pl: Po boku windy widzisz trzy śruby różnej wielkości, wszystkie bardzo luźne. Jest znak „wymagane 3200 funtów ciśnienia” i jakiś wskaźnik pokazujący „0”, cokolwiek to znaczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1fed48dd8a4136ca5b1c
+      kontekst: data.json:scripts.mine5_elevator2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like you're gonna need a wrench.
+      pl: Wygląda na to, że będziesz potrzebować klucza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstopts
+    wpisy:
+    - id: wol_3f11fba79bfefa320396
+      kontekst: data.json:scripts.mine5_elevator2.firstopts
+      linia: 3
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #3 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #3 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: b1
+    wpisy:
+    - id: wol_76ad50d4782653ab4a96
+      kontekst: data.json:scripts.mine5_elevator2.b1
+      linia: 4
+      sekcja_skryptu: b1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You tighten the bolt with one complete revolution of your wrench.
+      pl: Dokręcasz śrubę jednym pełnym obrotem klucza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5793b4b019bd0ec4c550
+      kontekst: data.json:scripts.mine5_elevator2.b1
+      linia: 5
+      sekcja_skryptu: b1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bolt is as tight as it can be.
+      pl: Śruba jest dokręcona na maksa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkpuz
+    wpisy:
+    - id: wol_ad0e776bea9960990bbd
+      kontekst: data.json:scripts.mine5_elevator2.checkpuz
+      linia: 6
+      sekcja_skryptu: checkpuz
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The gauge now says "$pressure$," and the elevator still isn't working.
+      pl: Wskazówka pokazuje teraz „$pressure$”, a winda wciąż nie działa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $pressure$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28f07da2a34bc03aba57
+      kontekst: data.json:scripts.mine5_elevator2.checkpuz
+      linia: 7
+      sekcja_skryptu: checkpuz
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Seems like maybe there isn't enough pressure yet?
+      pl: Chyba jeszcze za mało ciśnienia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33d58c0d69d3101170d0
+      kontekst: data.json:scripts.mine5_elevator2.checkpuz
+      linia: 8
+      sekcja_skryptu: checkpuz
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Judging from the creaking noises, you'd guess that there is too much pressure at this point.  Darn.
+      pl: Po skrzypieniu można wywnioskować, że ciśnienie w tym momencie jest za wysokie. A niech to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cd1ec9ad17e8de6c025f
+      kontekst: data.json:scripts.mine5_elevator2.checkpuz
+      linia: 9
+      sekcja_skryptu: checkpuz
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loosen all the bolts
+      pl: Poluzuj wszystkie śruby
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reset
+    wpisy:
+    - id: wol_f8c3109fbe322810c459
+      kontekst: data.json:scripts.mine5_elevator2.reset
+      linia: 10
+      sekcja_skryptu: reset
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You turn all the bolts until they are completely loose.  Time to try again?
+      pl: Odkręcasz wszystkie śruby, aż są całkowicie luźne. Czas spróbować ponownie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_3f11fba79bfefa320396
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #3 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #3 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87eb874e2aabfd6bb35f
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: 'Turn the #3 bolt [It is fully tightened]'
+      pl: Obróć śrubę numer 3 [Jest całkowicie dokręcona]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[It is fully tightened]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a0dfc57978d46666a670
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 13
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #5 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #5 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: b2
+    wpisy:
+    - id: wol_76ad50d4782653ab4a96
+      kontekst: data.json:scripts.mine5_elevator2.b2
+      linia: 14
+      sekcja_skryptu: b2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You tighten the bolt with one complete revolution of your wrench.
+      pl: Dokręcasz śrubę jednym pełnym obrotem klucza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5793b4b019bd0ec4c550
+      kontekst: data.json:scripts.mine5_elevator2.b2
+      linia: 15
+      sekcja_skryptu: b2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bolt is as tight as it can be.
+      pl: Śruba jest dokręcona na maksa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_9bf178b52e7bdc0478cf
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 16
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: 'Turn the #5 bolt [It is fully tightened]'
+      pl: Obróć śrubę numer 5 [Jest całkowicie dokręcona]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[It is fully tightened]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_190170fdb99a5cacf539
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 17
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #7 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #7 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: b3
+    wpisy:
+    - id: wol_76ad50d4782653ab4a96
+      kontekst: data.json:scripts.mine5_elevator2.b3
+      linia: 18
+      sekcja_skryptu: b3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You tighten the bolt with one complete revolution of your wrench.
+      pl: Dokręcasz śrubę jednym pełnym obrotem klucza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5793b4b019bd0ec4c550
+      kontekst: data.json:scripts.mine5_elevator2.b3
+      linia: 19
+      sekcja_skryptu: b3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bolt is as tight as it can be.
+      pl: Śruba jest dokręcona na maksa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_b5fce2b00f46b5732716
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 20
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: 'Turn the #7 bolt [It is fully tightened]'
+      pl: Obróć śrubę numer 7 [Jest całkowicie dokręcona]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[It is fully tightened]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d4121839dfb3a54b23f
+      kontekst: data.json:scripts.mine5_elevator2.opts
+      linia: 21
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone for now
+      pl: Na razie zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: solved
+    wpisy:
+    - id: wol_20d65de0fe9fb6d9e518
+      kontekst: data.json:scripts.mine5_elevator2.solved
+      linia: 22
+      sekcja_skryptu: solved
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a plate snap firmly into place, and the elevator seems to now be humming with life.
+      pl: Słyszysz, jak płyta z trzaskiem wskakuje na miejsce, i winda wydaje się teraz tętnić życiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3235fc33a1452c66674a
+      kontekst: data.json:scripts.mine5_elevator2.solved
+      linia: 23
+      sekcja_skryptu: solved
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like it's working now!
+      pl: Wygląda na to, że teraz działa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstopts
+    wpisy:
+    - id: wol_a0dfc57978d46666a670
+      kontekst: data.json:scripts.mine5_elevator2.firstopts
+      linia: 25
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #5 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #5 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_190170fdb99a5cacf539
+      kontekst: data.json:scripts.mine5_elevator2.firstopts
+      linia: 26
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Turn the #7 bolt [monkey wrench]'
+      pl: 'Obróć śrubę #7 [klucz małpki]'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[monkey wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ab7ad4d275fe8b50ba9
+      kontekst: data.json:scripts.mine5_elevator2.firstopts
+      linia: 27
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Smack the elevator into shape [Percussive Maintenance]
+      pl: Przywal windzie, żeby działała [Konserwacja przez uderzenie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Percussive Maintenance]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: percussive
+    wpisy:
+    - id: wol_832d286928f9f7f61487
+      kontekst: data.json:scripts.mine5_elevator2.percussive
+      linia: 28
+      sekcja_skryptu: percussive
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You smack the elevator in the exact right spot to correctly position all three of the bolts.
+      pl: Uderzasz windę dokładnie we właściwe miejsce, ustawiając prawidłowo wszystkie trzy śruby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ebc2e57c32cd6cdf2b05
+      kontekst: data.json:scripts.mine5_elevator2.percussive
+      linia: 29
+      sekcja_skryptu: percussive
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All in a day's work
+      pl: Codzienna robota
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstopts
+    wpisy:
+    - id: wol_6d4121839dfb3a54b23f
+      kontekst: data.json:scripts.mine5_elevator2.firstopts
+      linia: 30
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone for now
+      pl: Na razie zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1869
+  skrypt: mine5_elvcrack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4c2b47d118ad8507841d
+      kontekst: data.json:scripts.mine5_elvcrack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a crack in the wall here, but it's not an interesting crack.
+      pl: W ścianie jest tu pęknięcie, ale nieciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trans
+    wpisy:
+    - id: wol_41906e9a4bc08a3d468b
+      kontekst: data.json:scripts.mine5_elvcrack.trans
+      linia: 2
+      sekcja_skryptu: trans
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your El Vibrato transponder goes crazy when you get it near this crack.
+      pl: Twój transponder El Vibrato szaleje, gdy zbliżysz go do tej szczeliny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5018d0b872a37423fc9d
+      kontekst: data.json:scripts.mine5_elvcrack.trans
+      linia: 3
+      sekcja_skryptu: trans
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Break through [pickaxe]
+      pl: Przedrzyj się [kilof]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b890ee621e8ce159a095
+      kontekst: data.json:scripts.mine5_elvcrack.trans
+      linia: 4
+      sekcja_skryptu: trans
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Break through [Requires pickaxe]
+      pl: Przebij się [Wymaga kilofa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1870
+  skrypt: mine5_elvterminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3de2e72855c629914709
+      kontekst: data.json:scripts.mine5_elvterminal.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says ^MUNICIPAL ORGANIC FLUID PIPELINE OFFLINE^translate_elvibrato^
+      pl: Znak mówi ^MUNICYPALNY RUROCIĄG PŁYNÓW ORGANICZNYCH NIECZYNNY^translate_elvibrato^
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^MUNICIPAL ORGANIC FLUID PIPELINE OFFLINE^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1871
+  skrypt: mine5_elvvending
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c1b3e0881eb2e14a4555
+      kontekst: data.json:scripts.mine5_elvvending.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen on this machine says:'
+      pl: 'Ekran tej maszyny mówi:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_e8d5554012773e36ed09
+      kontekst: data.json:scripts.mine5_elvvending.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"^MUNICIPAL ORGANIC FLUID PIPELINE OFFLINE -- INSERT ORGANIC FLUID^translate_elvibrato^."'
+      pl: '"^MUNICYPALNY RUROCIĄG PŁYNÓW ORGANICZNYCH NIECZYNNY — WŁÓŻ PŁYN ORGANICZNY^translate_elvibrato^."'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^MUNICIPAL ORGANIC FLUID PIPELINE OFFLINE -- INSERT ORGANIC FLUID^
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92db415862833c144f9d
+      kontekst: data.json:scripts.mine5_elvvending.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Light pulses in a pentagonal aperture on the side of the machine.
+      pl: Światło pulsuje w pięciokątnym otworze z boku maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9452dcf0a5c52d7dcde8
+      kontekst: data.json:scripts.mine5_elvvending.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert fluid [El Vibrato fluid]
+      pl: Włóż płyn [Płyn El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[El Vibrato fluid]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: insert
+    wpisy:
+    - id: wol_5091b5adbe3348e5d05b
+      kontekst: data.json:scripts.mine5_elvvending.insert
+      linia: 5
+      sekcja_skryptu: insert
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Three buttons appear on the screen.
+      pl: Na ekranie pojawiają się trzy guziki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: food
+    wpisy:
+    - id: wol_4e783775a301dbdc3a28
+      kontekst: data.json:scripts.mine5_elvvending.food
+      linia: 7
+      sekcja_skryptu: food
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A featureless brown cube drops into the aperture.
+      pl: Do otworu wpada gładka brązowa kostka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f472ab59f2a92fdc278d
+      kontekst: data.json:scripts.mine5_elvvending.food
+      linia: 8
+      sekcja_skryptu: food
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen flickers back to:'
+      pl: 'Ekran miga z powrotem do:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: booze
+    wpisy:
+    - id: wol_c5590eacf844611be41a
+      kontekst: data.json:scripts.mine5_elvvending.booze
+      linia: 10
+      sekcja_skryptu: booze
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A ceramic cylinder filled with liquid clatters into the aperture.
+      pl: Ceramiczny cylinder wypełniony cieczą z brzękiem wpada w otwór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f472ab59f2a92fdc278d
+      kontekst: data.json:scripts.mine5_elvvending.booze
+      linia: 11
+      sekcja_skryptu: booze
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen flickers back to:'
+      pl: 'Ekran miga z powrotem do:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: potion
+    wpisy:
+    - id: wol_2c62a663bd7e57b50abd
+      kontekst: data.json:scripts.mine5_elvvending.potion
+      linia: 13
+      sekcja_skryptu: potion
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A glass tube filled with bubbling fluid clinks into the aperture.
+      pl: Do otworu z brzękiem wpada szklana tuba z bulgoczącą cieczą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f472ab59f2a92fdc278d
+      kontekst: data.json:scripts.mine5_elvvending.potion
+      linia: 14
+      sekcja_skryptu: potion
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen flickers back to:'
+      pl: 'Ekran miga z powrotem do:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: refund
+    wpisy:
+    - id: wol_7fecc715a92d13141614
+      kontekst: data.json:scripts.mine5_elvvending.refund
+      linia: 16
+      sekcja_skryptu: refund
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press the button and the machine ejects the pentagon you just put in it.
+      pl: Naciskasz guzik i maszyna wyrzuca pięciokąt, który przed chwilą włożyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f472ab59f2a92fdc278d
+      kontekst: data.json:scripts.mine5_elvvending.refund
+      linia: 17
+      sekcja_skryptu: refund
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen flickers back to:'
+      pl: 'Ekran miga z powrotem do:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1872
+  skrypt: mine5_heatbarrier
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_36c91b679cb907cc346b
+      kontekst: data.json:scripts.mine5_heatbarrier.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These cracks are hotter'n the fires of Hell!
+      pl: Te szczeliny gorętsze niż ognie Piekła!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_09391e89a96f143acac1
+      kontekst: data.json:scripts.mine5_heatbarrier.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[You''ll need at least 20% Hot Resistance to cross]'
+      pl: '[Do przejścia potrzebujesz co najmniej 20% odporności na gorąco]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[You''ll need at least 20% Hot Resistance to cross]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1873
+  skrypt: mine5_knapsack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_05f4cc11e8d98b21dcf9
+      kontekst: data.json:scripts.mine5_knapsack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A knapsack.
+      pl: Plecak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_ad7e86be5b0758ec8efd
+      kontekst: data.json:scripts.mine5_knapsack.dig
+      linia: 3
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's mostly filled with trash, but you do find a spooky white mask. Weird.
+      pl: W większości pełen śmieci, ale znajdujesz upiorną białą maskę. Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1874
+  skrypt: mine5_lockers
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_52127c7b19ef0b9eb16b
+      kontekst: data.json:scripts.mine5_lockers.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These lockers have been pretty picked over, from the looks of them.
+      pl: Te szafki wyglądają na mocno przeszperane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_5795cdd2c85641f7c3df
+      kontekst: data.json:scripts.mine5_lockers.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a few worthwhile things.
+      pl: Znajdujesz kilka wartościowych rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1875
+  skrypt: mine5_minecart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_034540dd58ae33b13468
+      kontekst: data.json:scripts.mine5_minecart.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart is overflowing with savory tailings.
+      pl: Wózek przepełniony smakowitymi odpadami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_7f5d553f4029a8c3788f
+      kontekst: data.json:scripts.mine5_minecart.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wipe the soup off and then dig in.
+      pl: Wycierasz zupę i zabierasz się do jedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1876
+  skrypt: mine5_snakepool
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_aa6d1d6d57d01862c015
+      kontekst: data.json:scripts.mine5_snakepool.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are hundreds of snakes lounging around in this pool of hot soup!
+      pl: Setki węży wyleguje się w tej kałuży gorącej zupy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0bc8dd20a666a9d77a8a
+      kontekst: data.json:scripts.mine5_snakepool.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab some! [Fight]
+      pl: Chwyć trochę! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_84e69ab35c2bbabc056c
+      kontekst: data.json:scripts.mine5_snakepool.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You made mincemeat of those soupsnakes.
+      pl: Zrobiłeś mięso mielone z tych zupowych węży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4bfa28ae1260392103b3
+      kontekst: data.json:scripts.mine5_snakepool.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_357943b020b34f30909f
+      kontekst: data.json:scripts.mine5_snakepool.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're gonna need some time in a hot bath after that beating.
+      pl: Po tym okładaniu przyda ci się gorąca kąpiel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1877
+  skrypt: mine5_souppool
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_512e13e3131844b594a9
+      kontekst: data.json:scripts.mine5_souppool.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a pool of boiling soup.
+      pl: To kałuża wrzącej zupy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_777cc43c38f97f58b603
+      kontekst: data.json:scripts.mine5_souppool.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't have a suitable vessel.
+      pl: Nie masz odpowiedniego naczynia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: realget
+    wpisy:
+    - id: wol_849682bbfd0c04e1bfce
+      kontekst: data.json:scripts.mine5_souppool.realget
+      linia: 4
+      sekcja_skryptu: realget
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Using a bread bowl, you scoop some soup.
+      pl: Za pomocą miseczki chlebowej nabierasz trochę zupy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1878
+  skrypt: mine5_workbench
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_012f7d76979afe25af09
+      kontekst: data.json:scripts.mine5_workbench.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a toolbox on this bench, but it's locked. And, uh, welded to the bench.
+      pl: Na warsztacie skrzynka narzędziowa, ale zamknięta. I, eee, przyspawana do stołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_11480e0a4871788e1dd5
+      kontekst: data.json:scripts.mine5_workbench.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nice work!  The toolbox is, unsurprisingly, full of tools.
+      pl: Dobra robota! Skrzynka z narzędziami, nic dziwnego, pełna jest narzędzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2163
+  skrypt: railcamp_rockdude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: resolved
+    wpisy:
+    - id: wol_ebc2e57c32cd6cdf2b05
+      kontekst: data.json:scripts.railcamp_rockdude.resolved
+      linia: 7
+      sekcja_skryptu: resolved
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All in a day's work
+      pl: Codzienna robota
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2168
+  skrypt: ranch1_altar
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6d4121839dfb3a54b23f
+      kontekst: data.json:scripts.ranch1_altar.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone for now
+      pl: Na razie zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2442
+  skrypt: re_snakea
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_4bfa28ae1260392103b3
+      kontekst: data.json:scripts.re_snakea.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2443
+  skrypt: re_snakeb
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_4bfa28ae1260392103b3
+      kontekst: data.json:scripts.re_snakeb.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2444
+  skrypt: re_snakec
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_4bfa28ae1260392103b3
+      kontekst: data.json:scripts.re_snakec.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2445
+  skrypt: re_snaked
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_4bfa28ae1260392103b3
+      kontekst: data.json:scripts.re_snaked.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

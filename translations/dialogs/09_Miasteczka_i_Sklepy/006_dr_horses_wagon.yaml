@@ -1,0 +1,3251 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: dr_horses_wagon
+zrodlowy_batch: 051_dialog_loc_drhorse_dr_horses_wagon.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 18
+liczba_wpisow: 191
+sceny:
+- kolejnosc_w_danych_gry: 1167
+  skrypt: drhorse_detectivepopup
+  pomieszczenie: &id001
+    id: drhorse
+    nazwa_en: Dr. Horse's Wagon
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ddc69d0bd916e3bd46bd
+      kontekst: data.json:scripts.drhorse_detectivepopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@drhorse_newname@, Private Investigator flashes you a grin and a thumbs-up before returning to her cocktail and her detective studies, in that order.'
+      pl: '@drhorse_newname@, Prywatna Detektyw, posyła ci uśmiech i kciuk w górę, po czym wraca do koktajlu i studiów detektywistycznych — w tej kolejności.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@drhorse_newname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1168
+  skrypt: drhorse_drhorse
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 167
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_554587b46ecdf6051516
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 1
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This person is staring glumly into a small artisanal cocktail and barely looks up when you approach.
+      pl: Ta osoba smutno wpatruje się w mały rzemieślniczy koktajl i ledwo podnosi wzrok, gdy podchodzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_517a9e059aacbb5fba21
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 2
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you've tracked me to this bar looking for a horse doctor, you'll just have to find someone else, okay? Horse doctoring hours are closed, possibly forever. Dramatic sigh.
+      pl: Jeśli wytropiłeś mnie w tym barze w poszukiwaniu końskiej lekarki, musisz znaleźć kogoś innego, jasne? Godziny leczenia koni są zamknięte, być może na zawsze. Dramatyczne westchnienie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f0b2f0026f7389ddc17
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 3
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her cocktail bubbles with a blue gas, and a silver eyeglass screwdriver bobs briefly to the surface. You smell lavender and pickles.
+      pl: Jej koktajl bulgocze niebieskim gazem, a srebrny śrubokręt od okularów na chwilę wypływa na powierzchnię. Czujesz lawendę i ogórki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ddb601137a03a7bf7b32
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 4
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sorry, this drink isn't as important as I'm making it sound by describing it in detail, I'm just <i>fascinated.</i>
+      pl: Przepraszam, ten drink nie jest tak ważny, jak brzmi przez moje szczegółowe opisywanie, po prostu jestem <i>fascynowany.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f67fb3e0f95a6e967d2c
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 5
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why the long face? That's a horse joke. They have long faces.
+      pl: Czemu taka długa mina? To żart o koniu. Konie mają długie mordy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatsup
+    wpisy:
+    - id: wol_cc07d6c103194c62b8fa
+      kontekst: data.json:scripts.drhorse_drhorse.whatsup
+      linia: 7
+      sekcja_skryptu: whatsup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... normally I wouldn't tell this to a complete stranger, but there's something about you that just screams "Tell me your problems and I'll drop everything I'm doing just to help you out." Some kind of aura you've got. Did you know you were walking around exuding that energy?
+      pl: 'Normalnie nie powiedziałabym tego obcej osobie, ale jest w tobie coś, co krzyczy: "Powiedz mi swoje problemy, a rzucę wszystko, co robię, żeby ci pomóc". Wiedziałeś, że chodzisz po okolicy, uwalniając tę energię?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab49dd094bffb0f0670b
+      kontekst: data.json:scripts.drhorse_drhorse.whatsup
+      linia: 8
+      sekcja_skryptu: whatsup
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, I am <i>well</i> aware, and it is <i>accurate</i>.
+      pl: Och, <i>doskonale</i> o tym wiem i jest to <i>prawda.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ceaaed3b34cd173f4747
+      kontekst: data.json:scripts.drhorse_drhorse.whatsup
+      linia: 9
+      sekcja_skryptu: whatsup
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tell me your life story. I crave it.
+      pl: Opowiedz mi historię swojego życia. Pragnę tego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory
+    wpisy:
+    - id: wol_3228c9798026be013555
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 11
+      sekcja_skryptu: lifestory
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm Dr. Horse. I'm supposed to be a horse doctor.
+      pl: Jestem dr Horse. Powinnam być końską lekarką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed5fd3cd7bebd6f40434
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 12
+      sekcja_skryptu: lifestory
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Supposed to be?
+      pl: Powinno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_698fa695d73227f4dc49
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 13
+      sekcja_skryptu: lifestory
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah... the original Dr. Horse was my great-great-grandmother. She was truly gifted. Used to cure broken legs by patting the horse on the head and saying "Walk it off, kid, you're fine." My great-grandmother couldn't do <i>that</i>, but she <i>did</i> invent all our miracle patent medicines -- you've heard of our miracle patent medicines, right?
+      pl: Tak... oryginalny doktor Koń był moją praprababcią. Była naprawdę utalentowana. Potrafiła leczyć złamane nogi, klepiąc konia po głowie i mówiąc „Otrząśnij się, mały, nic ci nie jest”. Moja prababcia nie mogła tego zrobić, ale wymyśliła wszystkie nasze cudowne leki <i>patentowe</i>. <i>Słyszałeś</i> o naszych cudownych lekarstwach patentowych, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07dbe6e89053f3df809b
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 14
+      sekcja_skryptu: lifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, not even a little bit.
+      pl: Nie, ani trochę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: medicines
+    wpisy:
+    - id: wol_b940c54b1c2cd3618af6
+      kontekst: data.json:scripts.drhorse_drhorse.medicines
+      linia: 16
+      sekcja_skryptu: medicines
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, come on, you know the jingle, right? My mom wrote the jingle when she was eight years old and it got popular with dueling piano players for some reason. Really put the Dr. Horse brand on the map.
+      pl: Och, daj spokój, znasz ten dżingiel, prawda? Moja mama napisała go, gdy miała osiem lat, i z jakiegoś powodu stał się popularny wśród pianistów pojedynkujących się na fortepiany. To dzięki niemu marka doktor Horse stała się sławna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_638bffc475dc814ac2f7
+      kontekst: data.json:scripts.drhorse_drhorse.medicines
+      linia: 17
+      sekcja_skryptu: medicines
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I demand to hear this jingle immediately.
+      pl: Żądam natychmiast usłyszeć ten dżingiel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: jingle
+    wpisy:
+    - id: wol_d3509a42fe01a3f2f6f6
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 19
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If your horse goes off course!
+      pl: Gdy twój koń zbacza z kursu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48bef8c9eb0fd2cf0fa8
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 20
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Falls into a gorse!
+      pl: Wpada w janowiec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df9c1313ba162f05bde2
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 21
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Strains the pectoral muscle from its neck to its torse!
+      pl: Napina mięsień piersiowy od szyi aż po tułów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f4265eb1bb11bf50195
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 22
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You could scream 'til you're hoarse
+      pl: Możesz krzyczeć, aż będziesz chrypły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0a64e36febcae92d736
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 23
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Or get a divorce
+      pl: Albo weź rozwód
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c81440562bcdcde77a7
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 24
+      sekcja_skryptu: jingle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But if you want your horse fixed, call Dr. Horse!
+      pl: Jeśli chcesz naprawić konia, wezwij dr Horse!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e992c7860ef896f192a7
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 25
+      sekcja_skryptu: jingle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She looks at you expectantly. Her cocktail turns violet and emits a high-pitched whine.
+      pl: Patrzy na ciebie w oczekiwaniu. Jej koktajl robi się fioletowy i wydaje wysoki pisk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfbb82ca2c99db99397b
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 26
+      sekcja_skryptu: jingle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Catchy!
+      pl: Chwytliwe!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: catchy
+    wpisy:
+    - id: wol_52ed2a8bd9256bc4d3c1
+      kontekst: data.json:scripts.drhorse_drhorse.catchy
+      linia: 28
+      sekcja_skryptu: catchy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, my grandparents were fighting a lot, and that definitely comes through in the lyrics, but it's still a good jingle!
+      pl: Tak, moi dziadkowie dużo się kłócili, i to zdecydowanie wychodzi z tekstu, ale to wciąż dobry dżingl!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doesntmatter
+    wpisy:
+    - id: wol_7bee0b3ac65edeea754e
+      kontekst: data.json:scripts.drhorse_drhorse.doesntmatter
+      linia: 29
+      sekcja_skryptu: doesntmatter
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not that a good jingle matters for anything when the current Dr. Horse is a complete failure.
+      pl: Nie żeby dobry dżingiel miał jakiekolwiek znaczenie, skoro obecny doktor Horse jest kompletną porażką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3edb7120ab68a916150f
+      kontekst: data.json:scripts.drhorse_drhorse.doesntmatter
+      linia: 30
+      sekcja_skryptu: doesntmatter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She stares miserably into her cocktail, stirring the ice with what looks like a miniature French horn? I'm sorry, I'm just so distracted by this cocktail.
+      pl: Patrzy nieszczęśliwie w koktajl, mieszając lód czymś, co wygląda jak miniaturowa waltornia? Przepraszam, ten koktajl mnie rozprasza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c8331ea0b87937fbdebe
+      kontekst: data.json:scripts.drhorse_drhorse.doesntmatter
+      linia: 31
+      sekcja_skryptu: doesntmatter
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You wanna talk about it?
+      pl: Chcesz o tym pogadać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory2
+    wpisy:
+    - id: wol_b5802ff8257a365fce9a
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory2
+      linia: 33
+      sekcja_skryptu: lifestory2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Okay. It started when my mom, who was the previous Dr. Horse, died two months ago.
+      pl: Och! Dobrze. Zaczęło się, kiedy dwa miesiące temu zmarła moja mama, poprzednia doktor Horse.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca7ab2e9e566e22f055c
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory2
+      linia: 34
+      sekcja_skryptu: lifestory2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sorry.
+      pl: Przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory3a
+    wpisy:
+    - id: wol_d7b7148e244cfc0f3a1d
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3a
+      linia: 36
+      sekcja_skryptu: lifestory3a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks. That's been really hard, but the worst part is that I'm supposed to be the new Dr. Horse, and I don't know <i>anything</i> about being a horse doctor.
+      pl: Dzięki. To wszystko było bardzo trudne, ale najgorsze jest to, że mam zostać nowym doktorem Horse, a nie wiem <i>absolutnie nic</i> o leczeniu koni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory3
+    wpisy:
+    - id: wol_345db38a4b8f4a32fdc6
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3
+      linia: 37
+      sekcja_skryptu: lifestory3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wait. Really? You didn't go to veterinary school or anything?
+      pl: Czekaj. Naprawdę? Nie chodziłaś do szkoły weterynaryjnej ani nic takiego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5b0e047ace134b2ee73
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3
+      linia: 38
+      sekcja_skryptu: lifestory3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I was supposed to learn like all the Dr. Horses learn, by example! I spent so many years listening to my mom say "Blah blah blah HORSE blah blah" and "Blah blah HORSE blah blah blah" and "Blah blah blah blah HORSE blah blah blah HORSE blah HORSE blah blah." Then sometimes a horse would come in with, I don't know, some <i>problem</i>, and she'd give it some of our miracle horse medicine, and blammo, horse all better. That should be easy enough, right? I should be able to blammo a horse all better!
+      pl: 'Miałam się uczyć tak, jak uczą się wszyscy dr Horse''owie: przez przykład! Spędziłam tyle lat, słuchając, jak mama mówi „Bla bla bla KOŃ bla bla” i „Bla bla KOŃ bla bla bla”, i „Bla bla bla bla KOŃ bla bla bla KOŃ bla KOŃ bla bla”. Czasem przychodził koń z jakimś tam, nie wiem, <i>problemem</i>, mama dawała mu trochę naszego cudownego końskiego lekarstwa i bach, koń jak nowy. To powinno być proste, nie? Też powinnam umieć bachnąć konia do zdrowia!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ebaf630a033b95e3da2
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3
+      linia: 39
+      sekcja_skryptu: lifestory3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I mean... have you <i>thought</i> about going to veterinary school?
+      pl: To znaczy... <i>Myślałeś</i> o pójściu na weterynarię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vetschool
+    wpisy:
+    - id: wol_7a6972c3437dd5db3aa8
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 40
+      sekcja_skryptu: vetschool
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Or maybe, I don't know, reading a book about horse doctoring? Somebody must have written one by now.
+      pl: $lastoption$ Albo może, nie wiem, przeczytanie książki o leczeniu koni? Ktoś musiał już taką napisać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7caac4630cfc4249af11
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 41
+      sekcja_skryptu: vetschool
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They won't be able to teach me what I need to know.
+      pl: Nie zdołają nauczyć mnie tego, czego potrzebuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7165c74fb231b2a28e93
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 42
+      sekcja_skryptu: vetschool
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Which was what, again? We've been chatting so long I lost the thread.
+      pl: Czyli co? Tak długo rozmawialiśmy, że zgubiłem nić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a35291e14a2a1353f81
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 43
+      sekcja_skryptu: vetschool
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How to use my family's miracle patent medicines! Remember I was talking about those?
+      pl: Jak używać cudownych opatentowanych lekarstw mojej rodziny! Pamiętasz, jak o nich mówiłam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0cc75f2affb5b4b8d10c
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 44
+      sekcja_skryptu: vetschool
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh yeah!
+      pl: A tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dce4d34bdfc224b7fea7
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 45
+      sekcja_skryptu: vetschool
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you use the right preparation, you can cure <i>any</i> horse, but I don't know how it works, and my family's all dead now. Oh, wow, that's depressing just by itself. My life is <i>hard</i>.
+      pl: Przy właściwym preparacie można wyleczyć <i>każdego</i> konia, ale ja nie wiem, jak to działa, a cała moja rodzina już nie żyje. O rany, samo to brzmi przygnębiająco. Moje życie jest <i>ciężkie</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68059f894fb817478c9b
+      kontekst: data.json:scripts.drhorse_drhorse.vetschool
+      linia: 46
+      sekcja_skryptu: vetschool
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Does anyone outside your family know how the medicines work?
+      pl: Czy ktoś spoza rodziny wie, jak działają te leki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anyoneknow
+    wpisy:
+    - id: wol_18f8ef04a04158a27c4a
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 48
+      sekcja_skryptu: anyoneknow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, right, I didn't tell you this part yet! I've been tracking a guy named Dr. Henry von Stallion. His great-grandmother stole the horse medicine formulas from <i>my</i> great-grandmother and ever since then the von Stallions have been our archnemeses. It's this <i>whole</i> big thing.
+      pl: Och, racja, tej części jeszcze ci nie opowiadałam! Śledzę faceta nazwiskiem doktor Henry von Stallion. Jego prababcia ukradła receptury końskich lekarstw <i>mojej</i> prababci i od tamtej pory von Stallionowie są naszymi arcywrogami. To <i>cała</i> wielka historia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b62e3c2927954ce9c5cf
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 49
+      sekcja_skryptu: anyoneknow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I can imagine! You tracked this guy to Portalhand?
+      pl: Wyobrażam sobie! Wytropiłeś tego typa aż do Portalhand?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a66b823d17257df21bb
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 50
+      sekcja_skryptu: anyoneknow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I tracked him all the way here to this pub. Did you see the door labeled Explorer's Club?
+      pl: Wytropiłam go aż tutaj, do tego pubu. Widziałeś drzwi z napisem Klub Odkrywców?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a88c4d67e63cbde5714e
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 51
+      sekcja_skryptu: anyoneknow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I did.
+      pl: Tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sawdoor
+    wpisy:
+    - id: wol_e6d73aeb4630c78b9294
+      kontekst: data.json:scripts.drhorse_drhorse.sawdoor
+      linia: 53
+      sekcja_skryptu: sawdoor
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He's in there. They're having some kind of unbelievable story competition, and I think they called him as an expert witness because he knows so <i>very much about horses.</i>
+      pl: Jest w środku. Urządzają jakiś niewiarygodny konkurs opowieści i chyba wezwali go jako biegłego świadka, bo wie <i>tak bardzo dużo o koniach.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hesinthere
+    wpisy:
+    - id: wol_b062938c1527777fdabc
+      kontekst: data.json:scripts.drhorse_drhorse.hesinthere
+      linia: 54
+      sekcja_skryptu: hesinthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She rolls her eyes and mutters something you don't catch into her cocktail. Incidentally, this cocktail is now moss green with a miniature tornado swirling in its center. This happened a while ago but you were busy talking so I didn't mention it. It's still not important. What it is is <i>very cool</i>.
+      pl: Przewraca oczami i mamrocze coś do koktajlu, czego nie łapiesz. Przy okazji koktajl jest teraz mszasto zielony z miniaturowym tornadem w środku. Stało się to jakiś czas temu, ale rozmawiałeś, więc nie wspomniałem. Nadal nie ważne. Za to <i>bardzo fajne</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f82862225c0473a40e20
+      kontekst: data.json:scripts.drhorse_drhorse.hesinthere
+      linia: 55
+      sekcja_skryptu: hesinthere
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He'll recognize me if I get too close to him, so I haven't gone in there myself.
+      pl: Rozpozna mnie, jeśli podejdę zbyt blisko, więc sama tam nie wchodziłam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e17fbff36f4bbaddbc6
+      kontekst: data.json:scripts.drhorse_drhorse.hesinthere
+      linia: 56
+      sekcja_skryptu: hesinthere
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just had what is either a brilliant or a very bad idea.
+      pl: Właśnie miałam albo genialny, albo bardzo zły pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: haveidea
+    wpisy:
+    - id: wol_804a72b2041af1730932
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea
+      linia: 58
+      sekcja_skryptu: haveidea
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, really? I'd <i>kill</i> for a merely bad idea. All my ideas are weapons-grade <i>terrible</i>. What did you have in mind?
+      pl: Naprawdę? <i>Zabiłbym</i> za zły pomysł. Wszystkie moje pomysły są <i>okropne</i>. Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_965280c32bfc17fd355c
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea
+      linia: 59
+      sekcja_skryptu: haveidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Von Stallion corrects you if you say a fake horse fact, right?
+      pl: Von Stallion poprawia cię, gdy powiesz fałszywy fakt o koniach, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goodidea
+    wpisy:
+    - id: wol_1ea8cbcb84022abaaed1
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 61
+      sekcja_skryptu: goodidea
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah?
+      pl: Ta?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1dfba6c2bf7d67150a8
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 62
+      sekcja_skryptu: goodidea
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: We could use that to figure out what the medicines do. Like I could say "My horse broke a leg, so I gave it Dr. Horse's Flying Blue Miracle Powder, and the bone healed right up--"
+      pl: 'Możemy to wykorzystać, żeby dowiedzieć się, co robią te leki. Na przykład mógłbym powiedzieć: „Mój koń złamał nogę, więc dałem mu Latający Niebieski Cudowny Proszek dr Horse, i kość od razu się zrosła--”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d2cd1e2cf98660c48f77
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 63
+      sekcja_skryptu: goodidea
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, I get it! Then he'd say "Oh very much yes, that is exactly what that powder does" or "NO! You <i>fool!</i> That powder is for healing skin lacerations only, go directly to prison! Go directly to prison and die there!" And either way we'd know what the medicine did.
+      pl: 'Och, rozumiem! Wtedy powiedziałby: „Och, jak najbardziej, właśnie to robi ten proszek” albo „NIE! Ty <i>głupcze!</i> Ten proszek służy wyłącznie do leczenia rozcięć skóry, idź prosto do więzienia! Idź prosto do więzienia i tam umrzyj!”. Tak czy inaczej wiedzielibyśmy, co robi lekarstwo.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68478f43dd79325b863c
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 64
+      sekcja_skryptu: goodidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Exactly.
+      pl: Dokładnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: haveidea2a
+    wpisy:
+    - id: wol_8a8c13f19069244022bf
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2a
+      linia: 66
+      sekcja_skryptu: haveidea2a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I love this plan. It's weird as hell.
+      pl: Uwielbiam ten plan. Jest piekielnie dziwny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e101e0af7788367ae5d0
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2a
+      linia: 67
+      sekcja_skryptu: haveidea2a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who knows, it might even work! Oh, and have you got a list of all your family's medicines? I'll probably need that.
+      pl: Kto wie, może nawet zadziała! Masz listę wszystkich leków twojej rodziny? Prawdopodobnie będę tego potrzebował.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aad17dd3801c9e6f1e90
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2a
+      linia: 68
+      sekcja_skryptu: haveidea2a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, take my notebook! I wrote down all five medicines so I could jot down notes if von Stallion started monologuing about them, which he never did, because he <i>sucks.</i> His whole family sucks. They didn't even change the product names, did you know that? Anyway, here you go.
+      pl: Proszę, weź mój notatnik! Zapisałam wszystkie pięć lekarstw, żebym mogła robić notatki, gdyby von Stallion zaczął o nich monologować. Nigdy tego nie zrobił, bo jest <i>do bani.</i> Cała jego rodzina jest do bani. Wiedziałeś, że nawet nie zmienili nazw produktów? Tak czy inaczej, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b5e6de68c6670eb2b6c
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2a
+      linia: 69
+      sekcja_skryptu: haveidea2a
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks! Wish me luck.
+      pl: Dzięki! Życz mi powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: haveidea2
+    wpisy:
+    - id: wol_ef7fea5f096df4e1d550
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2
+      linia: 70
+      sekcja_skryptu: haveidea2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't know about that, hell gets pretty weird in places.
+      pl: Nie wiem co do tego, piekło bywa miejscami całkiem dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_70e1e69cab8cb919abfe
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2
+      linia: 71
+      sekcja_skryptu: haveidea2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87e43702129a846be63d
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2
+      linia: 72
+      sekcja_skryptu: haveidea2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Never mind. Have you got a list of all your family's medicines? I'll probably need that.
+      pl: Nieważne. Masz listę wszystkich lekarstw swojej rodziny? Pewnie będzie mi potrzebna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aad17dd3801c9e6f1e90
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2
+      linia: 73
+      sekcja_skryptu: haveidea2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, take my notebook! I wrote down all five medicines so I could jot down notes if von Stallion started monologuing about them, which he never did, because he <i>sucks.</i> His whole family sucks. They didn't even change the product names, did you know that? Anyway, here you go.
+      pl: Proszę, weź mój notatnik! Zapisałam wszystkie pięć lekarstw, żebym mogła robić notatki, gdyby von Stallion zaczął o nich monologować. Nigdy tego nie zrobił, bo jest <i>do bani.</i> Cała jego rodzina jest do bani. Wiedziałeś, że nawet nie zmienili nazw produktów? Tak czy inaczej, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b5e6de68c6670eb2b6c
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2
+      linia: 74
+      sekcja_skryptu: haveidea2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks! Wish me luck.
+      pl: Dzięki! Życz mi powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goodidea
+    wpisy:
+    - id: wol_c76b3cef33effc4bd8f3
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 75
+      sekcja_skryptu: goodidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: More or less, yeah.
+      pl: Mniej więcej, tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cacd2045b632bbf63acf
+      kontekst: data.json:scripts.drhorse_drhorse.goodidea
+      linia: 76
+      sekcja_skryptu: goodidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is that really how he talks?
+      pl: On naprawdę tak mówi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: haveidea2b
+    wpisy:
+    - id: wol_88225077e61877f32277
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2b
+      linia: 78
+      sekcja_skryptu: haveidea2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's how he talks <i>in my head.</i> Anyway, forget about him, I love this plan you came up with. It's weird as hell.
+      pl: Tak właśnie mówi <i>w mojej głowie.</i> Nieważne, zapomnij o nim. Uwielbiam ten twój plan. Jest piekielnie dziwny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e101e0af7788367ae5d0
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2b
+      linia: 79
+      sekcja_skryptu: haveidea2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who knows, it might even work! Oh, and have you got a list of all your family's medicines? I'll probably need that.
+      pl: Kto wie, może nawet zadziała! Masz listę wszystkich leków twojej rodziny? Prawdopodobnie będę tego potrzebował.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aad17dd3801c9e6f1e90
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2b
+      linia: 80
+      sekcja_skryptu: haveidea2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, take my notebook! I wrote down all five medicines so I could jot down notes if von Stallion started monologuing about them, which he never did, because he <i>sucks.</i> His whole family sucks. They didn't even change the product names, did you know that? Anyway, here you go.
+      pl: Proszę, weź mój notatnik! Zapisałam wszystkie pięć lekarstw, żebym mogła robić notatki, gdyby von Stallion zaczął o nich monologować. Nigdy tego nie zrobił, bo jest <i>do bani.</i> Cała jego rodzina jest do bani. Wiedziałeś, że nawet nie zmienili nazw produktów? Tak czy inaczej, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b5e6de68c6670eb2b6c
+      kontekst: data.json:scripts.drhorse_drhorse.haveidea2b
+      linia: 81
+      sekcja_skryptu: haveidea2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks! Wish me luck.
+      pl: Dzięki! Życz mi powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hesinthere
+    wpisy:
+    - id: wol_6c5c66c4ce78060a2fed
+      kontekst: data.json:scripts.drhorse_drhorse.hesinthere
+      linia: 82
+      sekcja_skryptu: hesinthere
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. I'll look around the bar some more and come up with a plan.
+      pl: Hmm. Poszukam jeszcze po barze i wymyślę plan.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68c5484f4c1bcd93a547
+      kontekst: data.json:scripts.drhorse_drhorse.hesinthere
+      linia: 83
+      sekcja_skryptu: hesinthere
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sorry, I'm fresh out of good ideas. See you later.
+      pl: Ta, przepraszam, skończyły mi się dobre pomysły. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anyoneknow
+    wpisy:
+    - id: wol_05e8fac5e290f0f818fd
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 84
+      sekcja_skryptu: anyoneknow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I didn't.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: didntseedoor
+    wpisy:
+    - id: wol_9a85251d3b8befe3aae7
+      kontekst: data.json:scripts.drhorse_drhorse.didntseedoor
+      linia: 86
+      sekcja_skryptu: didntseedoor
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's that door on the other side of the bar. Von Stallion's in there. They're having some kind of unbelievable story competition, and I think they called him as an expert witness because he knows so <i>very much about horses.</i>
+      pl: To te drzwi po drugiej stronie baru. Von Stallion jest w środku. Urządzają jakiś konkurs nieprawdopodobnych historii i chyba wezwali go jako biegłego, bo wie <i>tak strasznie dużo o koniach.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anyoneknow
+    wpisy:
+    - id: wol_5865d13f7db1b9e21b20
+      kontekst: data.json:scripts.drhorse_drhorse.anyoneknow
+      linia: 87
+      sekcja_skryptu: anyoneknow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe?
+      pl: Może?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory3
+    wpisy:
+    - id: wol_84f46c48ba9a7070ff6b
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3
+      linia: 88
+      sekcja_skryptu: lifestory3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe you should quit being Dr. Horse, do something else.
+      pl: Może powinnaś przestać być dr Horse i robić coś innego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: giveup
+    wpisy:
+    - id: wol_cc1d31b984bf4dc059bf
+      kontekst: data.json:scripts.drhorse_drhorse.giveup
+      linia: 90
+      sekcja_skryptu: giveup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I can't do that! I've spent my whole life being raised as the future Dr. Horse, and I don't know how to <i>do</i> anything else.
+      pl: Nie mogę tego zrobić! Spędziłam całe życie, wychowywana na przyszłą Dr Koń, i nie umiem <i>robić</i> niczego innego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a25c37a212583dd8ead
+      kontekst: data.json:scripts.drhorse_drhorse.giveup
+      linia: 91
+      sekcja_skryptu: giveup
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, sure, but you don't know how to do the thing you're doing <i>now</i>, either. So... potato, potahto.
+      pl: Pewnie, ale ty też nie wiesz, jak <i>to robić</i>. Więc... ziemniaki, potahto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a7814741800916ab26a
+      kontekst: data.json:scripts.drhorse_drhorse.giveup
+      linia: 92
+      sekcja_skryptu: giveup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Dang. You're not wrong. I don't want to give up now, though! I've been tracking this guy for two weeks and I just need to catch him in a careless moment so I can find out how my family's miracle medicines work.
+      pl: Cholera. Masz rację. Ale nie chcę teraz odpuszczać! Tropię tego gościa od dwóch tygodni i muszę tylko przyłapać go w chwili nieuwagi, żeby odkryć, jak działają cudowne lekarstwa mojej rodziny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0899237bb4e2f427a6b
+      kontekst: data.json:scripts.drhorse_drhorse.giveup
+      linia: 93
+      sekcja_skryptu: giveup
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you use the right preparation, you can cure <i>any</i> horse, even if you're me and know nothing about horses.
+      pl: Przy właściwym preparacie można wyleczyć <i>każdego</i> konia — nawet jeśli jest się mną i nie wie się nic o koniach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4083cf15fa89b6365dd
+      kontekst: data.json:scripts.drhorse_drhorse.giveup
+      linia: 94
+      sekcja_skryptu: giveup
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, you've been tracking a guy? What guy?
+      pl: Czekaj, śledziłeś jakiegoś gościa? Jakiego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory2
+    wpisy:
+    - id: wol_4527da65ff037fccaa1b
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory2
+      linia: 95
+      sekcja_skryptu: lifestory2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Was it horse-related?
+      pl: Czy to miało coś wspólnego z końmi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory3b
+    wpisy:
+    - id: wol_3a134ca495aad69d1ab3
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3b
+      linia: 96
+      sekcja_skryptu: lifestory3b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wa-
+      pl: Wa-
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75bb65269f8d0a09514f
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory3b
+      linia: 97
+      sekcja_skryptu: lifestory3b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, it wasn't horse-related, although I do get why everyone asks that. Anyway, that's been hard, but the worst part is that I'm supposed to be the new Dr. Horse, and I don't know <i>anything</i> about being a horse doctor.
+      pl: Nie, to nie miało związku z końmi, chociaż rozumiem, czemu wszyscy o to pytają. Tak czy inaczej było ciężko, ale najgorsze jest to, że mam być nową doktor Horse, a nie wiem <i>nic</i> o leczeniu koni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doesntmatter
+    wpisy:
+    - id: wol_2c4655bd84701874e4b8
+      kontekst: data.json:scripts.drhorse_drhorse.doesntmatter
+      linia: 98
+      sekcja_skryptu: doesntmatter
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Unpack your dang problem for me so I can selflessly go fix it.
+      pl: Rozłóż swój cholerny problem, żebym mógł bezinteresownie iść go naprawić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: jingle
+    wpisy:
+    - id: wol_994fb530f707f5c059a8
+      kontekst: data.json:scripts.drhorse_drhorse.jingle
+      linia: 99
+      sekcja_skryptu: jingle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Your mom wrote that when she was eight, huh?
+      pl: Twoja mama to napisała, gdy miała osiem lat, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yourmomwrotethat
+    wpisy:
+    - id: wol_c23171da76421ebae1f4
+      kontekst: data.json:scripts.drhorse_drhorse.yourmomwrotethat
+      linia: 101
+      sekcja_skryptu: yourmomwrotethat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, her parents were fighting a lot, and that definitely comes through in the lyrics. It's still a good jingle, though!
+      pl: Tak, jej rodzice dużo się kłócili, a to zdecydowanie pasuje do tekstu. To wciąż dobry dżingl!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: medicines
+    wpisy:
+    - id: wol_76ce55d08d4b627cd984
+      kontekst: data.json:scripts.drhorse_drhorse.medicines
+      linia: 102
+      sekcja_skryptu: medicines
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Just tell me your problem, I hate both jingles and fun.
+      pl: Po prostu powiedz, jaki masz problem — nienawidzę i dżingli, i zabawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lifestory
+    wpisy:
+    - id: wol_06ba3434c5535bd7572a
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 103
+      sekcja_skryptu: lifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm going to lie and say yes.
+      pl: Skłamię i powiem, że tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3e4145647cc39e5fbf1d
+      kontekst: data.json:scripts.drhorse_drhorse.lifestory
+      linia: 104
+      sekcja_skryptu: lifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bold of you to assume that I'm familiar with the contents of my own memory.
+      pl: Śmiało z twojej strony zakładać, że znam zawartość własnej pamięci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatsup
+    wpisy:
+    - id: wol_766a25d1e4f5f8e46570
+      kontekst: data.json:scripts.drhorse_drhorse.whatsup
+      linia: 105
+      sekcja_skryptu: whatsup
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm actually going to break the cycle by walking away now.
+      pl: Właściwie to teraz przerwę ten cykl, odchodząc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_c3bfd08b583e8d9b3fa0
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 106
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Something tells me you have a backstory.
+      pl: Coś mi mówi, że masz historię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_175b67a8faa82c37d1b4
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 107
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are you drinking?
+      pl: Co pijesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatchadrinking
+    wpisy:
+    - id: wol_6974aba45739c48900a4
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 109
+      sekcja_skryptu: whatchadrinking
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, wow, thank you for asking that. I was <i>so curious</i>.
+      pl: O, wow, dzięki, że o to zapytałeś. Byłem <i>tak ciekawy</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4f0b8ca5e5909a06814
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 110
+      sekcja_skryptu: whatchadrinking
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'I have no idea what''s in it. The bartender called it a "Wisdom of the Great Snail #57." I didn''t even order it, he just handed it to me and said "Sometimes the tears that remain inside your eyeballs are saltier than the tears that dry up on your face," then he winked at me and ducked under the bar.'
+      pl: 'Nie mam pojęcia, co jest w środku. Barman nazwał to „Mądrością Wielkiego Ślimaka nr 57”. Nawet tego nie zamawiałam, po prostu mi podał i powiedział: „Czasem łzy, które pozostają w gałkach ocznych, są bardziej słone niż te, które wysychają na twarzy”, a potem mrugnął do mnie i schował się pod barem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_25bed26a3db1b2bae096
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 111
+      sekcja_skryptu: whatchadrinking
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I <i>actually</i> wanted a beer, but you know what they say, "when in Portalhand shut up and drink your weird blue drink, maybe it'll give you psychic powers or something, who knows."
+      pl: '<i>Tak naprawdę</i> chciałam piwo, ale wiesz, co mówią: „kiedy jesteś w Portalhand, zamknij się i wypij ten dziwny niebieski napój, może da ci moce psychiczne czy coś, kto wie”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c212fef17998a47ba4b
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 112
+      sekcja_skryptu: whatchadrinking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: <i>Do</i> they say that?
+      pl: <i>Naprawdę</i> tak mówią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dotheysaythat
+    wpisy:
+    - id: wol_4ae73463ab89eca9e68d
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 114
+      sekcja_skryptu: dotheysaythat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>I'm</i> saying it now, and I think it's going to catch on. Imagine a white cotton undershirt with "When In Portalhand Shut Up & Drink Your Weird Blue Drink" on the front and "Maybe It'll Give You Psychic Powers, Who Knows" on the back. Everyone's going to want to own that, right?
+      pl: <i>Teraz</i> tak się mówi i moim zdaniem to się przyjmie. Wyobraź sobie biały bawełniany podkoszulek z napisem „W Portalhand zamknij się i pij swój dziwny niebieski napój” z przodu oraz „Może da ci moce parapsychiczne, kto wie” z tyłu. Każdy będzie chciał taki mieć, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c02eb0cd93e654d3f243
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 115
+      sekcja_skryptu: dotheysaythat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Eh, I could be wrong. I'm probably wrong. I'm wrong about a lot of things.
+      pl: Ech, mogę się mylić. Pewnie się mylę. Często się mylę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1f3731f469bf5e287b40
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 116
+      sekcja_skryptu: dotheysaythat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i>
+      pl: <i>westchnienie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_adaa34e26419b408c712
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 117
+      sekcja_skryptu: dotheysaythat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The optimal moment for my horse joke has passed, but, why the long face?
+      pl: Optymalny moment na mój koński żart minął, ale... czemu taka długa mina?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e77f42d7e2f055152fcd
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 118
+      sekcja_skryptu: dotheysaythat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You want to talk about it?
+      pl: Chcesz o tym pogadać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96618a5bef59c36f2a56
+      kontekst: data.json:scripts.drhorse_drhorse.dotheysaythat
+      linia: 119
+      sekcja_skryptu: dotheysaythat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Speaking of cotton undershirts, I'm leaving now.
+      pl: Skoro o bawełnianych podkoszulkach mowa, odchodzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whatchadrinking
+    wpisy:
+    - id: wol_051db81b76e86655b728
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 120
+      sekcja_skryptu: whatchadrinking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So why the long face? I'm <i>determined</i> to tell my horse joke.
+      pl: To czemu taka długa mina? <i>Mam zamiar</i> opowiedzieć mój koński żart.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17d17215751ea321e277
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 121
+      sekcja_skryptu: whatchadrinking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So I noticed there's a horse in here, and you look sad.
+      pl: Zauważyłem, że tu jest koń, a ty wyglądasz na smutnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1e641c84541fa2b07d8
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 122
+      sekcja_skryptu: whatchadrinking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've changed my mind. I demand to hear your life story right now.
+      pl: Zmieniłem zdanie. Żądam usłyszeć twoją historię życia natychmiast.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f68c24d15e12e361092
+      kontekst: data.json:scripts.drhorse_drhorse.whatchadrinking
+      linia: 123
+      sekcja_skryptu: whatchadrinking
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Speaking of cocktails, I'm leaving now.
+      pl: Skoro o koktajlach mowa, odchodzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_f864c5f182faa03fc7d4
+      kontekst: data.json:scripts.drhorse_drhorse.intro
+      linia: 124
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm just gonna go.
+      pl: Po prostu idę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leftwithouthearinglifestory
+    wpisy:
+    - id: wol_c69ce61c49599adf59aa
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 125
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She's still sighing glumly into her cocktail, which is... are those tiny semaphore flags emerging from the depths? Is that a tiny boat sinking after crashing into an ice cube? How did they <i>make</i> this cocktail?
+      pl: Nadal smutno wzdycha w koktajl, który... czy to maleńkie flagi semaforowe wynurzają się z głębi? Czy to maleńka łódka tonie po zderzeniu z kostką lodu? Jak oni <i>zrobili</i> ten koktajl?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f67fb3e0f95a6e967d2c
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 126
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why the long face? That's a horse joke. They have long faces.
+      pl: Czemu taka długa mina? To żart o koniu. Konie mają długie mordy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1758e02d747240e4f77f
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 127
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You may now tell me what is up, if you so choose.
+      pl: Możesz mi teraz powiedzieć, o co chodzi, jeśli chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1e641c84541fa2b07d8
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 128
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've changed my mind. I demand to hear your life story right now.
+      pl: Zmieniłem zdanie. Żądam usłyszeć twoją historię życia natychmiast.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b27fab6ef6cc72bde39
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 129
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, literally what are you drinking?
+      pl: Okej, dosłownie — co pijesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ffa1875a57020a1e16a
+      kontekst: data.json:scripts.drhorse_drhorse.leftwithouthearinglifestory
+      linia: 130
+      sekcja_skryptu: leftwithouthearinglifestory
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave without saying anything
+      pl: Wyjdź, nie mówiąc ani słowa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: isthereplanyet
+    wpisy:
+    - id: wol_24725375dc36fb882c74
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 131
+      sekcja_skryptu: isthereplanyet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, hi! Are you back because you have a brilliant plan to solve my problem?
+      pl: Och, cześć! Wróciłeś, bo masz genialny plan rozwiązania mojego problemu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28bf4863aeb04a1b9e1a
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 132
+      sekcja_skryptu: isthereplanyet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... what was your problem again?
+      pl: Um... jaki znowu miałeś problem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51e11bf96d2336915c95
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 133
+      sekcja_skryptu: isthereplanyet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I need to know how to use my family's patent horse-curing medicines, but only one person on earth knows how. His name is Dr. Henry von Stallion, he's here in this tavern judging a story competition, and I can't just ask him because our families have been rivals for generations. You sure you don't remember this? We had a whole conversation about it.
+      pl: Muszę się dowiedzieć, jak stosować patentowe końskie lekarstwa mojej rodziny, ale wie to tylko jedna osoba na świecie. Nazywa się dr Henry von Stallion, siedzi tu, w tej tawernie, i sędziuje w konkursie opowieści, a nie mogę go po prostu zapytać, bo nasze rodziny rywalizują ze sobą od pokoleń. Na pewno tego nie pamiętasz? Przecież odbyliśmy o tym całą rozmowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc891d46de40e06ff53c
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 134
+      sekcja_skryptu: isthereplanyet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, right, <i>that</i> problem! Well, I've been thinking about it a <i>lot.</i>
+      pl: Och, racja, <i>ten</i> problem! Cóż, <i>dużo</i> o nim myślałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d43142197ef8da7f001d
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 135
+      sekcja_skryptu: isthereplanyet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! And?
+      pl: Świetnie! I?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e6e5b8b204002d5f3bc8
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 136
+      sekcja_skryptu: isthereplanyet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have what is either a brilliant or a very bad idea.
+      pl: Mam albo genialny, albo bardzo zły pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4d02edb7d300250bfd2e
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 137
+      sekcja_skryptu: isthereplanyet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I think I need to find out more about this story competition first. I'll be back.
+      pl: Chyba najpierw muszę dowiedzieć się więcej o tym konkursie opowiadań. Wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b70901c59d790dc291b
+      kontekst: data.json:scripts.drhorse_drhorse.isthereplanyet
+      linia: 138
+      sekcja_skryptu: isthereplanyet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I didn't come up with anything. See you!
+      pl: Nic mi nie przyszło do głowy. Do zobaczenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookunfinished
+    wpisy:
+    - id: wol_9041e74ca39611240f91
+      kontekst: data.json:scripts.drhorse_drhorse.notebookunfinished
+      linia: 139
+      sekcja_skryptu: notebookunfinished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi! How's the notebook coming along?
+      pl: Cześć! Jak idzie z notatnikiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb4de3ab2789d83d4862
+      kontekst: data.json:scripts.drhorse_drhorse.notebookunfinished
+      linia: 140
+      sekcja_skryptu: notebookunfinished
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I still have some data to fill in, but I wanted to take a break and see what your cocktail was doing.
+      pl: Zostało mi jeszcze trochę danych do uzupełnienia, ale chciałem zrobić przerwę i zobaczyć, co porabia twój koktajl.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49d32dbab9c25d7ac77d
+      kontekst: data.json:scripts.drhorse_drhorse.notebookunfinished
+      linia: 141
+      sekcja_skryptu: notebookunfinished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She puts her ear close to the ice.
+      pl: Przykłada ucho do lodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfbf717c25f54469d3ad
+      kontekst: data.json:scripts.drhorse_drhorse.notebookunfinished
+      linia: 142
+      sekcja_skryptu: notebookunfinished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Still baroque chamber orchestra music, I think.
+      pl: Chyba nadal barokowa muzyka orkiestry kameralnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_faa65bb928508bdb55ce
+      kontekst: data.json:scripts.drhorse_drhorse.notebookunfinished
+      linia: 143
+      sekcja_skryptu: notebookunfinished
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gotcha. Okay, I'll be back.
+      pl: Jasne. Okej, wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal
+    wpisy:
+    - id: wol_cb1aee2f10aac4318fc9
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 144
+      sekcja_skryptu: notebookfinishednodeal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Hi! You, uh, you came back.
+      pl: Och! Cześć! Ty, yyy, wróciłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c8accd93821a82698ba
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 145
+      sekcja_skryptu: notebookfinishednodeal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great news! I finished filling out your notebook. Now you can achieve your goal of becoming a horse doctor!
+      pl: Świetne wieści! Skończyłem uzupełniać twój notatnik. Teraz możesz osiągnąć cel i zostać końskim lekarzem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21424811550bc5502cb3
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 146
+      sekcja_skryptu: notebookfinishednodeal
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She visibly deflates, looking away from you and into her cocktail. It emits the sound of an owl hooting far away, or possibly an owl is hooting somewhere far away. Hard to say.
+      pl: Widać, jak opada, odwracając wzrok od ciebie w koktajl. Wydaje dźwięk sowy huczącej daleko — albo sowa gdzieś huczy. Trudno powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1a3ae69b3e19bafc7c8
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 147
+      sekcja_skryptu: notebookfinishednodeal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, man, I really horsed this one up. Promise you won't be mad if I tell you something?
+      pl: Rany, ale to skoniłem. Obiecasz, że się nie zezłościsz, jeśli ci coś powiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ca18eea841dad0acbf1
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 148
+      sekcja_skryptu: notebookfinishednodeal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tell me what?
+      pl: Powiedz mi co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal2
+    wpisy:
+    - id: wol_250d97888afc058e43c4
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 150
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, okay, I'll just tell you. It's always better to rip the bandage off the eyeball than to peel it off slowly, you know?
+      pl: Powiem ci. Zawsze lepiej oderwać bandaż od gałki ocznej, niż powoli go odrywać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a097e22ea7191a925a79
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 151
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You think a bandage goes on an eyeball? You're right, lady, you'd make a <i>terrible</i> horse doctor. Worse than my wife, and she's allergic to horses. Terribly allergic. Can't be in the same room with one or her head falls off. Not sure how they figured that one out.
+      pl: Myślisz, że bandaż leci na gałkę oczną? Masz rację, kobieto, byłabyś <i>okropnym lekarzem</i> od koni. Gorzej niż moja żona i jest uczulona na konie. Strasznie uczulona. Nie może być w tym samym pokoju z jednym albo odpadnie jej głowa. Nie wiem, jak na to wpadli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69221589b3f325073616
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 152
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '@firstname@, this is Detective Cincinnato.'
+      pl: '@firstname@, to jest detektyw Cincinnato.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_da9cdedd4e24c5bd0ba9
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 153
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nice to mee-- wait, how do you know my name?
+      pl: Miło cię poz... chwila, skąd znasz moje imię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48e1c976eb426c88e704
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 154
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He told me. He's a very good detective.
+      pl: Powiedział mi. Jest bardzo dobrym detektywem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e47735ec04cb8905daa4
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 155
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The detective waggles his cigar at you while making gestures with his eyebrows. You're not sure what he's trying to communicate.
+      pl: Detektyw macha cygarem w twoją stronę, jednocześnie gestykulując brwiami. Nie wiesz, co próbuje przekazać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_af4d96cdd067f6fb9ec6
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 156
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So what were you going to tell me?
+      pl: Co miałeś mi powiedzieć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal3
+    wpisy:
+    - id: wol_f1de5135013c2e2a8eec
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal3
+      linia: 158
+      sekcja_skryptu: notebookfinishednodeal3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The short version is, Detective Cincinnato's been tracking me the whole time I've been tracking von Stallion, and he thinks I've been doing a really good job! Good enough that he popped out of cover to ask if I'd consider a career as a private investigator. And I was like, wow, I have a <i>skill!</i> This could really be a game-changer for me.
+      pl: 'W skrócie: detektyw Cincinnato śledził mnie przez cały czas, gdy ja śledziłam von Stalliona, i uważa, że świetnie mi poszło! Tak świetnie, że wyszedł z ukrycia i zapytał, czy rozważyłabym karierę prywatnego detektywa. A ja na to: wow, mam <i>talent!</i> To może naprawdę odmienić moje życie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b179c40f76b6232025ff
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal3
+      linia: 159
+      sekcja_skryptu: notebookfinishednodeal3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So I'm, uh, I'm going to do that instead of trying to be a horse doctor.
+      pl: Więc, yyy, zrobię to, zamiast próbować być końską lekarką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f926ccd98f2290c11829
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal3
+      linia: 160
+      sekcja_skryptu: notebookfinishednodeal3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's great! Seriously.
+      pl: To świetnie! Naprawdę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bb1eb8293029b8f1926
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal3
+      linia: 161
+      sekcja_skryptu: notebookfinishednodeal3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're not mad? I feel terrible for having made you take all those horse doctoring notes that I'm not going to use.
+      pl: Nie jesteś wściekły? Czuję się okropnie z tym, że kazałam ci robić te wszystkie notatki z końskiej medycyny, których i tak nie zamierzam wykorzystać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a08c3a8a67b2477d1746
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal3
+      linia: 162
+      sekcja_skryptu: notebookfinishednodeal3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, you could compensate me. Just so you feel better.
+      pl: No, mógłbyś mnie wynagrodzić. Żebyś się poczuł lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal4
+    wpisy:
+    - id: wol_e8dc72341f9672123584
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 164
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, of course! Keep the notebook, and take this complete set of Dr. Horse's patent medicines. Now <i>you</i> can cure any horse that's having a problem!
+      pl: Tak, oczywiście! Zatrzymaj notatnik i weź cały zestaw patentowych lekarstw marki dr Horse. <i>Teraz możesz</i> wyleczyć każdego konia, który ma problem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_af72270eb0e7a0f0c6b7
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 165
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Exciting! Does this mean I'm Dr. Horse now?
+      pl: Ale emocje! Czy to znaczy, że teraz ja jestem doktor Horse?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d84531296cc2795a958e
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 166
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, wow, that's a heavy question. I think... yes? But now <i>I</i> need a new name.
+      pl: Och, łał, to poważne pytanie. Chyba... tak? Ale teraz <i>ja</i> potrzebuję nowego imienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4c7769a97cf857b31816
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 167
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm... how about @portalhand_pickledbird_explorersclub_speakerfirstname@ @portalhand_pickledbird_explorersclub_speakerlastname@, Private Investigator?
+      pl: Hmm... A może @portalhand_pickledbird_explorersclub_speakerfirstname@ @portalhand_pickledbird_explorersclub_speakerlastname@, Prywatny Detektyw?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@portalhand_pickledbird_explorersclub_speakerfirstname@'
+      - '@portalhand_pickledbird_explorersclub_speakerlastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a94051b6d3c9085002e
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 168
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha, that's <i>perfect!</i> Thanks for everything, Dr. Horse.
+      pl: Ha, ha, to <i>idealnie!</i> Dzięki za wszystko, doktor Horse.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63305516ec73d42361f8
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal4
+      linia: 169
+      sekcja_skryptu: notebookfinishednodeal4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck out there, Detective @portalhand_pickledbird_explorersclub_speakerlastname@.
+      pl: Powodzenia, Detektywie @portalhand_pickledbird_explorersclub_speakerlastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@portalhand_pickledbird_explorersclub_speakerlastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal2
+    wpisy:
+    - id: wol_abe604ff3fac35569f91
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal2
+      linia: 170
+      sekcja_skryptu: notebookfinishednodeal2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm excited to find out where all this is going.
+      pl: Nie mogę się doczekać, dokąd to wszystko zmierza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinishednodeal
+    wpisy:
+    - id: wol_532cd40734731c47682a
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinishednodeal
+      linia: 171
+      sekcja_skryptu: notebookfinishednodeal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: My future self and I don't make promises for each other.
+      pl: Ja z przyszłości i ja nie składamy sobie obietnic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notebookfinisheddeal
+    wpisy:
+    - id: wol_b017ada0147803792cd9
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinisheddeal
+      linia: 172
+      sekcja_skryptu: notebookfinisheddeal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh hi, you're back!
+      pl: O, cześć, wróciłeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9078e98f95d19adde499
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinisheddeal
+      linia: 173
+      sekcja_skryptu: notebookfinisheddeal
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah! I talked to Professor von Stallion. Who is sitting out here somehow, even though I could <i>swear</i> he never left the Explorer's Club Headquarters?
+      pl: Tak! Rozmawiałem z profesorem von Stallionem. Kto tu w jakiś sposób siedzi, mimo że mogę <i>przysiąc, że</i> nigdy nie opuścił siedziby Explorer's Club?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4748b8b472d8f1ce00a7
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinisheddeal
+      linia: 174
+      sekcja_skryptu: notebookfinisheddeal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's a secret passage. Sometimes I get bored while people are talking and sneak out here to pet this horse. They never even notice!
+      pl: Jest tu sekretne przejście. Czasem nudzę się, gdy ludzie gadają, i wymykam się pogłaskać tego konia. Nigdy nawet nie zauważają!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac1a18d5cfbb859bafb0
+      kontekst: data.json:scripts.drhorse_drhorse.notebookfinisheddeal
+      linia: 175
+      sekcja_skryptu: notebookfinisheddeal
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So how's the conversation going?
+      pl: To jak idzie rozmowa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howsitgoing
+    wpisy:
+    - id: wol_5c4d5fc7de2cac6392d2
+      kontekst: data.json:scripts.drhorse_drhorse.howsitgoing
+      linia: 177
+      sekcja_skryptu: howsitgoing
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's really interesting! We're comparing our grandparents' diary entries, and guess what? My grandmother was a gifted herbalist, but she used to be as useless at horse facts as I am! Frederika von Stallion taught her everything she knew.
+      pl: To naprawdę ciekawe! Porównujemy wpisy z pamiętników naszych dziadków i wiesz co? Moja babcia była utalentowaną zielarką, ale kiedyś znała się na koniach równie marnie jak ja! Frederika von Stallion nauczyła ją wszystkiego, co sama wiedziała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_965de926fbc10d6b968b
+      kontekst: data.json:scripts.drhorse_drhorse.howsitgoing
+      linia: 178
+      sekcja_skryptu: howsitgoing
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Similarly, <i>she</i> knew nothing about medicine that she didn't learn from Dr. Juanita Horse.
+      pl: Podobnie <i>ona</i> nie wiedziała o medycynie niczego, czego nie nauczyła się od doktor Juanity Horse.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e854f8a430715c42749f
+      kontekst: data.json:scripts.drhorse_drhorse.howsitgoing
+      linia: 179
+      sekcja_skryptu: howsitgoing
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They were a team! How cute is that?
+      pl: Byli drużyną! Czy to nie urocze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df1a64df887e80d58b14
+      kontekst: data.json:scripts.drhorse_drhorse.howsitgoing
+      linia: 180
+      sekcja_skryptu: howsitgoing
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Real cute! I'll let y'all get back to it.
+      pl: Urocze! Zostawię was w spokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: realcute
+    wpisy:
+    - id: wol_a761c64ad290bcc6aec9
+      kontekst: data.json:scripts.drhorse_drhorse.realcute
+      linia: 182
+      sekcja_skryptu: realcute
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hold on a second! I want to give you this.
+      pl: Chwileczkę! Chcę ci to dać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e1f93ea23c9da07204b
+      kontekst: data.json:scripts.drhorse_drhorse.realcute
+      linia: 183
+      sekcja_skryptu: realcute
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You should keep the notebook, too. Von Stallion's making me a better one with fewer angry tearstains and pencil stabs.
+      pl: Ty też powinieneś zatrzymać notatnik. Von Stallion robi ze mnie lepszego z mniejszą ilością rozgniewanych plam łzowych i dźgnięć ołówkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74382bfea7b68f0263e1
+      kontekst: data.json:scripts.drhorse_drhorse.realcute
+      linia: 184
+      sekcja_skryptu: realcute
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now you can fix any horse that is having a problem! Just try not to kill it.
+      pl: Teraz możesz wyleczyć każdego konia, który ma jakiś problem! Tylko postaraj się go nie zabić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_664ae11e66cce69c63a6
+      kontekst: data.json:scripts.drhorse_drhorse.realcute
+      linia: 185
+      sekcja_skryptu: realcute
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks! See you both later.
+      pl: Dzięki! Do zobaczenia obojgu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkedaboutidea
+    wpisy:
+    - id: wol_366f5af1c21f462cd568
+      kontekst: data.json:scripts.drhorse_drhorse.talkedaboutidea
+      linia: 1
+      sekcja_skryptu: talkedaboutidea
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you think of an idea yet? I tried to, but then I got distracted making a mental list of all my failures.
+      pl: Wpadłeś już na jakiś pomysł? Próbowałem, ale rozproszyło mnie układanie w głowie listy wszystkich moich porażek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29e74f00feb5cd37d3e4
+      kontekst: data.json:scripts.drhorse_drhorse.talkedaboutidea
+      linia: 2
+      sekcja_skryptu: talkedaboutidea
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A small colored handkerchief floats to the surface in the center of her cocktail. She pulls it out. Another handkerchief follows, then another.
+      pl: Mała kolorowa chusteczka wypływa na powierzchnię w centrum jej koktajlu. Wyciąga ją. Pojawia się kolejna, potem kolejna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf783cf306a66051dac0
+      kontekst: data.json:scripts.drhorse_drhorse.talkedaboutidea
+      linia: 3
+      sekcja_skryptu: talkedaboutidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I've got what is either a brilliant or a very bad idea.
+      pl: Ta, mam albo genialny, albo bardzo zły pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c5c66c4ce78060a2fed
+      kontekst: data.json:scripts.drhorse_drhorse.talkedaboutidea
+      linia: 4
+      sekcja_skryptu: talkedaboutidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. I'll look around the bar some more and come up with a plan.
+      pl: Hmm. Poszukam jeszcze po barze i wymyślę plan.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68c5484f4c1bcd93a547
+      kontekst: data.json:scripts.drhorse_drhorse.talkedaboutidea
+      linia: 5
+      sekcja_skryptu: talkedaboutidea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sorry, I'm fresh out of good ideas. See you later.
+      pl: Ta, przepraszam, skończyły mi się dobre pomysły. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1169
+  skrypt: drhorse_vonstallionpopup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a1c3f2ad59cd9bb64228
+      kontekst: data.json:scripts.drhorse_vonstallionpopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dr. Horse pauses in the middle of an animated discussion with Professor von Stallion to flash you a grin and salute you with her cocktail.
+      pl: dr Horse przerywa ożywioną dyskusję z profesorem von Stallion, żeby uśmiechnąć się do ciebie i salutować ci koktajlem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1398
+  skrypt: fort1_generalgob
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: checkedit
+    wpisy:
+    - id: wol_70e1e69cab8cb919abfe
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 35
+      sekcja_skryptu: checkedit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1453
+  skrypt: fort4_guyconvo2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: outfox
+    wpisy:
+    - id: wol_70e1e69cab8cb919abfe
+      kontekst: data.json:scripts.fort4_guyconvo2.outfox
+      linia: 19
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1484
+  skrypt: fort6_bootsguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dirtwater
+    wpisy:
+    - id: wol_70e1e69cab8cb919abfe
+      kontekst: data.json:scripts.fort6_bootsguy.dirtwater
+      linia: 14
+      sekcja_skryptu: dirtwater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1494
+  skrypt: fort6_mushlady
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dicker
+    wpisy:
+    - id: wol_68478f43dd79325b863c
+      kontekst: data.json:scripts.fort6_mushlady.dicker
+      linia: 21
+      sekcja_skryptu: dicker
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Exactly.
+      pl: Dokładnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000112
+  skrypt: house_ghost_lawyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: startover
+    wpisy:
+    - id: wol_1f3731f469bf5e287b40
+      kontekst: house.json:scripts.house_ghost_lawyer.startover
+      linia: 378
+      sekcja_skryptu: startover
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i>
+      pl: <i>westchnienie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000156
+  skrypt: house_intercom_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talk3
+    wpisy:
+    - id: wol_1f3731f469bf5e287b40
+      kontekst: house.json:scripts.house_intercom_talk.talk3
+      linia: 19
+      sekcja_skryptu: talk3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: <i>sigh</i>
+      pl: <i>westchnienie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1658
+  skrypt: inkwell_sideroom_rafael_stillatit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1f3731f469bf5e287b40
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i>
+      pl: <i>westchnienie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1900
+  skrypt: mine6_talkcultist3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1ea8cbcb84022abaaed1
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah?
+      pl: Ta?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: garye
+    wpisy:
+    - id: wol_70e1e69cab8cb919abfe
+      kontekst: data.json:scripts.pardner_talk.garye
+      linia: 129
+      sekcja_skryptu: garye
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh?
+      pl: Hę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_4
+    wpisy:
+    - id: wol_0cc75f2affb5b4b8d10c
+      kontekst: data.json:scripts.pardner_talk.pete_4
+      linia: 3
+      sekcja_skryptu: pete_4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah!
+      pl: A tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_4
+    wpisy:
+    - id: wol_0cc75f2affb5b4b8d10c
+      kontekst: data.json:scripts.pardner_talk.alice_4
+      linia: 3
+      sekcja_skryptu: alice_4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah!
+      pl: A tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_4
+    wpisy:
+    - id: wol_0cc75f2affb5b4b8d10c
+      kontekst: data.json:scripts.pardner_talk.gary_4
+      linia: 3
+      sekcja_skryptu: gary_4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah!
+      pl: A tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_4
+    wpisy:
+    - id: wol_0cc75f2affb5b4b8d10c
+      kontekst: data.json:scripts.pardner_talk.susie_4
+      linia: 3
+      sekcja_skryptu: susie_4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah!
+      pl: A tak!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_21c
+    wpisy:
+    - id: wol_1ea8cbcb84022abaaed1
+      kontekst: data.json:scripts.pardner_talk.gary_21c
+      linia: 5
+      sekcja_skryptu: gary_21c
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah?
+      pl: Ta?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2135
+  skrypt: puntown_grandma
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: researcherrepeat
+    wpisy:
+    - id: wol_f864c5f182faa03fc7d4
+      kontekst: data.json:scripts.puntown_grandma.researcherrepeat
+      linia: 258
+      sekcja_skryptu: researcherrepeat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm just gonna go.
+      pl: Po prostu idę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2206
+  skrypt: ranch4_alexandria
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fortknow
+    wpisy:
+    - id: wol_ca7ab2e9e566e22f055c
+      kontekst: data.json:scripts.ranch4_alexandria.fortknow
+      linia: 29
+      sekcja_skryptu: fortknow
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sorry.
+      pl: Przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2429
+  skrypt: re_skeletone2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talk
+    wpisy:
+    - id: wol_1f3731f469bf5e287b40
+      kontekst: data.json:scripts.re_skeletone2.talk
+      linia: 6
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>sigh</i>
+      pl: <i>westchnienie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2536
+  skrypt: skullshadowhomestead_karaokegrandma
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: drhorsejingle2
+    wpisy:
+    - id: wol_48bef8c9eb0fd2cf0fa8
+      kontekst: data.json:scripts.skullshadowhomestead_karaokegrandma.drhorsejingle2
+      linia: 82
+      sekcja_skryptu: drhorsejingle2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Falls into a gorse!
+      pl: Wpada w janowiec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c81440562bcdcde77a7
+      kontekst: data.json:scripts.skullshadowhomestead_karaokegrandma.drhorsejingle2
+      linia: 86
+      sekcja_skryptu: drhorsejingle2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But if you want your horse fixed, call Dr. Horse!
+      pl: Jeśli chcesz naprawić konia, wezwij dr Horse!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2543
+  skrypt: skullshadowhomestead_teagarden_jeremy_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: intro3
+    wpisy:
+    - id: wol_68478f43dd79325b863c
+      kontekst: data.json:scripts.skullshadowhomestead_teagarden_jeremy_talk.intro3
+      linia: 44
+      sekcja_skryptu: intro3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Exactly.
+      pl: Dokładnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_ca7ab2e9e566e22f055c
+      kontekst: data.json:scripts.skullshadowhomestead_teagarden_jeremy_talk.intro2
+      linia: 46
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sorry.
+      pl: Przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2722
+  skrypt: tut_petegethat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: puton2
+    wpisy:
+    - id: wol_1ea8cbcb84022abaaed1
+      kontekst: data.json:scripts.tut_petegethat.puton2
+      linia: 15
+      sekcja_skryptu: puton2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah?
+      pl: Ta?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

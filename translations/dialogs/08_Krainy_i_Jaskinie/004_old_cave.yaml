@@ -1,0 +1,392 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: old_cave
+zrodlowy_batch: 067_dialog_loc_geocave_old_cave.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 5
+liczba_wpisow: 21
+sceny:
+- kolejnosc_w_danych_gry: 1520
+  skrypt: geocave_floatnotice
+  pomieszczenie: &id001
+    id: geocave
+    nazwa_en: Old Cave
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b1adef5c86a541eed219
+      kontekst: data.json:scripts.geocave_floatnotice.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be one of those amygdaloidal levitites Dr. Morton mentioned.
+      pl: To musi być jeden z tych amygdaloidalnych levititów, o których wspominał dr Morton.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a94b06b06907d45e50bf
+      kontekst: data.json:scripts.geocave_floatnotice.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A weird floating rock!
+      pl: Dziwny unoszący się kamień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1522
+  skrypt: geocave_pack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b6d7a68450ae80d3256a
+      kontekst: data.json:scripts.geocave_pack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some previous visitor left their gear behind...
+      pl: Jakiś poprzedni gość zostawił swój sprzęt...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dc92dd97e84dd4af40be
+      kontekst: data.json:scripts.geocave_pack.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ransack the knapsack
+      pl: Przeszukaj plecak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1523
+  skrypt: geocave_rock
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_cf98cc7789a862247e72
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rock darts and weaves about.  You need to take a sample from it, but you're not sure what the best approach is...
+      pl: Skała dartuje i wija się. Musisz wziąć próbkę, ale nie wiesz, jak najlepiej podejść...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed7b15fc5945d20b1dee
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Overpower it [40 Muscle]
+      pl: Przytłocz to [40 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[40 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mus
+    wpisy:
+    - id: wol_2efaea8755331e562b57
+      kontekst: data.json:scripts.geocave_rock.mus
+      linia: 3
+      sekcja_skryptu: mus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the rock in a... well, not a chokehold. And um, not a half-nelson.
+      pl: Chwytasz kamień w... no, nie duszenie. I eee, nie half-nelson.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a5b9883696f4af8736a
+      kontekst: data.json:scripts.geocave_rock.mus
+      linia: 4
+      sekcja_skryptu: mus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Let's just say you wrestle it to the ground and extract a slice of it.
+      pl: Powiedzmy po prostu, że obalasz to na ziemię i wycinasz kawałek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ed7b15fc5945d20b1dee
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Overpower it [40 Muscle]
+      pl: Przytłocz to [40 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[40 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28ba6b1d8afd9b8705b7
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trick it [Hornswogglin' 5]
+      pl: Oszukaj to [Oszukiwanie 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trick
+    wpisy:
+    - id: wol_884adde3b514a7da7dce
+      kontekst: data.json:scripts.geocave_rock.trick
+      linia: 8
+      sekcja_skryptu: trick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It takes a little while, but you manage to convince the rock to give you a little slice of itself.
+      pl: Zajmuje to chwilę, ale udaje ci się przekonać skałę, żeby dała ci mały kawałek siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_28ba6b1d8afd9b8705b7
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Trick it [Hornswogglin' 5]
+      pl: Oszukaj to [Oszukiwanie 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56bcabcaf637434ac47f
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bribe it [3,000 Meat]
+      pl: Przekup go [3 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[3,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bribe
+    wpisy:
+    - id: wol_a980590505af852bf122
+      kontekst: data.json:scripts.geocave_rock.bribe
+      linia: 11
+      sekcja_skryptu: bribe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You bang Meat against the rock until a slice gets knocked loose.
+      pl: Uderzasz Mięsem o skałę, aż odpada kawałek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e68f3015c982344c137f
+      kontekst: data.json:scripts.geocave_rock.bribe
+      linia: 12
+      sekcja_skryptu: bribe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately this gets your Meat all dirty, and you don't want to put it back in your wallet where it would mess up the rest of your Meat. So you throw it away.
+      pl: Niestety brudzi to twoje Mięso i nie chcesz wracać z nim do portfela, bo zepsuje resztę Mięsa. Więc wyrzucasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_56bcabcaf637434ac47f
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Bribe it [3,000 Meat]
+      pl: Przekup go [3 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[3,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f407ffe6302a5a1dd7cc
+      kontekst: data.json:scripts.geocave_rock.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it for now
+      pl: Zostaw to na razie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1525
+  skrypt: geocave_rockpopup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_693046aaee1be0b97c6a
+      kontekst: data.json:scripts.geocave_rockpopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is almost certainly the rock Dr. Morton wants.
+      pl: To niemal na pewno skała, której chce dr Morton.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7ab7942f6d268a374ecc
+      kontekst: data.json:scripts.geocave_rockpopup.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Approach it
+      pl: Podejdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_a6fb0a46edadf924b5d0
+      kontekst: data.json:scripts.geocave_rockpopup.already
+      linia: 3
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pause to reminisce about the good times you had with this weird rock.
+      pl: Zatrzymujesz się, wspominając dobre chwile z tym dziwnym kamieniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1678
+  skrypt: item_cowspirit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: invpopup
+    wpisy:
+    - id: wol_f407ffe6302a5a1dd7cc
+      kontekst: data.json:scripts.item_cowspirit.invpopup
+      linia: 8
+      sekcja_skryptu: invpopup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it for now
+      pl: Zostaw to na razie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

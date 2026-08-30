@@ -1,0 +1,146 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: curlys_cairn
+zrodlowy_batch: 048_dialog_loc_curlyscairn_curlys_cairn.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 3
+liczba_wpisow: 7
+sceny:
+- kolejnosc_w_danych_gry: 632
+  skrypt: curlyscairn_cairn
+  pomieszczenie: &id001
+    id: curlyscairn
+    nazwa_en: Curly's Cairn
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c8eb7149c7727a4f01c
+      kontekst: data.json:scripts.curlyscairn_cairn.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This looks very heavy.
+      pl: To wygląda bardzo ciężko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fd9c5c5717bc7d69865e
+      kontekst: data.json:scripts.curlyscairn_cairn.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look under it [50 Muscle]
+      pl: Zajrzyj pod spód [50 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[50 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_819a11de41ff3be0c4c1
+      kontekst: data.json:scripts.curlyscairn_cairn.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Look under it [Requires 50 Muscle]
+      pl: Zajrzyj pod spód [Wymaga 50 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 50 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 633
+  skrypt: curlyscairn_cairn2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_317921643eb7d20ec643
+      kontekst: data.json:scripts.curlyscairn_cairn2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lift up the corner of the entire cairn.  There's some kind of machine buried underneath it!
+      pl: Podnosisz róg całego kopca. Pod spodem jest zakopana jakaś maszyna!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e4d75d90bca4d19cf5c
+      kontekst: data.json:scripts.curlyscairn_cairn2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get the sense you won't need Curly's compass anymore, so you bury it under the cairn.
+      pl: Masz wrażenie, że kompas Curly'ego już ci nie będzie potrzebny, więc zakopujesz go pod kopcem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c9f6a5661294cd6e66e
+      kontekst: data.json:scripts.curlyscairn_cairn2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: If you say so
+      pl: Skoro tak mówisz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 634
+  skrypt: curlyscairn_exit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cd5bb7873f543abb3340
+      kontekst: data.json:scripts.curlyscairn_exit.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wanna head back to the ranch?
+      pl: Chcesz wrócić na ranczo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

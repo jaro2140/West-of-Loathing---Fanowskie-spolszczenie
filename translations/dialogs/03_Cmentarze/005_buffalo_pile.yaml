@@ -1,0 +1,4053 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Cmentarze
+grupa_lokacji_lub_systemu: buffalo_pile
+zrodlowy_batch: 043_dialog_loc_cemetery5_buffalo_pile.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 48
+liczba_wpisow: 229
+sceny:
+- kolejnosc_w_danych_gry: 424
+  skrypt: cemetery5_beakertable
+  pomieszczenie: &id001
+    id: cemetery5
+    nazwa_en: Buffalo Pile
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_df3d1d03d86e05cf9482
+      kontekst: data.json:scripts.cemetery5_beakertable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's covered in big beakers.
+      pl: Całe usiane wielkimi kolbami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dc8e58217a5505c962eb
+      kontekst: data.json:scripts.cemetery5_beakertable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take one
+      pl: Weź jedną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 425
+  skrypt: cemetery5_boneshelves
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f6cf24109dbd6db4941c
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These shelves are filled with hundreds of crates, each full of buffalo and human bones, carefully sorted.
+      pl: Półki pełne setek skrzyń z posortowanymi kośćmi bizonów i ludzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6cef092f5c4c90531b0
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a buffalo's worth
+      pl: Weź tyle, co bizona
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getbuff
+    wpisy:
+    - id: wol_8aee9db77297d64a5ca4
+      kontekst: data.json:scripts.cemetery5_boneshelves.getbuff
+      linia: 3
+      sekcja_skryptu: getbuff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consult the list the guy at the Petting Cemetery gave you and grab all of the bones.
+      pl: Konsultujesz listę od gościa z Cmentarza do Głaskania i zabierasz wszystkie kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1583e05a94fb9c6c9244
+      kontekst: data.json:scripts.cemetery5_boneshelves.getbuff
+      linia: 4
+      sekcja_skryptu: getbuff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He'll be so happy to get these!
+      pl: Będzie taki szczęśliwy, jak dostanie te rzeczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4cd0c378a417cb354be
+      kontekst: data.json:scripts.cemetery5_boneshelves.getbuff
+      linia: 5
+      sekcja_skryptu: getbuff
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: He sure will!
+      pl: No pewnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a64ca22aa02e5cbbdb5d
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab the bones for a soldier
+      pl: Weź kości dla żołnierza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getsoldier
+    wpisy:
+    - id: wol_880f1a86c8d6896974cb
+      kontekst: data.json:scripts.cemetery5_boneshelves.getsoldier
+      linia: 7
+      sekcja_skryptu: getsoldier
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consult the diagram and collect all of the bones listed on it.
+      pl: Konsultujesz diagram i zbierasz wszystkie wymienione na nim kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c14f1883d00e82802554
+      kontekst: data.json:scripts.cemetery5_boneshelves.getsoldier
+      linia: 8
+      sekcja_skryptu: getsoldier
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_c596cb62b5fc9f5d0ce2
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you need some bones or bits of bones or teeth or anything, this would be a good time to grab some.  I'm not stopping if we get a few miles down the road and suddenly you and your brother say you need some bones.
+      pl: Jeśli potrzebujecie kości albo kawałków kości albo zębów albo czegokolwiek, to dobry moment, żeby coś zabrać. Nie zatrzymam się, jak przejedziemy kilka mil i nagle ty i twój brat powiecie, że potrzebujecie kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2520da68006cbcf32acd
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab dem bones
+      pl: Chwyć te kości
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grabbones
+    wpisy:
+    - id: wol_ed18286f45078f544239
+      kontekst: data.json:scripts.cemetery5_boneshelves.grabbones
+      linia: 11
+      sekcja_skryptu: grabbones
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're pretty much set for bones right now.  You can always come back if you're running low.
+      pl: Masz na razie dość kości. Zawsze możesz wrócić, gdy zabraknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_cd24cc33356820c5e171
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't really have anything specific you want to do with human or buffalo bones right now, though, so while you appreciate how organized these guys are, there's not really anything here for you.
+      pl: Nie masz teraz konkretnego pomysłu na ludzkie ani bizonie kości, więc choć doceniasz ich organizację, nie ma tu dla ciebie nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa05a6438ad4add7b2bc
+      kontekst: data.json:scripts.cemetery5_boneshelves.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the shelves alone
+      pl: Zostaw półki w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 426
+  skrypt: cemetery5_bookplinth
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c30388eeef0f1e29f5f9
+      kontekst: data.json:scripts.cemetery5_bookplinth.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a wicked-looking leather-bound tome on this pedestal.
+      pl: Na postumencie złowrogie tomiszcze w skórze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 427
+  skrypt: cemetery5_footlocker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_21d19245e25d188d5517
+      kontekst: data.json:scripts.cemetery5_footlocker1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's locked.
+      pl: Jest zablokowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 428
+  skrypt: cemetery5_footlocker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6f0672791d0e6d5502e5
+      kontekst: data.json:scripts.cemetery5_footlocker3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This one has a <i>serious</i> padlock on it.
+      pl: Ten ma <i>poważną</i> kłódkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7364e281517c8381e636
+      kontekst: data.json:scripts.cemetery5_footlocker3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Buffalo Pile locker key]
+      pl: Odblokuj [klucz do szafki w Stosie Bawołów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Buffalo Pile locker key]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickit
+    wpisy:
+    - id: wol_942b6691db9ba3bf4e3c
+      kontekst: data.json:scripts.cemetery5_footlocker3.pickit
+      linia: 3
+      sekcja_skryptu: pickit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 3 + needle]
+      pl: Otwórz zamek [Wytrychowanie 3 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 3 + needle]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 429
+  skrypt: cemetery5_goleft
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_fc478ea991fa6535302a
+      kontekst: data.json:scripts.cemetery5_goleft.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear a lot of activity down that corridor.  Chanting, shuffling of robes, clattering of bones.
+      pl: Słyszysz dużo ruchu na tym korytarzu. Śpiewy, szelest szat, brzęk kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b15da7583c486884e0e7
+      kontekst: data.json:scripts.cemetery5_goleft.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Scary stuff.  You really shouldn't go down there.
+      pl: Straszne rzeczy. Naprawdę nie powinieneś tam schodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a4ce098b8afb6ba7a12
+      kontekst: data.json:scripts.cemetery5_goleft.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't tell me what to do [Fight]
+      pl: Nie mów mi, co mam robić [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_600828aec8f3728ac651
+      kontekst: data.json:scripts.cemetery5_goleft.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go elsewhere
+      pl: Idź gdzie indziej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_567ccbb6a3bcd25a6db2
+      kontekst: data.json:scripts.cemetery5_goleft.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have singlehandedly put a stop to the cult activity at Buffalo Pile.  Impressive!
+      pl: Samodzielnie położyłeś kres aktywności kultu na Stosie Bawołów. Imponujące!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8bb667a723df6cbd7f2
+      kontekst: data.json:scripts.cemetery5_goleft.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pretty much have the run of the place now, if you need any bones for anything.
+      pl: Masz teraz prawie pełny dostęp do miejsca, jeśli potrzebujesz kości do czegokolwiek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_51b01aeacd17b7bbca44
+      kontekst: data.json:scripts.cemetery5_goleft.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really got stampeded, there.  I told you not to go down that hallway.
+      pl: Naprawdę cię tam zdeptano. Mówiłem, żeby nie iść tym korytarzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_49cebb1e67385c28c0aa
+      kontekst: data.json:scripts.cemetery5_goleft.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch, yeah
+      pl: Auć, no tak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 430
+  skrypt: cemetery5_hangingcoat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_12d9909435c07f7ea5ed
+      kontekst: data.json:scripts.cemetery5_hangingcoat.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a robe hanging on this rack.
+      pl: Na wieszaku wisi szata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: search
+    wpisy:
+    - id: wol_12b4f79813a5ec2d3f3a
+      kontekst: data.json:scripts.cemetery5_hangingcoat.search
+      linia: 3
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a key in one of the inside pockets!
+      pl: W jednej z wewnętrznych kieszeni jest klucz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 431
+  skrypt: cemetery5_holdingcells
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4d799e07c9425af32105
+      kontekst: data.json:scripts.cemetery5_holdingcells.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look through the bars and see hundreds of buffalo-human skeleton hybrids locked in here, three to a cell.
+      pl: Patrzysz przez kraty i widzisz setki hybryd szkieletów bizon-człowiek, po trzy w celi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e8a14b8cbb4a3f77747
+      kontekst: data.json:scripts.cemetery5_holdingcells.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The keys are hanging right next to the door -- you could let some out if you wanted, but they all look pretty angry.
+      pl: Klucze wiszą tuż przy drzwiach — mógłbyś kogoś wypuścić, ale wszyscy wyglądają na wkurzonych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a2ee862df8184642b27
+      kontekst: data.json:scripts.cemetery5_holdingcells.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it [Fight]
+      pl: Zrób to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4629ff4bef5dc1ac1c6
+      kontekst: data.json:scripts.cemetery5_holdingcells.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their captivity
+      pl: Zostaw ich w niewoli
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_abe17fbdc2f464c0c941
+      kontekst: data.json:scripts.cemetery5_holdingcells.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put those Buffalo Soldiers out of their misery.
+      pl: Kończysz mękę tych Buffalo Soldiers.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e5b10bbe6f3cabec8f11
+      kontekst: data.json:scripts.cemetery5_holdingcells.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Blech -- some of them hadn't really finished decomposing!
+      pl: Ech — niektóre wcale nie skończyły się jeszcze rozkładać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_eff62ad8e5bc5c488ac0
+      kontekst: data.json:scripts.cemetery5_holdingcells.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You never should've opened that cell.
+      pl: Nigdy nie powinieneś był otwierać tej celi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_306c5572f27086a72c19
+      kontekst: data.json:scripts.cemetery5_holdingcells.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Agreed
+      pl: Zgoda
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 432
+  skrypt: cemetery5_labtable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 59
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_10ebcfc310e116f40523
+      kontekst: data.json:scripts.cemetery5_labtable.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Atop the slab there's a skeleton-shaped indentation with a buffalo-skull-shaped indentation where the normal-human-skull-shaped indentation should be.
+      pl: Na płycie widać wgniecenie w kształcie szkieletu z wgnieceniem w kształcie czaszki bizona tam, gdzie powinno być wgniecenie w kształcie normalnej ludzkiej czaszki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74c2309ed0ab395fa607
+      kontekst: data.json:scripts.cemetery5_labtable.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put the bones on the slab
+      pl: Połóż kości na stole
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: slab
+    wpisy:
+    - id: wol_72f0bd68072a14e095cb
+      kontekst: data.json:scripts.cemetery5_labtable.slab
+      linia: 3
+      sekcja_skryptu: slab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lay the bones in the indentation.  Unsure of what to do next, you start grabbing bottles and supplies from various shelves and drawers and working on the skeleton more or less at random.
+      pl: Kładziesz kości w wgłębieniu. Niepewny, co dalej, zaczynasz chwytać butelki i zapasy z różnych półek i szuflad i pracować nad szkieletem mniej więcej na oślep.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_84da35c4fdc662cfaea8
+      kontekst: data.json:scripts.cemetery5_labtable.slab
+      linia: 4
+      sekcja_skryptu: slab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some bone glue here, some artificial ligaments here, some horn polish... well... on the horns -- that one was pretty obvious.
+      pl: Trochę kleju kostnego tu, sztuczne więzadła tu, pasta do rogów... no... na rogi — to było dość oczywiste.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9bd0f0c1a88acc5380c7
+      kontekst: data.json:scripts.cemetery5_labtable.slab
+      linia: 5
+      sekcja_skryptu: slab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now all you need is...  Hmm...  The funnel at the top says "Pour reanimation fluid here."
+      pl: 'Teraz potrzebujesz tylko... Hmm... Lej na górze mówi: „Wlej tu płyn reanimacyjny”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7cc23da24aba16e0f5df
+      kontekst: data.json:scripts.cemetery5_labtable.slab
+      linia: 6
+      sekcja_skryptu: slab
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it [buffalo-reanimating fluid]
+      pl: Zrób to [płyn do reanimacji bizonów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[buffalo-reanimating fluid]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pour
+    wpisy:
+    - id: wol_91b5b7f586b26d50d025
+      kontekst: data.json:scripts.cemetery5_labtable.pour
+      linia: 7
+      sekcja_skryptu: pour
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour the fluid into the funnel and watch as it travels down all of the spirally glass tubes and stuff into the skeleton on the slab.
+      pl: Wlewasz płyn do lejka i obserwujesz, jak spływa spiralnymi szklanymi rurkami do szkieletu na stole.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_83fe09edffda164e1265
+      kontekst: data.json:scripts.cemetery5_labtable.pour
+      linia: 8
+      sekcja_skryptu: pour
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a few moments, the newly-assembled buffalo soldier stirs to life.
+      pl: Po chwili świeżo poskładany żołnierz-bizon ożywa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f32e075846f6f897c035
+      kontekst: data.json:scripts.cemetery5_labtable.pour
+      linia: 9
+      sekcja_skryptu: pour
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Greet it
+      pl: Przywitaj to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: wol_0c39d9ceca4396fce3de
+      kontekst: data.json:scripts.cemetery5_labtable.talk
+      linia: 10
+      sekcja_skryptu: talk
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Welcome to the world... uh... what's your name?
+      pl: Witaj na świecie... eee... jak masz na imię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b9046371f3c03895dd3
+      kontekst: data.json:scripts.cemetery5_labtable.talk
+      linia: 11
+      sekcja_skryptu: talk
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Buffalo...
+      pl: Buffalo...
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5ce929804b4310834c39
+      kontekst: data.json:scripts.cemetery5_labtable.talk
+      linia: 12
+      sekcja_skryptu: talk
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Your name's just Buffalo?  That seems a mite... uncreative.
+      pl: Nazywasz się po prostu Buffalo? To brzmi trochę... niekreatywnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a4ef5f1452e980875556
+      kontekst: data.json:scripts.cemetery5_labtable.talk
+      linia: 13
+      sekcja_skryptu: talk
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You didn't let me finish.
+      pl: Nie pozwoliłeś mi dokończyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1bca641df6c497259da
+      kontekst: data.json:scripts.cemetery5_labtable.talk
+      linia: 14
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let him finish
+      pl: Niech skończy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk2
+    wpisy:
+    - id: wol_f9a030fd8908db195a7d
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 15
+      sekcja_skryptu: talk2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry, go on.
+      pl: Przepraszam, mów dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_05b1fde1cc7ce1c52ad4
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 16
+      sekcja_skryptu: talk2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Buffalo...  Buffalo...
+      pl: Buffalo... Buffalo...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_148fde79b9e345a12c45
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 17
+      sekcja_skryptu: talk2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He pauses for several seconds.
+      pl: Zatrzymuje się na kilka sekund.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_34f19ef9632463fb1159
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 18
+      sekcja_skryptu: talk2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay.  Pleased to meet you, Buffalo Buffalo.  What's--
+      pl: Okej. Miło mi cię poznać, Buffalo Buffalo. Co--
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3c62752b0d7b6240f336
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 19
+      sekcja_skryptu: talk2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You still didn't let me finish.
+      pl: Wciąż nie dałeś mi dokończyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd1e3af4432e7a8015f9
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 20
+      sekcja_skryptu: talk2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: All...  All right.  Go on, then?
+      pl: Dobrze... Dobrze. No to śmiało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_856016c3643e03646094
+      kontekst: data.json:scripts.cemetery5_labtable.talk2
+      linia: 21
+      sekcja_skryptu: talk2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait
+      pl: Czekaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk3
+    wpisy:
+    - id: wol_ee6a47f705232ceb158b
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 22
+      sekcja_skryptu: talk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Buffalo...  Buffalo...  Buffalo...
+      pl: Buffalo... Buffalo... Buffalo...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0102bb989e410cdb771e
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 23
+      sekcja_skryptu: talk3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, so...  Your name is three Buffalos?
+      pl: Okej, więc... Nazywasz się trzy Buffalosy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4fde57fa7bcbdce982ab
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 24
+      sekcja_skryptu: talk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Bill.
+      pl: Bill.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e57b48291787be477857
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 25
+      sekcja_skryptu: talk3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Your name is Bill?
+      pl: Nazywasz się Bill?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a3a645bc400554c33b0
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 26
+      sekcja_skryptu: talk3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: My name is Buffalo Buffalo Buffalo Bill.  Pay attention!
+      pl: Nazywam się Buffalo Buffalo Buffalo Bill. Uważaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.cemetery5_labtable.talk3
+      linia: 27
+      sekcja_skryptu: talk3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk4
+    wpisy:
+    - id: wol_c906bd0d879d824d53ad
+      kontekst: data.json:scripts.cemetery5_labtable.talk4
+      linia: 28
+      sekcja_skryptu: talk4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: So... Can you remember anything from... before?
+      pl: Więc... Pamiętasz coś z... wcześniej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99fc7bc4cafbf50e9e59
+      kontekst: data.json:scripts.cemetery5_labtable.talk4
+      linia: 29
+      sekcja_skryptu: talk4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I remember...  Eating grass.
+      pl: Pamiętam... Jedzenie trawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f42480bc1eb584c6a55
+      kontekst: data.json:scripts.cemetery5_labtable.talk4
+      linia: 30
+      sekcja_skryptu: talk4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, that makes sense.  Anything else?
+      pl: Okej, to ma sens. Coś jeszcze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1be94a7eead28a5eaff
+      kontekst: data.json:scripts.cemetery5_labtable.talk4
+      linia: 31
+      sekcja_skryptu: talk4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Shooting.  Lots of shooting.  And... people cheering... about the shooting?
+      pl: Strzelanie. Dużo strzelania. I... ludzie wiwatują... z powodu strzelania?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.cemetery5_labtable.talk4
+      linia: 32
+      sekcja_skryptu: talk4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk5
+    wpisy:
+    - id: wol_035ef7a88276f92d7836
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 33
+      sekcja_skryptu: talk5
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm.  Seems like you have the combined memories of your buffalo and human parts.
+      pl: Hmm. Wygląda na to, że masz połączone wspomnienia z części bizoniej i ludzkiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17cc47a314f582ec06a7
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 34
+      sekcja_skryptu: talk5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That sounds accurate.
+      pl: To brzmi trafnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2cbed1dd218fa9bfc62e
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 35
+      sekcja_skryptu: talk5
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, what will you do next?
+      pl: No, co zrobisz dalej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c7f6d0b4b233111f0d1
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 36
+      sekcja_skryptu: talk5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I...  I guess I'll just wander around and try to find a purpose?
+      pl: Ja... chyba po prostu pobłąkam się i spróbuję znaleźć jakiś cel?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb007672467d0178a0ab
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 37
+      sekcja_skryptu: talk5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You could travel with us
+      pl: Mógłbyś podróżować z nami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keephim
+    wpisy:
+    - id: wol_8b1be3eafdb463f1e2de
+      kontekst: data.json:scripts.cemetery5_labtable.keephim
+      linia: 39
+      sekcja_skryptu: keephim
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, sure.  That sounds okay.  Since you already killed the folks responsible for... this place... I guess I wouldn't mind followin' you.
+      pl: No, jasne. Brzmi w porządku. Skoro już zabiłeś ludzi odpowiedzialnych za... to miejsce... chyba nie mam nic przeciwko, żeby iść za tobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_835fe6ed3da9538ce713
+      kontekst: data.json:scripts.cemetery5_labtable.keephim
+      linia: 40
+      sekcja_skryptu: keephim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bill quickly ducks down one of the hallways and comes back holding a rifle.
+      pl: Bill szybko znika w jednym z korytarzy i wraca z karabinem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7986af5f83209b4e6be5
+      kontekst: data.json:scripts.cemetery5_labtable.keephim
+      linia: 41
+      sekcja_skryptu: keephim
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, sure.  That sounds okay.  But first, I want to... take care of something.
+      pl: No, jasne. Brzmi w porządku. Ale najpierw chcę... załatwić coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e113e8f7404d935e802
+      kontekst: data.json:scripts.cemetery5_labtable.keephim
+      linia: 42
+      sekcja_skryptu: keephim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Buffalo Buffalo Buffalo Bill will now assist you in combat!</b>
+      pl: <b>Buffalo Buffalo Buffalo Bill będzie ci teraz pomagał w walce!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c566dd57231691f35655
+      kontekst: data.json:scripts.cemetery5_labtable.keephim
+      linia: 43
+      sekcja_skryptu: keephim
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Welcome aboard, Buffalo Buffalo Buffalo Bill!
+      pl: Witamy na pokładzie, Buffalo Buffalo Buffalo Bill!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: killemall
+    wpisy:
+    - id: wol_9dd7351b0ea1e72891bc
+      kontekst: data.json:scripts.cemetery5_labtable.killemall
+      linia: 44
+      sekcja_skryptu: killemall
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bill stomps off.  You hear a crunch, then a guy saying "Hey! give me back my rifle!" Then you hear some rifle shots, some screams, and some silence.
+      pl: 'Bill odchodzi tupiąc. Słyszysz chrupnięcie, potem głos: „Hej! oddaj mi mój karabin!” Potem strzały, krzyki i ciszę.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73ed672ef9dc118f9afd
+      kontekst: data.json:scripts.cemetery5_labtable.killemall
+      linia: 45
+      sekcja_skryptu: killemall
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sheesh
+      pl: O rany
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: killemall2
+    wpisy:
+    - id: wol_e467da43edc05c4a9e7b
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 46
+      sekcja_skryptu: killemall2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bill walks back into the room, smiling.  You think.
+      pl: Bill wraca do pokoju z uśmiechem. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29da0976fd7c8815bad3
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 47
+      sekcja_skryptu: killemall2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that about does it for this place, I'd say.  If you can think of anything you'd like to do with the bones, I reckon they're all yours at this point.
+      pl: No, chyba to tyle w tym miejscu. Jeśli masz pomysł, co zrobić z kośćmi, chyba są teraz w pełni twoje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c50cd875ec6489705020
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 48
+      sekcja_skryptu: killemall2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Let's get out of here.
+      pl: Wynośmy się stąd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e113e8f7404d935e802
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 49
+      sekcja_skryptu: killemall2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Buffalo Buffalo Buffalo Bill will now assist you in combat!</b>
+      pl: <b>Buffalo Buffalo Buffalo Bill będzie ci teraz pomagał w walce!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1b03e21d81af0a312d60
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 50
+      sekcja_skryptu: killemall2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I guess I'll mosey along.  Good luck out there.
+      pl: Chyba się już ruszę. Powodzenia tam na zewnątrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0227ea37643102b88611
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 51
+      sekcja_skryptu: killemall2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, lets.
+      pl: Tak, zróbmy to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6015ffb414065bde890e
+      kontekst: data.json:scripts.cemetery5_labtable.killemall2
+      linia: 52
+      sekcja_skryptu: killemall2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You too, Bill.
+      pl: Ty też, Bill.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk5
+    wpisy:
+    - id: wol_32cbaf1a3c0e36d661f0
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 53
+      sekcja_skryptu: talk5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You could travel with me
+      pl: Mógłbyś podróżować ze mną
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d29d4336ce7b3cb5c30
+      kontekst: data.json:scripts.cemetery5_labtable.talk5
+      linia: 54
+      sekcja_skryptu: talk5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck with that!
+      pl: Powodzenia z tym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lethimgo
+    wpisy:
+    - id: wol_5b24c1f559ba05cfcb04
+      kontekst: data.json:scripts.cemetery5_labtable.lethimgo
+      linia: 56
+      sekcja_skryptu: lethimgo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank you.  And thank you for killing the folks reponsible for... this place.  If you can think of anything you'd like to do with the rest of the bones, I reckon they're all yours at this point.
+      pl: Dziękuję. I dziękuję za zabicie ludzi odpowiedzialnych za... to miejsce. Jeśli masz jakiś pomysł, co zrobić z resztą kości, myślę, że teraz są w całości twoje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2abf1450fd6123937c1d
+      kontekst: data.json:scripts.cemetery5_labtable.lethimgo
+      linia: 57
+      sekcja_skryptu: lethimgo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bill nods at you, then wanders off into the sunset.  You think.  It's pretty dark in here so you're not really sure which direction the sunset is, or if it's even sunset right now.
+      pl: Bill kiwa głową i odchodzi w stronę zachodzącego słońca. Chyba. Jest tu na tyle ciemno, że nie masz pewności, gdzie jest zachód — ani czy w ogóle teraz zachodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e57038b866407fa7d86f
+      kontekst: data.json:scripts.cemetery5_labtable.lethimgo
+      linia: 58
+      sekcja_skryptu: lethimgo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So long, Bill.
+      pl: Na razie, Bill.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: slab
+    wpisy:
+    - id: wol_d81743f57896dcd9c1ee
+      kontekst: data.json:scripts.cemetery5_labtable.slab
+      linia: 59
+      sekcja_skryptu: slab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like you're gonna need some reanimation fluid.  You undo all of your work and collect the bones.
+      pl: Wygląda na to, że będziesz potrzebować płynu do reanimacji. Cofasz całą swoją pracę i zbierasz kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_820408332c67bd5e4dba
+      kontekst: data.json:scripts.cemetery5_labtable.start
+      linia: 61
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's a good thing to keep in mind if you end up in possession of the bones necessary to fill in the indentation.
+      pl: Warto o tym pamiętać, jeśli znajdziesz się w posiadaniu kości potrzebnych do wypełnienia wgłębienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39b76650a6422496273d
+      kontekst: data.json:scripts.cemetery5_labtable.start
+      linia: 62
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the slab alone
+      pl: Zostaw płytę w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 438
+  skrypt: cemetery5_magazines
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_22335e7f66bbc4f8fc7e
+      kontekst: data.json:scripts.cemetery5_magazines.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a little wooden container filled with reading material.
+      pl: To mały drewniany pojemnik pełen materiałów do czytania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46267bb5c9bfd4821bd0
+      kontekst: data.json:scripts.cemetery5_magazines.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already gotten everything interesting out of it.
+      pl: Już wyciągnąłeś z tego wszystko ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_8237401ca47d28614e67
+      kontekst: data.json:scripts.cemetery5_magazines.get
+      linia: 4
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You flip through and find one book relevant to your interests.
+      pl: Przeglądasz i znajdujesz jedną książkę dla siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 439
+  skrypt: cemetery5_table
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b2e30c04eb7d213b32ef
+      kontekst: data.json:scripts.cemetery5_table.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's covered with a bunch of weird cards.
+      pl: Pokryte stosem dziwnych kart.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a73f6efb1856ef194f7
+      kontekst: data.json:scripts.cemetery5_table.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a look at one
+      pl: Rzuć okiem na jeden
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: look
+    wpisy:
+    - id: wol_5c9f065aff5c2680ec70
+      kontekst: data.json:scripts.cemetery5_table.look
+      linia: 3
+      sekcja_skryptu: look
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%necrocard_template%'
+      pl: '%necrocard_template%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%necrocard_template%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2aedc79bf80d678db093
+      kontekst: data.json:scripts.cemetery5_table.look
+      linia: 4
+      sekcja_skryptu: look
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at another
+      pl: Spójrz na inną
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ruined
+    wpisy:
+    - id: wol_f5aa661957b4db6fd444
+      kontekst: data.json:scripts.cemetery5_table.ruined
+      linia: 5
+      sekcja_skryptu: ruined
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's covered with a bunch of ripped up cards.  "GRUTCH" is gouged into the table.
+      pl: Pokryte stosem podartych kart. W stół wyryto „GRUTCH”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 440
+  skrypt: cemetery5_toilet1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2a4022a3c17f5b27abc9
+      kontekst: data.json:scripts.cemetery5_toilet1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is clearly the good toilet.
+      pl: To wyraźnie dobra toaleta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98e48616083c4aac1ef2
+      kontekst: data.json:scripts.cemetery5_toilet1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Spuść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 441
+  skrypt: cemetery5_toilet2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_082eafb388b2e88095e1
+      kontekst: data.json:scripts.cemetery5_toilet2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is clearly the bad toilet.
+      pl: To wyraźnie zła toaleta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98e48616083c4aac1ef2
+      kontekst: data.json:scripts.cemetery5_toilet2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Spuść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 442
+  skrypt: cemetery5_toilettrash
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_68545d66308121aeccce
+      kontekst: data.json:scripts.cemetery5_toilettrash.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a pile of trash next to the bad toilet.
+      pl: Obok złej toalety stoi sterta śmieci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba7fa10451e538d74627
+      kontekst: data.json:scripts.cemetery5_toilettrash.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop się przez niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 444
+  skrypt: cemetery5_vat_blood
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1d3b45eaa29ec89f3b50
+      kontekst: data.json:scripts.cemetery5_vat_blood.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a giant vat of blood.  Great!
+      pl: To ogromna beczka krwi. Wspaniale!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7caf0e0b2ba9ed6863da
+      kontekst: data.json:scripts.cemetery5_vat_blood.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The faucet is fused shut.
+      pl: Kran jest zespawany na amen.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a23373d3f3ed76f8c4dc
+      kontekst: data.json:scripts.cemetery5_vat_blood.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Collect some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: collect
+    wpisy:
+    - id: wol_c74b48eae76b14517a20
+      kontekst: data.json:scripts.cemetery5_vat_blood.collect
+      linia: 4
+      sekcja_skryptu: collect
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something went very wrong.  Let's just say you drop the beaker and it breaks and you have to start over.
+      pl: Coś poszło bardzo nie tak. Powiedzmy, że upuszczasz kolbę, pęka i musisz zacząć od nowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nobeaker
+    wpisy:
+    - id: wol_c946d9e5ebd796910417
+      kontekst: data.json:scripts.cemetery5_vat_blood.nobeaker
+      linia: 5
+      sekcja_skryptu: nobeaker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You haven't got anything to collect it in.  Nothing you're willing to ruin, at least.
+      pl: Nie masz czego tego zebrać. Niczego, co jesteś gotów zrujnować, przynajmniej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyousure
+    wpisy:
+    - id: wol_2c75e74cada5c04a5752
+      kontekst: data.json:scripts.cemetery5_vat_blood.areyousure
+      linia: 6
+      sekcja_skryptu: areyousure
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have no idea what you're trying to make, here.  You sure you want to mess with this stuff?
+      pl: Nie masz pojęcia, co tu próbujesz zrobić. Na pewno chcesz się bawić tymi rzeczami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: first
+    wpisy:
+    - id: wol_4b7366ff0c49ef8a5a80
+      kontekst: data.json:scripts.cemetery5_vat_blood.first
+      linia: 8
+      sekcja_skryptu: first
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the blood faucet and fill the beaker a third of the way up.
+      pl: Otwierasz kran krwi i napełniasz kolbę w jednej trzeciej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: wol_2ace39d61e1e66ab7817
+      kontekst: data.json:scripts.cemetery5_vat_blood.second
+      linia: 9
+      sekcja_skryptu: second
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the blood faucet and pour some blood into the already partially-full beaker.
+      pl: Otwierasz kran krwi i wlewasz trochę krwi do już częściowo pełnej kolby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 445
+  skrypt: cemetery5_vat_ichor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b08970dd5b1a695ca4cb
+      kontekst: data.json:scripts.cemetery5_vat_ichor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a giant vat labeled "ichor" -- nasty.
+      pl: To ogromna beczka z napisem „ichor” — obrzydliwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7caf0e0b2ba9ed6863da
+      kontekst: data.json:scripts.cemetery5_vat_ichor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The faucet is fused shut.
+      pl: Kran jest zespawany na amen.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a23373d3f3ed76f8c4dc
+      kontekst: data.json:scripts.cemetery5_vat_ichor.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Collect some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: collect
+    wpisy:
+    - id: wol_c74b48eae76b14517a20
+      kontekst: data.json:scripts.cemetery5_vat_ichor.collect
+      linia: 4
+      sekcja_skryptu: collect
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something went very wrong.  Let's just say you drop the beaker and it breaks and you have to start over.
+      pl: Coś poszło bardzo nie tak. Powiedzmy, że upuszczasz kolbę, pęka i musisz zacząć od nowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nobeaker
+    wpisy:
+    - id: wol_c946d9e5ebd796910417
+      kontekst: data.json:scripts.cemetery5_vat_ichor.nobeaker
+      linia: 5
+      sekcja_skryptu: nobeaker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You haven't got anything to collect it in.  Nothing you're willing to ruin, at least.
+      pl: Nie masz czego tego zebrać. Niczego, co jesteś gotów zrujnować, przynajmniej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyousure
+    wpisy:
+    - id: wol_2c75e74cada5c04a5752
+      kontekst: data.json:scripts.cemetery5_vat_ichor.areyousure
+      linia: 6
+      sekcja_skryptu: areyousure
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have no idea what you're trying to make, here.  You sure you want to mess with this stuff?
+      pl: Nie masz pojęcia, co tu próbujesz zrobić. Na pewno chcesz się bawić tymi rzeczami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: first
+    wpisy:
+    - id: wol_fddd9d6f7498e4003dd6
+      kontekst: data.json:scripts.cemetery5_vat_ichor.first
+      linia: 8
+      sekcja_skryptu: first
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the ichor spigot and fill the beaker a third of the way up with nasty black goo.
+      pl: Otwierasz kran ichoru i napełniasz kolbę w jednej trzeciej obrzydliwą czarną breją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: wol_cbe5523a8ed319f3206c
+      kontekst: data.json:scripts.cemetery5_vat_ichor.second
+      linia: 9
+      sekcja_skryptu: second
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the ichor spigot and pour some of the black filth into the already partially-full beaker.
+      pl: Otwierasz kran ichoru i wlewasz trochę czarnego brudu do już częściowo pełnej kolby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 446
+  skrypt: cemetery5_vat_lemonade
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6c1479f90d4cd5ad4ff0
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a giant vat filled with lemonade.
+      pl: To ogromna beczka pełna lemoniady.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4c3c35b4a5ad05b3c8b
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The faucet is clogged shut.
+      pl: Kran jest zatkany na amen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a23373d3f3ed76f8c4dc
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Collect some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: collect
+    wpisy:
+    - id: wol_c74b48eae76b14517a20
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.collect
+      linia: 4
+      sekcja_skryptu: collect
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something went very wrong.  Let's just say you drop the beaker and it breaks and you have to start over.
+      pl: Coś poszło bardzo nie tak. Powiedzmy, że upuszczasz kolbę, pęka i musisz zacząć od nowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nobeaker
+    wpisy:
+    - id: wol_c946d9e5ebd796910417
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.nobeaker
+      linia: 5
+      sekcja_skryptu: nobeaker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You haven't got anything to collect it in.  Nothing you're willing to ruin, at least.
+      pl: Nie masz czego tego zebrać. Niczego, co jesteś gotów zrujnować, przynajmniej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyousure
+    wpisy:
+    - id: wol_2c75e74cada5c04a5752
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.areyousure
+      linia: 6
+      sekcja_skryptu: areyousure
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have no idea what you're trying to make, here.  You sure you want to mess with this stuff?
+      pl: Nie masz pojęcia, co tu próbujesz zrobić. Na pewno chcesz się bawić tymi rzeczami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: first
+    wpisy:
+    - id: wol_8898fef432d1d3d62506
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.first
+      linia: 8
+      sekcja_skryptu: first
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the faucet and fill the beaker a third of the way up with lemonade.
+      pl: Otwierasz kran i napełniasz kolbę w jednej trzeciej lemoniadą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: wol_c904284dd4f91572715e
+      kontekst: data.json:scripts.cemetery5_vat_lemonade.second
+      linia: 9
+      sekcja_skryptu: second
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the faucet and pour some lemonade into the already partially-full beaker.
+      pl: Otwierasz kran i wlewasz trochę lemoniady do już częściowo pełnej kolby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 447
+  skrypt: cemetery5_vat_milk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d1e94afa9922eee1320f
+      kontekst: data.json:scripts.cemetery5_vat_milk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a vat of milk.  That's... less threatening than the blood.
+      pl: To beczka mleka. To... mniej groźne niż krew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7caf0e0b2ba9ed6863da
+      kontekst: data.json:scripts.cemetery5_vat_milk.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The faucet is fused shut.
+      pl: Kran jest zespawany na amen.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a23373d3f3ed76f8c4dc
+      kontekst: data.json:scripts.cemetery5_vat_milk.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Collect some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: collect
+    wpisy:
+    - id: wol_c74b48eae76b14517a20
+      kontekst: data.json:scripts.cemetery5_vat_milk.collect
+      linia: 4
+      sekcja_skryptu: collect
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something went very wrong.  Let's just say you drop the beaker and it breaks and you have to start over.
+      pl: Coś poszło bardzo nie tak. Powiedzmy, że upuszczasz kolbę, pęka i musisz zacząć od nowa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nobeaker
+    wpisy:
+    - id: wol_c946d9e5ebd796910417
+      kontekst: data.json:scripts.cemetery5_vat_milk.nobeaker
+      linia: 5
+      sekcja_skryptu: nobeaker
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You haven't got anything to collect it in.  Nothing you're willing to ruin, at least.
+      pl: Nie masz czego tego zebrać. Niczego, co jesteś gotów zrujnować, przynajmniej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyousure
+    wpisy:
+    - id: wol_2c75e74cada5c04a5752
+      kontekst: data.json:scripts.cemetery5_vat_milk.areyousure
+      linia: 6
+      sekcja_skryptu: areyousure
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have no idea what you're trying to make, here.  You sure you want to mess with this stuff?
+      pl: Nie masz pojęcia, co tu próbujesz zrobić. Na pewno chcesz się bawić tymi rzeczami?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: first
+    wpisy:
+    - id: wol_997da96fb22e5263d8b9
+      kontekst: data.json:scripts.cemetery5_vat_milk.first
+      linia: 8
+      sekcja_skryptu: first
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the milk faucet and fill the beaker a third of the way up.
+      pl: Otwierasz kran mleka i napełniasz kolbę w jednej trzeciej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: wol_7ae97d3befcf5b7d9811
+      kontekst: data.json:scripts.cemetery5_vat_milk.second
+      linia: 9
+      sekcja_skryptu: second
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the milk faucet and pour some milk into the already partially-full beaker.
+      pl: Otwierasz kran mleka i wlewasz trochę mleka do już częściowo pełnej kolby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 443
+  skrypt: cemetery5_vatproduct
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 40
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_dd710f32715daf1a2f12
+      kontekst: data.json:scripts.cemetery5_vatproduct.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The liquid in the beaker begins to bubble.
+      pl: Ciecz w zlewce zaczyna bulgotać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c4ba370a374a8be2a41
+      kontekst: data.json:scripts.cemetery5_vatproduct.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Watch the reaction
+      pl: Obserwuj reakcję
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reaction2
+    wpisy:
+    - id: wol_7a33d0b9a50007c0139f
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 3
+      sekcja_skryptu: reaction2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Steam rises from the beaker as the reaction intensifies.
+      pl: Para unosi się z kolby, gdy reakcja się nasila.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_552fe777126fd269539f
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 4
+      sekcja_skryptu: reaction2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The intense heat of the reaction melts the blood faucet.
+      pl: Intensywne ciepło reakcji topi kran krwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68d9b04ada9a6a70e526
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 5
+      sekcja_skryptu: reaction2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The intense heat of the reaction melts the milk faucet.
+      pl: Intensywne ciepło reakcji topi kran mleka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b03c26e44eb9b5c27f31
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 6
+      sekcja_skryptu: reaction2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The intense heat of the reaction fuses the ichor spigot into a useless mass of metal.
+      pl: Intensywne ciepło reakcji spawa kran ichoru w bezużyteczną masę metalu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fbf306650df1de185d35
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 7
+      sekcja_skryptu: reaction2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The steam from the reaction causes the lemonade faucet to get clogged up.
+      pl: Para z reakcji zapycha kran z lemoniadą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a53ef7d94fc2c146c49
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction2
+      linia: 8
+      sekcja_skryptu: reaction2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: How will it end?
+      pl: Jak to się skończy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reaction3
+    wpisy:
+    - id: wol_498ed86d36996a7c0903
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction3
+      linia: 9
+      sekcja_skryptu: reaction3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The boiling subsides, and what's left in the beaker is...
+      pl: Wrzenie ustaje, a w zlewce zostaje...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_974b7d4d5b3d484abb95
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction3
+      linia: 10
+      sekcja_skryptu: reaction3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes?  Tell me!  Tell me!
+      pl: Tak? Powiedz mi! Powiedz mi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reaction4
+    wpisy:
+    - id: wol_26c1f30868b64ff9cf26
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction4
+      linia: 11
+      sekcja_skryptu: reaction4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something went wrong, this line should never be reached.
+      pl: Coś poszło nie tak, ten wiersz nigdy nie powinien się pojawić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bc2acb790d0871bcd1d
+      kontekst: data.json:scripts.cemetery5_vatproduct.reaction4
+      linia: 12
+      sekcja_skryptu: reaction4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh oh, tell Zack if you see this
+      pl: O nie, daj znać Zackowi, jeśli to widzisz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justblood
+    wpisy:
+    - id: wol_b4428c3a90374bb90a7d
+      kontekst: data.json:scripts.cemetery5_vatproduct.justblood
+      linia: 13
+      sekcja_skryptu: justblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since the only thing you put in the beaker was blood, the only thing in it now is blood.
+      pl: Skoro jedyną rzeczą, którą wlałeś do kolby, była krew, teraz w środku jest tylko krew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87c7db0ffa0038d1ee2d
+      kontekst: data.json:scripts.cemetery5_vatproduct.justblood
+      linia: 14
+      sekcja_skryptu: justblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour it down the floor drain before it starts to scab and then discard the beaker.
+      pl: Wlewasz to do odpływu, zanim zacznie strzępić, i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_973fb7956fd8aabafe70
+      kontekst: data.json:scripts.cemetery5_vatproduct.justblood
+      linia: 15
+      sekcja_skryptu: justblood
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good thinking
+      pl: Sprytne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justmilk
+    wpisy:
+    - id: wol_f990cf904477b67de7ae
+      kontekst: data.json:scripts.cemetery5_vatproduct.justmilk
+      linia: 16
+      sekcja_skryptu: justmilk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unsurprisingly, after the reaction concludes you're left with a big beaker full of milk.
+      pl: Jak można się spodziewać, po reakcji zostaje wielka kolba pełna mleka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ecb50ec756c41de66564
+      kontekst: data.json:scripts.cemetery5_vatproduct.justmilk
+      linia: 17
+      sekcja_skryptu: justmilk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't like milk very much, so you pour it down the floor drain and discard the beaker.
+      pl: Nie lubisz mleka, więc wylewasz je do odpływu i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d50741c494836cfb3a06
+      kontekst: data.json:scripts.cemetery5_vatproduct.justmilk
+      linia: 18
+      sekcja_skryptu: justmilk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That was pretty anticlimactic
+      pl: To było dość antyklimatyczne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justichor
+    wpisy:
+    - id: wol_dea4ee24a26c0b822e86
+      kontekst: data.json:scripts.cemetery5_vatproduct.justichor
+      linia: 19
+      sekcja_skryptu: justichor
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You aren't sure what you were expecting, but what you got was a big beaker full of nothing but ichor.
+      pl: Nie wiesz, czego się spodziewałeś, ale dostałeś wielką kolbę pełną samego ichoru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16f3850c7847f861e603
+      kontekst: data.json:scripts.cemetery5_vatproduct.justichor
+      linia: 20
+      sekcja_skryptu: justichor
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't bear the thought of carrying it around, so you pour it down the floor drain and discard the beaker.
+      pl: Nie znosisz myśli o noszeniu tego, więc wylewasz do odpływu w podłodze i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justlemonade
+    wpisy:
+    - id: wol_66213930d74f088eaa4e
+      kontekst: data.json:scripts.cemetery5_vatproduct.justlemonade
+      linia: 22
+      sekcja_skryptu: justlemonade
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'There''s a saying in the scientific community:  "Lemonade in, lemonade out."  You''ve definitively proved it.'
+      pl: 'W środowisku naukowym mówi się: „Lemoniada na wejściu, lemoniada na wyjściu.” Udowodniłeś to definitywnie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87fec469f5fe62cd1919
+      kontekst: data.json:scripts.cemetery5_vatproduct.justlemonade
+      linia: 23
+      sekcja_skryptu: justlemonade
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Life did give me lemons
+      pl: Życie dało mi cytryny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elixir
+    wpisy:
+    - id: wol_771d93678d9f7ecf3a8f
+      kontekst: data.json:scripts.cemetery5_vatproduct.elixir
+      linia: 24
+      sekcja_skryptu: elixir
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the smoke clears, you're left with a beaker full of a liquid that is unmistakably buffalo-reanimating fluid.
+      pl: Gdy dym opada, zostaje ci kolba pełna cieczy, która bez wątpienia jest płynem do reanimacji bizonów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f523b6504cdaa40a7cd5
+      kontekst: data.json:scripts.cemetery5_vatproduct.elixir
+      linia: 25
+      sekcja_skryptu: elixir
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's unmistakable because somehow the reaction caused the beaker to become labeled, and the label says that it's buffalo-reanimating fluid.
+      pl: Nie do pomylenia — reakcja jakoś sprawiła, że kolba dostała etykietę, a na niej widać, że to płyn do ożywiania bizonów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e7186e1430b8b38097b
+      kontekst: data.json:scripts.cemetery5_vatproduct.elixir
+      linia: 26
+      sekcja_skryptu: elixir
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's just science
+      pl: To po prostu nauka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fudge
+    wpisy:
+    - id: wol_2370376afaa4954e4835
+      kontekst: data.json:scripts.cemetery5_vatproduct.fudge
+      linia: 27
+      sekcja_skryptu: fudge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the reaction subsides, you're left with a beaker full of surprisingly delicious-looking fudge!
+      pl: Gdy reakcja opada, zostaje ci kolba pełna zaskakująco apetycznie wyglądającego fudżu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_11a65c85461f75e080bb
+      kontekst: data.json:scripts.cemetery5_vatproduct.fudge
+      linia: 28
+      sekcja_skryptu: fudge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That whole process really turned a corner on you!
+      pl: Ten cały proces naprawdę przybrał niespodziewany obrót!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endblood
+    wpisy:
+    - id: wol_6f6d2b8580080d01a315
+      kontekst: data.json:scripts.cemetery5_vatproduct.endblood
+      linia: 30
+      sekcja_skryptu: endblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the reaction subsides, you're left with some disgusting tainted blood.
+      pl: Gdy reakcja opada, zostaje ci obrzydliwa skażona krew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e7e5dafccdfbc6e73fbe
+      kontekst: data.json:scripts.cemetery5_vatproduct.endblood
+      linia: 31
+      sekcja_skryptu: endblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not a fan of tainted blood.  In fact, you want to... get away from it, so you pour it down the drain and discard the beaker.
+      pl: Nie lubisz skażonej krwi. Właściwie chcesz... się od niej oddalić, więc wylewasz ją do odpływu i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c726b283c8cd1cc6d86e
+      kontekst: data.json:scripts.cemetery5_vatproduct.endblood
+      linia: 32
+      sekcja_skryptu: endblood
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bomp bomp
+      pl: Bum bum
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endmilk
+    wpisy:
+    - id: wol_655238ba92d085c9b65d
+      kontekst: data.json:scripts.cemetery5_vatproduct.endmilk
+      linia: 33
+      sekcja_skryptu: endmilk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the reaction subsides, you're left with a beaker of ruined milk.
+      pl: Gdy reakcja opada, zostaje ci kolba zepsutego mleka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6609c3a7c6853cb95bc
+      kontekst: data.json:scripts.cemetery5_vatproduct.endmilk
+      linia: 34
+      sekcja_skryptu: endmilk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour it down the floor drain, not crying about it one bit and discard the beaker.
+      pl: Wlewasz to do odpływu, ani trochę nie płacząc, i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5af250c8bed48b59e552
+      kontekst: data.json:scripts.cemetery5_vatproduct.endmilk
+      linia: 35
+      sekcja_skryptu: endmilk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bye, milk!
+      pl: Pa, mleko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endichor
+    wpisy:
+    - id: wol_b3e4008f43d466245c1c
+      kontekst: data.json:scripts.cemetery5_vatproduct.endichor
+      linia: 36
+      sekcja_skryptu: endichor
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the reaction subsides, you're left with a beaker of revolting black fluid.  And what's even worse is that's <i>useless</i> revolting black fluid.
+      pl: Gdy reakcja opada, zostaje ci kolba obrzydliwej czarnej cieczy. A co gorsza, to <i>bezużyteczna</i> obrzydliwa czarna ciecz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_688405d5f6da3fb9ddeb
+      kontekst: data.json:scripts.cemetery5_vatproduct.endichor
+      linia: 37
+      sekcja_skryptu: endichor
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour it down the floor drain before it can disappoint you any further, and then discard the beaker.
+      pl: Wlewasz to do odpływu w podłodze, zanim zdąży cię bardziej zawieść, i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_12df7aff52e7a5d6899b
+      kontekst: data.json:scripts.cemetery5_vatproduct.endichor
+      linia: 38
+      sekcja_skryptu: endichor
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take that, black fluid!
+      pl: Masz, czarny płyn!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endlemonade
+    wpisy:
+    - id: wol_b6916a19bf5460079ec6
+      kontekst: data.json:scripts.cemetery5_vatproduct.endlemonade
+      linia: 39
+      sekcja_skryptu: endlemonade
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the reaction subsides, you're left with some disgusting ruined lemonade.
+      pl: Gdy reakcja opada, zostaje ci obrzydliwa zepsuta lemoniada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10c8f40d330cdbbb19f8
+      kontekst: data.json:scripts.cemetery5_vatproduct.endlemonade
+      linia: 40
+      sekcja_skryptu: endlemonade
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Don't quit your day job, unless your day job is running a lemonade stand, in which case quit it <i>immediately</i>.
+      pl: Nie rzucaj etatu — chyba że twoim etatem jest stoisko z lemoniadą, wtedy rzucaj go <i>natychmiast</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17c7fefadbd269d54908
+      kontekst: data.json:scripts.cemetery5_vatproduct.endlemonade
+      linia: 41
+      sekcja_skryptu: endlemonade
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour the evidence of your wastefulness down the floor drain and then discard the beaker.
+      pl: Wlewasz dowód swojego marnotrawstwa do odpływu i wyrzucasz kolbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e01db22b9bb22523c70e
+      kontekst: data.json:scripts.cemetery5_vatproduct.endlemonade
+      linia: 42
+      sekcja_skryptu: endlemonade
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, fine
+      pl: No dobra, dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 448
+  skrypt: cemetery5_wardrobe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5f327656a7539a117112
+      kontekst: data.json:scripts.cemetery5_wardrobe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a decent-sized wardrobe.
+      pl: To całkiem spora szafa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3eee07932d390113755c
+      kontekst: data.json:scripts.cemetery5_wardrobe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hide in it
+      pl: Schowaj się w tym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 449
+  skrypt: cemetery5_wardrobehide
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8c1c4f513337b285a7ae
+      kontekst: data.json:scripts.cemetery5_wardrobehide.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You settle in amongst the thick black robes.  It's pretty comfortable.
+      pl: Usadzasz się wśród grubych czarnych szat. Całkiem wygodnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_856016c3643e03646094
+      kontekst: data.json:scripts.cemetery5_wardrobehide.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait
+      pl: Czekaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wait
+    wpisy:
+    - id: wol_8d07fb1e126568e464ce
+      kontekst: data.json:scripts.cemetery5_wardrobehide.wait
+      linia: 3
+      sekcja_skryptu: wait
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wait and wait, and finally hear some noises outside as a couple of cultists pass through on their way from somewhere to somewhere else.
+      pl: Czekasz i czekasz, aż wreszcie słyszysz hałasy na zewnątrz, gdy para kultystów przechodzi skądś dokądś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2d3c9158aa513d32d261
+      kontekst: data.json:scripts.cemetery5_wardrobehide.wait
+      linia: 4
+      sekcja_skryptu: wait
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You don''t catch much of what they say, but what you do hear is:'
+      pl: 'Niewiele łapiesz z tego, co mówią, ale to, co słyszysz, brzmi:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hearsomething
+    wpisy:
+    - id: wol_3993280592ade3a264c7
+      kontekst: data.json:scripts.cemetery5_wardrobehide.hearsomething
+      linia: 5
+      sekcja_skryptu: hearsomething
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cemetery5_ritualadvice%'
+      pl: '%cemetery5_ritualadvice%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cemetery5_ritualadvice%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de455135147e29ccff3d
+      kontekst: data.json:scripts.cemetery5_wardrobehide.hearsomething
+      linia: 6
+      sekcja_skryptu: hearsomething
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait some more
+      pl: Poczekaj jeszcze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wait2
+    wpisy:
+    - id: wol_5653f198b425f082cecb
+      kontekst: data.json:scripts.cemetery5_wardrobehide.wait2
+      linia: 7
+      sekcja_skryptu: wait2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You wait a while longer, and the cultists pass through again.  This time you overhear something different:'
+      pl: 'Czekasz jeszcze chwilę i kultyści znowu przechodzą. Tym razem podsłuchujesz coś innego:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nothing
+    wpisy:
+    - id: wol_b67e2a8a0206e97cb714
+      kontekst: data.json:scripts.cemetery5_wardrobehide.nothing
+      linia: 9
+      sekcja_skryptu: nothing
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wait and wait for somebody to enter the room so you can eavesdrop on them, but nobody ever shows up, because they are all dead.
+      pl: Czekasz i czekasz, aż ktoś wejdzie do pokoju, żeby podsłuchać, ale nikt się nie pojawia, bo wszyscy nie żyją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dccf071a5f5d1027aa43
+      kontekst: data.json:scripts.cemetery5_wardrobehide.nothing
+      linia: 10
+      sekcja_skryptu: nothing
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah.  I remember that.
+      pl: A tak. Pamiętam to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_6033644e152040238235
+      kontekst: data.json:scripts.cemetery5_wardrobehide.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get out
+      pl: Wynoś się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 617
+  skrypt: cre_haystack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba7fa10451e538d74627
+      kontekst: data.json:scripts.cre_haystack.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop się przez niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1021
+  skrypt: daveyard_bonepile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba7fa10451e538d74627
+      kontekst: data.json:scripts.daveyard_bonepile.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop się przez niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1307
+  skrypt: food_banana
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_c14f1883d00e82802554
+      kontekst: data.json:scripts.food_banana.yes
+      linia: 2
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1436
+  skrypt: fort2_trashcan
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba7fa10451e538d74627
+      kontekst: data.json:scripts.fort2_trashcan.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop się przez niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1456
+  skrypt: fort4_guyconvo5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: play
+    wpisy:
+    - id: wol_c14f1883d00e82802554
+      kontekst: data.json:scripts.fort4_guyconvo5.play
+      linia: 25
+      sekcja_skryptu: play
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1720
+  skrypt: item_necrojournal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: noword
+    wpisy:
+    - id: wol_c14f1883d00e82802554
+      kontekst: data.json:scripts.item_necrojournal.noword
+      linia: 17
+      sekcja_skryptu: noword
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1760
+  skrypt: jewelrystore_toilet
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_98e48616083c4aac1ef2
+      kontekst: data.json:scripts.jewelrystore_toilet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Spuść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1774
+  skrypt: mine1_cart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba7fa10451e538d74627
+      kontekst: data.json:scripts.mine1_cart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig through it
+      pl: Przekop się przez niego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1815
+  skrypt: mine3_rubblepile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: toocrazy
+    wpisy:
+    - id: wol_e01db22b9bb22523c70e
+      kontekst: data.json:scripts.mine3_rubblepile.toocrazy
+      linia: 22
+      sekcja_skryptu: toocrazy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, fine
+      pl: No dobra, dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1864
+  skrypt: mine5_diary2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.mine5_diary2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page2
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.mine5_diary2.page2
+      linia: 7
+      sekcja_skryptu: page2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: page3
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.mine5_diary2.page3
+      linia: 11
+      sekcja_skryptu: page3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1945
+  skrypt: mine8_toilet1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_98e48616083c4aac1ef2
+      kontekst: data.json:scripts.mine8_toilet1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Spuść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1946
+  skrypt: mine8_toilet2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_98e48616083c4aac1ef2
+      kontekst: data.json:scripts.mine8_toilet2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it
+      pl: Spuść
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2212
+  skrypt: ranch4_case1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_942b6691db9ba3bf4e3c
+      kontekst: data.json:scripts.ranch4_case1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 3 + needle]
+      pl: Otwórz zamek [Wytrychowanie 3 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 3 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2213
+  skrypt: ranch4_case2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_942b6691db9ba3bf4e3c
+      kontekst: data.json:scripts.ranch4_case2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 3 + needle]
+      pl: Otwórz zamek [Wytrychowanie 3 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 3 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2214
+  skrypt: ranch4_case3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_942b6691db9ba3bf4e3c
+      kontekst: data.json:scripts.ranch4_case3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 3 + needle]
+      pl: Otwórz zamek [Wytrychowanie 3 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 3 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2215
+  skrypt: ranch4_cowencounter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5a2ee862df8184642b27
+      kontekst: data.json:scripts.ranch4_cowencounter.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it [Fight]
+      pl: Zrób to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2218
+  skrypt: ranch4_shelf1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dc8e58217a5505c962eb
+      kontekst: data.json:scripts.ranch4_shelf1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take one
+      pl: Weź jedną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2219
+  skrypt: ranch4_shelf2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dc8e58217a5505c962eb
+      kontekst: data.json:scripts.ranch4_shelf2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take one
+      pl: Weź jedną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2220
+  skrypt: ranch4_shelf3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dc8e58217a5505c962eb
+      kontekst: data.json:scripts.ranch4_shelf3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take one
+      pl: Weź jedną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2226
+  skrypt: ranch5_barndoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_942b6691db9ba3bf4e3c
+      kontekst: data.json:scripts.ranch5_barndoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 3 + needle]
+      pl: Otwórz zamek [Wytrychowanie 3 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 3 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2374
+  skrypt: re_goblinh1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: leave
+    wpisy:
+    - id: wol_73ed672ef9dc118f9afd
+      kontekst: data.json:scripts.re_goblinh1.leave
+      linia: 29
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sheesh
+      pl: O rany
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.re_goblinh1.losedone
+      linia: 2
+      sekcja_skryptu: losedone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2437
+  skrypt: re_skeletonh1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_73ed672ef9dc118f9afd
+      kontekst: data.json:scripts.re_skeletonh1.intim
+      linia: 20
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sheesh
+      pl: O rany
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.re_skeletonh1.losedone
+      linia: 2
+      sekcja_skryptu: losedone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2446
+  skrypt: re_snakee
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_306c5572f27086a72c19
+      kontekst: data.json:scripts.re_snakee.dontexplode
+      linia: 8
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Agreed
+      pl: Zgoda
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.re_snakee.losedone
+      linia: 10
+      sekcja_skryptu: losedone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2448
+  skrypt: re_snakeg
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_306c5572f27086a72c19
+      kontekst: data.json:scripts.re_snakeg.dontexplode
+      linia: 9
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Agreed
+      pl: Zgoda
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.re_snakeg.losedone
+      linia: 11
+      sekcja_skryptu: losedone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2449
+  skrypt: re_snakeh
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_306c5572f27086a72c19
+      kontekst: data.json:scripts.re_snakeh.dontexplode
+      linia: 9
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Agreed
+      pl: Zgoda
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_bd9cc594088517d92c24
+      kontekst: data.json:scripts.re_snakeh.losedone
+      linia: 11
+      sekcja_skryptu: losedone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Continue
+      pl: Kontynuuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2480
+  skrypt: sell_hexgem
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dayfail
+    wpisy:
+    - id: wol_c14f1883d00e82802554
+      kontekst: data.json:scripts.sell_hexgem.dayfail
+      linia: 5
+      sekcja_skryptu: dayfail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2710
+  skrypt: tut_mineelevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: '2'
+    wpisy:
+    - id: wol_dc8e58217a5505c962eb
+      kontekst: data.json:scripts.tut_mineelevator.2
+      linia: 9
+      sekcja_skryptu: '2'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take one
+      pl: Weź jedną
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

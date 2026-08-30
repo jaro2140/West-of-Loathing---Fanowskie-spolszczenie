@@ -1,0 +1,469 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: wascos_comedy_shack
+zrodlowy_batch: 115_dialog_loc_wascos_wascos_comedy_shack.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 1
+liczba_wpisow: 28
+sceny:
+- kolejnosc_w_danych_gry: 2783
+  skrypt: wasco_wasco
+  pomieszczenie:
+    id: wascos
+    nazwa_en: Wasco's Comedy Shack
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_43b77f34bf12514b4148
+      kontekst: data.json:scripts.wasco_wasco.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, welcome back! Ready for some grade-A hilarious jokes?
+      pl: Hej, witaj z powrotem! Gotowy na pierwszorzędne, przezabawne dowcipy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_a96da7a80fdc9c93b5fb
+      kontekst: data.json:scripts.wasco_wasco.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, hit me. [5 Meat]
+      pl: Dobra, dawaj. [5 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: joke
+    wpisy:
+    - id: wol_2406f75a4c2c8780b658
+      kontekst: data.json:scripts.wasco_wasco.joke
+      linia: 3
+      sekcja_skryptu: joke
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat and Wasco clears his throat.
+      pl: Oddajesz Mięso, a Wasco odchrząkuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4eba620a12969d35d6ec
+      kontekst: data.json:scripts.wasco_wasco.joke
+      linia: 4
+      sekcja_skryptu: joke
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%wasco_jokes/$line$%'
+      pl: '%wasco_jokes/$line$%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_jokes/$line$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5ca30c1bda91811da57
+      kontekst: data.json:scripts.wasco_wasco.joke
+      linia: 5
+      sekcja_skryptu: joke
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%wasco_jokes/$line2$%'
+      pl: '%wasco_jokes/$line2$%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_jokes/$line2$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6504499fab75019d4613
+      kontekst: data.json:scripts.wasco_wasco.joke
+      linia: 6
+      sekcja_skryptu: joke
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%wasco_jokes/$line3$%'
+      pl: '%wasco_jokes/$line3$%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_jokes/$line3$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d7982a48c80f668a5b75
+      kontekst: data.json:scripts.wasco_wasco.joke
+      linia: 7
+      sekcja_skryptu: joke
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '%wasco_response3%'
+      pl: '%wasco_response3%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_response3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: joke4
+    wpisy:
+    - id: wol_a9c4fd9e634f43faf837
+      kontekst: data.json:scripts.wasco_wasco.joke4
+      linia: 9
+      sekcja_skryptu: joke4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%wasco_jokes/$line4$%'
+      pl: '%wasco_jokes/$line4$%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_jokes/$line4$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3baff1380ff91ae1f28e
+      kontekst: data.json:scripts.wasco_wasco.joke4
+      linia: 10
+      sekcja_skryptu: joke4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%wasco_response4%'
+      pl: '%wasco_response4%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%wasco_response4%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1cc929ab39ec9154463e
+      kontekst: data.json:scripts.wasco_wasco.joke4
+      linia: 11
+      sekcja_skryptu: joke4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wasco takes a bow.
+      pl: Wasco się kłania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3864f4fcc0572572039f
+      kontekst: data.json:scripts.wasco_wasco.joke4
+      linia: 12
+      sekcja_skryptu: joke4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Wanna hear another one?
+      pl: Chcesz usłyszeć kolejny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_93d6c065a941dc2fc964
+      kontekst: data.json:scripts.wasco_wasco.opts
+      linia: 13
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: All right, hit me. [Requires 5 Meat]
+      pl: Dobra, dawaj. [Wymaga 5 sztuk Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ec829502dae65c61d791
+      kontekst: data.json:scripts.wasco_wasco.opts
+      linia: 14
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wasco, you're real bad at this.
+      pl: Wasco, naprawdę jesteś w tym słaby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prog1
+    wpisy:
+    - id: wol_7801053c76302cf929d7
+      kontekst: data.json:scripts.wasco_wasco.prog1
+      linia: 16
+      sekcja_skryptu: prog1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? No I'm not! You're bad at... the stuff you do! Dumb things, probably!
+      pl: Co? Wcale nie! Jesteś kiepski w tym, co robisz! Pewnie głupoty!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f95edca47dea06530d3
+      kontekst: data.json:scripts.wasco_wasco.prog1
+      linia: 18
+      sekcja_skryptu: prog1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: C'mon, lemme tell ya another one.
+      pl: No dalej, opowiem ci jeszcze jeden.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_cb06df2407ae7cf0b058
+      kontekst: data.json:scripts.wasco_wasco.opts
+      linia: 19
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Seriously, you aren't good at comedy.
+      pl: Serio, komedia ci nie wychodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prog2
+    wpisy:
+    - id: wol_11f736c9698600fe50c3
+      kontekst: data.json:scripts.wasco_wasco.prog2
+      linia: 21
+      sekcja_skryptu: prog2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Shut up!  I'm great at jokes!
+      pl: Cicho! Świetnie opowiadam żarty!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_551de57e762dbddd176a
+      kontekst: data.json:scripts.wasco_wasco.prog2
+      linia: 22
+      sekcja_skryptu: prog2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No you aren't.
+      pl: Nie, nie jesteś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb8b850cd9422126ff8f
+      kontekst: data.json:scripts.wasco_wasco.prog2
+      linia: 23
+      sekcja_skryptu: prog2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: But what about my...
+      pl: Ale co z moim...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b5f0a05b0e2c9e3cc91
+      kontekst: data.json:scripts.wasco_wasco.prog2
+      linia: 24
+      sekcja_skryptu: prog2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Your timing is terrible.
+      pl: Wyczucie czasu masz fatalne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f51ad8451dc03822c67d
+      kontekst: data.json:scripts.wasco_wasco.prog2
+      linia: 25
+      sekcja_skryptu: prog2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Timing!
+      pl: Wyczucie czasu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_574cc8cb60ace3dba423
+      kontekst: data.json:scripts.wasco_wasco.opts
+      linia: 26
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm telling you sincerely, you should quit.
+      pl: 'Mówię ci szczerze: powinieneś rzucić to.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prog3
+    wpisy:
+    - id: wol_319277dc9854bc43158b
+      kontekst: data.json:scripts.wasco_wasco.prog3
+      linia: 28
+      sekcja_skryptu: prog3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right! All right! Fine, I admit it. I can't tell jokes worth a darn. What else am I supposed to do, though?
+      pl: Dobra! Dobra! Przyznaję. Nie umiem opowiadać dowcipów za grosz. Ale co innego mam robić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e9b3c369c6267fc8de9
+      kontekst: data.json:scripts.wasco_wasco.prog3
+      linia: 29
+      sekcja_skryptu: prog3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're a pretty decent banjo player. The Jewel in Dirtwater could use a banjo.
+      pl: Jesteś całkiem przyzwoitym graczem banjo. Jewel w Dirtwater przydałby się banjo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a754af40e4bef84998ea
+      kontekst: data.json:scripts.wasco_wasco.prog3
+      linia: 30
+      sekcja_skryptu: prog3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh. Okay, yeah, that sounds pretty good.
+      pl: Hm. Okej, tak, brzmi całkiem nieźle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_854fc6ae97f7a7466e3e
+      kontekst: data.json:scripts.wasco_wasco.prog3
+      linia: 31
+      sekcja_skryptu: prog3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can't be much worse.
+      pl: Dużo gorzej nie będzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2091b97c039568e39d34
+      kontekst: data.json:scripts.wasco_wasco.prog3
+      linia: 32
+      sekcja_skryptu: prog3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll head on over there shortly. Thanks for the idea.
+      pl: Niedługo się tam wybiorę. Dzięki za pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_07503889eb9b9a6357d5
+      kontekst: data.json:scripts.wasco_wasco.intro
+      linia: 35
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, howdy, howdy! Wasco Shafter's the name, and comedy's the game!  Are you here for a real thigh-slappin' good time?
+      pl: Witaj, witaj, witaj! Nazywam się Wasco Shafter, a komedia to moja dziedzina! Jesteś tu po zabawę, od której będziesz klepać się po udach?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

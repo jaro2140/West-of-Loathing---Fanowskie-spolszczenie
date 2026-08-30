@@ -1,0 +1,3309 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: fort_cowardice
+zrodlowy_batch: 059_dialog_loc_fort1_fort_cowardice.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 50
+liczba_wpisow: 179
+sceny:
+- kolejnosc_w_danych_gry: 1393
+  skrypt: fort1_cannonball
+  pomieszczenie: &id001
+    id: fort1
+    nazwa_en: Fort Cowardice
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_be903e39c7a2a24a5e5d
+      kontekst: data.json:scripts.fort1_cannonball.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an unusually-sized cannonball.
+      pl: To kula armatnia o nietypowym rozmiarze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_bbd2c6a66d66915903bf
+      kontekst: data.json:scripts.fort1_cannonball.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Woof, it's heavy!
+      pl: Uff, ciężkie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1394
+  skrypt: fort1_cannons
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thinkpopup
+    wpisy:
+    - id: wol_2dcae9737b8bc5825dfd
+      kontekst: data.json:scripts.fort1_cannons.thinkpopup
+      linia: 1
+      sekcja_skryptu: thinkpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Just like the old saying goes: when life gives you cannons, make a cannonade.'
+      pl: 'Jak mówi stare przysłowie: jak życie daje ci armaty, zrób salwę armatnią.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1396
+  skrypt: fort1_filingcabinet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_88585fd63178360ac2a0
+      kontekst: data.json:scripts.fort1_filingcabinet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cabinet is mostly empty, but there are a handful of boring personnel records in the back of one drawer.
+      pl: Szafka prawie pusta, w tylnej części szuflady nudne akta personalne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bdf685e750c9244f3565
+      kontekst: data.json:scripts.fort1_filingcabinet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine them
+      pl: Zbadaj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_d7ba68b4f9ebb35760a4
+      kontekst: data.json:scripts.fort1_filingcabinet.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They are incredibly boring.
+      pl: Są niesamowicie nudne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0624ce2242ea4139f756
+      kontekst: data.json:scripts.fort1_filingcabinet.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No, really, I want details
+      pl: Nie, naprawdę, chcę szczegółów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: wol_484698ac66f7da5113d9
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 5
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Fine. You read one:'
+      pl: 'Dobrze. Czytasz jeden:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e5dd37d3ec20b8a00cb
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 6
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%fort1_cabinet/$mult1$%\n%fort1_cabinet/$mult2$%\n%fort1_cabinet/$mult3$%\n%fort1_cabinet/$mult4$%\n%fort1_cabinet/$mult5$%\n%fort1_cabinet/$mult6$%\n%fort1_cabinet/$mult7$%'
+      pl: '%fort1_cabinet/$mult1$%\n%fort1_cabinet/$mult2$%\n%fort1_cabinet/$mult3$%\n%fort1_cabinet/$mult4$%\n%fort1_cabinet/$mult5$%\n%fort1_cabinet/$mult6$%\n%fort1_cabinet/$mult7$%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%fort1_cabinet/$mult1$%'
+      - '%fort1_cabinet/$mult2$%'
+      - '%fort1_cabinet/$mult3$%'
+      - '%fort1_cabinet/$mult4$%'
+      - '%fort1_cabinet/$mult5$%'
+      - '%fort1_cabinet/$mult6$%'
+      - '%fort1_cabinet/$mult7$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc607f7c55fa4b0fc8a6
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 7
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now you're just looking at the same ones you've read before.  What is wrong with you?
+      pl: Teraz tylko patrzysz na te same, które już czytałeś. Co z tobą nie tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f02b9f7a27bdbac99ead
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 8
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Satisfied?
+      pl: Zadowolony?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_508bee627c2c4bc8a13f
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 9
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I can't get enough
+      pl: Nie mogę mieć dość
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f08e09c20d5ae1d71bd7
+      kontekst: data.json:scripts.fort1_filingcabinet.e2
+      linia: 10
+      sekcja_skryptu: e2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No, another!
+      pl: Nie, kolejny!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1397
+  skrypt: fort1_generaldoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_37c1bdf125ada6f1f655
+      kontekst: data.json:scripts.fort1_generaldoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: In general, this is a door.  More specifically, it's the door to the general's office.  Even more specifically, it's the locked door to the general's office.
+      pl: Ogólnie rzecz biorąc, to drzwi. Dokładniej — drzwi do biura generała. Jeszcze dokładniej — zamknięte drzwi do biura generała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort1_generaldoor.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1398
+  skrypt: fort1_generalgob
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 55
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d87e1752e43f10a65ccd
+      kontekst: data.json:scripts.fort1_generalgob.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin seated at this desk is repeatedly firing their pistol at that pie safe.
+      pl: Goblin siedzący przy tym biurku w kółko strzela z pistoletu w tę szafkę na wypieki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3b4e25ea1e8524bb999
+      kontekst: data.json:scripts.fort1_generalgob.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get their attention
+      pl: Zwróć ich uwagę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: wol_be26c1cdfccd41f5ff8b
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 3
+      sekcja_skryptu: talk
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Say, uh... What you are doing?
+      pl: Powiedz, eee... Co ty robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92b02b30165a7d4a8d8c
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 4
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Say, uh... What'cha doing?
+      pl: Powiedz, yyy... Co robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f3d0fe476968e025107
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 6
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Shooting pies!  Always!  Always shooting pies!
+      pl: Strzelać ciastami! Zawsze! Zawsze strzelać ciastami!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5526cc40309c3235817
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 7
+      sekcja_skryptu: talk
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Could you elaborating on that?
+      pl: Mógłbyś to jakoś wytłumaczając?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_fdddce378edb7f2e2328
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why shooting a pie?
+      pl: Dlaczego strzelasz do ciasta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1110e37096b84ffb0596
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To destroying, obviously! Must to destroying a terrible pie!
+      pl: Do zniszczenia, oczywiście! Trzeba zniszczyć okropny placek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6186165abc09012c81f6
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 12
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What is wrong with a pie?
+      pl: Co jest nie tak z ciastem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be47aaede3793c7928fe
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 13
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Bah! A human will never understanding!
+      pl: Ba! Człowiek nigdy nie zrozumieć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b0845972d55652c0c84
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 15
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask again
+      pl: Zapytaj ponownie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_f7915d1c49339f823fb9
+      kontekst: data.json:scripts.fort1_generalgob.three
+      linia: 16
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, really. Why a pie shooting?
+      pl: Nie, naprawdę. Dlaczego strzelać ciasto?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_328aee167602160edb71
+      kontekst: data.json:scripts.fort1_generalgob.three
+      linia: 17
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Shut up! So much <i>angry!</i>
+      pl: Zamknąć się! Tak dużo <i>złości!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_61e6e002ded8f6ba9c8f
+      kontekst: data.json:scripts.fort1_generalgob.three
+      linia: 19
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep trying
+      pl: Próbuj dalej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_7b6ea23bd20f59c2143e
+      kontekst: data.json:scripts.fort1_generalgob.four
+      linia: 20
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Looking, I pretty sure being a pie is destroyed.
+      pl: Patrzeć, ja prawie pewien, że ciasto być zniszczone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_354359d989c6eee5580a
+      kontekst: data.json:scripts.fort1_generalgob.four
+      linia: 21
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Destroy a</i>-- huh?
+      pl: <i>Zniszczyć</i>-- co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_698dc7b104aa954936c8
+      kontekst: data.json:scripts.fort1_generalgob.four
+      linia: 22
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Look, so many holes in a pie safe! You winning! A pie is dead!
+      pl: Patrz, tyle dziur w szafce na ciasto! Ty wygrywać! Ciasto jest martwe!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6177f1bbfe5bff744907
+      kontekst: data.json:scripts.fort1_generalgob.four
+      linia: 23
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You... certain being?
+      pl: Ty... być pewien?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d7f3dd37d90263e3239f
+      kontekst: data.json:scripts.fort1_generalgob.four
+      linia: 24
+      sekcja_skryptu: four
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Waiting here, I will checking.
+      pl: Czekam tu, ja będę sprawdzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 25
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ac57d3faa309e167fd2c
+      kontekst: data.json:scripts.fort1_generalgob.start
+      linia: 27
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get their attention <i>with violence</i> [Fight]
+      pl: Zwróć ich uwagę <i>przemocą</i> [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b83ac87b0043469a10dc
+      kontekst: data.json:scripts.fort1_generalgob.start
+      linia: 28
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their business
+      pl: Zostaw ich przy ich interesach
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkwait
+    wpisy:
+    - id: wol_60091f986ec643a5f3ac
+      kontekst: data.json:scripts.fort1_generalgob.checkwait
+      linia: 29
+      sekcja_skryptu: checkwait
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hurrying and checking a pie!
+      pl: Pospieszać się i sprawdzać ciasto!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.fort1_generalgob.checkwait
+      linia: 30
+      sekcja_skryptu: checkwait
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkedit
+    wpisy:
+    - id: wol_638100dec15846599431
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 31
+      sekcja_skryptu: checkedit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hooray, you are success! A pie is so very destroyed being!
+      pl: Hurra, ty być sukcesem! Ciasto być bardzo zniszczone!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a6c1db444d3b94d6e02
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 32
+      sekcja_skryptu: checkedit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I... I doing it?
+      pl: Ja... ja to robić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_303a16dcbbf866497fab
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 33
+      sekcja_skryptu: checkedit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So much doing it!
+      pl: Tak bardzo robić to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e564a744465a9aa64d63
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 34
+      sekcja_skryptu: checkedit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But... now what?
+      pl: Ale... co teraz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9b72bd563753edbbe47
+      kontekst: data.json:scripts.fort1_generalgob.checkedit
+      linia: 36
+      sekcja_skryptu: checkedit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What I shooting now?
+      pl: Co teraz kręcę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_801f1331e17a22008f64
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 38
+      sekcja_skryptu: five
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... I guess... you finding another pie?
+      pl: Um... Chyba... znalazłeś kolejne ciasto?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dde1c2dcd55c7d2a5568
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 39
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? There more pies being?
+      pl: Co? Jest więcej ciast?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_763e479d461aa5c15aed
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 40
+      sekcja_skryptu: five
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yes? A world is full of pies!
+      pl: Tak? Świat jest pełen ciast!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b24e76896c800f0bf91
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 41
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no! This violencing will never ending!
+      pl: O nie! To przemocowanie nigdy się nie skończyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb1c64476a478f986aa9
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 42
+      sekcja_skryptu: five
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry being, not wishing to enabling this behavior.
+      pl: Przepraszać, nie chcieć wspierać takiego zachowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_06dd7d463b41a40b0bce
+      kontekst: data.json:scripts.fort1_generalgob.five
+      linia: 43
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, this is my cross bearing. I must going and continuing the fight.
+      pl: Nie, to mój krzyż do niesienia. Muszę iść i kontynuować walkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: six
+    wpisy:
+    - id: wol_42620c42256fbcbdc377
+      kontekst: data.json:scripts.fort1_generalgob.six
+      linia: 46
+      sekcja_skryptu: six
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanking you.
+      pl: Dziękowanie ci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13f67a271827d1139621
+      kontekst: data.json:scripts.fort1_generalgob.six
+      linia: 47
+      sekcja_skryptu: six
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay. I wishing you good luck against a forces of pie.
+      pl: Dobra. Życzyć ci powodzenia przeciw siłom ciasta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convoend
+    wpisy:
+    - id: wol_abc9b6457fe2649dea13
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 48
+      sekcja_skryptu: convoend
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Intimidate them [Intimidatin' 2]
+      pl: Zastrasz ich [Zastraszanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat
+    wpisy:
+    - id: wol_e2ba58a0dbda3b4b9012
+      kontekst: data.json:scripts.fort1_generalgob.hat
+      linia: 49
+      sekcja_skryptu: hat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wait. Leaving a hat here. It will not safe being.
+      pl: Czekać. Zostawiam tutaj kapelusz. Nie będzie to bezpieczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb71d97edc9567a4b90d
+      kontekst: data.json:scripts.fort1_generalgob.hat
+      linia: 50
+      sekcja_skryptu: hat
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes. Good. You protecting a hat for me.
+      pl: Tak. Dobrze. Ty chronić kapelusz dla mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: heleaves
+    wpisy:
+    - id: wol_c0880c1249d67c441899
+      kontekst: data.json:scripts.fort1_generalgob.heleaves
+      linia: 51
+      sekcja_skryptu: heleaves
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: General Gob strides out the door, jaw clenched, eyes resolute with pie-hatred.
+      pl: Generał Gob wychodzi przez drzwi, z zaciśniętą szczęką i oczami pełnymi nienawiści do ciast.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d508c26b65af5d7e764
+      kontekst: data.json:scripts.fort1_generalgob.heleaves
+      linia: 52
+      sekcja_skryptu: heleaves
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, that was weird. I guess I'm the General now!
+      pl: No, to było dziwne. Chyba jestem teraz generałem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convoend
+    wpisy:
+    - id: wol_9ce346753cba83756801
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 53
+      sekcja_skryptu: convoend
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Intimidate them [Requires Intimidatin' 2]
+      pl: Zastrasz ich [Wymaga Zastraszania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_11e919c68d30f536dd22
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 54
+      sekcja_skryptu: convoend
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outfox them [Outfoxin' 2]
+      pl: Przechytrz ich [Przechytrzanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hatgun
+    wpisy:
+    - id: wol_57eb2c9aad40ee7cc4e7
+      kontekst: data.json:scripts.fort1_generalgob.hatgun
+      linia: 55
+      sekcja_skryptu: hatgun
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You should leaving a hat and gun. Having a fresh start.
+      pl: Powinieneś zostawić czapkę i broń. Od nowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ad3fe884c5d477756c18
+      kontekst: data.json:scripts.fort1_generalgob.hatgun
+      linia: 56
+      sekcja_skryptu: hatgun
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, correct being. I will fighting each pie as if it is first pie being.
+      pl: Tak, poprawna istoto. Będę walczyć z każdym ciastem jak z pierwszym ciastem będącym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convoend
+    wpisy:
+    - id: wol_93c569be245652a21775
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 57
+      sekcja_skryptu: convoend
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outfox them [Requires Outfoxin' 2]
+      pl: Przechytrz ich [Wymaga Przechytrzania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de7036aaad6e1df746e0
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 58
+      sekcja_skryptu: convoend
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hornswoggle them [Hornswogglin' 2]
+      pl: Oszukaj ich [Oszukiwanie 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gun
+    wpisy:
+    - id: wol_0e2f31a1e09b1a2a509e
+      kontekst: data.json:scripts.fort1_generalgob.gun
+      linia: 59
+      sekcja_skryptu: gun
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Leaving the gun. Fighting a pie with honor, with fists.
+      pl: Zostawić broń. Walczyć z ciastem honorowo, pięściami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_992a2d6088e6aa7645ca
+      kontekst: data.json:scripts.fort1_generalgob.gun
+      linia: 60
+      sekcja_skryptu: gun
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, you are correct. Truly a pie must be with my own strength fighting.
+      pl: Tak, masz rację. Naprawdę ciasto musi być walczone moją własną siłą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convoend
+    wpisy:
+    - id: wol_96a4ca923a2532055b9a
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 61
+      sekcja_skryptu: convoend
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Hornswoggle them [Requires Hornswogglin' 2]
+      pl: Oszukaj ich [Wymaga Oszukiwania 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df5bf06179194863e7ed
+      kontekst: data.json:scripts.fort1_generalgob.convoend
+      linia: 62
+      sekcja_skryptu: convoend
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Salute them.
+      pl: Zasalutuj im.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_762efed51fae67ea041b
+      kontekst: data.json:scripts.fort1_generalgob.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put an end to that pie-shooting goblin's reign of terror.  All the world's pies thank you.
+      pl: Kończysz panowanie terroru goblina strzelającego w placki. Wszystkie placki świata ci dziękują.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_b240c06eab53068ba4b8
+      kontekst: data.json:scripts.fort1_generalgob.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feel like the world's most bullet-riddled pie.
+      pl: Czujesz się jak najbardziej postrzelone ciasto na świecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_67336a95e53cf43aecc9
+      kontekst: data.json:scripts.fort1_generalgob.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I...  What?
+      pl: Ta, ja... Co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1399
+  skrypt: fort1_ladderhole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c3cf5b6c7445be966d74
+      kontekst: data.json:scripts.fort1_ladderhole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This leads down into a cave -- this must be how the goblins got into the fort.
+      pl: To prowadzi w dół do jaskini — gobliny musiały tędy dostać się do fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_808b5072fe47a0cfae3e
+      kontekst: data.json:scripts.fort1_ladderhole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go down the ladder
+      pl: Zejdź po drabinie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1400
+  skrypt: fort1_messtable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f46d68ea7f024ba87c5e
+      kontekst: data.json:scripts.fort1_messtable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like there's still some good mess left.
+      pl: Wygląda na to, że zostało jeszcze trochę dobrego syfu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_78041aeb8b920b23b85d
+      kontekst: data.json:scripts.fort1_messtable.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bless this mess.
+      pl: Pobłogosław ten bajzel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1401
+  skrypt: fort1_nursedesk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_97c705cb6db7f1f51157
+      kontekst: data.json:scripts.fort1_nursedesk.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Based on the papers and anatomical diagrams scattered across its surface, you're guessing this desk belonged to Fort Cowardice's nurse.
+      pl: Po papierach i diagramach anatomicznych porozrzucanych po blacie domyślasz się, że to biurko pielęgniarki z Posterunku Cykorów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_82aa586cfa42deb1b57a
+      kontekst: data.json:scripts.fort1_nursedesk.options
+      linia: 2
+      sekcja_skryptu: options
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at the papers
+      pl: Spójrz na papiery
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: papers
+    wpisy:
+    - id: wol_d8efbc70940b76bfbba7
+      kontekst: data.json:scripts.fort1_nursedesk.papers
+      linia: 3
+      sekcja_skryptu: papers
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The papers are mostly just boring medical records.  Dental daguerrotypes, lamentations that antibiotics haven't been discovered yet, that kind of thing.
+      pl: Papiery to głównie nudne dokumenty medyczne. Daguerrotypy zębów, lamenty, że antybiotyki jeszcze nie wynaleziono — tego typu rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94bbba9602e4f02431a4
+      kontekst: data.json:scripts.fort1_nursedesk.papers
+      linia: 4
+      sekcja_skryptu: papers
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey wait, what's this?  This looks like it might be important.
+      pl: Hej, chwila, co to? Wygląda na coś ważnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_7b281818116321262d4e
+      kontekst: data.json:scripts.fort1_nursedesk.options
+      linia: 5
+      sekcja_skryptu: options
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at the diagrams
+      pl: Spójrz na diagramy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: charts
+    wpisy:
+    - id: wol_bd0be5ed4cdcb640bd06
+      kontekst: data.json:scripts.fort1_nursedesk.charts
+      linia: 6
+      sekcja_skryptu: charts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They're a bunch of drawings of sliced-open bodies.
+      pl: To rysunki rozkrojonych ciał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9aeb4972fb889bcaba95
+      kontekst: data.json:scripts.fort1_nursedesk.charts
+      linia: 7
+      sekcja_skryptu: charts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They're just a bunch of disgusting drawings of sliced-open bodies.
+      pl: To po prostu obrzydliwe rysunki rozkrojonych ciał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: synergy
+    wpisy:
+    - id: wol_69cb481034d9d5905c83
+      kontekst: data.json:scripts.fort1_nursedesk.synergy
+      linia: 8
+      sekcja_skryptu: synergy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take a moment to correlate the drawings to what you saw in Janet's box in the circus sideshow, and come away with some new insights.
+      pl: Po chwili łączysz rysunki z tym, co widziałeś w skrzynce Janet w cyrkowym sideshow, i wychodzisz z nowymi spostrzeżeniami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1402
+  skrypt: fort1_nursesafe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_15960351cfdd5934816c
+      kontekst: data.json:scripts.fort1_nursesafe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This safe is labeled "CONTROLLED SUBSTANCES."  This must be where they store the really effective stuff.
+      pl: Ten sejf ma etykietę „CONTROLLED SUBSTANCES”. Tu muszą trzymać naprawdę skuteczne rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40f6601c49b29a97b077
+      kontekst: data.json:scripts.fort1_nursesafe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 1]
+      pl: Włam się do sejfu [Sejfowanie 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_6ed468c70d230e0d88db
+      kontekst: data.json:scripts.fort1_nursesafe.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the safe and put the controlled substances under your own control.
+      pl: Otwierasz sejf i przejmujesz kontrolę nad substancjami kontrolowanymi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_0ccdb82a927a794522ad
+      kontekst: data.json:scripts.fort1_nursesafe.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 1]
+      pl: Włam się do sejfu [Wymaga Sejfowania 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1403
+  skrypt: fort1_nurseshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_93689b51f3856c0ade0f
+      kontekst: data.json:scripts.fort1_nurseshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf still has some unlooted medical supplies on it.
+      pl: Na tej półce wciąż są niezrabowane materiały medyczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e29efc3f56a31ba934d6
+      kontekst: data.json:scripts.fort1_nurseshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Render them looted
+      pl: Ograb je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_f10945cc72f2e70974e2
+      kontekst: data.json:scripts.fort1_nurseshelf.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You bolster your supply of medical goods at the expense of the shelf's.
+      pl: Uzupełniasz zapas medykamentów kosztem półki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1404
+  skrypt: fort1_piesafe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: yep
+    wpisy:
+    - id: wol_1afa8d80ed86818699ea
+      kontekst: data.json:scripts.fort1_piesafe.yep
+      linia: 1
+      sekcja_skryptu: yep
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a single pie inside, shot to pieces.
+      pl: W środku jeden placek, postrzelony w drzazgi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: check
+    wpisy:
+    - id: wol_86ca8bd70f21969fc3af
+      kontekst: data.json:scripts.fort1_piesafe.check
+      linia: 2
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You peek through the bullet holes. Yep, that pie is shot to hell.
+      pl: Zaglądasz przez dziury po kulach. Tak, ten placek jest zrujnowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_db6f7bded911546288ad
+      kontekst: data.json:scripts.fort1_piesafe.nope
+      linia: 3
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You probably shouldn't try to open this pie safe while that goblin is shooting it.
+      pl: Pewnie nie powinieneś próbować otwierać tego sejfu na placek, gdy goblin w niego strzela.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1405
+  skrypt: fort1_receptiondesk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_826a67ba6809e322b72c
+      kontekst: data.json:scripts.fort1_receptiondesk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This was once a reception desk, but now the most appropriate thing for it to receive would be a free trip to the dump.
+      pl: Kiedyś to było biurko recepcji, teraz najbardziej powinno przyjąć darmową wycieczkę na wysypisko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1407
+  skrypt: fort1_spicecabinet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5cef9fc42da942c4d2dc
+      kontekst: data.json:scripts.fort1_spicecabinet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a spice rack.
+      pl: To stojak na przyprawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_7717344ff591042db521
+      kontekst: data.json:scripts.fort1_spicecabinet.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One shaker of saltpeter is enough.
+      pl: Jedna paczka saletry wystarczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5280e60d1459cf5e03a4
+      kontekst: data.json:scripts.fort1_spicecabinet.open
+      linia: 4
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This spice cabinet has provided all the value it's going to provide.
+      pl: Ta szafeczka na przyprawy dała już z siebie wszystko, co mogła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b1c5d5f53954b88008ac
+      kontekst: data.json:scripts.fort1_spicecabinet.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's just a bunch of unlabeled green shakers.  Better leave them alone -- they might be poison instead of spices, for all you know.
+      pl: To tylko sterta nieoznakowanych zielonych solniczek. Lepiej ich nie ruszać — równie dobrze mogą być trucizną zamiast przypraw, kto wie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givepeter
+    wpisy:
+    - id: wol_dbc32d5ce8e62beeecc9
+      kontekst: data.json:scripts.fort1_spicecabinet.givepeter
+      linia: 6
+      sekcja_skryptu: givepeter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Little green unlabelled jars. Hopefully, this is the stuff the chef was looking for.
+      pl: Małe zielone słoiczki bez etykiet. Miejmy nadzieję, że to właśnie tego szukał szef kuchni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1408
+  skrypt: fort1_tent1locker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_680388f141b59b394441
+      kontekst: data.json:scripts.fort1_tent1locker1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An unlocked footlocker.  I guess that makes it just... a footer?
+      pl: Kufer bez zamka. Czyli to już chyba tylko... kufe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_19c7458686d1f113b93a
+      kontekst: data.json:scripts.fort1_tent1locker1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the footer
+      pl: Otwórz skrzynię
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1409
+  skrypt: fort1_tent1locker2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1e567c4046f76f3cbeef
+      kontekst: data.json:scripts.fort1_tent1locker2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lock on this footlocker has rusted away to almost nothing.
+      pl: Zamek tej skrzyni zardzewiał prawie do zera.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d8ef03720634daf40097
+      kontekst: data.json:scripts.fort1_tent1locker2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Kick it open
+      pl: Wykop to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1410
+  skrypt: fort1_tent1locker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_650d8dbce0b9214509da
+      kontekst: data.json:scripts.fort1_tent1locker3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is still locked.
+      pl: Kufer wciąż zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort1_tent1locker3.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1411
+  skrypt: fort1_tent3door
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b8e7bec1033d40266af5
+      kontekst: data.json:scripts.fort1_tent3door.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That sign says TOILET in goblin, which makes it seem pretty likely that goblins use this tent as a toilet.  No way are you gonna go in there.
+      pl: Ten znak mówi TOALETA po goblińsku, co sprawia, że gobliny prawdopodobnie używają tego namiotu jako toalety. Nie ma mowy, żebyś tam wszedł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1412
+  skrypt: fort1_tentdoor1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8650ddc88ff9a7a2ecb9
+      kontekst: data.json:scripts.fort1_tentdoor1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hear the sounds of several goblins snoring inside this tent.
+      pl: Słyszysz chrapanie kilku goblinów w tym namiocie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f0b651476932f55b9b99
+      kontekst: data.json:scripts.fort1_tentdoor1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go in guns blazing [Fight]
+      pl: Wejdź z bronią w ręku [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39d5fdf1ba576687d1e3
+      kontekst: data.json:scripts.fort1_tentdoor1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set off a fungicide bomb
+      pl: Zdetonuj bombę fungicydową
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bomb
+    wpisy:
+    - id: wol_20944fd80f5656e20a77
+      kontekst: data.json:scripts.fort1_tentdoor1.bomb
+      linia: 4
+      sekcja_skryptu: bomb
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press the cap on the fungus bomb, toss it into the tent, and hold the flaps closed until the popping and sizzling noises stop.  You should be safe in there now.
+      pl: Zatrzaskujesz grzybową bombę, wrzucasz ją do namiotu i trzymasz klapy zamknięte, aż ustaną trzaski i skwierczenia. Teraz powinno być tam bezpiecznie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de50c85d99409a80a95e
+      kontekst: data.json:scripts.fort1_tentdoor1.bomb
+      linia: 5
+      sekcja_skryptu: bomb
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gary
+    wpisy:
+    - id: wol_70daf8b4bc38cdf0ecd3
+      kontekst: data.json:scripts.fort1_tentdoor1.gary
+      linia: 7
+      sekcja_skryptu: gary
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Not bothering!  Letting them sleep!
+      pl: Nie przeszkadzam! Niech śpią!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.fort1_tentdoor1.gary
+      linia: 8
+      sekcja_skryptu: gary
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_142930848f1dcf515a35
+      kontekst: data.json:scripts.fort1_tentdoor1.gary
+      linia: 9
+      sekcja_skryptu: gary
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the tent
+      pl: Opuść namiot
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_3df9b8ce5b1a902eefe2
+      kontekst: data.json:scripts.fort1_tentdoor1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've heroically defeated the sleeping goblins who were guarding... their beds.
+      pl: Bohatersko pokonałeś śpiących goblinów, którzy strzegli... swoich łóżek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_c498441629f8d5060994
+      kontekst: data.json:scripts.fort1_tentdoor1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The last thing you see before your vision goes black is all of those goblins getting back into their cots and falling asleep again.
+      pl: Ostatnie, co widzisz, zanim ciemnieje, to gobliny wracające do swoich łóżek i znowu zasypiające.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_2ed16a66432af116f539
+      kontekst: data.json:scripts.fort1_tentdoor1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit.
+      pl: Nie do wiary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1414
+  skrypt: fort1_toiletsign
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_da4fcc603d7dae424347
+      kontekst: data.json:scripts.fort1_toiletsign.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sign has the goblin word for TOILET on it.
+      pl: Ten znak ma goblie słowo na TOALETĘ.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c4377e6b43a8279359fc
+      kontekst: data.json:scripts.fort1_toiletsign.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sign has some crazy goblin writing on it.
+      pl: Ten znak ma szalone goblie pismo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1415
+  skrypt: fort1_triangle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_83527cbb06f6fe73127c
+      kontekst: data.json:scripts.fort1_triangle.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this triangle would probably rile up a goblin or two.
+      pl: Dzwonienie tym trójkątem pewnie wkurzy goblina albo dwóch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56776db8ed21a56dfc36
+      kontekst: data.json:scripts.fort1_triangle.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this triangle would probably rile up a few goblins.
+      pl: Dzwonienie tym trójkątem pewnie wkurzy kilku goblinów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f9e28e249e7597b4508
+      kontekst: data.json:scripts.fort1_triangle.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it and bring it! [Fight]
+      pl: Zadzwoń i sprowadź ich! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_56776db8ed21a56dfc36
+      kontekst: data.json:scripts.fort1_triangle.hardstart
+      linia: 4
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this triangle would probably rile up a few goblins.
+      pl: Dzwonienie tym trójkątem pewnie wkurzy kilku goblinów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f9e28e249e7597b4508
+      kontekst: data.json:scripts.fort1_triangle.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it and bring it! [Fight]
+      pl: Zadzwoń i sprowadź ich! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d3c7c6a862b67465b843
+      kontekst: data.json:scripts.fort1_triangle.hardstart
+      linia: 6
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice in your head tells you that you've already rung that triangle enough times today.
+      pl: Głos w twojej głowie mówi, że na dziś już wystarczająco wiele razy dzwoniłeś tym trójkątem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3eafed8e57b88711783e
+      kontekst: data.json:scripts.fort1_triangle.hardstart
+      linia: 7
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: How annoying
+      pl: Jakie to irytujące
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_9175a1b90b34d34631ee
+      kontekst: data.json:scripts.fort1_triangle.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You won the fight!  Go you!
+      pl: Wygrałeś walkę! Brawo ty!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_944f03256cf735b5bd8f
+      kontekst: data.json:scripts.fort1_triangle.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost!
+      pl: Przegrałeś!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b15e10bb6d32de633c76
+      kontekst: data.json:scripts.fort1_triangle.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A goblin deposits you at the base of the ladder before heading back into its hole.
+      pl: Goblin zostawia cię u podstawy drabiny i wraca do swojej dziury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1416
+  skrypt: fort1_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9cd6b3b1df00fcade073
+      kontekst: data.json:scripts.fort1_watchtower.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb up into the watchtower and take a look around.
+      pl: Wspinasz się na strażnicę i rozglądasz się.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoversnakespring
+    wpisy:
+    - id: wol_8759792cd4bb1a5d365b
+      kontekst: data.json:scripts.fort1_watchtower.discoversnakespring
+      linia: 1
+      sekcja_skryptu: discoversnakespring
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a splash of greenery in a canyon up north -- must be a spring there!
+      pl: W kanionie na północy widzisz plamę zieleni — musi tam być źródło!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_1e327fefb0f4767874b3
+      kontekst: data.json:scripts.fort1_watchtower.rembin
+      linia: 2
+      sekcja_skryptu: rembin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb down from the watchtower and pitch the binoculars in a nearby trash can.
+      pl: Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8fac753bab5d92f167c1
+      kontekst: data.json:scripts.fort1_watchtower.rembin
+      linia: 3
+      sekcja_skryptu: rembin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep Fort Cowardice Beautiful
+      pl: Dbaj o piękno Posterunku Cykorów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverbigapple
+    wpisy:
+    - id: wol_ad014a10766f7afdca10
+      kontekst: data.json:scripts.fort1_watchtower.discoverbigapple
+      linia: 1
+      sekcja_skryptu: discoverbigapple
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a horse apple big enough to -- well, big enough to see from here.
+      pl: Widzisz końskie jabłko wystarczająco duże, żeby — no, wystarczająco duże, żeby widać je stąd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovercemetery2
+    wpisy:
+    - id: wol_f826d08997c7c84256ad
+      kontekst: data.json:scripts.fort1_watchtower.discovercemetery2
+      linia: 1
+      sekcja_skryptu: discovercemetery2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spy an old mission a ways north of town.
+      pl: Dostrzegasz starą misję na północ od miasteczka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1425
+  skrypt: fort2_footlocker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_650d8dbce0b9214509da
+      kontekst: data.json:scripts.fort2_footlocker3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is still locked.
+      pl: Kufer wciąż zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort2_footlocker3.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1426
+  skrypt: fort2_footlocker4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort2_footlocker4.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1427
+  skrypt: fort2_footlocker6
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_650d8dbce0b9214509da
+      kontekst: data.json:scripts.fort2_footlocker6.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is still locked.
+      pl: Kufer wciąż zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1438
+  skrypt: fort2_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9cd6b3b1df00fcade073
+      kontekst: data.json:scripts.fort2_watchtower.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb up into the watchtower and take a look around.
+      pl: Wspinasz się na strażnicę i rozglądasz się.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_1e327fefb0f4767874b3
+      kontekst: data.json:scripts.fort2_watchtower.rembin
+      linia: 2
+      sekcja_skryptu: rembin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb down from the watchtower and pitch the binoculars in a nearby trash can.
+      pl: Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1441
+  skrypt: fort3_footlocker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_650d8dbce0b9214509da
+      kontekst: data.json:scripts.fort3_footlocker1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is still locked.
+      pl: Kufer wciąż zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort3_footlocker1.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1442
+  skrypt: fort3_footlocker2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1e567c4046f76f3cbeef
+      kontekst: data.json:scripts.fort3_footlocker2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lock on this footlocker has rusted away to almost nothing.
+      pl: Zamek tej skrzyni zardzewiał prawie do zera.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d8ef03720634daf40097
+      kontekst: data.json:scripts.fort3_footlocker2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Kick it open
+      pl: Wykop to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1443
+  skrypt: fort3_footlocker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_650d8dbce0b9214509da
+      kontekst: data.json:scripts.fort3_footlocker3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is still locked.
+      pl: Kufer wciąż zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_178d0bdc2a03270a0a15
+      kontekst: data.json:scripts.fort3_footlocker3.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock!
+      pl: Otwierasz zamek!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1444
+  skrypt: fort3_footlocker4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1e567c4046f76f3cbeef
+      kontekst: data.json:scripts.fort3_footlocker4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lock on this footlocker has rusted away to almost nothing.
+      pl: Zamek tej skrzyni zardzewiał prawie do zera.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d8ef03720634daf40097
+      kontekst: data.json:scripts.fort3_footlocker4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Kick it open
+      pl: Wykop to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1446
+  skrypt: fort3_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9cd6b3b1df00fcade073
+      kontekst: data.json:scripts.fort3_watchtower.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb up into the watchtower and take a look around.
+      pl: Wspinasz się na strażnicę i rozglądasz się.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_1e327fefb0f4767874b3
+      kontekst: data.json:scripts.fort3_watchtower.rembin
+      linia: 2
+      sekcja_skryptu: rembin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb down from the watchtower and pitch the binoculars in a nearby trash can.
+      pl: Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1468
+  skrypt: fort4_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9cd6b3b1df00fcade073
+      kontekst: data.json:scripts.fort4_watchtower.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb up into the watchtower and take a look around.
+      pl: Wspinasz się na strażnicę i rozglądasz się.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_1e327fefb0f4767874b3
+      kontekst: data.json:scripts.fort4_watchtower.rembin
+      linia: 2
+      sekcja_skryptu: rembin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb down from the watchtower and pitch the binoculars in a nearby trash can.
+      pl: Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1482
+  skrypt: fort5_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9cd6b3b1df00fcade073
+      kontekst: data.json:scripts.fort5_watchtower.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb up into the watchtower and take a look around.
+      pl: Wspinasz się na strażnicę i rozglądasz się.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_1e327fefb0f4767874b3
+      kontekst: data.json:scripts.fort5_watchtower.rembin
+      linia: 2
+      sekcja_skryptu: rembin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You climb down from the watchtower and pitch the binoculars in a nearby trash can.
+      pl: Schodzisz ze strażnicy i wrzucasz lornetkę do pobliskiego kosza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1575
+  skrypt: goblin1_house3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_de50c85d99409a80a95e
+      kontekst: data.json:scripts.goblin1_house3.picklock
+      linia: 6
+      sekcja_skryptu: picklock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1580
+  skrypt: goblin1_house8
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_de50c85d99409a80a95e
+      kontekst: data.json:scripts.goblin1_house8.picklock
+      linia: 6
+      sekcja_skryptu: picklock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1596
+  skrypt: goblin1_treasuredoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unlock
+    wpisy:
+    - id: wol_de50c85d99409a80a95e
+      kontekst: data.json:scripts.goblin1_treasuredoor.unlock
+      linia: 4
+      sekcja_skryptu: unlock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000003
+  skrypt: house_airbnbdoor1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unbar
+    wpisy:
+    - id: wol_de50c85d99409a80a95e
+      kontekst: house.json:scripts.house_airbnbdoor1.unbar
+      linia: 4
+      sekcja_skryptu: unbar
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Head inside
+      pl: Wejdź do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000105
+  skrypt: house_ghost_billiards
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hasgoodcue
+    wpisy:
+    - id: wol_2ed16a66432af116f539
+      kontekst: house.json:scripts.house_ghost_billiards.hasgoodcue
+      linia: 19
+      sekcja_skryptu: hasgoodcue
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit.
+      pl: Nie do wiary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1783
+  skrypt: mine1_snakehole3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_2ed16a66432af116f539
+      kontekst: data.json:scripts.mine1_snakehole3.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit.
+      pl: Nie do wiary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1797
+  skrypt: mine2_locker
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: open3
+    wpisy:
+    - id: wol_40f6601c49b29a97b077
+      kontekst: data.json:scripts.mine2_locker.open3
+      linia: 17
+      sekcja_skryptu: open3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 1]
+      pl: Włam się do sejfu [Sejfowanie 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Safecrackin'' 1]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: pete_34
+    wpisy:
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.pardner_talk.pete_34
+      linia: 2
+      sekcja_skryptu: pete_34
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_34
+    wpisy:
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.pardner_talk.alice_34
+      linia: 2
+      sekcja_skryptu: alice_34
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_34
+    wpisy:
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.pardner_talk.gary_34
+      linia: 2
+      sekcja_skryptu: gary_34
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_34
+    wpisy:
+    - id: wol_556358712cf32234ad0f
+      kontekst: data.json:scripts.pardner_talk.susie_34
+      linia: 2
+      sekcja_skryptu: susie_34
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.
+      pl: Okej, okej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2014
+  skrypt: pokergame
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: youlost
+    wpisy:
+    - id: wol_944f03256cf735b5bd8f
+      kontekst: data.json:scripts.pokergame.youlost
+      linia: 77
+      sekcja_skryptu: youlost
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost!
+      pl: Przegrałeś!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2179
+  skrypt: ranch1_safe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_40f6601c49b29a97b077
+      kontekst: data.json:scripts.ranch1_safe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 1]
+      pl: Włam się do sejfu [Sejfowanie 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ccdb82a927a794522ad
+      kontekst: data.json:scripts.ranch1_safe.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 1]
+      pl: Włam się do sejfu [Wymaga Sejfowania 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2188
+  skrypt: ranch2_crate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d8ef03720634daf40097
+      kontekst: data.json:scripts.ranch2_crate.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Kick it open
+      pl: Wykop to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2190
+  skrypt: ranch2_hippy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getbane
+    wpisy:
+    - id: wol_2ed16a66432af116f539
+      kontekst: data.json:scripts.ranch2_hippy2.getbane
+      linia: 30
+      sekcja_skryptu: getbane
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit.
+      pl: Nie do wiary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2316
+  skrypt: re_cowd2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.re_cowd2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2369
+  skrypt: re_goblinf2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talkoptions
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.re_goblinf2.talkoptions
+      linia: 20
+      sekcja_skryptu: talkoptions
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2374
+  skrypt: re_goblinh1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talkoptions
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.re_goblinh1.talkoptions
+      linia: 10
+      sekcja_skryptu: talkoptions
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2375
+  skrypt: re_goblinh2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: talk
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.re_goblinh2.talk
+      linia: 23
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_165f5f8c2bf9d0f685e3
+      kontekst: data.json:scripts.re_goblinh2.intim
+      linia: 29
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack them [Fight]
+      pl: Zaatakuj ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2390
+  skrypt: re_meatsafeb
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_40f6601c49b29a97b077
+      kontekst: data.json:scripts.re_meatsafeb.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 1]
+      pl: Włam się do sejfu [Sejfowanie 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ccdb82a927a794522ad
+      kontekst: data.json:scripts.re_meatsafeb.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 1]
+      pl: Włam się do sejfu [Wymaga Sejfowania 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2391
+  skrypt: re_meatsafec
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_40f6601c49b29a97b077
+      kontekst: data.json:scripts.re_meatsafec.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 1]
+      pl: Włam się do sejfu [Sejfowanie 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ccdb82a927a794522ad
+      kontekst: data.json:scripts.re_meatsafec.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 1]
+      pl: Włam się do sejfu [Wymaga Sejfowania 1]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 1]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

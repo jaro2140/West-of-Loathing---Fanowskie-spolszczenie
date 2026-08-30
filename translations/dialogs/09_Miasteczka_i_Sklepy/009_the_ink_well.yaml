@@ -1,0 +1,4015 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: the_ink_well
+zrodlowy_batch: 074_dialog_loc_inkwell_the_ink_well.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 28
+liczba_wpisow: 235
+sceny:
+- kolejnosc_w_danych_gry: 1000074
+  skrypt: house_employee1
+  pomieszczenie: &id001
+    id: inkwell
+    nazwa_en: The Ink Well
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: finish
+    wpisy:
+    - id: wol_39d93b6474bac00a6033
+      kontekst: house.json:scripts.house_employee1.finish
+      linia: 30
+      sekcja_skryptu: finish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A job well done
+      pl: Robota dobrze wykonana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000105
+  skrypt: house_ghost_billiards
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_4ffa4a4798b5b7a5badc
+      kontekst: house.json:scripts.house_ghost_billiards.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I sure did
+      pl: No jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1635
+  skrypt: inkwell_floor1_bears
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3a6fd632b6c7491886e8
+      kontekst: data.json:scripts.inkwell_floor1_bears.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A group of hungry-looking bears blocks your path.
+      pl: Grupa głodnie wyglądających niedźwiedzi zastępuje ci drogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fbc50c710b3bd4b3aab
+      kontekst: data.json:scripts.inkwell_floor1_bears.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get closer
+      pl: Podejdź bliżej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1636
+  skrypt: inkwell_floor1_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b2717ffe18462e47e481
+      kontekst: data.json:scripts.inkwell_floor1_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no way you're going in that elevator without spooky resistance.
+      pl: Nie wchodzisz do tej windy bez odporności na upiorność.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c6c8f094a25aa1c0160
+      kontekst: data.json:scripts.inkwell_floor1_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I've got some! [Spooky Resistance]
+      pl: Mam trochę! [Odporność na upiorność]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Spooky Resistance]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1637
+  skrypt: inkwell_floor1_examinebears
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_241a6c831fd43ec3da69
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These bears are eyeing you up like you're a peanut that hasn't been cracked, eaten, and thrown on the steakhouse floor yet, and they're anxious to finish the job.
+      pl: Te niedźwiedzie patrzą na ciebie jak na orzeszka, którego jeszcze nie rozgryziono, nie zjedzono i nie wyrzucono na podłogę steakhouse'u — chcą dokończyć robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bearfight
+    wpisy:
+    - id: wol_5c47b5b5d2d0f926ef16
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.bearfight
+      linia: 3
+      sekcja_skryptu: bearfight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'placeholder: this is where the bear fight goes'
+      pl: 'placeholder: tu ma iść walka z niedźwiedziami'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_d8017e114c572a36445c
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tell them where they can find food that isn't you [Foragin' 2]
+      pl: Powiedz im, gdzie znajdą jedzenie, które nie jest tobą [Zbieractwo 2]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Foragin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foraginglesson
+    wpisy:
+    - id: wol_2ccbf37d5d7f735fafb6
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.foraginglesson
+      linia: 5
+      sekcja_skryptu: foraginglesson
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spend some time teaching the bears about the finer points of cactus fruit picking (pun intended) and how to get enough protein in their diet by using a stick to collect ants. They listen intently, then grunt a thank you and exit the cave.
+      pl: Spędzasz trochę czasu, ucząc niedźwiedzie subtelności zbierania owoców kaktusa (gra słów zamierzona) i jak uzupełnić białko w diecie patykiem do zbierania mrówek. Słuchają uważnie, chrząkają dziękując i wychodzą z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6218920ce49abb759136
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.foraginglesson
+      linia: 6
+      sekcja_skryptu: foraginglesson
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, there's your good deed done for bears for the day
+      pl: No, masz dobre uczynki na dziś wobec niedźwiedzi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a039cc634933db79a383
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'Make yourself look very, very big [Muscle: 35]'
+      pl: 'Spraw, żebyś wyglądał na bardzo, bardzo dużego [Mięśnie: 35]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Muscle: 35]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swellup
+    wpisy:
+    - id: wol_bc3274e2b5e426865c6a
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.swellup
+      linia: 8
+      sekcja_skryptu: swellup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Having heard that bears won't attack you if they think you're very large, you bulge out your biceps, puff out your pecs, and generally do everything in your power to make yourself look huge.
+      pl: Słyszałeś, że niedźwiedzie nie atakują, jeśli myślą, że jesteś bardzo duży, więc napinasz bicepsy, wypinasz klatkę i ogólnie robisz wszystko, żeby wyglądać ogromnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29c59083ba71fc599819
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.swellup
+      linia: 9
+      sekcja_skryptu: swellup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bears take turns poking your deltoids and agree amongst themselves that you're too perfect a specimen to snack on, then exit the cave.
+      pl: Niedźwiedzie na przemian szturchają twoje mięśnie naramienne i uzgadniają między sobą, że jesteś zbyt doskonałym okazem na przekąskę, po czym wychodzą z jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8ea1369dec543ff6cc7
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.swellup
+      linia: 10
+      sekcja_skryptu: swellup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At least, you assume that's what they agreed on. It's possible they had an entire conversation about how you smell real bad and probably taste real bad too, and you'll never know, because you don't speak bear.
+      pl: Zakładasz przynajmniej, że o tym się dogadali. Możliwe, że prowadzili całą rozmowę o tym, jak fatalnie śmierdzisz i pewnie fatalnie smakujesz — i nigdy się nie dowiesz, bo nie znasz niedźwiedziego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fad141569a80e7e8ece7
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.swellup
+      linia: 11
+      sekcja_skryptu: swellup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: At least the bears are gone
+      pl: Przynajmniej niedźwiedzie zniknęły
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_c74ad99b427082f974c9
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'placeholder: You won the fight against the bears'
+      pl: 'placeholder: Wygrałeś walkę z niedźwiedziami'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ddfd975a25caae509687
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'placeholder: You lost the fight against the bears'
+      pl: 'placeholder: Przegrałeś walkę z niedźwiedziami'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_4ffa4a4798b5b7a5badc
+      kontekst: data.json:scripts.inkwell_floor1_examinebears.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I sure did
+      pl: No jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1638
+  skrypt: inkwell_floor1_exitladder
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_68bee3e58d0c14bebe15
+      kontekst: data.json:scripts.inkwell_floor1_exitladder.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Abandon the inky depths for sunnier, less inky pastures?
+      pl: Opuścić atramentowe głębiny na rzecz jaśniejszych, mniej atramentowych pastwisk?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8358ec6fc79e8f63df68
+      kontekst: data.json:scripts.inkwell_floor1_exitladder.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Why not
+      pl: Czemu nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1639
+  skrypt: inkwell_floor1_trashcan
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0539012c38423d63edc5
+      kontekst: data.json:scripts.inkwell_floor1_trashcan.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A torn, empty canvas bag lies on the cave floor.
+      pl: Podarta, pusta torba płócienna leży na dnie jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_631e3697119f1364797e
+      kontekst: data.json:scripts.inkwell_floor1_trashcan.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Have a look at it
+      pl: Przyjrzyj się temu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1640
+  skrypt: inkwell_floor1_trashcan_readwrapper
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e077c2da901d01c08f25
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A torn canvas bag. The inside is covered in crumbs, and the outside is covered in writing.
+      pl: Podarta torba płócienna. W środku pełno okruszków, na zewnątrz pełno pisma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d890f70043b31985566
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '"Texas Dan''s Fine Quality Birdseed. Now With 20% Less Wood Chips." This has got to be what attracted all those bears.'
+      pl: '"Wyśmienite Ziarno dla Ptaków Texasa Dana. Teraz o 20% Mniej Wiórów Drzewnych." To musiało przyciągnąć te wszystkie niedźwiedzie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b650e1eb357dff3ebc61
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Clean it up
+      pl: Posprzątaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cleanitup
+    wpisy:
+    - id: wol_49af9b7e66439d3e5796
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.cleanitup
+      linia: 4
+      sekcja_skryptu: cleanitup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the empty canvas bag and carry it out of the Ink Well to the last place you remember seeing a trash can, where you throw it away. Then you return to the Ink Well and the exact spot you were standing before you did all that.
+      pl: Podnosisz pustą płócienną torbę, nosisz ją z Ink Well do ostatniego miejsca, gdzie pamiętasz kosz, i wyrzucasz. Potem wracasz do Ink Well na dokładnie to samo miejsce, gdzie stałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39d93b6474bac00a6033
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.cleanitup
+      linia: 5
+      sekcja_skryptu: cleanitup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A job well done
+      pl: Robota dobrze wykonana
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_531171b69c249b99c60b
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it there
+      pl: Zostaw to tam
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaveitthere
+    wpisy:
+    - id: wol_ed22c59b7e25255a8f9d
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.leaveitthere
+      linia: 7
+      sekcja_skryptu: leaveitthere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You decide to leave it there so it can attract more bears in the future.
+      pl: Postanawiasz zostawić to tam, żeby w przyszłości przyciągało więcej niedźwiedzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6f2f5a4bae46d8cd948
+      kontekst: data.json:scripts.inkwell_floor1_trashcan_readwrapper.leaveitthere
+      linia: 8
+      sekcja_skryptu: leaveitthere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bears deserve to have empty canvas bags
+      pl: Niedźwiedzie zasługują na puste worki płócienne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1641
+  skrypt: inkwell_floor2_boarddoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e966b467248bfee81e86
+      kontekst: data.json:scripts.inkwell_floor2_boarddoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could probably pry these boards off with a crowbar or a hammer.
+      pl: Pewnie oderwałbyś te deski łomem albo młotkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d794ef9d937d12a474e4
+      kontekst: data.json:scripts.inkwell_floor2_boarddoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not a boat hammer, though, because these aren't boat boards. See how that works?
+      pl: To nie młotek okrętowy, bo to nie deski okrętowe. Widzisz, jak to działa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_d0020fd1b6e3200a2308
+      kontekst: data.json:scripts.inkwell_floor2_boarddoor.open
+      linia: 4
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You begin to pry off the boards and in no time at all the unpassable passage becomes re-passageable.
+      pl: Zaczynasz odrywać deski i w mgnieniu oka nieprzejezdna przejściówka staje się znowu przejezdna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1642
+  skrypt: inkwell_floor2_dryinkhole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3ff41d302f55f61dd387
+      kontekst: data.json:scripts.inkwell_floor2_dryinkhole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A deep hole that looks like it used to be full of ink, but is now empty. Of ink.
+      pl: Głęboka dziura, która wygląda, jakby kiedyś była pełna atramentu, ale teraz jest pusta. Atramentu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1643
+  skrypt: inkwell_floor2_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a94bde5f87a13565a550
+      kontekst: data.json:scripts.inkwell_floor2_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go back up a floor?
+      pl: Wrócić piętro wyżej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b6492b95e202321b30b
+      kontekst: data.json:scripts.inkwell_floor2_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes please
+      pl: Tak, poproszę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1644
+  skrypt: inkwell_floor2_manuscript
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bfa548e1e10e960793a4
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This manuscript is huge! You take a look at a random page.\n\n
+      pl: Ten rękopis jest ogromny! Rzucasz okiem na losową stronę.\n\n
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: readmore
+    wpisy:
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 2
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 3
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 4
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a2bb4452dde8d8d6ce44
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 5
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineB%</i>\n\n
+      pl: <i>%inkwell_epicpoem_lineB%</i>\n\n
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineB%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 6
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 7
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd9032be28c5fca49eff
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 8
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineA%</i>
+      pl: <i>%inkwell_epicpoem_lineA%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineA%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bed964334bd976ff03e
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 9
+      sekcja_skryptu: readmore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%inkwell_epicpoem_lineB%</i>
+      pl: <i>%inkwell_epicpoem_lineB%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%inkwell_epicpoem_lineB%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f331bf641d72d799b6e6
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 10
+      sekcja_skryptu: readmore
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read another random page
+      pl: Przeczytaj losową stronę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16b379c772ba3b96e62d
+      kontekst: data.json:scripts.inkwell_floor2_manuscript.readmore
+      linia: 11
+      sekcja_skryptu: readmore
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Save yourself
+      pl: Ratuj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1645
+  skrypt: inkwell_floor2_passagedoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9fbce16a137b92f7716c
+      kontekst: data.json:scripts.inkwell_floor2_passagedoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go through the hole in the wall?
+      pl: Przejść przez dziurę w ścianie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c478324668bf9e90fa3c
+      kontekst: data.json:scripts.inkwell_floor2_passagedoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's the intention
+      pl: O to chodzi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1646
+  skrypt: inkwell_floor2_petbird
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2e2a5d3a0723a1fdcaf8
+      kontekst: data.json:scripts.inkwell_floor2_petbird.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bird looks just like your childhood pet Russell!
+      pl: Ten ptak wygląda jak twój dziecięcy pupil Russell!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d3eb777e9fbef129620
+      kontekst: data.json:scripts.inkwell_floor2_petbird.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to it
+      pl: Porozmawiaj z tym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1647
+  skrypt: inkwell_floor2_petbird_convo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ae484aa199381c5a0a33
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who's a pretty birdie?
+      pl: Kto jest ślicznym ptaszkiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_701f8802c04496b2dc7a
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Squawk! %inkwell_birdquip% %inkwell_birdquip%
+      pl: Kra! %inkwell_birdquip% %inkwell_birdquip%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%inkwell_birdquip%'
+      - '%inkwell_birdquip%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4ce7704ecd48bcf06d2
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's right, it's you! You're the pretty birdie!
+      pl: Dokładnie, to ty! Jesteś ładnym ptaszkiem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk2
+    wpisy:
+    - id: wol_80ee76aaa4a534020148
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.talk2
+      linia: 5
+      sekcja_skryptu: talk2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Chirp chirp! %inkwell_birdquip%
+      pl: Ćwir, ćwir! %inkwell_birdquip%
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%inkwell_birdquip%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6bc80a90deb6d157d2a7
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.talk2
+      linia: 6
+      sekcja_skryptu: talk2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good bird! Here, bite my finger a little.
+      pl: Dobra ptaszko! No, ugryź mnie trochę w palec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk3
+    wpisy:
+    - id: wol_ac8a48bb6f8e22a342a2
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.talk3
+      linia: 8
+      sekcja_skryptu: talk3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Awk? %inkwell_birdquip% %inkwell_birdquip% %inkwell_birdquip% Squawk!
+      pl: Kra? %inkwell_birdquip% %inkwell_birdquip% %inkwell_birdquip% Skrzek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%inkwell_birdquip%'
+      - '%inkwell_birdquip%'
+      - '%inkwell_birdquip%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5369de318fbc6bd0ecdb
+      kontekst: data.json:scripts.inkwell_floor2_petbird_convo.talk3
+      linia: 9
+      sekcja_skryptu: talk3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha! Birds are great.
+      pl: Ha ha! Ptaki są świetne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1648
+  skrypt: inkwell_floor2_rafael
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 104
+  sekcje:
+  - etykieta: findityet
+    wpisy:
+    - id: wol_1f80a85ad1b4686359e2
+      kontekst: data.json:scripts.inkwell_floor2_rafael.findityet
+      linia: 1
+      sekcja_skryptu: findityet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What news, bleary-eyed traveler? Have you pierced a dark vein in the heart of the earth?
+      pl: Jakie wieści, zaspany podróżniku? Przebiłeś czarną żyłę w sercu ziemi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e6e1c2ac20bd83c35a6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.findityet
+      linia: 2
+      sekcja_skryptu: findityet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, I'll go mess around with the dowsing pen some more.
+      pl: Jeszcze nie, pójdę jeszcze pobawić się różdżką radiestetyczną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c31188b443d716e4e2bd
+      kontekst: data.json:scripts.inkwell_floor2_rafael.findityet
+      linia: 3
+      sekcja_skryptu: findityet
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I found some ink!
+      pl: Znalazłem trochę atramentu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foundit
+    wpisy:
+    - id: wol_c7598b7291ebe1c1849d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.foundit
+      linia: 5
+      sekcja_skryptu: foundit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really? Magnificent! Where?
+      pl: Naprawdę? Wspaniale! Gdzie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ef411916dfe9beca227
+      kontekst: data.json:scripts.inkwell_floor2_rafael.foundit
+      linia: 6
+      sekcja_skryptu: foundit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's in the other room. I'll show you.
+      pl: Jest w drugim pokoju. Pokażę ci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endopts
+    wpisy:
+    - id: wol_32cf90492ba10bd15329
+      kontekst: data.json:scripts.inkwell_floor2_rafael.endopts
+      linia: 7
+      sekcja_skryptu: endopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How did you arrange the haunting?
+      pl: Jak zorganizowałeś nawiedzenie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howghosts
+    wpisy:
+    - id: wol_98ff22048bf742b6a1da
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howghosts
+      linia: 9
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Have you met my bird friend Obelisk? He is a repeating raven, a rare type of talking bird that hides in the nearby hills. I have an affinity with his species, and was able to coax several of them into the well with a large bag of birdseed.
+      pl: Poznałeś mojego ptasiego przyjaciela Obeliska? To powtarzający kruk, rzadki gatunek mówiącego ptaka, który kryje się na pobliskich wzgórzach. Mam szczególną więź z jego gatunkiem i udało mi się zwabić kilka do studni wielkim workiem ptasiego ziarna.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8cdf597585197d31f7b7
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howghosts
+      linia: 10
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Then I taught them to say some <i>very creepy stuff.</i>
+      pl: A potem nauczyłem je mówić <i>naprawdę upiorne rzeczy.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5bfb8634646b37b418c
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howghosts
+      linia: 11
+      sekcja_skryptu: howghosts
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, I noticed that. The creepiness, I mean.
+      pl: Zauważyłem to. Mam na myśli ten przerażający klimat.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cde4e7d4ddc8c5926c53
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howghosts
+      linia: 12
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Most of my fellow employees ran screaming immediately. The few brave souls who persisted changed their minds when I began shouting that ghosts were disemboweling me in the elevator.
+      pl: Większość moich współpracowników natychmiast uciekła z krzykiem. Nieliczne dzielne dusze, które zostały, zmieniły zdanie, gdy zacząłem wrzeszczeć, że duchy wypruwają mi wnętrzności w windzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endopts
+    wpisy:
+    - id: wol_4b1fa1f427d439ce51b9
+      kontekst: data.json:scripts.inkwell_floor2_rafael.endopts
+      linia: 13
+      sekcja_skryptu: endopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's your plan to find more ink?
+      pl: Jaki masz plan na znalezienie więcej atramentu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howink
+    wpisy:
+    - id: wol_a6822189820b4fa74b68
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howink
+      linia: 15
+      sekcja_skryptu: howink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I had hoped, in my inestimable and continued foolishness, to use this.
+      pl: W swojej niezmierzonej i nieustającej głupocie miałem nadzieję użyć tego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e18a9e8a3dad4338c21d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howink
+      linia: 16
+      sekcja_skryptu: howink
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rafael shows you the fountain pen in his hand. This is the first good close view of it you've gotten, and you can see now that the handle is forked like a Y.
+      pl: Rafael pokazuje ci pióro wieczne w dłoni. Pierwszy raz widzisz je z bliska i widać, że trzonek jest rozwidlony jak Y.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6cf61d8375d77e42cf2
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howink
+      linia: 17
+      sekcja_skryptu: howink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a dowsing pen used for locating ink deep underground. They say that the ability to use one is a mysterious, mystical gift which one-quarter of the population is born with and the rest can never learn. To my greatest chagrin, I fear I was born without the ability, because this thing has been as cold and unresponsive in my hands as the corpse of a bride drowned on her wedding night.
+      pl: To różdżkarskie pióro do odnajdywania atramentu głęboko pod ziemią. Powiadają, że zdolność posługiwania się nim to tajemniczy, mistyczny dar, z którym rodzi się jedna czwarta populacji, a reszta nigdy nie może się go nauczyć. Ku mej największej zgryzocie obawiam się, że urodziłem się bez tego talentu, gdyż w mych dłoniach owo narzędzie było równie zimne i obojętne jak zwłoki panny młodej utopionej w noc poślubną.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9280a4d8d23c596a3db1
+      kontekst: data.json:scripts.inkwell_floor2_rafael.howink
+      linia: 18
+      sekcja_skryptu: howink
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I bet I can get it to work.
+      pl: Założę się, że dam radę to uruchomić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_4e3feb885eb7cfda6ecf
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 19
+      sekcja_skryptu: illdoit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ And if I do, what I want in return is a bottle of ink and for you to <i>never</i> use a corpse bride analogy again.
+      pl: $lastoption$ A jeśli to zrobię, to w zamian chcę butelkę atramentu i tego, żebyś <i>nigdy</i> więcej nie użył analogii do trupiej narzeczonej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $lastoption$
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27993910a4f36425c57f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 20
+      sekcja_skryptu: illdoit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: More than fair, but are you certain the wretched device will be tractable in your hands?
+      pl: To więcej niż uczciwe, lecz czy masz pewność, że nieszczęsne urządzenie okaże się posłuszne w twych rękach?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1d8404738d2d8b129d98
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 21
+      sekcja_skryptu: illdoit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure! You said 25\% of the population can do it, right? Well, there are two of us here, which makes us each 50\% of the population. Your 50\% can't do it, so the 25\% that can must belong to <i>my</i> 50\%.
+      pl: Jasne! Mówiłeś, że potrafi to 25\% populacji, prawda? Jest nas tutaj dwóch, więc każdy stanowi 50\% populacji. Twoje 50\% nie potrafi, zatem zdolne 25\% musi należeć do <i>moich</i> 50\%.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '% of the population can do it, right? Well, there are two of us here, which makes us each 50\%'
+      - '% can''t do it, so the 25\%'
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0673f8a824a4c2fc4965
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 22
+      sekcja_skryptu: illdoit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Do you actually believe that math works out, or are you trying to <i>manifest</i> it into working by saying it out loud in defiance of all reason?'
+      pl: '...Naprawdę wierzysz, że ta matematyka się zgadza, czy próbujesz <i>zamanifestować</i>, żeby zadziałała, mówiąc to na głos wbrew wszelkiemu rozsądkowi?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a14687c3c2bd247de92
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 23
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The second one. Hand me the pen, please.
+      pl: Drugi. Podaj mi długopis, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: penplease
+    wpisy:
+    - id: wol_9b66757d0b3efcd5180d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.penplease
+      linia: 25
+      sekcja_skryptu: penplease
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I wish you utmost luck, for both our sakes.
+      pl: Życzę ci jak największego szczęścia — przez wzgląd na nas obu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_1a6b34bc96366ad2df96
+      kontekst: data.json:scripts.inkwell_floor2_rafael.illdoit
+      linia: 26
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, no, it makes sense! I'll take that pen now.
+      pl: Nie, nie, ma to sens! Wezmę teraz ten długopis.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endopts
+    wpisy:
+    - id: wol_7d81957e6d489234f3aa
+      kontekst: data.json:scripts.inkwell_floor2_rafael.endopts
+      linia: 27
+      sekcja_skryptu: endopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why not blame the ink theft on the ghosts?
+      pl: Czemu nie zrzucić kradzieży atramentu na duchy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whynotleave
+    wpisy:
+    - id: wol_851dc2c7f8e57278dc64
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whynotleave
+      linia: 29
+      sekcja_skryptu: whynotleave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I must make restitution for this grievous harm I have caused my employers. Otherwise, I fear the unearthly spectre of guilt would pursue me like the bloody ghost of a lumber mill owner pushed into his own machinery by my hand.
+      pl: Muszę wynagrodzić moim pracodawcom tę poważną krzywdę. W przeciwnym razie obawiam się, że nieziemskie widmo poczucia winy będzie mnie ścigać niczym krwawy duch właściciela tartaku, którego własnoręcznie wepchnąłem w jego maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_004dc7769d0d20c08eab
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whynotleave
+      linia: 30
+      sekcja_skryptu: whynotleave
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Look, do you have some Stuff that you''re working through? Anything you want to talk about?'
+      pl: '...Słuchaj, masz jakieś Sprawy, z którymi się teraz mierzysz? Coś, o czym chciałbyś pogadać?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fdb76e42518c7850ce24
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whynotleave
+      linia: 31
+      sekcja_skryptu: whynotleave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, what do you mean?
+      pl: Nie, co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52852141a62357a13aee
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whynotleave
+      linia: 32
+      sekcja_skryptu: whynotleave
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Never mind, forget I asked.
+      pl: Nieważne, zapomnij, że pytałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endopts
+    wpisy:
+    - id: wol_bad7f525e2b75cb63676
+      kontekst: data.json:scripts.inkwell_floor2_rafael.endopts
+      linia: 33
+      sekcja_skryptu: endopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is the 'lost Lenora' you mentioned the spirit medium in Portalhand?
+      pl: Czy ta „zaginiona Lenora”, o której wspomniałeś, to medium duchów w Portalhand?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lenora
+    wpisy:
+    - id: wol_89ac9fb951132bcfa785
+      kontekst: data.json:scripts.inkwell_floor2_rafael.lenora
+      linia: 34
+      sekcja_skryptu: lenora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Because if that's who you mean, she's fine. I just talked to her.
+      pl: $lastoption$ Jeśli o nią chodzi, nic jej nie jest. Właśnie z nią rozmawiałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e7b014c21a224e01bdb
+      kontekst: data.json:scripts.inkwell_floor2_rafael.lenora
+      linia: 35
+      sekcja_skryptu: lenora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: She is not lost to the rest of the world, but she is lost to me. She said she didn't want to be married, she wanted to focus on her career, and if her ghost stepmom thought I was so expletive nice, then her ghost stepmom could marry me herself.
+      pl: Nie zniknęła dla reszty świata, ale dla mnie jest stracona. Powiedziała, że nie chce małżeństwa, tylko skupić się na karierze, a jeśli jej duchowa macocha uważa mnie za tak przekleńczo miłego, to może sama za mnie wyjść.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3017a744ffc6180baa6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.lenora
+      linia: 36
+      sekcja_skryptu: lenora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I regret to say that in my youth and wounded state of mind I responded with a pithy but detailed list of all the ways in which being married to the ghost stepmother would be preferable, cold spectral hands notwithstanding, and Lenora has not spoken to me since. Which I understand and respect. Ah, lost Lenora!
+      pl: Z przykrością wyznaję, że w młodości i zranionym stanie ducha odpowiedziałem zwięzłą, lecz szczegółową listą wszystkich względów, dla których małżeństwo z duchem macochy byłoby lepszym losem, zimnych widmowych dłoni nie wyłączając — i od tamtej pory Lenora się do mnie nie odezwała. Co rozumiem i szanuję. Ach, utracona Lenoro!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b0038fb962845934e54
+      kontekst: data.json:scripts.inkwell_floor2_rafael.lenora
+      linia: 37
+      sekcja_skryptu: lenora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow. So, uh, not to awkwardly and rapidly change the subject, but...
+      pl: Wow. Więc, uh, nie żeby niezgrabnie i szybko zmienić temat, ale...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d488dc08f9b21c86e62
+      kontekst: data.json:scripts.inkwell_floor2_rafael.lenora
+      linia: 38
+      sekcja_skryptu: lenora
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Did you use all of the ink writing your novel, then?
+      pl: Zużyłeś więc cały atrament na pisanie swojej powieści?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: allinkgone
+    wpisy:
+    - id: wol_24e510ca4e3d0478366b
+      kontekst: data.json:scripts.inkwell_floor2_rafael.allinkgone
+      linia: 40
+      sekcja_skryptu: allinkgone
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To be concise, which I fear I have failed to be up to this point, yes. Not a drop of ink exists in this well that did not dry on the pages of my novel, except for the last vestiges which I used to scrawl the warning messages upstairs.
+      pl: Mówiąc krótko — co, obawiam się, dotąd mi się nie udało — tak. W tej studni nie ma ani kropli atramentu, która nie wyschła na stronach mojej powieści, z wyjątkiem ostatnich resztek użytych do nabazgrania ostrzeżeń na górze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_109618dd12150d4b52f4
+      kontekst: data.json:scripts.inkwell_floor2_rafael.allinkgone
+      linia: 41
+      sekcja_skryptu: allinkgone
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, right, the thing with the warning messages and the spooky ghosts! It's been such a long conversation that I almost forgot.
+      pl: Och, racja, ta sprawa z ostrzeżeniami i upiornymi duchami! Rozmawiamy już tak długo, że prawie zapomniałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e1bcfe603c125ab61df
+      kontekst: data.json:scripts.inkwell_floor2_rafael.allinkgone
+      linia: 42
+      sekcja_skryptu: allinkgone
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, both of those were subterfuge intended to scare away my fellow laborers until such time as I could find another vein of ink. But alas, such a bounty has thus far eluded me!
+      pl: Tak, oba były podłe, przeznaczone do odstraszenia moich kolegów robotników, dopóki nie znalazłem kolejnej żyły atramentu. Ale niestety, taka nagroda jak dotąd mi umknęła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: endopts
+    wpisy:
+    - id: wol_e9710c086b02ba0a69bc
+      kontekst: data.json:scripts.inkwell_floor2_rafael.endopts
+      linia: 43
+      sekcja_skryptu: endopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm going to try dowsing for ink. I'll be back.
+      pl: Spróbuję namierzyć atrament różdżką. Wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_aaaf18accc909d6d7520
+      kontekst: data.json:scripts.inkwell_floor2_rafael.intro
+      linia: 44
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is too busy waving a fountain pen around and swearing at it to even notice your approach.
+      pl: Ten gość zbyt zajęty machaniem piórem i przeklinaniem go, by zauważyć, że się zbliżasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d099660dd6913d368d87
+      kontekst: data.json:scripts.inkwell_floor2_rafael.intro
+      linia: 45
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Work, drat you, nightmare object! I demand that you function, O plague of my rotten existence!
+      pl: Praca, drat, koszmar! Żądam, abyś funkcjonował, o plaga mojej zgniłej egzystencji!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4663ba880c2fd488eed
+      kontekst: data.json:scripts.inkwell_floor2_rafael.intro
+      linia: 46
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Want to tell me what's going on?
+      pl: Chcesz mi powiedzieć, o co chodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_4d6c434b494447460b3c
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node2
+      linia: 48
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man wheels around to face you.
+      pl: Facet obraca się do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30fb144a72c8468c30d5
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node2
+      linia: 49
+      sekcja_skryptu: node2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Curse the luck of my thrice-damned family! I am discovered. What penance for my hubris have you brought, O bleary-eyed traveler? Shall I rot away in prison or perish swiftly at the point of an heirloom fencing foil, soaked in toad venom?
+      pl: Przeklęte szczęście mojej trzykroć potępionej rodziny! Odkryto mnie. Jaką pokutę za pychę przynosisz, o podróżniku o mętnym wzroku? Mam zgnić w więzieniu czy zginąć szybko od rodowej szpady nasączonej jadem ropuchy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ec9b0c04a6233ecf1c75
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node2
+      linia: 50
+      sekcja_skryptu: node2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sorry, what?
+      pl: Przepraszam, co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_b735f37edd1fba31fae6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node3
+      linia: 52
+      sekcja_skryptu: node3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Personally, if I were you, I would construct a contraption of wire and bone, sunk twenty metres into an earthen pit, with a cage at the bottom to ensnare my mortal form and a sword suspended above me on a spider's thread of silken filigree, then have my former lover cut the thread with a pearl-handled knife, but I understand if that's a little high-maintenance and you'd prefer to stab me cleanly through my traitorous heart.
+      pl: Osobiście na twoim miejscu zbudowałbym urządzenie z drutu i kości, zagłębione na dwadzieścia metrów w ziemnej jamie, z klatką na dnie, która uwięziłaby moją śmiertelną postać, i mieczem zawieszonym nade mną na pajęczej nici z jedwabnego filigranu. Następnie kazałbym mojej byłej ukochanej przeciąć nić nożem z perłową rękojeścią, ale rozumiem, jeśli wymaga to zbyt wiele zachodu i wolisz po prostu przebić moje zdradzieckie serce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_486592f16b43bb6c8131
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node3
+      linia: 53
+      sekcja_skryptu: node3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Look, I'm just here to get some ink.
+      pl: Słuchaj, jestem tu tylko po atrament.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justhereforink
+    wpisy:
+    - id: wol_45db7cb530d5fd7be9bc
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 54
+      sekcja_skryptu: justhereforink
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ If you point me at it I'll just get it myself and be out of your hair.
+      pl: $lastoption$ Jeśli mi wskażesz, gdzie to jest, sam to wezmę i przestanę ci zawadzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eee8666974c13f824c92
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 55
+      sekcja_skryptu: justhereforink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Alas! If only t'were so simple.
+      pl: Niestety! Gdyby to tylko było takie proste.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ae6298a14c00fec533b
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 56
+      sekcja_skryptu: justhereforink
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's not, huh.
+      pl: Czyli jednak nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63548e792484de32b6b3
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 57
+      sekcja_skryptu: justhereforink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There was ink here lo so many...
+      pl: Był tu atrament temu tak wiele...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27c027bf326c20ddd6f4
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 58
+      sekcja_skryptu: justhereforink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm sorry, I'm having a hard time switching out of author mode and into regular conversation mode. There was ink here yesterday, but now -- O Fates have mercy! -- there is none.
+      pl: Wybacz, trudno mi się przełączyć z trybu pisarza na tryb zwykłej rozmowy. Wczoraj był tu atrament, a dziś — o Parki, miejcie litość! — nie ma go wcale.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6669eef81167be640f41
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 59
+      sekcja_skryptu: justhereforink
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What happened to it?
+      pl: Co się z tym stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whereinkgo
+    wpisy:
+    - id: wol_703c84a35e926d98ef2d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 61
+      sekcja_skryptu: whereinkgo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My great hubris! By the holes in the stars, I have written mine own undoing.
+      pl: O, ma wielka pycho! Na dziury w gwiazdach, sam napisałem własną zgubę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_653ec8c596c45ea92d0b
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 62
+      sekcja_skryptu: whereinkgo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He gestures towards an enormous stack of papers on a nearby folding desk.
+      pl: Wskazuje ogromny stos papierów na pobliskim składanym biurku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_828de103ec191bd26b79
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 63
+      sekcja_skryptu: whereinkgo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: As you may have guessed from the raven in the cage, the ink-stained fingers, possibly the telltale signs of burgeoning madness, I am Rafael Emmanuel Drum.
+      pl: Jak mogłeś wywnioskować z kruka w klatce, palców poplamionych atramentem i być może znamion rodzącego się szaleństwa, jestem Rafael Emmanuel Drum.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a7cd28563e08c40df750
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 64
+      sekcja_skryptu: whereinkgo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Should I know who that is?'
+      pl: '...Powinienem wiedzieć, kto to jest?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_50572c39c0ebda91616d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 65
+      sekcja_skryptu: whereinkgo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah! You are unfamiliar with my ghastly tales! My macabre novellas! My skull-curdling episodic short stories as published in the pages of Grisly Tales For Gentle Ladies!
+      pl: Ach! Nie znasz moich upiornych opowieści! Moich makabrycznych nowel! Moich mrożących czaszkę opowiadań w odcinkach publikowanych na łamach „Koszmarnych Opowieści dla Łagodnych Dam”!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6002129d255739de5aea
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 66
+      sekcja_skryptu: whereinkgo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Now that you mention it, the name rings a bell...
+      pl: Skoro o tym mówisz, ta nazwa coś mi mówi...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou2a
+    wpisy:
+    - id: wol_3e18144b1524eb926702
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2a
+      linia: 67
+      sekcja_skryptu: whoareyou2a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ a literal bell?
+      pl: $lastoption$ dosłowny dzwon?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f7c19650e668a7cad10
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2a
+      linia: 68
+      sekcja_skryptu: whoareyou2a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did you write a book about someone getting trapped in a church bell by an angry bronzesmith, and the town only notices when instead of its usual beautiful pealing noise, the bell starts yelling "Hey! That guy murdered me! That guy over there?"
+      pl: 'Napisał pan książkę o kimś uwięzionym w kościelnym dzwonie przez wściekłego ludwisarza, a miasto zauważa to dopiero wtedy, gdy zamiast zwykłego pięknego bicia dzwon zaczyna krzyczeć: „Hej! Ten facet mnie zamordował! Ten tam?”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba31cc80d45e930a6b81
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2a
+      linia: 69
+      sekcja_skryptu: whoareyou2a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The Bellringer's Lament! Yes, that is one of mine. It is of no consequence, however, not now that I have brought my own fame to ruin by the wicked machinations of mine own impure heart.
+      pl: The Bellringer's Lament! Tak, to jeden z moich utworów. Nie ma to jednak znaczenia — nie teraz, gdy przez nikczemne machinacje własnego nieczystego serca obróciłem swoją sławę w ruinę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb566e560e31eeb0da7e
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2a
+      linia: 70
+      sekcja_skryptu: whoareyou2a
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are you talking about? What did you do?
+      pl: O czym mówisz? Co zrobiłeś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou3
+    wpisy:
+    - id: wol_1e983761fd321271db4e
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou3
+      linia: 72
+      sekcja_skryptu: whoareyou3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The seeds of my undoing were first planted in the vineyards of my suffering three years ago, when I took a job as a day laborer in lo this very well in which we stand.
+      pl: Nasiona mej zguby zasiano po raz pierwszy w winnicach mego cierpienia trzy lata temu, gdy podjąłem pracę dniówkowego robotnika w tejże oto studni, w której stoimy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_169d3f9c90dc0a6402a6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou3
+      linia: 73
+      sekcja_skryptu: whoareyou3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You took a second job? Why, didn't you make enough money as a prolific, published, popular author to pay the bills?
+      pl: Wziąłeś drugą pracę? Nie zarobiłeś wystarczająco dużo pieniędzy jako płodny, publikowany, popularny autor, by zapłacić rachunki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04f0317ecd3e199f15f6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou3
+      linia: 74
+      sekcja_skryptu: whoareyou3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha!  Ha ha ha.  Ha ha. Hahahahahaha!
+      pl: Ha! Ha, ha, ha. Ha, ha. Hahahahahaha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b186b6b85c867a3c8a1
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou3
+      linia: 75
+      sekcja_skryptu: whoareyou3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll take that as a 'no.'
+      pl: Okej, przyjmę to jako „nie”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou4
+    wpisy:
+    - id: wol_e95b6d82934b9567b1a3
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou4
+      linia: 77
+      sekcja_skryptu: whoareyou4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Phew! Thank you, bleary-eyed traveler, I needed that laugh. Where was I? Ah, that's right.
+      pl: Uff! Dziękuję ci, podróżniku o mętnych oczach, potrzebowałem tego śmiechu. Na czym skończyłem? Ach, racja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a70ac21dc14d2a681ed2
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou4
+      linia: 78
+      sekcja_skryptu: whoareyou4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: By day I toiled hard with my fellows, filling buckets and pulling carts, and thus, when the somber fingers of dusk began to creep into the well and the rest all went home to their spouses and their weekly crafting groups--
+      pl: Za dnia ciężko pracowałem z towarzyszami, napełniając wiadra i ciągnąc wózki, aż posępne palce zmierzchu zaczynały wpełzać do studni, a pozostali wracali do małżonków i cotygodniowych grup rękodzielniczych—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9c190631301dbc4011c
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou4
+      linia: 79
+      sekcja_skryptu: whoareyou4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I heard about that crafting group!
+      pl: Słyszałem o tej grupie rzemieślniczej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou5
+    wpisy:
+    - id: wol_78254fa837267f2ffa74
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 80
+      sekcja_skryptu: whoareyou5
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Apparently tonight is human teeth pocketwatch night.
+      pl: $lastoption$ Najwyraźniej dziś wieczorem jest noc zegarków z ludzkimi zębami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35616f0b0a801142b89f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 81
+      sekcja_skryptu: whoareyou5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Is that right? Now I almost wish I had not so studiously avoided that crafting fellow for fear he would describe to me his knitting, because a pocketwatch of human teeth would fit <i>so well</i> with my aesthetic.
+      pl: Doprawdy? Teraz niemal żałuję, że tak sumiennie unikałem owego rzemieślnika w obawie, iż opowie mi o swoim dzierganiu, albowiem zegarek kieszonkowy z ludzkich zębów <i>tak doskonale</i> pasowałby do mej estetyki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_89522ada9fd07f7a4a1f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 82
+      sekcja_skryptu: whoareyou5
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're not wrong. Anyway, sorry to interrupt, the somber fingers of dusk were creeping into the well and all that?
+      pl: Nie mylisz się. W każdym razie przepraszam, że przerywam — ponure palce zmierzchu wkradały się do studni i tak dalej, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f33808be665d48d2d00
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 83
+      sekcja_skryptu: whoareyou5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah yes! The somber fingers of dusk would creep into the well, and I would think to myself, "I have toiled hard today. My physical form is exhausted, but my mind is freshly swirling with fragments of stories yearning to take shape. Have I not earned the slightest bit of ink to write them down?"
+      pl: 'Ach, tak! Posępne palce zmierzchu wpełzały do studni, a ja myślałem: „Ciężko dziś pracowałem. Moja cielesna powłoka jest wyczerpana, lecz w umyśle wirują świeże strzępy opowieści tęskniących za nadaniem im kształtu. Czy nie zasłużyłem choćby na odrobinę atramentu, by je zapisać?”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2da88e069b8fed13e5f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 84
+      sekcja_skryptu: whoareyou5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh no.
+      pl: O nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou6
+    wpisy:
+    - id: wol_cc15a9bd3aec508dd54a
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 85
+      sekcja_skryptu: whoareyou6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ You felt like the establishment owed you some ink, so you started "borrowing" some?
+      pl: $lastoption$ Uznałeś, że instytucja jest ci winna trochę atramentu, więc zacząłeś go sobie "pożyczać"?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18b3f792da8acf487e5a
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 86
+      sekcja_skryptu: whoareyou6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It is, to my great shame, exactly as you say. I started innocently enough, a penful here and there to compose a poem to my lost Lenora, then a vial or two for a short story about a masquerade thrown by a mad king in a decaying palace, then bucketfuls to write novels, then...
+      pl: 'Ku memu wielkiemu wstydowi jest dokładnie tak, jak mówisz. Zaczęło się niewinnie: tu i ówdzie nabierałem pełne pióro, by ułożyć poemat dla utraconej Lenory, potem fiolkę czy dwie do opowiadania o maskaradzie wydanej przez szalonego króla w niszczejącym pałacu, potem całe wiadra do pisania powieści, a potem...'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28a47ff4410f3cf43f1e
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 87
+      sekcja_skryptu: whoareyou6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Then last night, fueled by coffee and deepest regret, I went into a sort of fugue state and wrote one hundred thousand pages about a man whose every choice in life unravels the underpinnings of the universe until he's systematically and unintentionally destroyed everything he's ever loved.
+      pl: A potem zeszłej nocy, napędzany kawą i najgłębszym żalem, zapadłem w rodzaj transu i napisałem sto tysięcy stron o człowieku, którego każda życiowa decyzja pruje szwy wszechświata, aż systematycznie i nieumyślnie niszczy wszystko, co kiedykolwiek kochał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59775517191d6b5eb83b
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 88
+      sekcja_skryptu: whoareyou6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's <i>incredibly</i> depressing. I'll probably burn it later.
+      pl: To <i>niewiarygodnie</i> przygnębiające. Pewnie później to spalę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0525e15af69df9f47752
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 89
+      sekcja_skryptu: whoareyou6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes. Are you saying you used up all the ink?
+      pl: Ojej. Mówisz, że zużyłeś cały atrament?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ae7f3214a7d72b0d6a2
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou6
+      linia: 90
+      sekcja_skryptu: whoareyou6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Is your 'lost Lenora' the spirit medium in Portalhand?
+      pl: Hm. Twoja „zaginiona Lenora” to medium duchów w Portalhand?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou5
+    wpisy:
+    - id: wol_f125d9dff20f02da6058
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5
+      linia: 91
+      sekcja_skryptu: whoareyou5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I think I know where this is going.
+      pl: Chyba wiem, dokąd to zmierza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou4
+    wpisy:
+    - id: wol_88dc320a16d709289e02
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou4
+      linia: 92
+      sekcja_skryptu: whoareyou4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Go on...
+      pl: Dalej...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou5b
+    wpisy:
+    - id: wol_2587392a477b560217c5
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5b
+      linia: 94
+      sekcja_skryptu: whoareyou5b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The somber fingers of dusk would creep into the well, and with my fellows all returned to their topside lives of warm family kitchens or cheerful glowing taverns, I remained here by myself in the ever-grimmer twilight staring into the unknowable black depths of the well, and I thought...
+      pl: Posępne palce zmierzchu wpełzały do studni, a gdy wszyscy moi towarzysze wracali do życia na powierzchni — ciepłych rodzinnych kuchni albo wesołych, rozświetlonych tawern — ja pozostawałem tu samotnie w coraz bardziej ponurym półmroku, wpatrując się w niepoznane czarne głębiny studni, i myślałem...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_31a7a59b3afdefe1e1e9
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5b
+      linia: 95
+      sekcja_skryptu: whoareyou5b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '"I have toiled hard today. My physical form is exhausted, but my mind is freshly swirling with fragments of stories yearning to take shape. Have I not earned the slightest bit of ink to write them down?"'
+      pl: '"Ciężko dziś pracowałem. Moja cielesna powłoka jest wyczerpana, ale mój umysł wiruje świeżo od strzępków opowieści pragnących nabrać kształtu. Czyż nie zasłużyłem choć odrobiny atramentu, by je zapisać?"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2da88e069b8fed13e5f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5b
+      linia: 96
+      sekcja_skryptu: whoareyou5b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh no.
+      pl: O nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f125d9dff20f02da6058
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou5b
+      linia: 97
+      sekcja_skryptu: whoareyou5b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I think I know where this is going.
+      pl: Chyba wiem, dokąd to zmierza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whereinkgo
+    wpisy:
+    - id: wol_47e3affa09723991877d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whereinkgo
+      linia: 98
+      sekcja_skryptu: whereinkgo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sorry, I've been on the road a lot lately.
+      pl: Ta, przepraszam, ostatnio dużo podróżuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou2b
+    wpisy:
+    - id: wol_f69bb93843c8ff71557f
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2b
+      linia: 99
+      sekcja_skryptu: whoareyou2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Have a hard time reading on the back of a horse. I get motion sickness and the horse feels slighted.
+      pl: $lastoption$ Ciężko mi czytać w siodle. Dostaję choroby lokomocyjnej, a koń czuje się urażony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07e7be7d27367e238ac0
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2b
+      linia: 100
+      sekcja_skryptu: whoareyou2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It is of no consequence. I have brought my own fame to ruin by the wicked machinations of mine own impure heart.
+      pl: Nie ma to znaczenia. Własną sławę obróciłem w ruinę przez nikczemne knowania mego nieczystego serca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb566e560e31eeb0da7e
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou2b
+      linia: 101
+      sekcja_skryptu: whoareyou2b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are you talking about? What did you do?
+      pl: O czym mówisz? Co zrobiłeś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justhereforink
+    wpisy:
+    - id: wol_31ca0b10b02bca45fe35
+      kontekst: data.json:scripts.inkwell_floor2_rafael.justhereforink
+      linia: 102
+      sekcja_skryptu: justhereforink
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm starting to get the impression you write books.
+      pl: Zaczynam mieć wrażenie, że piszesz książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouanauthor
+    wpisy:
+    - id: wol_58a23fc6ce65fc7fbf68
+      kontekst: data.json:scripts.inkwell_floor2_rafael.areyouanauthor
+      linia: 104
+      sekcja_skryptu: areyouanauthor
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why, naturally! Do you not see the raven in the cage? The ink-stained fingers? The telltale signs of burgeoning madness? I am Rafael Emmanuel Drum, of course.
+      pl: Oczywiście! Nie widzisz kruka w klatce? Poplamionych atramentem palców? Wymownych oznak narastającego szaleństwa? Jestem Rafael Emmanuel Drum, oczywiście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a7cd28563e08c40df750
+      kontekst: data.json:scripts.inkwell_floor2_rafael.areyouanauthor
+      linia: 105
+      sekcja_skryptu: areyouanauthor
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Should I know who that is?'
+      pl: '...Powinienem wiedzieć, kto to jest?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_50572c39c0ebda91616d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.areyouanauthor
+      linia: 106
+      sekcja_skryptu: areyouanauthor
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah! You are unfamiliar with my ghastly tales! My macabre novellas! My skull-curdling episodic short stories as published in the pages of Grisly Tales For Gentle Ladies!
+      pl: Ach! Nie znasz moich upiornych opowieści! Moich makabrycznych nowel! Moich mrożących czaszkę opowiadań w odcinkach publikowanych na łamach „Koszmarnych Opowieści dla Łagodnych Dam”!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6002129d255739de5aea
+      kontekst: data.json:scripts.inkwell_floor2_rafael.areyouanauthor
+      linia: 107
+      sekcja_skryptu: areyouanauthor
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Now that you mention it, the name rings a bell...
+      pl: Skoro o tym mówisz, ta nazwa coś mi mówi...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_47e3affa09723991877d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.areyouanauthor
+      linia: 108
+      sekcja_skryptu: areyouanauthor
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sorry, I've been on the road a lot lately.
+      pl: Ta, przepraszam, ostatnio dużo podróżuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_f7816e83417f4a377acf
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node3
+      linia: 109
+      sekcja_skryptu: node3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Who <i>are</i> you?
+      pl: Kim <i>jesteś</i>?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoareyou
+    wpisy:
+    - id: wol_3cc9dcb29ae86995a2ed
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou
+      linia: 111
+      sekcja_skryptu: whoareyou
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Who am I, you ask? Do you not see the raven in the cage? The ink-stained fingers? The telltale signs of burgeoning madness? I am Rafael Emmanuel Drum, of course.
+      pl: Kim jestem, pytasz? Nie widzisz kruka w klatce? Poplamionych atramentem palców? Wymownych oznak narastającego szaleństwa? Jestem Rafael Emmanuel Drum, oczywiście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a7cd28563e08c40df750
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou
+      linia: 112
+      sekcja_skryptu: whoareyou
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Should I know who that is?'
+      pl: '...Powinienem wiedzieć, kto to jest?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_50572c39c0ebda91616d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou
+      linia: 113
+      sekcja_skryptu: whoareyou
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah! You are unfamiliar with my ghastly tales! My macabre novellas! My skull-curdling episodic short stories as published in the pages of Grisly Tales For Gentle Ladies!
+      pl: Ach! Nie znasz moich upiornych opowieści! Moich makabrycznych nowel! Moich mrożących czaszkę opowiadań w odcinkach publikowanych na łamach „Koszmarnych Opowieści dla Łagodnych Dam”!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6002129d255739de5aea
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou
+      linia: 114
+      sekcja_skryptu: whoareyou
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Now that you mention it, the name rings a bell...
+      pl: Skoro o tym mówisz, ta nazwa coś mi mówi...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_47e3affa09723991877d
+      kontekst: data.json:scripts.inkwell_floor2_rafael.whoareyou
+      linia: 115
+      sekcja_skryptu: whoareyou
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sorry, I've been on the road a lot lately.
+      pl: Ta, przepraszam, ostatnio dużo podróżuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_0f2ff9c4f0f1c080a2e8
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node2
+      linia: 116
+      sekcja_skryptu: node2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm not sure I have enough information to decide that yet.
+      pl: Nie mam jeszcze wystarczająco informacji, żeby to rozstrzygnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_a60c547094cbeedc90c6
+      kontekst: data.json:scripts.inkwell_floor2_rafael.intro
+      linia: 117
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm no expert, but I think you're supposed to drag it around on paper.
+      pl: Nie jestem ekspertem, ale chyba powinieneś to ciągać po papierze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2b
+    wpisy:
+    - id: wol_ad045f71f5831f613bfd
+      kontekst: data.json:scripts.inkwell_floor2_rafael.node2b
+      linia: 118
+      sekcja_skryptu: node2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Actually, they <i>did</i> teach us this in school, so maybe I <i>am</i> an expert. I should remember that the next time I apply for a job.
+      pl: $lastoption$ Właściwie to <i>uczyli</i> nas tego w szkole, więc może <i>jestem</i> ekspertem. Powinienem to zapamiętać przy następnej aplikacji o pracę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1655
+  skrypt: inkwell_screamer
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ff434fa919cb4576caa0
+      kontekst: data.json:scripts.inkwell_screamer.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Stop! Don't go near the well, it's full of g-g-g-ghosts!
+      pl: Stój! Nie zbliżaj się do studni, jest pełna d-d-duchów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_956cb83c17506e9de752
+      kontekst: data.json:scripts.inkwell_screamer.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But <i>you're</i> near the well.
+      pl: Ale <i>ty</i> jesteś przy studni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_530f5445d2e4c290dd44
+      kontekst: data.json:scripts.inkwell_screamer.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, yes! I have to stay near the well so I can warn everyone not to get near it because of the g-g-g-ghosts!
+      pl: Tak! Muszę być blisko studni, żeby ostrzec wszystkich, żeby się do niej nie zbliżali z powodu duchów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8443ef643cca9762ca30
+      kontekst: data.json:scripts.inkwell_screamer.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: AAAAAH! Even your HAT is a ghost! My day is terrible!
+      pl: AAAAA! Nawet twój KAPELUSZ jest duchem! Mam okropny dzień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_17d6072d44ba717d78cd
+      kontekst: data.json:scripts.inkwell_screamer.opts
+      linia: 5
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What happened here?
+      pl: Co tu się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whathappened
+    wpisy:
+    - id: wol_95e1c23de44d1dda9088
+      kontekst: data.json:scripts.inkwell_screamer.whathappened
+      linia: 7
+      sekcja_skryptu: whathappened
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ghosts! When we showed up today, the well was full of ghosts, and everyone else got very creeped out and ran away. I started to run away too! But I decided someone needed to stay and warn people about the g-g-g-g... you get the picture.
+      pl: Duchy! Kiedy dziś przyszliśmy, studnia była pełna duchów i wszyscy inni potwornie się wystraszyli i uciekli. Też zacząłem uciekać! Ale uznałem, że ktoś musi zostać i ostrzegać ludzi przed d-d-d-du... sami rozumiecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb129dc2cfaa254775b8
+      kontekst: data.json:scripts.inkwell_screamer.whathappened
+      linia: 8
+      sekcja_skryptu: whathappened
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What kind of ghosts are we talking about?
+      pl: O jakich duchach mówimy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60607cde086409aaad39
+      kontekst: data.json:scripts.inkwell_screamer.whathappened
+      linia: 9
+      sekcja_skryptu: whathappened
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't know ghost taxonomy! What do I look like, a ghostologist? Do I look like I graduated from Ghost University with a major in ghosts and a minor in smaller ghosts?
+      pl: Nie znam się na taksonomii duchów! Na co ja wyglądam, na duchologa? Wyglądam, jakbym skończył Uniwersytet Duchowy z kierunkiem duchy i specjalizacją mniejsze duchy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0887733cbb1509ec08c5
+      kontekst: data.json:scripts.inkwell_screamer.whathappened
+      linia: 10
+      sekcja_skryptu: whathappened
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I meant, can you describe them for me.
+      pl: Chodziło mi o to, czy możesz mi je opisać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: humorme
+    wpisy:
+    - id: wol_b16d0228c03d75088f99
+      kontekst: data.json:scripts.inkwell_screamer.humorme
+      linia: 11
+      sekcja_skryptu: humorme
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ What do they look like?
+      pl: $lastoption$ Jak wyglądają?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cda82b12ee2409336299
+      kontekst: data.json:scripts.inkwell_screamer.humorme
+      linia: 12
+      sekcja_skryptu: humorme
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They're just floating pairs of eyes! But the worst part is, they <i>say</i> things. Creepy things! It's so terrifying! I just want to live a normal life!
+      pl: To tylko unoszące się pary oczu! Ale najgorsze, że one <i>mówią</i>. Upiorne rzeczy! To przerażające! Chcę tylko normalnie żyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_da33ae8bf88abc4613ec
+      kontekst: data.json:scripts.inkwell_screamer.humorme
+      linia: 13
+      sekcja_skryptu: humorme
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You can go home now. I'll take care of it.
+      pl: Możesz już iść do domu. Ja się tym zajmę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illhandleit
+    wpisy:
+    - id: wol_a2051caa44639e08de7a
+      kontekst: data.json:scripts.inkwell_screamer.illhandleit
+      linia: 15
+      sekcja_skryptu: illhandleit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really? You'll take care of the g-g-g-ghosts?
+      pl: Naprawdę? Zajmiesz się d-d-duchami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00c93628f8a7fc544ffd
+      kontekst: data.json:scripts.inkwell_screamer.illhandleit
+      linia: 16
+      sekcja_skryptu: illhandleit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, I do this kind of thing a lot. Probably just someone has to beat them up or solve a puzzle for them or both.
+      pl: Jasne, często robię takie rzeczy. Pewnie trzeba kogoś pobić, rozwiązać za nich zagadkę albo jedno i drugie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_610da872d7f90773a20b
+      kontekst: data.json:scripts.inkwell_screamer.illhandleit
+      linia: 17
+      sekcja_skryptu: illhandleit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, that's great news! I was worried I was going to miss my weekly craft group session. We're making human teeth pocketwatches tonight.
+      pl: Och, to świetna wiadomość! Bałam się, że ominie mnie cotygodniowe spotkanie kółka rękodzielniczego. Dziś wieczorem robimy zegarki kieszonkowe z ludzkich zębów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8526c65ec3817ed6f7c2
+      kontekst: data.json:scripts.inkwell_screamer.illhandleit
+      linia: 19
+      sekcja_skryptu: illhandleit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We ran out of crafts you could make using human hair, and this seemed like the logical next step.
+      pl: Skończyły nam się rzemiosła, które można zrobić używając ludzkich włosów, a to wydawało się logicznym kolejnym krokiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fbd904b9c35c44164dc
+      kontekst: data.json:scripts.inkwell_screamer.illhandleit
+      linia: 20
+      sekcja_skryptu: illhandleit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...You have a good night now.'
+      pl: '...Miłego wieczoru.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_da33ae8bf88abc4613ec
+      kontekst: data.json:scripts.inkwell_screamer.opts
+      linia: 21
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You can go home now. I'll take care of it.
+      pl: Możesz już iść do domu. Ja się tym zajmę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1656
+  skrypt: inkwell_sideroom_exit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_290fca15ac231d799062
+      kontekst: data.json:scripts.inkwell_sideroom_exit.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go back through the hole in the wall?
+      pl: Wrócić przez dziurę w ścianie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a168b483182f1aa82aa8
+      kontekst: data.json:scripts.inkwell_sideroom_exit.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You know it
+      pl: Wiesz co
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1657
+  skrypt: inkwell_sideroom_rafael
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: getbottle
+    wpisy:
+    - id: wol_585fbba44f34281cfdfd
+      kontekst: data.json:scripts.inkwell_sideroom_rafael.getbottle
+      linia: 1
+      sekcja_skryptu: getbottle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well done, traveler! A rich vein of finest quality.
+      pl: Dobra robota, podróżniku! Bogata żyła najwyższej jakości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6fe48a973768c949fdd
+      kontekst: data.json:scripts.inkwell_sideroom_rafael.getbottle
+      linia: 2
+      sekcja_skryptu: getbottle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It will take me lo upon many days to endeepen this new wellspring, but in the meantime, I believe it might be persuaded...
+      pl: Wiele dni zajmie mi pogłębienie tego nowego źródła, lecz tymczasem sądzę, że dałoby się je nakłonić...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b63af8df214648258307
+      kontekst: data.json:scripts.inkwell_sideroom_rafael.getbottle
+      linia: 3
+      sekcja_skryptu: getbottle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rafael stoops down next to the dowsing pen and pulls it out of the earth, leaving a small hole through which a tiny fountain of ink burbles up. From this, he fills a small bottle, and hands it to you.
+      pl: Rafael schyla się przy piórze różdżkowym i wyciąga je z ziemi, zostawiając mały otwór, z którego bulgocze strużka atramentu. Napełnia małą butelkę i podaje ci ją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e66cb5a7f7161fdb39a5
+      kontekst: data.json:scripts.inkwell_sideroom_rafael.getbottle
+      linia: 4
+      sekcja_skryptu: getbottle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I owe you a tremendous debt which this trifle cannot begin to repay, however, it is all I have to offer. Now, if you'll kindly excuse me, I have approximately three years worth of hole to dig while I weep for my lost Lenora.
+      pl: Mam u ciebie ogromny dług, którego ten drobiazg nawet w części nie spłaci, ale to wszystko, co mogę ofiarować. A teraz wybacz łaskawie — czekają mnie jakieś trzy lata kopania dziury i opłakiwania mojej utraconej Lenory.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_43f8e448c9e26a3dcddb
+      kontekst: data.json:scripts.inkwell_sideroom_rafael.getbottle
+      linia: 5
+      sekcja_skryptu: getbottle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck! Hope you find a cool skeleton or something!
+      pl: Powodzenia! Mam nadzieję, że znajdziesz fajny szkielet czy coś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1658
+  skrypt: inkwell_sideroom_rafael_stillatit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 32
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9c3e2e442b96bab08bcd
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi Rafael! How's that well coming?
+      pl: Cześć, Rafael! Jak idzie ze studnią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aeed21c14e2a43236f4b
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So how did you arrange the haunting?
+      pl: To jak zorganizowałeś nawiedzenie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howghosts
+    wpisy:
+    - id: wol_98ff22048bf742b6a1da
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howghosts
+      linia: 5
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Have you met my bird friend Obelisk? He is a repeating raven, a rare type of talking bird that hides in the nearby hills. I have an affinity with his species, and was able to coax several of them into the well with a large bag of birdseed.
+      pl: Poznałeś mojego ptasiego przyjaciela Obeliska? To powtarzający kruk, rzadki gatunek mówiącego ptaka, który kryje się na pobliskich wzgórzach. Mam szczególną więź z jego gatunkiem i udało mi się zwabić kilka do studni wielkim workiem ptasiego ziarna.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8cdf597585197d31f7b7
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howghosts
+      linia: 6
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Then I taught them to say some <i>very creepy stuff.</i>
+      pl: A potem nauczyłem je mówić <i>naprawdę upiorne rzeczy.</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5bfb8634646b37b418c
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howghosts
+      linia: 7
+      sekcja_skryptu: howghosts
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, I noticed that. The creepiness, I mean.
+      pl: Zauważyłem to. Mam na myśli ten przerażający klimat.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cde4e7d4ddc8c5926c53
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howghosts
+      linia: 8
+      sekcja_skryptu: howghosts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Most of my fellow employees ran screaming immediately. The few brave souls who persisted changed their minds when I began shouting that ghosts were disemboweling me in the elevator.
+      pl: Większość moich współpracowników natychmiast uciekła z krzykiem. Nieliczne dzielne dusze, które zostały, zmieniły zdanie, gdy zacząłem wrzeszczeć, że duchy wypruwają mi wnętrzności w windzie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_7d81957e6d489234f3aa
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why not blame the ink theft on the ghosts?
+      pl: Czemu nie zrzucić kradzieży atramentu na duchy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whynotleave
+    wpisy:
+    - id: wol_851dc2c7f8e57278dc64
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.whynotleave
+      linia: 11
+      sekcja_skryptu: whynotleave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I must make restitution for this grievous harm I have caused my employers. Otherwise, I fear the unearthly spectre of guilt would pursue me like the bloody ghost of a lumber mill owner pushed into his own machinery by my hand.
+      pl: Muszę wynagrodzić moim pracodawcom tę poważną krzywdę. W przeciwnym razie obawiam się, że nieziemskie widmo poczucia winy będzie mnie ścigać niczym krwawy duch właściciela tartaku, którego własnoręcznie wepchnąłem w jego maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_004dc7769d0d20c08eab
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.whynotleave
+      linia: 12
+      sekcja_skryptu: whynotleave
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Look, do you have some Stuff that you''re working through? Anything you want to talk about?'
+      pl: '...Słuchaj, masz jakieś Sprawy, z którymi się teraz mierzysz? Coś, o czym chciałbyś pogadać?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fdb76e42518c7850ce24
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.whynotleave
+      linia: 13
+      sekcja_skryptu: whynotleave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, what do you mean?
+      pl: Nie, co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52852141a62357a13aee
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.whynotleave
+      linia: 14
+      sekcja_skryptu: whynotleave
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Never mind, forget I asked.
+      pl: Nieważne, zapomnij, że pytałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_bad7f525e2b75cb63676
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 15
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is the 'lost Lenora' you mentioned the spirit medium in Portalhand?
+      pl: Czy ta „zaginiona Lenora”, o której wspomniałeś, to medium duchów w Portalhand?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lenora
+    wpisy:
+    - id: wol_89ac9fb951132bcfa785
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.lenora
+      linia: 16
+      sekcja_skryptu: lenora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ Because if that's who you mean, she's fine. I just talked to her.
+      pl: $lastoption$ Jeśli o nią chodzi, nic jej nie jest. Właśnie z nią rozmawiałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $lastoption$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e7b014c21a224e01bdb
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.lenora
+      linia: 17
+      sekcja_skryptu: lenora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: She is not lost to the rest of the world, but she is lost to me. She said she didn't want to be married, she wanted to focus on her career, and if her ghost stepmom thought I was so expletive nice, then her ghost stepmom could marry me herself.
+      pl: Nie zniknęła dla reszty świata, ale dla mnie jest stracona. Powiedziała, że nie chce małżeństwa, tylko skupić się na karierze, a jeśli jej duchowa macocha uważa mnie za tak przekleńczo miłego, to może sama za mnie wyjść.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3017a744ffc6180baa6
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.lenora
+      linia: 18
+      sekcja_skryptu: lenora
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I regret to say that in my youth and wounded state of mind I responded with a pithy but detailed list of all the ways in which being married to the ghost stepmother would be preferable, cold spectral hands notwithstanding, and Lenora has not spoken to me since. Which I understand and respect. Ah, lost Lenora!
+      pl: Z przykrością wyznaję, że w młodości i zranionym stanie ducha odpowiedziałem zwięzłą, lecz szczegółową listą wszystkich względów, dla których małżeństwo z duchem macochy byłoby lepszym losem, zimnych widmowych dłoni nie wyłączając — i od tamtej pory Lenora się do mnie nie odezwała. Co rozumiem i szanuję. Ach, utracona Lenoro!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b0038fb962845934e54
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.lenora
+      linia: 19
+      sekcja_skryptu: lenora
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow. So, uh, not to awkwardly and rapidly change the subject, but...
+      pl: Wow. Więc, uh, nie żeby niezgrabnie i szybko zmienić temat, ale...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d488dc08f9b21c86e62
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.lenora
+      linia: 20
+      sekcja_skryptu: lenora
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Did you use all of the ink writing your novel, then?
+      pl: Zużyłeś więc cały atrament na pisanie swojej powieści?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: allinkgone
+    wpisy:
+    - id: wol_24e510ca4e3d0478366b
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.allinkgone
+      linia: 22
+      sekcja_skryptu: allinkgone
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To be concise, which I fear I have failed to be up to this point, yes. Not a drop of ink exists in this well that did not dry on the pages of my novel, except for the last vestiges which I used to scrawl the warning messages upstairs.
+      pl: Mówiąc krótko — co, obawiam się, dotąd mi się nie udało — tak. W tej studni nie ma ani kropli atramentu, która nie wyschła na stronach mojej powieści, z wyjątkiem ostatnich resztek użytych do nabazgrania ostrzeżeń na górze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_109618dd12150d4b52f4
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.allinkgone
+      linia: 23
+      sekcja_skryptu: allinkgone
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, right, the thing with the warning messages and the spooky ghosts! It's been such a long conversation that I almost forgot.
+      pl: Och, racja, ta sprawa z ostrzeżeniami i upiornymi duchami! Rozmawiamy już tak długo, że prawie zapomniałem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e1bcfe603c125ab61df
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.allinkgone
+      linia: 24
+      sekcja_skryptu: allinkgone
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, both of those were subterfuge intended to scare away my fellow laborers until such time as I could find another vein of ink. But alas, such a bounty has thus far eluded me!
+      pl: Tak, oba były podłe, przeznaczone do odstraszenia moich kolegów robotników, dopóki nie znalazłem kolejnej żyły atramentu. Ale niestety, taka nagroda jak dotąd mi umknęła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_28c135cef930d7dd7747
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.start
+      linia: 25
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his broodin' and diggin'
+      pl: Zostaw go przy jego marudzeniu i kopaniu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howink
+    wpisy:
+    - id: wol_a6822189820b4fa74b68
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howink
+      linia: 2
+      sekcja_skryptu: howink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I had hoped, in my inestimable and continued foolishness, to use this.
+      pl: W swojej niezmierzonej i nieustającej głupocie miałem nadzieję użyć tego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e18a9e8a3dad4338c21d
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howink
+      linia: 3
+      sekcja_skryptu: howink
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rafael shows you the fountain pen in his hand. This is the first good close view of it you've gotten, and you can see now that the handle is forked like a Y.
+      pl: Rafael pokazuje ci pióro wieczne w dłoni. Pierwszy raz widzisz je z bliska i widać, że trzonek jest rozwidlony jak Y.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6cf61d8375d77e42cf2
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howink
+      linia: 4
+      sekcja_skryptu: howink
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a dowsing pen used for locating ink deep underground. They say that the ability to use one is a mysterious, mystical gift which one-quarter of the population is born with and the rest can never learn. To my greatest chagrin, I fear I was born without the ability, because this thing has been as cold and unresponsive in my hands as the corpse of a bride drowned on her wedding night.
+      pl: To różdżkarskie pióro do odnajdywania atramentu głęboko pod ziemią. Powiadają, że zdolność posługiwania się nim to tajemniczy, mistyczny dar, z którym rodzi się jedna czwarta populacji, a reszta nigdy nie może się go nauczyć. Ku mej największej zgryzocie obawiam się, że urodziłem się bez tego talentu, gdyż w mych dłoniach owo narzędzie było równie zimne i obojętne jak zwłoki panny młodej utopionej w noc poślubną.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9280a4d8d23c596a3db1
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.howink
+      linia: 5
+      sekcja_skryptu: howink
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I bet I can get it to work.
+      pl: Założę się, że dam radę to uruchomić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_4e3feb885eb7cfda6ecf
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 6
+      sekcja_skryptu: illdoit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $lastoption$ And if I do, what I want in return is a bottle of ink and for you to <i>never</i> use a corpse bride analogy again.
+      pl: $lastoption$ A jeśli to zrobię, to w zamian chcę butelkę atramentu i tego, żebyś <i>nigdy</i> więcej nie użył analogii do trupiej narzeczonej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - $lastoption$
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27993910a4f36425c57f
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 7
+      sekcja_skryptu: illdoit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: More than fair, but are you certain the wretched device will be tractable in your hands?
+      pl: To więcej niż uczciwe, lecz czy masz pewność, że nieszczęsne urządzenie okaże się posłuszne w twych rękach?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1d8404738d2d8b129d98
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 8
+      sekcja_skryptu: illdoit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure! You said 25\% of the population can do it, right? Well, there are two of us here, which makes us each 50\% of the population. Your 50\% can't do it, so the 25\% that can must belong to <i>my</i> 50\%.
+      pl: Jasne! Mówiłeś, że potrafi to 25\% populacji, prawda? Jest nas tutaj dwóch, więc każdy stanowi 50\% populacji. Twoje 50\% nie potrafi, zatem zdolne 25\% musi należeć do <i>moich</i> 50\%.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '% of the population can do it, right? Well, there are two of us here, which makes us each 50\%'
+      - '% can''t do it, so the 25\%'
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0673f8a824a4c2fc4965
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 9
+      sekcja_skryptu: illdoit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Do you actually believe that math works out, or are you trying to <i>manifest</i> it into working by saying it out loud in defiance of all reason?'
+      pl: '...Naprawdę wierzysz, że ta matematyka się zgadza, czy próbujesz <i>zamanifestować</i>, żeby zadziałała, mówiąc to na głos wbrew wszelkiemu rozsądkowi?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a14687c3c2bd247de92
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 10
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The second one. Hand me the pen, please.
+      pl: Drugi. Podaj mi długopis, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: penplease
+    wpisy:
+    - id: wol_9b66757d0b3efcd5180d
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.penplease
+      linia: 12
+      sekcja_skryptu: penplease
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I wish you utmost luck, for both our sakes.
+      pl: Życzę ci jak największego szczęścia — przez wzgląd na nas obu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_1a6b34bc96366ad2df96
+      kontekst: data.json:scripts.inkwell_sideroom_rafael_stillatit.illdoit
+      linia: 13
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, no, it makes sense! I'll take that pen now.
+      pl: Nie, nie, ma to sens! Wezmę teraz ten długopis.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1659
+  skrypt: inkwell_tempreturn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0e31fb6775d1df0844af
+      kontekst: data.json:scripts.inkwell_tempreturn.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go back to Portalhand?
+      pl: Wrócić do Portalhand?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0051d7890c26bbc52f70
+      kontekst: data.json:scripts.inkwell_tempreturn.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yuppers
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1660
+  skrypt: inkwell_well
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a5c1854017db2afccf2d
+      kontekst: data.json:scripts.inkwell_well.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Descend into the inky depths of the well?
+      pl: Zejść do atramentowych głębin studni?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1998
+  skrypt: planarjunction_embassy_clerk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: firsttime
+    wpisy:
+    - id: wol_ec9b0c04a6233ecf1c75
+      kontekst: data.json:scripts.planarjunction_embassy_clerk.firsttime
+      linia: 185
+      sekcja_skryptu: firsttime
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm sorry, what?
+      pl: Przepraszam, co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2080
+  skrypt: punland_bossfight_baron
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: questionsopts1
+    wpisy:
+    - id: wol_f7816e83417f4a377acf
+      kontekst: data.json:scripts.punland_bossfight_baron.questionsopts1
+      linia: 16
+      sekcja_skryptu: questionsopts1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Who <i>are</i> you?
+      pl: Kim <i>jesteś</i>?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2105
+  skrypt: punland_mainstage_bossfight_stage
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f7816e83417f4a377acf
+      kontekst: data.json:scripts.punland_mainstage_bossfight_stage.start
+      linia: 346
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Who <i>are</i> you?
+      pl: Kim <i>jesteś</i>?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2215
+  skrypt: ranch4_cowencounter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_4ffa4a4798b5b7a5badc
+      kontekst: data.json:scripts.ranch4_cowencounter.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I sure did
+      pl: No jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2371
+  skrypt: re_gobling1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.nope
+      linia: 26
+      sekcja_skryptu: nope
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gary
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.gary
+      linia: 36
+      sekcja_skryptu: gary
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope2
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.nope2
+      linia: 51
+      sekcja_skryptu: nope2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkbuy
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.talkbuy
+      linia: 55
+      sekcja_skryptu: talkbuy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope3
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.nope3
+      linia: 82
+      sekcja_skryptu: nope3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: commbuy
+    wpisy:
+    - id: wol_cbb6681db407fbf237ca
+      kontekst: data.json:scripts.re_gobling1.commbuy
+      linia: 86
+      sekcja_skryptu: commbuy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight them
+      pl: Zaatakuj ich
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2515
+  skrypt: sinzonefilthin_internal_filthguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_ec9b0c04a6233ecf1c75
+      kontekst: data.json:scripts.sinzonefilthin_internal_filthguy.intro
+      linia: 8
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm sorry, what?
+      pl: Przepraszam, co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

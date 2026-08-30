@@ -1,0 +1,832 @@
+schema_version: 1
+dzial:
+  numer: '13'
+  nazwa: Pozna_Gra_i_Final
+grupa_lokacji_lub_systemu: temporal_nexus
+zrodlowy_batch: 112_dialog_loc_timenexus_temporal_nexus.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 11
+liczba_wpisow: 45
+sceny:
+- kolejnosc_w_danych_gry: 1000140
+  skrypt: house_hedgesecret
+  pomieszczenie: &id001
+    id: timenexus
+    nazwa_en: Temporal Nexus
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: wol_e040c607079fbd3045ba
+      kontekst: house.json:scripts.house_hedgesecret.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step through
+      pl: Przejdź przez
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2583
+  skrypt: timenexus_camaro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f44c1622868647c6d823
+      kontekst: data.json:scripts.timenexus_camaro.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This strange conveyance has a sign reading "BTCHN" on the back.
+      pl: Ten dziwny pojazd ma z tyłu napis „BTCHN”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ec6d7f7ecd30a7c6b34
+      kontekst: data.json:scripts.timenexus_camaro.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look inside it
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_2414b935f868df885636
+      kontekst: data.json:scripts.timenexus_camaro.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: On the seat inside you find a gun.  You think.
+      pl: Na siedzeniu w środku znajdujesz broń. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2584
+  skrypt: timenexus_coach
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d01f567c69942aa6148f
+      kontekst: data.json:scripts.timenexus_coach.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Finally, something you recognize!  Though you've never seen a... sunk stagecoach before.
+      pl: Wreszcie coś, co rozpoznajesz! Choć nigdy wcześniej nie widziałeś... zatopionego dyliżansu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5afda92891e0e62df2bd
+      kontekst: data.json:scripts.timenexus_coach.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_065039d1de96fe75c401
+      kontekst: data.json:scripts.timenexus_coach.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No survivors, but somebody left a really nice hat behind!
+      pl: Bez ocalałych, ale ktoś zostawił naprawdę fajny kapelusz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2585
+  skrypt: timenexus_robot
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7dd54f016b0a0bcd96c9
+      kontekst: data.json:scripts.timenexus_robot.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's that poor metal man.
+      pl: To ten biedny metalowy gość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e21d46cd28b84a713cf
+      kontekst: data.json:scripts.timenexus_robot.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a strange metal man.  What's he holding?
+      pl: To dziwny metalowy człowiek. Co trzyma?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_3059028243ec86934db0
+      kontekst: data.json:scripts.timenexus_robot.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a ring!  Or at least it's a ring-shaped object.
+      pl: To pierścień! Albo przynajmniej obiekt w kształcie pierścienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2586
+  skrypt: timenexus_sarc
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_099f2161b10540944bad
+      kontekst: data.json:scripts.timenexus_sarc.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't really feel like talking to that thing anymore.
+      pl: Nie masz już ochoty rozmawiać z tą rzeczą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2587
+  skrypt: timenexus_sarc2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a6b120d9f7ddb8400a91
+      kontekst: data.json:scripts.timenexus_sarc2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the sarcophagus -- the top has long since crumbled to dust, and it is empty.
+      pl: Podchodzisz do sarkofagu — wieko dawno rozpadło się w pył i jest pusty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_11a0db771cdd02921d06
+      kontekst: data.json:scripts.timenexus_sarc2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wait.  No, it isn't empty.  There's a jawbone.  On a very small pillow.
+      pl: Czekaj. Nie, nie jest puste. Jest szczęka. Na bardzo małej poduszce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_667c7b3435e8dfc2c2b1
+      kontekst: data.json:scripts.timenexus_sarc2.node2
+      linia: 4
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You bend down for a closer look, and hear a faint whisper.
+      pl: Schylasz się, żeby przyjrzeć się bliżej, i słyszysz cichy szept.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node2
+      linia: 5
+      sekcja_skryptu: node2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a21b335b79baa37e96bb
+      kontekst: data.json:scripts.timenexus_sarc2.node2
+      linia: 6
+      sekcja_skryptu: node2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I beg your pardon?
+      pl: Słucham?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node3
+      linia: 8
+      sekcja_skryptu: node3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a5b8f322a3b725bae30
+      kontekst: data.json:scripts.timenexus_sarc2.node3
+      linia: 9
+      sekcja_skryptu: node3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sorry?
+      pl: Przepraszam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node4
+    wpisy:
+    - id: wol_7522350de11619100dc1
+      kontekst: data.json:scripts.timenexus_sarc2.node4
+      linia: 11
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lean in even closer.
+      pl: Pochylasz się jeszcze bliżej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node4
+      linia: 12
+      sekcja_skryptu: node4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75230782c05c302e7c51
+      kontekst: data.json:scripts.timenexus_sarc2.node4
+      linia: 13
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You still can't hear it.
+      pl: Wciąż tego nie słyszysz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node5
+    wpisy:
+    - id: wol_d093645678a6ddb14364
+      kontekst: data.json:scripts.timenexus_sarc2.node5
+      linia: 15
+      sekcja_skryptu: node5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This seems kinda rude, but so is leaving without hearing what it has to say.
+      pl: To trochę niegrzeczne, ale odejście bez wysłuchania też.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5c9d959dce4d63f5d89f
+      kontekst: data.json:scripts.timenexus_sarc2.node5
+      linia: 16
+      sekcja_skryptu: node5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the bone and hold it up to your ear.
+      pl: Podnosisz kość i przykładasz ją do ucha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node5
+      linia: 17
+      sekcja_skryptu: node5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_684b98cdf9796c8deaab
+      kontekst: data.json:scripts.timenexus_sarc2.node5
+      linia: 18
+      sekcja_skryptu: node5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, come on.  Please speak up.
+      pl: O, daj spokój. Proszę, mów głośniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node6
+    wpisy:
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node6
+      linia: 20
+      sekcja_skryptu: node6
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c84afecb2b50d511798a
+      kontekst: data.json:scripts.timenexus_sarc2.node6
+      linia: 21
+      sekcja_skryptu: node6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hold it even closer
+      pl: Przytrzymaj to jeszcze bliżej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node7
+    wpisy:
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node7
+      linia: 22
+      sekcja_skryptu: node7
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fedd92837a7a2c2ad6aa
+      kontekst: data.json:scripts.timenexus_sarc2.node7
+      linia: 23
+      sekcja_skryptu: node7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stick it in your ear
+      pl: Włóż to sobie do ucha
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node8
+    wpisy:
+    - id: wol_155cb61b2c53bf900bfa
+      kontekst: data.json:scripts.timenexus_sarc2.node8
+      linia: 24
+      sekcja_skryptu: node8
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You jam the jawbone as far into your ear as you can.
+      pl: Wciskasz żuchwę w ucho tak daleko, jak możesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_64988f19ffcd4c5a5e48
+      kontekst: data.json:scripts.timenexus_sarc2.node8
+      linia: 25
+      sekcja_skryptu: node8
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>...</size>
+      pl: <size=13>...</size>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8aafd63ba6e45932d775
+      kontekst: data.json:scripts.timenexus_sarc2.node8
+      linia: 26
+      sekcja_skryptu: node8
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stick your finger in your other ear
+      pl: Włóż palec w drugie ucho
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node9
+    wpisy:
+    - id: wol_18faf56ebcbebb29d4d3
+      kontekst: data.json:scripts.timenexus_sarc2.node9
+      linia: 27
+      sekcja_skryptu: node9
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You jam your finger into your other ear, close your eyes, and listen as hard as you can.
+      pl: Wciskasz palec w drugie ucho, zamykasz oczy i słuchasz tak mocno, jak możesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9470c4a8c7129185d22
+      kontekst: data.json:scripts.timenexus_sarc2.node9
+      linia: 28
+      sekcja_skryptu: node9
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: And...
+      pl: I...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node10
+    wpisy:
+    - id: wol_e99ebed63eb9a56416da
+      kontekst: data.json:scripts.timenexus_sarc2.node10
+      linia: 29
+      sekcja_skryptu: node10
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>Undying.</size>
+      pl: <size=13>Nieśmiertelny.</size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node11
+    wpisy:
+    - id: wol_487660af0bbf0128175f
+      kontekst: data.json:scripts.timenexus_sarc2.node11
+      linia: 32
+      sekcja_skryptu: node11
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: <size=13>UNDYING!</size>
+      pl: <size=13>NIEŚMIERTELNY!</size>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <size=13>
+      - </size>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb5d6a82dcaf3245a736
+      kontekst: data.json:scripts.timenexus_sarc2.node11
+      linia: 33
+      sekcja_skryptu: node11
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Umm.  Okay.
+      pl: Ymm. Okej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node12
+    wpisy:
+    - id: wol_98d4c8025ea4a3f93ccb
+      kontekst: data.json:scripts.timenexus_sarc2.node12
+      linia: 35
+      sekcja_skryptu: node12
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the jawbone back into the sarcophagus, and in doing so, notice something yellow hidden under the pillow.
+      pl: Wkładasz żuchwę z powrotem do sarkofagu i przy okazji zauważasz coś żółtego schowanego pod poduszką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ec9c00c984619d4f127b
+      kontekst: data.json:scripts.timenexus_sarc2.node12
+      linia: 36
+      sekcja_skryptu: node12
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab it, as a reward for your patience.
+      pl: Chwytasz to jako nagrodę za cierpliwość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2588
+  skrypt: timenexus_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1f6c0b5b0aa122ab4e13
+      kontekst: data.json:scripts.timenexus_timerift.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can see the West Pole through the window from this side.
+      pl: Z tej strony przez okno widać Zachodni Biegun.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e040c607079fbd3045ba
+      kontekst: data.json:scripts.timenexus_timerift.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step through
+      pl: Przejdź przez
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2635
+  skrypt: train_sleeperdoor1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5afda92891e0e62df2bd
+      kontekst: data.json:scripts.train_sleeperdoor1.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2636
+  skrypt: train_sleeperdoor2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5afda92891e0e62df2bd
+      kontekst: data.json:scripts.train_sleeperdoor2.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2637
+  skrypt: train_sleeperdoor3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5afda92891e0e62df2bd
+      kontekst: data.json:scripts.train_sleeperdoor3.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2638
+  skrypt: train_sleeperdoor4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5afda92891e0e62df2bd
+      kontekst: data.json:scripts.train_sleeperdoor4.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check inside
+      pl: Zajrzyj do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

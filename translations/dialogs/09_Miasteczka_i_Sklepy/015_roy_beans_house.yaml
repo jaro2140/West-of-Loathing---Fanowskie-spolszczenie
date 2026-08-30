@@ -1,0 +1,1836 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: roy_beans_house
+zrodlowy_batch: 102_dialog_loc_roybean_roy_beans_house.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 8
+liczba_wpisow: 110
+sceny:
+- kolejnosc_w_danych_gry: 2471
+  skrypt: roybean_honeybean
+  pomieszczenie: &id001
+    id: roybean
+    nazwa_en: Roy Bean's House\nof Justice and Jelly Beans
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 35
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6f561c1e5a15a7266a3b
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'There''s a single yellow jellybean in this case, with a sign that says:'
+      pl: 'W gablocie jedna żółta fasolka żelkowa z tabliczką:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_971c8f0c2dc814ed6c13
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: PARAGUAYAN MURDERBEE HONEY JELLYBEAN
+      pl: PARAGWAJSKA MIODOWA FASOLKA ŻELKOWA MORDERCZEJ PSZCZOŁY
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9fc2be4925dc7e5d0e1d
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: VERY RARE
+      pl: BARDZO RZADKIE
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d6555cfa081baf8209c
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 6,000 MEAT
+      pl: 6 000 MIĘSA
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40c7a3c75ea18618dbcc
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What kind of lunatic would pay 6,000 Meat for a single jellybean?
+      pl: Jaki wariat zapłaciłby 6000 Mięsa za jednego żelka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd02a8ca9e72cdcd1d9e
+      kontekst: data.json:scripts.roybean_honeybean.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Not this kind, that's for sure
+      pl: Na pewno nie tego rodzaju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buyit
+    wpisy:
+    - id: wol_32c920fc06b707f7550f
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 7
+      sekcja_skryptu: buyit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Roy walks over.
+      pl: Roy podchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f288bbec61ade02d0733
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 8
+      sekcja_skryptu: buyit
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Does this jelly bean really cost 6,000 Meat?
+      pl: Ta żelka naprawdę kosztuje 6000 Mięsa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ce666d8ae19b8f60fc3
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 9
+      sekcja_skryptu: buyit
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes @sir@, yes it does.
+      pl: Tak @sir@, tak właśnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@sir@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2ba723ded0e2aca5efb9
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 10
+      sekcja_skryptu: buyit
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeesh.
+      pl: Ojej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8f4158d02b21766a2771
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 11
+      sekcja_skryptu: buyit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy it [6,000 Meat]
+      pl: Kup to [6 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[6,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy0
+    wpisy:
+    - id: wol_994f249ecdaadefc4bce
+      kontekst: data.json:scripts.roybean_honeybean.buy0
+      linia: 12
+      sekcja_skryptu: buy0
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the exhorbitant amount of Meat and get the jellybean.  The cost of healthcare in this country is out of control!
+      pl: Oddajesz horrendalną ilość Mięsa i dostajesz fasolkę żelkową. Koszty opieki zdrowotnej w tym kraju wymknęły się spod kontroli!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy0joke
+    wpisy:
+    - id: wol_c1fef92ddc8c48190241
+      kontekst: data.json:scripts.roybean_honeybean.buy0joke
+      linia: 14
+      sekcja_skryptu: buy0joke
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cost of healthcare in this country is out of control!
+      pl: Koszt opieki zdrowotnej w tym kraju wymknął się spod kontroli!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de8221c5762d5a0e9c81
+      kontekst: data.json:scripts.roybean_honeybean.buy0joke
+      linia: 15
+      sekcja_skryptu: buy0joke
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha it sure is
+      pl: Ha ha, no jasne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buyit
+    wpisy:
+    - id: wol_8f4158d02b21766a2771
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 16
+      sekcja_skryptu: buyit
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy it [6,000 Meat]
+      pl: Kup to [6 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[6,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff9fa86c85cbb0448cfc
+      kontekst: data.json:scripts.roybean_honeybean.buyit
+      linia: 17
+      sekcja_skryptu: buyit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't buy it
+      pl: Nie kupuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount3
+    wpisy:
+    - id: wol_ccb8e8eccfdb4635708a
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 18
+      sekcja_skryptu: discount3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well normally it does, yes, but I guess seein' as how you helped me out with them bandits and goblins and damned dirty hippies, let's call 'er...  5.
+      pl: Normalnie tak, tak, ale skoro pomogłeś mi z tymi bandytami, goblinami i przeklętymi brudnymi hipisami, powiedzmy... 5.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b07b0097b4a547932cea
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 19
+      sekcja_skryptu: discount3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: 5 Meat?  Really?
+      pl: 5 Mięsa? Naprawdę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb7cc5a6649d87c739b7
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 20
+      sekcja_skryptu: discount3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I reckon.  Better buy it in a hurry, 'fore I change m' mind.
+      pl: Ta, tak myślę. Lepiej kup szybko, zanim zmienię zdanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_83a4149002a99c6cef85
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 21
+      sekcja_skryptu: discount3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy it [5 Meat]
+      pl: Kup to [5 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy3
+    wpisy:
+    - id: wol_8210ab57f2eea0086061
+      kontekst: data.json:scripts.roybean_honeybean.buy3
+      linia: 22
+      sekcja_skryptu: buy3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the Meat.  You almost feel bad because of the depth of the discount.
+      pl: Oddajesz Mięso. Prawie czujesz się źle z powodu głębokości rabatu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount3
+    wpisy:
+    - id: wol_83a4149002a99c6cef85
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 24
+      sekcja_skryptu: discount3
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy it [5 Meat]
+      pl: Kup to [5 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff9fa86c85cbb0448cfc
+      kontekst: data.json:scripts.roybean_honeybean.discount3
+      linia: 25
+      sekcja_skryptu: discount3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't buy it
+      pl: Nie kupuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount2
+    wpisy:
+    - id: wol_d5d1633af2558c5272ca
+      kontekst: data.json:scripts.roybean_honeybean.discount2
+      linia: 26
+      sekcja_skryptu: discount2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well normally it does, yes, but I guess seein' as how you helped me out with them bandits and goblins, I reckon I could drop the price to 2,000.
+      pl: Normalnie tak, tak, ale skoro pomogłeś mi z tymi bandytami i goblinami, mogę zejść z ceny do 2000.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e60c0ef93f0855780dba
+      kontekst: data.json:scripts.roybean_honeybean.discount2
+      linia: 27
+      sekcja_skryptu: discount2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: That doesn't sound too bad.
+      pl: To nie brzmi tak źle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33bf9f3a5f2ff5bad1c1
+      kontekst: data.json:scripts.roybean_honeybean.discount2
+      linia: 28
+      sekcja_skryptu: discount2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy it [2,000 Meat]
+      pl: Kup to [2 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[2,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy2
+    wpisy:
+    - id: wol_55fc30d6b054c00c5eb7
+      kontekst: data.json:scripts.roybean_honeybean.buy2
+      linia: 29
+      sekcja_skryptu: buy2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the slightly more reasonable amount of Meat and get the jellybean.
+      pl: Oddajesz nieco bardziej rozsądną ilość Mięsa i dostajesz fasolkę żelkową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount2
+    wpisy:
+    - id: wol_33bf9f3a5f2ff5bad1c1
+      kontekst: data.json:scripts.roybean_honeybean.discount2
+      linia: 31
+      sekcja_skryptu: discount2
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy it [2,000 Meat]
+      pl: Kup to [2 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[2,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff9fa86c85cbb0448cfc
+      kontekst: data.json:scripts.roybean_honeybean.discount2
+      linia: 32
+      sekcja_skryptu: discount2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't buy it
+      pl: Nie kupuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount1
+    wpisy:
+    - id: wol_04aec5a12d855053ce40
+      kontekst: data.json:scripts.roybean_honeybean.discount1
+      linia: 33
+      sekcja_skryptu: discount1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well normally it does, yes, but I guess seein' as how you helped me out with them bandits, I reckon I could drop the price to 4,000.
+      pl: Normalnie tak, tak, ale skoro pomogłeś mi z tymi bandytami, mogę zejść z ceny do 4000.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3962915f1e1f290bd4df
+      kontekst: data.json:scripts.roybean_honeybean.discount1
+      linia: 34
+      sekcja_skryptu: discount1
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: That's a little better, I guess.
+      pl: Trochę lepiej, chyba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68f089153b503914120e
+      kontekst: data.json:scripts.roybean_honeybean.discount1
+      linia: 35
+      sekcja_skryptu: discount1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy it [4,000 Meat]
+      pl: Kup to [4 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[4,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy1
+    wpisy:
+    - id: wol_7339f094edaf0cf4bfac
+      kontekst: data.json:scripts.roybean_honeybean.buy1
+      linia: 36
+      sekcja_skryptu: buy1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the slightly less exhorbitant amount of Meat and get the jellybean.
+      pl: Oddajesz nieco mniej horrendalną ilość Mięsa i dostajesz fasolkę żelkową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discount1
+    wpisy:
+    - id: wol_68f089153b503914120e
+      kontekst: data.json:scripts.roybean_honeybean.discount1
+      linia: 38
+      sekcja_skryptu: discount1
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy it [4,000 Meat]
+      pl: Kup to [4 000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[4,000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff9fa86c85cbb0448cfc
+      kontekst: data.json:scripts.roybean_honeybean.discount1
+      linia: 39
+      sekcja_skryptu: discount1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't buy it
+      pl: Nie kupuj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2472
+  skrypt: roybean_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0dfb024cfca34efa2cf3
+      kontekst: data.json:scripts.roybean_spittoon.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a spittoon. Nothing special about it.
+      pl: To spluwaczka. Nic w niej specjalnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2473
+  skrypt: roybean_spittoontalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_43adb978ce38aafa5a37
+      kontekst: data.json:scripts.roybean_spittoontalk.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As soon as you get near the spittoon, you can smell the overpoweringly-sweet stench it exudes. Nauseatingly sweet, like the rotting corpse of a dead gummi bear.
+      pl: Gdy tylko zbliżasz się do spluwaczki, czujesz przytłaczająco słodki smród, który z niej bije. Mdląco słodki, jak gnijące zwłoki martwego misia gumi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_742d76afe1b85cb6108e
+      kontekst: data.json:scripts.roybean_spittoontalk.two
+      linia: 4
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Garish rainbow colors swirl together in congealing psychedelic madness. Is Roy using jellybeans as chewing tobacco?
+      pl: Jaskrawe tęczowe kolory wirują w zastygającym psychodelicznym szaleństwie. Czy Roy używa fasolek żelkowych jako tytoniu do żucia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e7f74b9f8cac8297805
+      kontekst: data.json:scripts.roybean_spittoontalk.two
+      linia: 5
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yes. Yes, of course he is.
+      pl: Tak. Tak, oczywiście, że jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c44ffa275138d3363df4
+      kontekst: data.json:scripts.roybean_spittoontalk.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate further
+      pl: Zbadaj dokładniej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_c3ded4bf57570f226747
+      kontekst: data.json:scripts.roybean_spittoontalk.three
+      linia: 7
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: We're talking about a bowl of jellybeans that have been sucked on, half-chewed, and then spat into a brass bucket. Do you seriously want to put your hand in that swill of artificial coloring and thickened saliva? It will probably never be clean again.
+      pl: Mówimy o misce fasolek żelkowych oblizanych, pół przeżuty i pluniętych do mosiężnego wiadra. Naprawdę chcesz włożyć rękę w tę breję sztucznych barwników i zgęstniałej śliny? Prawdopodobnie nigdy już nie będzie czysta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22e58f1b7b33b0db21dd
+      kontekst: data.json:scripts.roybean_spittoontalk.three
+      linia: 8
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go for it
+      pl: Wal śmiało
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_3e776485bebcb9a78bb9
+      kontekst: data.json:scripts.roybean_spittoontalk.four
+      linia: 9
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Look, I'm serious. You're about to permanently dye your hand with a swirling mishmash of all the worst colors in the spectrum. No one will ever have a tattoo that looks as gross or as stupid.
+      pl: Słuchaj, mówię poważnie. Zaraz na stałe ufarbuje ci rękę wirującą mieszaniną najgorszych kolorów ze spektrum. Nikt nigdy nie będzie miał tatuażu tak obrzydliwego i głupiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0100e667d5a92c78ca18
+      kontekst: data.json:scripts.roybean_spittoontalk.four
+      linia: 10
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, forget it.
+      pl: Okej, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_388f055971cff509ecf3
+      kontekst: data.json:scripts.roybean_spittoontalk.four
+      linia: 11
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give it to me
+      pl: Daj mi to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_3374001a8280ff853e4b
+      kontekst: data.json:scripts.roybean_spittoontalk.five
+      linia: 12
+      sekcja_skryptu: five
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, I tried. Don't ever say I didn't warn you.
+      pl: No, próbowałem. Nie mów potem, że nie ostrzegałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32f2d9931120dd75f8fb
+      kontekst: data.json:scripts.roybean_spittoontalk.five
+      linia: 13
+      sekcja_skryptu: five
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You plunge your hand into the spittoon and fish around for a while. Eventually you pull out a really disgusting pistol, and a really disgusting hand to shoot it with.
+      pl: Wciskasz rękę w spluwaczkę i grzebiesz przez chwilę. W końcu wyciągasz naprawdę obrzydliwy pistolet i naprawdę obrzydliwą rękę, żeby z niego strzelać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_652cfc07282798c22a90
+      kontekst: data.json:scripts.roybean_spittoontalk.five
+      linia: 14
+      sekcja_skryptu: five
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yayyyy.
+      pl: Hurrra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2474
+  skrypt: roybean_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 55
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5f4a1f91180cecf0ca58
+      kontekst: data.json:scripts.roybean_talk.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@. Thanks again for helpin' me get back all my jellybeans.
+      pl: Witaj, @firstname@. Jeszcze raz dzięki za odzyskanie wszystkich fasolek żelkowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_6c803acd78215138693c
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 3
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy there, pilgrim. Name's Roy Bean.
+      pl: Witaj, pielgrzymie. Nazywam się Roy Bean.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3da1953a01e32d8b1055
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 4
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Roy. I'm @firstname@ @lastname@. What do you do here?
+      pl: Witaj, Roy. Jestem @firstname@ @lastname@. Czym się tutaj zajmujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_83e18873eec83c2bfa90
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 5
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Well, when I first came to these parts, I was all about two things: dispensin'' justice, and dispensin'' jellybeans. I was the biggest name in bounty-huntin'' and candy-sellin'' anyone ever heard of.'
+      pl: 'Cóż, kiedy po raz pierwszy przybyłem w te strony, chodziło mi tylko o dwie rzeczy: wymierzanie sprawiedliwości i wydawanie fasolek żelkowych. Byłem najsłynniejszym łowcą nagród i sprzedawcą słodyczy, o jakim kiedykolwiek słyszano.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27de25403524b1ab430e
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 6
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh! What happened?
+      pl: Rany! Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eab2c0e762cdb89b8a57
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 7
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, nothin' particularly tragic. Got old, is all. Hung up my pistol for good.
+      pl: Och, nic szczególnie tragicznego. Po prostu się zestarzałem. Odwiesiłem pistolet na dobre.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e7f36dc6b83c7dbaae4
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 8
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He points at the wall.
+      pl: Wskazuje na ścianę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d2b776f36772c284249
+      kontekst: data.json:scripts.roybean_talk.intro
+      linia: 9
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look
+      pl: Spójrz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_751f11f8bc6725067740
+      kontekst: data.json:scripts.roybean_talk.intro2
+      linia: 10
+      sekcja_skryptu: intro2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's pointing at an empty hook on the wall, over a spittoon.
+      pl: Wskazuje pusty haczyk na ścianie, nad spluwaczką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99f406dce60a71d632f1
+      kontekst: data.json:scripts.roybean_talk.intro2
+      linia: 11
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I still sell some jellybeans from time to time, but they're outta fashion. This ol' place is just a jellybean museum, now.
+      pl: Od czasu do czasu wciąż sprzedaję jakieś żelki, ale wyszły z mody. Ten stary przybytek to teraz właściwie muzeum żelków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10c72a67465c89052896
+      kontekst: data.json:scripts.roybean_talk.intro2
+      linia: 12
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Seems like the sign out front isn't very accurate, then.
+      pl: Wygląda na to, że tabliczka na front nie jest zbyt dokładna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro3
+    wpisy:
+    - id: wol_82292e65adc172ba8df4
+      kontekst: data.json:scripts.roybean_talk.intro3
+      linia: 15
+      sekcja_skryptu: intro3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, if you aren't dispensin' justice any more, maybe it should just say 'museum'.
+      pl: Jeśli nie wymierzasz już sprawiedliwości, może powinno być napisane "muzeum".
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e734b29b116cb79c342
+      kontekst: data.json:scripts.roybean_talk.intro3
+      linia: 16
+      sekcja_skryptu: intro3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm. Guess you got a point.
+      pl: Hmm. Chyba masz rację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a3d211159e4c4c01e9d
+      kontekst: data.json:scripts.roybean_talk.intro3
+      linia: 17
+      sekcja_skryptu: intro3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I found this letter addressed to you.
+      pl: Znalazłem list adresowany do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: returnletter
+    wpisy:
+    - id: wol_2a3d211159e4c4c01e9d
+      kontekst: data.json:scripts.roybean_talk.returnletter
+      linia: 18
+      sekcja_skryptu: returnletter
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I found this letter addressed to you.
+      pl: Znalazłem list adresowany do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe6da429580ab08b05b8
+      kontekst: data.json:scripts.roybean_talk.returnletter
+      linia: 19
+      sekcja_skryptu: returnletter
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: A letter?
+      pl: List?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a370039c04f12973f04
+      kontekst: data.json:scripts.roybean_talk.returnletter
+      linia: 20
+      sekcja_skryptu: returnletter
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give it to him
+      pl: Daj mu to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: returnletter2
+    wpisy:
+    - id: wol_d8467029079ddcc4f8cc
+      kontekst: data.json:scripts.roybean_talk.returnletter2
+      linia: 21
+      sekcja_skryptu: returnletter2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand over the letter.
+      pl: Oddajesz list.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f1861b752fe9c03ad01
+      kontekst: data.json:scripts.roybean_talk.returnletter2
+      linia: 22
+      sekcja_skryptu: returnletter2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He opens it, reads it, snorts derisively, and tosses it into the fireplace behind him.
+      pl: Otwiera, czyta, pogardliwie parska i wrzuca to do kominka za sobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b6fdf2df05691c75b12
+      kontekst: data.json:scripts.roybean_talk.returnletter2
+      linia: 24
+      sekcja_skryptu: returnletter2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nod
+      pl: Kiwnij głową
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro3
+    wpisy:
+    - id: wol_174f608938ecd043851b
+      kontekst: data.json:scripts.roybean_talk.intro3
+      linia: 25
+      sekcja_skryptu: intro3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about the jellybeans
+      pl: Zapytaj o fasolki żelkowe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_2a3d211159e4c4c01e9d
+      kontekst: data.json:scripts.roybean_talk.intro2
+      linia: 26
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I found this letter addressed to you.
+      pl: Znalazłem list adresowany do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_174f608938ecd043851b
+      kontekst: data.json:scripts.roybean_talk.intro2
+      linia: 27
+      sekcja_skryptu: intro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about the jellybeans
+      pl: Zapytaj o fasolki żelkowe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notstarted
+    wpisy:
+    - id: wol_b552ca4c8093eba28f7a
+      kontekst: data.json:scripts.roybean_talk.notstarted
+      linia: 28
+      sekcja_skryptu: notstarted
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: For a jellybean museum, I sure don't see very many jellybeans.
+      pl: Jak na muzeum fasolek żelkowych widzę tu zadziwiająco mało fasolek żelkowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c64ec9dbd7b8ae555f91
+      kontekst: data.json:scripts.roybean_talk.notstarted
+      linia: 29
+      sekcja_skryptu: notstarted
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh! Buncha crooks an' shady characters stole 'em! All three jars! S'pose they think I'm a soft target now that I'm retired.
+      pl: Hę! Banda oszustów i podejrzanych typów je ukradła! Wszystkie trzy słoiki! Chyba uznali mnie za łatwy cel, odkąd przeszedłem na emeryturę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_080790c938035a3c8040
+      kontekst: data.json:scripts.roybean_talk.notstarted
+      linia: 30
+      sekcja_skryptu: notstarted
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aw, that sucks.
+      pl: Ale kiepsko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a5eae4c565fdf6aea8b
+      kontekst: data.json:scripts.roybean_talk.notstarted
+      linia: 31
+      sekcja_skryptu: notstarted
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll help you get them back!
+      pl: Pomogę ci je odzyskać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startquest
+    wpisy:
+    - id: wol_b036463fbb5f091989f9
+      kontekst: data.json:scripts.roybean_talk.startquest
+      linia: 33
+      sekcja_skryptu: startquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well now, I certainly 'preciate the assistance. Can't offer much in the way of reward, but I can tell ya which way the first group of thieves went, if ya happen' out that direction.
+      pl: Cóż, naprawdę doceniam pomoc. Nie mogę zaoferować wiele w ramach nagrody, ale mogę powiedzieć, w którą stronę poszła pierwsza grupa złodziei, jeśli akurat wybierasz się w tamtym kierunku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_baa3b539ed43c1774706
+      kontekst: data.json:scripts.roybean_talk.startquest
+      linia: 34
+      sekcja_skryptu: startquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll go get 'em!
+      pl: Okej, idę po nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest1
+    wpisy:
+    - id: wol_f4d7736ce743748329c9
+      kontekst: data.json:scripts.roybean_talk.checkquest1
+      linia: 36
+      sekcja_skryptu: checkquest1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@. You recover that jar a' jellybeans, by any chance?
+      pl: Witaj, @firstname@. Udało ci się odzyskać ten słoik fasolek żelkowych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_563c65ae5786b495dd48
+      kontekst: data.json:scripts.roybean_talk.checkquest1
+      linia: 37
+      sekcja_skryptu: checkquest1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure did!
+      pl: Jasne, że tak!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest1
+    wpisy:
+    - id: wol_b32c7758df98766406a3
+      kontekst: data.json:scripts.roybean_talk.turninquest1
+      linia: 39
+      sekcja_skryptu: turninquest1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'll be! Thank ya kindly, @firstname@. I won't ask for details, but I hope they were sufficiently grisly.
+      pl: A niech mnie! Dziękuję uprzejmie, @firstname@. Nie będę pytał o szczegóły, ale mam nadzieję, że były wystarczająco makabryczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startquest2
+    wpisy:
+    - id: wol_c285aefa5736a297f4b5
+      kontekst: data.json:scripts.roybean_talk.startquest2
+      linia: 40
+      sekcja_skryptu: startquest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now, the second jar of jellybeans was stolen by a passel of them weird goblin fellas. Couldn't understand a word they was sayin', but they were very insistent.
+      pl: Drugi słoik żelków ukradła zgraja tych dziwnych goblinów. Ani słowa nie rozumiałem z tego, co mówiły, ale były bardzo stanowcze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08fcb7081cc35b52ea59
+      kontekst: data.json:scripts.roybean_talk.startquest2
+      linia: 41
+      sekcja_skryptu: startquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Which way did they go?
+      pl: Ktędy poszli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest2
+    wpisy:
+    - id: wol_bf698ff024b4649a03e4
+      kontekst: data.json:scripts.roybean_talk.takequest2
+      linia: 43
+      sekcja_skryptu: takequest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Northwest, towards that huge ol' cactus folks call "Ol' Granddad".
+      pl: Na północny zachód, w stronę wielkiego starego kaktusa, którego ludzie nazywają „Starym Dziadkiem”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b32e8bc6b25aba3712f0
+      kontekst: data.json:scripts.roybean_talk.takequest2
+      linia: 44
+      sekcja_skryptu: takequest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Northwest, towards that huge ol' cactus folks call "Ol' Granddad". Here, I'll mark it on yer map, but ya can't miss it.
+      pl: Na północny zachód, w stronę wielkiego starego kaktusa, którego ludzie nazywają „Starym Dziadkiem”. Zaznaczę ci go na mapie, ale nie sposób go przeoczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d32a97d71bcf85202b08
+      kontekst: data.json:scripts.roybean_talk.takequest2
+      linia: 45
+      sekcja_skryptu: takequest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'm on it.
+      pl: Okej, biorę się do tego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startquest2
+    wpisy:
+    - id: wol_419772e9f7cb8f5da941
+      kontekst: data.json:scripts.roybean_talk.startquest2
+      linia: 46
+      sekcja_skryptu: startquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, that's goblins for ya. See you around.
+      pl: Ta, takie to gobliny. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest1
+    wpisy:
+    - id: wol_b7f530851db38d9f5df3
+      kontekst: data.json:scripts.roybean_talk.checkquest1
+      linia: 47
+      sekcja_skryptu: checkquest1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, still looking.
+      pl: Nie, wciąż szukam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest2
+    wpisy:
+    - id: wol_db85167940fd3f4cd5fd
+      kontekst: data.json:scripts.roybean_talk.checkquest2
+      linia: 48
+      sekcja_skryptu: checkquest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How ya doin' on them jellybeans, kid?
+      pl: Jak idzie z fasolkami żelkowymi, dzieciaku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00e2558d92523411f643
+      kontekst: data.json:scripts.roybean_talk.checkquest2
+      linia: 49
+      sekcja_skryptu: checkquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got 'em!
+      pl: Mam je!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest2
+    wpisy:
+    - id: wol_8fb46cf6ed4b023f7bec
+      kontekst: data.json:scripts.roybean_talk.turninquest2
+      linia: 51
+      sekcja_skryptu: turninquest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wonderful! Good job kid. Looks like they're all here, too -- the goblins didn't eat any?
+      pl: Cudownie! Dobra robota. Wygląda na to, że wszyscy tu są. Gobliny nic nie zjadły?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfb032fb2cbf53e264a7
+      kontekst: data.json:scripts.roybean_talk.turninquest2
+      linia: 52
+      sekcja_skryptu: turninquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's a long and weird story.
+      pl: To długa i dziwna historia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest2b
+    wpisy:
+    - id: wol_dfb032fb2cbf53e264a7
+      kontekst: data.json:scripts.roybean_talk.turninquest2b
+      linia: 53
+      sekcja_skryptu: turninquest2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's a long and weird story.
+      pl: To długa i dziwna historia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd7d7e27ebd54a172064
+      kontekst: data.json:scripts.roybean_talk.turninquest2b
+      linia: 54
+      sekcja_skryptu: turninquest2b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, never mind, then.
+      pl: Nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startquest3
+    wpisy:
+    - id: wol_352c1aa27280b69fa3f0
+      kontekst: data.json:scripts.roybean_talk.startquest3
+      linia: 55
+      sekcja_skryptu: startquest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You've done a swell job, kid. I've only got one more jar of jellybeans missin' -- they was stole by a gang a' damn hippies.
+      pl: Dobra robota, dzieciaku. Brakuje mi już tylko jednego słoika fasolek żelkowych — ukradła go banda przeklętych hipisów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5c4adb8bfc2c9af7c7f
+      kontekst: data.json:scripts.roybean_talk.startquest3
+      linia: 56
+      sekcja_skryptu: startquest3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Why'd they take them?
+      pl: Czemu ich zabrali?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest3
+    wpisy:
+    - id: wol_0b92a78b0c7eddfb2377
+      kontekst: data.json:scripts.roybean_talk.takequest3
+      linia: 58
+      sekcja_skryptu: takequest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heck, who knows what a hippy's thinkin'? All I know is they took off headed south an' a li'l bit west.
+      pl: Do licha, kto wie, co myśli hipis? Wiem tylko, że ruszyli na południe i odrobinę na zachód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startquest3
+    wpisy:
+    - id: wol_802050f5f1e19054f01f
+      kontekst: data.json:scripts.roybean_talk.startquest3
+      linia: 60
+      sekcja_skryptu: startquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll get back to you on that.
+      pl: Dam ci znać w tej sprawie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest2
+    wpisy:
+    - id: wol_a2b019617e92fdb0d1b5
+      kontekst: data.json:scripts.roybean_talk.checkquest2
+      linia: 61
+      sekcja_skryptu: checkquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm still looking.
+      pl: Wciąż szukam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest3
+    wpisy:
+    - id: wol_c5b7645fed929da9c5dd
+      kontekst: data.json:scripts.roybean_talk.checkquest3
+      linia: 62
+      sekcja_skryptu: checkquest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@. Any line of that last jar a' jellybeans?
+      pl: Witaj, @firstname@. Masz jakiś trop w sprawie ostatniego słoika fasolek żelkowych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a45554e204c48a8241a6
+      kontekst: data.json:scripts.roybean_talk.checkquest3
+      linia: 63
+      sekcja_skryptu: checkquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I got 'em right here!
+      pl: Mam je tu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turninquest3
+    wpisy:
+    - id: wol_74dade3bac5e3ac4e901
+      kontekst: data.json:scripts.roybean_talk.turninquest3
+      linia: 65
+      sekcja_skryptu: turninquest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well I'll be jiggered. I didn't figure on seein' any a' them jellybeans again, and here you've brought back all three jars. I ain't got much to reward ya with other'n a handshake, @firstname@, but maybe I'll be able ta pay ya back somehow in the future.
+      pl: A niech mnie. Nie sądziłem, że znów zobaczę te fasolki żelkowe, a ty przyniosłeś wszystkie trzy słoiki. Niewiele mam, czym mógłbym cię wynagrodzić poza uściskiem dłoni, @firstname@, ale może kiedyś jakoś ci się odwdzięczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f6561d8b629729b5580
+      kontekst: data.json:scripts.roybean_talk.turninquest3
+      linia: 66
+      sekcja_skryptu: turninquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Don't sweat it, Roy, I was happy to help.
+      pl: Bez stresu, Roy, chętnie pomogłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest3
+    wpisy:
+    - id: wol_b7f530851db38d9f5df3
+      kontekst: data.json:scripts.roybean_talk.checkquest3
+      linia: 67
+      sekcja_skryptu: checkquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, still looking.
+      pl: Nie, wciąż szukam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2475
+  skrypt: roybean_toilet
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d31aa801403516909fb8
+      kontekst: data.json:scripts.roybean_toilet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What is this even hooked up to?
+      pl: Do czego to w ogóle podłączone?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68a6fb63eeb9dfc3269c
+      kontekst: data.json:scripts.roybean_toilet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it and see!
+      pl: Spuść i zobacz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2476
+  skrypt: roybean_vanity
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e4f3e94eaa80fd2d7c76
+      kontekst: data.json:scripts.roybean_vanity.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Roy must prefer to perform his morning ablutions outdoors.
+      pl: Roy najwyraźniej woli odprawiać poranną toaletę na dworze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18d93f7b603ecebedc43
+      kontekst: data.json:scripts.roybean_vanity.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Perform some of your own
+      pl: Wykaż się własnymi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_f8b4dadf3b014440f388
+      kontekst: data.json:scripts.roybean_vanity.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You gussy up a bit.
+      pl: Trochę się upiększasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2715
+  skrypt: tut_mine_bighole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_22e58f1b7b33b0db21dd
+      kontekst: data.json:scripts.tut_mine_bighole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go for it
+      pl: Wal śmiało
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2733
+  skrypt: tut_sherf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: return2
+    wpisy:
+    - id: wol_a2b019617e92fdb0d1b5
+      kontekst: data.json:scripts.tut_sherf.return2
+      linia: 75
+      sekcja_skryptu: return2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm still looking.
+      pl: Wciąż szukam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

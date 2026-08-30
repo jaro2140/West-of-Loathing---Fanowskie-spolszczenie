@@ -1,0 +1,713 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: abandoned_mine
+zrodlowy_batch: 083_dialog_loc_mine7_abandoned_mine.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 13
+liczba_wpisow: 37
+sceny:
+- kolejnosc_w_danych_gry: 1909
+  skrypt: mine7_cultfirepop
+  pomieszczenie: &id001
+    id: mine7
+    nazwa_en: Abandoned Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eb1c0b5e8b3bf7403118
+      kontekst: data.json:scripts.mine7_cultfirepop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This place seems poorly-ventilated for a campfire. Maybe that's why no one's here.
+      pl: To miejsce wydaje się słabo wentylowane na ognisko. Może dlatego nikogo tu nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1910
+  skrypt: mine7_cultistnote
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_100afeee4dcaa6757aa4
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The note says:'
+      pl: 'Notatka mówi:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2787ebe57ec43189eabd
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: DEAR JEFF
+      pl: DROGI JEFF
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_576aeae874ea6e336753
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: GOT CALLED UP NORTH TO DEEPEST DELVE
+      pl: WEZWANY NA PÓŁNOC DO NAJGŁĘBSZEGO SZYBU
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_37db7881d06ee95fad2a
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: SEE YOU SOON
+      pl: DO ZOBACZENIA WKRÓTCE
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be093dd699bc60e06aa1
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 6
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: SINCERELY, GEOFF
+      pl: Z POWAŻANIEM, GEOFF
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1911
+  skrypt: mine7_drillmachine
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_22c1515f7944d785b616
+      kontekst: data.json:scripts.mine7_drillmachine.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's some kind of drilling machine.
+      pl: To jakaś wiertnica.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: onquest
+    wpisy:
+    - id: wol_6759763908a17798d956
+      kontekst: data.json:scripts.mine7_drillmachine.onquest
+      linia: 2
+      sekcja_skryptu: onquest
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a drilling machine like the one at Dr. Morton's house.
+      pl: To wiertnica jak ta u dr Mortona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_262068eed54f72a6a7c9
+      kontekst: data.json:scripts.mine7_drillmachine.onquest
+      linia: 3
+      sekcja_skryptu: onquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab the bit
+      pl: Chwyć wiertło
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_c096b6b6f12610f0c05c
+      kontekst: data.json:scripts.mine7_drillmachine.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the pointiest part of the machine.
+      pl: Chwytasz najbardziej spiczastą część maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1912
+  skrypt: mine7_drywasher
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dba81431064e918333fd
+      kontekst: data.json:scripts.mine7_drywasher.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine is exceptionally dirty, even by desert mining standards.
+      pl: Ta maszyna jest wyjątkowo brudna — nawet jak na pustynne kopalnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d332a55c350f4462f5d
+      kontekst: data.json:scripts.mine7_drywasher.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This drywasher is caked in dirt.
+      pl: Pralka na sucho obklejona brudem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_168474835885cf8c7bbf
+      kontekst: data.json:scripts.mine7_drywasher.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wash and dry it [Minesplaining]
+      pl: Wypierz i wysusz [Kopalniane tłumaczenie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Minesplaining]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_66602cef5fe4730811c8
+      kontekst: data.json:scripts.mine7_drywasher.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scrub the machine down.  It doesn't look any better afterwards, but you do find some ore wedged in crannies here and there.
+      pl: Szorujesz maszynę. Potem nie wygląda lepiej, ale znajdujesz trochę rudy wciśniętej tu i ówdzie w szczelinach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1913
+  skrypt: mine7_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9eccd2e0cc60b9fb8680
+      kontekst: data.json:scripts.mine7_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The workings are too rusty to... work.
+      pl: Mechanizm jest zbyt zardzewiały, żeby... działał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26f7ce64c8e1f62b74d5
+      kontekst: data.json:scripts.mine7_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loose 'em [oil can]
+      pl: Poluzuj je [puszka na olej]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[oil can]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase2
+    wpisy:
+    - id: wol_76cf94aed3e7ad53334a
+      kontekst: data.json:scripts.mine7_elevator.phase2
+      linia: 3
+      sekcja_skryptu: phase2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You empty the oil can into the works.
+      pl: Wylewasz olej z puszki w mechanizm.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase2b
+    wpisy:
+    - id: wol_45dc300ee08c9fd24815
+      kontekst: data.json:scripts.mine7_elevator.phase2b
+      linia: 4
+      sekcja_skryptu: phase2b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now that the rust is dealt with you can see a bolt that's way out of alignment.
+      pl: Skoro rdza już usunięta, widać śrubę mocno wychyloną z osi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_873aacbb19a6666c81ea
+      kontekst: data.json:scripts.mine7_elevator.phase2b
+      linia: 5
+      sekcja_skryptu: phase2b
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Align it [wrench]
+      pl: Wyreguluj to [klucz]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b68f1104b866a856a8b4
+      kontekst: data.json:scripts.mine7_elevator.phase2b
+      linia: 8
+      sekcja_skryptu: phase2b
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Align it [Requires wrench]
+      pl: Wyrównaj [Wymaga klucza]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires wrench]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_0f06607a3b57e2e95128
+      kontekst: data.json:scripts.mine7_elevator.popup
+      linia: 9
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Loosen 'em [Requires oil can]
+      pl: Poluzuj je [Wymaga oliwiarki]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires oil can]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1918
+  skrypt: mine7_medicinecabinet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4ae28a15b5bcd0183d05
+      kontekst: data.json:scripts.mine7_medicinecabinet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mine isn't that great, but this cabinet is a big plus!
+      pl: Ta kopalnia nie jest wielka, ale ta szafka to duży plus!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1920
+  skrypt: mine7_saspshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_137b6811e6784c0777c4
+      kontekst: data.json:scripts.mine7_saspshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a shelf containing an effectively infinite amount of sarsaparilla.
+      pl: To półka zawierająca w praktyce nieskończoną ilość sarsaparilli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ac02ec6343177d721d68
+      kontekst: data.json:scripts.mine7_saspshelf.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already got plenty.
+      pl: Masz już sporo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e0b212e2ee3a55190a9
+      kontekst: data.json:scripts.mine7_saspshelf.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a bottle
+      pl: Weź butelkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nomore
+    wpisy:
+    - id: wol_d652e27d6cb14e299eed
+      kontekst: data.json:scripts.mine7_saspshelf.nomore
+      linia: 4
+      sekcja_skryptu: nomore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've definitely gotten your fair share.  It's time to move on.
+      pl: Na pewno dostałeś swoją porcję. Czas iść dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1921
+  skrypt: mine7_shinypile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e9a68474849317693693
+      kontekst: data.json:scripts.mine7_shinypile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a shiny thing in here!
+      pl: W środku coś błyszczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1922
+  skrypt: mine7_snake
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_81f0886b2848ea7fbbea
+      kontekst: data.json:scripts.mine7_snake.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gonna have to fight these snakes to get through here.
+      pl: Trzeba będzie walczyć z tymi wężami, żeby stąd przejść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc92a3f21e80f5bcd6d5
+      kontekst: data.json:scripts.mine7_snake.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay [Fight]
+      pl: Okej [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_cadf8e01384d69ba89dc
+      kontekst: data.json:scripts.mine7_snake.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You deftly dispatched that trio of serpents.
+      pl: Zręcznie rozprawiłeś się z tą trójką węży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a27e308c4964d95bb10
+      kontekst: data.json:scripts.mine7_snake.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With your trusty knife, you manage to get good skins off a couple of 'em.
+      pl: Swoim zaufanym nożem udaje ci się zdjąć parę niezłych skór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_b45b3f5890d85b3e7a02
+      kontekst: data.json:scripts.mine7_snake.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's like your dad always said.  "Up to two snakes in a mine, feelin' fine.  Three snakes in the dark, no walk in the park!"
+      pl: 'Jak mawiał twój tata: „Do dwóch węży w kopalni — czujesz się świetnie. Trzy węże w ciemności — to nie spacer po parku!”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_4c07625873ee79d85db5
+      kontekst: data.json:scripts.mine7_snake.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.  Should have listened.
+      pl: Ta. Powinienem był słuchać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1923
+  skrypt: mine7_stash
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a4d4e93136ee6c62b428
+      kontekst: data.json:scripts.mine7_stash.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big stash of mining gear.
+      pl: To duży skład sprzętu górniczego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1925
+  skrypt: mine7_teleporterpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dig
+    wpisy:
+    - id: wol_9b35052923b66a58c259
+      kontekst: data.json:scripts.mine7_teleporterpile.dig
+      linia: 4
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your deft picking reveals a teleporter.
+      pl: Twoje zwinne dłubanie odsłania teleporter.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2195
+  skrypt: ranch3_cowguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_cc92a3f21e80f5bcd6d5
+      kontekst: data.json:scripts.ranch3_cowguard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay [Fight]
+      pl: Okej [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2613
+  skrypt: train_murdernote2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_100afeee4dcaa6757aa4
+      kontekst: data.json:scripts.train_murdernote2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The note says:'
+      pl: 'Notatka mówi:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

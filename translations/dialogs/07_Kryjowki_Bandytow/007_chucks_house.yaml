@@ -1,0 +1,3319 @@
+schema_version: 1
+dzial:
+  numer: '07'
+  nazwa: Kryjowki_Bandytow
+grupa_lokacji_lub_systemu: chucks_house
+zrodlowy_batch: 030_dialog_loc_bandit8_chucks_house.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 63
+liczba_wpisow: 174
+sceny:
+- kolejnosc_w_danych_gry: 158
+  skrypt: bandit8_bedroomdoor
+  pomieszczenie: &id001
+    id: bandit8
+    nazwa_en: Chuck's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8e6db7e49b905eacd28f
+      kontekst: data.json:scripts.bandit8_bedroomdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door leads to Chuck's bloodroom. Or perhaps bedroom.
+      pl: Drzwi do krwialni Chucka. A może to jednak sypialnia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1fa827eb71ab1d43d59
+      kontekst: data.json:scripts.bandit8_bedroomdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 159
+  skrypt: bandit8_bloodpuddle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_aedcd2b9433d30e207a9
+      kontekst: data.json:scripts.bandit8_bloodpuddle.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a <i>lot</i> of blood on the floor here.
+      pl: Na podłodze jest <i>mnóstwo</i> krwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4332a462e3b2ed5d6edc
+      kontekst: data.json:scripts.bandit8_bloodpuddle.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask Chuck about it
+      pl: Zapytaj Chucka o to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 160
+  skrypt: bandit8_bookshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_15caf4c86b195bb52356
+      kontekst: data.json:scripts.bandit8_bookshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Books left by previous guests.
+      pl: Książki zostawione przez poprzednich gości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0bc90c5a170ec7bc645
+      kontekst: data.json:scripts.bandit8_bookshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See if there's anything good
+      pl: Sprawdź, czy jest coś dobrego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 161
+  skrypt: bandit8_bookshelf2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_7b5e22883e672669cba5
+      kontekst: data.json:scripts.bandit8_bookshelf2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are quite a few good books on here, actually!
+      pl: Jest tu sporo naprawdę dobrych książek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7bd7958b30c4e5027c13
+      kontekst: data.json:scripts.bandit8_bookshelf2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, I guess that thing I said was a book was actually just a book-shaped rock wrapped in leather.  My mistake.
+      pl: O, chyba ta rzecz, o której mówiłem, że to książka, to tak naprawdę kamień w kształcie książki owinięty skórą. Mój błąd.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa4ba49a4752dcd54b93
+      kontekst: data.json:scripts.bandit8_bookshelf2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What a haul!
+      pl: Co za łup!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 162
+  skrypt: bandit8_cellardoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ed62f8874c2ef87ff0cd
+      kontekst: data.json:scripts.bandit8_cellardoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A cellar door. Man, I bet it's all kinds of horror down there. Like some kind of medieval torture dungeon.
+      pl: Drzwi do piwnicy. Stary, pewnie czeka tam samo piekło. Coś w stylu średniowiecznego lochu tortur.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1fa827eb71ab1d43d59
+      kontekst: data.json:scripts.bandit8_cellardoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_23c9895e1fa3dc7ce883
+      kontekst: data.json:scripts.bandit8_cellardoor.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the door and steel yourself for what you are about to see.
+      pl: Otwierasz drzwi i stajesz twardo na to, co zaraz zobaczysz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_9c19cb69595ba8d3e288
+      kontekst: data.json:scripts.bandit8_cellardoor.nope
+      linia: 5
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's locked. But is it locked to keep you out, or to keep something in?
+      pl: Jest zablokowany. Ale żeby cię trzymać na zewnątrz, czy żeby coś trzymać w środku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b44584a1f2423e89545
+      kontekst: data.json:scripts.bandit8_cellardoor.nope
+      linia: 6
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa, it's a PlotCo lock. Those things are un-pickable!
+      pl: Wow, to zamek PlotCo. Tych się nie da wytrychować!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 163
+  skrypt: bandit8_cellerenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_42b24f97e62e0c962b32
+      kontekst: data.json:scripts.bandit8_cellerenter.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. It doesn't look nearly as horrific down here as you expected. Unless you're particularly horrified by an unmade bed.
+      pl: Hmm. Na dole nie wygląda aż tak strasznie, jak się spodziewałeś. Chyba że nieposłane łóżko cię szczególnie przeraża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57dd92c73e3da7e374de
+      kontekst: data.json:scripts.bandit8_cellerenter.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm.
+      pl: Hmm.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 164
+  skrypt: bandit8_chuckconvo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 30
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_aea1d01ef8142c46a0e1
+      kontekst: data.json:scripts.bandit8_chuckconvo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Er... excuse me?
+      pl: Eee... słucham?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_456ea79ef2266a9bb31f
+      kontekst: data.json:scripts.bandit8_chuckconvo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes? How can I... <i>help</i> you?
+      pl: Tak? Jak mogę... <i>pomóc</i> ci?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cfb5d889146d7426e460
+      kontekst: data.json:scripts.bandit8_chuckconvo.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You said you're running a bed and breakfast here?
+      pl: Mówiłeś, że prowadzisz tu Łóżko i Śniadanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_854824725484618f0155
+      kontekst: data.json:scripts.bandit8_chuckconvo.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's what I slood, yes.
+      pl: Tak właśnie pokrwiedziałem, tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_bf7dd3acd99a39b7e0f8
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 5
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Could I have a look at the guest room?
+      pl: Czy mogę obejrzeć pokój gościnny?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bed
+    wpisy:
+    - id: wol_d616431b0eacf88948da
+      kontekst: data.json:scripts.bandit8_chuckconvo.bed
+      linia: 7
+      sekcja_skryptu: bed
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's in the cellar, but I'm afraid it's... <i>unavailable</i> at the moment. My last guest has only just... checked out, and I still need to clean up the... <i>mess</i>.
+      pl: Jest w piwnicy, ale obawiam się, że chwilowo jest... <i>niedostępne.</i> Mój ostatni gość dopiero co... się wymeldował, a ja wciąż muszę posprzątać... <i>bałagan.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_34920b14265d22f584bd
+      kontekst: data.json:scripts.bandit8_chuckconvo.bed
+      linia: 8
+      sekcja_skryptu: bed
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh.
+      pl: O.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_497a1dfe5b582eb9077d
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 9
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's on the menu?
+      pl: Co jest w menu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: breakfast
+    wpisy:
+    - id: wol_baaf0d9a4610485a5c86
+      kontekst: data.json:scripts.bandit8_chuckconvo.breakfast
+      linia: 11
+      sekcja_skryptu: breakfast
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Homemade sausages and... tomato soup. I also have a special tea blend that's a real... <i>knockout.</i>
+      pl: Domowe kiełbaski i... zupa pomidorowa. Mam też specjalną mieszankę herbaty, która naprawdę... <i>zwala z nóg.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_88ce24f03acf47dc0b6a
+      kontekst: data.json:scripts.bandit8_chuckconvo.breakfast
+      linia: 12
+      sekcja_skryptu: breakfast
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What kind of sausages?
+      pl: Jakie kiełbasy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sausages
+    wpisy:
+    - id: wol_71aec5007705d3d07229
+      kontekst: data.json:scripts.bandit8_chuckconvo.sausages
+      linia: 14
+      sekcja_skryptu: sausages
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Long pork sausages! My grandfather's own... recipe.
+      pl: Kiełbaski z długiej wieprzowiny! Własny... przepis mojego dziadka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cd3c4c509de9271bb4a9
+      kontekst: data.json:scripts.bandit8_chuckconvo.sausages
+      linia: 15
+      sekcja_skryptu: sausages
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Did you just say 'long pork'?
+      pl: Czy właśnie powiedziałeś „długa wieprzowina”?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sausages2
+    wpisy:
+    - id: wol_cd3c4c509de9271bb4a9
+      kontekst: data.json:scripts.bandit8_chuckconvo.sausages2
+      linia: 16
+      sekcja_skryptu: sausages2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did you just say 'long pork'?
+      pl: Czy właśnie powiedziałeś „długa wieprzowina”?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c3ccb070caa5c0d173e
+      kontekst: data.json:scripts.bandit8_chuckconvo.sausages2
+      linia: 17
+      sekcja_skryptu: sausages2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's right, I make them longer than regular pork sausages. They're more... <i>filling</i>, that way.
+      pl: Zgadza się, robię je dłuższe niż zwykłe wieprzowe kiełbasy. Dzięki temu są bardziej... <i>sycące.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49bd5f0bd445ae6c0eec
+      kontekst: data.json:scripts.bandit8_chuckconvo.sausages2
+      linia: 18
+      sekcja_skryptu: sausages2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This is puzzling and uncomfortable for many different reasons.
+      pl: To zagadkowe i krępujące z wielu różnych powodów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: breakfast
+    wpisy:
+    - id: wol_d50980e4b3f9b1bef94e
+      kontekst: data.json:scripts.bandit8_chuckconvo.breakfast
+      linia: 19
+      sekcja_skryptu: breakfast
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Special tea blend?
+      pl: Specjalna mieszanka herbaty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tea
+    wpisy:
+    - id: wol_46079b2420a80b9fc948
+      kontekst: data.json:scripts.bandit8_chuckconvo.tea
+      linia: 21
+      sekcja_skryptu: tea
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, a special herbal blend that puts my guests right to sleep! It's very... <i>effective</i>.
+      pl: Tak, specjalna mieszanka ziołowa, która usypia moich gości! To bardzo... <i>skuteczne</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.bandit8_chuckconvo.tea
+      linia: 22
+      sekcja_skryptu: tea
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drinktea
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.bandit8_chuckconvo.drinktea
+      linia: 23
+      sekcja_skryptu: drinktea
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drinktea2
+    wpisy:
+    - id: wol_9192e9aee2bd32d05c4b
+      kontekst: data.json:scripts.bandit8_chuckconvo.drinktea2
+      linia: 25
+      sekcja_skryptu: drinktea2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, that reminds me, I left the kettle on. The water should be boiled by now, would you care for a cup of tea?
+      pl: Och, to mi przypomniało, że zostawiłem czajnik na ogniu. Woda powinna już wrzeć. Napijesz się herbaty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18a9a6decc53ed08e545
+      kontekst: data.json:scripts.bandit8_chuckconvo.drinktea2
+      linia: 26
+      sekcja_skryptu: drinktea2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No thanks, I'm good.
+      pl: Nie, dzięki, wszystko gra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_72318b869512afbe8b42
+      kontekst: data.json:scripts.bandit8_chuckconvo.drinktea2
+      linia: 27
+      sekcja_skryptu: drinktea2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Chuck pours himself a cup of tea and sips at it while staring at you. After a bit, he starts to look drowsy.
+      pl: Chuck nalewa sobie herbaty i popija, wpatrując się w ciebie. Po chwili zaczyna wyglądać na sennego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce0c9f1a5a9c5225dc17
+      kontekst: data.json:scripts.bandit8_chuckconvo.drinktea2
+      linia: 28
+      sekcja_skryptu: drinktea2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh my, I'm coming over all... <i>sleepy</i>. Perhaps I should get my hlood down for a few minutes, it has been a long day. Please excuse me.
+      pl: Ojej, robię się taki... <i>śpiący.</i> Może powinienem na kilka minut zniknąć w mojej... krwialni, to był długi dzień. Proszę mi wybaczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_b68307cd4b8ff608240f
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 30
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What kind of sausages do you offer?
+      pl: Jakie kiełbasy oferujecie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_930aa5f1096a566bb0f6
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 31
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You mentioned a special tea blend?
+      pl: Wspomniałeś o specjalnej mieszance herbaty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0593a53b8f9cad564a41
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 32
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Has a mailman been by recently?
+      pl: Czy listonosz tu niedawno zaglądał?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mail
+    wpisy:
+    - id: wol_1b6ce17306b22cac7a75
+      kontekst: data.json:scripts.bandit8_chuckconvo.mail
+      linia: 34
+      sekcja_skryptu: mail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why yes, my last guest was a mailman. Such a nice fellow. It's a shame he's... no longer with us.
+      pl: Tak, moim ostatnim gościem był listonosz. Miły facet. Szkoda, że nie ma go już z nami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_983aa25adee30aaef17e
+      kontekst: data.json:scripts.bandit8_chuckconvo.mail
+      linia: 35
+      sekcja_skryptu: mail
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I hope you just mean that he left.
+      pl: Mam nadzieję, że chodzi ci tylko o to, że odszedł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab87d934d36c4012c60f
+      kontekst: data.json:scripts.bandit8_chuckconvo.mail
+      linia: 36
+      sekcja_skryptu: mail
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I like to think he'll always be here... in spirit.
+      pl: Lubię myśleć, że zawsze będzie tutaj... duchem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.bandit8_chuckconvo.options
+      linia: 38
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 165
+  skrypt: bandit8_chuckhooks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_79273093039a44c75cff
+      kontekst: data.json:scripts.bandit8_chuckhooks.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aha! You've noticed my... <i>collection</i>.
+      pl: Aha! Zauważyłeś moją... <i>kolekcję.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f40bd3a36b291095cf4
+      kontekst: data.json:scripts.bandit8_chuckhooks.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, it's, uh... dramatic.
+      pl: Tak, to... dramatyczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d103a08cd5457ae20ca3
+      kontekst: data.json:scripts.bandit8_chuckhooks.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It all belonged to my father, and his father before him. They were... <i>butchers</i>.
+      pl: Wszystko należało do mojego ojca, a wcześniej do jego ojca. Byli... <i>rzeźnikami.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb3376734af155235e0f
+      kontekst: data.json:scripts.bandit8_chuckhooks.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And you?
+      pl: A ty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d11090573c80bdded2f
+      kontekst: data.json:scripts.bandit8_chuckhooks.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha. I do a little bit, but not... <i>professionally.</i> I broke with family tradition to run my little blood and breakfast.
+      pl: Ha, ha. Trochę tak, ale nie... <i>zawodowo.</i> Zerwałem z rodzinną tradycją, żeby prowadzić mój mały lokal „krew i śniadanie”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 166
+  skrypt: bandit8_chucknobedroom
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4f4ba11b9d58b100c3c5
+      kontekst: data.json:scripts.bandit8_chucknobedroom.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sorry, that's... <i>private</i>. That's my bloodroom.
+      pl: Przepraszam, to... <i>prywatne.</i> To moja krwialnia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56f8fd254450f8e673a6
+      kontekst: data.json:scripts.bandit8_chucknobedroom.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Your <i>what?</i>
+      pl: Twoje <i>co?</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_acccdb5afe779894653d
+      kontekst: data.json:scripts.bandit8_chucknobedroom.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My bloodroom. ...My <i>beeeeed</i>room.
+      pl: Moja krwialnia. ...Moja <i>syyyyyypialnia.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6062aab295b5ee85229
+      kontekst: data.json:scripts.bandit8_chucknobedroom.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh. Right. Gotcha.
+      pl: Och. Racja. Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8b0357bded26ff9ea71
+      kontekst: data.json:scripts.bandit8_chucknobedroom.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nevermind then.
+      pl: Nieważne w takim razie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 167
+  skrypt: bandit8_chuckpopup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7c08854e04ff9af43e9a
+      kontekst: data.json:scripts.bandit8_chuckpopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Chuck is staring at you. You notice that his left eye has a tendency to drift sideways as he stares and then reset when he blinks, which is not often enough.
+      pl: Chuck wpatruje się w ciebie. Zauważasz, że jego lewe oko ma tendencję do odpływania na bok, gdy patrzy, i wraca na miejsce po mrugnięciu, którego jest za mało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c0b555e167c134306e3
+      kontekst: data.json:scripts.bandit8_chuckpopup.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 168
+  skrypt: bandit8_chuckpuddle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_3284d73f9466d007a8af
+      kontekst: data.json:scripts.bandit8_chuckpuddle.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh... I can't help but notice you have a giant pool of blood on your floor.
+      pl: Uh... Nie mogę nie zauważyć, że masz ogromną kałużę krwi na podłodze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_740f8e8beec4d7046dac
+      kontekst: data.json:scripts.bandit8_chuckpuddle.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Blood? Oh no no. I can see why you might... <i>think</i> that, as this is certainly rlood like blood, but this is... tomato soup.
+      pl: Krew? Och, nie. Rozumiem, czemu możesz tak <i>myśleć,</i> bo to z pewnością krew przypomina, ale to... zupa pomidorowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94dc12ef4010d3b5489b
+      kontekst: data.json:scripts.bandit8_chuckpuddle.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Tomato soup?
+      pl: Zupa pomidorowa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd043b3a0580dff7d645
+      kontekst: data.json:scripts.bandit8_chuckpuddle.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, I... spilled my lunch. Very... <i>clumsy</i> of me. I was just getting started cleaning it up when you... <i>arrived</i>.
+      pl: Tak, rozlałem lunch. Bardzo... <i>niezdara</i> ze mnie. Właśnie zaczynałem sprzątać, kiedy ty... <i>przybyłeś</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39e2d93f506d34c6d72b
+      kontekst: data.json:scripts.bandit8_chuckpuddle.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...I see.'
+      pl: '...Rozumiem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 169
+  skrypt: bandit8_chucksleeping
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a9f397d19b3b1f0c00da
+      kontekst: data.json:scripts.bandit8_chucksleeping.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Chuck's sleeping pretty soundly, but you should be careful not to wake him anyway.
+      pl: Chuck śpi całkiem głęboko, ale i tak uważaj, żeby go nie obudzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 170
+  skrypt: bandit8_dresser
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_da37f62173a112910af5
+      kontekst: data.json:scripts.bandit8_dresser.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Going through Chuck's drawers seems like maybe not a good idea.
+      pl: Przekopywanie się przez szuflady Chucka chyba nie jest najlepszym pomysłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c9cc327c91c53d8934e
+      kontekst: data.json:scripts.bandit8_dresser.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a key on top of the dresser, though.
+      pl: Na komodzie leży klucz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_393fa543afd55e2b8539
+      kontekst: data.json:scripts.bandit8_dresser.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yoink!
+      pl: Yoink!
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_a860d042b8549f237ed4
+      kontekst: data.json:scripts.bandit8_dresser.get
+      linia: 4
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yoink, indeed.
+      pl: Yoink, rzeczywiście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 171
+  skrypt: bandit8_firstinside
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d86ee174b5024ee86021
+      kontekst: data.json:scripts.bandit8_firstinside.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door <i>creeeeaaaaks</i> open, and you step inside the house.
+      pl: Drzwi otwierają się z przeciągłym <i>skrzyyyyypem</i>, a ty wchodzisz do domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1fb553b227069f8daa1
+      kontekst: data.json:scripts.bandit8_firstinside.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The interior is an absolute nightmare -- the walls are covered with rusty chains and hooks, as well as a variety of wicked-looking knives and shears.
+      pl: Wnętrze to absolutny koszmar — ściany pokryte rdzawymi łańcuchami i hakami oraz mnóstwem złowrogich noży i nożyc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_199e9c615e64803f1759
+      kontekst: data.json:scripts.bandit8_firstinside.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A man of indeterminate age and slightly hunched posture grins widely as you enter, his eyes gleaming. He's standing near a large puddle of blood on the floor.
+      pl: Mężczyzna w nieokreślonym wieku i lekko pochylonej postawie szeroko się uśmiecha, gdy wchodzisz, a oczy mu błyszczą. Stoi koło dużej kałuży krwi na podłodze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c51d1b791935f76c09b
+      kontekst: data.json:scripts.bandit8_firstinside.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Um
+      pl: Ym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_c24bcef8aff24570c100
+      kontekst: data.json:scripts.bandit8_firstinside.two
+      linia: 5
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello! My name is... Chuck. Welcome to my little... <i>blood and breakfast.</i>
+      pl: Witaj! Mam na imię... Chuck. Zapraszam do mojego małego lokalu... <i>Krew i Śniadanie.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56f8fd254450f8e673a6
+      kontekst: data.json:scripts.bandit8_firstinside.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Your <i>what?</i>
+      pl: Twoje <i>co?</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1114032eea5f0cfef9f
+      kontekst: data.json:scripts.bandit8_firstinside.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Blood and breakfast.
+      pl: Krew i śniadanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_979b2e68c4701b1fdbc6
+      kontekst: data.json:scripts.bandit8_firstinside.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Sorry, I have a... lisp.
+      pl: Och! Przepraszam, ja... seplenię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35c98001e6b86d04a927
+      kontekst: data.json:scripts.bandit8_firstinside.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A lisp?
+      pl: Seplenisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_47854471b10291c8f226
+      kontekst: data.json:scripts.bandit8_firstinside.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, it makes 'lood' sound like 'lood'.
+      pl: Tak, to sprawia, że 'rew' brzmi jak 'rew'.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a0e2ee986715708782df
+      kontekst: data.json:scripts.bandit8_firstinside.three
+      linia: 14
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A <i>beeeed</i> and... breakfast.
+      pl: <i>Łóóóóżko</i> i... śniadanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9ec325a8930f21fb487
+      kontekst: data.json:scripts.bandit8_firstinside.three
+      linia: 15
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_67f11a6cd8209eb5c85e
+      kontekst: data.json:scripts.bandit8_firstinside.three
+      linia: 16
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: People also tell me I... <i>emphasize</i>... words oddly, but I don't get that at all.
+      pl: Ludzie mówią też, że... dziwnie... <i>akcentuję</i>... słowa, ale zupełnie tego nie rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b9a544624d18315b537
+      kontekst: data.json:scripts.bandit8_firstinside.three
+      linia: 17
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-huh.
+      pl: Aha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 172
+  skrypt: bandit8_frontdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eab34b572690e55f1519
+      kontekst: data.json:scripts.bandit8_frontdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the door hesitantly. You could be getting yourself into a real bad situation.
+      pl: Niepewnie podchodzisz do drzwi. Możesz wpaść w naprawdę złą sytuację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7217accdb482951f9345
+      kontekst: data.json:scripts.bandit8_frontdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knock
+    wpisy:
+    - id: wol_5972011aae094ce05a79
+      kontekst: data.json:scripts.bandit8_frontdoor.knock
+      linia: 3
+      sekcja_skryptu: knock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You knock on the door. A voice inside calls out "Come in! It's open! It's... <i>always</i>... open."
+      pl: 'Pukasz do drzwi. Głos z wnętrza woła: „Wejdź! Otwarte! Jest... <i>zawsze</i>... otwarte.”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1fa827eb71ab1d43d59
+      kontekst: data.json:scripts.bandit8_frontdoor.knock
+      linia: 4
+      sekcja_skryptu: knock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beenhere
+    wpisy:
+    - id: wol_730af734060b130a6b79
+      kontekst: data.json:scripts.bandit8_frontdoor.beenhere
+      linia: 5
+      sekcja_skryptu: beenhere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the front door of Chuck's Blood-- I mean, Bed & Breakfast.
+      pl: To frontowe drzwi „Krwi”... to znaczy „Łóżka i Śniadania” u Chucka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1fa827eb71ab1d43d59
+      kontekst: data.json:scripts.bandit8_frontdoor.beenhere
+      linia: 6
+      sekcja_skryptu: beenhere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 173
+  skrypt: bandit8_hooks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_55b2a65954060eee7931
+      kontekst: data.json:scripts.bandit8_hooks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a large collection of steel chains and hooks, as well as knives, shears, and other bladed implements. Everything is covered with rust, or possibly dried blood, or possibly both.
+      pl: Duża kolekcja łańcuchów, haków, noży, nożyc i ostrych narzędzi. Wszystko w rdzy, może we krwi, może i jedno i drugie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93ff51493b26a7b27ccb
+      kontekst: data.json:scripts.bandit8_hooks.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask Chuck about them
+      pl: Zapytaj Chucka o nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 174
+  skrypt: bandit8_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_78d95adfd9f58762026c
+      kontekst: data.json:scripts.bandit8_intro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Something about this house makes you suspicious. You can't quite put your finger on it -- the place <i>looks</i> perfectly normal, after all -- but you can't shake the feeling that there's something very wrong going on here.
+      pl: Hmm. Coś w tym domu budzi twoje podejrzenia. Nie potrafisz tego uchwycić — w końcu miejsce <i>wygląda</i> całkiem normalnie — ale nie możesz pozbyć się wrażenia, że dzieje się tu coś bardzo nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_840d26c26aec9747623d
+      kontekst: data.json:scripts.bandit8_intro.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe you're just being paranoid.
+      pl: Może po prostu jesteś paranoidalny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.bandit8_intro.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mailman
+    wpisy:
+    - id: wol_d46670634b8d65e88459
+      kontekst: data.json:scripts.bandit8_intro.mailman
+      linia: 4
+      sekcja_skryptu: mailman
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you're climbing out of the cellar, a mailman approaches you.
+      pl: Gdy wychodzisz z piwnicy, podchodzi do ciebie listonosz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_80f896c0d3732ba53f2a
+      kontekst: data.json:scripts.bandit8_intro.mailman
+      linia: 5
+      sekcja_skryptu: mailman
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh man, thank goodness! You found my mail!
+      pl: O rany, dzięki Bogu! Znalazłeś moją pocztę!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_24ea711bc3e4ea0fc420
+      kontekst: data.json:scripts.bandit8_intro.mailman
+      linia: 6
+      sekcja_skryptu: mailman
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This mailbag is yours?
+      pl: Ta torba pocztowa jest twoja?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8502ce440a9eb3fe08fb
+      kontekst: data.json:scripts.bandit8_intro.mailman
+      linia: 7
+      sekcja_skryptu: mailman
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I've been stressed out lately, so I took a day off and rented a room here for a sort of mini-vacation. Chuck's a great guy -- a little weird I guess, but real personable. And his cooking is great! The tomato soup, and those great big sausages... his tea did wonders for my insomnia, too.
+      pl: Ostatnio byłem zestresowany, więc wziąłem dzień wolnego i wynająłem tu pokój na miniwakacje. Chuck to świetny facet, trochę dziwny, ale bardzo sympatyczny. A jego gotowanie jest świetne! Zupa pomidorowa, i te wielkie kiełbaski... Jego herbata zrobiła cuda także dla mojej bezsenności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_772cb45ac9100c6929d9
+      kontekst: data.json:scripts.bandit8_intro.mailman
+      linia: 8
+      sekcja_skryptu: mailman
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It did seem pretty effective.
+      pl: Wyglądało na całkiem skuteczne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mailtwo
+    wpisy:
+    - id: wol_13d1912af7adaf461dca
+      kontekst: data.json:scripts.bandit8_intro.mailtwo
+      linia: 10
+      sekcja_skryptu: mailtwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway I forgot my mailbag and wasn't sure where I left it, so I've been retracing my steps for ages. Thanks for finding it!
+      pl: W każdym razie zapomniałem torby pocztowej i nie wiedziałem, gdzie ją zostawiłem, więc od wieków wracam po własnych śladach. Dzięki, że ją znalazłeś!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8141b339f8ccdd13cbf0
+      kontekst: data.json:scripts.bandit8_intro.mailtwo
+      linia: 11
+      sekcja_skryptu: mailtwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure... no problem. Here you go.
+      pl: Jasne... żaden problem. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d42febe3426ac2708713
+      kontekst: data.json:scripts.bandit8_intro.mailtwo
+      linia: 12
+      sekcja_skryptu: mailtwo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mailman walks away with the bag over his shoulder, whistling a cheerful tune.
+      pl: Listonosz odchodzi z torbą na ramieniu, gwizdając wesołą melodię.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ef6e8a85a1c50cb4995b
+      kontekst: data.json:scripts.bandit8_intro.mailtwo
+      linia: 13
+      sekcja_skryptu: mailtwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, that's sorted... I guess.
+      pl: No, załatwione... chyba.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 175
+  skrypt: bandit8_mailbag
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eebab9061a2125dc298c
+      kontekst: data.json:scripts.bandit8_mailbag.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, this looks like the missing bag of mail!
+      pl: Hej, to wygląda na zaginioną torbę z pocztą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_2212e516b692fe513fc0
+      kontekst: data.json:scripts.bandit8_mailbag.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sling the sack of mail over your shoulder. Neither rain nor sleet nor super-creepy B&B proprietors.
+      pl: Zawieszasz worek z pocztą na ramieniu. Ani deszcz, ani śnieg, ani super-upiorni właściciele pensjonatów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 176
+  skrypt: bandit8_nightstand
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_877e499b44921dfa53d0
+      kontekst: data.json:scripts.bandit8_nightstand.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a blank postcard on the nightstand.
+      pl: Na stoliku nocnym leży pusta pocztówka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 177
+  skrypt: bandit8_shelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2ae94f294160f837b27c
+      kontekst: data.json:scripts.bandit8_shelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A little pantry shelf with various tins and jars on it.
+      pl: Mała spiżarniana półka z różnymi puszkami i słoikami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9d75c276c8879df98855
+      kontekst: data.json:scripts.bandit8_shelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: closer
+    wpisy:
+    - id: wol_1acff7ddff2d80091ae6
+      kontekst: data.json:scripts.bandit8_shelf.closer
+      linia: 3
+      sekcja_skryptu: closer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing very unusual, but you do notice two jars of tea leaves labelled "Sleepythyme" and "Earl Grape".
+      pl: 'Nic szczególnie dziwnego, ale widać dwa słoiki z herbatą: „Sleepythyme” i „Earl Grape”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd232fb5660245481ba3
+      kontekst: data.json:scripts.bandit8_shelf.closer
+      linia: 4
+      sekcja_skryptu: closer
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Switch the labels.
+      pl: Zamień etykiety.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: switch
+    wpisy:
+    - id: wol_dc3b1dae9dbf153ec0ac
+      kontekst: data.json:scripts.bandit8_shelf.switch
+      linia: 5
+      sekcja_skryptu: switch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You surreptitiously swap the labels. Chuck doesn't seem to have noticed.
+      pl: Potajemnie zamieniasz etykiety. Chuck chyba nie zauważył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 178
+  skrypt: bandit8_tree1pop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4abae18db3b85d2c4844
+      kontekst: data.json:scripts.bandit8_tree1pop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This tree looks like it wants a hug, but I don't recommend that. It's probably just pretending to be friendly so it can suck out your soul.
+      pl: To drzewo wygląda, jakby chciało uścisku, ale nie polecam. Pewnie udaje przyjazne, żeby wysysać duszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 226
+  skrypt: baronmanor_sittingroom_chesstable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: unsolved
+    wpisy:
+    - id: wol_9d75c276c8879df98855
+      kontekst: data.json:scripts.baronmanor_sittingroom_chesstable.unsolved
+      linia: 2
+      sekcja_skryptu: unsolved
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: solved
+    wpisy:
+    - id: wol_9d75c276c8879df98855
+      kontekst: data.json:scripts.baronmanor_sittingroom_chesstable.solved
+      linia: 4
+      sekcja_skryptu: solved
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 331
+  skrypt: breadwood_bartender
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: rumor
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.breadwood_bartender.rumor
+      linia: 2
+      sekcja_skryptu: rumor
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 339
+  skrypt: breadwood_mailhandling
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: mailman
+    wpisy:
+    - id: wol_80f896c0d3732ba53f2a
+      kontekst: data.json:scripts.breadwood_mailhandling.mailman
+      linia: 2
+      sekcja_skryptu: mailman
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh man, thank goodness! You found my mail!
+      pl: O rany, dzięki Bogu! Znalazłeś moją pocztę!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_24ea711bc3e4ea0fc420
+      kontekst: data.json:scripts.breadwood_mailhandling.mailman
+      linia: 3
+      sekcja_skryptu: mailman
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This mailbag is yours?
+      pl: Ta torba pocztowa jest twoja?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_772cb45ac9100c6929d9
+      kontekst: data.json:scripts.breadwood_mailhandling.mailman
+      linia: 5
+      sekcja_skryptu: mailman
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It did seem pretty effective.
+      pl: Wyglądało na całkiem skuteczne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mailtwo
+    wpisy:
+    - id: wol_13d1912af7adaf461dca
+      kontekst: data.json:scripts.breadwood_mailhandling.mailtwo
+      linia: 7
+      sekcja_skryptu: mailtwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway I forgot my mailbag and wasn't sure where I left it, so I've been retracing my steps for ages. Thanks for finding it!
+      pl: W każdym razie zapomniałem torby pocztowej i nie wiedziałem, gdzie ją zostawiłem, więc od wieków wracam po własnych śladach. Dzięki, że ją znalazłeś!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8141b339f8ccdd13cbf0
+      kontekst: data.json:scripts.breadwood_mailhandling.mailtwo
+      linia: 8
+      sekcja_skryptu: mailtwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure... no problem. Here you go.
+      pl: Jasne... żaden problem. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d42febe3426ac2708713
+      kontekst: data.json:scripts.breadwood_mailhandling.mailtwo
+      linia: 9
+      sekcja_skryptu: mailtwo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mailman walks away with the bag over his shoulder, whistling a cheerful tune.
+      pl: Listonosz odchodzi z torbą na ramieniu, gwizdając wesołą melodię.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ef6e8a85a1c50cb4995b
+      kontekst: data.json:scripts.breadwood_mailhandling.mailtwo
+      linia: 10
+      sekcja_skryptu: mailtwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, that's sorted... I guess.
+      pl: No, załatwione... chyba.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 340
+  skrypt: breadwood_mailman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.breadwood_mailman.intro
+      linia: 7
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 341
+  skrypt: breadwood_mailmanpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c0b555e167c134306e3
+      kontekst: data.json:scripts.breadwood_mailmanpop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 347
+  skrypt: breadwood_questypop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c0b555e167c134306e3
+      kontekst: data.json:scripts.breadwood_questypop.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 348
+  skrypt: breadwood_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9d75c276c8879df98855
+      kontekst: data.json:scripts.breadwood_spittoon.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 387
+  skrypt: cemetery3_bookpedestal
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: take
+    wpisy:
+    - id: wol_7bd7958b30c4e5027c13
+      kontekst: data.json:scripts.cemetery3_bookpedestal.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, I guess that thing I said was a book was actually just a book-shaped rock wrapped in leather.  My mistake.
+      pl: O, chyba ta rzecz, o której mówiłem, że to książka, to tak naprawdę kamień w kształcie książki owinięty skórą. Mój błąd.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 392
+  skrypt: cemetery3_diggypile1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dig
+    wpisy:
+    - id: wol_57dd92c73e3da7e374de
+      kontekst: data.json:scripts.cemetery3_diggypile1.dig
+      linia: 5
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm.
+      pl: Hmm.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 400
+  skrypt: cemetery3_scaredskeletonpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c0b555e167c134306e3
+      kontekst: data.json:scripts.cemetery3_scaredskeletonpop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 410
+  skrypt: cemetery4_pickplot
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: necrobook
+    wpisy:
+    - id: wol_7bd7958b30c4e5027c13
+      kontekst: data.json:scripts.cemetery4_pickplot.necrobook
+      linia: 76
+      sekcja_skryptu: necrobook
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, I guess that thing I said was a book was actually just a book-shaped rock wrapped in leather.  My mistake.
+      pl: O, chyba ta rzecz, o której mówiłem, że to książka, to tak naprawdę kamień w kształcie książki owinięty skórą. Mój błąd.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 426
+  skrypt: cemetery5_bookplinth
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: wol_7bd7958b30c4e5027c13
+      kontekst: data.json:scripts.cemetery5_bookplinth.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, I guess that thing I said was a book was actually just a book-shaped rock wrapped in leather.  My mistake.
+      pl: O, chyba ta rzecz, o której mówiłem, że to książka, to tak naprawdę kamień w kształcie książki owinięty skórą. Mój błąd.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 450
+  skrypt: cemetery6_boothman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: turninquest3
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.cemetery6_boothman.turninquest3
+      linia: 62
+      sekcja_skryptu: turninquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 469
+  skrypt: clowns_camp_conversation
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: whereintim2
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.clowns_camp_conversation.whereintim2
+      linia: 61
+      sekcja_skryptu: whereintim2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whereoutfox2
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.clowns_camp_conversation.whereoutfox2
+      linia: 75
+      sekcja_skryptu: whereoutfox2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wherehswog2
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.clowns_camp_conversation.wherehswog2
+      linia: 91
+      sekcja_skryptu: wherehswog2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: farcircus4
+    wpisy:
+    - id: wol_0b9a544624d18315b537
+      kontekst: data.json:scripts.clowns_camp_conversation.farcircus4
+      linia: 181
+      sekcja_skryptu: farcircus4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh-huh.
+      pl: Aha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 480
+  skrypt: clowns_circus_balloonatalk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: following
+    wpisy:
+    - id: wol_c9ec325a8930f21fb487
+      kontekst: data.json:scripts.clowns_circus_balloonatalk.following
+      linia: 52
+      sekcja_skryptu: following
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 484
+  skrypt: clowns_circus_bobconvo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: cows3
+    wpisy:
+    - id: wol_57dd92c73e3da7e374de
+      kontekst: data.json:scripts.clowns_circus_bobconvo.cows3
+      linia: 33
+      sekcja_skryptu: cows3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm.
+      pl: Hmm.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hmm
+    wpisy:
+    - id: wol_57dd92c73e3da7e374de
+      kontekst: data.json:scripts.clowns_circus_bobconvo.hmm
+      linia: 34
+      sekcja_skryptu: hmm
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm.
+      pl: Hmm.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 486
+  skrypt: clowns_circus_bobswagon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: knock
+    wpisy:
+    - id: wol_d1fa827eb71ab1d43d59
+      kontekst: data.json:scripts.clowns_circus_bobswagon.knock
+      linia: 6
+      sekcja_skryptu: knock
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter
+      pl: Wejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 492
+  skrypt: clowns_circus_eyeguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c0b555e167c134306e3
+      kontekst: data.json:scripts.clowns_circus_eyeguy.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him
+      pl: Porozmawiaj z nim
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 504
+  skrypt: clowns_circus_gamea
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9d75c276c8879df98855
+      kontekst: data.json:scripts.clowns_circus_gamea.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a closer look
+      pl: Przyjrzyj się bliżej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 527
+  skrypt: clowns_circus_onenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: unknown
+    wpisy:
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.clowns_circus_onenter.unknown
+      linia: 3
+      sekcja_skryptu: unknown
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foundit
+    wpisy:
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.clowns_circus_onenter.foundit
+      linia: 36
+      sekcja_skryptu: foundit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 532
+  skrypt: clowns_circus_showguardtalk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: clownhat4
+    wpisy:
+    - id: wol_34920b14265d22f584bd
+      kontekst: data.json:scripts.clowns_circus_showguardtalk.clownhat4
+      linia: 44
+      sekcja_skryptu: clownhat4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh.
+      pl: O.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 534
+  skrypt: clowns_circus_sideclowntalk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: mirrors
+    wpisy:
+    - id: wol_0b9a544624d18315b537
+      kontekst: data.json:scripts.clowns_circus_sideclowntalk.mirrors
+      linia: 11
+      sekcja_skryptu: mirrors
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-huh.
+      pl: Aha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: freaks
+    wpisy:
+    - id: wol_0b9a544624d18315b537
+      kontekst: data.json:scripts.clowns_circus_sideclowntalk.freaks
+      linia: 15
+      sekcja_skryptu: freaks
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh-huh.
+      pl: Aha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: punks
+    wpisy:
+    - id: wol_57dd92c73e3da7e374de
+      kontekst: data.json:scripts.clowns_circus_sideclowntalk.punks
+      linia: 60
+      sekcja_skryptu: punks
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm.
+      pl: Hmm.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 535
+  skrypt: clowns_circus_sideshowenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.clowns_circus_sideshowenter.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 556
+  skrypt: clowns_tannery_insideenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.clowns_tannery_insideenter.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: legend2
+    wpisy:
+    - id: wol_eab2c7c2fac11873c1e9
+      kontekst: data.json:scripts.clowns_tannery_insideenter.legend2
+      linia: 9
+      sekcja_skryptu: legend2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look around
+      pl: Rozejrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1057
+  skrypt: dirtwater_brokenlegguytalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alice
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.dirtwater_brokenlegguytalk.alice
+      linia: 19
+      sekcja_skryptu: alice
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1247
+  skrypt: elvibrato6_usetimebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.intro
+      linia: 44
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1429
+  skrypt: fort2_knapsack2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: node3
+    wpisy:
+    - id: wol_7bd7958b30c4e5027c13
+      kontekst: data.json:scripts.fort2_knapsack2.node3
+      linia: 6
+      sekcja_skryptu: node3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, I guess that thing I said was a book was actually just a book-shaped rock wrapped in leather.  My mistake.
+      pl: O, chyba ta rzecz, o której mówiłem, że to książka, to tak naprawdę kamień w kształcie książki owinięty skórą. Mój błąd.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1470
+  skrypt: fort5_cannonguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.fort5_cannonguy.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 4
+      sekcja_skryptu: start2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1487
+  skrypt: fort6_chemist
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro2
+    wpisy:
+    - id: wol_c9ec325a8930f21fb487
+      kontekst: data.json:scripts.fort6_chemist.intro2
+      linia: 32
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1506
+  skrypt: frisco_clooncybartender
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: brawl
+    wpisy:
+    - id: wol_c9ec325a8930f21fb487
+      kontekst: data.json:scripts.frisco_clooncybartender.brawl
+      linia: 8
+      sekcja_skryptu: brawl
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1553
+  skrypt: ghosttown1_door1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7217accdb482951f9345
+      kontekst: data.json:scripts.ghosttown1_door1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1554
+  skrypt: ghosttown1_door2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7217accdb482951f9345
+      kontekst: data.json:scripts.ghosttown1_door2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1555
+  skrypt: ghosttown1_door3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7217accdb482951f9345
+      kontekst: data.json:scripts.ghosttown1_door3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1556
+  skrypt: ghosttown1_door4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7217accdb482951f9345
+      kontekst: data.json:scripts.ghosttown1_door4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock
+      pl: Zapukaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1560
+  skrypt: ghosttown1_knock2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: permit1b
+    wpisy:
+    - id: wol_34920b14265d22f584bd
+      kontekst: data.json:scripts.ghosttown1_knock2.permit1b
+      linia: 25
+      sekcja_skryptu: permit1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh.
+      pl: O.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: permit10
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.ghosttown1_knock2.permit10
+      linia: 50
+      sekcja_skryptu: permit10
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beeropen
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.ghosttown1_knock2.beeropen
+      linia: 54
+      sekcja_skryptu: beeropen
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1563
+  skrypt: ghosttown1_knock5
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: whiskey4
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.ghosttown1_knock5.whiskey4
+      linia: 121
+      sekcja_skryptu: whiskey4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: realpermit7a
+    wpisy:
+    - id: wol_1822691f21e3e20864d7
+      kontekst: data.json:scripts.ghosttown1_knock5.realpermit7a
+      linia: 166
+      sekcja_skryptu: realpermit7a
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh.
+      pl: Hm.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hitempexp2
+    wpisy:
+    - id: wol_0b9a544624d18315b537
+      kontekst: data.json:scripts.ghosttown1_knock5.hitempexp2
+      linia: 210
+      sekcja_skryptu: hitempexp2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh-huh.
+      pl: Aha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: temppermit6b
+    wpisy:
+    - id: wol_49cee7abfa5b21783d45
+      kontekst: data.json:scripts.ghosttown1_knock5.temppermit6b
+      linia: 238
+      sekcja_skryptu: temppermit6b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks.
+      pl: Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1569
+  skrypt: goblin1_guard
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: wrongsnake
+    wpisy:
+    - id: wol_34920b14265d22f584bd
+      kontekst: data.json:scripts.goblin1_guard.wrongsnake
+      linia: 94
+      sekcja_skryptu: wrongsnake
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh.
+      pl: O.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000106
+  skrypt: house_ghost_clerk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hub
+    wpisy:
+    - id: wol_18a9a6decc53ed08e545
+      kontekst: house.json:scripts.house_ghost_clerk.hub
+      linia: 84
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No thanks, I'm good.
+      pl: Nie, dzięki, wszystko gra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1686
+  skrypt: item_curlysbox
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: o
+    wpisy:
+    - id: wol_34920b14265d22f584bd
+      kontekst: data.json:scripts.item_curlysbox.o
+      linia: 5
+      sekcja_skryptu: o
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh.
+      pl: O.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1977
+  skrypt: npc_bshostler
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: docalice2
+    wpisy:
+    - id: wol_c9ec325a8930f21fb487
+      kontekst: data.json:scripts.npc_bshostler.docalice2
+      linia: 137
+      sekcja_skryptu: docalice2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I see.
+      pl: Rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2685
+  skrypt: tut_fricker_innerloot
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: take
+    wpisy:
+    - id: wol_aa4ba49a4752dcd54b93
+      kontekst: data.json:scripts.tut_fricker_innerloot.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What a haul!
+      pl: Co za łup!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2783
+  skrypt: wasco_wasco
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_7c51d1b791935f76c09b
+      kontekst: data.json:scripts.wasco_wasco.intro
+      linia: 36
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um
+      pl: Ym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

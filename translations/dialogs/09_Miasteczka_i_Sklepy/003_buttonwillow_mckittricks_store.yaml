@@ -1,0 +1,129 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: buttonwillow_mckittricks_store
+zrodlowy_batch: 037_dialog_loc_buttonwillowstore_buttonwillow_mckittricks_store.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 3
+liczba_wpisow: 6
+sceny:
+- kolejnosc_w_danych_gry: 353
+  skrypt: buttonwillowstore_shop
+  pomieszczenie: &id001
+    id: buttonwillowstore
+    nazwa_en: Buttonwillow McKittrick's Store
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: initstore
+    wpisy:
+    - id: wol_5eae63b39c07a2f7ab3f
+      kontekst: data.json:scripts.buttonwillowstore_shop.initstore
+      linia: 1
+      sekcja_skryptu: initstore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The woman behind the counter stares at you with a huge grin on her face.
+      pl: Kobieta za ladą wpatruje się w ciebie z wielkim uśmiechem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9566c847c6df0904a410
+      kontekst: data.json:scripts.buttonwillowstore_shop.initstore
+      linia: 2
+      sekcja_skryptu: initstore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She gestures at the goods she's got for sale.
+      pl: Wskazuje na towary na sprzedaż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6aa2abde2a95be0b424
+      kontekst: data.json:scripts.buttonwillowstore_shop.initstore
+      linia: 3
+      sekcja_skryptu: initstore
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a look
+      pl: Rzuć okiem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ada2cca79db28a3e37ec
+      kontekst: data.json:scripts.buttonwillowstore_shop.initstore
+      linia: 4
+      sekcja_skryptu: initstore
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a step backwards
+      pl: Cofnij się o krok
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1054
+  skrypt: dirtwater_bookseller
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: opts
+    wpisy:
+    - id: wol_a6aa2abde2a95be0b424
+      kontekst: data.json:scripts.dirtwater_bookseller.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a look
+      pl: Rzuć okiem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000266
+  skrypt: house_tweenbed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a6aa2abde2a95be0b424
+      kontekst: house.json:scripts.house_tweenbed.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take a look
+      pl: Rzuć okiem
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

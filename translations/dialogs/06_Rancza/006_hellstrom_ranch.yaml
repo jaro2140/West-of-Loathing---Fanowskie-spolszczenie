@@ -1,0 +1,913 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: hellstrom_ranch
+zrodlowy_batch: 101_dialog_loc_ranch6_hellstrom_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 8
+liczba_wpisow: 52
+sceny:
+- kolejnosc_w_danych_gry: 2256
+  skrypt: ranch6_bookshelf
+  pomieszczenie: &id001
+    id: ranch6
+    nazwa_en: Hellstrom Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a2fb74cbbc153dcbb1e9
+      kontekst: data.json:scripts.ranch6_bookshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bookshelf is mostly burned.
+      pl: Półka z książkami w większości spalona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_871686760390a31a8e35
+      kontekst: data.json:scripts.ranch6_bookshelf.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a single mostly-unburnt book.
+      pl: Znajdujesz jedną w większości nie spaloną książkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2257
+  skrypt: ranch6_cowbell
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c36471e987d2d26b5d1c
+      kontekst: data.json:scripts.ranch6_cowbell.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this will attract the attention of at least one infernal cow.
+      pl: Dzwonienie tym przyciągnie uwagę co najmniej jednej piekielnej krowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b4c230220c5ed7f7725
+      kontekst: data.json:scripts.ranch6_cowbell.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it [Fight]
+      pl: Zadzwoń [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2258
+  skrypt: ranch6_cowfight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_14b008b42093dc92d894
+      kontekst: data.json:scripts.ranch6_cowfight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pulled some cows from their home dimension and mercilessly slaughtered them, you monster!
+      pl: Wyciągnąłeś krowy z ich wymiaru domowego i bezlitosnie je ubiłeś, potworze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d519f5ef623273f0b22b
+      kontekst: data.json:scripts.ranch6_cowfight.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ha ha, just kidding, they're super evil.
+      pl: Ha ha, żartuję, są mega złe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2a3ffa1aa9f9431f447
+      kontekst: data.json:scripts.ranch6_cowfight.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You prep your skinning knife, but all useful hide bursts into flame and withers away before you get a chance to collect anything.
+      pl: Przygotowujesz nóż do skórowania, ale cała użyteczna skóra zapala się i więdnie, zanim zdążysz cokolwiek zebrać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_b043b82972445befab99
+      kontekst: data.json:scripts.ranch6_cowfight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't summon cows from Hell if you don't have the backbone to send 'em back.
+      pl: Nie powinieneś przywoływać krów z Piekła, jeśli nie masz kręgosłupa, żeby odesłać je z powrotem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_7744fd15455a3df3dcda
+      kontekst: data.json:scripts.ranch6_cowfight.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Lesson learned
+      pl: Lekcja wzięta do serca
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2259
+  skrypt: ranch6_horseshoe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5774709bb10fe09b92f3
+      kontekst: data.json:scripts.ranch6_horseshoe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only part of this shed that didn't burn was the part this horseshoe was attached to.  Guess it really is good luck!
+      pl: Jedyna część tej szopy, która nie spłonęła, to ta, do której była przybita ta podkowa. Chyba naprawdę przynosi szczęście!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2260
+  skrypt: ranch6_mallet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_7341f1874a3cb77435d8
+      kontekst: data.json:scripts.ranch6_mallet.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something tells you ringing this cowbell with your infernal mallet would be a very bad idea.  But something else tells you it would be a very <i>good</i> idea.
+      pl: Coś mówi ci, że dzwonienie tym dzwonkiem krowim twoim piekielnym młotkiem to bardzo zły pomysł. Ale coś innego mówi, że to bardzo <i>dobry</i> pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f88a6d7d70bdbd92e99
+      kontekst: data.json:scripts.ranch6_mallet.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A third thing reminds you that you could also just ring it normally.
+      pl: Trzecia rzecz przypomina, że możesz też po prostu zadzwonić normalnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bbd9dbfbb2ccb6496285
+      kontekst: data.json:scripts.ranch6_mallet.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it with the mallet
+      pl: Uderz młotkiem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a7db36690b94408dd95e
+      kontekst: data.json:scripts.ranch6_mallet.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it normally [Fight]
+      pl: Zadzwoń normalnie [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notnow
+    wpisy:
+    - id: wol_4afbaa22a39a72708886
+      kontekst: data.json:scripts.ranch6_mallet.notnow
+      linia: 11
+      sekcja_skryptu: notnow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't even want to know what happens if you ring it twice.
+      pl: Nawet nie chcesz wiedzieć, co się stanie, jeśli zadzwonisz dwa razy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2261
+  skrypt: ranch6_portal
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d4ea787ad565cd5faa5a
+      kontekst: data.json:scripts.ranch6_portal.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a portal to Hell!  You hear ominous mooing.
+      pl: To portal do Piekła! Słychać złowrogie muczenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d462e1304e8a4a1c949
+      kontekst: data.json:scripts.ranch6_portal.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sure seems like a powerful source of Hellcow energy...
+      pl: To z pewnością potężne źródło energii Hellcow...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b33f59167c00dd53d182
+      kontekst: data.json:scripts.ranch6_portal.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Scatter cowsbane
+      pl: Rozsyp krowoziół
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2262
+  skrypt: ranch6_talktobovicus
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 32
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e8bb6ec6a3fbcb2bb3c8
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: NOT COOL.  NOT COOL AT ALL.
+      pl: NIE COOL. W OGÓLE NIE COOL.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4938d0e07f03bac200c1
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What are you?
+      pl: Kim jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_842f2bc90ea7f5ae5d30
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I AM DUKE BOVICUS!  WHAT ARE YOU!?
+      pl: JESTEM KSIĘCIEM BOVICUSEM! KIM JESTEŚ!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_61173861efd0ee760dae
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm @firstname@ @lastname@
+      pl: Jestem @firstname@ @lastname@
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node1
+    wpisy:
+    - id: wol_ff3f23c028cb9035fc6b
+      kontekst: data.json:scripts.ranch6_talktobovicus.node1
+      linia: 6
+      sekcja_skryptu: node1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: DUKE BOVICUS HATES YOU, @firstname/uppercase@ @lastname/uppercase@!
+      pl: KSIĄŻĘ BOVICUS CIĘ NIENAWIDZI, @firstname/uppercase@ @lastname/uppercase@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname/uppercase@'
+      - '@lastname/uppercase@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afterintro
+    wpisy:
+    - id: wol_30b2ebe2662e0dd01c13
+      kontekst: data.json:scripts.ranch6_talktobovicus.afterintro
+      linia: 7
+      sekcja_skryptu: afterintro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: RELEASE ME.
+      pl: UWOLNIJ MNIE.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: release
+    wpisy:
+    - id: wol_6cec26d95f2bdf6ff791
+      kontekst: data.json:scripts.ranch6_talktobovicus.release
+      linia: 10
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make a gap in the circle of cowsbane with your foot.
+      pl: Robisz nogą przerwę w kręgu krowoziół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ed7d2d7ac0b264ea999
+      kontekst: data.json:scripts.ranch6_talktobovicus.release
+      linia: 11
+      sekcja_skryptu: release
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: YOU REALLY DID DUKE BOVICUS A SOLID THERE.
+      pl: NAPRAWDĘ WYŚWIADCZYŁEŚ KSIĘCIU BOVICUSOWI PRZYSŁUGĘ.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21f69b5f1e7d071c7e44
+      kontekst: data.json:scripts.ranch6_talktobovicus.release
+      linia: 12
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The monster disappears back through the portal and you close the circle up, just in case.
+      pl: Potwór wraca przez portal, a ty zamykasz krąg na wszelki wypadek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_534385da585aaaf18afa
+      kontekst: data.json:scripts.ranch6_talktobovicus.no
+      linia: 16
+      sekcja_skryptu: 'no'
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: DUKE BOVICUS IS GETTING VERY ANGRY!
+      pl: KSIĄŻĘ BOVICUS BARDZO SIĘ WŚCIEKA!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f517c201badfe8dd9367
+      kontekst: data.json:scripts.ranch6_talktobovicus.no
+      linia: 17
+      sekcja_skryptu: 'no'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He does some more flailing, this time even less dignified than before.
+      pl: Macha rękami jeszcze więcej, tym razem jeszcze mniej godnie niż poprzednio.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a257dcd9b1ecca6935c
+      kontekst: data.json:scripts.ranch6_talktobovicus.no
+      linia: 18
+      sekcja_skryptu: 'no'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it.
+      pl: Zostaw go przy tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afterintro
+    wpisy:
+    - id: wol_303b6391156069d2afba
+      kontekst: data.json:scripts.ranch6_talktobovicus.afterintro
+      linia: 19
+      sekcja_skryptu: afterintro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's in it for me?
+      pl: Co z tego będę miał?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon
+    wpisy:
+    - id: wol_84926366eb326ce55836
+      kontekst: data.json:scripts.ranch6_talktobovicus.boon
+      linia: 21
+      sekcja_skryptu: boon
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: OH, DUKE BOVICUS KNOWS WHAT YOU WANT.  DUKE BOVICUS KNOWS YOU WANT POWER, AND DUKE BOVICUS HAS IT TO SPARE.  WHAT SAY DUKE BOVICUS BEEFS YOU UP A LITTLE BIT, AND YOU LET DUKE BOVICUS GO.  THAT SOUND FAIR?
+      pl: O, KSIĄŻĘ BOVICUS WIE, CZEGO CHCESZ. KSIĄŻĘ BOVICUS WIE, ŻE CHCESZ MOCY, A KSIĄŻĘ BOVICUS MA JEJ POD DOSTATKIEM. CO POWIESZ, ŻEBY KSIĄŻĘ BOVICUS CIĘ TROCHĘ WZMOCNIŁ, A TY PUŚCISZ KSIĘCIA BOVICUSA? BRZMI TO SPRAWIEDLIWIE?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81861f4e5fad53a6dd7c
+      kontekst: data.json:scripts.ranch6_talktobovicus.boon
+      linia: 22
+      sekcja_skryptu: boon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure.  Lay it on me.
+      pl: Jasne. Wal śmiało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getboon
+    wpisy:
+    - id: wol_a737eb2cc9e00136932c
+      kontekst: data.json:scripts.ranch6_talktobovicus.getboon
+      linia: 24
+      sekcja_skryptu: getboon
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: SMART.  DUKE BOVICUS CAN APPRECIATE THE DESIRE FOR POWER.
+      pl: MĄDRZE. KSIĄŻĘ BOVICUS ROZUMIE PRAGNIENIE WŁADZY.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9f91f0db016c89ea59a7
+      kontekst: data.json:scripts.ranch6_talktobovicus.getboon
+      linia: 25
+      sekcja_skryptu: getboon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He unhinges his jaw and a stream of black fluid sprays out of his throat and into your mouth.
+      pl: Rozwiera szczękę i strumień czarnej cieczy tryska mu z gardła prosto do twoich ust.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2027213765762cad9bd
+      kontekst: data.json:scripts.ranch6_talktobovicus.getboon
+      linia: 26
+      sekcja_skryptu: getboon
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gaaaaaaah
+      pl: Gaaaaaaah
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getboon2
+    wpisy:
+    - id: wol_9b97f19e428d89b12b8b
+      kontekst: data.json:scripts.ranch6_talktobovicus.getboon2
+      linia: 27
+      sekcja_skryptu: getboon2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I know, right?  It's horrible.
+      pl: No co, prawda? To okropne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2965f9641c1f2cdfa0c7
+      kontekst: data.json:scripts.ranch6_talktobovicus.getboon2
+      linia: 28
+      sekcja_skryptu: getboon2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That said, you <i>do</i> feel more powerful.
+      pl: To powiedziawszy, <i>naprawdę</i> czujesz się potężniejszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boon
+    wpisy:
+    - id: wol_75a69ff7ced6a5059ae2
+      kontekst: data.json:scripts.ranch6_talktobovicus.boon
+      linia: 30
+      sekcja_skryptu: boon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let me think about it.
+      pl: Daj mi chwilę na przemyślenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leave
+    wpisy:
+    - id: wol_d40ce8a3b5a27d0d9f3b
+      kontekst: data.json:scripts.ranch6_talktobovicus.leave
+      linia: 32
+      sekcja_skryptu: leave
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: HEY!  YOU CAN'T LEAVE DUKE BOVICUS LIKE THIS!
+      pl: HEJ! NIE MOŻESZ TAK ZOSTAWIĆ KSIĘCIA BOVICUSA!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7daad1ca0b7cc4927701
+      kontekst: data.json:scripts.ranch6_talktobovicus.leave
+      linia: 33
+      sekcja_skryptu: leave
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Watch me.
+      pl: Patrz na mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c884ea3b7f7c7cd4fa82
+      kontekst: data.json:scripts.ranch6_talktobovicus.leave
+      linia: 34
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away more
+      pl: Odejdź jeszcze dalej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afterintro
+    wpisy:
+    - id: wol_dfdb704e419cd2cc5f70
+      kontekst: data.json:scripts.ranch6_talktobovicus.afterintro
+      linia: 35
+      sekcja_skryptu: afterintro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just remembered something I have to do.
+      pl: Właśnie przypomniałem sobie, że muszę coś zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node1
+    wpisy:
+    - id: wol_472a2a7a0c7c6dcefcbe
+      kontekst: data.json:scripts.ranch6_talktobovicus.node1
+      linia: 36
+      sekcja_skryptu: node1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Duke Bovicus does a little bit of undignified flailing.
+      pl: Książę Bovicus trochę niegodnie wywija rękoma.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b0046101ba4d436443a
+      kontekst: data.json:scripts.ranch6_talktobovicus.node1
+      linia: 37
+      sekcja_skryptu: node1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait for him to stop
+      pl: Poczekaj, aż przestanie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_b6ba2e6d1aba5835dc77
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 38
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: None of your business, demon!
+      pl: Nie twoja sprawa, demonie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_f91ec81865a57fab7067
+      kontekst: data.json:scripts.ranch6_talktobovicus.node2
+      linia: 40
+      sekcja_skryptu: node2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: THE ONLY BUSINESS DUKE BOVICUS HAS IS PARTYING AND HATING YOU, AND RIGHT NOW DUKE BOVICUS IS REALLY FOCUSED MORE ON THE SECOND THING.
+      pl: JEDYNY INTERES KSIĘCIA BOVICUSA TO IMPREZY I NIENAWIŚĆ DO CIEBIE, A TERAZ BOVICUS SKUPIA SIĘ GŁÓWNIE NA TYM DRUGIM.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_472a2a7a0c7c6dcefcbe
+      kontekst: data.json:scripts.ranch6_talktobovicus.node2
+      linia: 41
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Duke Bovicus does a little bit of undignified flailing.
+      pl: Książę Bovicus trochę niegodnie wywija rękoma.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1fa370289d8ced003c94
+      kontekst: data.json:scripts.ranch6_talktobovicus.node2
+      linia: 42
+      sekcja_skryptu: node2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Point and laugh
+      pl: Wskaż i śmiej się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_d11c773b4b50d57b606b
+      kontekst: data.json:scripts.ranch6_talktobovicus.start
+      linia: 43
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ask my backside, as I leave
+      pl: Spytaj mój tyłek — właśnie wychodzę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2794
+  skrypt: zzz_mistake999
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c36471e987d2d26b5d1c
+      kontekst: data.json:scripts.zzz_mistake999.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ringing this will attract the attention of at least one infernal cow.
+      pl: Dzwonienie tym przyciągnie uwagę co najmniej jednej piekielnej krowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b4c230220c5ed7f7725
+      kontekst: data.json:scripts.zzz_mistake999.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ring it [Fight]
+      pl: Zadzwoń [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

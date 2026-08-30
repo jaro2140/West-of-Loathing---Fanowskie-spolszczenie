@@ -1,0 +1,2761 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: necromancers_tower
+zrodlowy_batch: 087_dialog_loc_necrotower_necromancers_tower.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 24
+liczba_wpisow: 160
+sceny:
+- kolejnosc_w_danych_gry: 1954
+  skrypt: necrotower_alicebecome
+  pomieszczenie: &id001
+    id: necrotower
+    nazwa_en: Necromancer's Tower
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_507e4bcd0eb4cba565a6
+      kontekst: data.json:scripts.necrotower_alicebecome.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Doc Alice still has her shotgun leveled at your head.
+      pl: Doc Alice wciąż celuje z dubeltówki w twoją głowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2ef10d028ab00f228ae
+      kontekst: data.json:scripts.necrotower_alicebecome.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Damn you. God<i>damn</i> you!
+      pl: Przeklinam cię. Niech cię szlag <i>trafi!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a76a5d4a7a675d991627
+      kontekst: data.json:scripts.necrotower_alicebecome.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Doc, don't worry about it. It's fine. Everything's wonderf--
+      pl: Doktor, nie przejmuj się. Wszystko gra. Jest cudow—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_44811b76f640e5ccbb8f
+      kontekst: data.json:scripts.necrotower_alicebecome.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't you say another word. I trusted you, dammit! I came all this way because you said you'd help put an <i>end</i> to this, and what do you do? You just spit in my face! ...Was this your plan from the beginning?
+      pl: Ani słowa więcej. Ufałam ci, do cholery! Przebyłam całą tę drogę, bo obiecałeś pomóc położyć temu <i>kres</i>, a co robisz? Plujesz mi prosto w twarz! ...Taki był twój plan od samego początku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e635320c9cc4fa710e1
+      kontekst: data.json:scripts.necrotower_alicebecome.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Relax.
+      pl: Spokojnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_6227756dd4bdc6374070
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: <i>Relax</i>. I'm fully in control of my powers, and I promise only to use them for good.
+      pl: <i>Spokojnie.</i> W pełni panuję nad swoimi mocami i obiecuję używać ich wyłącznie w dobrym celu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3b3aecef54501c74cc3
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The hell you say.
+      pl: A niech mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a276243a869ec89b47ca
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: <i>sigh</i> ...Alice, are you gonna shoot me or not?
+      pl: <i>westchnienie</i> ...Alice, zastrzelisz mnie czy nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95a705a53359abf4ff8e
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bore of the shotgun vibrates from the trembling in Doc Alice's hands. Long slow seconds tick away.
+      pl: Lufa strzelby drży od drżenia rąk Doc Alice. Długie, powolne sekundy tykają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_267d971d2e096ce55788
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I better never see your face again.'
+      pl: '...Lepiej, żebym już nigdy nie zobaczyła twojej twarzy.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_724a77752d1edfcc2786
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She turns on her heel and storms out of the room.
+      pl: Odwraca się na pięcie i wychodzi wściekła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e9b47c44d5cc4d8044df
+      kontekst: data.json:scripts.necrotower_alicebecome.two
+      linia: 12
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bye.
+      pl: Pa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1955
+  skrypt: necrotower_bloodaltar
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_adf43c80ef2bc8da8e7f
+      kontekst: data.json:scripts.necrotower_bloodaltar.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a fountain of blood. Nothing weird about that.
+      pl: To fontanna krwi. Nic dziwnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4de4f450524682dede6a
+      kontekst: data.json:scripts.necrotower_bloodaltar.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It was delicious, but no need to be greedy.
+      pl: Było pyszne, ale nie trzeba być chciwym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_37a2c83b6b35a593e55c
+      kontekst: data.json:scripts.necrotower_bloodaltar.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drink
+      pl: Pij
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drink
+    wpisy:
+    - id: wol_ae6a0dd92d595888de67
+      kontekst: data.json:scripts.necrotower_bloodaltar.drink
+      linia: 4
+      sekcja_skryptu: drink
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The blood is delicious! Like meaty kool-aid.
+      pl: Krew jest pyszna! Jak mięsny kool-aid.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1956
+  skrypt: necrotower_fight3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a8773b52d2e1e7a2c88d
+      kontekst: data.json:scripts.necrotower_fight3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These two skeletons have their names written on their foreheads so they won't forget them.
+      pl: Te dwa szkielety mają imiona na czołach, żeby nie zapomnieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a32d5f3fad96adf94e2
+      kontekst: data.json:scripts.necrotower_fight3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Actually...  wait.  Maybe they each have the <i>other</i> one's name.
+      pl: Właściwie to... poczekaj. Może każdy ma imię <i>tego drugiego</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7360d0ca02e24ceff496
+      kontekst: data.json:scripts.necrotower_fight3.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Banish them [Necromantic Mastery]
+      pl: Wypędź ich [Nekromantyczne mistrzostwo]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Necromantic Mastery]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: banish
+    wpisy:
+    - id: wol_a230faaa65fbc224c453
+      kontekst: data.json:scripts.necrotower_fight3.banish
+      linia: 5
+      sekcja_skryptu: banish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hiss the names, and the names slither into your foes. The giant skeletons turn and smash each other until only splinters remain.
+      pl: Syczysz imiona, a imiona wślizgują się w twoich wrogów. Olbrzymie szkielety odwracają się i rozbijają nawzajem, aż zostają tylko drzazgi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf21c1e04e659922a625
+      kontekst: data.json:scripts.necrotower_fight3.banish
+      linia: 6
+      sekcja_skryptu: banish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha haa!
+      pl: Ha ha haa!
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1958
+  skrypt: necrotower_floor1fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d52d6cf665bbf7103ff9
+      kontekst: data.json:scripts.necrotower_floor1fight.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're definitely not getting past these guys without a fight.
+      pl: Na pewno nie przejdziesz obok tych gości bez walki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1959
+  skrypt: necrotower_floor1rune
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_87df822d2c0679a3ba72
+      kontekst: data.json:scripts.necrotower_floor1rune.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the army of skeletons without fear.
+      pl: Podchodzisz do armii szkieletów bez strachu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1942877bd885be4c0bd4
+      kontekst: data.json:scripts.necrotower_floor1rune.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Something in your eyes causes them to shrink back slightly.
+      pl: Coś w twoich oczach sprawia, że cofają się nieco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7360d0ca02e24ceff496
+      kontekst: data.json:scripts.necrotower_floor1rune.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Banish them [Necromantic Mastery]
+      pl: Wypędź ich [Nekromantyczne mistrzostwo]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Necromantic Mastery]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: banish
+    wpisy:
+    - id: wol_d8414066d669bc9f40ae
+      kontekst: data.json:scripts.necrotower_floor1rune.banish
+      linia: 4
+      sekcja_skryptu: banish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your eyes turn black as you howl three names. The skeletons screech and explode out of existence.
+      pl: Twoje oczy czernieją, gdy wyjadasz trzy imiona. Szkielety wrzeszczą i wybuchają z istnienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ec5c6f155df7b6c1323b
+      kontekst: data.json:scripts.necrotower_floor1rune.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them for now
+      pl: Zostaw ich na razie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1960
+  skrypt: necrotower_floor1startfight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_a6e7305ae24ea6b94251
+      kontekst: data.json:scripts.necrotower_floor1startfight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You singlehandedly defeated all eight of those skeletons.
+      pl: Sam pokonałeś wszystkie osiem tych szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfe3db0a7adf7bc175a8
+      kontekst: data.json:scripts.necrotower_floor1startfight.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sorry, I mean you singlehandedly defeated all nine of those skeletons.
+      pl: Przepraszam, chodzi mi o to, że sam pokonałeś wszystkie dziewięć tych szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_7d54630fcbb4e82f5578
+      kontekst: data.json:scripts.necrotower_floor1startfight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The skeletons pick you up and run you out of the tower on a rail.  Which is actually a spine.
+      pl: Szkielety podnoszą cię i wypędzają z wieży na szynie. Która właściwie jest kręgosłupem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1961
+  skrypt: necrotower_floor2fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 28
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9c04739152bff2e932b8
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Welp. There's a big ol' pillar of skulls blocking your path. There was bound to be one of these in here somewhere, right?
+      pl: No cóż. Wielki stary filar z czaszek blokuje ci drogę. Musiał gdzieś tu być, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6649c9704bc792adcc7f
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me, fellas, I need to get past here.
+      pl: Przepraszam, panowie, muszę tędy przejść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb67132de6b2f82f1dc6
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The skulls hiss and chitter and giggle at you.
+      pl: Czaszki syczą, skrzeczą i chichoczą do ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_72b5e064076aa87e4357
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So that's a no, then?
+      pl: Czyli nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0ceb8869f0c398d390c
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Annihilate the skulls [Necromantic Mastery]
+      pl: Zniszcz czaszki [Nekromantyczne mistrzostwo]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Necromantic Mastery]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: banish
+    wpisy:
+    - id: wol_22718708c7531f1b936b
+      kontekst: data.json:scripts.necrotower_floor2fight.banish
+      linia: 6
+      sekcja_skryptu: banish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You howl the names. Skulls screech and hiss and crack and shatter and are swallowed by nothing.
+      pl: Wyjesz imiona. Czaszki skrzeczą, syczą, pękają, rozpadają się i pochłania je nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_83fa79b458dfb5a33113
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Intimidate it [Intimidatin' 5]
+      pl: Zastrasz to [Zastraszanie 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_5c83c3e6746d83a9d6dd
+      kontekst: data.json:scripts.necrotower_floor2fight.intim
+      linia: 9
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Grr! Get out of my way, you skulls! I'm not takin' any crap from the likes of you! I'll knock all your teeth in, and what do you have left except teeth? Not much!
+      pl: Grr! Zejdźcie mi z drogi, wy czaszki! Nie dam sobą pomiatać takim jak wy! Powyrąbuję wam wszystkie zęby, a co wam zostanie bez zębów? Niewiele!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f5ed1c0c55701ee47fd
+      kontekst: data.json:scripts.necrotower_floor2fight.intim
+      linia: 10
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab one of the skulls off of the pile, smash it face-first into the floor, and then kick it out the window.
+      pl: Chwytasz jedną z czaszek ze stosu, wbijasz ją twarzą w podłogę, a potem wykopujesz przez okno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3e78596256c0bc8d629b
+      kontekst: data.json:scripts.necrotower_floor2fight.intim
+      linia: 11
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's a whole lot of you, so this is gonna take a while, but I'm not on a tight schedule! I can do this all day!
+      pl: Jest was całe mnóstwo, więc trochę to potrwa, ale nigdzie się nie spieszę! Mogę tak cały dzień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_984e44828a5286fee28e
+      kontekst: data.json:scripts.necrotower_floor2fight.intim
+      linia: 12
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The skulls continue to chitter and hiss, but they've stopped giggling. The pillar breaks up as the skulls scuttle/roll away to hide in the walls.
+      pl: Czaszki dalej skrzeczą i syczą, ale przestały chichotać. Filar się rozpada, gdy czaszki pełzają/toczą się, by schować w ścianach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2820910ef2a106627da
+      kontekst: data.json:scripts.necrotower_floor2fight.intim
+      linia: 13
+      sekcja_skryptu: intim
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's <i>right!</i>
+      pl: Dokładnie <i>tak!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_d1a3c2cf6134b4295fdc
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Intimidate it [Requires Intimidatin' 5]
+      pl: Zastrasz to [Wymaga Zastraszania 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1d3e94180daa636ed02e
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 15
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outfox it [Outfoxin' 5]
+      pl: Przechytrz to [Przechytrzanie 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_fa6a1467fa9c437bc29b
+      kontekst: data.json:scripts.necrotower_floor2fight.outfox
+      linia: 16
+      sekcja_skryptu: outfox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully inspect the pillar of skulls, then grab one near the bottom by its eyesockets and yank it out of the pile. The entire stack collapses like a grocery-store soup-can pyramid in a zany sitcom scene. Dismayed, the skulls scuttle/roll away to hide in the walls.
+      pl: Ostrożnie badasz filar czaszek, potem chwytasz jedną u dołu za oczodoły i wyciągasz ze stosu. Cała wieża wali się jak piramida puszek zupy w sitcomie. Zaniepokojone czaszki pełzają/toczą się, chowając w ścianach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fec8871e9a757529c3d3
+      kontekst: data.json:scripts.necrotower_floor2fight.outfox
+      linia: 17
+      sekcja_skryptu: outfox
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So there.
+      pl: No i masz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_d1feb0db56149b9cd175
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 18
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outfox it [Requires Outfoxin' 5]
+      pl: Przechytrz to [Wymaga Przechytrzania 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5441763cc68285661848
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 19
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hornswoggle it [Hornswoggin' 5]
+      pl: Oszukaj to [Oszukiwanie 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswoggin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_1d1882b2863dcb124052
+      kontekst: data.json:scripts.necrotower_floor2fight.hornswoggle
+      linia: 20
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I suppose you all think you're real clever to block my path, but I've got a trick up my sleeve.
+      pl: Pewnie myślicie, że jesteście sprytni, żeby zablokować mi drogę, ale ja mam sztuczkę w rękawie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_06eb5abf385f1e6498bc
+      kontekst: data.json:scripts.necrotower_floor2fight.hornswoggle
+      linia: 21
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You casually walk around the pillar of skulls and stand on the other side of it.
+      pl: Beztrosko obchodzisz filar czaszek i stajesz po drugiej stronie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f37cef539b1a07afc57d
+      kontekst: data.json:scripts.necrotower_floor2fight.hornswoggle
+      linia: 22
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hah! Guess you should've been a <i>wall</i> of skulls if you wanted to stop me!
+      pl: Ha! Chcąc mnie zatrzymać, powinniście być raczej <i>ścianą</i> czaszek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1ca6799a08eef8310f02
+      kontekst: data.json:scripts.necrotower_floor2fight.hornswoggle
+      linia: 23
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dismayed by your mastery of the third dimension, the skulls scuttle/roll away and hide in the walls.
+      pl: Przerażone twoją znajomością trzeciego wymiaru czaszki pędzą/toczą się precz i chowają w ścianach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9864ad2d9ff37623bb4c
+      kontekst: data.json:scripts.necrotower_floor2fight.hornswoggle
+      linia: 24
+      sekcja_skryptu: hornswoggle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take that!
+      pl: Masz!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_4ac8301516cf1bed8152
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 25
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Hornswoggle it [Requires Hornswogglin' 5]
+      pl: Oszukaj to [Wymaga Oszukiwania 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 5]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c223d5df218910496e63
+      kontekst: data.json:scripts.necrotower_floor2fight.start
+      linia: 26
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_c62f8fc69399233eea4a
+      kontekst: data.json:scripts.necrotower_floor2fight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whew! Well, now you can rightfully claim you fought off like fifty guys all at once, although it's a little bit of a stretch to categorize a skull as an entire guy.
+      pl: Uff! Teraz możesz z prawem twierdzić, że stawiłeś czoła jak pięćdziesięciu gościom naraz, choć nazwanie czaszki całym gościem to trochę naciąganie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_2dac266bdc06eead6d8d
+      kontekst: data.json:scripts.necrotower_floor2fight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The pillar of skulls knocked you ass over teakettle, and both your ass and your teakettle fell out the window of the tower.
+      pl: Filar czaszek wywrócił cię na łopatki — i tyłek, i czajnik wyleciały z okna wieży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_329de78175af69dcb4c2
+      kontekst: data.json:scripts.necrotower_floor2fight.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch on both counts
+      pl: Auć, w obu przypadkach
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1963
+  skrypt: necrotower_floor3startfight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_54b0cabcfc812f3ec620
+      kontekst: data.json:scripts.necrotower_floor3startfight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With a thump and a smash, the two behemoths fell.
+      pl: Przy łomocie i trzasku dwa behemoty padły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_7d92f51d61e1fde47c74
+      kontekst: data.json:scripts.necrotower_floor3startfight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: In an ironic twist, Thump smashed a hole in the side of the tower, and Smash thumped you on the head and threw you out it.
+      pl: W ironicznym zwrocie akcji Thump wybił dziurę w boku wieży, a Smash walnął cię w głowę i wyrzucił przez nią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_092d2744baee0828d69c
+      kontekst: data.json:scripts.necrotower_floor3startfight.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It hurts
+      pl: Boli
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1964
+  skrypt: necrotower_frontdoor
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a9a14eba8b5c6e79a811
+      kontekst: data.json:scripts.necrotower_frontdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The skull above the door screams "PASSWORD!?"
+      pl: 'Czaszka nad drzwiami wrzeszczy: „HASŁO!?”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07652b8d67513f098405
+      kontekst: data.json:scripts.necrotower_frontdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: '"Abra-cadaver!"'
+      pl: '"Abra-kadaver!"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_b505e513870b14a3cb6d
+      kontekst: data.json:scripts.necrotower_frontdoor.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a click inside the door as it unlocks.
+      pl: W drzwiach słychać kliknięcie, gdy się otwierają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_202eb4b0519456e5a7a6
+      kontekst: data.json:scripts.necrotower_frontdoor.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you don't know the password.
+      pl: Niestety nie znasz hasła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1965
+  skrypt: necrotower_necromancer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 48
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9bd68cbdc3b44ac5b156
+      kontekst: data.json:scripts.necrotower_necromancer.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the throne, and the withered husk sitting on it.
+      pl: Podchodzisz do tronu i siedzącej na nim wyschniętej mumii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32f178ffb98150ec4c9f
+      kontekst: data.json:scripts.necrotower_necromancer.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unbelievable.  All that killing, all that horror, and <i>this</i> is what's behind it?
+      pl: Niewiarygodne. Tyle zabijania, tyle horroru, a <i>to</i> jest za tym?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bef704cd37f53b7fb33a
+      kontekst: data.json:scripts.necrotower_necromancer.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He tries to speak to you, but all that comes out is dust.
+      pl: Próbuje do ciebie mówić, ale z gardła wydobywa się tylko pył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7ed334dcc789700a4c0
+      kontekst: data.json:scripts.necrotower_necromancer.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy him
+      pl: Zniszcz go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: destroy
+    wpisy:
+    - id: wol_6324ebe38eff5e6f7428
+      kontekst: data.json:scripts.necrotower_necromancer.destroy
+      linia: 5
+      sekcja_skryptu: destroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You puff a breath at the Necromancer and he crumbles to powder.  His crown hits the ground and shatters into a thousand pieces.
+      pl: Dmuchasz na Nekromantę i rozpada się w pył. Jego korona uderza o ziemię i rozpada się na tysiąc kawałków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f46c19ff4efcbee9cd2a
+      kontekst: data.json:scripts.necrotower_necromancer.destroy
+      linia: 6
+      sekcja_skryptu: destroy
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Welp. So much for that, and good riddance.
+      pl: No cóż. Koniec z tym i niech zniknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alicedestroy
+    wpisy:
+    - id: wol_dcba582d5d659ee65fe1
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 7
+      sekcja_skryptu: alicedestroy
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Doc, you wanna do the honors?
+      pl: Doc, chcesz zrobić to z honorami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_306f20699af06be6e14b
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 8
+      sekcja_skryptu: alicedestroy
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: My pleasure.
+      pl: Całe moje zadowolenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f676a8fafedecc3df2d4
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 9
+      sekcja_skryptu: alicedestroy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She racks her shotgun and gives the wretched mummy both barrels. It explodes into dust, which dissipates with a sad whisper.
+      pl: Napina strzelbę i wpuszcza w nędzną mumię obie lufy. Eksploduje w pył, który rozwiewa się smutnym szeptem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_600c17bcd420003bc5e4
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 10
+      sekcja_skryptu: alicedestroy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Eat that, you old bastard. That's for Elliot.
+      pl: Masz, stary draniu. To za Elliota.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a4087bbc4ab9bc473c70
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 11
+      sekcja_skryptu: alicedestroy
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's it feel?
+      pl: Jakie to uczucie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be90baec547affbb5dc7
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 12
+      sekcja_skryptu: alicedestroy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Better. Much better.
+      pl: Lepiej. Dużo lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b6d5191501e506e3235
+      kontekst: data.json:scripts.necrotower_necromancer.alicedestroy
+      linia: 13
+      sekcja_skryptu: alicedestroy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So... now what?
+      pl: Więc... i co teraz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: adestroy2
+    wpisy:
+    - id: wol_a4dc51a41482d721bca3
+      kontekst: data.json:scripts.necrotower_necromancer.adestroy2
+      linia: 15
+      sekcja_skryptu: adestroy2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm? What do you mean?
+      pl: Hmm? Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c1bdcd4262f313204c5
+      kontekst: data.json:scripts.necrotower_necromancer.adestroy2
+      linia: 16
+      sekcja_skryptu: adestroy2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, that's what you came to do. Are you heading back to Boring Springs?
+      pl: Po to przyszedłeś. Wracasz do Boring Springs?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8cd1739924d94d75b569
+      kontekst: data.json:scripts.necrotower_necromancer.adestroy2
+      linia: 17
+      sekcja_skryptu: adestroy2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Nah. You ain't getting rid of me that easy. You're my only patient, and you're under doctor's orders 'til we get to wherever you're headed.
+      pl: Och. Nie. Tak łatwo się mnie nie pozbędziesz. Jesteś moim jedynym pacjentem i obowiązują cię zalecenia lekarskie, dopóki nie dotrzemy tam, dokąd zmierzasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b798961edcf7f6c5104
+      kontekst: data.json:scripts.necrotower_necromancer.adestroy2
+      linia: 18
+      sekcja_skryptu: adestroy2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Glad to hear it, Doc. C'mon, let's get out of this nightmare.
+      pl: Miło słyszeć, Doc. Chodź, wynośmy się z tego koszmaru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_6bcd67125045029073d5
+      kontekst: data.json:scripts.necrotower_necromancer.start
+      linia: 19
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Consume him [Necromantic Mastery]
+      pl: Pożeraj go [Nekromantyczne mistrzostwo]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Necromantic Mastery]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: annihilatecont
+    wpisy:
+    - id: wol_95f6ae719e8fc220d513
+      kontekst: data.json:scripts.necrotower_necromancer.annihilatecont
+      linia: 20
+      sekcja_skryptu: annihilatecont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You chant the ancient words of ascension.  You're not even sure how you know them, but they taste like home.
+      pl: Recytujesz starożytne słowa wzniesienia. Nie wiesz nawet skąd je znasz, ale smakują jak dom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14314393a48d9bf9bf6a
+      kontekst: data.json:scripts.necrotower_necromancer.annihilatecont
+      linia: 21
+      sekcja_skryptu: annihilatecont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The pathetic twig that was once a man explodes into dust.
+      pl: Żałosny patyk, który kiedyś był człowiekiem, eksploduje w pył.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e87963c97ba2cb638cd8
+      kontekst: data.json:scripts.necrotower_necromancer.annihilatecont
+      linia: 22
+      sekcja_skryptu: annihilatecont
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Breathe him in
+      pl: Wciągnij go nosem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: annihilate2
+    wpisy:
+    - id: wol_38898d08163724f7405f
+      kontekst: data.json:scripts.necrotower_necromancer.annihilate2
+      linia: 23
+      sekcja_skryptu: annihilate2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consume what's left of the old man before it even hits the ground.
+      pl: Pożerasz resztki starca, zanim w ogóle upadną na ziemię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bad4e4c898acbf29624b
+      kontekst: data.json:scripts.necrotower_necromancer.annihilate2
+      linia: 24
+      sekcja_skryptu: annihilate2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A black fire ignites in your heart. He had some power in him after all!
+      pl: W twoim sercu rozpala się czarny ogień. Jednak miał w sobie trochę mocy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ebfe0dbf249585a0208
+      kontekst: data.json:scripts.necrotower_necromancer.annihilate2
+      linia: 25
+      sekcja_skryptu: annihilate2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Now that power is yours. Now you <i>are</i> power.
+      pl: Teraz ta moc należy do ciebie. Teraz ty <i>jesteś</i> mocą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: annihilate3
+    wpisy:
+    - id: wol_6e36a83b6bab20b59a85
+      kontekst: data.json:scripts.necrotower_necromancer.annihilate3
+      linia: 26
+      sekcja_skryptu: annihilate3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up his crown.  Funny.  There's nothing to it.  Why couldn't you see that before?
+      pl: Podnosisz jego koronę. Śmieszne. Nie ma w niej nic. Czemu nie widziałeś tego wcześniej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87390d8021289f306485
+      kontekst: data.json:scripts.necrotower_necromancer.annihilate3
+      linia: 27
+      sekcja_skryptu: annihilate3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Suddenly the crown crumbles to dust in your hand.  Your hat grins.
+      pl: Nagle korona kruszy się w proch w twojej dłoni. Twój kapelusz się uśmiecha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alicestop
+    wpisy:
+    - id: wol_2370694c757b7c0b237a
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 29
+      sekcja_skryptu: alicestop
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can feel cold fire in your blood as you step forward. You are interrupted by the racking of a shotgun.
+      pl: Czujesz zimny ogień we krwi, gdy stąpasz naprzód. Przerywa ci to przeładowanie strzelby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9aa110c1dc405a0e7ca6
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 30
+      sekcja_skryptu: alicestop
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Stand the hell back. I ain't gonna let you do this.
+      pl: Odsuń się, do diabła. Nie pozwolę ci tego zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a48f16661f10ff44a9e4
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 31
+      sekcja_skryptu: alicestop
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't know what you mean.
+      pl: Nie wiem, o co ci chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ace71fa5cc95884bd726
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 32
+      sekcja_skryptu: alicestop
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, you know goddamn well what I mean. I came here with you specifically to destroy this... this thing. Not to install you as a new one!
+      pl: Nie, doskonale wiesz, co mam na myśli. Przyjechałam tu z tobą specjalnie po to, żeby zniszczyć tę... tę rzecz. Nie żeby osadzić ciebie na jej miejscu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a270fef8229d3a5eb508
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 33
+      sekcja_skryptu: alicestop
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Alice, it's fine...
+      pl: Alice, wszystko w porządku...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27eb6aa20e6f150d4cdb
+      kontekst: data.json:scripts.necrotower_necromancer.alicestop
+      linia: 34
+      sekcja_skryptu: alicestop
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You can roll up your 'Alice, it's fine' and cram it!
+      pl: Możesz zwinąć swoje 'Alice, jest w porządku' i wcisnąć to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: astwo
+    wpisy:
+    - id: wol_b40507e2541fef078591
+      kontekst: data.json:scripts.necrotower_necromancer.astwo
+      linia: 37
+      sekcja_skryptu: astwo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alice levels the shotgun at you.
+      pl: Alice kieruje strzelbę na ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3625fd1a5eec832f86e2
+      kontekst: data.json:scripts.necrotower_necromancer.astwo
+      linia: 38
+      sekcja_skryptu: astwo
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But I thought we were friends.
+      pl: Myślałem, że jesteśmy przyjaciółmi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6510d710a1d0760d8ba2
+      kontekst: data.json:scripts.necrotower_necromancer.astwo
+      linia: 39
+      sekcja_skryptu: astwo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. I thought that too. Now step away from that throne, or I turn both him <i>and</i> you into dust.
+      pl: Tak. Też tak myślałem. Odsuń się od tego tronu albo zamienię go i <i>ciebie</i> w proch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d17041032dc9e552304
+      kontekst: data.json:scripts.necrotower_necromancer.astwo
+      linia: 40
+      sekcja_skryptu: astwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step away from the throne
+      pl: Odejdź od tronu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alicewins
+    wpisy:
+    - id: wol_6dfd603d57eaeca0dca0
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins
+      linia: 41
+      sekcja_skryptu: alicewins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your feet feel like lead. You struggle to take a single step. And then another. Ever so slowly, you drag yourself away from the throne. The struggle takes years, decades, <i>eons</i>.
+      pl: Twoje stopy czują się jak ołów. Ledwo udaje ci się zrobić jeden krok. Potem kolejny. Powoli, powoli odciągasz się od tronu. Ta walka trwa lata, dekady, <i>eony</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e94ba0bd891e89158e35
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins
+      linia: 42
+      sekcja_skryptu: alicewins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You barely hear Alice's shotgun. Mostly you hear the scream as the Necromancer's withered husk explodes into dust, and the dust takes on the shape of a wailing skull. And then the dust dissipates and is gone.
+      pl: Ledwo słyszysz strzelbę Alice. Głównie słyszysz wrzask, gdy wyschnięta mumia nekromanty wybucha w pył, a pył przybiera kształt wrzeszczącej czaszki. Potem pył się rozprasza i znika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c37186df1a4a893ae32e
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins
+      linia: 43
+      sekcja_skryptu: alicewins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collapse to the ground. Alice helps you to your feet, and examines your face.
+      pl: Padasz na ziemię. Alice podnosi cię i bada twarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74fee32ce02144580cc1
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins
+      linia: 44
+      sekcja_skryptu: alicewins
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mmm. Color's coming back a little. How you feeling?
+      pl: Mmm. Wracają ci trochę kolory. Jak się czujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8a9fec7d90b9a1b45d63
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins
+      linia: 45
+      sekcja_skryptu: alicewins
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: B... better?
+      pl: L... lepiej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alicewins2
+    wpisy:
+    - id: wol_ed185da3bb48ba5c4d2a
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 46
+      sekcja_skryptu: alicewins2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: B... better? Alice... I'm so sorry.
+      pl: L... lepiej? Alice... tak mi przykro.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51c3743f0f2de7f1aa48
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 47
+      sekcja_skryptu: alicewins2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I figured you'd come back to your senses once we got rid of that thing. Glad to see I was right.
+      pl: Wiedziałem, że odzyskasz rozsądek, gdy pozbędziemy się tej rzeczy. Cieszę się, że miałem rację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba5f21bd2c49c98e6e57
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 49
+      sekcja_skryptu: alicewins2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I still got my eye on you, Buster Brown. Don't you forget it. Cut out the spooky crap.
+      pl: Wciąż mam na ciebie oko, koleżko. Nie zapominaj o tym. I skończ z tymi upiornymi sztuczkami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14f24f48421b7e73f1e3
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 50
+      sekcja_skryptu: alicewins2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're sticking with me? You did what you came out here to do.
+      pl: Trzymasz się ze mną? Zrobiłeś już to, po co tu przyszedłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1741ed11f84b825e3f56
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 51
+      sekcja_skryptu: alicewins2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, well. You're my only patient, and you need looking after.
+      pl: Tak, cóż. Jesteś moim jedynym pacjentem i potrzebujesz opieki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_20f27f47430c422b30c6
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 52
+      sekcja_skryptu: alicewins2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thanks, Doc. Let's get out of this nightmare.
+      pl: Dzięki, Doc. Wynośmy się z tego koszmaru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: astwo
+    wpisy:
+    - id: wol_e80e077e7dd5532009bf
+      kontekst: data.json:scripts.necrotower_necromancer.astwo
+      linia: 53
+      sekcja_skryptu: astwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Consume the Necromancer [Necromantic Mastery]
+      pl: Pożeraj Nekromantę [Nekromantyczne mistrzostwo]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Necromantic Mastery]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1966
+  skrypt: necrotower_runes1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_46e1595d6a9f90f3b592
+      kontekst: data.json:scripts.necrotower_runes1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange undecipherable runes.
+      pl: Jakieś dziwne, nie do rozszyfrowania runy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_763fa0f12f23a0b7af4e
+      kontekst: data.json:scripts.necrotower_runes1.alreadygot
+      linia: 2
+      sekcja_skryptu: alreadygot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already know these dark secrets. They hold no more interest for you.
+      pl: Znasz już te mroczne sekrety. Nie ciekawią cię już.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read2
+    wpisy:
+    - id: wol_271807ac320748023f3c
+      kontekst: data.json:scripts.necrotower_runes1.read2
+      linia: 3
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You read the runes closely, tracing them with one finger. They glow darkly at your touch.
+      pl: Uważnie czytasz runy, śledząc je palcem. Mrocznie świecą pod twoim dotykiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ffc5d4b76cb60a8518b1
+      kontekst: data.json:scripts.necrotower_runes1.read2
+      linia: 4
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You learn three ancient names. A name of bone-hatred. A name of bone-void. A name of bone-never-was.
+      pl: Uczysz się trzech starożytnych imion. Imię nienawiści kości. Imię pustki kości. Imię kości-nigdy-nie-było.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: understand
+    wpisy:
+    - id: wol_22d515eb3b7dab207559
+      kontekst: data.json:scripts.necrotower_runes1.understand
+      linia: 5
+      sekcja_skryptu: understand
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some necromantic runes. They desire to be read.
+      pl: Jakieś nekromantyczne runy. Pragną być odczytane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf1e59815b0b10d66f63
+      kontekst: data.json:scripts.necrotower_runes1.understand
+      linia: 6
+      sekcja_skryptu: understand
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study them
+      pl: Przestudiuj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1967
+  skrypt: necrotower_runes1alice
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_80ebac80bb25daaae3d9
+      kontekst: data.json:scripts.necrotower_runes1alice.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I sure wish you wouldn't mess around with this stuff. You know this ain't what I signed up for.
+      pl: Naprawdę wolałabym, żebyś nie grzebał w tych rzeczach. Wiesz, że nie na to się pisałam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0573535406cb4fbe320
+      kontekst: data.json:scripts.necrotower_runes1alice.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Alice, relax. I'm handling it fine.
+      pl: Alice, spokojnie. Radzę sobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3037049de7f3eff57d32
+      kontekst: data.json:scripts.necrotower_runes1alice.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, sure you are.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9db5956e4009f1d1d0a8
+      kontekst: data.json:scripts.necrotower_runes1alice.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study the runes
+      pl: Przestudiuj runy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49833bd4eff01e240964
+      kontekst: data.json:scripts.necrotower_runes1alice.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine, we'll do it your way.
+      pl: Okej, dobra, zrobimy po twojemu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1968
+  skrypt: necrotower_runes2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_46e1595d6a9f90f3b592
+      kontekst: data.json:scripts.necrotower_runes2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange undecipherable runes.
+      pl: Jakieś dziwne, nie do rozszyfrowania runy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_763fa0f12f23a0b7af4e
+      kontekst: data.json:scripts.necrotower_runes2.alreadygot
+      linia: 2
+      sekcja_skryptu: alreadygot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already know these dark secrets. They hold no more interest for you.
+      pl: Znasz już te mroczne sekrety. Nie ciekawią cię już.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read2
+    wpisy:
+    - id: wol_271807ac320748023f3c
+      kontekst: data.json:scripts.necrotower_runes2.read2
+      linia: 3
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You read the runes closely, tracing them with one finger. They glow darkly at your touch.
+      pl: Uważnie czytasz runy, śledząc je palcem. Mrocznie świecą pod twoim dotykiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0ce7469c897a1101d30
+      kontekst: data.json:scripts.necrotower_runes2.read2
+      linia: 4
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You learn a name that banishes mind. You learn a name that hatches void from a toothed egg.
+      pl: Uczysz się imienia, które wypędza umysł. Uczysz się imienia, które wykluwa pustkę z jajka pełnego zębów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: understand
+    wpisy:
+    - id: wol_d9fcbdc5b472a5aa218d
+      kontekst: data.json:scripts.necrotower_runes2.understand
+      linia: 5
+      sekcja_skryptu: understand
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some necromantic runes. They demand to be read.
+      pl: Jakieś nekromantyczne runy. Domagają się odczytania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf1e59815b0b10d66f63
+      kontekst: data.json:scripts.necrotower_runes2.understand
+      linia: 6
+      sekcja_skryptu: understand
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study them
+      pl: Przestudiuj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1969
+  skrypt: necrotower_runes2alice
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e5d21391c7d5ecde46e2
+      kontekst: data.json:scripts.necrotower_runes2alice.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Please</i> stop messing around with this evil nonsense! Don't you see what it's doing to you?
+      pl: <i>Proszę,</i> przestań bawić się tymi złowrogimi bzdurami! Nie widzisz, co one z tobą robią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3947ca6a375ad6169cd
+      kontekst: data.json:scripts.necrotower_runes2alice.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't be ridiculous, Doc. I'm perfectly fine.
+      pl: Nie bądź śmieszna, doktor. Nic mi nie jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5eff2be15c52797799bb
+      kontekst: data.json:scripts.necrotower_runes2alice.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Perfectly fine? Are you <i>kidding</i> me?
+      pl: W zupełnym porządku? <i>Żartujesz</i> sobie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9db5956e4009f1d1d0a8
+      kontekst: data.json:scripts.necrotower_runes2alice.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study the runes
+      pl: Przestudiuj runy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49833bd4eff01e240964
+      kontekst: data.json:scripts.necrotower_runes2alice.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine, we'll do it your way.
+      pl: Okej, dobra, zrobimy po twojemu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1970
+  skrypt: necrotower_runes3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_46e1595d6a9f90f3b592
+      kontekst: data.json:scripts.necrotower_runes3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some strange undecipherable runes.
+      pl: Jakieś dziwne, nie do rozszyfrowania runy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_763fa0f12f23a0b7af4e
+      kontekst: data.json:scripts.necrotower_runes3.alreadygot
+      linia: 2
+      sekcja_skryptu: alreadygot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already know these dark secrets. They hold no more interest for you.
+      pl: Znasz już te mroczne sekrety. Nie ciekawią cię już.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read2
+    wpisy:
+    - id: wol_271807ac320748023f3c
+      kontekst: data.json:scripts.necrotower_runes3.read2
+      linia: 3
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You read the runes closely, tracing them with one finger. They glow darkly at your touch.
+      pl: Uważnie czytasz runy, śledząc je palcem. Mrocznie świecą pod twoim dotykiem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_05e6ad522fa7c55b5ef5
+      kontekst: data.json:scripts.necrotower_runes3.read2
+      linia: 4
+      sekcja_skryptu: read2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You learn a name that dissolves bonds. You learn a name that withers love, corrupts love, twists it and blackens it and turns it into hate.
+      pl: Uczysz się imienia, które rozpuszcza więzi. Uczysz się imienia, które więdnie miłość, psuje miłość, wykręca ją, czernieje i zamienia w nienawiść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: understand
+    wpisy:
+    - id: wol_d36980ad0961a0db1d87
+      kontekst: data.json:scripts.necrotower_runes3.understand
+      linia: 5
+      sekcja_skryptu: understand
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some necromantic runes. You will read them.
+      pl: Jakieś nekromantyczne runy. Odczytasz je.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf1e59815b0b10d66f63
+      kontekst: data.json:scripts.necrotower_runes3.understand
+      linia: 6
+      sekcja_skryptu: understand
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study them
+      pl: Przestudiuj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1971
+  skrypt: necrotower_runes3alice
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2fe14d5d91b49fabfb59
+      kontekst: data.json:scripts.necrotower_runes3alice.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I have had <i>enough</i> of this. I am not going to help you get out of this hole you're digging for yourself.
+      pl: Mam już <i>dość</i>. Nie pomogę ci wydostać się z dołu, który sam sobie kopiesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_304c2dbf91fc8d21c220
+      kontekst: data.json:scripts.necrotower_runes3alice.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha, funny you should put it that way. Like raising me from a grave?
+      pl: Ha, ha, zabawne, że tak to ująłeś. Jak wyciągnięcie mnie z grobu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0dadf4e61b95e2cddeb3
+      kontekst: data.json:scripts.necrotower_runes3alice.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>It isn't funny!</i>
+      pl: <i>To nie jest zabawne!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9db5956e4009f1d1d0a8
+      kontekst: data.json:scripts.necrotower_runes3alice.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study the runes
+      pl: Przestudiuj runy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49833bd4eff01e240964
+      kontekst: data.json:scripts.necrotower_runes3alice.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, fine, we'll do it your way.
+      pl: Okej, dobra, zrobimy po twojemu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1973
+  skrypt: necrotower_throne
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_62766b5c16c73deb9cea
+      kontekst: data.json:scripts.necrotower_throne.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This throne is yours now.
+      pl: Ten tron jest teraz twój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_25b9778ce9b015f8e7f0
+      kontekst: data.json:scripts.necrotower_throne.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An evil, evil throne.
+      pl: Zły, zły tron.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5d6d9d9dc3b939d2bda
+      kontekst: data.json:scripts.necrotower_throne.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sit on it
+      pl: Usiądź na tym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1974
+  skrypt: necrotower_thronesit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_65284005c04db11ab398
+      kontekst: data.json:scripts.necrotower_thronesit.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sit on your throne.
+      pl: Siadasz na swoim tronie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: laugh
+    wpisy:
+    - id: wol_7d1f3739da5a500b92a5
+      kontekst: data.json:scripts.necrotower_thronesit.laugh
+      linia: 2
+      sekcja_skryptu: laugh
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: '%necrotower_laughs%'
+      pl: '%necrotower_laughs%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%necrotower_laughs%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_468e555cf3bac356b142
+      kontekst: data.json:scripts.necrotower_thronesit.laugh
+      linia: 3
+      sekcja_skryptu: laugh
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take a deep breath.
+      pl: Bierzesz głęboki oddech.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fdac879cdbf0e8947b48
+      kontekst: data.json:scripts.necrotower_thronesit.laugh
+      linia: 4
+      sekcja_skryptu: laugh
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Laugh some more
+      pl: Śmiej się dalej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_279763dae28901dd8254
+      kontekst: data.json:scripts.necrotower_thronesit.laugh
+      linia: 5
+      sekcja_skryptu: laugh
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop laughing and leave
+      pl: Przestań się śmiać i wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2300
+  skrypt: re_bandith1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: foxthree
+    wpisy:
+    - id: wol_e9b47c44d5cc4d8044df
+      kontekst: data.json:scripts.re_bandith1.foxthree
+      linia: 48
+      sekcja_skryptu: foxthree
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye.
+      pl: Pa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2310
+  skrypt: re_cowambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c223d5df218910496e63
+      kontekst: data.json:scripts.re_cowambush.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2449
+  skrypt: re_snakeh
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c223d5df218910496e63
+      kontekst: data.json:scripts.re_snakeh.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2456
+  skrypt: re_undeadc1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c223d5df218910496e63
+      kontekst: data.json:scripts.re_undeadc1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2457
+  skrypt: re_undeadc2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c223d5df218910496e63
+      kontekst: data.json:scripts.re_undeadc2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2733
+  skrypt: tut_sherf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_e9b47c44d5cc4d8044df
+      kontekst: data.json:scripts.tut_sherf.nope
+      linia: 35
+      sekcja_skryptu: nope
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye.
+      pl: Pa.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

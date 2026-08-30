@@ -1,0 +1,1754 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Cmentarze
+grupa_lokacji_lub_systemu: the_daveyard
+zrodlowy_batch: 039_dialog_loc_cemetery1_the_daveyard.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 30
+liczba_wpisow: 90
+sceny:
+- kolejnosc_w_danych_gry: 1021
+  skrypt: daveyard_bonepile
+  pomieszczenie: &id001
+    id: cemetery1
+    nazwa_en: The Daveyard
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1712e4932d42238294fd
+      kontekst: data.json:scripts.daveyard_bonepile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a pile of bones that <i>isn't</i> moving around, for a change.
+      pl: To stos kości, który się <i>nie</i> porusza — odświeżająca odmiana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_7d6e5df141ca378f676f
+      kontekst: data.json:scripts.daveyard_bonepile.dig
+      linia: 3
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's mostly just boring broken bones, but you do find a skull with a weird tag on it...
+      pl: W większości nudne połamane kości, ale znajdujesz czaszkę z dziwną metką...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1022
+  skrypt: daveyard_davegrave
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1231801f293bd6ad7b37
+      kontekst: data.json:scripts.daveyard_davegrave.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig up the grave and pry open the coffin.  Instead of a corpse, it contains... a garbage bag?
+      pl: Wykopujesz grób i otwierasz trumnę. Zamiast zwłok jest... worek na śmieci?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6def9eb855e6dcaa71b0
+      kontekst: data.json:scripts.daveyard_davegrave.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Strange.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c33c11fb5205614f1d32
+      kontekst: data.json:scripts.daveyard_davegrave.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach inside
+      pl: Sięgnij do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig2
+    wpisy:
+    - id: wol_879bebeb5312c0d4c409
+      kontekst: data.json:scripts.daveyard_davegrave.dig2
+      linia: 4
+      sekcja_skryptu: dig2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reach into the garbage bag and are surprised to find that's full of...  pudding?  No, it's not <i>just</i> pudding.  It's pudding and motor oil.
+      pl: Sięgasz do worka na śmieci i zdziwiony stwierdzasz, że jest pełen... budyniu? Nie, to nie <i>tylko</i> budyń. To budyń i olej silnikowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4daf15be6a8790b7fa74
+      kontekst: data.json:scripts.daveyard_davegrave.dig2
+      linia: 5
+      sekcja_skryptu: dig2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Who would do this?
+      pl: Kto by to zrobił?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig3
+    wpisy:
+    - id: wol_e1148a09af26e8fe53ed
+      kontekst: data.json:scripts.daveyard_davegrave.dig3
+      linia: 7
+      sekcja_skryptu: dig3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You finally manage to reach all the way to the bottom of the bag, and retrieve a sodden lump from the bottom.
+      pl: Wreszcie sięgasz na sam dół worka i wyciągasz przemoczoną bryłę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35c94762daaca5ef3697
+      kontekst: data.json:scripts.daveyard_davegrave.dig3
+      linia: 8
+      sekcja_skryptu: dig3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unglob the wad and dry it off, then wash your arm in a nearby ditch.
+      pl: Rozklejasz kulkę, osusz ją, potem myjesz rękę w pobliskim rowie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2df6f742667b6083e915
+      kontekst: data.json:scripts.daveyard_davegrave.dig3
+      linia: 9
+      sekcja_skryptu: dig3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This better be worth it.
+      pl: Lepiej, żeby było warto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1023
+  skrypt: daveyard_doritual
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e2b08dba45e587a6e5af
+      kontekst: data.json:scripts.daveyard_doritual.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm, let's see.  According to that gross scroll, you need human ashes, some stardust, and a glass sphere if you want to do this ritual.
+      pl: Hmm, zobaczmy. Według tego obrzydliwego zwoju potrzebujesz ludzkiego popiołu, trochę gwiezdnego pyłu i szklanej kuli, jeśli chcesz wykonać ten rytuał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doinit
+    wpisy:
+    - id: wol_7cb8b153963bcda71468
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 2
+      sekcja_skryptu: doinit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'As dictated by the scroll, you spread the ashes in a human shape in the circle, and add the stardust and glass sphere while intoning the ritual chant:'
+      pl: 'Zgodnie ze zwojem rozsypujesz popiół w kształt ludzkiej sylwetki w kręgu, dodajesz gwiezdny pył i szklaną kulę, intonując rytualną pieśń:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b6a146a451db0eb31bd
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 3
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Dance, magic, dance!
+      pl: Tańcz, magio, tańcz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b97c52ac33cf3bd5406
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 4
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Put on your red shoes and
+      pl: Załóż czerwone buty i
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c239cd1c62a74d5ab6c8
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 5
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: jump, magic, jump!
+      pl: skacz, magio, skacz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13988234af8eb790ce3f
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 6
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ashes to ashes, funk to funky,
+      pl: Z prochu w proch, z funku w funk,
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e7a24aa698bd9a97dc4
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 7
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Shake it up, shake it up,
+      pl: Potrząśnij, potrząśnij,
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_babd878d47d22f491e29
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 8
+      sekcja_skryptu: doinit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Move it up, move it up,
+      pl: Ruszaj w górę, ruszaj w górę,
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e31a3d733d3fe5f6d4dc
+      kontekst: data.json:scripts.daveyard_doritual.doinit
+      linia: 9
+      sekcja_skryptu: doinit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ch-ch-ch-ch-changes!
+      pl: Ch-ch-ch-ch-changes!
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_bf2d624299b9911bda2f
+      kontekst: data.json:scripts.daveyard_doritual.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The universe shudders ecstatically around you as the ashes writhe and transform into the glammest skeleton you've ever seen.
+      pl: Wszechświat drży w ekstazie wokół ciebie, gdy popiół wije się i zamienia w najbardziej glamowy szkielet, jaki kiedykolwiek widziałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: noashes
+    wpisy:
+    - id: wol_c1af03be86a7028ea212
+      kontekst: data.json:scripts.daveyard_doritual.noashes
+      linia: 13
+      sekcja_skryptu: noashes
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you don't have any human ashes on you. So much for that idea.
+      pl: Niestety nie masz ludzkiego popiołu. Koniec z tym pomysłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nosphere
+    wpisy:
+    - id: wol_80db7b7b6c94c7e7387a
+      kontekst: data.json:scripts.daveyard_doritual.nosphere
+      linia: 15
+      sekcja_skryptu: nosphere
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig through all of your stuff, but you don't find any glass spheres. Nuts.
+      pl: Przeszukujesz wszystkie swoje rzeczy, ale nie ma szklanych kul. Szkoda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nostardust
+    wpisy:
+    - id: wol_66b437e9c99e795130db
+      kontekst: data.json:scripts.daveyard_doritual.nostardust
+      linia: 17
+      sekcja_skryptu: nostardust
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're pretty sure you don't have any stardust. You would probably remember that.
+      pl: Jesteś całkiem pewien, że nie masz gwiezdnego pyłu. Pewnie byś pamiętał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1024
+  skrypt: daveyard_drawer1lose
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1bfbbee71914e6bea2cb
+      kontekst: data.json:scripts.daveyard_drawer1lose.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof.  You never should've opened that drawer.
+      pl: Uff. Nigdy nie powinieneś był otwierać tej szuflady.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1025
+  skrypt: daveyard_drawer3lose
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f94e2faab79645b77f9b
+      kontekst: data.json:scripts.daveyard_drawer3lose.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I'm not sure what possessed you to think opening all those drawers at once was a good idea.
+      pl: Nie wiem, co cię podkusiło, żeby otwierać wszystkie te szuflady naraz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_ec38b068c736bf6ab4e4
+      kontekst: data.json:scripts.daveyard_drawer3lose.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, me neither
+      pl: Ta, ja też nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1026
+  skrypt: daveyard_drawers
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_68ebdda27b83529e1ff1
+      kontekst: data.json:scripts.daveyard_drawers.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is one of those things they have in mausoleums.  You know, one of those big marble things with drawers full of skeletons.
+      pl: To jedna z tych rzeczy z mauzoleów. Wiesz, wielkie marmurowe coś z szufladami pełnymi szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_77941704bfa9f4dfe71f
+      kontekst: data.json:scripts.daveyard_drawers.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open one [Fight]
+      pl: Otwórz jedną [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1989788b2bd31e8cb38f
+      kontekst: data.json:scripts.daveyard_drawers.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open a whole bunch [Bigger Fight]
+      pl: Otwórz całą masę [Większa walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Bigger Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf699cfbfd9ec7c87f8d
+      kontekst: data.json:scripts.daveyard_drawers.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave 'em be
+      pl: Zostaw ich w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_68ebdda27b83529e1ff1
+      kontekst: data.json:scripts.daveyard_drawers.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is one of those things they have in mausoleums.  You know, one of those big marble things with drawers full of skeletons.
+      pl: To jedna z tych rzeczy z mauzoleów. Wiesz, wielkie marmurowe coś z szufladami pełnymi szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_77941704bfa9f4dfe71f
+      kontekst: data.json:scripts.daveyard_drawers.hardstart
+      linia: 6
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open one [Fight]
+      pl: Otwórz jedną [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1989788b2bd31e8cb38f
+      kontekst: data.json:scripts.daveyard_drawers.hardstart
+      linia: 7
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open a whole bunch [Bigger Fight]
+      pl: Otwórz całą masę [Większa walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Bigger Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5cdececae8435ae29ff7
+      kontekst: data.json:scripts.daveyard_drawers.hardstart
+      linia: 8
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your hat chuckles.  A voice in your head assures that you've had enough fun here for one day.
+      pl: Twój kapelusz chichocze. Głos w twojej głowie zapewnia, że miałeś tu wystarczająco dużo zabawy na jeden dzień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf699cfbfd9ec7c87f8d
+      kontekst: data.json:scripts.daveyard_drawers.hardstart
+      linia: 9
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave 'em be
+      pl: Zostaw ich w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win1
+    wpisy:
+    - id: wol_fee64d50f32c4899918b
+      kontekst: data.json:scripts.daveyard_drawers.win1
+      linia: 1
+      sekcja_skryptu: win1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You did it!  You dragged a skeleton out of a drawer and then beat it up and put it back in the drawer.
+      pl: Udało się! Wyciągnąłeś szkielet z szuflady, pobiłeś go i wsadziłeś z powrotem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose1
+    wpisy:
+    - id: wol_1bfbbee71914e6bea2cb
+      kontekst: data.json:scripts.daveyard_drawers.lose1
+      linia: 1
+      sekcja_skryptu: lose1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof.  You never should've opened that drawer.
+      pl: Uff. Nigdy nie powinieneś był otwierać tej szuflady.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_ec38b068c736bf6ab4e4
+      kontekst: data.json:scripts.daveyard_drawers.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, me neither
+      pl: Ta, ja też nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win3
+    wpisy:
+    - id: wol_703c81d343f9ec86022a
+      kontekst: data.json:scripts.daveyard_drawers.win3
+      linia: 1
+      sekcja_skryptu: win3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Three up and three down, is a thing they would say about this if baseball analogies were a thing now.
+      pl: Trzy w górę i trzy w dół — tak by powiedzieli o tym, gdyby analogie baseballowe były teraz na czasie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose3
+    wpisy:
+    - id: wol_f94e2faab79645b77f9b
+      kontekst: data.json:scripts.daveyard_drawers.lose3
+      linia: 1
+      sekcja_skryptu: lose3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I'm not sure what possessed you to think opening all those drawers at once was a good idea.
+      pl: Nie wiem, co cię podkusiło, żeby otwierać wszystkie te szuflady naraz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1027
+  skrypt: daveyard_f2lose
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a2c9e78f0d79d7df486c
+      kontekst: data.json:scripts.daveyard_f2lose.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That skeleton was waaaaay spookier than you were expecting.
+      pl: Ten szkielet był duuuużo bardziej upiorny, niż się spodziewałeś.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1028
+  skrypt: daveyard_f2win
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1d4631c31dea44c7266b
+      kontekst: data.json:scripts.daveyard_f2win.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat the skeleton.
+      pl: Pokonujesz szkielet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1029
+  skrypt: daveyard_fightypile1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eb5e368ce14a8dbbebed
+      kontekst: data.json:scripts.daveyard_fightypile1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These remains look pretty restless.
+      pl: Te szczątki wyglądają na niespokojne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cdec35dcca505b392833
+      kontekst: data.json:scripts.daveyard_fightypile1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put 'em down for good [Fight]
+      pl: Dokończ ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_6e1edfa2e438210bf4b9
+      kontekst: data.json:scripts.daveyard_fightypile1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That skeleton was tougher than he looked when he was just a pile of loose bones.
+      pl: Ten szkielet był twardszy, niż wyglądał, gdy był tylko stosem luźnych kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_762e8f709093bde86c2a
+      kontekst: data.json:scripts.daveyard_fightypile1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Boo.
+      pl: Buu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_9ea62791112f110503e2
+      kontekst: data.json:scripts.daveyard_fightypile1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You made the restless remains more restful.
+      pl: Sprawiłeś, że niespokojne szczątki stały się spokojniejsze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1030
+  skrypt: daveyard_fightypile2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b364c385fe4cc3ff5241
+      kontekst: data.json:scripts.daveyard_fightypile2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These bones are jumpin' around to beat the dickens.
+      pl: Te kości skaczą jak oszalone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_38d99eb8ba991615bb84
+      kontekst: data.json:scripts.daveyard_fightypile2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Beat the dickens out of them [Fight]
+      pl: Wymłóć ich na amen [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_a2c9e78f0d79d7df486c
+      kontekst: data.json:scripts.daveyard_fightypile2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That skeleton was waaaaay spookier than you were expecting.
+      pl: Ten szkielet był duuuużo bardziej upiorny, niż się spodziewałeś.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_762e8f709093bde86c2a
+      kontekst: data.json:scripts.daveyard_fightypile2.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Boo.
+      pl: Buu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_e8a7322e7083b958b8d6
+      kontekst: data.json:scripts.daveyard_fightypile2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You check the bones for dickens -- nope, you beat them all out.
+      pl: Sprawdzasz kości pod kątem diabłów — nie, wybiłeś je wszystkie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1031
+  skrypt: daveyard_fightypile3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eb5e368ce14a8dbbebed
+      kontekst: data.json:scripts.daveyard_fightypile3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These remains look pretty restless.
+      pl: Te szczątki wyglądają na niespokojne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cdec35dcca505b392833
+      kontekst: data.json:scripts.daveyard_fightypile3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put 'em down for good [Fight]
+      pl: Dokończ ich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_099e1c353e85fc9ceedd
+      kontekst: data.json:scripts.daveyard_fightypile3.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like they were a little too restless for you.
+      pl: Wygląda na to, że byli ci odrobinę zbyt niespokojni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_762e8f709093bde86c2a
+      kontekst: data.json:scripts.daveyard_fightypile3.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Boo.
+      pl: Buu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_9ea62791112f110503e2
+      kontekst: data.json:scripts.daveyard_fightypile3.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You made the restless remains more restful.
+      pl: Sprawiłeś, że niespokojne szczątki stały się spokojniejsze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1032
+  skrypt: daveyard_lunchpail
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_30ca7209fad988d3fc4b
+      kontekst: data.json:scripts.daveyard_lunchpail.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like the gravedigger left his lunchbox here.
+      pl: Wygląda na to, że grabarz zostawił tu śniadaniówkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d14975ac363a04b8e945
+      kontekst: data.json:scripts.daveyard_lunchpail.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh boy, free lunch!
+      pl: O rety, darmowy lunch!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_52cbbd28e3184e926ffd
+      kontekst: data.json:scripts.daveyard_lunchpail.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And they said there was no such thing!
+      pl: A mówili, że takie coś nie istnieje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1033
+  skrypt: daveyard_readscroll
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: invpopup
+    wpisy:
+    - id: wol_11ffa876f2061e6e327c
+      kontekst: data.json:scripts.daveyard_readscroll.invpopup
+      linia: 1
+      sekcja_skryptu: invpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You scrape the largest of the giblets off of the scroll and read it.
+      pl: Zeskrobujesz największe podroby ze zwoju i czytasz go.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d3dac837591b845e076
+      kontekst: data.json:scripts.daveyard_readscroll.invpopup
+      linia: 2
+      sekcja_skryptu: invpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It says to take a pile of human ashes, spread them out in the shape of a person inside a red chalk ritual circle, then sprinkle them with stardust and place a mostly-perfect (or better) glass sphere where the heart would be.
+      pl: Napis każe wziąć stos ludzkiego popiołu, rozłożyć go w kształt człowieka w czerwonym kredowym kręgu rytualnym, posypać gwiezdnym pyłem i położyć w miejscu serca w większości idealną (albo lepszą) szklaną kulę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3de2269bb59a27ee9b47
+      kontekst: data.json:scripts.daveyard_readscroll.invpopup
+      linia: 3
+      sekcja_skryptu: invpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Anyway, that's the gist of it. The actual text has a lot more "thee"s and "thou"s and such as like that. Plus there's a bunch of weird gibberish you're supposed to say out loud while you're doing it.
+      pl: W każdym razie o to chodzi. W oryginale jest dużo więcej „thee” i „thou” i tego typu rzeczy. Plus masa dziwnego bełkotu, który masz wygłaszać na głos w trakcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1034
+  skrypt: daveyard_ritualcircle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_087c54cd974c5158bdaa
+      kontekst: data.json:scripts.daveyard_ritualcircle.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of ritual circle, drawn on the ground in red chalk.
+      pl: Jakiś rytualny krąg, narysowany na ziemi czerwoną kredą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_88c350fb02303eb86a9c
+      kontekst: data.json:scripts.daveyard_ritualcircle.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Perform the ritual
+      pl: Wykonaj rytuał
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1035
+  skrypt: daveyard_sarcophagus
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6b601c9b0d5ee1c6a89d
+      kontekst: data.json:scripts.daveyard_sarcophagus.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa.  That is the coolest skeleton you've ever seen.
+      pl: Wow. To najfajniejszy szkielet, jaki kiedykolwiek widziałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba317dc9172495b936e8
+      kontekst: data.json:scripts.daveyard_sarcophagus.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nothing
+    wpisy:
+    - id: wol_1eda0d42b6bd3553a25d
+      kontekst: data.json:scripts.daveyard_sarcophagus.nothing
+      linia: 3
+      sekcja_skryptu: nothing
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big stone sarcophagus.
+      pl: To wielki kamienny sarkofag.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_60e608bece31e4a432ed
+      kontekst: data.json:scripts.daveyard_sarcophagus.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put a stop to that skeleton's magical dancing.
+      pl: Koisz ten magiczny taniec szkieletu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1541a63da1d473e1a9e3
+      kontekst: data.json:scripts.daveyard_sarcophagus.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You help yourself to his sweet knife.
+      pl: Bierzesz sobie jego fajny nóż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ad173be156adf64812ec
+      kontekst: data.json:scripts.daveyard_sarcophagus.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That skeleton just welcomed you to Suffering City, population you.
+      pl: 'Ten szkielet właśnie powitał cię w Mieście Cierpienia, populacja: ty.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_d29142fdb285f76d3857
+      kontekst: data.json:scripts.daveyard_sarcophagus.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Isn't it Suffragette?
+      pl: Przecież to Suffragette?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1036
+  skrypt: daveyard_stone1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_11db692c94fdca5656ce
+      kontekst: data.json:scripts.daveyard_stone1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE B<p>1834-1884<p><i>Died with his boots on,<p>but not his pants.</i>
+      pl: TU LEŻY<p>DAVE B<p>1834-1884<p><i>Umarł w butach,<p>ale bez spodni.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - <p>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digup
+    wpisy:
+    - id: wol_731d18e08523be1f9f05
+      kontekst: data.json:scripts.daveyard_stone1.digup
+      linia: 3
+      sekcja_skryptu: digup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig up the grave, just to check the veracity of the epitaph.
+      pl: Wykopujesz grób, żeby sprawdzić prawdziwość epitafium.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d840bd9e44abb8d0d9a0
+      kontekst: data.json:scripts.daveyard_stone1.digup
+      linia: 4
+      sekcja_skryptu: digup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sure enough -- boots but no pants!
+      pl: I faktycznie — buty, ale bez spodni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1037
+  skrypt: daveyard_stone2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6d4456dd24979a592b84
+      kontekst: data.json:scripts.daveyard_stone2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE C<p>1828-1884<p><i>Went down in<p>a theater.</i>
+      pl: TU LEŻY<p>DAVE C<p>1828-1884<p><i>Poszedł na dno<p>w teatrze.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - <p>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1038
+  skrypt: daveyard_stone3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_35dffaa9d1c67a4ecd65
+      kontekst: data.json:scripts.daveyard_stone3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE J<p>1826-1884<p><i>Ra-pa-pa-pow!</i>
+      pl: TU LEŻY<p>DAVE J<p>1826-1884<p><i>Ra-pa-pa-pow!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1039
+  skrypt: daveyard_stone4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a13ad954448706c3ecb3
+      kontekst: data.json:scripts.daveyard_stone4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE L<p>1790-1851<p><i>Died of a heart attack, see you in -36 years.</i>
+      pl: TU LEŻY<p>DAVE L<p>1790-1851<p><i>Umarł na zawał, do zobaczenia za -36 lat.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1040
+  skrypt: daveyard_stone5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_18cda0898117c9559c13
+      kontekst: data.json:scripts.daveyard_stone5.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE D<p>1848-1884<p><i>The truth was out<p>there. It killed him.</i>
+      pl: TU LEŻY<p>DAVE D<p>1848-1884<p><i>Prawda była<p>gdzieś tam. Zabiła go.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - <p>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1041
+  skrypt: daveyard_stone6
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_be83213925b66b3f6180
+      kontekst: data.json:scripts.daveyard_stone6.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE G<p>1847-1884<p><i>He was looking to<p>the sky to save him,<p>but even the sky can't<p>save a feller from<p>like 40 angry bears.</i>
+      pl: TU LEŻY<p>DAVE G<p>1847-1884<p><i>Patrzył w niebo,<p>żeby go uratowało,<p>ale nawet niebo nie uratuje<p>faceta przed<p>jakimiś 40 wściekłymi niedźwiedziami.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - <p>
+      - <p>
+      - <p>
+      - <p>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1042
+  skrypt: daveyard_stone7
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9ae1bb04ed63e26bca6b
+      kontekst: data.json:scripts.daveyard_stone7.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: HERE LIES<p>DAVE G<p>1860-1884<p><i>Murdered by a<p>different feller<p>named DAVE G.</i>
+      pl: TU LEŻY<p>DAVE G<p>1860-1884<p><i>Zamordowany przez<p>innego faceta<p>o imieniu DAVE G.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <p>
+      - <p>
+      - <p>
+      - <i>
+      - <p>
+      - <p>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1043
+  skrypt: daveyard_wastedcultist
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e42ada16da4b463412d5
+      kontekst: data.json:scripts.daveyard_wastedcultist.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a pile of mostly-burned rags that... maybe used to be a person?
+      pl: Sterta w większości spalonych łachmanów, które... może kiedyś były człowiekiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digthru
+    wpisy:
+    - id: wol_47d4f7920314717e366d
+      kontekst: data.json:scripts.daveyard_wastedcultist.digthru
+      linia: 3
+      sekcja_skryptu: digthru
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig through the rags and find a few things that look like they're worth keeping.
+      pl: Przeszukujesz szmaty i znajdujesz kilka rzeczy warte zachowania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1220
+  skrypt: elvibrato4_guard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ba317dc9172495b936e8
+      kontekst: data.json:scripts.elvibrato4_guard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1240
+  skrypt: elvibrato6_guard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ba317dc9172495b936e8
+      kontekst: data.json:scripts.elvibrato6_guard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1581
+  skrypt: goblin1_house9
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bf699cfbfd9ec7c87f8d
+      kontekst: data.json:scripts.goblin1_house9.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave 'em be
+      pl: Zostaw ich w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1798
+  skrypt: mine2_spookyloot
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: vein3
+    wpisy:
+    - id: wol_c33c11fb5205614f1d32
+      kontekst: data.json:scripts.mine2_spookyloot.vein3
+      linia: 2
+      sekcja_skryptu: vein3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach inside
+      pl: Sięgnij do środka
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2310
+  skrypt: re_cowambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: susiehere
+    wpisy:
+    - id: wol_ba317dc9172495b936e8
+      kontekst: data.json:scripts.re_cowambush.susiehere
+      linia: 35
+      sekcja_skryptu: susiehere
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2312
+  skrypt: re_cowb2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ba317dc9172495b936e8
+      kontekst: data.json:scripts.re_cowb2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack it [Fight]
+      pl: Zaatakuj to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2325
+  skrypt: re_cultistsa
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bf699cfbfd9ec7c87f8d
+      kontekst: data.json:scripts.re_cultistsa.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave 'em be
+      pl: Zostaw ich w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

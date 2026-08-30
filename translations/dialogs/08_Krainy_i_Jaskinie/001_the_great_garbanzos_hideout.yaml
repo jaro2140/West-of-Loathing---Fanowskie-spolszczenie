@@ -1,0 +1,157 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: the_great_garbanzos_hideout
+zrodlowy_batch: 033_dialog_loc_beancave_the_great_garbanzos_hideout.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 4
+liczba_wpisow: 7
+sceny:
+- kolejnosc_w_danych_gry: 233
+  skrypt: beancave_bed
+  pomieszczenie: &id001
+    id: beancave
+    nazwa_en: The Great Garbanzo's Hideout
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c88b5075542b432648f
+      kontekst: data.json:scripts.beancave_bed.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the Great Garbanzo's bed.
+      pl: To łóżko Wielkiego Garbanzo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_204fad3013e3f41a2820
+      kontekst: data.json:scripts.beancave_bed.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look under the pillow
+      pl: Zajrzyj pod poduszkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_936a776a92b630ecba4c
+      kontekst: data.json:scripts.beancave_bed.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It wasn't a pillow at all, but a bag of beans!
+      pl: To w ogóle nie poduszka, tylko worek fasoli!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 234
+  skrypt: beancave_bookshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5f9e3c1b6b66c37b144e
+      kontekst: data.json:scripts.beancave_bookshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Most of these books are too fragile to touch, but there's one that looks like it's in decent shape.
+      pl: Większość tych książek jest zbyt delikatna, żeby ich dotykać, ale jedna wygląda na całkiem zdatną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 235
+  skrypt: beancave_sign
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_79a57dc5d523ca0f8a34
+      kontekst: data.json:scripts.beancave_sign.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The sign says: KEEP OUT (unless you are The Great Garbanzo)'
+      pl: 'Znak głosi: WSTĘP WZBRONIONY (chyba że jesteś Wielkim Garbanzo)'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 236
+  skrypt: beancave_sofa
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1f543546ee8f1b448ac7
+      kontekst: data.json:scripts.beancave_sofa.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a revolting sofa.
+      pl: To obrzydliwa sofa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_1979bf07b9fdd9694709
+      kontekst: data.json:scripts.beancave_sofa.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find some loose beans in the cushions.
+      pl: W poduszkach kilka luźnych fasoli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

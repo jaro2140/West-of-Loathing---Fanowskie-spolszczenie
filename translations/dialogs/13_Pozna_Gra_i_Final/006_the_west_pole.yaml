@@ -1,0 +1,1055 @@
+schema_version: 1
+dzial:
+  numer: '13'
+  nazwa: Pozna_Gra_i_Final
+grupa_lokacji_lub_systemu: the_west_pole
+zrodlowy_batch: 116_dialog_loc_westpole_the_west_pole.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 6
+liczba_wpisow: 60
+sceny:
+- kolejnosc_w_danych_gry: 1000128
+  skrypt: house_gunbench
+  pomieszczenie: &id001
+    id: westpole
+    nazwa_en: The West Pole
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0074d82fa0eba57560a4
+      kontekst: house.json:scripts.house_gunbench.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mess with them
+      pl: Pobaw się nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2784
+  skrypt: westpole_cairn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4fc3ff00ad099818ef1f
+      kontekst: data.json:scripts.westpole_cairn.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a pile of weird rocks.
+      pl: To stos dziwnych kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cff3dc4bcdc24f771264
+      kontekst: data.json:scripts.westpole_cairn.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one for Dr. Morton
+      pl: Weź jeden dla doktora Mortona
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grab
+    wpisy:
+    - id: wol_42357535470fbf971fc2
+      kontekst: data.json:scripts.westpole_cairn.grab
+      linia: 3
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pocket what you hope is the most interesting stone.
+      pl: Chowasz do kieszeni kamień, który — masz nadzieję — jest najciekawszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_0074d82fa0eba57560a4
+      kontekst: data.json:scripts.westpole_cairn.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mess with them
+      pl: Pobaw się nimi
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knockoffer
+    wpisy:
+    - id: wol_0203daa691bc47c8b93d
+      kontekst: data.json:scripts.westpole_cairn.knockoffer
+      linia: 5
+      sekcja_skryptu: knockoffer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's that cairn you built.
+      pl: To kopiec, który zbudowałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3c66699371d7d57bba5d
+      kontekst: data.json:scripts.westpole_cairn.knockoffer
+      linia: 6
+      sekcja_skryptu: knockoffer
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a stone for Dr. Morton
+      pl: Weź kamyk dla doktora Mortona
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ebd92bc1e459f9bab8a
+      kontekst: data.json:scripts.westpole_cairn.knockoffer
+      linia: 7
+      sekcja_skryptu: knockoffer
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock it over
+      pl: Przewróć to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knock
+    wpisy:
+    - id: wol_9ef256f9ab41c4714387
+      kontekst: data.json:scripts.westpole_cairn.knock
+      linia: 8
+      sekcja_skryptu: knock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You knock the cairn back into a pile.
+      pl: Zrzucasz kopiec z powrotem w stertę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2786
+  skrypt: westpole_rockex
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f1eff23fd57c855435ed
+      kontekst: data.json:scripts.westpole_rockex.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing special about it, apart from the fact that it isn't in a pile with the other rocks.
+      pl: Nic w nim wyjątkowego, poza tym, że nie leży w stercie z innymi kamieniami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_48270afa5b0f5dda14f0
+      kontekst: data.json:scripts.westpole_rockex.pick
+      linia: 3
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof. It's way heavier than it looks -- you can't budge it at all.
+      pl: Uff. Jest o wiele cięższa, niż wygląda — w ogóle nie da się jej ruszyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_2ba9ed6938e9b9156b64
+      kontekst: data.json:scripts.westpole_rockex.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whisper something to it
+      pl: Wyszeptaj coś do tego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: petroprompt
+    wpisy:
+    - id: wol_4a6ecf678cd85f1de151
+      kontekst: data.json:scripts.westpole_rockex.petroprompt
+      linia: 2
+      sekcja_skryptu: petroprompt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Five piles?
+      pl: Pięć stosów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99c91e25f94bdae765b8
+      kontekst: data.json:scripts.westpole_rockex.petroprompt
+      linia: 3
+      sekcja_skryptu: petroprompt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$?
+      pl: $promptvalue$?
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_597a19c894906af0dc48
+      kontekst: data.json:scripts.westpole_rockex.petroprompt
+      linia: 5
+      sekcja_skryptu: petroprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whisper something else
+      pl: Wyszeptaj coś innego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: correct
+    wpisy:
+    - id: wol_5e58f147b1dc1c36822e
+      kontekst: data.json:scripts.westpole_rockex.correct
+      linia: 8
+      sekcja_skryptu: correct
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With a rumble of shaking earth, the rock rises out of the ground, revealing itself to be the tip of a stone obelisk. A hollow in the center of the obelisk contains a small stone ring; when you take it, the obelisk retracts back into the ground.
+      pl: Przy dudnieniu drżącej ziemi skała wynurza się z gruntu, ukazując się jako czubek kamiennego obelisku. Wydrążenie w środku obelisku kryje mały kamienny pierścień; gdy go bierzesz, obelisk cofa się z powrotem w ziemię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8a30d7bd52d4954a97c
+      kontekst: data.json:scripts.westpole_rockex.correct
+      linia: 9
+      sekcja_skryptu: correct
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wow, crazy.
+      pl: Wow, szalone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2787
+  skrypt: westpole_rockpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f1eff23fd57c855435ed
+      kontekst: data.json:scripts.westpole_rockpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing special about it, apart from the fact that it isn't in a pile with the other rocks.
+      pl: Nic w nim wyjątkowego, poza tym, że nie leży w stercie z innymi kamieniami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: solved
+    wpisy:
+    - id: wol_dae50ac19cbb3ef887ca
+      kontekst: data.json:scripts.westpole_rockpop.solved
+      linia: 3
+      sekcja_skryptu: solved
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This ancient buried obelisk doesn't have any further purpose.
+      pl: Ten pradawny zakopany obelisk nie ma już żadnego celu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2788
+  skrypt: westpole_stackcairn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 39
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f9361ef520d030023574
+      kontekst: data.json:scripts.westpole_stackcairn.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beam with pride at the cairn you made.
+      pl: Promieniejesz dumą na widok kopca, który zrobiłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b753164e62568b89d88
+      kontekst: data.json:scripts.westpole_stackcairn.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Knock it down
+      pl: Powal to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knock
+    wpisy:
+    - id: wol_2dce81ebc3cc1bb94a5a
+      kontekst: data.json:scripts.westpole_stackcairn.knock
+      linia: 3
+      sekcja_skryptu: knock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rocks float gently to the ground as you knock them loose.
+      pl: Skały delikatnie opadają na ziemię, gdy je zrzucasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justpile
+    wpisy:
+    - id: wol_05999c252322f45b9ee0
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 6
+      sekcja_skryptu: justpile
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These rocks are strange.  They don't seem to weigh as much as they should, and they're sort of... drawn to each other.
+      pl: Te skały są dziwne — ważą mniej niż powinny i jakoś... przyciągają się nawzajem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e6a7c80159842cd9aba
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 7
+      sekcja_skryptu: justpile
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could probably make an interesting cairn out of them.
+      pl: Pewnie zrobiłbyś z nich ciekawy kopiec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8401720733c893f8192f
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 8
+      sekcja_skryptu: justpile
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Something powerful
+      pl: Coś potężnego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmus
+    wpisy:
+    - id: wol_adb2be2171d5187fb533
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 9
+      sekcja_skryptu: optionmus
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A tall stack [Muscle 7]
+      pl: Wysoki stos [Mięśnie 7]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Muscle 7]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mus1
+    wpisy:
+    - id: wol_84c9d450a28d8646f1c2
+      kontekst: data.json:scripts.westpole_stackcairn.mus1
+      linia: 10
+      sekcja_skryptu: mus1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  That was a lot of work!
+      pl: Cofasz się i podziwiasz swoje dzieło. To była spora robota!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmus
+    wpisy:
+    - id: wol_e76005be13fff3d81a6c
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 12
+      sekcja_skryptu: optionmus
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A tall stack [Requires 7 Muscle]
+      pl: Wysoki stos [Wymaga 7 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 7 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ded47d439153913d5614
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 13
+      sekcja_skryptu: optionmus
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A threatening fist [Muscle 13]
+      pl: Groźna pięść [Mięśnie 13]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Muscle 13]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mus2
+    wpisy:
+    - id: wol_6d1c85131e25e6b45537
+      kontekst: data.json:scripts.westpole_stackcairn.mus2
+      linia: 14
+      sekcja_skryptu: mus2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's so intimidating!
+      pl: Cofasz się i podziwiasz swoje dzieło. Takie onieśmielające!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmus
+    wpisy:
+    - id: wol_13421656c12ba6badd65
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 16
+      sekcja_skryptu: optionmus
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A threatening fist [Requires 13 Muscle]
+      pl: Groźna pięść [Wymaga 13 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 13 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3192609db78ee1e38547
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 17
+      sekcja_skryptu: optionmus
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: An impregnable tower [Muscle 20]
+      pl: Wieża nie do zdobycia [Mięśnie 20]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Muscle 20]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mus3
+    wpisy:
+    - id: wol_7e69be90fe8ab90ccb73
+      kontekst: data.json:scripts.westpole_stackcairn.mus3
+      linia: 18
+      sekcja_skryptu: mus3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's quite defensible!
+      pl: Cofasz się i podziwiasz swoje dzieło. Całkiem obronne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmus
+    wpisy:
+    - id: wol_ffc18ed3591ba60006e8
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 20
+      sekcja_skryptu: optionmus
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: An impregnable tower [Requires 20 Muscle]
+      pl: Wieża nie do zdobycia [Wymaga 20 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 20 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fc5c55eb7dfee4a71b0
+      kontekst: data.json:scripts.westpole_stackcairn.optionmus
+      linia: 21
+      sekcja_skryptu: optionmus
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justpile
+    wpisy:
+    - id: wol_7ec553b77bccf4a679be
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 22
+      sekcja_skryptu: justpile
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Something mystical
+      pl: Coś mistycznego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmyst
+    wpisy:
+    - id: wol_9b7a2f70a081dac32433
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 23
+      sekcja_skryptu: optionmyst
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A perfectly-balanced stack [Mysticality 7]
+      pl: Idealnie wyważony stos [Mistycyzm 7]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Mysticality 7]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: myst1
+    wpisy:
+    - id: wol_808390f1f0d130b6af70
+      kontekst: data.json:scripts.westpole_stackcairn.myst1
+      linia: 24
+      sekcja_skryptu: myst1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's very organized!
+      pl: Cofasz się i podziwiasz swoje dzieło. Bardzo uporządkowane!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmyst
+    wpisy:
+    - id: wol_72622910e3695ef75fb0
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 26
+      sekcja_skryptu: optionmyst
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A perfectly-balanced stack [Requires 7 Mysticality]
+      pl: Idealnie wyważony stos [Wymaga 7 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 7 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e95bbdae9aa1d38c1c29
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 27
+      sekcja_skryptu: optionmyst
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A mystical sigil [Mysticality 13]
+      pl: Mistyczna pieczęć [Mistycyzm 13]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Mysticality 13]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: myst2
+    wpisy:
+    - id: wol_084727238fe043ade9dd
+      kontekst: data.json:scripts.westpole_stackcairn.myst2
+      linia: 28
+      sekcja_skryptu: myst2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It looks very occult!
+      pl: Cofasz się i podziwiasz swoje dzieło. Wygląda bardzo okultystycznie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmyst
+    wpisy:
+    - id: wol_555bf39691f762eb71e1
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 30
+      sekcja_skryptu: optionmyst
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A mystical sigil [Requires 13 Mysticality]
+      pl: Mistyczna pieczęć [Wymaga 13 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 13 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_12ad3d4c738d3bd6058f
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 31
+      sekcja_skryptu: optionmyst
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: An elaborate orrery [Mysticality 20]
+      pl: Misterne planetarium [Mistycyzm 20]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Mysticality 20]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: myst3
+    wpisy:
+    - id: wol_7771c137d697fe867e10
+      kontekst: data.json:scripts.westpole_stackcairn.myst3
+      linia: 32
+      sekcja_skryptu: myst3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's immaculate!
+      pl: Cofasz się i podziwiasz swoje dzieło. Jest nieskazitelne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmyst
+    wpisy:
+    - id: wol_c3e2766a57882adf5fba
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 34
+      sekcja_skryptu: optionmyst
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: An elaborate orrery [Requires 20 Mysticality]
+      pl: Misterne planetarium [Wymaga 20 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 20 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fc5c55eb7dfee4a71b0
+      kontekst: data.json:scripts.westpole_stackcairn.optionmyst
+      linia: 35
+      sekcja_skryptu: optionmyst
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justpile
+    wpisy:
+    - id: wol_0b964439d2458cb8b33c
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 36
+      sekcja_skryptu: justpile
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Something... suave
+      pl: Coś... eleganckiego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmox
+    wpisy:
+    - id: wol_eaedb261e04da5ddcd63
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 37
+      sekcja_skryptu: optionmox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A cool zig-zag [Moxie 7]
+      pl: Fajny zygzak [Ikra 7]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Moxie 7]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mox1
+    wpisy:
+    - id: wol_2cfc2246f150897ff858
+      kontekst: data.json:scripts.westpole_stackcairn.mox1
+      linia: 38
+      sekcja_skryptu: mox1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's so askew!
+      pl: Cofasz się i podziwiasz swoje dzieło. Takie krzywe!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmox
+    wpisy:
+    - id: wol_bd0cd2ec8f34005a600f
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 40
+      sekcja_skryptu: optionmox
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A cool zig-zag [Requires 7 Moxie]
+      pl: Fajny zygzak [Wymaga 7 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 7 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c54bd1a88b36caa97b8
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 41
+      sekcja_skryptu: optionmox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A sassy face [Moxie 13]
+      pl: Zuchwała mina [Ikra 13]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Moxie 13]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mox2
+    wpisy:
+    - id: wol_793e42335851ce9e7efa
+      kontekst: data.json:scripts.westpole_stackcairn.mox2
+      linia: 42
+      sekcja_skryptu: mox2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  It's pretty sassy!
+      pl: Cofasz się i podziwiasz swoje dzieło. Całkiem zadziorne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmox
+    wpisy:
+    - id: wol_87cfd0e479db9537c4c4
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 44
+      sekcja_skryptu: optionmox
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A sassy face [Requires 13 Moxie]
+      pl: Zuchwała mina [Wymaga 13 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 13 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f1f2b7f79c31e928a98
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 45
+      sekcja_skryptu: optionmox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A cheeky gesture [Moxie 20]
+      pl: Bezczelny gest [Ikra 20]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Moxie 20]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mox3
+    wpisy:
+    - id: wol_e7b422c9e45d4d581d17
+      kontekst: data.json:scripts.westpole_stackcairn.mox3
+      linia: 46
+      sekcja_skryptu: mox3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You step back and admire your handiwork.  Heh, handiwork.
+      pl: Cofasz się i podziwiasz swoje dzieło. Heh, handiwork.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optionmox
+    wpisy:
+    - id: wol_a8be1c0cde63d472748f
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 48
+      sekcja_skryptu: optionmox
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: A cheeky gesture [Requires 20 Moxie]
+      pl: Bezczelny gest [Wymaga 20 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 20 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fc5c55eb7dfee4a71b0
+      kontekst: data.json:scripts.westpole_stackcairn.optionmox
+      linia: 49
+      sekcja_skryptu: optionmox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: justpile
+    wpisy:
+    - id: wol_cc4a55504935a76d3dcb
+      kontekst: data.json:scripts.westpole_stackcairn.justpile
+      linia: 50
+      sekcja_skryptu: justpile
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The pile is fine the way it is
+      pl: Stos jest w porządku tak jak jest
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2789
+  skrypt: westpole_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5b311f55f2deb603484f
+      kontekst: data.json:scripts.westpole_timerift.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your key-shaped El Vibrato device goes nuts when you get near this thing.
+      pl: Twoje urządzenie El Vibrato w kształcie klucza szaleje, gdy zbliżysz je do tej rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7132a8c984767c138f92
+      kontekst: data.json:scripts.westpole_timerift.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Step through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

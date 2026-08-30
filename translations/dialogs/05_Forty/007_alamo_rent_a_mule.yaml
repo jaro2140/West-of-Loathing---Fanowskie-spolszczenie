@@ -1,0 +1,906 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: alamo_rent_a_mule
+zrodlowy_batch: 065_dialog_loc_fort7_alamo_rent_a_mule.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 7
+liczba_wpisow: 52
+sceny:
+- kolejnosc_w_danych_gry: 1502
+  skrypt: fort7_basementdoor
+  pomieszczenie: &id001
+    id: fort7
+    nazwa_en: Alamo Rent-A-Mule
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ad77b1c92209e7bc5a5e
+      kontekst: data.json:scripts.fort7_basementdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The latch on this hatch is rusted shut.
+      pl: Zatrzask tego włazu zardzewiał na amen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40c229afc218d373b055
+      kontekst: data.json:scripts.fort7_basementdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oil it [oil can]
+      pl: Nasmaruj to [puszka na olej]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[oil can]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: oil
+    wpisy:
+    - id: wol_fb6c6f16d972fd728d7c
+      kontekst: data.json:scripts.fort7_basementdoor.oil
+      linia: 3
+      sekcja_skryptu: oil
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drench the hatch latch in oil and it pops open.
+      pl: Moczysz zatrzask włazu w oleju i wyskakuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_b5e8543efd1904159340
+      kontekst: data.json:scripts.fort7_basementdoor.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Oil it [Requires oil can]
+      pl: Nasmaruj to [Wymaga oliwiarki]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires oil can]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1503
+  skrypt: fort7_complaintsguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6e5f251f4a69fa2ea221
+      kontekst: data.json:scripts.fort7_complaintsguy.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, pretty typical. By which I mean horrible. My shins are acting up, and my eyebrows are on the fritz, and you wouldn't believe the amount of paperwork I've got to do but of course the pencil sharpener is broken so I have to sharpen my pencil by hand with a nail file, and a scorpion got in my coffee and drank half of it.
+      pl: O, całkiem typowo. Czyli okropnie. Bolą mnie golenie, brwi szaleją, a nie uwierzysz, ile mam papierologii, ale oczywiście temperówka jest zepsuta, więc muszę temperować ołówek ręcznie pilnikiem do paznokci, a skorpion wpadł mi do kawy i wypił połowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94398ae60d2b5636d80a
+      kontekst: data.json:scripts.fort7_complaintsguy.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his complaining
+      pl: Zostaw go przy jego narzekaniu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_3df4cc64f18d16e5d4ef
+      kontekst: data.json:scripts.fort7_complaintsguy.intro
+      linia: 4
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh great, another customer. As if I didn't have enough to deal with already, what with the paperwork, and the heat, and the mule bites, and someone keeps stealing my lunch out of the employee icebox, and my trick knuckle is acting up again...
+      pl: O, świetnie, kolejny klient. Jakbym już nie miał dość na głowie z papierkową robotą, upałem i ugryzieniami mułów, a do tego ktoś ciągle kradnie mój obiad z pracowniczej lodówki i ten przeklęty knykieć znowu mi dokucza...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e03789129163ef8bffae
+      kontekst: data.json:scripts.fort7_complaintsguy.intro
+      linia: 5
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh...
+      pl: Rany...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_570fdef8f0895889792e
+      kontekst: data.json:scripts.fort7_complaintsguy.intro
+      linia: 6
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure would be nice to get a little peace and quiet, but nope, I've gotta stand here at this counter all day, and the hardwood floor isn't helping my sciatica, let me tell you. Don't even get me started on what they pay us around here, the mules eat better than I do.
+      pl: Miło byłoby zaznać ciszy i spokoju, ale nie — muszę cały dzień stać przy ladzie, a drewniana podłoga nie pomaga mojej rwie kulszowej. O płacy nawet nie zaczynajmy; muły jedzą lepiej ode mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_34b3b979089e206a4c91
+      kontekst: data.json:scripts.fort7_complaintsguy.intro2
+      linia: 9
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And if all <i>that</i> wasn't bad enough, I went and dropped my daughter's birthday present down a stupid hole at a stupid mine. And will anyone go and get it for me? Ha ha, yeah right.
+      pl: Jakby <i>tego</i> było mało, upuściłem prezent urodzinowy córki do głupiej dziury w głupiej kopalni. I czy ktoś zechce mi go przynieść? Ha, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5fa031d33c0d441904ac
+      kontekst: data.json:scripts.fort7_complaintsguy.intro2
+      linia: 10
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you mean this bracelet?
+      pl: Masz na myśli tę bransoletkę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_35d135744759f0b8ac29
+      kontekst: data.json:scripts.fort7_complaintsguy.yes
+      linia: 12
+      sekcja_skryptu: 'yes'
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow! Thanks a bundle! It's a real tragedy that there are so few selfless and kind-hearted people like you in the world, willing to do a hugely dangerous favor for a total stranger without any expectation of a reward.
+      pl: Wow! Wielkie dzięki! Prawdziwa tragedia, że na świecie jest tak mało bezinteresownych, dobrych ludzi jak ty, gotowych zrobić ogromną, niebezpieczną przysługę kompletnemu obcemu bez oczekiwania nagrody.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2585944ef42f5f1e56e1
+      kontekst: data.json:scripts.fort7_complaintsguy.yes
+      linia: 13
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah. Sure.
+      pl: Ta. Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_ce4d318070a9ca8e6625
+      kontekst: data.json:scripts.fort7_complaintsguy.intro2
+      linia: 14
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You want me to go get it?
+      pl: Chcesz, żebym poszedł to zabrać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: wol_b942d09f2c9c319d7334
+      kontekst: data.json:scripts.fort7_complaintsguy.takequest
+      linia: 16
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: What, really? Did a miracle just occur? I can hardly believe it.
+      pl: Co, naprawdę? Czy właśnie nastąpił cud? Ledwo w to wierzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1cdb93f96224e8458e6
+      kontekst: data.json:scripts.fort7_complaintsguy.takequest
+      linia: 17
+      sekcja_skryptu: takequest
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Where did you lose it?
+      pl: Gdzie to zgubiłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c517daa6eeb3ac583604
+      kontekst: data.json:scripts.fort7_complaintsguy.takequest
+      linia: 18
+      sekcja_skryptu: takequest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, not far from here. A place called Deepest Delve Mine.
+      pl: O, niedaleko stąd. Miejsce zwane Kopalnią Najgłębszego Zejścia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1cd1287045a0fd77a5c4
+      kontekst: data.json:scripts.fort7_complaintsguy.takequest
+      linia: 19
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I was looking to scavenge some free string to tie up the package with, and I dropped it. And <i>of course</i> because it's a bracelet it's round, so <i>of course</i> it rolls into a hole under some kind of stupid machine. Ugh!
+      pl: Szukałem jakiegoś darmowego sznurka do przewiązania paczki i ją upuściłem. I <i>oczywiście</i>, skoro to bransoletka, jest okrągła, więc <i>oczywiście</i> wturlała się w dziurę pod jakąś głupią maszyną. Ech!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca519562e3870c22e34d
+      kontekst: data.json:scripts.fort7_complaintsguy.takequest
+      linia: 20
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll check it out.
+      pl: Okej, sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_a3a8089aa05ee8b43b65
+      kontekst: data.json:scripts.fort7_complaintsguy.intro2
+      linia: 21
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay well, good luck with that, bye.
+      pl: No cóż, powodzenia z tym, pa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest
+    wpisy:
+    - id: wol_2251369fef670b0569cd
+      kontekst: data.json:scripts.fort7_complaintsguy.checkquest
+      linia: 22
+      sekcja_skryptu: checkquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you find my daughter's bracelet yet?
+      pl: Znalazłeś już bransoletkę mojej córki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_79608aad0f588edeb5db
+      kontekst: data.json:scripts.fort7_complaintsguy.checkquest
+      linia: 24
+      sekcja_skryptu: checkquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that stinks. I mean thanks anyway. But that's about what I expected. Why do I even ask?
+      pl: No, śmierdzi. To znaczy i tak dzięki. Ale mniej więcej tego się spodziewałem. Po co w ogóle pytam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94398ae60d2b5636d80a
+      kontekst: data.json:scripts.fort7_complaintsguy.checkquest
+      linia: 25
+      sekcja_skryptu: checkquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his complaining
+      pl: Zostaw go przy jego narzekaniu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gotit
+    wpisy:
+    - id: wol_c3abbdac5a2812e0a7e6
+      kontekst: data.json:scripts.fort7_complaintsguy.gotit
+      linia: 26
+      sekcja_skryptu: gotit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, I found it.
+      pl: Tak, znalazłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1504
+  skrypt: fort7_features
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bd580c164d83495331ed
+      kontekst: data.json:scripts.fort7_features.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It lists a bunch of features you can pay extra for when renting a mule.
+      pl: Wymienia masę dodatków, za które możesz dopłacić przy wynajmie muła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3a3295fd4b76bab85355
+      kontekst: data.json:scripts.fort7_features.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Such as?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_159664e76047a0eb36f7
+      kontekst: data.json:scripts.fort7_features.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%fort7_mulefeatures%'
+      pl: '%fort7_mulefeatures%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%fort7_mulefeatures%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f5e10c08729b808a7a8
+      kontekst: data.json:scripts.fort7_features.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What else?
+      pl: Co jeszcze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1505
+  skrypt: fort7_rentaldude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 21
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9590059e99d8c4f4c860
+      kontekst: data.json:scripts.fort7_rentaldude.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like this is where you go to rent a mule. Just judging from the sign, you know.
+      pl: Wygląda na to, że tu wynajmuje się muły. Sądząc po tablicy, wiesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_257c384745b7f750412d
+      kontekst: data.json:scripts.fort7_rentaldude.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, welcome to Alamo Rent-a-Mule. How can I help you?
+      pl: Witaj w Wypożyczalni Mułów Alamo. W czym mogę pomóc?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_616fbf12e4500ae1758d
+      kontekst: data.json:scripts.fort7_rentaldude.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'd like to rent a mule.
+      pl: Chciałbym wypożyczyć muła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rent
+    wpisy:
+    - id: wol_13669a576208ffce54b0
+      kontekst: data.json:scripts.fort7_rentaldude.rent
+      linia: 5
+      sekcja_skryptu: rent
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't you have a horse? What do you need a mule for, if I may ask?
+      pl: Nie masz konia? Po co ci muł, jeśli można wiedzieć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e25013866128992394b8
+      kontekst: data.json:scripts.fort7_rentaldude.rent
+      linia: 6
+      sekcja_skryptu: rent
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, it's not for me. I'm picking one up for someone else.
+      pl: Och, to nie dla mnie. Odbieram go dla kogoś innego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_276faf15a6044303b21b
+      kontekst: data.json:scripts.fort7_rentaldude.rent
+      linia: 7
+      sekcja_skryptu: rent
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, all right then! That will be 1500 Meat.
+      pl: Ach, no dobrze! To będzie 1500 sztuk Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_903fe4a7249b76b2ccce
+      kontekst: data.json:scripts.fort7_rentaldude.opts
+      linia: 8
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Whoa Nelly! Why is it so expensive?
+      pl: Wow Nelly! Czemu tak drogo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ask
+    wpisy:
+    - id: wol_7f6d8b5810d4cff8eb12
+      kontekst: data.json:scripts.fort7_rentaldude.ask
+      linia: 10
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a lifetime contract. The rental business isn't what it used to be, so we've made some changes to our business model.
+      pl: To umowa dożywotnia. Wynajem nie jest już tym, czym kiedyś, więc trochę zmieniliśmy model biznesowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_15805e1f906b58b9c157
+      kontekst: data.json:scripts.fort7_rentaldude.ask
+      linia: 11
+      sekcja_skryptu: ask
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I suppose technically we should change the name to Alamo Buy-a-Mule, but we'd have to change all our branding. And you can't really re-brand a mule, they're too wary after the first time.
+      pl: Pewnie formalnie powinniśmy zmienić nazwę na Alamo Kup-Muła, ale trzeba by zmienić cały branding. A muła nie bardzo da się prze-brandować — po pierwszym wypalaniu znaku robią się zbyt czujne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_f413d98a20a5ad160801
+      kontekst: data.json:scripts.fort7_rentaldude.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy the contract [1,500 Meat]
+      pl: Kup kontrakt [1 500 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[1,500 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy
+    wpisy:
+    - id: wol_c2c84b3b8edc2f43f949
+      kontekst: data.json:scripts.fort7_rentaldude.buy
+      linia: 13
+      sekcja_skryptu: buy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! Here's your contract-slash-certificate of title.
+      pl: Świetnie! Oto twoja umowa-łamane-przez-świadectwo własności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c95dee4ade9288b54b90
+      kontekst: data.json:scripts.fort7_rentaldude.buy
+      linia: 14
+      sekcja_skryptu: buy
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks, I guess. Can you have to mule delivered to Fort Unnecessary, to the south?
+      pl: No dobra, dzięki. Możesz kazać dostarczyć muła do Posterunku Zbędnego, na południu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_690785cf45dbaf10baa5
+      kontekst: data.json:scripts.fort7_rentaldude.buy
+      linia: 15
+      sekcja_skryptu: buy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No problem! Thanks for choosing Alamo Rent-a-Mule, and please remember us for all your future mule needs!
+      pl: Nie ma problemu! Dziękujemy za wybranie Alamo Rent-a-Mule i prosimy pamiętać o nas przy wszystkich przyszłych potrzebach związanych z mułami!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4fb3b70c84626f816d85
+      kontekst: data.json:scripts.fort7_rentaldude.buy
+      linia: 16
+      sekcja_skryptu: buy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sure.
+      pl: Ta, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_88bc03f5ad49f74d755b
+      kontekst: data.json:scripts.fort7_rentaldude.opts
+      linia: 17
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy the contract [Requires 1,500 Meat]
+      pl: Kup umowę [Wymaga 1500 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 1,500 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_616fbf12e4500ae1758d
+      kontekst: data.json:scripts.fort7_rentaldude.start
+      linia: 19
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'd like to rent a mule.
+      pl: Chciałbym wypożyczyć muła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_29a3ed4b9d868c7fc1a7
+      kontekst: data.json:scripts.fort7_rentaldude.no
+      linia: 21
+      sekcja_skryptu: 'no'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Excuse me, but didn't you ride up here on a horse?
+      pl: Przepraszam, ale czy nie przyjechałeś tu konno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18ef0f4ee9cb0d6170f6
+      kontekst: data.json:scripts.fort7_rentaldude.no
+      linia: 23
+      sekcja_skryptu: 'no'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So what do you need a mule for?
+      pl: Po co ci więc muł?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be77a95eb97db1d9c607
+      kontekst: data.json:scripts.fort7_rentaldude.no
+      linia: 24
+      sekcja_skryptu: 'no'
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I guess you have a point.
+      pl: Chyba masz rację.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f07197ae17ced369ff4
+      kontekst: data.json:scripts.fort7_rentaldude.no
+      linia: 25
+      sekcja_skryptu: 'no'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Please remember us in the future if your horse breaks down, though.
+      pl: Pamiętaj jednak o nas w przyszłości, jeśli zepsuje ci się koń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a5c8f05125684cc8b42f
+      kontekst: data.json:scripts.fort7_rentaldude.start
+      linia: 27
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You can't, never mind.
+      pl: Nie możesz, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1559
+  skrypt: ghosttown1_knock1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: whiskeycancel
+    wpisy:
+    - id: wol_4fb3b70c84626f816d85
+      kontekst: data.json:scripts.ghosttown1_knock1.whiskeycancel
+      linia: 25
+      sekcja_skryptu: whiskeycancel
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, sure.
+      pl: Ta, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000116
+  skrypt: house_ghost_pantry
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talkpants
+    wpisy:
+    - id: wol_be77a95eb97db1d9c607
+      kontekst: house.json:scripts.house_ghost_pantry.talkpants
+      linia: 20
+      sekcja_skryptu: talkpants
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I guess you have a point.
+      pl: Chyba masz rację.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2190
+  skrypt: ranch2_hippy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: gethat2
+    wpisy:
+    - id: wol_ca519562e3870c22e34d
+      kontekst: data.json:scripts.ranch2_hippy2.gethat2
+      linia: 47
+      sekcja_skryptu: gethat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll check it out.
+      pl: Okej, sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

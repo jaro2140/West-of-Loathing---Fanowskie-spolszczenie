@@ -1,0 +1,1160 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: alexandria_ranch
+zrodlowy_batch: 099_dialog_loc_ranch4_alexandria_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 17
+liczba_wpisow: 63
+sceny:
+- kolejnosc_w_danych_gry: 2206
+  skrypt: ranch4_alexandria
+  pomieszczenie: &id001
+    id: ranch4
+    nazwa_en: Alexandria Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 24
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_3ec54ad7dd902904f6ed
+      kontekst: data.json:scripts.ranch4_alexandria.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello again. How nice of you to visit me in the splinters of my beautiful home.
+      pl: Witaj ponownie. Miło, że odwiedzasz mnie wśród drzazg mojego pięknego domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbcb64df16c5cf0ef29a
+      kontekst: data.json:scripts.ranch4_alexandria.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I had an idea. You could move to Dirtwater.
+      pl: Mam pomysł. Mogłabyś przeprowadzić się do Dirtwater.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dirtwater
+    wpisy:
+    - id: wol_5f7751d9a9dae13fd5a2
+      kontekst: data.json:scripts.ranch4_alexandria.dirtwater
+      linia: 4
+      sekcja_skryptu: dirtwater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sounds charming.
+      pl: Brzmi uroczo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b69347a5273b3a2c7fca
+      kontekst: data.json:scripts.ranch4_alexandria.dirtwater
+      linia: 5
+      sekcja_skryptu: dirtwater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's plenty of space there, and they could use a library or bookstore or something.
+      pl: Jest tam mnóstwo miejsca, a przydałaby im się biblioteka, księgarnia czy coś takiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ed2a27886ef70f20749
+      kontekst: data.json:scripts.ranch4_alexandria.dirtwater
+      linia: 6
+      sekcja_skryptu: dirtwater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mmm. Okay. I suppose it's better than living in a crater. And some of these volumes look salvageable. <i>sigh.</i> All right, I'll head there directly.
+      pl: Mmm. Dobrze. Chyba to lepsze niż mieszkanie w kraterze. A niektóre z tych tomów wyglądają na możliwe do uratowania. <i>westchnienie.</i> Dobrze, ruszę tam natychmiast.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_4a22ad8add912490f7e3
+      kontekst: data.json:scripts.ranch4_alexandria.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hi. Just passing through.
+      pl: Cześć. Tylko przechodzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_c739bd0ba08a0d2ed01a
+      kontekst: data.json:scripts.ranch4_alexandria.start2
+      linia: 9
+      sekcja_skryptu: start2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What in the hell just happened? What did you do?
+      pl: Co się właśnie stało? Co zrobiłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7ad69870da3543003cdf
+      kontekst: data.json:scripts.ranch4_alexandria.start2
+      linia: 10
+      sekcja_skryptu: start2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Saved your life. Don't mention it. All in a day's work.
+      pl: Uratowałem ci życie. Nie ma za co. Zwykły dzień pracy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9b8b4fa8ac32af81f49
+      kontekst: data.json:scripts.ranch4_alexandria.start2
+      linia: 11
+      sekcja_skryptu: start2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Where's my house?!</i>
+      pl: <i>Gdzie jest mój dom?!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fort
+    wpisy:
+    - id: wol_d80c9fd43ae226cf3ff8
+      kontekst: data.json:scripts.ranch4_alexandria.fort
+      linia: 12
+      sekcja_skryptu: fort
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The nearby army fort shelled you for some reason.
+      pl: Z jakiegoś powodu ostrzelał cię pobliski fort wojskowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4538e6af1140e6b687c2
+      kontekst: data.json:scripts.ranch4_alexandria.fort
+      linia: 13
+      sekcja_skryptu: fort
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>What?</i> Why would they do that?
+      pl: <i>Co?</i> Dlaczego mieliby to zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3c784d4d7ac611eee80d
+      kontekst: data.json:scripts.ranch4_alexandria.fort
+      linia: 14
+      sekcja_skryptu: fort
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: When I say "for some reason" I mean that I don't know what that reason was.
+      pl: Kiedy mówię "z jakiegoś powodu" mam na myśli, że nie wiem, co to był za powód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: next
+    wpisy:
+    - id: wol_6ccb340fbcf59a019690
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 17
+      sekcja_skryptu: next
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... but... How am I alive?
+      pl: Cóż... ale... Jakim cudem żyję?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb622caf941e157a8164
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 18
+      sekcja_skryptu: next
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I happened to see you through a time rift and pulled you through just before the explosion. Don't ask me to explain that.
+      pl: Przypadkiem zobaczyłam cię przez szczelinę czasową i przeciągnęłam tuż przed wybuchem. Nie proś, żebym to wyjaśniała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0d9ac57d2397d16b010
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 19
+      sekcja_skryptu: next
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: O...kay...
+      pl: No... dobrze...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0114da60c22903e4aab4
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 20
+      sekcja_skryptu: next
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Also you're probably a couple years out of date. How long has it been for you since the cows came home?
+      pl: Poza tym masz pewnie parę lat zaległości. Ile czasu minęło u ciebie, odkąd Krowy Wróciły do Domu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c49f5c8169b548d1edf
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 21
+      sekcja_skryptu: next
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Since the what now?
+      pl: Od czasu czego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_407dd5020e9aa97ecee0
+      kontekst: data.json:scripts.ranch4_alexandria.next
+      linia: 22
+      sekcja_skryptu: next
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hoo-boy, you have a lot of catching up to do.
+      pl: Uff, masz sporo do nadrobienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: next2
+    wpisy:
+    - id: wol_7175dbd864fcd69acbc5
+      kontekst: data.json:scripts.ranch4_alexandria.next2
+      linia: 24
+      sekcja_skryptu: next2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I can't do it in this pile of rubble! What am I going to do? Oh, all my lovely books...
+      pl: Nie mogę tego zrobić w tej stercie gruzu! Co mam zrobić? Wszystkie moje piękne książki...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a9e9c0870c5ecae0c38
+      kontekst: data.json:scripts.ranch4_alexandria.next2
+      linia: 25
+      sekcja_skryptu: next2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll let you know if I think of anything. Good luck.
+      pl: Dam ci znać, jak coś wymyślę. Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a93f41edb6366f3b0c9
+      kontekst: data.json:scripts.ranch4_alexandria.next2
+      linia: 26
+      sekcja_skryptu: next2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, well, speaking of books, there's a town called Dirtwater...
+      pl: Hmm, skoro mowa o książkach, jest miasteczko Dirtwater...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fortknow
+    wpisy:
+    - id: wol_5c52cae14d56cee6ccbb
+      kontekst: data.json:scripts.ranch4_alexandria.fortknow
+      linia: 27
+      sekcja_skryptu: fortknow
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: As best as I can work out, the commander of the nearby army fort got cabin fever and went on a paranoid rampage. You just happened to be in range of their guns.
+      pl: O ile potrafię ustalić, dowódca pobliskiego fortu dostał szału od zamknięcia i wpadł w paranoidalny amok. Akurat znalazłeś się w zasięgu dział.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_79a4a6d28df9f0749e29
+      kontekst: data.json:scripts.ranch4_alexandria.fortknow
+      linia: 28
+      sekcja_skryptu: fortknow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So that's what that soldier was trying to warn me about. I assumed he meant goblins or something.
+      pl: Czyli przed tym próbował ostrzec mnie tamten żołnierz. Myślałam, że chodziło mu o gobliny czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dunno
+    wpisy:
+    - id: wol_fbb168ad1f5f1620d3b1
+      kontekst: data.json:scripts.ranch4_alexandria.dunno
+      linia: 30
+      sekcja_skryptu: dunno
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It seems to have exploded. I don't actually know how that happened.
+      pl: Chyba eksplodowało. Właściwie nie wiem, jak do tego doszło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2207
+  skrypt: ranch4_bookshelf1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_718bc72162ee82f0bd36
+      kontekst: data.json:scripts.ranch4_bookshelf1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This used to be an undestroyed bookshelf, but not anymore.
+      pl: Kiedyś to była nienaruszona biblioteczka, ale już nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4001f31561f8d3a1f41
+      kontekst: data.json:scripts.ranch4_bookshelf1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Scavenge
+      pl: Przeszukaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv
+    wpisy:
+    - id: wol_6cbc4912df5e9ff216e2
+      kontekst: data.json:scripts.ranch4_bookshelf1.inv
+      linia: 3
+      sekcja_skryptu: inv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A small diary is the only legible thing left on this shelf.
+      pl: Mały pamiętnik to jedyne czytelne, co zostało na tej półce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2208
+  skrypt: ranch4_bookshelf2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_adfc20dbd90d2dec6537
+      kontekst: data.json:scripts.ranch4_bookshelf2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A mostly-destroyed bookshelf.
+      pl: Regał w większości zniszczony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv
+    wpisy:
+    - id: wol_13a45dd6f22bcde59008
+      kontekst: data.json:scripts.ranch4_bookshelf2.inv
+      linia: 3
+      sekcja_skryptu: inv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to extract one non-destroyed book from the collection.
+      pl: Udaje ci się wydobyć jedną nie zniszczoną książkę z kolekcji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2209
+  skrypt: ranch4_burntbooks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c2845aa5fbae4cc585af
+      kontekst: data.json:scripts.ranch4_burntbooks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a heap of smoldering books.
+      pl: To stos tlejących książek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_70115cccf0201f345ab2
+      kontekst: data.json:scripts.ranch4_burntbooks.dig
+      linia: 3
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The books are wrecked.  The volumes are ruined.  The tomes are kaput.
+      pl: Książki zniszczone. Tomy zrujnowane. Folianty kaput.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getbook
+    wpisy:
+    - id: wol_7c91671a4b4f2c2fc526
+      kontekst: data.json:scripts.ranch4_burntbooks.getbook
+      linia: 4
+      sekcja_skryptu: getbook
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to find... part of the overdue book from the Breadwood library.
+      pl: Udaje ci się znaleźć... część przeterminowanej książki z biblioteki Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2210
+  skrypt: ranch4_cannonball
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3f6d34ad9a54e4bcece2
+      kontekst: data.json:scripts.ranch4_cannonball.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's half a cannonball. (The front half.)
+      pl: To połowa kuli armatniej. (Przednia połowa.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2211
+  skrypt: ranch4_cannonball2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_babee0f58df72ebd355a
+      kontekst: data.json:scripts.ranch4_cannonball2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the cannonball and inspect it. There's an inscription that you can mostly read...
+      pl: Podnosisz kulę armatnią i oglądasz ją. Jest napis, który w większości możesz odczytać...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ede71c6a3153dd42bb76
+      kontekst: data.json:scripts.ranch4_cannonball2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It says the cannonball came from Fort Treason, and it's got the address stamped right onto the surface!
+      pl: Napis mówi, że kula armatnia pochodzi z Posterunku Zdrajców, a adres jest wybity prosto na powierzchni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_031d2eacefd3789328b7
+      kontekst: data.json:scripts.ranch4_cannonball2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bombardment was done by the Army!
+      pl: Ten ostrzał zrobiła Armia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_89fdf649ba5f0597ecab
+      kontekst: data.json:scripts.ranch4_cannonball2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The horror...
+      pl: Horror...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2212
+  skrypt: ranch4_case1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c3557d02b08ed5b040aa
+      kontekst: data.json:scripts.ranch4_case1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This locked case contains a book labeled "The Greatest Love Poem Ever Written."
+      pl: Ta zamknięta szafka zawiera książkę z etykietą „The Greatest Love Poem Ever Written”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_6b6e778a92329a3b56df
+      kontekst: data.json:scripts.ranch4_case1.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make short work of the lock and grab the book.
+      pl: Szybko otwierasz zamek i chwytasz książkę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2213
+  skrypt: ranch4_case2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8ba174ad06893b63922e
+      kontekst: data.json:scripts.ranch4_case2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This locked case contains a book labeled "Rich Vein, Poor Vein."
+      pl: Ta zamknięta szafka zawiera książkę z etykietą „Rich Vein, Poor Vein”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_6b6e778a92329a3b56df
+      kontekst: data.json:scripts.ranch4_case2.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make short work of the lock and grab the book.
+      pl: Szybko otwierasz zamek i chwytasz książkę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2214
+  skrypt: ranch4_case3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_167a097e7710cf6377c4
+      kontekst: data.json:scripts.ranch4_case3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This locked case contains a book labeled "Gold Medal Silversmithing."
+      pl: Ta zamknięta szafka zawiera książkę z etykietą „Gold Medal Silversmithing”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_6b6e778a92329a3b56df
+      kontekst: data.json:scripts.ranch4_case3.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make short work of the lock and grab the book.
+      pl: Szybko otwierasz zamek i chwytasz książkę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2215
+  skrypt: ranch4_cowencounter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c7cbb7536f61282e5c0d
+      kontekst: data.json:scripts.ranch4_cowencounter.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no way past these cows except through these cows.
+      pl: Nie przejdziesz obok tych krów — tylko przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_9bca1dc019bdcd4628e9
+      kontekst: data.json:scripts.ranch4_cowencounter.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You insisted that those little dogies git along.
+      pl: Nalegałeś, żeby te małe krowki poszły dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de34deddd197f678aabc
+      kontekst: data.json:scripts.ranch4_cowencounter.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cows with your trusty knife.
+      pl: Obdzierasz krowy swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_78ad7e4c6a03701a3834
+      kontekst: data.json:scripts.ranch4_cowencounter.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You got cowed.
+      pl: Zostałeś skrowiony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2217
+  skrypt: ranch4_notice
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cce500803a36d51bda22
+      kontekst: data.json:scripts.ranch4_notice.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow.  This place has really been blown to pieces.
+      pl: Wow. To miejsce naprawdę zostało rozwalone.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2218
+  skrypt: ranch4_shelf1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c3ff13046e469c93fde4
+      kontekst: data.json:scripts.ranch4_shelf1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Books, books, books!
+      pl: Książki, książki, książki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_737f2149fcb14ae75949
+      kontekst: data.json:scripts.ranch4_shelf1.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You choose the book with the most sensational-sounding title.
+      pl: Wybierasz książkę z najbardziej sensacyjnym tytułem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2219
+  skrypt: ranch4_shelf2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_86f368001eb849e01848
+      kontekst: data.json:scripts.ranch4_shelf2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Books, books, and more books.
+      pl: Książki, książki i jeszcze więcej książek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_8f415f574101d7bb799b
+      kontekst: data.json:scripts.ranch4_shelf2.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the one that looks the most relevant to your experience.
+      pl: Bierzesz ten, który najbardziej pasuje do twojego doświadczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2220
+  skrypt: ranch4_shelf3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_117e0f12a97600e92b36
+      kontekst: data.json:scripts.ranch4_shelf3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Books and books and books.
+      pl: Książki, książki i książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_653b8d97199e69966ca6
+      kontekst: data.json:scripts.ranch4_shelf3.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the one that looks the most interesting.
+      pl: Bierzesz ten, który wygląda najciekawiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2221
+  skrypt: ranch4_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_600828f687df4e39eaf4
+      kontekst: data.json:scripts.ranch4_timerift.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a woman browsing through a book as she strolls along a garden path. There is a booming noise in the distance, and she looks up.
+      pl: Widzisz kobietę przeglądającą książkę podczas spaceru ścieżką ogrodową. W oddali dobiega huk, a ona podnosi wzrok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_19d5bad3ce0c5491357e
+      kontekst: data.json:scripts.ranch4_timerift.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a burst of static, and the scene repeats.
+      pl: Rozlega się trzask, a scena powtarza się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32f9f0c1d9a889861e4a
+      kontekst: data.json:scripts.ranch4_timerift.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab her arm and pull her through
+      pl: Chwyć ją za rękę i wciągnij
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grab
+    wpisy:
+    - id: wol_3cd0d60827be0761d024
+      kontekst: data.json:scripts.ranch4_timerift.grab
+      linia: 5
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab her arm and pull her through.
+      pl: Chwytasz ją za rękę i przeciągasz ją przez szczelinę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_453c829b37740c54a587
+      kontekst: data.json:scripts.ranch4_timerift.grab
+      linia: 6
+      sekcja_skryptu: grab
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What the-- <i>what?</i>
+      pl: Co... <i>co?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e977971cfb03833f098c
+      kontekst: data.json:scripts.ranch4_timerift.grab
+      linia: 7
+      sekcja_skryptu: grab
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Quite a rescue!
+      pl: Niezły ratunek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2222
+  skrypt: ranch4_vaultdoor
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eecd02b0c2b97943b3a2
+      kontekst: data.json:scripts.ranch4_vaultdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a solid steel vault door.
+      pl: To solidne stalowe drzwi do skarbca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c309785096064ddb0500
+      kontekst: data.json:scripts.ranch4_vaultdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Place the targeting flare
+      pl: Umieść flarę namierzającą
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2313
+  skrypt: re_cowc1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_de34deddd197f678aabc
+      kontekst: data.json:scripts.re_cowc1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cows with your trusty knife.
+      pl: Obdzierasz krowy swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

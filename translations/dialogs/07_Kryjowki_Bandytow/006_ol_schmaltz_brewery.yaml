@@ -1,0 +1,1859 @@
+schema_version: 1
+dzial:
+  numer: '07'
+  nazwa: Kryjowki_Bandytow
+grupa_lokacji_lub_systemu: ol_schmaltz_brewery
+zrodlowy_batch: 029_dialog_loc_bandit7_ol_schmaltz_brewery.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 38
+liczba_wpisow: 96
+sceny:
+- kolejnosc_w_danych_gry: 145
+  skrypt: bandit7_beast
+  pomieszczenie: &id001
+    id: bandit7
+    nazwa_en: Ol' Schmaltz Brewery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba3308910e18949a220d
+      kontekst: data.json:scripts.bandit7_beast.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of crazy yeast monster has apparently broken loose from the vats and eaten some of the bandits! I guess they brewed up something they couldn't put down.  They could barley control it!  You'll have to hop to it if you want to prevail, here.
+      pl: Jakiś szalony drożdżowy potwór najwyraźniej uwolnił się z kadzi i zjadł część bandytów! Chyba uwarzyli coś, czego nie mogli oprzeć. Ledwo mogli to opanować! Musisz się zebrać, jeśli chcesz tu zwyciężyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51e055f776ca83acabfb
+      kontekst: data.json:scripts.bandit7_beast.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dive in [Fight]
+      pl: Wskocz [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_801253eb48a725b43d62
+      kontekst: data.json:scripts.bandit7_beast.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat the yeast beast to a pulp.
+      pl: Rozbijasz drożdżowego potwora na papkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_cc0a9358409d7ee9c9da
+      kontekst: data.json:scripts.bandit7_beast.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your goose got greased by that pile of yeast.
+      pl: Twój gęsior został posmarowany tą stertą drożdży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_0d89cbbf090afb347299
+      kontekst: data.json:scripts.bandit7_beast.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: To say the least!
+      pl: Delikatnie mówiąc!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 146
+  skrypt: bandit7_beastpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_421f81faf93a83277cf5
+      kontekst: data.json:scripts.bandit7_beastpile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The remains of the horrible yeast beast. I guess you could take some back to the mayor? It's probably still good, right?
+      pl: Szczątki okropnej bestii drożdżowej. Możesz zabrać trochę burmistrzowi? Pewnie jeszcze dobre, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3c60d89afa186cd3bb4
+      kontekst: data.json:scripts.bandit7_beastpile.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_7c5f0c49829d7b9a8aec
+      kontekst: data.json:scripts.bandit7_beastpile.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You plop a big ol' glob of yeast into your pack.
+      pl: Wciskasz wielką bryłę drożdży do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 147
+  skrypt: bandit7_beershelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_440fa469bf9735add6f4
+      kontekst: data.json:scripts.bandit7_beershelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are three cans of beer left.
+      pl: Zostały trzy puszki piwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_2b2bd336d2b441399413
+      kontekst: data.json:scripts.bandit7_beershelf.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Three cans of beer on the wall, three cans of beer! Take them all down and put them in your bag, instead of singing the rest of this song about beer!
+      pl: Trzy puszki piwa na ścianie, trzy puszki piwa! Zdejmij je wszystkie i włóż do torby, zamiast śpiewać resztę tej piosenki o piwie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 148
+  skrypt: bandit7_brewerguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8bf00880d944b6f6eae1
+      kontekst: data.json:scripts.bandit7_brewerguy.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, this whole yeast-theft biz doesn't seem to have gone well for you guys.
+      pl: Czyli cała ta kradzież drożdży niespecjalnie wam się udała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b78ed45645d3d9b6380
+      kontekst: data.json:scripts.bandit7_brewerguy.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, no. I... oh jeez, are you a bounty hunter?
+      pl: Tak, nie. Jesteś łowcą nagród?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_756f321a8f62cfcd59bd
+      kontekst: data.json:scripts.bandit7_brewerguy.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Relax. The mayor just wants his yeast back, he didn't say anything about hauling you in.
+      pl: Spokojnie. Burmistrz chce tylko odzyskać drożdże, nic nie mówił o aresztowaniu cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_11daeae7279dc9c8b90c
+      kontekst: data.json:scripts.bandit7_brewerguy.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whew. Okay, well, the yeast is in that revolting pile.
+      pl: Uff. Drożdże są w tym odrażającym stosie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b337306dc8c58a047f61
+      kontekst: data.json:scripts.bandit7_brewerguy.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So what happened here?
+      pl: Co tu się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_b3d00c259925f413e30f
+      kontekst: data.json:scripts.bandit7_brewerguy.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, we got bored of bread, is all. I know a bit about brewing, and we figured if we came back with a couple kegs, nobody would mind so much that we stole the yeast.
+      pl: Znudził nam się po prostu chleb. Wiem trochę o warzeniu piwa, więc pomyśleliśmy, że jak wrócimy z kilkoma beczkami, nikt nie będzie miał nic przeciwko temu, że ukradliśmy drożdże.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2bbb5197e648a30e47cd
+      kontekst: data.json:scripts.bandit7_brewerguy.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No offense, but it seems like you aren't much of a brewer.
+      pl: Bez urazy, ale chyba marny z ciebie piwowar.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_deafd6796b645c95b6cf
+      kontekst: data.json:scripts.bandit7_brewerguy.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey!
+      pl: Hej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52152240fd6f08618f06
+      kontekst: data.json:scripts.bandit7_brewerguy.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, ideally...
+      pl: No, idealnie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_cd1bb703345bf57bdbde
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 11
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, ideally you wouldn't end up with a ravenous yeast monster.
+      pl: Najlepiej, żebyś nie skończył z głodnym potworem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6867fd15e075989c5785
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That wasn't my... okay, well, I guess it <i>was</i> my fault, but I understand what happened. These vats are old, and we didn't clean them properly first, because we were in a hurry. I think there were some frogs living in one of them.
+      pl: To nie była moja... dobra, chyba jednak <i>była</i> moja wina, ale już wiem, co się stało. Te kadzie są stare, a że się spieszyliśmy, nie wyczyściliśmy ich wcześniej jak należy. Chyba w jednej mieszkały żaby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8791730a28d58edfb92e
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 13
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And you figured you could use the extra hops? Ha ha.
+      pl: I uznałeś, że przyda ci się więcej chmielu? Ha, ha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 14
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4071268648cccedbb006
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 15
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: If you're sure you've got it figured out...
+      pl: Jeśli jesteś pewien, że to ogarnąłeś...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dirtwater
+    wpisy:
+    - id: wol_476f88803181f0f3223c
+      kontekst: data.json:scripts.bandit7_brewerguy.dirtwater
+      linia: 16
+      sekcja_skryptu: dirtwater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: If you're sure you've got it figured out, you could set up shop in Dirtwater.
+      pl: Jeśli na pewno już to rozgryzłeś, mógłbyś otworzyć interes w Dirtwater.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.bandit7_brewerguy.dirtwater
+      linia: 17
+      sekcja_skryptu: dirtwater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b9521e841017129fe10
+      kontekst: data.json:scripts.bandit7_brewerguy.dirtwater
+      linia: 18
+      sekcja_skryptu: dirtwater
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, it's turning into quite a little metropolis.
+      pl: Tak, zmienia się w małą metropolię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_446b93b917759d4461de
+      kontekst: data.json:scripts.bandit7_brewerguy.dirtwater
+      linia: 19
+      sekcja_skryptu: dirtwater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'd love to have my own place. Okay, I'll go check it out!
+      pl: Chciałbym mieć własny kąt. Dobra, pójdę to sprawdzić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_928da46a24cec095313c
+      kontekst: data.json:scripts.bandit7_brewerguy.dirtwater
+      linia: 20
+      sekcja_skryptu: dirtwater
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_f80598d639c9b1b223e0
+      kontekst: data.json:scripts.bandit7_brewerguy.three
+      linia: 21
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, be more careful next time. Bye!
+      pl: No, następnym razem uważaj. Pa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 149
+  skrypt: bandit7_cheatyeast
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c788d0260e732ecaf704
+      kontekst: data.json:scripts.bandit7_cheatyeast.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Get yeast!
+      pl: Weź drożdże!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 151
+  skrypt: bandit7_firehose
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_402590d1d85539520c6f
+      kontekst: data.json:scripts.bandit7_firehose.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It says BEER HOSE.  You're not really sure what purpose it might have served.
+      pl: 'Napis: WĄŻ PIWNY. Nie masz pojęcia, do czego mógł służyć.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idea
+    wpisy:
+    - id: wol_94e3f97ce6ce825475b7
+      kontekst: data.json:scripts.bandit7_firehose.idea
+      linia: 2
+      sekcja_skryptu: idea
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Devise a cunning plan [20 Moxie]
+      pl: Wymyśl przebiegły plan [20 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[20 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3e0cc60fc7c9863b4e07
+      kontekst: data.json:scripts.bandit7_firehose.idea
+      linia: 3
+      sekcja_skryptu: idea
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Devise a cunning plan [Requires 20 Moxie]
+      pl: Opracuj przebiegły plan [Wymaga 20 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 20 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 152
+  skrypt: bandit7_hosebeast
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4a3ddc16f54fe720b69e
+      kontekst: data.json:scripts.bandit7_hosebeast.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hose the yeast beast down with almost pure ethanol. It makes wild burbling sounds, which are probably the yeast equivalent of screams?
+      pl: Spryskujesz drożdżowego potwora prawie czystym etanolem. Wydaje dzikie bulgotanie, które pewnie jest drożdżowym odpowiednikiem krzyków?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1244b64d5a589eacf93
+      kontekst: data.json:scripts.bandit7_hosebeast.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It doesn't take long for it to stop thrashing around, and it quickly dissolves into a pile of glop. Well, it basically already was a pile of glop, but it gets even gloppier.
+      pl: Niedługo przestaje się miotać i szybko rozpływa się w stertę gluta. No, w zasadzie już była stertą gluta, ale robi się jeszcze bardziej glutowata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3e2cafbcd3fc5296e01
+      kontekst: data.json:scripts.bandit7_hosebeast.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gross
+      pl: Obleśne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 153
+  skrypt: bandit7_hosehookup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f6a4ceac90e356402671
+      kontekst: data.json:scripts.bandit7_hosehookup.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It occurs to you that you could use this hose to spray the beast down with the high-alcohol fluid in that vat. To draw a tasteful analogy, ethanol is basically yeast pee, so the beast would probably be very displeased.
+      pl: Przypada ci do głowy, że tym wężem mógłbyś spryskać bestię płynem wysokoprocentowym z tej kadzi. Delikatnie mówiąc, etanol to zasadniczo mocz drożdży, więc bestia pewnie byłaby bardzo niezadowolona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fc17e291157752bb44f
+      kontekst: data.json:scripts.bandit7_hosehookup.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Move the hose
+      pl: Przesuń wąż
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_8798f6a9bfb19257a7d8
+      kontekst: data.json:scripts.bandit7_hosehookup.doit
+      linia: 3
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unscrew the hose from the water pipe and hook it up to the vat.
+      pl: Odkręcasz wąż od rury wodnej i podłączasz go do kadzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10aeb1f86eb809542078
+      kontekst: data.json:scripts.bandit7_hosehookup.doit
+      linia: 4
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hope this works!
+      pl: Obym trafił!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_1200e6a3df76de71b771
+      kontekst: data.json:scripts.bandit7_hosehookup.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later
+      pl: Może później
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 154
+  skrypt: bandit7_notscared
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1fb5858dccd014dfc2e7
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're under arrest!
+      pl: Jesteś aresztowany!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ddc43b8d37695a552b4a
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: For what? Stealin' about two handfuls of yeast?
+      pl: Za co? Za kradzież jakichś dwóch garści drożdży?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_045521fc2af9da679e54
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Yes.'
+      pl: '...Tak.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a6a32913ac0a16b81c8
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And the sentence for that is, what, about three days in jail?
+      pl: A wyrok za to wynosi ile, jakieś trzy dni więzienia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fcad9ec799fb7b8db604
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And Breadwood does not actually <i>have</i> a jail?
+      pl: A Breadwood naprawdę <i>nie ma</i> więzienia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56fa31acf702eade196a
+      kontekst: data.json:scripts.bandit7_notscared.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, I'll let you off with a warning this time.
+      pl: Dobra, tym razem puszczę cię z ostrzeżeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 155
+  skrypt: bandit7_notscaredpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cd89b3e78c4c580cdcd5
+      kontekst: data.json:scripts.bandit7_notscaredpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now he's too grumpy to talk to you. He's just angrily muttering about yeast.
+      pl: Teraz jest zbyt zrzędliwy, żeby z tobą rozmawiać. Tylko złośliwie mamrocze o drożdżach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e403e2ef982edbee7018
+      kontekst: data.json:scripts.bandit7_notscaredpop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Arrest him
+      pl: Aresztuj go
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 156
+  skrypt: bandit7_vat1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2fca373ebbbcae1e3905
+      kontekst: data.json:scripts.bandit7_vat1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a beer vat. Or at least it's a vat. It is not guaranteed to actually contain beer.
+      pl: To kadź piwna. Albo przynajmniej kadź. Nie ma gwarancji, że faktycznie zawiera piwo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e7d76e35d15ce3b6d96
+      kontekst: data.json:scripts.bandit7_vat1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sample the contents
+      pl: Spróbuj zawartości
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: samp
+    wpisy:
+    - id: wol_3948b4ad7e601ddbdea8
+      kontekst: data.json:scripts.bandit7_vat1.samp
+      linia: 3
+      sekcja_skryptu: samp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pfffflllbbbttt!  It's almost pure ethanol!  Bleargh.
+      pl: Pfffflllbbbttt! To prawie czysty etanol! Blee.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hooked
+    wpisy:
+    - id: wol_9eb73616c5e24e9d8e18
+      kontekst: data.json:scripts.bandit7_vat1.hooked
+      linia: 4
+      sekcja_skryptu: hooked
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The fire hose is hooked up to this tank of horrible fluid.
+      pl: Wąż gaśniczy podłączony jest do tego zbiornika okropnej cieczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_38d4048edfd1470b4024
+      kontekst: data.json:scripts.bandit7_vat1.hooked
+      linia: 5
+      sekcja_skryptu: hooked
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it on!
+      pl: Włącz to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 157
+  skrypt: bandit7_yeastyhat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b9bb1fd52fb0d94715cc
+      kontekst: data.json:scripts.bandit7_yeastyhat.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That dead guy's hat got knocked off.  And covered with yeast.
+      pl: Kapelusz tego trupa spadł. I pokrył się drożdżami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_371a2c8423bcd88ea8b8
+      kontekst: data.json:scripts.bandit7_yeastyhat.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_c884cf0e0162085ab1e0
+      kontekst: data.json:scripts.bandit7_yeastyhat.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, but ew.
+      pl: Okej, ale fu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 175
+  skrypt: bandit8_mailbag
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_371a2c8423bcd88ea8b8
+      kontekst: data.json:scripts.bandit8_mailbag.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 176
+  skrypt: bandit8_nightstand
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_371a2c8423bcd88ea8b8
+      kontekst: data.json:scripts.bandit8_nightstand.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 207
+  skrypt: baronmanor_office_fireplace
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: didpoke
+    wpisy:
+    - id: wol_f3c60d89afa186cd3bb4
+      kontekst: data.json:scripts.baronmanor_office_fireplace.didpoke
+      linia: 2
+      sekcja_skryptu: didpoke
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 234
+  skrypt: beancave_bookshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_371a2c8423bcd88ea8b8
+      kontekst: data.json:scripts.beancave_bookshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 309
+  skrypt: booze_micro3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_deafd6796b645c95b6cf
+      kontekst: data.json:scripts.booze_micro3.yes
+      linia: 3
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hey!
+      pl: Hej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 342
+  skrypt: breadwood_mayor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: hub
+    wpisy:
+    - id: wol_928da46a24cec095313c
+      kontekst: data.json:scripts.breadwood_mayor.hub
+      linia: 37
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.breadwood_mayor.intro2
+      linia: 89
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: introalt
+    wpisy:
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.breadwood_mayor.introalt
+      linia: 92
+      sekcja_skryptu: introalt
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 409
+  skrypt: cemetery4_investigateshed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: inv1
+    wpisy:
+    - id: wol_371a2c8423bcd88ea8b8
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv1
+      linia: 5
+      sekcja_skryptu: inv1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab it
+      pl: Chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv2
+    wpisy:
+    - id: wol_e3e2cafbcd3fc5296e01
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv2
+      linia: 13
+      sekcja_skryptu: inv2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gross
+      pl: Obleśne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 450
+  skrypt: cemetery6_boothman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_928da46a24cec095313c
+      kontekst: data.json:scripts.cemetery6_boothman.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 469
+  skrypt: clowns_camp_conversation
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: wherehswog2
+    wpisy:
+    - id: wol_deafd6796b645c95b6cf
+      kontekst: data.json:scripts.clowns_camp_conversation.wherehswog2
+      linia: 88
+      sekcja_skryptu: wherehswog2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey!
+      pl: Hej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tellhswog1
+    wpisy:
+    - id: wol_deafd6796b645c95b6cf
+      kontekst: data.json:scripts.clowns_camp_conversation.tellhswog1
+      linia: 166
+      sekcja_skryptu: tellhswog1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey!
+      pl: Hej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 488
+  skrypt: clowns_circus_boxladytalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: howdid
+    wpisy:
+    - id: wol_045521fc2af9da679e54
+      kontekst: data.json:scripts.clowns_circus_boxladytalk.howdid
+      linia: 39
+      sekcja_skryptu: howdid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Yes.'
+      pl: '...Tak.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1058
+  skrypt: dirtwater_cactusbill
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: illlook
+    wpisy:
+    - id: wol_928da46a24cec095313c
+      kontekst: data.json:scripts.dirtwater_cactusbill.illlook
+      linia: 15
+      sekcja_skryptu: illlook
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goodluck
+    wpisy:
+    - id: wol_928da46a24cec095313c
+      kontekst: data.json:scripts.dirtwater_cactusbill.goodluck
+      linia: 19
+      sekcja_skryptu: goodluck
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your leave
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1085
+  skrypt: dirtwater_jailclerk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: finisha
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.dirtwater_jailclerk.finisha
+      linia: 54
+      sekcja_skryptu: finisha
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1150
+  skrypt: dirtwater_wantedposter3_read
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hmm
+    wpisy:
+    - id: wol_f3c60d89afa186cd3bb4
+      kontekst: data.json:scripts.dirtwater_wantedposter3_read.hmm
+      linia: 10
+      sekcja_skryptu: hmm
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1484
+  skrypt: fort6_bootsguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dirtwater2
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.fort6_bootsguy.dirtwater2
+      linia: 22
+      sekcja_skryptu: dirtwater2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1563
+  skrypt: ghosttown1_knock5
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: hitempexp
+    wpisy:
+    - id: wol_045521fc2af9da679e54
+      kontekst: data.json:scripts.ghosttown1_knock5.hitempexp
+      linia: 207
+      sekcja_skryptu: hitempexp
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Yes.'
+      pl: '...Tak.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hitempexp2
+    wpisy:
+    - id: wol_045521fc2af9da679e54
+      kontekst: data.json:scripts.ghosttown1_knock5.hitempexp2
+      linia: 208
+      sekcja_skryptu: hitempexp2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Yes.'
+      pl: '...Tak.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000047
+  skrypt: house_cellarspider3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_51e055f776ca83acabfb
+      kontekst: house.json:scripts.house_cellarspider3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dive in [Fight]
+      pl: Wskocz [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000135
+  skrypt: house_hedgemonster2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_51e055f776ca83acabfb
+      kontekst: house.json:scripts.house_hedgemonster2.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dive in [Fight]
+      pl: Wskocz [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1660
+  skrypt: inkwell_well
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f3c60d89afa186cd3bb4
+      kontekst: data.json:scripts.inkwell_well.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1716
+  skrypt: item_minipiano
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: turnoff
+    wpisy:
+    - id: wol_f3c60d89afa186cd3bb4
+      kontekst: data.json:scripts.item_minipiano.turnoff
+      linia: 7
+      sekcja_skryptu: turnoff
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure
+      pl: Jasne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1899
+  skrypt: mine6_talkcultist2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: headband
+    wpisy:
+    - id: wol_deafd6796b645c95b6cf
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 7
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey!
+      pl: Hej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1956
+  skrypt: necrotower_fight3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_51e055f776ca83acabfb
+      kontekst: data.json:scripts.necrotower_fight3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dive in [Fight]
+      pl: Wskocz [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1958
+  skrypt: necrotower_floor1fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_51e055f776ca83acabfb
+      kontekst: data.json:scripts.necrotower_floor1fight.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dive in [Fight]
+      pl: Wskocz [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: alice_mine2
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.pardner_talk.alice_mine2
+      linia: 4
+      sekcja_skryptu: alice_mine2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_midwayb
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.pardner_talk.gary_midwayb
+      linia: 6
+      sekcja_skryptu: gary_midwayb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_silverplater
+    wpisy:
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.pardner_talk.pete_silverplater
+      linia: 5
+      sekcja_skryptu: pete_silverplater
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_bandit9
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.pardner_talk.susie_bandit9
+      linia: 6
+      sekcja_skryptu: susie_bandit9
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_bandit10
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.pardner_talk.susie_bandit10
+      linia: 5
+      sekcja_skryptu: susie_bandit10
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_beancave
+    wpisy:
+    - id: wol_d43dfa1ba305bc6aea09
+      kontekst: data.json:scripts.pardner_talk.susie_beancave
+      linia: 6
+      sekcja_skryptu: susie_beancave
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ha ha.
+      pl: Ha ha.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2093
+  skrypt: punland_circus_boxladytalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: howdid
+    wpisy:
+    - id: wol_045521fc2af9da679e54
+      kontekst: data.json:scripts.punland_circus_boxladytalk.howdid
+      linia: 39
+      sekcja_skryptu: howdid
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Yes.'
+      pl: '...Tak.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2151
+  skrypt: railcamp2_bridgebill
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: onebridge
+    wpisy:
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.railcamp2_bridgebill.onebridge
+      linia: 27
+      sekcja_skryptu: onebridge
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: woodbridge
+    wpisy:
+    - id: wol_a5f7116261b17cda6b0d
+      kontekst: data.json:scripts.railcamp2_bridgebill.woodbridge
+      linia: 45
+      sekcja_skryptu: woodbridge
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh?
+      pl: Och?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2321
+  skrypt: re_cowg1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_e3e2cafbcd3fc5296e01
+      kontekst: data.json:scripts.re_cowg1.dontexplode
+      linia: 8
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gross
+      pl: Obleśne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

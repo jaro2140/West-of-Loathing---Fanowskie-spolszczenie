@@ -1,0 +1,179 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: the_last_custard_stand
+zrodlowy_batch: 049_dialog_loc_custardstand_the_last_custard_stand.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 1
+liczba_wpisow: 10
+sceny:
+- kolejnosc_w_danych_gry: 635
+  skrypt: custardstand_custardstand
+  pomieszczenie:
+    id: custardstand
+    nazwa_en: The Last Custard Stand
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_dd03e9c763ec05801d4a
+      kontekst: data.json:scripts.custardstand_custardstand.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi.
+      pl: Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4ca8250bceb328f44af
+      kontekst: data.json:scripts.custardstand_custardstand.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well howdy there! Welcome to the Last Custard Stand! I'm Custardman Stan, and I make custard like only Custardman Stan can! Care to try some?
+      pl: No proszę! Witamy na Last Custard Stand! Jestem Custardman Stan, i robię budyń jak tylko Custardman Stan może! Chcesz spróbować?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_79aa1fde6dfc509788ba
+      kontekst: data.json:scripts.custardstand_custardstand.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tell me about your custard stand, Custardman Stan!
+      pl: Opowiedz mi o swoim stoisku z budyniem, Custardman Stan!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk
+    wpisy:
+    - id: wol_b20cdb0ca83cc33ff71a
+      kontekst: data.json:scripts.custardstand_custardstand.talk
+      linia: 5
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not much to tell! Just a plain honest custard stand selling plain honest custard!
+      pl: Nie ma o czym opowiadać! Zwykłe, uczciwe stoisko z kremem sprzedające zwykły, uczciwy krem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a64b5d59ab08121a2298
+      kontekst: data.json:scripts.custardstand_custardstand.talk
+      linia: 6
+      sekcja_skryptu: talk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But it's the last one? What, like, the last one before you get to Frisco, or...?
+      pl: Ale to ostatni? Ostatni przed Frisco czy...?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_528f4ee7f2233b407cb6
+      kontekst: data.json:scripts.custardstand_custardstand.talk
+      linia: 7
+      sekcja_skryptu: talk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Last one in the whole territory! Heck, the last one in the whole world so far as I know, but I can't swear to that.
+      pl: Ostatni na całym terytorium! Ba, o ile wiem, ostatni na całym świecie, ale nie mogę za to ręczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16500b6f83507ff0ad46
+      kontekst: data.json:scripts.custardstand_custardstand.talk
+      linia: 8
+      sekcja_skryptu: talk
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. Are you sure it isn't the first?
+      pl: Hmm. Na pewno to nie pierwszy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talk2
+    wpisy:
+    - id: wol_025ae5726be378ccfeb2
+      kontekst: data.json:scripts.custardstand_custardstand.talk2
+      linia: 10
+      sekcja_skryptu: talk2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! Coz the first one was also mine! It was farther up north. Whole dang operation was ate by wasps! Stand and all!
+      pl: Tak! Bo pierwszy też był mój! To było dalej na północy. Cała operacja została zjedzona przez osy! Łącznie ze stoiskiem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_79a0b025ac04f2b59eef
+      kontekst: data.json:scripts.custardstand_custardstand.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Gimme them sweet custards!
+      pl: Daj mi te słodkie budynie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30361e498a0929dd63bd
+      kontekst: data.json:scripts.custardstand_custardstand.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's time for me to blow this custard stand!
+      pl: Czas zwijać się z tego budyniowego stoiska!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

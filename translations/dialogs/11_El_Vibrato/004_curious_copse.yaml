@@ -1,0 +1,491 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: curious_copse
+zrodlowy_batch: 055_dialog_loc_elvibrato4_curious_copse.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 9
+liczba_wpisow: 25
+sceny:
+- kolejnosc_w_danych_gry: 1218
+  skrypt: elvibrato4_announce
+  pomieszczenie: &id001
+    id: elvibrato4
+    nazwa_en: Curious Copse
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_79905527af7f065de4de
+      kontekst: data.json:scripts.elvibrato4_announce.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice speaks up from somewhere you can't see.
+      pl: Skądś spoza pola widzenia odzywa się głos.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_576dd06a45397bfc766b
+      kontekst: data.json:scripts.elvibrato4_announce.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"^PERSONNEL TELEPORTER ADJUSTMENT^translate_elvibrato^"'
+      pl: '"^REGULACJA TELEPORTERA PERSONELU^translate_elvibrato^"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^PERSONNEL TELEPORTER ADJUSTMENT^
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1219
+  skrypt: elvibrato4_coffeemaker
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_393f5cfe17893954e6f3
+      kontekst: data.json:scripts.elvibrato4_coffeemaker.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's some graffiti scratched into this machine next to a single big button.
+      pl: Na maszynie wydrapane graffiti obok jednego dużego przycisku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_212e5e6d6e27e3b6a64c
+      kontekst: data.json:scripts.elvibrato4_coffeemaker.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'It says: ^REFRESHMENT: 5 / TEMPERATURE: 6^translate_elvibrato^'
+      pl: 'Napis: ^ORZEŹWIENIE: 5 / TEMPERATURA: 6^translate_elvibrato^'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '^REFRESHMENT: 5 / TEMPERATURE: 6^'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_06ae152f9a47110bc287
+      kontekst: data.json:scripts.elvibrato4_coffeemaker.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the button
+      pl: Naciśnij przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_a3eb0312d3a6f29ca63c
+      kontekst: data.json:scripts.elvibrato4_coffeemaker.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a harsh buzz, but nothing else.
+      pl: Maszyna wydaje ostry brzęk, ale nic więcej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_c33dc1c14be283e09b28
+      kontekst: data.json:scripts.elvibrato4_coffeemaker.yes
+      linia: 5
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a pleasant chime, and piping hot coffee pours into the cup.  You grab it.
+      pl: Maszyna wydaje przyjemny dzwonek, a gorąca kawa wlewa się do kubka. Chwytasz go.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1220
+  skrypt: elvibrato4_guard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a0a354dca1136835ab9a
+      kontekst: data.json:scripts.elvibrato4_guard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing looks pretty tough and pretty attentive.
+      pl: Ta rzecz wygląda dość twardo i uważnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3ca9113fed941b5bddb
+      kontekst: data.json:scripts.elvibrato4_guard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Banish it [maintenance teleporter]
+      pl: Wypędź to [teleporter konserwacyjny]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[maintenance teleporter]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bae99734ba4f9c5f0cba
+      kontekst: data.json:scripts.elvibrato4_guard.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back off
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_bad736e81178d6bceded
+      kontekst: data.json:scripts.elvibrato4_guard.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put an end to that crazy machine's centuries-long reign of terror.  Er, reign of... duty, I guess? It was really just minding its own business.
+      pl: Kończysz wielowiekowe panowanie terroru tej szalonej maszyny. Eee, panowanie... obowiązku? Właściwie tylko robiła swoje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_54cd6a25d2e69af02163
+      kontekst: data.json:scripts.elvibrato4_guard.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whatever that thing is guarding, it's still safe from the likes of you.
+      pl: Cokolwiek ta rzecz strzeże, wciąż jest bezpieczne przed takimi jak ty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_9b84163997ec85f73c4f
+      kontekst: data.json:scripts.elvibrato4_guard.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'll do better next time
+      pl: Następnym razem pójdzie lepiej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1221
+  skrypt: elvibrato4_nearlythere
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c799d50768545fd31106
+      kontekst: data.json:scripts.elvibrato4_nearlythere.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The beeping from your transponder reaches a deafening volume.
+      pl: Pikanie transpondera osiąga ogłuszającą głośność.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1223
+  skrypt: elvibrato4_teleportguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8a6f1c2f35df213638db
+      kontekst: data.json:scripts.elvibrato4_teleportguard.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That thing looks pretty tough.
+      pl: Ta rzecz wygląda całkiem twardo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_417cc8d36f92ca046330
+      kontekst: data.json:scripts.elvibrato4_teleportguard.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use the maintenance teleporter
+      pl: Użyj teleportera serwisowego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1225
+  skrypt: elvibrato4_terminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: mainopts
+    wpisy:
+    - id: wol_14cb82052a8f07a92d2d
+      kontekst: data.json:scripts.elvibrato4_terminal.mainopts
+      linia: 2
+      sekcja_skryptu: mainopts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '!!!^TERMINAL CORRUPTION DETECTED^translate_elvibrato^!!!'
+      pl: '!!!^WYKRYTO USZKODZENIE TERMINALA^translate_elvibrato^!!!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^TERMINAL CORRUPTION DETECTED^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: projects
+    wpisy:
+    - id: wol_911e3407c8f4178de8c5
+      kontekst: data.json:scripts.elvibrato4_terminal.projects
+      linia: 66
+      sekcja_skryptu: projects
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: '!!!^INITIALIZE^translate_elvibrato^!!!'
+      pl: '!!!^INICJALIZACJA^translate_elvibrato^!!!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^INITIALIZE^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_387b1c1a6eae0e62caff
+      kontekst: data.json:scripts.elvibrato4_terminal.doit
+      linia: 67
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The terminal beeps loudly.  A slot opens below the screen and a small model bridge falls out and clatters to the floor.
+      pl: Terminal głośno bipczy. Pod ekranem otwiera się szczelina i wypada mały model mostu, brzęcząc o podłogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f5013233939107aea20
+      kontekst: data.json:scripts.elvibrato4_terminal.doit
+      linia: 68
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe there used to be a table there or something.
+      pl: Może kiedyś stał tam stół czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: badproject
+    wpisy:
+    - id: wol_5085cb0b8d0ed7ade7c9
+      kontekst: data.json:scripts.elvibrato4_terminal.badproject
+      linia: 74
+      sekcja_skryptu: badproject
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '!!!^CONSTRUCTION CORRUPTION DETECTED^translate_elvibrato^!!!'
+      pl: '!!!^WYKRYTO USZKODZENIE KONSTRUKCJI^translate_elvibrato^!!!'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^CONSTRUCTION CORRUPTION DETECTED^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1226
+  skrypt: elvibrato4_vol1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3fdc6f40d5b2c18cc5f5
+      kontekst: data.json:scripts.elvibrato4_vol1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your El Vibrato transponder begins beeping slowly and quietly.
+      pl: Twój transponder El Vibrato zaczyna powoli i cicho bipczeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1227
+  skrypt: elvibrato4_vol2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_50c86c31850e47f1f6fe
+      kontekst: data.json:scripts.elvibrato4_vol2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your El Vibrato transponder starts beeping at a medium tempo and volume.
+      pl: Twój transponder El Vibrato zaczyna bipczeć średnim tempem i głośnością.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1240
+  skrypt: elvibrato6_guard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f3ca9113fed941b5bddb
+      kontekst: data.json:scripts.elvibrato6_guard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Banish it [maintenance teleporter]
+      pl: Wypędź to [teleporter konserwacyjny]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[maintenance teleporter]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bae99734ba4f9c5f0cba
+      kontekst: data.json:scripts.elvibrato6_guard.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back off
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

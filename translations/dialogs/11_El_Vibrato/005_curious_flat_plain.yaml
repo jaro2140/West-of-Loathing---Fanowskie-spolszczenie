@@ -1,0 +1,798 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: curious_flat_plain
+zrodlowy_batch: 056_dialog_loc_elvibrato5_curious_flat_plain.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 8
+liczba_wpisow: 45
+sceny:
+- kolejnosc_w_danych_gry: 1229
+  skrypt: elvibrato5_convo
+  pomieszczenie: &id001
+    id: elvibrato5
+    nazwa_en: Curious Flat Plain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: alice
+    wpisy:
+    - id: wol_3c0b248dcca8622e7050
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 1
+      sekcja_skryptu: alice
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What in the... did you do that?
+      pl: Co ty, do cholery, zrobiłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ca87b3bed07996b0d48
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 2
+      sekcja_skryptu: alice
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I mean, I just pushed this little button here...
+      pl: Nie, to znaczy, nacisnąłem tylko ten mały guzik tutaj...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c21b8896f8709544fba4
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 3
+      sekcja_skryptu: alice
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Maybe you shouldn't push any buttons you see sticking out of the ground. The next one might blow up the moon or something!
+      pl: Może nie powinieneś wciskać każdego guzika wystającego z ziemi. Następny może wysadzić księżyc czy coś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_637fa4d71f7f4a8b00f6
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 4
+      sekcja_skryptu: alice
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'd hope if someone made a moon-blowing-up machine, they'd at least put a warning label on it.
+      pl: Miałbym nadzieję, że jeśli ktoś zbudował maszynę do wysadzania księżyca, to przynajmniej przykleił na niej etykietę ostrzegawczą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c10df487c2bea76a0af5
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 5
+      sekcja_skryptu: alice
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'What, like "Warning: May Blow Up The Moon"?'
+      pl: 'Jak "Ostrzeżenie: może wysadzić Księżyc"?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9149570af4cdf9e9c869
+      kontekst: data.json:scripts.elvibrato5_convo.alice
+      linia: 6
+      sekcja_skryptu: alice
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Something like that, yeah.
+      pl: Coś w tym stylu, tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pete
+    wpisy:
+    - id: wol_736effcbb21469d632f0
+      kontekst: data.json:scripts.elvibrato5_convo.pete
+      linia: 7
+      sekcja_skryptu: pete
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What in tarnation? The sky was clear as crystal just a second ago!
+      pl: Co do cholery? Niebo było czyste jak kryształ przed chwilą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_44295ecbe85e999006d6
+      kontekst: data.json:scripts.elvibrato5_convo.pete
+      linia: 8
+      sekcja_skryptu: pete
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I just pushed this little button here...
+      pl: Po prostu nacisnąłem ten mały guzik...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b2a24c6de20981a3cfec
+      kontekst: data.json:scripts.elvibrato5_convo.pete
+      linia: 9
+      sekcja_skryptu: pete
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, <i>un</i>push it, consarnit! My boots're fillin' up with water!
+      pl: <i>Odsuńcie</i> to, consarnit! Moje buty wypełniają się wodą!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de7a48dc72346583cb3c
+      kontekst: data.json:scripts.elvibrato5_convo.pete
+      linia: 10
+      sekcja_skryptu: pete
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But how is this even possible?
+      pl: Jak to w ogóle jest możliwe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_400f375456d201d48ddc
+      kontekst: data.json:scripts.elvibrato5_convo.pete
+      linia: 11
+      sekcja_skryptu: pete
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How are <i>birds</i> possible? Life's full a' mysteries!
+      pl: Jakim cudem <i>ptaki</i> są możliwe? Życie jest pełne tajemnic!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gary
+    wpisy:
+    - id: wol_9f41b13b8254b87061c4
+      kontekst: data.json:scripts.elvibrato5_convo.gary
+      linia: 13
+      sekcja_skryptu: gary
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh wow! Wow wow wow! Someone is teaching a button the Goblin Rain Chant!
+      pl: O, łał! Łał, łał, łał! Ktoś uczyć przycisk Goblińskiej Pieśni Deszczu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9228ad70b4ce304e0bec
+      kontekst: data.json:scripts.elvibrato5_convo.gary
+      linia: 14
+      sekcja_skryptu: gary
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You guys have a chant that makes it rain?
+      pl: Macie pieśń, która sprawia, że pada?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a94507c8b90e1eb7d41
+      kontekst: data.json:scripts.elvibrato5_convo.gary
+      linia: 15
+      sekcja_skryptu: gary
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes! Takes months, sometimes! A button is much better!
+      pl: Tak! Czasami zajmuje to miesiące! Przycisk jest o wiele lepszy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: susie
+    wpisy:
+    - id: wol_bc7929804368b39ca3fa
+      kontekst: data.json:scripts.elvibrato5_convo.susie
+      linia: 17
+      sekcja_skryptu: susie
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'll be a... listen, I ain't no weather expert, but I know enough to tell when it's gonna rain, and that was <i>not</i> on the schedule fer today!
+      pl: No proszę... słuchaj, <i>nie</i> jestem ekspertem od pogody, ale wiem wystarczająco dużo, by poznać, kiedy będzie padać, a tego dziś nie było w grafiku!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_303d6afca8caf3f23fbb
+      kontekst: data.json:scripts.elvibrato5_convo.susie
+      linia: 18
+      sekcja_skryptu: susie
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: All I did was push the button on this gadget I found...
+      pl: Tylko nacisnąłem przycisk na tym znalezionym ustrojstwie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b66856a83704ccad5860
+      kontekst: data.json:scripts.elvibrato5_convo.susie
+      linia: 19
+      sekcja_skryptu: susie
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Didn't yer ma ever teach ya not to push strange buttons ya find out in the middle a' nowhere?
+      pl: Czy matka nie uczyła cię, żeby nie naciskać dziwnych guzików znalezionych pośrodku pustkowia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0995bf1cfd8c51762d5
+      kontekst: data.json:scripts.elvibrato5_convo.susie
+      linia: 20
+      sekcja_skryptu: susie
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well... no!
+      pl: No... nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1230
+  skrypt: elvibrato5_corpseman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_60447f040cf17c4c795f
+      kontekst: data.json:scripts.elvibrato5_corpseman.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof, this poor explorer didn't make it down the ladder in one piece.
+      pl: Uff, ten biedny badacz nie zszedł po drabinie w jednym kawałku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9daac1a471c971ee6707
+      kontekst: data.json:scripts.elvibrato5_corpseman.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check their belongings
+      pl: Przeszukaj ich rzeczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_9f39ed759c41808af7f0
+      kontekst: data.json:scripts.elvibrato5_corpseman.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, they had a bunch of El Vibrato stuff!
+      pl: Och, mieli całą masę rzeczy El Vibrato!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1231
+  skrypt: elvibrato5_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_443a27f1f682cc52a290
+      kontekst: data.json:scripts.elvibrato5_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This ladder is missing about 70% of its rungs. So dangerous! Call OSHA!
+      pl: W tej drabinie brakuje około 70% szczebli. Tak niebezpiecznie! Zadzwońcie do OSHA!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_179657a897301d655715
+      kontekst: data.json:scripts.elvibrato5_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Climb down [30 Moxie]
+      pl: Zejdź [30 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[30 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5c3dde7294d70b6a2461
+      kontekst: data.json:scripts.elvibrato5_elevator.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Climb down [Requires 30 Moxie]
+      pl: Zejdź [Wymaga 30 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 30 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1232
+  skrypt: elvibrato5_fusebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3ab1731942750a33c99c
+      kontekst: data.json:scripts.elvibrato5_fusebox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a piece here that's very obviously broken.
+      pl: Leży tu element, który jest bardzo wyraźnie zepsuty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1235
+  skrypt: elvibrato5_trashpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9630aa54b6658cf7830c
+      kontekst: data.json:scripts.elvibrato5_trashpile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a giant pile of El Vibrato scrap!
+      pl: To ogromny stos złomu El Vibrato!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1236
+  skrypt: elvibrato5_useterminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: getgarbage
+    wpisy:
+    - id: wol_0727e00261c22613f32e
+      kontekst: data.json:scripts.elvibrato5_useterminal.getgarbage
+      linia: 28
+      sekcja_skryptu: getgarbage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press the button, and a huge pile of El Vibrato scrap materializes behind you with a thud.
+      pl: Naciskasz guzik i ogromna sterta złomu El Vibrato materializuje się za tobą z hukiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nofuse
+    wpisy:
+    - id: wol_918627e1992ef0d81fbe
+      kontekst: data.json:scripts.elvibrato5_useterminal.nofuse
+      linia: 33
+      sekcja_skryptu: nofuse
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen just keeps flashing the same thing over and over:'
+      pl: 'Ekran w kółko miga tym samym:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: __pre__
+    wpisy:
+    - id: wol_8de2b682d945106c7dff
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 1
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Another menu system, this one less complicated structurally but with more obscure words]'
+      pl: '[Kolejny system menu — strukturalnie prostszy, ale z bardziej zagadkowymi słowami]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Another menu system, this one less complicated structurally but with more obscure words]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8eef1b9a005cd580fe9
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 2
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[need power, elvibrato5_fuse]'
+      pl: '[potrzeba zasilania, elvibrato5_fuse]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[need power, elvibrato5_fuse]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3801ac4454fe27101ca1
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 3
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Status:'
+      pl: 'Status:'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df1c8009a1183d5a8f42
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 4
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Weather machine deployed]'
+      pl: '[Maszyna pogodowa wdrożona]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Weather machine deployed]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d6cc3250563c48181f3
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 5
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Weather machine not deployed]'
+      pl: '[Maszyna pogodowa niewdrożona]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Weather machine not deployed]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d97a2d18c1b4e71971d
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 6
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Warehouse teleporter deployed]'
+      pl: '[Teleporter magazynowy wdrożony]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Warehouse teleporter deployed]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cc148086a9b82a2e89b
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 7
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Warehouse teleporter not deployed]'
+      pl: '[Teleporter magazynowy niewdrożony]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Warehouse teleporter not deployed]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4dadcacbf749c06af571
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 8
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Power routed to Roberto Control]'
+      pl: '[Zasilanie skierowane do Roberto Control]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Power routed to Roberto Control]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_703b682b1eda434e512b
+      kontekst: data.json:scripts.elvibrato5_useterminal.__pre__
+      linia: 9
+      sekcja_skryptu: __pre__
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Power routed to Planetarium Laser Show]'
+      pl: '[Zasilanie skierowane do Planetarium Laser Show]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Power routed to Planetarium Laser Show]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_2d9833782f603216acb2
+      kontekst: data.json:scripts.elvibrato5_useterminal.opts
+      linia: 10
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[all of these are debug cheats]'
+      pl: '[to wszystko debug cheaty]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[all of these are debug cheats]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58568a9b4ba60dbeb3f3
+      kontekst: data.json:scripts.elvibrato5_useterminal.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Deploy weather machine
+      pl: Uruchom maszynę pogodową
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00585789363b8f3bbdff
+      kontekst: data.json:scripts.elvibrato5_useterminal.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reroute power A to Roberto Control
+      pl: Przekieruj zasilanie A do Roberto Control
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1237
+  skrypt: elvibrato5_weathermachine
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1570eda41be1f84cd239
+      kontekst: data.json:scripts.elvibrato5_weathermachine.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a big El Vibrato gizmo sticking out of the ground here.  It's got a button on top.
+      pl: Z ziemi wystaje tu duży gadżet El Vibrato. Ma przycisk u góry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beefs
+    wpisy:
+    - id: wol_c8838dc890060e3434cb
+      kontekst: data.json:scripts.elvibrato5_weathermachine.beefs
+      linia: 2
+      sekcja_skryptu: beefs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the button
+      pl: Naciśnij przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pull
+    wpisy:
+    - id: wol_ec1337495409b3368ca4
+      kontekst: data.json:scripts.elvibrato5_weathermachine.pull
+      linia: 3
+      sekcja_skryptu: pull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine makes a little <i>ping</i> sound. Abruptly and from nowhere, clouds roll in overhead and it begins to rain.
+      pl: Maszyna wydaje cichy <i>ping</i>. Nagle znikąd nadciągają chmury i zaczyna padać deszcz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: norain
+    wpisy:
+    - id: wol_0a7b9b3e427922044d47
+      kontekst: data.json:scripts.elvibrato5_weathermachine.norain
+      linia: 4
+      sekcja_skryptu: norain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the lever again, and the rain stops. The clouds quickly disperse.
+      pl: Ciągniesz dźwignię znowu i deszcz ustaje. Chmury szybko się rozpraszają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1246
+  skrypt: elvibrato6_useterminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: nofuse
+    wpisy:
+    - id: wol_918627e1992ef0d81fbe
+      kontekst: data.json:scripts.elvibrato6_useterminal.nofuse
+      linia: 34
+      sekcja_skryptu: nofuse
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The screen just keeps flashing the same thing over and over:'
+      pl: 'Ekran w kółko miga tym samym:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

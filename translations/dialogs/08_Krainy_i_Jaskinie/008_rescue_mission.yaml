@@ -1,0 +1,348 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: rescue_mission
+zrodlowy_batch: 085_dialog_loc_mission1_rescue_mission.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 2
+liczba_wpisow: 20
+sceny:
+- kolejnosc_w_danych_gry: 1949
+  skrypt: mission1_nun
+  pomieszczenie: &id001
+    id: mission1
+    nazwa_en: Rescue Mission
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b0924f84661f0399f9f1
+      kontekst: data.json:scripts.mission1_nun.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello again! Welcome back. How can I help you?
+      pl: Witaj ponownie! Miło cię widzieć. W czym mogę pomóc?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_a178d885a810437cf28d
+      kontekst: data.json:scripts.mission1_nun.hub
+      linia: 2
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you need any errands run or anything?
+      pl: Potrzebujesz, żebym coś załatwił albo coś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takequest
+    wpisy:
+    - id: wol_5f6cc14470aa4adab300
+      kontekst: data.json:scripts.mission1_nun.takequest
+      linia: 4
+      sekcja_skryptu: takequest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Funny you should ask! I've been experimenting with the healing properties of a purple grass that grows near here, but I've run out. Would you mind picking some for me? It grows near a cave that makes an unusual humming sound.
+      pl: Dobrze, że pytasz! Eksperymentuję z leczniczymi właściwościami rosnącej w pobliżu fioletowej trawy, ale już mi się skończyła. Możesz trochę dla mnie zebrać? Rośnie w pobliżu jaskini, z której dochodzi niezwykłe buczenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b5d6b85eeafb2dc4264
+      kontekst: data.json:scripts.mission1_nun.takequest
+      linia: 5
+      sekcja_skryptu: takequest
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh sure, I think I know the place you mean.
+      pl: Oczywiście, chyba wiem, o które miejsce chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14a153b6d2d6ce8ea089
+      kontekst: data.json:scripts.mission1_nun.takequest
+      linia: 6
+      sekcja_skryptu: takequest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No problem, I'll be right back with it.
+      pl: Nie ma sprawy, zaraz to przyniosę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_d17c4a8096c8a4613bba
+      kontekst: data.json:scripts.mission1_nun.hub
+      linia: 7
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I buy some medical supplies?
+      pl: Mogę kupić jakieś środki medyczne?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f36b3dfee50df0d45c7
+      kontekst: data.json:scripts.mission1_nun.hub
+      linia: 8
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the nun alone
+      pl: Zostaw siostrę zakonną w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grassprogress
+    wpisy:
+    - id: wol_6325e1af9d25e7aa7015
+      kontekst: data.json:scripts.mission1_nun.grassprogress
+      linia: 9
+      sekcja_skryptu: grassprogress
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Welcome back. Were you able to find the humming cave and the purple grass?
+      pl: Witaj z powrotem. Udało ci się znaleźć jaskinię nucącą i purpurową trawę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96eb90180613f9239a8d
+      kontekst: data.json:scripts.mission1_nun.grassprogress
+      linia: 10
+      sekcja_skryptu: grassprogress
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep! Here you go.
+      pl: Ta! Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grassprogress2
+    wpisy:
+    - id: wol_27f9e7272f0d7579ece7
+      kontekst: data.json:scripts.mission1_nun.grassprogress2
+      linia: 11
+      sekcja_skryptu: grassprogress2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wonderful, thank you very much. Blessings upon you!
+      pl: Cudownie, dziękuję bardzo. Błogosławieństwa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17c4a8096c8a4613bba
+      kontekst: data.json:scripts.mission1_nun.grassprogress2
+      linia: 12
+      sekcja_skryptu: grassprogress2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I buy some medical supplies?
+      pl: Mogę kupić jakieś środki medyczne?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: disappoint
+    wpisy:
+    - id: wol_5da561439c7a6379e76f
+      kontekst: data.json:scripts.mission1_nun.disappoint
+      linia: 15
+      sekcja_skryptu: disappoint
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's disappointing, but I trust you to keep your promise.
+      pl: To rozczarowujące, ale ufam, że dotrzymasz obietnicy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17c4a8096c8a4613bba
+      kontekst: data.json:scripts.mission1_nun.disappoint
+      linia: 16
+      sekcja_skryptu: disappoint
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I buy some medical supplies?
+      pl: Mogę kupić jakieś środki medyczne?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b09b76944bff617e5349
+      kontekst: data.json:scripts.mission1_nun.disappoint
+      linia: 17
+      sekcja_skryptu: disappoint
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Jeez, you don't have to guilt-trip me.
+      pl: O rany, nie musisz robić mi wyrzutów sumienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_2cdcebdee8f6e0ba51b6
+      kontekst: data.json:scripts.mission1_nun.intro
+      linia: 18
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh! A real-life nun!
+      pl: Rany! Prawdziwa zakonnica!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c533781fcd385a1190f
+      kontekst: data.json:scripts.mission1_nun.intro
+      linia: 19
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Err, yes. I'm Sister Tabitha.
+      pl: Eee, tak. Jestem siostra Tabitha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_79c365e535e401985192
+      kontekst: data.json:scripts.mission1_nun.intro
+      linia: 20
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm @firstname@ @lastname@. What's with the cots?
+      pl: Jestem @firstname@ @lastname@. Co to za łóżka polowe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee3158a491e3ea594737
+      kontekst: data.json:scripts.mission1_nun.intro
+      linia: 21
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, what with the cow attacks and so on, I felt my faith would be better served by running this place as a clinic rather than just a church. I also sell medical supplies, if you'd like your healing "to-go".
+      pl: Cóż, z atakami krów i tak dalej, czułem, że moja wiara będzie lepiej służyła temu miejscu jako klinika, a nie tylko kościół. Sprzedaję też sprzęt medyczny, jeśli chcesz, żeby twoje uzdrowienie było "na wynos".
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1950
+  skrypt: mission1_pulpit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_891ee1af2f41e6aca27b
+      kontekst: data.json:scripts.mission1_pulpit.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The pulpit has been pushed back against the wall.
+      pl: Ambona została odsunięta do ściany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: punish
+    wpisy:
+    - id: wol_eaf1d1f5702443c70df6
+      kontekst: data.json:scripts.mission1_pulpit.punish
+      linia: 2
+      sekcja_skryptu: punish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you approach the pulpit, you hear a peal of thunder in the distance.
+      pl: Gdy podchodzisz do ambony, słyszysz w oddali grzmot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

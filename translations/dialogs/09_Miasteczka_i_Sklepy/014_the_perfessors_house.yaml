@@ -1,0 +1,1696 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: the_perfessors_house
+zrodlowy_batch: 091_dialog_loc_professor_the_perfessors_house.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 9
+liczba_wpisow: 100
+sceny:
+- kolejnosc_w_danych_gry: 2071
+  skrypt: professor_batterymachine
+  pomieszczenie: &id001
+    id: professor
+    nazwa_en: The Perfessor's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_abef3f2050c0ef5b6634
+      kontekst: data.json:scripts.professor_batterymachine.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the battery machine you recovered.
+      pl: To maszyna bateryjna, którą odzyskałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optos
+    wpisy:
+    - id: wol_58d970703bc370996434
+      kontekst: data.json:scripts.professor_batterymachine.optos
+      linia: 2
+      sekcja_skryptu: optos
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fabricate a battery [10 El Vibrato scrap]
+      pl: Wytwórz baterię [10 złomu El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[10 El Vibrato scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: makekey
+    wpisy:
+    - id: wol_946dc02bce9eb40aae5c
+      kontekst: data.json:scripts.professor_batterymachine.makekey
+      linia: 3
+      sekcja_skryptu: makekey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine beeps and boops a lot, then spits out a battery.
+      pl: Maszyna robi dużo bip-bop, po czym wypluwa baterię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optos
+    wpisy:
+    - id: wol_b7d2a2e6029a04f063bb
+      kontekst: data.json:scripts.professor_batterymachine.optos
+      linia: 4
+      sekcja_skryptu: optos
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Fabricate a battery [Requires 10 El Vibrato scrap]
+      pl: Wytwórz baterię [Wymaga 10 sztuk złomu El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 10 El Vibrato scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2072
+  skrypt: professor_cellardoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f7c601f690c99c83e315
+      kontekst: data.json:scripts.professor_cellardoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cellar door, though lovely, is locked.
+      pl: Drzwi piwnicy, choć urocze, zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2073
+  skrypt: professor_combatitemfab
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 24
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b4cb6eed37efd7ccd399
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine turns El Vibrato scrap into single-use combat items.  That's what the Perfessor said, and I'm confirming it for you.
+      pl: Ta maszyna zamienia złom El Vibrato w jednorazowe przedmioty bojowe. Tak powiedział Perfessor — i potwierdzam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4fad176cddb6e875e3d4
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a little note on the side where he describes the different things you can make with it.
+      pl: Z boku jest krótka notatka, co z tego można zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_483c15b17ed71e45e43a
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It can make a grenade, which you assume blows things up.
+      pl: Może zrobić granat, który — zakładasz — wysadza rzeczy w powietrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f82e0662bf3a298b283
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It can make something called a "maintenance teleporter," which the Perfessor says will banish any hostile El Vibrato construct.
+      pl: Może zrobić coś, co nazywa się „teleporter konserwacyjny” — Perfessor twierdzi, że wypędzi nim każdego wrogiego konstrukta El Vibrato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7520d233c5367bb6713d
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It can make an autonomous construct that will help you win fights by hurting your enemies, or one that can help you win fights by healing you and your allies.
+      pl: Może stworzyć autonomiczny konstrukt, który pomoże ci wygrywać walki, raniąc wrogów, albo taki, który pomoże wygrywać walki, lecząc ciebie i sojuszników.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d767468501b29652a784
+      kontekst: data.json:scripts.professor_combatitemfab.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sounds great
+      pl: Brzmi świetnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstopts
+    wpisy:
+    - id: wol_b97fb937a6e2c833f21c
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 7
+      sekcja_skryptu: firstopts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What would you like to fabricate?
+      pl: Co chciałbyś wytworzyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de75f56ce7ab214ddf2e
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 8
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a grenade [5 scrap]
+      pl: Zrób granat [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: item1
+    wpisy:
+    - id: wol_fa3a4bd1e6fdc59ffedf
+      kontekst: data.json:scripts.professor_combatitemfab.item1
+      linia: 9
+      sekcja_skryptu: item1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the scrap into the funnel.  The machine whirrs, and the little doors slide open to reveal a grenade, which luckily is not primed to explode.
+      pl: Wrzucasz złom do lejka. Maszyna brzęczy, drzwiczki odsuwają się i ukazują granat, który na szczęście nie jest gotowy do wybuchu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_a9c60ca32d653e5b0503
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 10
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Would you like to fabricate something else?
+      pl: Chcesz wytworzyć coś jeszcze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de75f56ce7ab214ddf2e
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a grenade [5 scrap]
+      pl: Zrób granat [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6843b9b4f6684691aed
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a maintenance teleporter [5 scrap]
+      pl: Zrób teleporter konserwacyjny [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: item2
+    wpisy:
+    - id: wol_f0b28d8f5400b02314fb
+      kontekst: data.json:scripts.professor_combatitemfab.item2
+      linia: 13
+      sekcja_skryptu: item2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the scrap into the funnel.  The machine whirrs, and the little doors slide open to reveal a T-shaped object.
+      pl: Wrzucasz złom do lejka. Maszyna brzęczy, drzwiczki odsuwają się i ukazują przedmiot w kształcie T.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_f7733320293348eab31d
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 14
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make an assault drone [5 scrap]
+      pl: Zrób drona szturmowego [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: item3
+    wpisy:
+    - id: wol_7fa3f56c5393c0ab0947
+      kontekst: data.json:scripts.professor_combatitemfab.item3
+      linia: 15
+      sekcja_skryptu: item3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the scrap into the funnel.  The machine whirrs, and the little doors slide open to reveal a hexagonal object.
+      pl: Wrzucasz złom do lejka. Maszyna brzęczy, drzwiczki odsuwają się i ukazują sześciokątny przedmiot.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ca53d71a491e13634583
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 16
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a medical drone [5 scrap]
+      pl: Zrób drona medycznego [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: item4
+    wpisy:
+    - id: wol_7fa3f56c5393c0ab0947
+      kontekst: data.json:scripts.professor_combatitemfab.item4
+      linia: 17
+      sekcja_skryptu: item4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop the scrap into the funnel.  The machine whirrs, and the little doors slide open to reveal a hexagonal object.
+      pl: Wrzucasz złom do lejka. Maszyna brzęczy, drzwiczki odsuwają się i ukazują sześciokątny przedmiot.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_fee5cca383fbbc04dbab
+      kontekst: data.json:scripts.professor_combatitemfab.opts
+      linia: 18
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make an exit
+      pl: Wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notenough
+    wpisy:
+    - id: wol_eeb6abb898697d9d33dc
+      kontekst: data.json:scripts.professor_combatitemfab.notenough
+      linia: 19
+      sekcja_skryptu: notenough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And with that, you no longer have enough El Vibrato scrap to make anything with the machine.
+      pl: I od tej pory nie masz już wystarczająco złomu El Vibrato, żeby coś zrobić na tej maszynie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstopts
+    wpisy:
+    - id: wol_d6843b9b4f6684691aed
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 21
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a maintenance teleporter [5 scrap]
+      pl: Zrób teleporter konserwacyjny [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7733320293348eab31d
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 22
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make an assault drone [5 scrap]
+      pl: Zrób drona szturmowego [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca53d71a491e13634583
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 23
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make a medical drone [5 scrap]
+      pl: Zrób drona medycznego [5 złomu]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[5 scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fee5cca383fbbc04dbab
+      kontekst: data.json:scripts.professor_combatitemfab.firstopts
+      linia: 24
+      sekcja_skryptu: firstopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make an exit
+      pl: Wyjdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstnotenough
+    wpisy:
+    - id: wol_cc76bc8586263f98fd14
+      kontekst: data.json:scripts.professor_combatitemfab.firstnotenough
+      linia: 25
+      sekcja_skryptu: firstnotenough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you need at least 5 El Vibrato scrap to use the machine.
+      pl: Niestety potrzebujesz co najmniej 5 złomu El Vibrato, by użyć maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2074
+  skrypt: professor_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d1f04ca3e926a802276e
+      kontekst: data.json:scripts.professor_intro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The beeping machine leads you to a ramshackle house in the middle of the desert.
+      pl: Pipikająca maszyna prowadzi cię do barakowatej chaty pośrodku pustyni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2075
+  skrypt: professor_keymachine
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3ab09af57fafdb1ff6e8
+      kontekst: data.json:scripts.professor_keymachine.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the keystone machine the Perfessor built.
+      pl: To maszyna kluczowa zbudowana przez Perfessora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optos
+    wpisy:
+    - id: wol_3704f9ad310fb17d88fb
+      kontekst: data.json:scripts.professor_keymachine.optos
+      linia: 2
+      sekcja_skryptu: optos
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fabricate a key [5 El Vibrato scrap]
+      pl: Wytwórz klucz [5 złomu El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 El Vibrato scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: makekey
+    wpisy:
+    - id: wol_e7ff85ff6494d22ffc4b
+      kontekst: data.json:scripts.professor_keymachine.makekey
+      linia: 3
+      sekcja_skryptu: makekey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine beeps and boops a lot, then spits out a keystone.
+      pl: Maszyna robi dużo bip-bop, po czym wypluwa kamień kluczowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optos
+    wpisy:
+    - id: wol_b38cab34ab9d69b3a406
+      kontekst: data.json:scripts.professor_keymachine.optos
+      linia: 4
+      sekcja_skryptu: optos
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Fabricate a key [Requires 5 El Vibrato scrap]
+      pl: Wytwórz klucz [Wymaga 5 sztuk złomu El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 5 El Vibrato scrap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2076
+  skrypt: professor_keymachine_broken
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ad9fe7b9c61ecda40304
+      kontekst: data.json:scripts.professor_keymachine_broken.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This device doesn't seem to be operational. Unless its function is to do nothing.
+      pl: Urządzenie nie działa. Chyba że jego funkcją jest nic nie robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_65c888632a2816c21a7c
+      kontekst: data.json:scripts.professor_keymachine_broken.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the Perfessor's keystone fabricator. He's waiting on some parts to finish it. Hint, hint.
+      pl: To kluczowy fabrykator Perfessora. Czeka na części, żeby go dokończyć. Hint, hint.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2077
+  skrypt: professor_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 60
+  sekcje:
+  - etykieta: hubtemp
+    wpisy:
+    - id: wol_07926c00ac072535ce4f
+      kontekst: data.json:scripts.professor_talk.hubtemp
+      linia: 1
+      sekcja_skryptu: hubtemp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Perfessor is examining something with intense concentration.
+      pl: Perfessor bada coś z intensywną koncentracją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_d92196c8b6b031e965a9
+      kontekst: data.json:scripts.professor_talk.hub
+      linia: 2
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Show him the strange device
+      pl: Pokaż mu dziwne urządzenie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: batt
+    wpisy:
+    - id: wol_2d556c4ae55f9d39d084
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 3
+      sekcja_skryptu: batt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey Perfessor, I found a... thing?
+      pl: Hej, profesorze, znalazłem... coś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6659c7d7d6cd760783d2
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 4
+      sekcja_skryptu: batt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! Let's see!
+      pl: Świetnie! Zobaczmy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_607ab697918f0a50bc7b
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 5
+      sekcja_skryptu: batt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aha! A marvelous find! This device makes batteries! Or will, once I've fixed it.
+      pl: Aha! Wspaniałe znalezisko! To urządzenie produkuje baterie! A przynajmniej będzie, kiedy je naprawię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ead9d7f6572cca9a702a
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 6
+      sekcja_skryptu: batt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Batteries?
+      pl: Baterie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03e70fc7e1d0a8e02304
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 7
+      sekcja_skryptu: batt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep! The El Vibratoans powered their portable equipment with little electric marbles. Like the one I put in your transponder. I'm sure I don't have to tell you, a regular source of those will be incredibly useful!
+      pl: Tak! Lud El Vibrato zasilał przenośny sprzęt małymi, elektrycznymi kulkami. Jak ten w twoim transponderze. Jestem pewien, że nie muszę ci mówić, że ich regularne źródło będzie niesamowicie użyteczne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_e54ab9667c95b69e682e
+      kontekst: data.json:scripts.professor_talk.hub
+      linia: 9
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Show him the whining object
+      pl: Pokaż mu piszczący przedmiot
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: combatfab
+    wpisy:
+    - id: wol_6c2f622f9789b5b00410
+      kontekst: data.json:scripts.professor_talk.combatfab
+      linia: 10
+      sekcja_skryptu: combatfab
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I found an annoying whining dome.
+      pl: Znalazłem irytującą, jęczącą kopułę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93013e1863f657a3c03a
+      kontekst: data.json:scripts.professor_talk.combatfab
+      linia: 11
+      sekcja_skryptu: combatfab
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, that <i>is</i> annoying, isn't it? I hope that goes away when I fix it.
+      pl: To <i>irytujące</i>, prawda? Mam nadzieję, że to minie, kiedy to naprawię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: combatfab2
+    wpisy:
+    - id: wol_3760da3d827a98a0eadc
+      kontekst: data.json:scripts.professor_talk.combatfab2
+      linia: 14
+      sekcja_skryptu: combatfab2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm, hmm... Aha! Well, unless I miss my guess, you'll find this very handy.
+      pl: Hmm, hmm... Aha! Jeśli się nie mylę, to okaże się bardzo przydatne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f2b7bbb8484594961ac
+      kontekst: data.json:scripts.professor_talk.combatfab2
+      linia: 15
+      sekcja_skryptu: combatfab2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's that?
+      pl: Jak to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3b857e3227cfbed7f10
+      kontekst: data.json:scripts.professor_talk.combatfab2
+      linia: 16
+      sekcja_skryptu: combatfab2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I believe it's for manufacturing a variety of fighting tools. And presumably they're helpful ones, otherwise... why bother, right?
+      pl: Wierzę, że to do produkcji różnych narzędzi walki. I prawdopodobnie są one pomocne, inaczej... po co się trudzić, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ley
+    wpisy:
+    - id: wol_853ff70c9e7b9590e0b3
+      kontekst: data.json:scripts.professor_talk.ley
+      linia: 20
+      sekcja_skryptu: ley
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't hold much with that mystical mumbo-jumbo. It's very unscientific. But it does come up in my research from time to time, so I can give you a basic overview.
+      pl: Nie przepadam za tym mistycznym bełkotem. To bardzo nienaukowe. Ale od czasu do czasu pojawia się w moich badaniach, więc mogę dać ci podstawowy przegląd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_37df6a1a4ad8776595f7
+      kontekst: data.json:scripts.professor_talk.ley
+      linia: 21
+      sekcja_skryptu: ley
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He draws some curved intersecting lines on a piece of paper, and explains how they relate to local geography and so-called mystical forces.
+      pl: Rysuje na kartce zakrzywione, przecinające się linie i wyjaśnia, jak łączą się z lokalną geografią i tak zwanymi siłami mistycznymi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_dc8593fc0c84fe31283f
+      kontekst: data.json:scripts.professor_talk.hub
+      linia: 25
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: By the way, I met Dr. Morton...
+      pl: Przy okazji, spotkałem dr Morton...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: geologist
+    wpisy:
+    - id: wol_18384d50434a04577f58
+      kontekst: data.json:scripts.professor_talk.geologist
+      linia: 26
+      sekcja_skryptu: geologist
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: By the way, I met Dr. Morton. She says hi.
+      pl: Przy okazji, poznałem dr Morton. Pozdrawia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5cbe5fa0c6cba83da65c
+      kontekst: data.json:scripts.professor_talk.geologist
+      linia: 27
+      sekcja_skryptu: geologist
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Josie? What's she up to these days?
+      pl: Josie? Co teraz porabia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a694451659183c398a3
+      kontekst: data.json:scripts.professor_talk.geologist
+      linia: 28
+      sekcja_skryptu: geologist
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I met her in a bar and she was soaking a rock in whiskey.
+      pl: Spotkałem ją w barze, a ona moczyła kamień w whiskey.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd95080549ba7fe6c521
+      kontekst: data.json:scripts.professor_talk.geologist
+      linia: 29
+      sekcja_skryptu: geologist
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, still doing her hypercrystalline thaumomorphic diorite tests. Good on her for being so thorough.
+      pl: Ach, nadal prowadzi testy hiperkrystalicznego diorytu taumomorficznego. Dobrze, że jest taka skrupulatna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_367567707a9ce7b5f0b6
+      kontekst: data.json:scripts.professor_talk.hub
+      linia: 30
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the Perfessor alone
+      pl: Zostaw Perfessora w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_4fc4d0f068d8296c533b
+      kontekst: data.json:scripts.professor_talk.intro
+      linia: 31
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Er, excuse me. My name's @firstname@ @lastname@.
+      pl: Er, przepraszam. Nazywam się @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a550279aab7c93b03d9e
+      kontekst: data.json:scripts.professor_talk.intro
+      linia: 32
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? Oh! I didn't notice you come in. I'm not used to visitors, but folks generally call me the Perfessor. Is there something I can do for you?
+      pl: Co? Oh! Nie zauważyłem, że wchodzisz. Nie przywykłem do gości, ale ludzie zwykle nazywają mnie Perfessorem. Mogę coś dla ciebie zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e0f3ef984a9f8376908
+      kontekst: data.json:scripts.professor_talk.intro
+      linia: 33
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, I found this bleeping gizmo, and I sort of followed the bleeping? And it led me here.
+      pl: Cóż, znalazłem to krwawiące gizmo, i tak jakby śledziłem krwawienie? I to doprowadziło mnie tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85da9f6d60fdcfe600b8
+      kontekst: data.json:scripts.professor_talk.intro
+      linia: 34
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'll be! It certainly led you to the right place, young @yman@.  This is El Vibrato technology, and I happen to be as much an expert as anyone alive today!
+      pl: No, proszę! Z pewnością zaprowadziło cię we właściwe miejsce, młody @yman@. To technologia El Vibrato, a ja akurat jestem takim samym ekspertem jak ktokolwiek żyjący dziś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@yman@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8705c942d4c8ec3f5d3
+      kontekst: data.json:scripts.professor_talk.intro
+      linia: 35
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: El Whatnow?
+      pl: El Co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_df1264a6b97fe4abb7db
+      kontekst: data.json:scripts.professor_talk.intro2
+      linia: 37
+      sekcja_skryptu: intro2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: El Vibrato. They were an ancient race that lived here long before humans! Well, they mostly lived underground, so they might still be living, as far as I know. Never seen a peep of an actual person though, just the machines they left behind.
+      pl: El Vibrato. To starożytna rasa, która mieszkała tu na długo przed ludźmi! Cóż, mieszkali głównie pod ziemią, więc może wciąż żyją, o ile mi wiadomo. Nigdy nie widziałem ani śladu prawdziwej osoby — tylko maszyny, które po sobie zostawili.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_05fdaa33e9f547d97e39
+      kontekst: data.json:scripts.professor_talk.intro2
+      linia: 38
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Were they... space aliens?
+      pl: Byli kosmitami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_093c1a842879681fd732
+      kontekst: data.json:scripts.professor_talk.intro2
+      linia: 39
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Could be aliens, or genius pre-humans, or an entirely different terrestrial evolutionary line. At this stage of investigation it's impossible to say! Isn't it exciting?
+      pl: Mogli to być kosmici, genialni przedludzie albo zupełnie inna ziemska linia ewolucyjna. Na tym etapie badań nie da się powiedzieć! Czy to nie ekscytujące?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_43ca3553c9e8b61dd479
+      kontekst: data.json:scripts.professor_talk.intro2
+      linia: 40
+      sekcja_skryptu: intro2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, lemme have a closer look at your bleeping gizmo.
+      pl: Daj no, niech przyjrzę się temu twojemu pikającemu wygibasowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3705bad262eb949177c
+      kontekst: data.json:scripts.professor_talk.intro2
+      linia: 41
+      sekcja_skryptu: intro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him the device
+      pl: Daj mu urządzenie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro3
+    wpisy:
+    - id: wol_00f197d26b5edeb53dfc
+      kontekst: data.json:scripts.professor_talk.intro3
+      linia: 42
+      sekcja_skryptu: intro3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aha! As I suspected, this is one of their transponders. It detects other El Vibrato technology and homes in, you see. That'll be why it led you here, I've got a thing I've been trying to repair.
+      pl: Aha! Tak jak podejrzewałem, to jeden z ich transponderów. Wykrywa inną technologię El Vibrato i naprowadza na nią. Dlatego zaprowadził cię tutaj — mam tu coś, co próbuję naprawić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_986230c784fd5c532e7a
+      kontekst: data.json:scripts.professor_talk.intro3
+      linia: 43
+      sekcja_skryptu: intro3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He tinkers around with the transponder for a bit and then plugs a strange stone marble into a socket on it.
+      pl: Grzebie chwilę przy transponderze, potem wtyka dziwny kamienny marmur do gniazda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e38206d22f425ce3664
+      kontekst: data.json:scripts.professor_talk.intro3
+      linia: 44
+      sekcja_skryptu: intro3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There you go! Good as new! Just swipe up or down to turn it on or off.
+      pl: Gotowe! Jak nowe! Przesuń palcem w górę lub w dół, żeby włączyć albo wyłączyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e03f51b951f3dedd56f
+      kontekst: data.json:scripts.professor_talk.intro3
+      linia: 45
+      sekcja_skryptu: intro3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '''Swipe''?'
+      pl: „Przesunięcie”?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro4
+    wpisy:
+    - id: wol_c11ad0884bde8650efcb
+      kontekst: data.json:scripts.professor_talk.intro4
+      linia: 47
+      sekcja_skryptu: intro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Now, I gotta warn you -- this device will lead you to abandoned El Vibrato technology, but it might also attract unwanted attention.
+      pl: Muszę cię ostrzec — to urządzenie zaprowadzi cię do opuszczonej technologii El Vibrato, ale może też przyciągnąć niepożądaną uwagę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_54635129ef395fc7d431
+      kontekst: data.json:scripts.professor_talk.intro4
+      linia: 48
+      sekcja_skryptu: intro4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: From what?
+      pl: Od czego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro5
+    wpisy:
+    - id: wol_34eed5d3049daefff09f
+      kontekst: data.json:scripts.professor_talk.intro5
+      linia: 50
+      sekcja_skryptu: intro5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: From the El Vibrato technology. You'll see what I mean. Just be careful.
+      pl: Z technologii El Vibrato. Zobaczysz, o co chodzi. Tylko uważaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2a14c464f6d7399cb14
+      kontekst: data.json:scripts.professor_talk.intro5
+      linia: 51
+      sekcja_skryptu: intro5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okaaay...
+      pl: No dobrze...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro6
+    wpisy:
+    - id: wol_c2f8b6f1a57d925f5274
+      kontekst: data.json:scripts.professor_talk.intro6
+      linia: 53
+      sekcja_skryptu: intro6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You know, now that I think about it, you've arrived at a perfect time. In order to get anywhere further with my research, I need more samples of El Vibrato tech. But searching for it eats up all the time I could be using to <i>re</i>search it!
+      pl: Wiesz, teraz kiedy o tym myślę, jesteś w idealnym momencie. Aby dostać się dalej z moimi badaniami, potrzebuję więcej próbek technologii El Vibrato. Ale szukanie go pochłania tyle czasu, ile mogę wykorzystać <i>do</i> badań!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_80f41668f970681f5ce8
+      kontekst: data.json:scripts.professor_talk.intro6
+      linia: 54
+      sekcja_skryptu: intro6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Aha. I get you.
+      pl: Aha. Rozumiem cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d475fd95d14828e98a0a
+      kontekst: data.json:scripts.professor_talk.intro6
+      linia: 55
+      sekcja_skryptu: intro6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Right! You're the adventuresome type, so bring me back whatever devices you find, and if I can get them up and running, that'll benefit both of us!
+      pl: Racja! Jesteś poszukiwaczem przygód, więc przynieś mi wszystkie znalezione urządzenia. Jeśli uda mi się je uruchomić, obaj na tym skorzystamy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac716b3d9a2d01196b66
+      kontekst: data.json:scripts.professor_talk.intro6
+      linia: 56
+      sekcja_skryptu: intro6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, deal!
+      pl: Dobra, umowa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro7
+    wpisy:
+    - id: wol_887f753515df34033a8b
+      kontekst: data.json:scripts.professor_talk.intro7
+      linia: 58
+      sekcja_skryptu: intro7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! First priority will be to get my keystone fabricator running. They locked their doors and things with these little stone-alloy blocks, see? So if we can make our own, that'll open a lot of doors for us. Literally and figuratively!
+      pl: Świetnie! Najpierw musimy uruchomić mój fabrykator kamieni kluczowych. El Vibrato zamykali drzwi i inne rzeczy za pomocą tych małych bloków ze stopu kamienia, rozumiesz? Jeśli więc zrobimy własne, otworzy nam to wiele drzwi. Dosłownie i w przenośni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b76d5d58ccbead347555
+      kontekst: data.json:scripts.professor_talk.intro7
+      linia: 59
+      sekcja_skryptu: intro7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: All right. What do we need?
+      pl: Dobrze. Czego potrzebujemy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5adb7961872201592ff
+      kontekst: data.json:scripts.professor_talk.intro7
+      linia: 60
+      sekcja_skryptu: intro7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The components aren't rare, at least as far as priceless ancient technology goes. Bring me, oh, about five handfuls of scrap. I should be able to salvage the last parts I need from that much.
+      pl: Elementy nie są rzadkie, przynajmniej jak na bezcenną starożytną technologię. Przynieś mi jakieś pięć garści złomu. Z takiej ilości powinienem odzyskać ostatnie potrzebne części.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ccc788596a06482ff39
+      kontekst: data.json:scripts.professor_talk.intro7
+      linia: 61
+      sekcja_skryptu: intro7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Roger that.
+      pl: Przyjąłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buildkeymaker
+    wpisy:
+    - id: wol_d1b9a9d2f6b9488aecac
+      kontekst: data.json:scripts.professor_talk.buildkeymaker
+      linia: 62
+      sekcja_skryptu: buildkeymaker
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Good to see you again! Have you got those five piles of scrap yet?
+      pl: Miło cię znowu widzieć! Masz już te pięć stosów złomu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notyet
+    wpisy:
+    - id: wol_e035fb1edbf982df3ab4
+      kontekst: data.json:scripts.professor_talk.notyet
+      linia: 65
+      sekcja_skryptu: notyet
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's got to be our first priority. We won't get much farther without it!
+      pl: To musi być nasz priorytet. Bez niej daleko nie zajdziemy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buildkeymaker
+    wpisy:
+    - id: wol_21fcbea6b3d00bc55a39
+      kontekst: data.json:scripts.professor_talk.buildkeymaker
+      linia: 66
+      sekcja_skryptu: buildkeymaker
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep, got 'em right here!
+      pl: Ta, mam je tu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buildkeymaker2
+    wpisy:
+    - id: wol_edcb2b7a2c7885b74322
+      kontekst: data.json:scripts.professor_talk.buildkeymaker2
+      linia: 68
+      sekcja_skryptu: buildkeymaker2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He ambles over to a strange contraption in the corner of the room and begins to tinker.
+      pl: Powoli podchodzi do dziwnego mechanizmu w rogu pokoju i zaczyna majsterkować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_86f0b4afd2267cb59a86
+      kontekst: data.json:scripts.professor_talk.buildkeymaker2
+      linia: 69
+      sekcja_skryptu: buildkeymaker2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! Let me just... mm-hmm... yep... okay! This'll do the trick! Let me just get this running, and then you'll be able to grab a keystone from it. It'll take another five scrap for each one you need.
+      pl: Świetnie! Tylko... mhm... tak... dobrze! To załatwi sprawę! Uruchomię urządzenie i będzie można wyjąć z niego kamień kluczowy. Każdy kolejny będzie kosztował pięć sztuk złomu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7776dbc7520e49965cc3
+      kontekst: data.json:scripts.professor_talk.buildkeymaker2
+      linia: 70
+      sekcja_skryptu: buildkeymaker2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Are you familiar with the Lost Dutch Oven Mine? Grim place, but that's where I found the chassis for that fabricator, wedged behind an unusual pile of rocks. Seems like a good place to start hunting.
+      pl: Znasz Kopalnię Zaginionego Holenderskiego Pieca? Ponure miejsce, ale właśnie tam znalazłem podwozie tego fabrykatora, zaklinowane za nietypową stertą kamieni. Od tego warto zacząć poszukiwania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28e5ca6f925d2d70c4ff
+      kontekst: data.json:scripts.professor_talk.buildkeymaker2
+      linia: 71
+      sekcja_skryptu: buildkeymaker2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, I'm on it.
+      pl: Dobra, biorę się za to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hubpreface1
+    wpisy:
+    - id: wol_ef295ea539044993ee71
+      kontekst: data.json:scripts.professor_talk.hubpreface1
+      linia: 72
+      sekcja_skryptu: hubpreface1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good to see you again! Have you had a chance to take a keystone to the Lost Dutch Oven Mine and look for that unusual pile of rocks?  You can always make a keystone with five more El Vibrato scrap in that machine over there.
+      pl: Miło znów cię widzieć! Udało ci się zabrać kamień kluczowy do Kopalni Zaginionego Holenderskiego Pieca i poszukać tej niezwykłej sterty kamieni? Zawsze możesz zrobić kolejny kamień kluczowy z pięciu sztuk złomu El Vibrato w tamtej maszynie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd60ffb3b0569bd2050f
+      kontekst: data.json:scripts.professor_talk.hubpreface1
+      linia: 73
+      sekcja_skryptu: hubpreface1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have indeed!
+      pl: A to fakt!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hubpreface3
+    wpisy:
+    - id: wol_1bac99962da25e705c63
+      kontekst: data.json:scripts.professor_talk.hubpreface3
+      linia: 75
+      sekcja_skryptu: hubpreface3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, did you find anything interesting?
+      pl: Och, znalazłeś coś ciekawego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3bd0cc63c20baff6626
+      kontekst: data.json:scripts.professor_talk.hubpreface3
+      linia: 76
+      sekcja_skryptu: hubpreface3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Beyond all the weird ancient technology?
+      pl: Poza całą tą dziwną starożytną technologią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea882676f02915fa605b
+      kontekst: data.json:scripts.professor_talk.hubpreface3
+      linia: 77
+      sekcja_skryptu: hubpreface3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I meant did you bring anything back that I might evaluate?  I bet there's something useful in there.
+      pl: Miałem na myśli, czy przyniosłeś coś, co mógłbym ocenić? Założę się, że jest tam coś pożytecznego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hubpreface2
+    wpisy:
+    - id: wol_3b92bd2dc86d105b5b28
+      kontekst: data.json:scripts.professor_talk.hubpreface2
+      linia: 80
+      sekcja_skryptu: hubpreface2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that should be your next step!
+      pl: To powinien być twój następny krok!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2078
+  skrypt: professor_toilet
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_444097b0f743738432d0
+      kontekst: data.json:scripts.professor_toilet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Perfessor's toilet isn't in very good repair.
+      pl: Toaleta Perfessora nie jest w dobrym stanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2079
+  skrypt: professor_vanity
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_52ae7de96b87b30b6090
+      kontekst: data.json:scripts.professor_vanity.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This appears to be an extremely powerful magnifying mirror. Basically an inside-out microscope.
+      pl: To ekstremalnie mocne lusterko powiększające. Mikroskop na odwrót.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_242d4e0585254f2473a3
+      kontekst: data.json:scripts.professor_vanity.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check yourself
+      pl: Sprawdź siebie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_16b03210f75ca2f4ca36
+      kontekst: data.json:scripts.professor_vanity.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The microscopic mites that live in your eyelashes seem to be getting along just fine.
+      pl: Mikroskopijne roztocza w twoich rzęsach chyba radzą sobie całkiem nieźle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,957 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: kole_ridge_mine
+zrodlowy_batch: 078_dialog_loc_mine2_kole_ridge_mine.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 13
+liczba_wpisow: 52
+sceny:
+- kolejnosc_w_danych_gry: 1785
+  skrypt: mine2_bonepile
+  pomieszczenie: &id001
+    id: mine2
+    nazwa_en: Kole Ridge Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2d01a0480ae40d5de944
+      kontekst: data.json:scripts.mine2_bonepile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oof.  Looks like this guy should've "picked" better friends.
+      pl: Uff. Wygląda na to, że ten gość powinien był „wykopać” sobie lepszych kumpli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9d1903b945025877d226
+      kontekst: data.json:scripts.mine2_bonepile.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the pick
+      pl: Weź kilof
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1786
+  skrypt: mine2_cart1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c5a557812d94d43ad81
+      kontekst: data.json:scripts.mine2_cart1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart was abandoned in a hurry.
+      pl: Wózek porzucony w pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1787
+  skrypt: mine2_cart2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b5282f56e229231dce12
+      kontekst: data.json:scripts.mine2_cart2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart is still chock full of Meat ore.
+      pl: Wózek wciąż pełen rudy Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1789
+  skrypt: mine2_curlyhole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3dbc8c346bf1c03dd513
+      kontekst: data.json:scripts.mine2_curlyhole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the spot Curly's toilet notes mentioned.
+      pl: To miejsce, o którym wspominały notatki toaletowe Curly'ego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58b48cad1ebdbf08d148
+      kontekst: data.json:scripts.mine2_curlyhole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig [shovel]
+      pl: Kop [łopata]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_e76d7239af307e122437
+      kontekst: data.json:scripts.mine2_curlyhole.dig
+      linia: 3
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird.  There was a compass buried there.
+      pl: Dziwne. Był tam zakopany kompas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_421e46c1808859b93b95
+      kontekst: data.json:scripts.mine2_curlyhole.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig [Requires shovel]
+      pl: Kop [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1793
+  skrypt: mine2_doorto2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0301d76f3ea6f0093f83
+      kontekst: data.json:scripts.mine2_doorto2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa!  This just opens onto a 30 foot shaft!
+      pl: Wow! To otwiera się na 30-stopowy szyb!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e14c762b90e07acd80d
+      kontekst: data.json:scripts.mine2_doorto2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tie a rope to the crossbeam [rope]
+      pl: Przywiąż linę do belki [lina]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[rope]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: addrope
+    wpisy:
+    - id: wol_8c5266f37b43becac5b8
+      kontekst: data.json:scripts.mine2_doorto2.addrope
+      linia: 3
+      sekcja_skryptu: addrope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, there we go
+      pl: Okej, proszę bardzo
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_e33f3209d4745c6f3926
+      kontekst: data.json:scripts.mine2_doorto2.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're gonna need a rope or something.
+      pl: Będziesz potrzebował liny czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: clambo
+    wpisy:
+    - id: wol_ebf196d2e06ed3947a82
+      kontekst: data.json:scripts.mine2_doorto2.clambo
+      linia: 6
+      sekcja_skryptu: clambo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sure is dark down there!
+      pl: Na dole ciemno!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1794
+  skrypt: mine2_doorupto1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e966739bae583ac13bec
+      kontekst: data.json:scripts.mine2_doorupto1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's that rope.  Good old rope.
+      pl: Tam ta lina. Stara dobra lina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1796
+  skrypt: mine2_elvmarker
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9ab6caa560916a333f3e
+      kontekst: data.json:scripts.mine2_elvmarker.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These stones have little triangles painted on them.  And they're in a triangle.  It's very triangle.
+      pl: Na kamieniach małe trójkąty. I ułożone w trójkąt. Bardzo trójkątnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1797
+  skrypt: mine2_locker
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e5a61b9dc10970d341f2
+      kontekst: data.json:scripts.mine2_locker.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a row of lockers here.  Must've been used for storing the personal effects of the fellers who used to work this mine.
+      pl: Tu stoi rząd szafek. Pewnie trzymano tu rzeczy górników.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c94334682f9b4b0c593f
+      kontekst: data.json:scripts.mine2_locker.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The first one is labeled "ELLSBURY, WM" and doesn't have a lock on it
+      pl: Pierwsza ma etykietę „ELLSBURY, WM” i nie ma zamka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_89446dc40b3959927075
+      kontekst: data.json:scripts.mine2_locker.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The label on the second one is covered in some kind of white goo.
+      pl: Etykieta na drugiej jest pokryta jakąś białą mazią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6025d770451cd7508bb
+      kontekst: data.json:scripts.mine2_locker.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The third one is labeled "LOOSE, BEN" and has a combination lock on it.
+      pl: Trzeci ma etykietę „LOOSE, BEN” i zamek szyfrowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_7648d49332a497b78c9e
+      kontekst: data.json:scripts.mine2_locker.opts
+      linia: 5
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the first locker
+      pl: Otwórz pierwszą szafkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open1
+    wpisy:
+    - id: wol_4cefd5232e1ddcb5691c
+      kontekst: data.json:scripts.mine2_locker.open1
+      linia: 6
+      sekcja_skryptu: open1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The locker contains one of those mining helmets with a lamp on it and a bottle of laudanum.
+      pl: W szafce jest kopalniany hełm z lampą i butelka laudanum.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_fddcb344eecd97669418
+      kontekst: data.json:scripts.mine2_locker.opts
+      linia: 8
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the second locker
+      pl: Otwórz drugą szafkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open2
+    wpisy:
+    - id: wol_6b3ffb5824ef28caa966
+      kontekst: data.json:scripts.mine2_locker.open2
+      linia: 9
+      sekcja_skryptu: open2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the door to reveal a skeleton covered in the same white goo that was on the outside of the locker.
+      pl: Otwierasz drzwi i ukazuje się szkielet pokryty tą samą białą breją, co z zewnątrz szafki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b38a088d1a32f4c8008
+      kontekst: data.json:scripts.mine2_locker.open2
+      linia: 10
+      sekcja_skryptu: open2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ah.  You get it.  This guy must've died after his coworkers played a prank on him where they stuffed him into his locker and then filled it with shaving cream.
+      pl: 'Ach. Rozumiesz. Ten gość musiał zginąć, gdy współpracownicy zrobili mu psikusa: wcisnęli go do szafki i wypełnili ją pianką do golenia.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fccb1480c36534aa2107
+      kontekst: data.json:scripts.mine2_locker.open2
+      linia: 11
+      sekcja_skryptu: open2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"I can''t believe you dang jerks stuffed me into my locker and then filled it with shaving cream!  I died from that!" yells the skeleton, confirming both your insight and his vengeful, murderous intent.'
+      pl: „Nie mogę uwierzyć, że wy, przeklęte dranie, wsadziliście mnie do szafki i wypełniliście ją pianką do golenia! Od tego umarłem!” wrzeszczy szkielet, potwierdzając zarówno twoją intuicję, jak i jego morderczy, mściwy zamiar.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_474a0637a0d490a7b2b4
+      kontekst: data.json:scripts.mine2_locker.open2
+      linia: 12
+      sekcja_skryptu: open2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get ready for a fight. [Fight]
+      pl: Przygotuj się do walki. [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac4ec1039cfdb2f9d67d
+      kontekst: data.json:scripts.mine2_locker.open2
+      linia: 13
+      sekcja_skryptu: open2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Slam the locker door
+      pl: Trzasknij drzwiami szafki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_90158f635e8c52de54b7
+      kontekst: data.json:scripts.mine2_locker.opts
+      linia: 14
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the third locker
+      pl: Otwórz trzecią szafkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open3
+    wpisy:
+    - id: wol_92ba9389c7eb7c866816
+      kontekst: data.json:scripts.mine2_locker.open3
+      linia: 15
+      sekcja_skryptu: open3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a combination lock on here, and you don't know the combo.
+      pl: Jest tu zamek szyfrowy, a ty nie znasz kodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_270872c7d228622f94db
+      kontekst: data.json:scripts.mine2_locker.open3
+      linia: 16
+      sekcja_skryptu: open3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fortunately, the sort of lockers they have at worksites for employees to put their lunches in are not exactly high-security locks.
+      pl: Na szczęście zamki w szafkach na placach budowy, gdzie pracownicy chowają drugie śniadania, nie są właśnie wzorem bezpieczeństwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open3b
+    wpisy:
+    - id: wol_7b8edb9a1356cb0e6e9c
+      kontekst: data.json:scripts.mine2_locker.open3b
+      linia: 18
+      sekcja_skryptu: open3b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nuts, there's nothing inside except a couple of old empty milk bottles and their discarded paper caps. The caps advertise the Butterfield Dairy, with a little logo in the shape of the territory and a star presumably marking the dairy's location.
+      pl: A niech to, w środku nic nie ma poza paroma starymi pustymi butelkami po mleku i wyrzuconymi papierowymi nakładkami. Nakładki reklamują Butterfield Dairy, z małym logo w kształcie terytorium i gwiazdą zapewne oznaczającą lokalizację mleczarni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_caf82fd7ba07c923a4de
+      kontekst: data.json:scripts.mine2_locker.open3b
+      linia: 19
+      sekcja_skryptu: open3b
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Foo.
+      pl: Foo.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_bd3c7337fc0ffa123bc4
+      kontekst: data.json:scripts.mine2_locker.opts
+      linia: 22
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the lockers alone
+      pl: Zostaw szafki w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_2ab2be5e4da8eb2600c4
+      kontekst: data.json:scripts.mine2_locker.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, at least he's not suffering anymore.  And his bones are really clean!
+      pl: No, przynajmniej już nie cierpi. A kości ma naprawdę czyste!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_c1ccde01cc8274d04bea
+      kontekst: data.json:scripts.mine2_locker.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After beating you senseless, the skeleton crawls back into the locker and slams it shut.
+      pl: Po sprawieniu ci łomotu szkielet wpełza z powrotem do szafki i zatrzaskuje ją od środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1798
+  skrypt: mine2_spookyloot
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: vein1
+    wpisy:
+    - id: wol_015710139b5050ad1533
+      kontekst: data.json:scripts.mine2_spookyloot.vein1
+      linia: 1
+      sekcja_skryptu: vein1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an exposed Meat vein, throbbing and pulsing.  Warm.
+      pl: To odsłonięta żyła Mięsa, pulsująca i tętniąca. Ciepła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_112abd4c476cf2730dda
+      kontekst: data.json:scripts.mine2_spookyloot.vein1
+      linia: 2
+      sekcja_skryptu: vein1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach in
+      pl: Sięgnij do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vein2
+    wpisy:
+    - id: wol_2d2473fa108193ace192
+      kontekst: data.json:scripts.mine2_spookyloot.vein2
+      linia: 1
+      sekcja_skryptu: vein2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Black fluid oozes from the vein.  A scabrous mass sits below it on the floor.
+      pl: Z żyły sączy się czarny płyn. Poniżej na podłodze leży strupowata masa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a215b24ab8a84359e812
+      kontekst: data.json:scripts.mine2_spookyloot.vein2
+      linia: 2
+      sekcja_skryptu: vein2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the fluid
+      pl: Weź płyn
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vein3
+    wpisy:
+    - id: wol_696ddab03244cf4f9f51
+      kontekst: data.json:scripts.mine2_spookyloot.vein3
+      linia: 1
+      sekcja_skryptu: vein3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A slit runs the length of the Meat vein.
+      pl: Szparka biegnie wzdłuż żyły Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vein3b
+    wpisy:
+    - id: wol_49fe147c4ce7ea41b835
+      kontekst: data.json:scripts.mine2_spookyloot.vein3b
+      linia: 3
+      sekcja_skryptu: vein3b
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It goes in further than you expected.  It's warm.
+      pl: Wchodzi głębiej, niż się spodziewałeś. Jest ciepło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: vein3c
+    wpisy:
+    - id: wol_a3c091c715332a0672bc
+      kontekst: data.json:scripts.mine2_spookyloot.vein3c
+      linia: 5
+      sekcja_skryptu: vein3c
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're in up to the shoulder when you feel it.  A beating heart.
+      pl: Jesteś po ramię, gdy to czujesz. Bijące serce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52dde6c43fb155d82292
+      kontekst: data.json:scripts.mine2_spookyloot.vein3c
+      linia: 6
+      sekcja_skryptu: vein3c
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rip it out
+      pl: Wyrwij to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cart1
+    wpisy:
+    - id: wol_4d3d4967f41890b6d415
+      kontekst: data.json:scripts.mine2_spookyloot.cart1
+      linia: 1
+      sekcja_skryptu: cart1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart looks like it's only partially real.
+      pl: Wózek wygląda na tylko częściowo realny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a621f480cd659f028f44
+      kontekst: data.json:scripts.mine2_spookyloot.cart1
+      linia: 2
+      sekcja_skryptu: cart1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loot it anyway
+      pl: I tak to ograb
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cart2
+    wpisy:
+    - id: wol_c4b5231106f268f62bac
+      kontekst: data.json:scripts.mine2_spookyloot.cart2
+      linia: 1
+      sekcja_skryptu: cart2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart is vibrating.
+      pl: Wózek wibruje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cart3
+    wpisy:
+    - id: wol_82e4023c010bd366f73e
+      kontekst: data.json:scripts.mine2_spookyloot.cart3
+      linia: 1
+      sekcja_skryptu: cart3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart is frighteningly normal.
+      pl: Wózek przerażająco normalny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfde63f3a4926b0623bd
+      kontekst: data.json:scripts.mine2_spookyloot.cart3
+      linia: 2
+      sekcja_skryptu: cart3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look through it
+      pl: Przejrzyj to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1906
+  skrypt: mine7_cart2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c5a557812d94d43ad81
+      kontekst: data.json:scripts.mine7_cart2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart was abandoned in a hurry.
+      pl: Wózek porzucony w pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1907
+  skrypt: mine7_cart3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c5a557812d94d43ad81
+      kontekst: data.json:scripts.mine7_cart3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart was abandoned in a hurry.
+      pl: Wózek porzucony w pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1908
+  skrypt: mine7_cart4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c5a557812d94d43ad81
+      kontekst: data.json:scripts.mine7_cart4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart was abandoned in a hurry.
+      pl: Wózek porzucony w pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1919
+  skrypt: mine7_minecart1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c5a557812d94d43ad81
+      kontekst: data.json:scripts.mine7_minecart1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cart was abandoned in a hurry.
+      pl: Wózek porzucony w pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

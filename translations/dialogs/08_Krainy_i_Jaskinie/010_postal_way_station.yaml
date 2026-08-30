@@ -1,0 +1,575 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: postal_way_station
+zrodlowy_batch: 090_dialog_loc_postalstation_postal_way_station.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 6
+liczba_wpisow: 32
+sceny:
+- kolejnosc_w_danych_gry: 2016
+  skrypt: postalstation_cabinet
+  pomieszczenie: &id001
+    id: postalstation
+    nazwa_en: Postal Way Station
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_55f5efd14695a29e7465
+      kontekst: data.json:scripts.postalstation_cabinet.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cabinet is full of maps, but you have no idea what any of them mean.
+      pl: Szafka pełna map, których nie rozumiesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d764a3954235953886a7
+      kontekst: data.json:scripts.postalstation_cabinet.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe you could ask about it at the post office in Dirtwater.
+      pl: Może zapytasz o to na poczcie w Dirtwater.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e7a61b721da5d8696d4
+      kontekst: data.json:scripts.postalstation_cabinet.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, maybe
+      pl: Ta, może
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fcab559a61e04f3b91eb
+      kontekst: data.json:scripts.postalstation_cabinet.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Or maybe not
+      pl: A może nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getinfo
+    wpisy:
+    - id: wol_28c00d33607a2a6bb025
+      kontekst: data.json:scripts.postalstation_cabinet.getinfo
+      linia: 5
+      sekcja_skryptu: getinfo
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You use the cheat sheet to find the route map that leads to Breadwood.
+      pl: Używasz ściągi, żeby znaleźć mapę trasy do Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4d3726579022e3d91d93
+      kontekst: data.json:scripts.postalstation_cabinet.getinfo
+      linia: 6
+      sekcja_skryptu: getinfo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Follow the map [Travel towards Breadwood]
+      pl: Podążaj za mapą [Podróż w stronę Breadwood]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Travel towards Breadwood]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: follow
+    wpisy:
+    - id: wol_b929736b95c4ee91d6a3
+      kontekst: data.json:scripts.postalstation_cabinet.follow
+      linia: 7
+      sekcja_skryptu: follow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You follow the map, and along the route to Breadwood you find a suspicious-looking house.
+      pl: Podążasz za mapą i w drodze do Breadwood znajdujesz podejrzany dom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_566198a1098132ae6299
+      kontekst: data.json:scripts.postalstation_cabinet.follow
+      linia: 8
+      sekcja_skryptu: follow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate the house
+      pl: Zbadaj dom
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getinfo
+    wpisy:
+    - id: wol_f9ec683e2a44e1134c1a
+      kontekst: data.json:scripts.postalstation_cabinet.getinfo
+      linia: 9
+      sekcja_skryptu: getinfo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ignore it for now
+      pl: Na razie zignoruj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nomore
+    wpisy:
+    - id: wol_4585d293964ee3b25be9
+      kontekst: data.json:scripts.postalstation_cabinet.nomore
+      linia: 10
+      sekcja_skryptu: nomore
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing more of any use to you in this cabinet.
+      pl: W tej szafce nie ma już nic przydatnego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2017
+  skrypt: postalstation_door
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_badbb03c81f4bcf66135
+      kontekst: data.json:scripts.postalstation_door.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It says "Postal Service Property.  NO TRESPASSING."
+      pl: 'Napis: „Własność Poczty. ZAKAZ WSTĘPU.”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed5a18a864146649373c
+      kontekst: data.json:scripts.postalstation_door.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trespass
+      pl: Wtargnij
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2018
+  skrypt: postalstation_papers1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f7aefb5aea3ba6a3c6ec
+      kontekst: data.json:scripts.postalstation_papers1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a stack of old newspapers.
+      pl: To stos starych gazet.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2c1884355858bf188054
+      kontekst: data.json:scripts.postalstation_papers1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody has removed all the funnies, so there is literally no reason to care about them.
+      pl: Ktoś wyrwał wszystkie komiksy, więc dosłownie nie ma powodu, by się nimi przejmować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unusednode
+    wpisy:
+    - id: wol_5559e86d868246c6245a
+      kontekst: data.json:scripts.postalstation_papers1.unusednode
+      linia: 1
+      sekcja_skryptu: unusednode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through them
+      pl: Przejdź przez nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_7400c5768ce0af1cc26f
+      kontekst: data.json:scripts.postalstation_papers1.e
+      linia: 2
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing else interesting.
+      pl: Nic więcej ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getcoupon
+    wpisy:
+    - id: wol_abe94e17fe4c0b8d6666
+      kontekst: data.json:scripts.postalstation_papers1.getcoupon
+      linia: 3
+      sekcja_skryptu: getcoupon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm, there's a coupon in here that somehow miraculously hasn't expired yet.
+      pl: Hmm, jest tu kupon, który jakoś cudem jeszcze nie wygasł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2019
+  skrypt: postalstation_papers2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f7aefb5aea3ba6a3c6ec
+      kontekst: data.json:scripts.postalstation_papers2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a stack of old newspapers.
+      pl: To stos starych gazet.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5559e86d868246c6245a
+      kontekst: data.json:scripts.postalstation_papers2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through them
+      pl: Przejdź przez nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_7f690896bac0966c0f5f
+      kontekst: data.json:scripts.postalstation_papers2.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh hmm, there's an article in here about how they had to change the name of a nearby cemetery due to so many skeletons being raised there.  You mark down the cemetery's location on your map.
+      pl: O, hmm, jest tu artykuł o tym, jak musieli zmienić nazwę pobliskiego cmentarza, bo podnoszono tam tyle szkieletów. Zaznaczasz lokalizację cmentarza na mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadysaw
+    wpisy:
+    - id: wol_e6eb6d749787924fac63
+      kontekst: data.json:scripts.postalstation_papers2.alreadysaw
+      linia: 4
+      sekcja_skryptu: alreadysaw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's an article about how they had to change the name of Boot Hill Cemetery to Reboot Hill Cemetery because of all of the skeletons in there coming back to life.
+      pl: Jest artykuł o tym, jak zmieniono Boot Hill Cemetery na Reboot Hill Cemetery, bo wszystkie szkielety ożywały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2020
+  skrypt: postalstation_papers3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f7aefb5aea3ba6a3c6ec
+      kontekst: data.json:scripts.postalstation_papers3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a stack of old newspapers.
+      pl: To stos starych gazet.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8e6f167c0b6843044e9
+      kontekst: data.json:scripts.postalstation_papers3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through them again
+      pl: Przejdź przez nie jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: wol_8371692e6646b39c56c3
+      kontekst: data.json:scripts.postalstation_papers3.e2
+      linia: 3
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing interesting this time.
+      pl: Tym razem nic ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_5559e86d868246c6245a
+      kontekst: data.json:scripts.postalstation_papers3.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through them
+      pl: Przejdź przez nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_dafdc13420794c3ae74b
+      kontekst: data.json:scripts.postalstation_papers3.e
+      linia: 5
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing interesting.  Oh, wait, there's actually a postcard in here that you could use.
+      pl: Nic ciekawego. O, chwila, jest tu pocztówka, której możesz użyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2021
+  skrypt: postalstation_papers4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f7aefb5aea3ba6a3c6ec
+      kontekst: data.json:scripts.postalstation_papers4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a stack of old newspapers.
+      pl: To stos starych gazet.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5559e86d868246c6245a
+      kontekst: data.json:scripts.postalstation_papers4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through them
+      pl: Przejdź przez nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_7400c5768ce0af1cc26f
+      kontekst: data.json:scripts.postalstation_papers4.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing else interesting.
+      pl: Nic więcej ciekawego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: letter
+    wpisy:
+    - id: wol_71962adbf0efdfee25c1
+      kontekst: data.json:scripts.postalstation_papers4.letter
+      linia: 4
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh hey, there's an undelivered letter underneath the stack.
+      pl: O, hej, pod stosem leży niedoręczony list.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d5b118abd25620ff621
+      kontekst: data.json:scripts.postalstation_papers4.letter
+      linia: 5
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's addressed to Roy Bean.
+      pl: Adresowane do Roy Bean.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1eb562fd5490686f7950
+      kontekst: data.json:scripts.postalstation_papers4.letter
+      linia: 6
+      sekcja_skryptu: letter
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the address and jot it down on your map.
+      pl: Patrzysz na adres i zapisujesz go na mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

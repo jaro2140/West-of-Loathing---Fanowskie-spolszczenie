@@ -1,0 +1,1614 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: lazy_a_dude_ranch
+zrodlowy_batch: 097_dialog_loc_ranch2_lazy_a_dude_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 9
+liczba_wpisow: 95
+sceny:
+- kolejnosc_w_danych_gry: 1000244
+  skrypt: house_spittoon_go
+  pomieszczenie: &id001
+    id: ranch2
+    nazwa_en: Lazy-A Dude Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dive
+    wpisy:
+    - id: wol_07d9bb45111449fecccd
+      kontekst: house.json:scripts.house_spittoon_go.dive
+      linia: 7
+      sekcja_skryptu: dive
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing.
+      pl: Nic.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2188
+  skrypt: ranch2_crate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_71b723ff232c285de0ce
+      kontekst: data.json:scripts.ranch2_crate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old burned crate. Guess it came with the property.
+      pl: Stara spalona skrzynia. Chyba przyszła z posesją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_2222dd162ac1b5a76cff
+      kontekst: data.json:scripts.ranch2_crate.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The stuff inside is unburnt! That's a pretty good crate.
+      pl: Zawartość jest nie spalona! Całkiem niezła skrzynia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2189
+  skrypt: ranch2_hippy1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6d3988b2059f2dd2b0b5
+      kontekst: data.json:scripts.ranch2_hippy1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, hey again. Lookin' for herbal remedies?
+      pl: O, znowu ty. Szukasz ziołowych lekarstw?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_c6484b122928fa2c18d8
+      kontekst: data.json:scripts.ranch2_hippy1.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy one [15 Meat]
+      pl: Kup jeden [15 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[15 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy
+    wpisy:
+    - id: wol_cea2b209cdbcaa61eac3
+      kontekst: data.json:scripts.ranch2_hippy1.buy
+      linia: 3
+      sekcja_skryptu: buy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, groovy. Thanks.
+      pl: Hej, odlotowo. Dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ac3e1380b34f479cfab0
+      kontekst: data.json:scripts.ranch2_hippy1.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy one [Requires 15 Meat]
+      pl: Kup jednego [Wymaga 15 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 15 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_ad8d0f384cab1879df30
+      kontekst: data.json:scripts.ranch2_hippy1.intro
+      linia: 6
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, like, howdy. I'm selling herbal remedies. Care to buy?
+      pl: Hej, jakby, witaj. Sprzedaję ziołowe lekarstwa. Chcesz kupić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3a2331480ef5a01e9b4f
+      kontekst: data.json:scripts.ranch2_hippy1.intro
+      linia: 7
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What kind of herbal remedies?
+      pl: Jakie zioła?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf349f3f62becb427795
+      kontekst: data.json:scripts.ranch2_hippy1.intro
+      linia: 8
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The kind that are gifted to us by Gaia without any interference by human hands.
+      pl: Takie, które Gaia daje nam bez żadnej ingerencji ludzkich rąk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7853d9f5011394e45da4
+      kontekst: data.json:scripts.ranch2_hippy1.intro
+      linia: 9
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So... weeds?
+      pl: Czyli... chwasty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_42e28bc50a9ab84eafa7
+      kontekst: data.json:scripts.ranch2_hippy1.intro
+      linia: 10
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's a derogatory term created by the Man but yeah basically.
+      pl: To obraźliwe określenie wymyślone przez System, ale tak, w zasadzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2190
+  skrypt: ranch2_hippy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 47
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_650efc1c0d810288a904
+      kontekst: data.json:scripts.ranch2_hippy2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, like, howdy, man.
+      pl: Hej, jakby, witaj, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3bb30207f3478964fe6
+      kontekst: data.json:scripts.ranch2_hippy2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Howdy again!
+      pl: Howdy znowu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: core
+    wpisy:
+    - id: wol_a83e7ccf5962745220f9
+      kontekst: data.json:scripts.ranch2_hippy2.core
+      linia: 4
+      sekcja_skryptu: core
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Could you grow cowsbane? [cowsbane seeds]
+      pl: Czy mógłbyś wyhodować krowoziół? [nasiona krowoziołu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[cowsbane seeds]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: banequestion
+    wpisy:
+    - id: wol_f48ad7e972ca4c982d43
+      kontekst: data.json:scripts.ranch2_hippy2.banequestion
+      linia: 6
+      sekcja_skryptu: banequestion
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, no. No way man, sorry. That's like, the only stuff we actually get rid of when it grows.
+      pl: Wow, nie. Nie ma mowy. To jedyna rzecz, której się pozbywamy, kiedy rośnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_221cfbb916424f242627
+      kontekst: data.json:scripts.ranch2_hippy2.banequestion
+      linia: 8
+      sekcja_skryptu: banequestion
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It attracts cows somethin' fierce, man. You get more than like one stalk or whatever in the same place? Boom! Cows all up in your biz, man!
+      pl: To przyciąga krowy jak szalone, stary. Zbierz w jednym miejscu więcej niż jedną łodygę czy coś? Bum! Wszędzie pełno krów, stary!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: banequestion2
+    wpisy:
+    - id: wol_4d756b92d42c8c75e987
+      kontekst: data.json:scripts.ranch2_hippy2.banequestion2
+      linia: 10
+      sekcja_skryptu: banequestion2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm. What if you had a fence to keep the cows out?
+      pl: Hmm. A gdybyś miał płot, który nie wpuszczałby krów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2529c6a4186bc6062cfe
+      kontekst: data.json:scripts.ranch2_hippy2.banequestion2
+      linia: 11
+      sekcja_skryptu: banequestion2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, maybe. But it'd have to be a real serious fence, man. Like, with the barbs and all? Like <i>major</i> fencing, man.
+      pl: Może. Ale to musi być naprawdę poważne ogrodzenie, koleś. No wiesz, z kolcami i w ogóle? <i>Porządne</i> ogrodzenie, koleś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0cf33cfb14e825f2fe6
+      kontekst: data.json:scripts.ranch2_hippy2.banequestion2
+      linia: 12
+      sekcja_skryptu: banequestion2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. I'll see what I can do.
+      pl: Okej. Zobaczę, co da się zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: core
+    wpisy:
+    - id: wol_e23c488058ff9da9ae78
+      kontekst: data.json:scripts.ranch2_hippy2.core
+      linia: 13
+      sekcja_skryptu: core
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I brought a silver fence. [silver fence]
+      pl: Przyniosłem srebrne ogrodzenie. [srebrne ogrodzenie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver fence]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givefence
+    wpisy:
+    - id: wol_fe1596451345875e9e67
+      kontekst: data.json:scripts.ranch2_hippy2.givefence
+      linia: 14
+      sekcja_skryptu: givefence
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, I got some silver-plated barbed wire for you.
+      pl: Dobra, mam dla ciebie posrebrzany drut kolczasty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1d525c731559e40b5a62
+      kontekst: data.json:scripts.ranch2_hippy2.givefence
+      linia: 15
+      sekcja_skryptu: givefence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whoa! That's the stuff, man! Heck yeah, this'll totally keep the cows away! This is, like, a real epiphany, man!
+      pl: Whoa! O to chodzi! Tak, to całkowicie powstrzyma krowy! To jest jak prawdziwe objawienie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c729107265362501f2c
+      kontekst: data.json:scripts.ranch2_hippy2.givefence
+      linia: 16
+      sekcja_skryptu: givefence
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So you can grow me a crop of cowsbane, then?
+      pl: Czyli możesz wyhodować dla mnie pole krowoziołu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_331fb020cdbf14319d04
+      kontekst: data.json:scripts.ranch2_hippy2.givefence
+      linia: 17
+      sekcja_skryptu: givefence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure, man!
+      pl: Jasne, stary!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96432ef45ae39b4d393b
+      kontekst: data.json:scripts.ranch2_hippy2.givefence
+      linia: 18
+      sekcja_skryptu: givefence
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Right on.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: installfence
+    wpisy:
+    - id: wol_37d264ede2b2b9467046
+      kontekst: data.json:scripts.ranch2_hippy2.installfence
+      linia: 20
+      sekcja_skryptu: installfence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We'll, like, have the fence set up by tomorrow, right, and then I'll get these cowsbane seeds planted. This stuff grows pretty quick, I should have a crop for you in about three days.
+      pl: Do jutra ustawimy ogrodzenie, a potem posadzę te nasiona. To szybko się rozrasta, powinienem mieć dla ciebie plon w trzy dni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: core
+    wpisy:
+    - id: wol_da13b41093cf1b615d44
+      kontekst: data.json:scripts.ranch2_hippy2.core
+      linia: 22
+      sekcja_skryptu: core
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Will this fence work? [barbed wire]
+      pl: Czy ten płot zadziała? [drut kolczasty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[barbed wire]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givebadfence
+    wpisy:
+    - id: wol_efb4a4d80f908dd66607
+      kontekst: data.json:scripts.ranch2_hippy2.givebadfence
+      linia: 23
+      sekcja_skryptu: givebadfence
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I found some barbed-wire fencing. Will this keep the cows out?
+      pl: Znalazłem ogrodzenie z drutu kolczastego. Powstrzyma krowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_522487e68bacb48e99a3
+      kontekst: data.json:scripts.ranch2_hippy2.givebadfence
+      linia: 24
+      sekcja_skryptu: givebadfence
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmmmm... no, I don't think that's gonna be enough, man. Not regular steel. Maybe if it was, like, something that cows really hate? Like if it was made of silver, right? That'd probably work, man.
+      pl: Hmmmm... nie, chyba to nie wystarczy, stary. Nie zwykła stal. Może gdyby to było coś, czego krowy naprawdę nienawidzą? Na przykład srebro, prawda? To pewnie by zadziałało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a8934c653a21029846f
+      kontekst: data.json:scripts.ranch2_hippy2.givebadfence
+      linia: 25
+      sekcja_skryptu: givebadfence
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bummer.
+      pl: Słabo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: core
+    wpisy:
+    - id: wol_ec6ef09ac67cc914276b
+      kontekst: data.json:scripts.ranch2_hippy2.core
+      linia: 26
+      sekcja_skryptu: core
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got any cowsbane for me yet?
+      pl: Masz już dla mnie trochę krowoziół?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getbane
+    wpisy:
+    - id: wol_e59b9a810f5d09ba4a48
+      kontekst: data.json:scripts.ranch2_hippy2.getbane
+      linia: 28
+      sekcja_skryptu: getbane
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah man, gotta install the fence first and then plant the seeds.  Come back in three days, man.
+      pl: Nie, stary, najpierw trzeba postawić ogrodzenie, a potem posadzić nasiona. Wróć za trzy dni, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2d3d5ff6dfc606ea34c
+      kontekst: data.json:scripts.ranch2_hippy2.getbane
+      linia: 29
+      sekcja_skryptu: getbane
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah, man, it's still growin'. Hasn't been three days yet.
+      pl: Nie, stary, to wciąż rośnie. Jeszcze nie minęły trzy dni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesbane
+    wpisy:
+    - id: wol_6af84c4ab1dcc929f0de
+      kontekst: data.json:scripts.ranch2_hippy2.yesbane
+      linia: 31
+      sekcja_skryptu: yesbane
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I sure do, man! Baled it up for ya and everything!
+      pl: Pewnie, że mam, człowieku! Nawet ci to zbelowałem i w ogóle!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a008cd872144a4ba95c8
+      kontekst: data.json:scripts.ranch2_hippy2.yesbane
+      linia: 32
+      sekcja_skryptu: yesbane
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great, thanks!
+      pl: Świetnie, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d768a897257ddf0550a1
+      kontekst: data.json:scripts.ranch2_hippy2.yesbane
+      linia: 33
+      sekcja_skryptu: yesbane
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Boom shanka, man.
+      pl: Boom shanka, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_23c45a069963ab32e511
+      kontekst: data.json:scripts.ranch2_hippy2.yesbane
+      linia: 34
+      sekcja_skryptu: yesbane
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-huh!
+      pl: Aha!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: core
+    wpisy:
+    - id: wol_f7b86f37b1b7017d89c0
+      kontekst: data.json:scripts.ranch2_hippy2.core
+      linia: 35
+      sekcja_skryptu: core
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where'd you get that hat?
+      pl: Skąd masz ten kapelusz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gethat
+    wpisy:
+    - id: wol_8227b836cbc8e9638346
+      kontekst: data.json:scripts.ranch2_hippy2.gethat
+      linia: 37
+      sekcja_skryptu: gethat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, this? A friend of mine made it, man. Umm... I forget which one.
+      pl: Och, to? Zrobił to jeden z moich kumpli, stary. Yyy... nie pamiętam który.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6396b52bdc6a265269f
+      kontekst: data.json:scripts.ranch2_hippy2.gethat
+      linia: 38
+      sekcja_skryptu: gethat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What'll you take for it?
+      pl: Ile za to chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gethat2
+    wpisy:
+    - id: wol_5d98bfa73990ea2dabca
+      kontekst: data.json:scripts.ranch2_hippy2.gethat2
+      linia: 40
+      sekcja_skryptu: gethat2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... I have been thinkin' of tryin' a new style, man. Maybe like, one of those hats the army guys used to wear, back in the day? Like as kind of an ironic statement, man? There's an old fort over yonder thataway... I'll swap you if you can find one of those, man.
+      pl: Cóż... Myślałem o nowym stylu. Może jeden z tych kapeluszy, które kiedyś nosili wojskowi? Jak ironiczne stwierdzenie? Tam jest stary fort... Zamienię cię, jeśli znajdziesz coś takiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1565e731c74c8f348d3b
+      kontekst: data.json:scripts.ranch2_hippy2.gethat2
+      linia: 41
+      sekcja_skryptu: gethat2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He marks the location of a nearby fort on your map.
+      pl: Zaznacza na twojej mapie pobliski fort.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_02b4a05bb9bab72d4b57
+      kontekst: data.json:scripts.ranch2_hippy2.gethat2
+      linia: 42
+      sekcja_skryptu: gethat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Like this one, you mean? [trade for old patrol cap]
+      pl: Taką na przykład? [wymień na stary patrol cap]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[trade for old patrol cap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yeshat
+    wpisy:
+    - id: wol_b52ec5bfcb19ba48a8ea
+      kontekst: data.json:scripts.ranch2_hippy2.yeshat
+      linia: 44
+      sekcja_skryptu: yeshat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice, man! Barter is like, commerce, man, except <i>natural</i>, can you dig it?
+      pl: Nieźle, stary! Barter to jak handel, stary, tylko <i>naturalny,</i> czaisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff44b6acf810b3c1dac1
+      kontekst: data.json:scripts.ranch2_hippy2.yeshat
+      linia: 45
+      sekcja_skryptu: yeshat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, groovy.
+      pl: Tak, groovy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gethat2
+    wpisy:
+    - id: wol_6a963e612e61ab4a8e9c
+      kontekst: data.json:scripts.ranch2_hippy2.gethat2
+      linia: 46
+      sekcja_skryptu: gethat2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll keep that in mind.
+      pl: Zapamiętam to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: starthatquest
+    wpisy:
+    - id: wol_69b57c4cec9eea41d61b
+      kontekst: data.json:scripts.ranch2_hippy2.starthatquest
+      linia: 49
+      sekcja_skryptu: starthatquest
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Groovy, man.
+      pl: Git, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_3373a5adc8f748ae78ad
+      kontekst: data.json:scripts.ranch2_hippy2.intro
+      linia: 53
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy.
+      pl: Howdy.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_299925656438feb9cb08
+      kontekst: data.json:scripts.ranch2_hippy2.intro
+      linia: 54
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, yeah! Howdy, man. What's happenin'?
+      pl: Hej, no pewnie! Witaj, stary. Co słychać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d7648d928c12d235726f
+      kontekst: data.json:scripts.ranch2_hippy2.intro
+      linia: 55
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, that's what I was wondering.
+      pl: Ta, o to właśnie się zastanawiałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_58d67e7d20abdad94651
+      kontekst: data.json:scripts.ranch2_hippy2.intro2
+      linia: 57
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh not much, man. We moved onto this little patch of land to grow crops, but then we decided it's more natural to just let Gaia grow whatever she wants, right?
+      pl: Och, niewiele, stary. Przenieśliśmy się na ten kawałek ziemi, żeby uprawiać rośliny, ale potem uznaliśmy, że naturalniej będzie pozwolić Gai hodować, co tylko zechce, nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba0b741dd7e48ea66505
+      kontekst: data.json:scripts.ranch2_hippy2.intro2
+      linia: 58
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I bet that's a lot easier, too.
+      pl: Założę się, że to też jest dużo łatwiejsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b75c78d911665e579884
+      kontekst: data.json:scripts.ranch2_hippy2.intro2
+      linia: 59
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha right on, man.
+      pl: Ha, ha, pewnie, stary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_07d9bb45111449fecccd
+      kontekst: data.json:scripts.ranch2_hippy2.intro
+      linia: 61
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing.
+      pl: Nic.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hatcheck
+    wpisy:
+    - id: wol_cd5aad80bb5f84f0470e
+      kontekst: data.json:scripts.ranch2_hippy2.hatcheck
+      linia: 62
+      sekcja_skryptu: hatcheck
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you find one of those old army hats, man? I'll trade you.
+      pl: Znalazłeś któryś z tych starych wojskowych kapeluszy, stary? Wymienię się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d77972646c5ba4eb14d
+      kontekst: data.json:scripts.ranch2_hippy2.hatcheck
+      linia: 64
+      sekcja_skryptu: hatcheck
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No...
+      pl: Nie...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nohat
+    wpisy:
+    - id: wol_ed7f4912aa4bbb4f74b0
+      kontekst: data.json:scripts.ranch2_hippy2.nohat
+      linia: 66
+      sekcja_skryptu: nohat
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Bummer, man. Sorry.
+      pl: Słabo, stary. Przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_546a3992ebdbabbe14f8
+      kontekst: data.json:scripts.ranch2_hippy2.nohat
+      linia: 67
+      sekcja_skryptu: nohat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Me too.
+      pl: Ja też.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2191
+  skrypt: ranch2_hippy3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_3b571e8ed1d68c6d6cbe
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy. I'm @firstname@.
+      pl: Howdy. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7baf49cfc0d3363c5dc
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm Louise. Louise Lathrop.
+      pl: Jestem Louise. Louise Lathrop.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_09a151532061062f1919
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Why the long face, Louise?
+      pl: Skąd ta mina, Louise?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ebff9b2fe5b145ddbad2
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw jeez, basically because I'm stuck here "farming" with a couple of dummies who don't know how to farm a dang thing, so they just let the weeds grow and call it "natural". I am so sick of eating dandelions, I could scream!
+      pl: Bo utknąłem tutaj przy „uprawie” z dwoma głupkami, którzy nie umieją nic uprawiać, więc pozwalają rosnąć chwastom i nazywają to „naturą”. Mam tak dość jedzenia mleczy, że mógłbym wrzeszczeć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d28b992858847c1edf6c
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why don't you leave?
+      pl: Czemu nie odejdziesz?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_c352e7db02846bc09c20
+      kontekst: data.json:scripts.ranch2_hippy3.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I haven't got any Meat, or any other prospects, or anywhere to go. I mean, dandelions are terrible but they're better than eating dirt! This is such a mess!
+      pl: Nie mam Mięsa ani żadnych perspektyw, ani dokąd pójść. Mlecze są okropne, ale lepsze niż jedzenie ziemi! Co za katastrofa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b05e3ae75b9415bdbab1
+      kontekst: data.json:scripts.ranch2_hippy3.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How'd you get in this predicament?
+      pl: Jak wpadłeś w tę opresję?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_f74db92341054a22338e
+      kontekst: data.json:scripts.ranch2_hippy3.three
+      linia: 10
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I headed west after graduating baking school, and fell in with these two because they talked a big game about natural grains. Fool that I was, I didn't realize all they were really interested in was getting silly on loco weed and not doing any work.
+      pl: Po ukończeniu szkoły piekarskiej ruszyłem na zachód i dołączyłem do tej dwójki, bo dużo opowiadali o naturalnych zbożach. Głupi byłem, bo nie zauważyłem, że tak naprawdę chcieli tylko odurzać się krowoziołem i nic nie robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d28b992858847c1edf6c
+      kontekst: data.json:scripts.ranch2_hippy3.three
+      linia: 11
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why don't you leave?
+      pl: Czemu nie odejdziesz?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_160c6784687328434a1c
+      kontekst: data.json:scripts.ranch2_hippy3.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. So you're looking for work?
+      pl: Hmm. Szukasz pracy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_26b0904092746c4c20a0
+      kontekst: data.json:scripts.ranch2_hippy3.four
+      linia: 14
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Gosh, yes, desperately! The only trade I know is baking, though.
+      pl: O rany, tak, rozpaczliwie! Tyle że znam się tylko na pieczeniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fourb
+    wpisy:
+    - id: wol_f814ea6a37624c2949dd
+      kontekst: data.json:scripts.ranch2_hippy3.fourb
+      linia: 15
+      sekcja_skryptu: fourb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Do you know somewhere that's hiring a baker? Heck, even unpaid would be better than this if it comes with room and board! I just want to get out of here!
+      pl: Znasz miejsce, gdzie szukają piekarza? Do diabła, nawet bez zapłaty byłoby lepiej niż tutaj, jeśli dają wikt i opierunek! Chcę się stąd wydostać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5bfc050e57fc8c6fbf03
+      kontekst: data.json:scripts.ranch2_hippy3.fourb
+      linia: 16
+      sekcja_skryptu: fourb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I do happen to know of a bakery that needs some help.
+      pl: Akurat wiem o piekarni, która potrzebuje pomocy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_a5c0f964ca713589a9a7
+      kontekst: data.json:scripts.ranch2_hippy3.yes
+      linia: 18
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Really? That's wonderful! ...Oh jeez, I can't go like this, though. I'm filthy! Nobody would ever let me step foot into their kitchen looking like this. Do you have a bar of soap I can mooch off you?
+      pl: Naprawdę? To cudownie! ...O rany, ale nie mogę tak pójść. Jestem brudna! Nikt nie wpuści mnie do kuchni w takim stanie. Masz może kostkę mydła, którą mógłbyś mi odstąpić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cfb71156048ab1db287
+      kontekst: data.json:scripts.ranch2_hippy3.yes
+      linia: 19
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, no problem. [Give soap]
+      pl: Jasne, bez problemu. [Daj mydło]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Give soap]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yes2
+    wpisy:
+    - id: wol_27603101ebf8c21e244c
+      kontekst: data.json:scripts.ranch2_hippy3.yes2
+      linia: 21
+      sekcja_skryptu: yes2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, thank you! Thank you so much!
+      pl: Och, dziękuję! Bardzo dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9035c95cae4310e18c72
+      kontekst: data.json:scripts.ranch2_hippy3.yes2
+      linia: 22
+      sekcja_skryptu: yes2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give her a bar of soap and directions to the Bakery Boys' bakery, and she sets off to find somewhere to take a bath before her job interview.
+      pl: Dajesz jej kawałek mydła i wskazówki do piekarni Chłopaków od Pieczywa, a ona rusza szukać miejsca na kąpiel przed rozmową o pracę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_37a3cda22632825bb644
+      kontekst: data.json:scripts.ranch2_hippy3.yes2
+      linia: 23
+      sekcja_skryptu: yes2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure feels nice to help out.
+      pl: Miło jest pomóc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_7dda91c1540a04093b4b
+      kontekst: data.json:scripts.ranch2_hippy3.yes
+      linia: 24
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, sorry.
+      pl: Nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: no2
+    wpisy:
+    - id: wol_7c13e61ebebb43374be0
+      kontekst: data.json:scripts.ranch2_hippy3.no2
+      linia: 26
+      sekcja_skryptu: no2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her face falls.
+      pl: Jej twarz opada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7507b5de4b06895fa027
+      kontekst: data.json:scripts.ranch2_hippy3.no2
+      linia: 27
+      sekcja_skryptu: no2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: And here I thought my problems were over. Listen, I really hate to impose, 'specially since you already helped me out by telling me about this job, but if you could bring me a bar of soap I'd really appreciate it!
+      pl: A już myślałem, że moje problemy się skończyły. Słuchaj, głupio mi prosić, zwłaszcza że już pomogłeś mi, mówiąc o tej pracy, ale byłbym wdzięczny, gdybyś przyniósł mi kostkę mydła!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fourb
+    wpisy:
+    - id: wol_3b8822d2d363c50810f1
+      kontekst: data.json:scripts.ranch2_hippy3.fourb
+      linia: 29
+      sekcja_skryptu: fourb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't, sorry.
+      pl: Nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_c3c61191086fed06eda5
+      kontekst: data.json:scripts.ranch2_hippy3.no
+      linia: 31
+      sekcja_skryptu: 'no'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Shucks. Well, if you hear anything, please let me know.
+      pl: Kurczę. Jeśli czegoś się dowiesz, daj mi znać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97e1d294b9f699019dbb
+      kontekst: data.json:scripts.ranch2_hippy3.no
+      linia: 32
+      sekcja_skryptu: 'no'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Will do.
+      pl: Zrobione.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_160c6784687328434a1c
+      kontekst: data.json:scripts.ranch2_hippy3.two
+      linia: 33
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm. So you're looking for work?
+      pl: Hmm. Szukasz pracy?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_b05e3ae75b9415bdbab1
+      kontekst: data.json:scripts.ranch2_hippy3.start
+      linia: 34
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How'd you get in this predicament?
+      pl: Jak wpadłeś w tę opresję?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesb
+    wpisy:
+    - id: wol_f1990204f129685ad763
+      kontekst: data.json:scripts.ranch2_hippy3.yesb
+      linia: 35
+      sekcja_skryptu: yesb
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Do you have a bar of soap I can mooch off you?  I'm filthy! Nobody would ever let me step foot into their kitchen looking like this.
+      pl: Masz może kostkę mydła, którą mógłbym wysępić? Jestem brudny! Nikt nie wpuści mnie do swojej kuchni w takim stanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cfb71156048ab1db287
+      kontekst: data.json:scripts.ranch2_hippy3.yesb
+      linia: 36
+      sekcja_skryptu: yesb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, no problem. [Give soap]
+      pl: Jasne, bez problemu. [Daj mydło]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Give soap]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7dda91c1540a04093b4b
+      kontekst: data.json:scripts.ranch2_hippy3.yesb
+      linia: 37
+      sekcja_skryptu: yesb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, sorry.
+      pl: Nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2192
+  skrypt: ranch2_manurebags
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5ef9ada6335e96427d78
+      kontekst: data.json:scripts.ranch2_manurebags.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A huge supply of unused fertilizer.
+      pl: Ogromny zapas niewykorzystanego nawozu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb9aa440d536e35fa67b
+      kontekst: data.json:scripts.ranch2_manurebags.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary sniffs the air and looks around excitedly.
+      pl: Gary węszy powietrze i rozgląda się podekscytowany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_982a2cd5721dca16abfb
+      kontekst: data.json:scripts.ranch2_manurebags.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search the bags
+      pl: Przeszukaj worki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_0e370c57b1777ea4971e
+      kontekst: data.json:scripts.ranch2_manurebags.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Aha! One of these bags is different!
+      pl: Aha! Jeden z tych worków jest inny!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2296
+  skrypt: re_banditf3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: outfox2
+    wpisy:
+    - id: wol_7dda91c1540a04093b4b
+      kontekst: data.json:scripts.re_banditf3.outfox2
+      linia: 38
+      sekcja_skryptu: outfox2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nope, sorry.
+      pl: Nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2631
+  skrypt: train_passenter6b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: russ2
+    wpisy:
+    - id: wol_6d77972646c5ba4eb14d
+      kontekst: data.json:scripts.train_passenter6b.russ2
+      linia: 23
+      sekcja_skryptu: russ2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No...
+      pl: Nie...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2702
+  skrypt: tut_hostler_bar
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_3b571e8ed1d68c6d6cbe
+      kontekst: data.json:scripts.tut_hostler_bar.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy. I'm @firstname@.
+      pl: Howdy. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

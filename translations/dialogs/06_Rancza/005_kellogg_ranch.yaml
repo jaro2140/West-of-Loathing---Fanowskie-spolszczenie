@@ -1,0 +1,4305 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: kellogg_ranch
+zrodlowy_batch: 100_dialog_loc_ranch5_kellogg_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 39
+liczba_wpisow: 245
+sceny:
+- kolejnosc_w_danych_gry: 1000064
+  skrypt: house_cuerack
+  pomieszczenie: &id001
+    id: ranch5
+    nazwa_en: Kellogg Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getone
+    wpisy:
+    - id: wol_ca6a3a07ab12af30477a
+      kontekst: house.json:scripts.house_cuerack.getone
+      linia: 3
+      sekcja_skryptu: getone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one
+      pl: Weź jeden
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000106
+  skrypt: house_ghost_clerk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: andyet3
+    wpisy:
+    - id: wol_28c8a2028a7ba427f06e
+      kontekst: house.json:scripts.house_ghost_clerk.andyet3
+      linia: 64
+      sekcja_skryptu: andyet3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Keep going!
+      pl: Idź dalej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000147
+  skrypt: house_humidor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ca6a3a07ab12af30477a
+      kontekst: house.json:scripts.house_humidor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one
+      pl: Weź jeden
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000151
+  skrypt: house_infodesk_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: mrsgun
+    wpisy:
+    - id: wol_aa33dc1f2ecab442ce32
+      kontekst: house.json:scripts.house_infodesk_talk.mrsgun
+      linia: 14
+      sekcja_skryptu: mrsgun
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Interesting.
+      pl: Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000175
+  skrypt: house_mancavebarcart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ca6a3a07ab12af30477a
+      kontekst: house.json:scripts.house_mancavebarcart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one
+      pl: Weź jeden
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000258
+  skrypt: house_teaservice
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4d7fde2b90fdb839e34c
+      kontekst: house.json:scripts.house_teaservice.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take them
+      pl: Weź je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2223
+  skrypt: ranch5_anatomychart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f988b4e14b5d61402756
+      kontekst: data.json:scripts.ranch5_anatomychart.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A grotesque anatomical chart. They've got the spleen mixed up with the liver.
+      pl: Groteskowa tablica anatomiczna. Pomylili śledzionę z wątrobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_020b86f8970682ef0cca
+      kontekst: data.json:scripts.ranch5_anatomychart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fix it [Anatomical Learnin']
+      pl: Napraw to [Anatomiczna nauka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Anatomical Learnin'']'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_9bf613e6f4a37fd1db21
+      kontekst: data.json:scripts.ranch5_anatomychart.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a pen and make a few corrections.
+      pl: Chwytasz długopis i poprawiasz kilka rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fixed
+    wpisy:
+    - id: wol_3ac9fffa3ae282884b3f
+      kontekst: data.json:scripts.ranch5_anatomychart.fixed
+      linia: 4
+      sekcja_skryptu: fixed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This chart is much more accurate now.
+      pl: Wykres jest teraz o wiele dokładniejszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2224
+  skrypt: ranch5_animalskeleton
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c27f146c3d01d264c063
+      kontekst: data.json:scripts.ranch5_animalskeleton.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a menacing ape skeleton!
+      pl: To groźny szkielet małpy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grabit
+    wpisy:
+    - id: wol_463086166cb6f8b076b4
+      kontekst: data.json:scripts.ranch5_animalskeleton.grabit
+      linia: 2
+      sekcja_skryptu: grabit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the ape skeleton from the Petting Cemetery!
+      pl: To szkielet małpy z Cmentarza do Głaskania!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_bbeb8c79118d6166dd9a
+      kontekst: data.json:scripts.ranch5_animalskeleton.get
+      linia: 4
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fold up the ape skeleton and stuff it in your pocket.
+      pl: Składasz szkielet małpy i wciskasz do kieszeni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2225
+  skrypt: ranch5_barbedwire
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cb14ab0eadd6b4af0a82
+      kontekst: data.json:scripts.ranch5_barbedwire.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a coil of barbed wire hanging from a nail here.
+      pl: Na gwóźdź zwisa zwój drutu kolczastego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_4c446975c2c41a3bd58c
+      kontekst: data.json:scripts.ranch5_barbedwire.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stuff the coil of barbed wire into your pack. Maybe you can send it to a sick friend, or something.
+      pl: Wpychasz zwój drutu kolczastego do plecaka. Może wyślesz choremu przyjacielowi, czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2226
+  skrypt: ranch5_barndoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_862692affe5c0c886762
+      kontekst: data.json:scripts.ranch5_barndoor.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You deftly pick the complicated lock.
+      pl: Zręcznie otwierasz skomplikowany zamek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_c808c68820c2cf7a0e42
+      kontekst: data.json:scripts.ranch5_barndoor.unlockable
+      linia: 7
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock the door [Kellogg's keyring]
+      pl: Odblokuj drzwi [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_barndoor.unlock
+      linia: 8
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2227
+  skrypt: ranch5_barnintro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_97c0605c5f552aef797c
+      kontekst: data.json:scripts.ranch5_barnintro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa.  There is a <i>lot</i> of grain here.  If you ever need a lot of grain, you know where to find it.
+      pl: Wow. Jest tu <i>dużo</i> ziarna. Jeśli kiedyś potrzebujesz dużo ziarna, wiesz, gdzie szukać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2228
+  skrypt: ranch5_bed1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7709ceadbf626b140c8b
+      kontekst: data.json:scripts.ranch5_bed1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a skeleton in this bed.  And it's wearing weird metal pants.
+      pl: W tym łóżku leży szkielet. I ma na sobie dziwne metalowe spodnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4d7fde2b90fdb839e34c
+      kontekst: data.json:scripts.ranch5_bed1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take them
+      pl: Weź je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2229
+  skrypt: ranch5_bed5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_19f04ca036d5ee792e4f
+      kontekst: data.json:scripts.ranch5_bed5.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This bed is covered in bones!
+      pl: To łóżko pokryte kośćmi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4d7fde2b90fdb839e34c
+      kontekst: data.json:scripts.ranch5_bed5.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take them
+      pl: Weź je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2230
+  skrypt: ranch5_bedroom2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_48af4b686b9c089be5d0
+      kontekst: data.json:scripts.ranch5_bedroom2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a scrap of paper under the pillow.
+      pl: Pod poduszką leży skrawek papieru.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read
+    wpisy:
+    - id: wol_e0400ad6f3b6801870f8
+      kontekst: data.json:scripts.ranch5_bedroom2.read
+      linia: 3
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like a torn-out part of a diary page.
+      pl: Wygląda jak wyrwana część strony z pamiętnika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3d1f6a1c9f5dcaf511ea
+      kontekst: data.json:scripts.ranch5_bedroom2.read
+      linia: 4
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"-upposed to achieve Purity of Glands, but I can''t stand sleeping in those metal pants.  They''re so noisy, especially when I -"'
+      pl: '"-miałem osiągnąć Czystość Gruczołów, ale nie znoszę spania w tych metalowych spodniach. Strasznie hałasują, zwłaszcza gdy -"'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2231
+  skrypt: ranch5_doughpress
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1bceec5b855957ad9930
+      kontekst: data.json:scripts.ranch5_doughpress.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The label on this thing says DOUGH PRESS.
+      pl: Etykieta na tym czymś mówi DOUGH PRESS.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_86fd13ed4d5c6f997656
+      kontekst: data.json:scripts.ranch5_doughpress.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert your dough
+      pl: Włóż ciasto
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2232
+  skrypt: ranch5_doughpress2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e07ea5a172fdc4b730bf
+      kontekst: data.json:scripts.ranch5_doughpress2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feed your dough into the press and look at the controls.
+      pl: Wrzucasz ciasto do prasy i patrzysz na sterowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dcaab632110eb4253502
+      kontekst: data.json:scripts.ranch5_doughpress2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They consist of a pressure gauge, four unlabelled buttons, and a sign that says "MAX PRESS 181".
+      pl: Składają się z manometru, czterech nieoznaczonych przycisków i tabliczki „MAX PRESS 181”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_2cfaaae338a00196a03c
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 3
+      sekcja_skryptu: loop
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The pressure needle is at $pressure$ PSI
+      pl: 'Wskazówka ciśnienia: $pressure$ PSI'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $pressure$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_130ac8024afa99da728e
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 4
+      sekcja_skryptu: loop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the green button
+      pl: Naciśnij zielony przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: green
+    wpisy:
+    - id: wol_3428dbca4954aa4e8d81
+      kontekst: data.json:scripts.ranch5_doughpress2.green
+      linia: 5
+      sekcja_skryptu: green
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens when you press the green button.
+      pl: Nic się nie dzieje, gdy wciskasz zielony przycisk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_edbc2910ed2f38b494be
+      kontekst: data.json:scripts.ranch5_doughpress2.green
+      linia: 6
+      sekcja_skryptu: green
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a burst of steam from the back of the machine.
+      pl: Z tyłu maszyny bucha para.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_a57fd92404bf4c91b8a2
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 7
+      sekcja_skryptu: loop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the red button
+      pl: Naciśnij czerwony przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: red
+    wpisy:
+    - id: wol_f21de64554bfd750ac94
+      kontekst: data.json:scripts.ranch5_doughpress2.red
+      linia: 8
+      sekcja_skryptu: red
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a loud hiss of steam from inside the press.
+      pl: Z wnętrza prasy dobiega głośny syk pary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_8f16dbcba0aa1358360a
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 9
+      sekcja_skryptu: loop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the blue button
+      pl: Naciśnij niebieski przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: blue
+    wpisy:
+    - id: wol_57f1c511b0f5d6113314
+      kontekst: data.json:scripts.ranch5_doughpress2.blue
+      linia: 10
+      sekcja_skryptu: blue
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a quiet hiss from inside the press.
+      pl: Z wnętrza prasy dobiega cichy syk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_76f4e1f5b6015fcfd218
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 11
+      sekcja_skryptu: loop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the yellow button
+      pl: Naciśnij żółty przycisk
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yellow
+    wpisy:
+    - id: wol_166a43b0e6fd36dfd56a
+      kontekst: data.json:scripts.ranch5_doughpress2.yellow
+      linia: 12
+      sekcja_skryptu: yellow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press the yellow button, and the machine slowly compresses the dough you've stuck inside it.
+      pl: Naciskasz żółty guzik i maszyna powoli prasuje wsunięte ciasto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfb3e8b82a07485c4b20
+      kontekst: data.json:scripts.ranch5_doughpress2.yellow
+      linia: 13
+      sekcja_skryptu: yellow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When the machine is finished, you're left with some perfectly-pressed dough!
+      pl: Gdy maszyna skończy, zostaje ci idealnie wytłoczone ciasto!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: done
+    wpisy:
+    - id: wol_f6c83d90386e57f4f267
+      kontekst: data.json:scripts.ranch5_doughpress2.done
+      linia: 15
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab your dough and leave.  As you're leavin', you wonder if the dough is leavened.
+      pl: Chwytasz ciasto i wychodzisz. Wychodząc, zastanawiasz się, czy ciasto jest zakwaszone.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: toolow
+    wpisy:
+    - id: wol_4d5dabe2d5b92104c795
+      kontekst: data.json:scripts.ranch5_doughpress2.toolow
+      linia: 17
+      sekcja_skryptu: toolow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, the dough remains unchanged.
+      pl: Niestety ciasto pozostaje niezmienione.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4954bb5ff80b5fccbbd
+      kontekst: data.json:scripts.ranch5_doughpress2.toolow
+      linia: 19
+      sekcja_skryptu: toolow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your dough and go home
+      pl: Weź swoje ciasto i idź do domu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takedough
+    wpisy:
+    - id: wol_f6c83d90386e57f4f267
+      kontekst: data.json:scripts.ranch5_doughpress2.takedough
+      linia: 20
+      sekcja_skryptu: takedough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab your dough and leave.  As you're leavin', you wonder if the dough is leavened.
+      pl: Chwytasz ciasto i wychodzisz. Wychodząc, zastanawiasz się, czy ciasto jest zakwaszone.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_adcc0fa6bdbbb81a3985
+      kontekst: data.json:scripts.ranch5_doughpress2.takedough
+      linia: 21
+      sekcja_skryptu: takedough
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Farewell, cruel press
+      pl: Żegnaj, okrutna prasa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: toohigh
+    wpisy:
+    - id: wol_8ead12f773174b40cea5
+      kontekst: data.json:scripts.ranch5_doughpress2.toohigh
+      linia: 22
+      sekcja_skryptu: toohigh
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, the press crushes your dough into an unusable stain.
+      pl: Niestety prasa miażdży ciasto w bezużyteczną plamę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_b4954bb5ff80b5fccbbd
+      kontekst: data.json:scripts.ranch5_doughpress2.loop
+      linia: 24
+      sekcja_skryptu: loop
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take your dough and go home
+      pl: Weź swoje ciasto i idź do domu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2233
+  skrypt: ranch5_grainpiles
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4ffcc23da3da65f2b2e9
+      kontekst: data.json:scripts.ranch5_grainpiles.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Endless stacks of grain.
+      pl: Nieskończone stosy zboża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca6a3a07ab12af30477a
+      kontekst: data.json:scripts.ranch5_grainpiles.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one
+      pl: Weź jeden
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2234
+  skrypt: ranch5_height
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2e53a99d3814e72e87ee
+      kontekst: data.json:scripts.ranch5_height.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big ruler.  It's like a scale, but for height.
+      pl: To wielka miara. Jak waga, tylko do wzrostu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2d86594e83069d710bb9
+      kontekst: data.json:scripts.ranch5_height.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Measure yourself
+      pl: Zmierz siebie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_45404166efdd4f18cee4
+      kontekst: data.json:scripts.ranch5_height.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: According to this ruler, you are %ranch5_heightamount% %ranch5_heightunits% and %ranch5_heightamount% %ranch5_heightunits% tall.
+      pl: Według tej miarki masz %ranch5_heightamount% %ranch5_heightunits% i %ranch5_heightamount% %ranch5_heightunits% wzrostu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%ranch5_heightamount%'
+      - '%ranch5_heightunits%'
+      - '%ranch5_heightamount%'
+      - '%ranch5_heightunits%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e946a6d0acc739c7ca8
+      kontekst: data.json:scripts.ranch5_height.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't know how to use this ruler correctly.
+      pl: Nie wiesz, jak poprawnie używać tej linijki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2235
+  skrypt: ranch5_hiddenkeys
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_21da877a0404b34881b3
+      kontekst: data.json:scripts.ranch5_hiddenkeys.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a loose board here with fingerprints on it...
+      pl: Luźna deska z odciskami palców...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd81c26c6f7eb1e7caac
+      kontekst: data.json:scripts.ranch5_hiddenkeys.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pry it up [crowbar]
+      pl: Podważ to [łom]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[crowbar]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pry
+    wpisy:
+    - id: wol_96a76d303e419b047fbc
+      kontekst: data.json:scripts.ranch5_hiddenkeys.pry
+      linia: 3
+      sekcja_skryptu: pry
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a keyring hidden under the board!
+      pl: Pod deską ukryty jest brelok z kluczami!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_74fcd4e7a58568b463fc
+      kontekst: data.json:scripts.ranch5_hiddenkeys.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pry it up [Requires crowbar]
+      pl: Podważ [Wymaga łomu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires crowbar]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_3cf1920a163af79409fb
+      kontekst: data.json:scripts.ranch5_hiddenkeys.alreadygot
+      linia: 5
+      sekcja_skryptu: alreadygot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is where the keys were hidden.
+      pl: Tu schowano klucze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2237
+  skrypt: ranch5_kellogg
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8100b1708e6bfbf2febb
+      kontekst: data.json:scripts.ranch5_kellogg.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whoa. Uh, hello.
+      pl: Whoa. Witam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e585aaaae966716b9a0f
+      kontekst: data.json:scripts.ranch5_kellogg.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>Hellooooooo.</i>
+      pl: <i>Halooooooo.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5c43a75484753b27a12a
+      kontekst: data.json:scripts.ranch5_kellogg.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So you're a ghost, huh?
+      pl: Czyli jesteś duchem, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6e3e8f172286a44552d
+      kontekst: data.json:scripts.ranch5_kellogg.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, it does appear so. And alas, without me here to instruct them in my regimen of purity, all my patients have fled.
+      pl: Na to wygląda. I niestety, gdy nie było mnie tu, by pouczać ich w moim reżimie czystości, wszyscy moi pacjenci uciekli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee973bb1d5fbb0403e32
+      kontekst: data.json:scripts.ranch5_kellogg.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's probably not exactly why.
+      pl: To pewnie nie dokładnie dlatego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_7795cc55deeba7b9afe4
+      kontekst: data.json:scripts.ranch5_kellogg.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They're likely out ravaging the countryside and their own bodies. One cannot have purity of the soul without purity of the body, you know.
+      pl: Pewnie pustoszą okolicę i własne ciała. Nie można osiągnąć czystości duszy bez czystości ciała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9926793dde51d02e08ea
+      kontekst: data.json:scripts.ranch5_kellogg.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's this whole purity kick about, anyway?
+      pl: O co w ogóle chodzi z tym kopem czystości?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eeec5f4059c917a1a459
+      kontekst: data.json:scripts.ranch5_kellogg.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My threefold path to the elimination of corrupting influences! Would you like to hear about it?
+      pl: Moja potrójna ścieżka eliminacji deprawujących wpływów! Chcesz o niej posłuchać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cda6ad47287fa1e103d4
+      kontekst: data.json:scripts.ranch5_kellogg.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, lay it on me.
+      pl: Jasne, wal śmiało.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_2f1a159088ede8c308d3
+      kontekst: data.json:scripts.ranch5_kellogg.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The first step I call "Purity of the Glands". One must rid oneself of all romantic and sexual desires, and cease any self-polluting activities.
+      pl: Pierwszy etap nazywam „Czystością Gruczołów”. Trzeba wyzbyć się wszelkich romantycznych i seksualnych pragnień oraz zaprzestać czynności prowadzących do samoskalania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_666accf58e15755e16d9
+      kontekst: data.json:scripts.ranch5_kellogg.three
+      linia: 13
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Like what? Smoking cigars?
+      pl: Na przykład co? Palenie cygar?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75d4c5d1194fa836cde6
+      kontekst: data.json:scripts.ranch5_kellogg.three
+      linia: 14
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, yes, but I'm speaking more of... you know. Nighttime... activities. Alone.
+      pl: Tak, ale mówię raczej o... no wiesz. Nocne zajęcia. Sam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_acf2a2166331130d558e
+      kontekst: data.json:scripts.ranch5_kellogg.three
+      linia: 16
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Anyway, that's the first step.
+      pl: To pierwszy krok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aff330df5746caa5a19c
+      kontekst: data.json:scripts.ranch5_kellogg.three
+      linia: 17
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay... What's the second step?
+      pl: Okej... Jaki jest drugi krok?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_8c12da3661618b583577
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 19
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The second step is Purity of Guts. This is accomplished through frequent cold-water enemas--
+      pl: Drugi etap to Czystość Trzewi. Osiąga się ją przez częste lewatywy z zimnej wody...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9aeadd1ca9e72306f2ec
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 21
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: --and the consumption of wholesome and nutritious grain flakes, manufactured through my personal scientifically-developed recipe.
+      pl: --oraz spożywanie zdrowych i pożywnych płatków zbożowych, wyprodukowanych według mojego osobistego, naukowo opracowanego przepisu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99b839f0bfbcc0e3e6e2
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 22
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What makes them any different from other breakfast cereals?
+      pl: Co sprawia, że różnią się one od innych płatków śniadaniowych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_558b65bda308cc0c4d6d
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 23
+      sekcja_skryptu: four
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you not hear me? The recipe is scientifically-developed!
+      pl: Nie słyszałeś mnie? Ten przepis został opracowany naukowo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b2add5bab54e786668c
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 24
+      sekcja_skryptu: four
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right. What's the third step, then?
+      pl: Dobrze. Jaki jest więc trzeci krok?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_0bb48341c80eb9736c7b
+      kontekst: data.json:scripts.ranch5_kellogg.five
+      linia: 26
+      sekcja_skryptu: five
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The final step is Purity of Muscles. I've developed an extensive exercise regimen, featuring several workout machines that I have invented myself.
+      pl: Ostatni etap to Czystość Mięśni. Opracowałem rozbudowany program ćwiczeń wykorzystujący kilka maszyn treningowych mojego własnego wynalazku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32a5d2ad4f3208a6553c
+      kontekst: data.json:scripts.ranch5_kellogg.five
+      linia: 27
+      sekcja_skryptu: five
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Neat. And all of this together... what was it?
+      pl: Nieźle. I to wszystko razem... co to było?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: six
+    wpisy:
+    - id: wol_cfaf659a6177b6fbe211
+      kontekst: data.json:scripts.ranch5_kellogg.six
+      linia: 29
+      sekcja_skryptu: six
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My regimen eliminates corrupting influences from the body, thus purifying the body, mind, and soul!
+      pl: Mój reżim eliminuje z ciała deprawujące wpływy, oczyszczając tym samym ciało, umysł i duszę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1910e01443a5bd2f0be4
+      kontekst: data.json:scripts.ranch5_kellogg.six
+      linia: 30
+      sekcja_skryptu: six
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, that sounds like a good result to shoot for. And it works?
+      pl: To brzmi jak dobry wynik. I to działa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9411a5f4e6dbca4298a
+      kontekst: data.json:scripts.ranch5_kellogg.six
+      linia: 31
+      sekcja_skryptu: six
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Certainly it does! Why, just look at me!
+      pl: Oczywiście, że tak! Spójrz tylko na mnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cee69d1cebe0aec107c0
+      kontekst: data.json:scripts.ranch5_kellogg.six
+      linia: 32
+      sekcja_skryptu: six
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're dead.
+      pl: Jesteś trupem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ae6d6e94123b595fbdaf
+      kontekst: data.json:scripts.ranch5_kellogg.six
+      linia: 33
+      sekcja_skryptu: six
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Only coincidentally!
+      pl: Tylko przypadkiem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2238
+  skrypt: ranch5_kelloggdesk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dd9f913e6d6835be9453
+      kontekst: data.json:scripts.ranch5_kelloggdesk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Kellogg's desk.
+      pl: To biurko Kellogga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2239
+  skrypt: ranch5_kelloggdesk2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 15
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_49d91a0080a8ac6225ec
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This desk is scrupulously tidy. In fact, there's not so much as a desk-blotter or a single pen, and it only has one drawer.
+      pl: Biurko nienagannie schludne. Bez blottera, bez długopisu, jedna szuflada.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7babcf57ade815dfc97
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: However, you find a secret button, cleverly hidden on the underside of that one drawer.
+      pl: Jednak znajdujesz tajny przycisk, sprytnie ukryty od spodu tej jednej szuflady.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1cab475cab91f282c62a
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Here, that's my desk! Keep out of it!
+      pl: Hej, to moje biurko! Nie zaglądaj do niego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87204073abbac6829772
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're incorporeal, so go ahead and try to stop me.
+      pl: Jesteś bezcielesny, więc śmiało, spróbuj mnie zatrzymać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4632a652b05ca71a9086
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I never!
+      pl: No, doprawdy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_0402289be8d6608bef52
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.opts
+      linia: 6
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Press the secret button [20 Moxie]
+      pl: Naciśnij sekretny przycisk [20 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[20 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlocklounge
+    wpisy:
+    - id: wol_6674b2874c74390688e8
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.unlocklounge
+      linia: 7
+      sekcja_skryptu: unlocklounge
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A hidden panel slides open on the back wall, revealing a secret room!
+      pl: Ukryty panel na tylnej ścianie się odsuwa i odsłania tajne pomieszczenie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_55fabb920d5fb727db48
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.opts
+      linia: 9
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the drawer
+      pl: Otwórz szufladę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drawer1
+    wpisy:
+    - id: wol_640d77af7bd18f39074d
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.drawer1
+      linia: 10
+      sekcja_skryptu: drawer1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a binder full of cryptic, messily-written notes, labeled "KELLOGG'S GRAIN FLAKES PREPARATION."
+      pl: Znajdujesz segregator pełen zagadkowych, bazgranych notatek z etykietą „PRZYGOTOWANIE PŁATKÓW ZBOŻOWYCH KELLOGGA”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa33dc1f2ecab442ce32
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.drawer1
+      linia: 11
+      sekcja_skryptu: drawer1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Interesting.
+      pl: Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a2bb3eecbb0d243fdad9
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.drawer1
+      linia: 12
+      sekcja_skryptu: drawer1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Decode the recipe [20 Mysticality]
+      pl: Odszyfruj przepis [20 Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[20 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: decode
+    wpisy:
+    - id: wol_0c6d6b4ddbdb730b2b34
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.decode
+      linia: 13
+      sekcja_skryptu: decode
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a sheet of paper and consolidate the crazy series of notes into a more-or-less straightforward recipe.
+      pl: Chwytasz kartkę papieru i składasz szaloną serię notatek w mniej więcej prosty przepis.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: drawer1
+    wpisy:
+    - id: wol_5ab5f197e78d03fc7efb
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.drawer1
+      linia: 15
+      sekcja_skryptu: drawer1
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Decode the recipe [Requires 20 Mysticality]
+      pl: Rozszyfruj przepis [Wymaga 20 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 20 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5271a3e9321f2850af7
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.drawer1
+      linia: 16
+      sekcja_skryptu: drawer1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, not really.
+      pl: No, nie do końca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygotrecipe
+    wpisy:
+    - id: wol_d94e04cf287f29ffd61a
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.alreadygotrecipe
+      linia: 17
+      sekcja_skryptu: alreadygotrecipe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already have the Kellogg's Grain Flakes recipe, so there's nothing else of use in there.
+      pl: Masz już przepis na Kellogg's Grain Flakes, więc nie ma tam nic więcej użytecznego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2240
+  skrypt: ranch5_locker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_39ec1710cb89eb1d20be
+      kontekst: data.json:scripts.ranch5_locker1.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like this one belonged to a cook.
+      pl: Wygląda na to, że ta należała do kucharza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_7c84dd7be20f921f2216
+      kontekst: data.json:scripts.ranch5_locker1.empty
+      linia: 6
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing interesting left inside, unless you're interested in daguerreotypes of cakes.
+      pl: W środku nic ciekawego, chyba że interesują cię dagerotypy ciast.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker1.unlockable
+      linia: 9
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker1.unlock
+      linia: 10
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2241
+  skrypt: ranch5_locker2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_a8d4065afe30b5915d4c
+      kontekst: data.json:scripts.ranch5_locker2.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like this person had a secret stash of candy in addition to an earnest commitment to fitness.
+      pl: Wygląda na to, że ta osoba miała tajną skrytkę ze słodyczami oprócz szczerego zaangażowania w fitness.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_9a942ce095ec95eaf5ac
+      kontekst: data.json:scripts.ranch5_locker2.empty
+      linia: 6
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing interesting left inside, unless you're wanting to start a dust collection.
+      pl: W środku nic ciekawego, chyba że chcesz zacząć kolekcję kurzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker2.unlockable
+      linia: 9
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker2.unlock
+      linia: 10
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2242
+  skrypt: ranch5_locker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_245a19f003c4f9ed36b5
+      kontekst: data.json:scripts.ranch5_locker3.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only thing inside is a dusty old diary.
+      pl: Jedyna rzecz w środku to zakurzony stary dziennik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9fadc42d6a93bf54b2dd
+      kontekst: data.json:scripts.ranch5_locker3.open
+      linia: 6
+      sekcja_skryptu: open
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gimme them hot secrets
+      pl: Daj mi te gorące sekrety
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker3.unlockable
+      linia: 9
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker3.unlock
+      linia: 10
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2243
+  skrypt: ranch5_locker3_diary
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_18d71f672c85d66e760a
+      kontekst: data.json:scripts.ranch5_locker3_diary.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the diary and blow off some of the dust.
+      pl: Podnosisz dziennik i zdmuchujesz kurz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c0b81365c60aa662874
+      kontekst: data.json:scripts.ranch5_locker3_diary.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cover says "The Diary of ________ Smith." The first name has worn away, but you can tell it was longer than seven letters.
+      pl: 'Na okładce: „The Diary of ________ Smith.” Imię się wytarło, ale widać, że miało więcej niż siedem liter.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9daceec2135eebef87e
+      kontekst: data.json:scripts.ranch5_locker3_diary.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cover says "The Diary of _______ Smith." The first name has worn away, but you can tell it was fewer than eight letters.
+      pl: 'Na okładce: „The Diary of _______ Smith.” Imię się wytarło, ale widać, że miało mniej niż osiem liter.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39d62177cee4585ae1c8
+      kontekst: data.json:scripts.ranch5_locker3_diary.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sadly, the contents aren't particularly juicy. The author joined Kellogg's health program because she'd had several relatives with poor health and wanted to preserve her own. She found the ranch to be pretty boring, but appreciated that the lack of anything much else to do gave her plenty of time to spend knitting, which was her favorite hobby. The last entry mentions Kellogg's death (rumored but unconfirmed to be due to a brain aneurysm caused by outrage at hearing a dirty joke), and that the author was returning home. Guess she forgot the diary when she left.
+      pl: Niestety, treść nie jest szczególnie soczysta. Autorka dołączyła do programu zdrowotnego Kellogga, bo kilku krewnych chorowało i chciała zadbać o siebie. Ranczo uznała za dość nudne, ale doceniła, że brak innych zajęć daje mnóstwo czasu na szydełkowanie — jej ulubione hobby. Ostatni wpis wspomina śmierć Kellogga (plotka, niepotwierdzona, mówi o wylewie po oburzeniu brudnym żartem) i powrót autorki do domu. Chyba zapomniała pamiętnika przy wyjeździe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57d6a389cd8f958a06f4
+      kontekst: data.json:scripts.ranch5_locker3_diary.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Not particularly hot after all
+      pl: W końcu nie jest szczególnie gorąco
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2244
+  skrypt: ranch5_locker4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_2522fab43c79c5a40c34
+      kontekst: data.json:scripts.ranch5_locker4.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing in this locker but a sewing kit.  Needles and thread.
+      pl: W tej szafce tylko zestaw do szycia. Igły i nitka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_650e308bc53f3138b466
+      kontekst: data.json:scripts.ranch5_locker4.open
+      linia: 6
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the needles and leave the thread.
+      pl: Bierzesz igły i zostawiasz nitkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_6e033387dfdd327f54ea
+      kontekst: data.json:scripts.ranch5_locker4.empty
+      linia: 7
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing interesting left inside, unless you're interested in thread.  Which you aren't.
+      pl: W środku nic ciekawego, chyba że interesuje cię nitka. A nie interesuje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker4.unlockable
+      linia: 10
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker4.unlock
+      linia: 11
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2245
+  skrypt: ranch5_locker5
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker5.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_882fc76a1af9f3e13693
+      kontekst: data.json:scripts.ranch5_locker5.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoever had this locker was apparently hiding some... performance enhancers.
+      pl: Kto miał tę szafkę, najwyraźniej ukrywał... środki wspomagające.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_c2185489e756c0edd8b0
+      kontekst: data.json:scripts.ranch5_locker5.empty
+      linia: 6
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's just empty now.
+      pl: Teraz jest po prostu pusty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker5.unlockable
+      linia: 9
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker5.unlock
+      linia: 10
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2246
+  skrypt: ranch5_locker6
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0cd4db7aa6f355562b9e
+      kontekst: data.json:scripts.ranch5_locker6.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a locker, and it is, not unexpectedly, locked.
+      pl: To szafka, i — nie dziwiąc nikogo — zamknięta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_9c931dd6d53291cf8a56
+      kontekst: data.json:scripts.ranch5_locker6.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The locker is filled with dirty laundry.  Assuming that the laundry at the very bottom of the pile was hidden there on purpose because it's really important, you grab it.
+      pl: Szafka pełna brudnej bielizny. Zakładając, że ta na samym dnie celowo ukryta, bo ważna — bierzesz ją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_037ea3f8300028e96813
+      kontekst: data.json:scripts.ranch5_locker6.empty
+      linia: 6
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing interesting left inside, unless you're interested in the least interesting portion of a pile of dirty laundry, which by definition you are probably not.
+      pl: W środku nic ciekawego, chyba że interesuje cię najmniej ciekawa część sterty brudnej bielizny — czego raczej nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlockable
+    wpisy:
+    - id: wol_456c69cc6bee1ff1d1fb
+      kontekst: data.json:scripts.ranch5_locker6.unlockable
+      linia: 9
+      sekcja_skryptu: unlockable
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock it [Kellogg's keyring]
+      pl: Odblokuj [pęk kluczy Kellogg's]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Kellogg''s keyring]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlock
+    wpisy:
+    - id: wol_ab8460bbaef90fad9530
+      kontekst: data.json:scripts.ranch5_locker6.unlock
+      linia: 10
+      sekcja_skryptu: unlock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find the correct key and unlock the door.
+      pl: Znajdujesz właściwy klucz i otwierasz drzwi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2247
+  skrypt: ranch5_machine1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bc2af7b99735ed54aa23
+      kontekst: data.json:scripts.ranch5_machine1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the LungFlex.
+      pl: To LungFlex.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f05b5b3a9e32cfd47348
+      kontekst: data.json:scripts.ranch5_machine1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Suck on the blasthole
+      pl: Ssij otwór wylotowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: use
+    wpisy:
+    - id: wol_38da08d95409d58eb070
+      kontekst: data.json:scripts.ranch5_machine1.use
+      linia: 3
+      sekcja_skryptu: use
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put your mouth on the blasthole and turn the valve on the side of the machine.
+      pl: Przykładasz usta do otworu wylotowego i kręcisz zaworem z boku maszyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc2ecf61fad4392f6ffa
+      kontekst: data.json:scripts.ranch5_machine1.use
+      linia: 4
+      sekcja_skryptu: use
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird, something went wrong.
+      pl: Dziwne, coś poszło nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq1
+    wpisy:
+    - id: wol_f028b6013d89625e98d1
+      kontekst: data.json:scripts.ranch5_machine1.seq1
+      linia: 1
+      sekcja_skryptu: seq1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A blast of air inflates your lungs, making you really dizzy.
+      pl: Podmuch powietrza napełnia ci płuca i strasznie kręci ci się w głowie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq2
+    wpisy:
+    - id: wol_c46cb970317901e12c15
+      kontekst: data.json:scripts.ranch5_machine1.seq2
+      linia: 1
+      sekcja_skryptu: seq2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A blast of air inflates your lungs.  Feels good!
+      pl: Podmuch powietrza napełnia płuca. Miło!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_76fdaf7f4c35003ceb0c
+      kontekst: data.json:scripts.ranch5_machine1.seq2
+      linia: 2
+      sekcja_skryptu: seq2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Suck again.
+      pl: Ssij jeszcze raz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq3
+    wpisy:
+    - id: wol_40a28344836ca6b29424
+      kontekst: data.json:scripts.ranch5_machine1.seq3
+      linia: 1
+      sekcja_skryptu: seq3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Another blast of air stretches your lungs out even more.  Feels great!
+      pl: Kolejny podmuch powietrza jeszcze bardziej rozciąga twoje płuca. Świetne uczucie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_76fdaf7f4c35003ceb0c
+      kontekst: data.json:scripts.ranch5_machine1.seq3
+      linia: 2
+      sekcja_skryptu: seq3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Suck again.
+      pl: Ssij jeszcze raz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq4
+    wpisy:
+    - id: wol_8bb3e88103d10fdb880f
+      kontekst: data.json:scripts.ranch5_machine1.seq4
+      linia: 1
+      sekcja_skryptu: seq4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A third blast of air proves too much, and dizziness overwhelms you as you sprain your left lung.
+      pl: Trzeci podmuch powietrza to już za wiele — ogarniają cię zawroty głowy, a ty naciągasz sobie lewe płuco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq5
+    wpisy:
+    - id: wol_5e05399035aee616212d
+      kontekst: data.json:scripts.ranch5_machine1.seq5
+      linia: 1
+      sekcja_skryptu: seq5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You inhale another blast of air from the machine, but it just makes you dizzy.
+      pl: Wdychasz kolejną dawkę powietrza z maszyny, ale tylko cię kręci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq9
+    wpisy:
+    - id: wol_aaec7c9ae2fd9c54ad55
+      kontekst: data.json:scripts.ranch5_machine1.seq9
+      linia: 1
+      sekcja_skryptu: seq9
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already gotten a very optimized workout.  No sense in doing it again, right?
+      pl: Już miałeś bardzo zoptymalizowany trening. Nie ma sensu powtarzać, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq99
+    wpisy:
+    - id: wol_c2e9ea3e1fe2e0835fa7
+      kontekst: data.json:scripts.ranch5_machine1.seq99
+      linia: 1
+      sekcja_skryptu: seq99
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've had enough exercise for now.  This place is terrible.
+      pl: Masz na razie dość ćwiczeń. To miejsce jest okropne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2248
+  skrypt: ranch5_machine2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_28e73f61257fba9f9e7c
+      kontekst: data.json:scripts.ranch5_machine2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the Stretchmaster 4000.
+      pl: To Stretchmaster 4000.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_efa99316d69bf49fd532
+      kontekst: data.json:scripts.ranch5_machine2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert your limbs
+      pl: Włóż swoje kończyny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: use
+    wpisy:
+    - id: wol_fc2ecf61fad4392f6ffa
+      kontekst: data.json:scripts.ranch5_machine2.use
+      linia: 3
+      sekcja_skryptu: use
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird, something went wrong.
+      pl: Dziwne, coś poszło nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq1
+    wpisy:
+    - id: wol_d0349c3a884f1821fe2d
+      kontekst: data.json:scripts.ranch5_machine2.seq1
+      linia: 1
+      sekcja_skryptu: seq1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You strap yourself into the machine and allow it to inflict some warm-up stretches on you.
+      pl: Zapinasz się w maszynę i pozwalasz jej wykonać na tobie rozciąganie rozgrzewkowe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c3235b3c3d18fbc5ccb
+      kontekst: data.json:scripts.ranch5_machine2.seq1
+      linia: 2
+      sekcja_skryptu: seq1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep going.
+      pl: Idź dalej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq2
+    wpisy:
+    - id: wol_07cdd34788a0e2f3a7ba
+      kontekst: data.json:scripts.ranch5_machine2.seq2
+      linia: 1
+      sekcja_skryptu: seq2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine pulls too hard, which promptly yanks one of your shoulders out of its socket.
+      pl: Maszyna szarpie za mocno i natychmiast wybija ci bark ze stawu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sprain
+    wpisy:
+    - id: wol_583c1a40fa471db28b5c
+      kontekst: data.json:scripts.ranch5_machine2.sprain
+      linia: 2
+      sekcja_skryptu: sprain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ow ow ow.
+      pl: Au au au.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq3
+    wpisy:
+    - id: wol_7a3f48b508509006728a
+      kontekst: data.json:scripts.ranch5_machine2.seq3
+      linia: 1
+      sekcja_skryptu: seq3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You strap yourself into the machine, which promptly stretches your elbow way too far in the wrong direction.
+      pl: Zapinasz się w maszynę, która natychmiast rozciąga twój łokieć za daleko w złą stronę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq4
+    wpisy:
+    - id: wol_ab8590e363a2e2f30544
+      kontekst: data.json:scripts.ranch5_machine2.seq4
+      linia: 1
+      sekcja_skryptu: seq4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get back into the stretcher, and when it's done twisting you around you feel more balanced than you did before.
+      pl: Wracasz na nosze, a gdy skończą cię kręcić, czujesz się bardziej wyważony niż wcześniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c3235b3c3d18fbc5ccb
+      kontekst: data.json:scripts.ranch5_machine2.seq4
+      linia: 2
+      sekcja_skryptu: seq4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep going.
+      pl: Idź dalej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq5
+    wpisy:
+    - id: wol_09c52ca04f6b3ea0a702
+      kontekst: data.json:scripts.ranch5_machine2.seq5
+      linia: 1
+      sekcja_skryptu: seq5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine promptly yanks your ankle sideways.
+      pl: Maszyna natychmiast szarpie ci kostkę na bok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq8
+    wpisy:
+    - id: wol_86bd83d79f068c61d7b1
+      kontekst: data.json:scripts.ranch5_machine2.seq8
+      linia: 1
+      sekcja_skryptu: seq8
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You strap yourself into the stretching machine for a nice relaxing cooldown.
+      pl: Zapinasz się w maszynę do rozciągania na przyjemne relaksujące schłodzenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: success
+    wpisy:
+    - id: wol_8cfe7536810cf1d71230
+      kontekst: data.json:scripts.ranch5_machine2.success
+      linia: 2
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow!  You feel great!
+      pl: Wow! Czujesz się świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_489d6e13f099d940ce3e
+      kontekst: data.json:scripts.ranch5_machine2.success
+      linia: 3
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you are already in peak physical form, so...  I'm not actually sure why you went through all that again.
+      pl: Niestety jesteś już w szczytowej formie, więc... nie jestem pewien, po co to wszystko znowu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_276d4a43a2099d5e4f92
+      kontekst: data.json:scripts.ranch5_machine2.success
+      linia: 4
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That Kellogg guy was really onto something.  Your whole body feels amazing.
+      pl: Ten gość Kellogg naprawdę coś wiedział. Całe ciało czuje się niesamowicie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9065e9d16d006d58514
+      kontekst: data.json:scripts.ranch5_machine2.success
+      linia: 5
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feel the cowrruption leave you.
+      pl: Czujesz, jak krowrrupcja cię opuszcza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq9
+    wpisy:
+    - id: wol_743a27a8b0279b7e6f89
+      kontekst: data.json:scripts.ranch5_machine2.seq9
+      linia: 1
+      sekcja_skryptu: seq9
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already gotten a good workout.  Why get a second one?
+      pl: Już miałeś dobry trening. Po co drugi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq99
+    wpisy:
+    - id: wol_ada67cfa88c272cb3737
+      kontekst: data.json:scripts.ranch5_machine2.seq99
+      linia: 1
+      sekcja_skryptu: seq99
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No.  You've had it with fitness.  Maybe you can try again later.
+      pl: Nie. Masz dość fitnessu. Może spróbujesz później.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2249
+  skrypt: ranch5_machine3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2c87d6eff14dd284704a
+      kontekst: data.json:scripts.ranch5_machine3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the Vibromatic Skeletal Agitator.
+      pl: To Vibromatic Skeletal Agitator.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_34fc1a9e9c1025a90f21
+      kontekst: data.json:scripts.ranch5_machine3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Strap yourself in
+      pl: Zapnij pasy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: use
+    wpisy:
+    - id: wol_a2eb4f9bbdcf99fdad82
+      kontekst: data.json:scripts.ranch5_machine3.use
+      linia: 3
+      sekcja_skryptu: use
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You strap yourself into the machine and turn it on.
+      pl: Zapinasz się w maszynę i włączasz ją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq1
+    wpisy:
+    - id: wol_e88907df28e19474e0d2
+      kontekst: data.json:scripts.ranch5_machine3.seq1
+      linia: 1
+      sekcja_skryptu: seq1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The intense vibrations make your teeth bang together uncomfortably.
+      pl: Intensywne wibracje nieprzyjemnie stukają ci zębami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ouch
+    wpisy:
+    - id: wol_a7cc693cf4bc9215a5d7
+      kontekst: data.json:scripts.ranch5_machine3.ouch
+      linia: 2
+      sekcja_skryptu: ouch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It hurts!
+      pl: Boli!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq2
+    wpisy:
+    - id: wol_45f4f33c63380dc3cbfe
+      kontekst: data.json:scripts.ranch5_machine3.seq2
+      linia: 1
+      sekcja_skryptu: seq2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The vibration shakes you until you're out of breath.  That felt awful!
+      pl: Wibracja trzęsie tobą, aż brakuje ci tchu. Było okropnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq4
+    wpisy:
+    - id: wol_d6917d8660e6d6f66133
+      kontekst: data.json:scripts.ranch5_machine3.seq4
+      linia: 1
+      sekcja_skryptu: seq4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The vibration feels pretty good, but you end up losing your balance, falling out of the machine, and banging your knee really hard on the floor.
+      pl: Wibracja jest całkiem przyjemna, ale tracisz równowagę, wypadasz z maszyny i mocno uderzasz kolanem o podłogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq5
+    wpisy:
+    - id: wol_77b468d7f3f2196547e0
+      kontekst: data.json:scripts.ranch5_machine3.seq5
+      linia: 1
+      sekcja_skryptu: seq5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your skeleton vibrates inside you.  It feels great!
+      pl: Twój szkielet wibruje w tobie. Czuje się świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c3235b3c3d18fbc5ccb
+      kontekst: data.json:scripts.ranch5_machine3.seq5
+      linia: 2
+      sekcja_skryptu: seq5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep going.
+      pl: Idź dalej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: useagain
+    wpisy:
+    - id: wol_fc2ecf61fad4392f6ffa
+      kontekst: data.json:scripts.ranch5_machine3.useagain
+      linia: 3
+      sekcja_skryptu: useagain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird, something went wrong.
+      pl: Dziwne, coś poszło nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq6
+    wpisy:
+    - id: wol_d2796e839bfc4181b702
+      kontekst: data.json:scripts.ranch5_machine3.seq6
+      linia: 1
+      sekcja_skryptu: seq6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your skeleton vibrates more, revealing bones and muscles you didn't even know you had by making them feel amazing!
+      pl: Twój szkielet wibruje mocniej, odsłaniając kości i mięśnie, o których nawet nie wiedziałeś, że je masz — bo czują się niesamowicie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28c8a2028a7ba427f06e
+      kontekst: data.json:scripts.ranch5_machine3.seq6
+      linia: 2
+      sekcja_skryptu: seq6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep going!
+      pl: Idź dalej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq7
+    wpisy:
+    - id: wol_fbbcebdf557a2cbd9dfc
+      kontekst: data.json:scripts.ranch5_machine3.seq7
+      linia: 1
+      sekcja_skryptu: seq7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your skeleton undergoes a cathartic third round of vibration.  Every molecule of your body is now exactly where it's supposed to be.
+      pl: Twój szkielet przechodzi oczyszczającą trzecią rundę wibracji. Każda cząsteczka twojego ciała jest teraz dokładnie tam, gdzie powinna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29c32cde730ca2fcde9a
+      kontekst: data.json:scripts.ranch5_machine3.seq7
+      linia: 2
+      sekcja_skryptu: seq7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep! Going!
+      pl: Idź! Dalej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq8
+    wpisy:
+    - id: wol_54f5c34049ff15f0e32d
+      kontekst: data.json:scripts.ranch5_machine3.seq8
+      linia: 1
+      sekcja_skryptu: seq8
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fourth round of vibration turns out to be too much vibration.  Your skeleton goes back to its normal screwed-up state, and it really hurts.
+      pl: Czwarta runda wibracji okazuje się jedną za dużo. Szkielet wraca do swojego normalnego, pokiereszowanego stanu i naprawdę boli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq9
+    wpisy:
+    - id: wol_813377d7d4896d14fcdd
+      kontekst: data.json:scripts.ranch5_machine3.seq9
+      linia: 1
+      sekcja_skryptu: seq9
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already got a really good workout.  There's no sense in repeating it.
+      pl: Już dostałeś naprawdę dobry trening. Nie ma sensu powtarzać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seq99
+    wpisy:
+    - id: wol_12823249d57b776ed5eb
+      kontekst: data.json:scripts.ranch5_machine3.seq99
+      linia: 1
+      sekcja_skryptu: seq99
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No way.  You're done with these stupid machines.  At least for a while.
+      pl: Nie ma mowy. Masz dość tych głupich maszyn. Przynajmniej na jakiś czas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2250
+  skrypt: ranch5_manure
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f5ba84deb3aee105269b
+      kontekst: data.json:scripts.ranch5_manure.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Lots of fertilizer!
+      pl: Mnóstwo nawozu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1edf4bde2195d4d73d6
+      kontekst: data.json:scripts.ranch5_manure.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, what's this?
+      pl: Czekaj, co to jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_63117fc545d7e91ca110
+      kontekst: data.json:scripts.ranch5_manure.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One of these bags is different!
+      pl: Jeden z tych worków jest inny!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2251
+  skrypt: ranch5_oven
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_37c2c976bf7990bca325
+      kontekst: data.json:scripts.ranch5_oven.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a large oven, but it doesn't have a door, just a wide slot.
+      pl: Wielki piec bez drzwi — tylko szeroka szczelina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10a100625e0b0add5afe
+      kontekst: data.json:scripts.ranch5_oven.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert your flattened dough
+      pl: Włóż spłaszczone ciasto
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bigdough
+    wpisy:
+    - id: wol_85b61c171cbbad2edc23
+      kontekst: data.json:scripts.ranch5_oven.bigdough
+      linia: 3
+      sekcja_skryptu: bigdough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've got some dough, but it won't fit in the slot.
+      pl: Masz trochę ciasta, ale nie zmieści się w otworze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2c7e1bc193f1da483ae4
+      kontekst: data.json:scripts.ranch5_oven.bigdough
+      linia: 4
+      sekcja_skryptu: bigdough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Story of your life.
+      pl: Historia twojego życia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2252
+  skrypt: ranch5_oven2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_092dc87b756518864634
+      kontekst: data.json:scripts.ranch5_oven2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You plop your dough onto a metal tray (helpfully provided) and slide it into the slot in the oven.
+      pl: Kładziesz ciasto na metalowej tacy (uprzejmie dostarczonej) i wsuwasz do szczeliny w piecu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed32169f29b7dfe37206
+      kontekst: data.json:scripts.ranch5_oven2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are only two knobs, one for temperature and one for duration.
+      pl: Są tylko dwa pokrętła — temperatura i czas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b94ed8440a4f2434caf
+      kontekst: data.json:scripts.ranch5_oven2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You decide to turn the knobs in order from left to right.
+      pl: Postanawiasz kręcić pokrętłami od lewej do prawej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7ab06eb779c6b044e8c
+      kontekst: data.json:scripts.ranch5_oven2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The temperature knob is on the left, so you'll turn that one first.
+      pl: Pokrętło temperatury jest po lewej, więc najpierw obrócisz to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_38412eadcfb99d523d44
+      kontekst: data.json:scripts.ranch5_oven2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Are you paying attention?  There'll be a quiz later.
+      pl: Uważasz? Potem będzie sprawdzian.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knobs
+    wpisy:
+    - id: wol_97f79f4d95959256425a
+      kontekst: data.json:scripts.ranch5_oven2.knobs
+      linia: 6
+      sekcja_skryptu: knobs
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: First, the temperature knob.
+      pl: Najpierw gałka temperatury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b629a91d173cb6045af4
+      kontekst: data.json:scripts.ranch5_oven2.knobs
+      linia: 7
+      sekcja_skryptu: knobs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to low (413 degrees)
+      pl: Ustaw na niską (413 stopni)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: time
+    wpisy:
+    - id: wol_c9b4f5d03d69e6eee784
+      kontekst: data.json:scripts.ranch5_oven2.time
+      linia: 8
+      sekcja_skryptu: time
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And now for the time knob.
+      pl: A teraz pokrętło czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cdf17a3adccc6d58af7
+      kontekst: data.json:scripts.ranch5_oven2.time
+      linia: 9
+      sekcja_skryptu: time
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to Short (8 minutes)
+      pl: Ustaw na krótki (8 minut)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finish
+    wpisy:
+    - id: wol_7495c7b600ea57f29b67
+      kontekst: data.json:scripts.ranch5_oven2.finish
+      linia: 10
+      sekcja_skryptu: finish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You set the time knob to $time$ minutes and wait for the oven to finish.
+      pl: Ustawiasz gałkę czasu na $time$ minut i czekasz, aż piekarnik skończy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $time$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ebde8a47964583129f39
+      kontekst: data.json:scripts.ranch5_oven2.finish
+      linia: 11
+      sekcja_skryptu: finish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The oven dings and a perfectly-cooked tray of toasty flakes emerges from the slot.
+      pl: Piec dzwoni i ze szczeliny wysuwa się idealnie upieczona tacka chrupiących płatków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3417443a3109461ecb94
+      kontekst: data.json:scripts.ranch5_oven2.finish
+      linia: 12
+      sekcja_skryptu: finish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: They're Grrrreat!
+      pl: Są Grrrreat!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: toocold
+    wpisy:
+    - id: wol_106f5606dec6248d9a9e
+      kontekst: data.json:scripts.ranch5_oven2.toocold
+      linia: 13
+      sekcja_skryptu: toocold
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The oven dings, and the tray of dough slides out, basically unchanged.
+      pl: Piec dzwoni, a tacka ciasta wysuwa się praktycznie niezmieniona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takedough
+    wpisy:
+    - id: wol_e4f2011789201813d278
+      kontekst: data.json:scripts.ranch5_oven2.takedough
+      linia: 16
+      sekcja_skryptu: takedough
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the dough.
+      pl: Chwytasz ciasto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: toohot
+    wpisy:
+    - id: wol_75563aef251fbaec0037
+      kontekst: data.json:scripts.ranch5_oven2.toohot
+      linia: 18
+      sekcja_skryptu: toohot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The oven dings and a tray of ashes slides out of the slot.  Oh nough, you ruined your do!
+      pl: Piec dzwoni i wysuwa tackę popiołu. O nie, zepsułeś swoje do!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_627347fa37453fe745fb
+      kontekst: data.json:scripts.ranch5_oven2.toohot
+      linia: 19
+      sekcja_skryptu: toohot
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drat and consternation
+      pl: A niech to i konsternacja
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: time
+    wpisy:
+    - id: wol_05cc713c1fa19701fcff
+      kontekst: data.json:scripts.ranch5_oven2.time
+      linia: 20
+      sekcja_skryptu: time
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to Medium (19 minutes)
+      pl: Ustaw na średni (19 minut)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_caf43d8cda22bb794696
+      kontekst: data.json:scripts.ranch5_oven2.time
+      linia: 21
+      sekcja_skryptu: time
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to Long (160 minutes)
+      pl: Ustaw na długi (160 minut)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knobs
+    wpisy:
+    - id: wol_f26e2ee769be0a864781
+      kontekst: data.json:scripts.ranch5_oven2.knobs
+      linia: 22
+      sekcja_skryptu: knobs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to medium (640 degrees)
+      pl: Ustaw na średnią (640 stopni)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75da6ca0058f63493fcd
+      kontekst: data.json:scripts.ranch5_oven2.knobs
+      linia: 23
+      sekcja_skryptu: knobs
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Set it to high (988 degrees)
+      pl: Ustaw na wysoką (988 stopni)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2253
+  skrypt: ranch5_sifter
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_90966643fb4b2099e733
+      kontekst: data.json:scripts.ranch5_sifter.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a combination grain sifter / flour mill / who-knows-what.
+      pl: To połączenie przesiewacza ziarna, młyna do mąki i — kto wie czego jeszcze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6eb641f2ca966c6b0582
+      kontekst: data.json:scripts.ranch5_sifter.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Its grain hoppers are currently empty.
+      pl: Jego lejki zbożowe są teraz puste.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1bfce5f7b84e5ff4cd2
+      kontekst: data.json:scripts.ranch5_sifter.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Load it up [bag of mixed grain]
+      pl: Załaduj to [worek mieszanego zboża]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[bag of mixed grain]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: load
+    wpisy:
+    - id: wol_d8345b504b02058b31ba
+      kontekst: data.json:scripts.ranch5_sifter.load
+      linia: 4
+      sekcja_skryptu: load
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pour the bag of grain into the machine.  The grains are neatly sorted into three separate hoppers.
+      pl: Wsypujesz worek ziarna do maszyny. Ziarna są starannie posortowane do trzech osobnych lejów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_066e233ce00081f1b54c
+      kontekst: data.json:scripts.ranch5_sifter.load
+      linia: 5
+      sekcja_skryptu: load
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do some cookin'
+      pl: Pogotuj coś
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: busy
+    wpisy:
+    - id: wol_1958ee79027982c02a15
+      kontekst: data.json:scripts.ranch5_sifter.busy
+      linia: 6
+      sekcja_skryptu: busy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't operate this thing while you're already holding dough.
+      pl: Nie możesz obsługiwać tego, trzymając już ciasto.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loaded
+    wpisy:
+    - id: wol_9667391c51c7e53e47f2
+      kontekst: data.json:scripts.ranch5_sifter.loaded
+      linia: 7
+      sekcja_skryptu: loaded
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a fully loaded grain machine.
+      pl: To w pełni załadowana maszyna do ziarna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_066e233ce00081f1b54c
+      kontekst: data.json:scripts.ranch5_sifter.loaded
+      linia: 8
+      sekcja_skryptu: loaded
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do some cookin'
+      pl: Pogotuj coś
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2254
+  skrypt: ranch5_sifter2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c1c8a017ca8bc0e55089
+      kontekst: data.json:scripts.ranch5_sifter2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine is complicated, but the controls look pretty simple.  There are three labeled grain hoppers, a lever on each of them to dispense a measure of grain into a mixing chamber below, a crank for running the mixer, and a valve labeled "START OVER."
+      pl: Ta maszyna jest skomplikowana, ale sterowanie wygląda prosto. Są trzy oznakowane lejki na ziarno, dźwignia przy każdym do dozowania ziarna do komory mieszającej poniżej, korba do mieszarki i zawór z napisem „START OVER”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_2849879ac420dba15558
+      kontekst: data.json:scripts.ranch5_sifter2.loop
+      linia: 2
+      sekcja_skryptu: loop
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mixing chamber is currently empty.
+      pl: Komora mieszająca jest obecnie pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftershow
+    wpisy:
+    - id: wol_d87221ec35a127586585
+      kontekst: data.json:scripts.ranch5_sifter2.aftershow
+      linia: 3
+      sekcja_skryptu: aftershow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull the oats lever
+      pl: Pociągnij dźwignię owsa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: addoats
+    wpisy:
+    - id: wol_42fb4af04fe806a2f59b
+      kontekst: data.json:scripts.ranch5_sifter2.addoats
+      linia: 4
+      sekcja_skryptu: addoats
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A measure of oats falls into the mixing chamber.
+      pl: Miarka owsa wpada do komory mieszającej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: showbins
+    wpisy:
+    - id: wol_626ce475a24cea9c684a
+      kontekst: data.json:scripts.ranch5_sifter2.showbins
+      linia: 5
+      sekcja_skryptu: showbins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The mixing chamber currently contains:'
+      pl: 'Komora mieszająca obecnie zawiera:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b48eb734af24458eb87e
+      kontekst: data.json:scripts.ranch5_sifter2.showbins
+      linia: 6
+      sekcja_skryptu: showbins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: $oats$ oz. of oats
+      pl: $oats$ uncji owsa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $oats$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab32fb4c9a394e92486f
+      kontekst: data.json:scripts.ranch5_sifter2.showbins
+      linia: 7
+      sekcja_skryptu: showbins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: $barley$ oz. of barley
+      pl: $barley$ uncji jęczmienia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $barley$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ffe65891bfdc0805fc7f
+      kontekst: data.json:scripts.ranch5_sifter2.showbins
+      linia: 8
+      sekcja_skryptu: showbins
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: $spelt$ oz. of spelt
+      pl: $spelt$ uncji orkiszu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $spelt$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftershow
+    wpisy:
+    - id: wol_31d5b0d0abd287ebd8fe
+      kontekst: data.json:scripts.ranch5_sifter2.aftershow
+      linia: 9
+      sekcja_skryptu: aftershow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull the barley lever
+      pl: Pociągnij dźwignię jęczmienia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: addbarley
+    wpisy:
+    - id: wol_f1281f5887bb98ee9c3f
+      kontekst: data.json:scripts.ranch5_sifter2.addbarley
+      linia: 10
+      sekcja_skryptu: addbarley
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A measure of barley falls into the mixing chamber.
+      pl: Miarka jęczmienia wpada do komory mieszającej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftershow
+    wpisy:
+    - id: wol_b99508a09685e6140f8c
+      kontekst: data.json:scripts.ranch5_sifter2.aftershow
+      linia: 11
+      sekcja_skryptu: aftershow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull the spelt lever
+      pl: Pociągnij dźwignię orkiszu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: addspelt
+    wpisy:
+    - id: wol_aaf3dab411b42eeb5af5
+      kontekst: data.json:scripts.ranch5_sifter2.addspelt
+      linia: 12
+      sekcja_skryptu: addspelt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A measure of spelt falls into the mixing chamber.
+      pl: Miarka orkiszu wpada do komory mieszającej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftershow
+    wpisy:
+    - id: wol_e66e8b66e6a22e4139d2
+      kontekst: data.json:scripts.ranch5_sifter2.aftershow
+      linia: 13
+      sekcja_skryptu: aftershow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn the mixing crank
+      pl: Obróć korbę mieszarki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crank
+    wpisy:
+    - id: wol_cec0f237a1663a9e312d
+      kontekst: data.json:scripts.ranch5_sifter2.crank
+      linia: 14
+      sekcja_skryptu: crank
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You turn the mixing crank.  Your view of the grains in the mixing chamber blurs as it begins to spin at an implausible rate.
+      pl: Kręcisz korbą mieszającą. Widok ziaren w komorze mieszającej się rozmywa, gdy zaczyna wirować z niewiarygodną prędkością.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b92af594616e336549e7
+      kontekst: data.json:scripts.ranch5_sifter2.crank
+      linia: 15
+      sekcja_skryptu: crank
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Disappointingly, nothing else happens.  Looks like it isn't loaded with grains in the proper proportion, and that it somehow has the technology required to discern that fact.
+      pl: Rozczarowująco nic więcej się nie dzieje. Wygląda na to, że nie ma ziarna we właściwych proporcjach — i że z jakiegoś powodu ma technologię, by to stwierdzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b0399344d98d75645913
+      kontekst: data.json:scripts.ranch5_sifter2.crank
+      linia: 16
+      sekcja_skryptu: crank
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep messing with it
+      pl: Dalej się z tym baw
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c98087bc73765f763e3e
+      kontekst: data.json:scripts.ranch5_sifter2.crank
+      linia: 17
+      sekcja_skryptu: crank
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn the "START OVER" valve
+      pl: Obróć zawór „START OVER”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: startover
+    wpisy:
+    - id: wol_c0583d76ebbe49d10d3e
+      kontekst: data.json:scripts.ranch5_sifter2.startover
+      linia: 18
+      sekcja_skryptu: startover
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You turn the crank labeled "START OVER" and the machine resets to its original state.
+      pl: Kręcisz korbą oznaczoną „START OVER” i maszyna resetuje się do stanu początkowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: correct
+    wpisy:
+    - id: wol_14501b693361c92ed1f4
+      kontekst: data.json:scripts.ranch5_sifter2.correct
+      linia: 20
+      sekcja_skryptu: correct
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With a startling <i>k-chunk</i>, hidden parts of the machine spring to life.  The glass window of the mixing chamber becomes fogged with steam as the grain is mixed into dough.  A few moments later the dough is expelled as a soft, warm lump.
+      pl: Przy zaskakującym <i>k-chunk</i> ukryte części maszyny ożywają. Szyba komory mieszającej zaparowuje, gdy ziarno miesza się w ciasto. Chwilę później ciasto wypada jako miękka, ciepła bryła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftershow
+    wpisy:
+    - id: wol_d1ce8fda0af77f6193e8
+      kontekst: data.json:scripts.ranch5_sifter2.aftershow
+      linia: 22
+      sekcja_skryptu: aftershow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Abandon this crazy contraption
+      pl: Porzuć tę szaloną machinę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2255
+  skrypt: ranch5_weight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1223d050d174aeab425b
+      kontekst: data.json:scripts.ranch5_weight.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a scale.  It's like a ruler, but for weight.
+      pl: To waga. Jak linijka, tylko do masy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de593a6c8e6380fd3f8d
+      kontekst: data.json:scripts.ranch5_weight.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weigh yourself
+      pl: Zważ się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_c5de66aba2e993003f4a
+      kontekst: data.json:scripts.ranch5_weight.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: According to this scale, you weigh %ranch5_weightamount% %ranch5_weightunits%.
+      pl: Według tej wagi ważysz %ranch5_weightamount% %ranch5_weightunits%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%ranch5_weightamount%'
+      - '%ranch5_weightunits%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e51e5d9b20f4a41b992
+      kontekst: data.json:scripts.ranch5_weight.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't know how to use this scale correctly.
+      pl: Nie wiesz, jak poprawnie używać tej wagi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2548
+  skrypt: snakespring_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ca6a3a07ab12af30477a
+      kontekst: data.json:scripts.snakespring_timerift.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab one
+      pl: Weź jeden
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

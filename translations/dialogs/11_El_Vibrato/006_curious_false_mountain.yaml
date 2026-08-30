@@ -1,0 +1,1478 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: curious_false_mountain
+zrodlowy_batch: 057_dialog_loc_elvibrato6_curious_false_mountain.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 20
+liczba_wpisow: 80
+sceny:
+- kolejnosc_w_danych_gry: 1238
+  skrypt: elvibrato6_fakerocks
+  pomieszczenie: &id001
+    id: elvibrato6
+    nazwa_en: Curious False Mountain
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_74c1ff43ad60e5a7540a
+      kontekst: data.json:scripts.elvibrato6_fakerocks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something strange about these rocks.
+      pl: Te skały są dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_82136b023e1b20cc937e
+      kontekst: data.json:scripts.elvibrato6_fakerocks.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate [30 Mysticality]
+      pl: Zbadaj [30 Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[30 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: solve
+    wpisy:
+    - id: wol_ba37bbd816698bcbb22e
+      kontekst: data.json:scripts.elvibrato6_fakerocks.solve
+      linia: 3
+      sekcja_skryptu: solve
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some of these rocks aren't real!  They vanish as soon as you look at them closely.
+      pl: Część tych skał nie jest prawdziwa! Znikają, gdy tylko przyjrzysz im się uważnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_25f2b3ffed8afa6c515b
+      kontekst: data.json:scripts.elvibrato6_fakerocks.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Investigate [Requires 30 Mysticality]
+      pl: Zbadaj [Wymaga 30 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 30 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1239
+  skrypt: elvibrato6_fusebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_15b16c863f24a0801bd7
+      kontekst: data.json:scripts.elvibrato6_fusebox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a cylindrical piece here that's very obviously broken.
+      pl: Leży tu cylindryczny element, który jest bardzo wyraźnie zepsuty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fuseme
+    wpisy:
+    - id: wol_d8734361c0b35616d5f6
+      kontekst: data.json:scripts.elvibrato6_fusebox.fuseme
+      linia: 3
+      sekcja_skryptu: fuseme
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pop out the broken cylinder and replace it with the one you found. The machine whirrs to life with a riot of blue lights and weird noises.
+      pl: Wyjmujesz zepsuty cylinder i wymieniasz go na znaleziony. Maszyna ożywa feerią niebieskich świateł i dziwnych dźwięków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1240
+  skrypt: elvibrato6_guard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_351e150971cac8174488
+      kontekst: data.json:scripts.elvibrato6_guard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing has a job to do, and it isn't going to take any of your guff. Put that guff right back in the bag and make sure you use a twist-tie so it doesn't get stale.
+      pl: Ta rzecz ma robotę do wykonania i nie przyjmie twoich bzdur. Włóż te bzdury z powrotem do worka i zawiąż go drucikiem, żeby nie zwietrzały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_bed4c9af007313f869fb
+      kontekst: data.json:scripts.elvibrato6_guard.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hopefully, whatever that thing was guarding was worth the trouble.
+      pl: Miejmy nadzieję, że cokolwiek strzegło, było warte zachodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_57ad788e692e9c9b188c
+      kontekst: data.json:scripts.elvibrato6_guard.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoever assigned this thing to this guard post, they made a pretty good choice.
+      pl: Kto przydzielił tę rzecz na ten posterunek, podjął całkiem dobry wybór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_6e11adca7e6e55f13052
+      kontekst: data.json:scripts.elvibrato6_guard.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dumb competent machines
+      pl: Głupie, kompetentne maszyny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1241
+  skrypt: elvibrato6_snakefight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3d368dfcabe71f2df6a2
+      kontekst: data.json:scripts.elvibrato6_snakefight.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The snakes in that stack of rocks are <i>not</i> going to let you through here.
+      pl: Węże w tej stercie kamieni <i>nie</i> przepuszczą cię tędy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b959745c0590f22e4ab
+      kontekst: data.json:scripts.elvibrato6_snakefight.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The heck they aren't [Fight]
+      pl: A czemu niby nie [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_1b701e0024bfa0e3a616
+      kontekst: data.json:scripts.elvibrato6_snakefight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put those snakes in the only safe place a snake can be -- a snake-grave.
+      pl: Chowasz te węże w jedyne bezpieczne miejsce dla węża — wężowy grób.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1da7498225d8d9ef959
+      kontekst: data.json:scripts.elvibrato6_snakefight.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $venadd$ venom and $medadd$ medicine from the leftover bits of snake.
+      pl: Zbierasz $venadd$ jadu i $medadd$ lekarstwa z resztek węża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $venadd$
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_a0891bc2b742309612ba
+      kontekst: data.json:scripts.elvibrato6_snakefight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Are you trying to set a world record for the highest number of snake bites a @cowboy@ can get?
+      pl: Próbujesz bić rekord świata w liczbie ukąszeń węża, jakie @cowboy@ może dostać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@cowboy@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_d9585592897af8c1c637
+      kontekst: data.json:scripts.elvibrato6_snakefight.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, actually, thanks for asking
+      pl: Tak, właściwie, dzięki za pytanie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1242
+  skrypt: elvibrato6_snaketrick
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f30598ae2d07e1d3f8b3
+      kontekst: data.json:scripts.elvibrato6_snaketrick.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You could probably plug up all of those holes if you were strong enough.
+      pl: Pewnie zatkałbyś wszystkie te dziury, gdybyś był wystarczająco silny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07c6f61a53bcaadece13
+      kontekst: data.json:scripts.elvibrato6_snaketrick.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Be strong enough [40 Muscle]
+      pl: Bądź wystarczająco silny [40 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[40 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_000173b64d7ec16c6392
+      kontekst: data.json:scripts.elvibrato6_snaketrick.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A shove here, a push there, and the whole stack collapses in on itself!
+      pl: Pchnięcie tu, popchnięcie tam i cały stos zapada się do środka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_b64956113d568c2aac37
+      kontekst: data.json:scripts.elvibrato6_snaketrick.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Be strong enough [Requires 40 Muscle]
+      pl: Bądź dość silny [Wymaga 40 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 40 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1245
+  skrypt: elvibrato6_timebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9a97ab68c0a54ce44a08
+      kontekst: data.json:scripts.elvibrato6_timebox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the time tube.
+      pl: To rura czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3a86c9bcc79087be764e
+      kontekst: data.json:scripts.elvibrato6_timebox.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a large El Vibrato machine.
+      pl: To duża maszyna El Vibrato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73827f55a94bcc12633c
+      kontekst: data.json:scripts.elvibrato6_timebox.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mess with it
+      pl: Pobaw się tym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1246
+  skrypt: elvibrato6_useterminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: makekey
+    wpisy:
+    - id: wol_bf673bc7ea278f06a1ba
+      kontekst: data.json:scripts.elvibrato6_useterminal.makekey
+      linia: 29
+      sekcja_skryptu: makekey
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The terminal makes a type of sound you've never heard before, and your bag gets slightly heavier.  You investigate, and find a... oh yeah, it's just that weird El Vibrato thing you found in the woods when you were six.  That thing has been there the whole time.
+      pl: Terminal wydaje dźwięk, jakiego nigdy nie słyszałeś, a twój plecak robi się odrobinę cięższy. Sprawdzasz i znajdujesz... ach tak, to tylko ta dziwna rzecz El Vibrato, którą znalazłeś w lesie, gdy miałeś sześć lat. Była tam cały czas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_15a94398f42a86ae6257
+      kontekst: data.json:scripts.elvibrato6_useterminal.makekey
+      linia: 30
+      sekcja_skryptu: makekey
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.  The whole time.
+      pl: Ta. Cały czas.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1247
+  skrypt: elvibrato6_usetimebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 43
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5e0a9110397e6e60fbf7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the time tube.
+      pl: Podchodzisz do rury czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_5a22aaca8bc6df81aa0f
+      kontekst: data.json:scripts.elvibrato6_usetimebox.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put something in the left hole
+      pl: Włóż coś w lewy otwór
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_2614969d0d808b9ce5a2
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 3
+      sekcja_skryptu: older
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look through your stuff to see if there's anything you'd like to make older.
+      pl: Przeszukujesz swoje rzeczy, czy jest coś, co chciałbyś postarzyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bba7d8e89f1261f238aa
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 4
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: cheap wine
+      pl: tanie wino
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: booze_cheapwine
+    wpisy:
+    - id: wol_7f3f6f4336c4268bf379
+      kontekst: data.json:scripts.elvibrato6_usetimebox.booze_cheapwine
+      linia: 5
+      sekcja_skryptu: booze_cheapwine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the bottle of wine through and it comes out on the other side better.
+      pl: Przepychasz butelkę wina i wychodzi po drugiej stronie lepsza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_998637938eed183bb2d1
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 7
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: decent wine
+      pl: przyzwoite wino
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: booze_decentwine
+    wpisy:
+    - id: wol_5395e3ad6ee3eed3a9b7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.booze_decentwine
+      linia: 8
+      sekcja_skryptu: booze_decentwine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the bottle of wine through and it comes out on the other side much better.
+      pl: Przepychasz butelkę wina i wychodzi po drugiej stronie dużo lepsza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_787db7d46445254777f7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.booze_decentwine
+      linia: 9
+      sekcja_skryptu: booze_decentwine
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_583dd579e40519d0a94c
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 10
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: fine wine
+      pl: dobre wino
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: booze_finewine
+    wpisy:
+    - id: wol_36f47d28d2134b8ff364
+      kontekst: data.json:scripts.elvibrato6_usetimebox.booze_finewine
+      linia: 11
+      sekcja_skryptu: booze_finewine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the bottle of wine through and it comes out... ruined.
+      pl: Przepychasz butelkę wina i wychodzi... zrujnowana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_f4f23b9853a3be06bd88
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 13
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: superdense coal
+      pl: supergęsty węgiel
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sell_coalgem
+    wpisy:
+    - id: wol_c5f3e36f58293274515a
+      kontekst: data.json:scripts.elvibrato6_usetimebox.sell_coalgem
+      linia: 14
+      sekcja_skryptu: sell_coalgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the superdense coal through and a diamond rolls out the other end.
+      pl: Przepychasz supergęste węgiel i z drugiej strony toczy się diament.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9d58fc5a951ec6af3a9a
+      kontekst: data.json:scripts.elvibrato6_usetimebox.sell_coalgem
+      linia: 15
+      sekcja_skryptu: sell_coalgem
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whoah!
+      pl: Wow!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_6c2ae46d3630085d03a7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 16
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: a stick of dynamite
+      pl: laska dynamitu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: combat_dynamite
+    wpisy:
+    - id: wol_8d7b85fd52aa23b93566
+      kontekst: data.json:scripts.elvibrato6_usetimebox.combat_dynamite
+      linia: 17
+      sekcja_skryptu: combat_dynamite
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the dynamite through and it comes out older and more unstable
+      pl: Przepychasz dynamit i wychodzi starszy i bardziej niestabilny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f8c380e9943c54dc16e
+      kontekst: data.json:scripts.elvibrato6_usetimebox.combat_dynamite
+      linia: 18
+      sekcja_skryptu: combat_dynamite
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hoo...  hooray?
+      pl: Hoo... hurra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: older
+    wpisy:
+    - id: wol_7b5f2273a12f4096914a
+      kontekst: data.json:scripts.elvibrato6_usetimebox.older
+      linia: 19
+      sekcja_skryptu: older
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: cowsbane seeds
+      pl: nasiona krowoziołu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quest_cowsbaneseeds
+    wpisy:
+    - id: wol_2592e4ae8485a3a8d898
+      kontekst: data.json:scripts.elvibrato6_usetimebox.quest_cowsbaneseeds
+      linia: 20
+      sekcja_skryptu: quest_cowsbaneseeds
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the seeds through and a torrent of loose dried cowsbane sprays out the other end.
+      pl: Przepychasz nasiona i z drugiej strony wylewa się strumień luźnego suszonego krowoziół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69e2411b352b0737b03c
+      kontekst: data.json:scripts.elvibrato6_usetimebox.quest_cowsbaneseeds
+      linia: 21
+      sekcja_skryptu: quest_cowsbaneseeds
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grumble and collect it into a bale.
+      pl: Burczysz i zbierasz to w belę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_a02124173b3522263877
+      kontekst: data.json:scripts.elvibrato6_usetimebox.opts
+      linia: 24
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put something in the right hole
+      pl: Włóż coś w prawy otwór
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: younger
+    wpisy:
+    - id: wol_85784f6a28b5148ebdac
+      kontekst: data.json:scripts.elvibrato6_usetimebox.younger
+      linia: 25
+      sekcja_skryptu: younger
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look through your stuff to see if there's anything you'd like to make younger.
+      pl: Przeszukujesz swoje rzeczy, czy jest coś, co chciałbyś odmłodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_998637938eed183bb2d1
+      kontekst: data.json:scripts.elvibrato6_usetimebox.younger
+      linia: 26
+      sekcja_skryptu: younger
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: decent wine
+      pl: przyzwoite wino
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: y_booze_decentwine
+    wpisy:
+    - id: wol_fc9dcdff75372dc02fc5
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_booze_decentwine
+      linia: 27
+      sekcja_skryptu: y_booze_decentwine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the wine through and it comes out on the other side as swill.
+      pl: Przepychasz wino i wychodzi po drugiej stronie jako fusy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4ec3a62c1ffc18c3840
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_booze_decentwine
+      linia: 28
+      sekcja_skryptu: y_booze_decentwine
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Swell
+      pl: Świetnie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swell
+    wpisy:
+    - id: wol_bfa3225e4b1806781b08
+      kontekst: data.json:scripts.elvibrato6_usetimebox.swell
+      linia: 29
+      sekcja_skryptu: swell
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, not swell.  Swill.
+      pl: Nie, nie puchnie. Pasza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13b7133f7f74c79c61f6
+      kontekst: data.json:scripts.elvibrato6_usetimebox.swell
+      linia: 30
+      sekcja_skryptu: swell
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, okay. Swill.
+      pl: O, okej. Pasza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: younger
+    wpisy:
+    - id: wol_583dd579e40519d0a94c
+      kontekst: data.json:scripts.elvibrato6_usetimebox.younger
+      linia: 31
+      sekcja_skryptu: younger
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: fine wine
+      pl: dobre wino
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: y_booze_finewine
+    wpisy:
+    - id: wol_f9a3050b0d92c43268d8
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_booze_finewine
+      linia: 32
+      sekcja_skryptu: y_booze_finewine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the wine through.  Congratulations -- you've mastered the ancient art of making wine worse!
+      pl: Przepychasz wino. Gratulacje — opanowałeś starożytną sztukę psucia wina!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f80dba7063dd14a5bf7
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_booze_finewine
+      linia: 33
+      sekcja_skryptu: y_booze_finewine
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: younger
+    wpisy:
+    - id: wol_3f635be90d05302405d4
+      kontekst: data.json:scripts.elvibrato6_usetimebox.younger
+      linia: 34
+      sekcja_skryptu: younger
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: bottle of vinegar
+      pl: butelka octu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: y_vinegar
+    wpisy:
+    - id: wol_5c7b670fc56dfede35ef
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_vinegar
+      linia: 35
+      sekcja_skryptu: y_vinegar
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shove the vinegar through and it turns back into fine wine.
+      pl: Przepychasz ocet i zamienia się z powrotem w dobre wino.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_82a1d17a2137ca1645f3
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_vinegar
+      linia: 36
+      sekcja_skryptu: y_vinegar
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pshew
+      pl: Pff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: younger
+    wpisy:
+    - id: wol_7127402bedb0d68182d8
+      kontekst: data.json:scripts.elvibrato6_usetimebox.younger
+      linia: 37
+      sekcja_skryptu: younger
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: a piece of El Vibrato scrap
+      pl: kawałek złomu El Vibrato
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: y_elv_scrap
+    wpisy:
+    - id: wol_4551db03aeb1ed274113
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_elv_scrap
+      linia: 38
+      sekcja_skryptu: y_elv_scrap
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You push the scrap through, and a whole El Vibrato item comes out the other side.
+      pl: Przepychasz złom i po drugiej stronie wychodzi cały przedmiot El Vibrato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d963279c27fb43b341cc
+      kontekst: data.json:scripts.elvibrato6_usetimebox.y_elv_scrap
+      linia: 39
+      sekcja_skryptu: y_elv_scrap
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nifty
+      pl: Fajniutko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_757bdfa34c7508e5fea5
+      kontekst: data.json:scripts.elvibrato6_usetimebox.opts
+      linia: 41
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the machine
+      pl: Opuść maszynę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_a7d60c104950fb50e47e
+      kontekst: data.json:scripts.elvibrato6_usetimebox.intro
+      linia: 42
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine has a smallish hole in either end, and a large flat surface running through the middle.
+      pl: Ta maszyna ma niewielki otwór z obu stron i dużą płaską powierzchnię w środku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40e7ad77686e17da6c9c
+      kontekst: data.json:scripts.elvibrato6_usetimebox.intro
+      linia: 43
+      sekcja_skryptu: intro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you're staring at it trying to figure out what it does, a mouse suddenly runs into the hole on the left, and at the same instant, a mouse skeleton skids out of the hole on the right.
+      pl: Gdy wpatrujesz się w to, próbując zrozumieć, do czego służy, mysz nagle wbiega do dziury po lewej, a w tej samej chwili szkielet myszy wyjeżdża z dziury po prawej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bc0393e80fc7972680d6
+      kontekst: data.json:scripts.elvibrato6_usetimebox.intro
+      linia: 45
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the skeleton back through
+      pl: Wepchnij szkielet z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: push
+    wpisy:
+    - id: wol_a1950836c0881d70ce6f
+      kontekst: data.json:scripts.elvibrato6_usetimebox.push
+      linia: 46
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You slid the skeleton into the right hole and a very confused mouse scurries out of the left hole and disappears under the machine.
+      pl: Wsuwasz szkielet w otwór po prawej, a z lewego wybiega bardzo zdezorientowana mysz i znika pod maszyną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_41721688851440b9e8f2
+      kontekst: data.json:scripts.elvibrato6_usetimebox.push
+      linia: 47
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This machine must be some kind of... time tube.
+      pl: Ta maszyna musi być jakąś... rurą czasu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e8a8cf57e05bddeb711
+      kontekst: data.json:scripts.elvibrato6_usetimebox.push
+      linia: 48
+      sekcja_skryptu: push
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Marvelous!
+      pl: Cudownie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nothing
+    wpisy:
+    - id: wol_a6160630c7741ce41832
+      kontekst: data.json:scripts.elvibrato6_usetimebox.nothing
+      linia: 1
+      sekcja_skryptu: nothing
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, nothing you're carrying seems appropriate.
+      pl: Niestety nic z tego, co nosisz, nie wydaje się odpowiednie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1312
+  skrypt: food_beans5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_82a1d17a2137ca1645f3
+      kontekst: data.json:scripts.food_beans5.yes
+      linia: 2
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pshew
+      pl: Pff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1570
+  skrypt: goblin1_guard1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: trick
+    wpisy:
+    - id: wol_5f80dba7063dd14a5bf7
+      kontekst: data.json:scripts.goblin1_guard1.trick
+      linia: 7
+      sekcja_skryptu: trick
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1571
+  skrypt: goblin1_guard2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: trick
+    wpisy:
+    - id: wol_5f80dba7063dd14a5bf7
+      kontekst: data.json:scripts.goblin1_guard2.trick
+      linia: 7
+      sekcja_skryptu: trick
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1572
+  skrypt: goblin1_guard3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: trick
+    wpisy:
+    - id: wol_5f80dba7063dd14a5bf7
+      kontekst: data.json:scripts.goblin1_guard3.trick
+      linia: 7
+      sekcja_skryptu: trick
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000244
+  skrypt: house_spittoon_go
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dive
+    wpisy:
+    - id: wol_787db7d46445254777f7
+      kontekst: house.json:scripts.house_spittoon_go.dive
+      linia: 12
+      sekcja_skryptu: dive
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1686
+  skrypt: item_curlysbox
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: o2
+    wpisy:
+    - id: wol_5f80dba7063dd14a5bf7
+      kontekst: data.json:scripts.item_curlysbox.o2
+      linia: 7
+      sekcja_skryptu: o2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yay!
+      pl: Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1871
+  skrypt: mine5_elvvending
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: opts
+    wpisy:
+    - id: wol_757bdfa34c7508e5fea5
+      kontekst: data.json:scripts.mine5_elvvending.opts
+      linia: 18
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the machine
+      pl: Opuść maszynę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2158
+  skrypt: railcamp_foreman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: two
+    wpisy:
+    - id: wol_b4ec3a62c1ffc18c3840
+      kontekst: data.json:scripts.railcamp_foreman.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Swell
+      pl: Świetnie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2300
+  skrypt: re_bandith1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_6e8a8cf57e05bddeb711
+      kontekst: data.json:scripts.re_bandith1.hornswoggle
+      linia: 55
+      sekcja_skryptu: hornswoggle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Marvelous!
+      pl: Cudownie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2315
+  skrypt: re_cowd1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: leave
+    wpisy:
+    - id: wol_82a1d17a2137ca1645f3
+      kontekst: data.json:scripts.re_cowd1.leave
+      linia: 2
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pshew
+      pl: Pff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2554
+  skrypt: stadia_makeboots2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: saveflags
+    wpisy:
+    - id: wol_757bdfa34c7508e5fea5
+      kontekst: data.json:scripts.stadia_makeboots2.saveflags
+      linia: 5
+      sekcja_skryptu: saveflags
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the machine
+      pl: Opuść maszynę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2558
+  skrypt: stadia_makepants2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: saveflags
+    wpisy:
+    - id: wol_757bdfa34c7508e5fea5
+      kontekst: data.json:scripts.stadia_makepants2.saveflags
+      linia: 5
+      sekcja_skryptu: saveflags
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the machine
+      pl: Opuść maszynę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

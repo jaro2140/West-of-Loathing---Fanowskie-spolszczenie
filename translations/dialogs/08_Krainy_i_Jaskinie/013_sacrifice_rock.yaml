@@ -1,0 +1,75 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: sacrifice_rock
+zrodlowy_batch: 103_dialog_loc_sacrificerock_sacrifice_rock.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 2
+liczba_wpisow: 3
+sceny:
+- kolejnosc_w_danych_gry: 2477
+  skrypt: sacrificerock_therock
+  pomieszczenie: &id001
+    id: sacrificerock
+    nazwa_en: Sacrifice Rock
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ca1cbcce4d667d0ff0f0
+      kontekst: data.json:scripts.sacrificerock_therock.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take a wild guess and assume that this is Sacrifice Rock itself.
+      pl: Strzelasz na oślep i zakładasz, że to sama Skała Ofiary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2478
+  skrypt: sacrificerock_therock_examine
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_95f90e6630cf21384eb2
+      kontekst: data.json:scripts.sacrificerock_therock_examine.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This rock has three shallow, oddly-shaped indentations on its surface.
+      pl: Na powierzchni tej skały są trzy płytkie, dziwnie ukształtowane wgłębienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6489042fce86b74d461b
+      kontekst: data.json:scripts.sacrificerock_therock_examine.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You think that cow statuette you found in the lucky dip would fit in the middle indentation.
+      pl: Myślisz, że statuetka krowy z lucky dip pasowałaby w środkowe wgłębienie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

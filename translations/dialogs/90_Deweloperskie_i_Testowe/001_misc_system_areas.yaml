@@ -1,0 +1,5038 @@
+schema_version: 1
+dzial:
+  numer: '90'
+  nazwa: Deweloperskie_i_Testowe
+grupa_lokacji_lub_systemu: misc_system_areas
+zrodlowy_batch: 023_dialog_loc_aaa_misc_system_areas.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 59
+liczba_wpisow: 280
+sceny:
+- kolejnosc_w_danych_gry: 1
+  skrypt: aaa_burstmachine
+  pomieszczenie: &id001
+    id: aaa
+    nazwa_en: Misc System Areas
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4b77d9651ef6400325df
+      kontekst: data.json:scripts.aaa_burstmachine.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Here is a thing.
+      pl: Oto rzecz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: farm
+    wpisy:
+    - id: wol_378c81e4e25aff6b51f9
+      kontekst: data.json:scripts.aaa_burstmachine.farm
+      linia: 2
+      sekcja_skryptu: farm
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pop!
+      pl: Pop!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: far
+    wpisy:
+    - id: wol_378c81e4e25aff6b51f9
+      kontekst: data.json:scripts.aaa_burstmachine.far
+      linia: 3
+      sekcja_skryptu: far
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pop!
+      pl: Pop!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2
+  skrypt: aaa_combatitemdispenser
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_11f8c565adee448fa3d2
+      kontekst: data.json:scripts.aaa_combatitemdispenser.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a combat item dispenser
+      pl: To dozownik przedmiotów bojowych
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_65cea6721397c6e4afad
+      kontekst: data.json:scripts.aaa_combatitemdispenser.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it
+      pl: Użyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 3
+  skrypt: aaa_combatitems
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_dd2d6bd64722799a2b25
+      kontekst: data.json:scripts.aaa_combatitems.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'WARNIN'': Getting one of everything will take a very long time, especially if you aren''t at max dialogue speed.'
+      pl: 'UWAGA: Zebranie wszystkiego zajmie bardzo dużo czasu, zwłaszcza jeśli nie masz maksymalnej prędkości dialogów.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fdac04c6bc6ef9f7c5ed
+      kontekst: data.json:scripts.aaa_combatitems.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Combat items
+      pl: Przedmioty bojowe
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: combat
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.aaa_combatitems.combat
+      linia: 3
+      sekcja_skryptu: combat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_da0120f91b980e04d7dd
+      kontekst: data.json:scripts.aaa_combatitems.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 1 of everything
+      pl: Po 1 wszystkiego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: everything
+    wpisy:
+    - id: wol_c459748d45ee0283caa0
+      kontekst: data.json:scripts.aaa_combatitems.everything
+      linia: 5
+      sekcja_skryptu: everything
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wowee zowee
+      pl: Wowee zowee
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ca30754ac95c590addb2
+      kontekst: data.json:scripts.aaa_combatitems.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 1 of every hat
+      pl: Po 1 każdego kapelusza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: allhats
+    wpisy:
+    - id: wol_c459748d45ee0283caa0
+      kontekst: data.json:scripts.aaa_combatitems.allhats
+      linia: 7
+      sekcja_skryptu: allhats
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wowee zowee
+      pl: Wowee zowee
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 4
+  skrypt: aaa_container
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_359f15e33315f62f8480
+      kontekst: data.json:scripts.aaa_container.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a container testing cactus!  A CTC!
+      pl: To kaktus do testowania pojemników! KTP!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_517a9bad10de0f1dceb3
+      kontekst: data.json:scripts.aaa_container.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open a container
+      pl: Otwórz pojemnik
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.aaa_container.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 5
+  skrypt: aaa_crashtest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_596c31002862a746a7b3
+      kontekst: data.json:scripts.aaa_crashtest.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Crash-cross.
+      pl: Crash-cross.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e5b3a04f98af12668f3e
+      kontekst: data.json:scripts.aaa_crashtest.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try bad thing
+      pl: Spróbuj złej rzeczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 6
+  skrypt: aaa_elvsoundtest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: postprompt
+    wpisy:
+    - id: wol_2d77609af41113284b57
+      kontekst: data.json:scripts.aaa_elvsoundtest.postprompt
+      linia: 1
+      sekcja_skryptu: postprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: again
+      pl: again
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33da88f0f2c27597f044
+      kontekst: data.json:scripts.aaa_elvsoundtest.postprompt
+      linia: 2
+      sekcja_skryptu: postprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: quit
+      pl: quit
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 7
+  skrypt: aaa_elvthing
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_92f996e6ce9d27a7f482
+      kontekst: data.json:scripts.aaa_elvthing.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's $s$!
+      pl: To $s$!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $s$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 8
+  skrypt: aaa_fighttest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 43
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a1f28d0735f212a56c0a
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a string
+      pl: Walcz z ciągiem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_327348caf11823987ecb
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a string (in House DLC)
+      pl: Walcz z ciągiem (w DLC House)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08277e6549d3147d433d
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gun Manor ghost buffet
+      pl: Upiorny bufet Gun Manor
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ghosts
+    wpisy:
+    - id: wol_9f174cb35063b24a4112
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 4
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Billiards ghost
+      pl: Duch bilardowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e75c28a73254ae81266
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 5
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: AirBNB clerk ghost
+      pl: Duch urzędniczki AirBNB
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4408d5202b130b222612
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 6
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Conductor ghost
+      pl: duch konduktora
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_402806fb996e5f537439
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 7
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Glutton ghost
+      pl: upiorny łakomca
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73496917e1d2f8614c03
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 8
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hunter ghost
+      pl: Duch myśliwego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96d1a7fc29f0fb7e3263
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 9
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: L'Ardest ghost
+      pl: Duch L'Ardesta
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5c21f6fd227efae403c
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 10
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: More ghosts...
+      pl: Więcej duchów...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ghosts2
+    wpisy:
+    - id: wol_690ff65030deb0dbc16e
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 11
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Lawyer ghost
+      pl: Duch prawnika
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_61262ec8ad7a40b6e95f
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 12
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Librarian ghost
+      pl: duch bibliotekarza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9788bb6877eba252708
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 13
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Novelty salesman ghost
+      pl: Duch handlarza gadżetów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_09ee34d4dab13765207d
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 14
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pantry ghost
+      pl: duch spiżarni
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e8a916fd321e9b4a2e9
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 15
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Poacher ghost
+      pl: Duch kłusownika
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3a0215e11d80c9b63528
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 16
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tea party ghost
+      pl: duch herbatki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_261fe856e693d65f4d74
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 17
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Previous ghosts...
+      pl: Poprzednie duchy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_feb15657c78736d3ffc8
+      kontekst: data.json:scripts.aaa_fighttest.ghosts2
+      linia: 18
+      sekcja_skryptu: ghosts2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ghosts
+    wpisy:
+    - id: wol_feb15657c78736d3ffc8
+      kontekst: data.json:scripts.aaa_fighttest.ghosts
+      linia: 19
+      sekcja_skryptu: ghosts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_585ea0e6f6c1c3528eb8
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 20
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Other Gun Manor fights
+      pl: Inne walki w Gun Manor
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gun
+    wpisy:
+    - id: wol_010dd7a5c573359f47db
+      kontekst: data.json:scripts.aaa_fighttest.gun
+      linia: 21
+      sekcja_skryptu: gun
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bowltergeist
+      pl: Bowltergeist
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eac7287cd282d34f613b
+      kontekst: data.json:scripts.aaa_fighttest.gun
+      linia: 22
+      sekcja_skryptu: gun
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Coaltergeist
+      pl: Węgielak
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_614e7a5eb340537726d8
+      kontekst: data.json:scripts.aaa_fighttest.gun
+      linia: 23
+      sekcja_skryptu: gun
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight Chet Bullet
+      pl: Wal z Chetem Bulletem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_feb15657c78736d3ffc8
+      kontekst: data.json:scripts.aaa_fighttest.gun
+      linia: 24
+      sekcja_skryptu: gun
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_37435116bdb4005f50ed
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 25
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Various target dummies
+      pl: Różne manekiny strzeleckie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dummies
+    wpisy:
+    - id: wol_0351c5a511ecf78ddfef
+      kontekst: data.json:scripts.aaa_fighttest.dummies
+      linia: 26
+      sekcja_skryptu: dummies
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a dummy
+      pl: Walcz z manekinem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_096657e4310d7d2e1dd7
+      kontekst: data.json:scripts.aaa_fighttest.dummies
+      linia: 27
+      sekcja_skryptu: dummies
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a range of dummies
+      pl: Walcz z rzędem manekinów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4fb707988aff3844b7c2
+      kontekst: data.json:scripts.aaa_fighttest.dummies
+      linia: 28
+      sekcja_skryptu: dummies
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a grid of dummies
+      pl: Walcz z siatką manekinów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_233b487a91b68ff2ebc1
+      kontekst: data.json:scripts.aaa_fighttest.dummies
+      linia: 29
+      sekcja_skryptu: dummies
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight a grid of 1hp dummies
+      pl: Walcz z siatką manekinów z 1 HP
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_feb15657c78736d3ffc8
+      kontekst: data.json:scripts.aaa_fighttest.dummies
+      linia: 30
+      sekcja_skryptu: dummies
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_feb15657c78736d3ffc8
+      kontekst: data.json:scripts.aaa_fighttest.start
+      linia: 31
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Never mind
+      pl: Nieważne
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d67fd1bcc5c267e7ef9b
+      kontekst: data.json:scripts.aaa_fighttest.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Won fight!
+      pl: Wygrana walka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.aaa_fighttest.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.aaa_fighttest.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.aaa_fighttest.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.aaa_fighttest.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.aaa_fighttest.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.aaa_fighttest.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.aaa_fighttest.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_3bcae21a598799871eba
+      kontekst: data.json:scripts.aaa_fighttest.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Lost fight!
+      pl: Przegrana walka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.aaa_fighttest.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.aaa_fighttest.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_8debded800e41babe51b
+      kontekst: data.json:scripts.aaa_fighttest.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit
+      pl: Nie do wiary
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 9
+  skrypt: aaa_fightybush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d7fd42c2b96903da88c0
+      kontekst: data.json:scripts.aaa_fightybush.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fight testing bush.
+      pl: Testowy krzak do walki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95a72b63995f01be3683
+      kontekst: data.json:scripts.aaa_fightybush.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight!
+      pl: Atak!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 10
+  skrypt: aaa_givexp
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7ffd8da0008ecd460fcd
+      kontekst: data.json:scripts.aaa_givexp.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pardner leveled up to rank 5
+      pl: Towarzysz awansował na rangę 5
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 11
+  skrypt: aaa_incflagtest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d0d529ce38c9ba84915f
+      kontekst: data.json:scripts.aaa_incflagtest.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Before value:'
+      pl: 'Wartość przed:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9e6ce6149480d0feddf
+      kontekst: data.json:scripts.aaa_incflagtest.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@cactusfart@'
+      pl: '@cactusfart@'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@cactusfart@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_78ce348c60cbe2ef01ee
+      kontekst: data.json:scripts.aaa_incflagtest.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After value:'
+      pl: 'Wartość po:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9e6ce6149480d0feddf
+      kontekst: data.json:scripts.aaa_incflagtest.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '@cactusfart@'
+      pl: '@cactusfart@'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@cactusfart@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 13
+  skrypt: aaa_mathblaster
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d0809a9ffbb359d60516
+      kontekst: data.json:scripts.aaa_mathblaster.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I am the math blaster.
+      pl: Jestem math blasterem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c349e5243fff88462e8
+      kontekst: data.json:scripts.aaa_mathblaster.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: $test$ $test2$.
+      pl: $test$ $test2$.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $test$
+      - $test2$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 14
+  skrypt: aaa_minecrate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0989a6f2ef9645c52eaa
+      kontekst: data.json:scripts.aaa_minecrate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loot
+      pl: Ograb
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loot
+    wpisy:
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.aaa_minecrate.loot
+      linia: 2
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.aaa_minecrate.loot
+      linia: 3
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.aaa_minecrate.loot
+      linia: 4
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 15
+  skrypt: aaa_relosetest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.aaa_relosetest.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 20
+  skrypt: aaa_skelcontrol1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_852e34ea8642fd758ce1
+      kontekst: data.json:scripts.aaa_skelcontrol1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Current flag: @skelimation@.'
+      pl: 'Aktualna flaga: @skelimation@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@skelimation@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3c6a19601fd83839c16
+      kontekst: data.json:scripts.aaa_skelcontrol1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Toggle Animation
+      pl: Przełącz animację
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 21
+  skrypt: aaa_skelcontrol2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_852e34ea8642fd758ce1
+      kontekst: data.json:scripts.aaa_skelcontrol2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Current flag: @skelimation@.'
+      pl: 'Aktualna flaga: @skelimation@.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@skelimation@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3c6a19601fd83839c16
+      kontekst: data.json:scripts.aaa_skelcontrol2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Toggle Animation
+      pl: Przełącz animację
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 23
+  skrypt: aaa_skiptut
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ee93dc29db8a3f9e875e
+      kontekst: data.json:scripts.aaa_skiptut.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pick a horse, any horse.
+      pl: Wybierz konia, dowolnego konia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e78518952bed34c727bb
+      kontekst: data.json:scripts.aaa_skiptut.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Normal Horse
+      pl: Normalny Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c69086d17d61d9af7b9c
+      kontekst: data.json:scripts.aaa_skiptut.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dark Horse
+      pl: Mroczny Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d30019a134588fd65444
+      kontekst: data.json:scripts.aaa_skiptut.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pale Horse
+      pl: Blady Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_affff0b4852d4a2e241b
+      kontekst: data.json:scripts.aaa_skiptut.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crazy Horse
+      pl: Szalony Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 24
+  skrypt: aaa_testendcredits
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b00a0ab4a76dd336f9c4
+      kontekst: data.json:scripts.aaa_testendcredits.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: End credits starting at @endcredits@
+      pl: Napisy końcowe od @endcredits@
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@endcredits@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b44bbc94fa5ee68f22e
+      kontekst: data.json:scripts.aaa_testendcredits.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Launch
+      pl: Uruchom
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 27
+  skrypt: aaa_xpgain
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2315643be6032bdb44e0
+      kontekst: data.json:scripts.aaa_xpgain.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: XP Gaynor.
+      pl: XP Gaynor.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94182801d1cf16b1d674
+      kontekst: data.json:scripts.aaa_xpgain.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go
+      pl: Idź
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_73dbb35bc2f2d4a17f3d
+      kontekst: data.json:scripts.aaa_xpgain.doit
+      linia: 3
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Again
+      pl: Jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a1108845c722da73c17
+      kontekst: data.json:scripts.aaa_xpgain.doit
+      linia: 4
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Stop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_1a1108845c722da73c17
+      kontekst: data.json:scripts.aaa_xpgain.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Stop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 46
+  skrypt: bandit1_fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.bandit1_fight.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.bandit1_fight.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.bandit1_fight.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.bandit1_fight.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.bandit1_fight.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.bandit1_fight.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.bandit1_fight.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.bandit1_fight.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.bandit1_fight.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 47
+  skrypt: bandit1_gate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: oilcan
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.bandit1_gate.oilcan
+      linia: 5
+      sekcja_skryptu: oilcan
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 61
+  skrypt: bandit2_fighttrigger
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.bandit2_fighttrigger.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.bandit2_fighttrigger.win
+      linia: 5
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.bandit2_fighttrigger.win
+      linia: 6
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.bandit2_fighttrigger.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.bandit2_fighttrigger.aftersusie
+      linia: 8
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.bandit2_fighttrigger.aftersusie
+      linia: 9
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.bandit2_fighttrigger.afteralice
+      linia: 10
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.bandit2_fighttrigger.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.bandit2_fighttrigger.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 118
+  skrypt: bandit5_ghost1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.bandit5_ghost1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.bandit5_ghost1.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.bandit5_ghost1.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.bandit5_ghost1.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.bandit5_ghost1.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.bandit5_ghost1.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.bandit5_ghost1.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.bandit5_ghost1.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.bandit5_ghost1.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 119
+  skrypt: bandit5_ghost2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.bandit5_ghost2.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.bandit5_ghost2.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.bandit5_ghost2.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.bandit5_ghost2.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.bandit5_ghost2.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.bandit5_ghost2.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.bandit5_ghost2.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.bandit5_ghost2.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.bandit5_ghost2.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 133
+  skrypt: bandit5_vlassrevisit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: node20
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node20
+      linia: 31
+      sekcja_skryptu: node20
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 250
+  skrypt: book_cowpuncher
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: leatherworkery
+    wpisy:
+    - id: wol_8debded800e41babe51b
+      kontekst: data.json:scripts.book_cowpuncher.leatherworkery
+      linia: 3
+      sekcja_skryptu: leatherworkery
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit
+      pl: Nie do wiary
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 253
+  skrypt: book_foragin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: giveskill
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.book_foragin.giveskill
+      linia: 3
+      sekcja_skryptu: giveskill
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 256
+  skrypt: book_hedging
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: giveskill
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.book_hedging.giveskill
+      linia: 3
+      sekcja_skryptu: giveskill
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 269
+  skrypt: book_safecracking
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getrid
+    wpisy:
+    - id: wol_8debded800e41babe51b
+      kontekst: data.json:scripts.book_safecracking.getrid
+      linia: 5
+      sekcja_skryptu: getrid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit
+      pl: Nie do wiary
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 272
+  skrypt: book_store_boots
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getrid
+    wpisy:
+    - id: wol_8debded800e41babe51b
+      kontekst: data.json:scripts.book_store_boots.getrid
+      linia: 5
+      sekcja_skryptu: getrid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit
+      pl: Nie do wiary
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 273
+  skrypt: book_store_brewery
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getrid
+    wpisy:
+    - id: wol_8debded800e41babe51b
+      kontekst: data.json:scripts.book_store_brewery.getrid
+      linia: 5
+      sekcja_skryptu: getrid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dangit
+      pl: Nie do wiary
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 331
+  skrypt: breadwood_bartender
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: opts
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 30
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 346
+  skrypt: breadwood_questyjones
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.breadwood_questyjones.no
+      linia: 22
+      sekcja_skryptu: 'no'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 396
+  skrypt: cemetery3_grannysmith
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: leave
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.cemetery3_grannysmith.leave
+      linia: 125
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 408
+  skrypt: cemetery4_goblin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: buybrat
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.cemetery4_goblin.buybrat
+      linia: 9
+      sekcja_skryptu: buybrat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.cemetery4_goblin.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.cemetery4_goblin.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.cemetery4_goblin.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.cemetery4_goblin.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.cemetery4_goblin.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.cemetery4_goblin.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.cemetery4_goblin.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.cemetery4_goblin.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.cemetery4_goblin.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 409
+  skrypt: cemetery4_investigateshed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: grabshovel
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.cemetery4_investigateshed.grabshovel
+      linia: 7
+      sekcja_skryptu: grabshovel
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsthub
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.cemetery4_investigateshed.firsthub
+      linia: 23
+      sekcja_skryptu: firsthub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 410
+  skrypt: cemetery4_pickplot
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: optsrepeat
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.cemetery4_pickplot.optsrepeat
+      linia: 8
+      sekcja_skryptu: optsrepeat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digt3
+    wpisy:
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.cemetery4_pickplot.digt3
+      linia: 120
+      sekcja_skryptu: digt3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.cemetery4_pickplot.digt3
+      linia: 121
+      sekcja_skryptu: digt3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.cemetery4_pickplot.digt3
+      linia: 122
+      sekcja_skryptu: digt3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.cemetery4_pickplot.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.cemetery4_pickplot.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.cemetery4_pickplot.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.cemetery4_pickplot.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.cemetery4_pickplot.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.cemetery4_pickplot.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.cemetery4_pickplot.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.cemetery4_pickplot.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.cemetery4_pickplot.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 471
+  skrypt: clowns_camp_fightwin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: dig
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.clowns_camp_fightwin.dig
+      linia: 5
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.clowns_camp_fightwin.dig
+      linia: 6
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.clowns_camp_fightwin.dig
+      linia: 7
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.clowns_camp_fightwin.aftersusie
+      linia: 8
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.clowns_camp_fightwin.aftersusie
+      linia: 9
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.clowns_camp_fightwin.aftersusie
+      linia: 10
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.clowns_camp_fightwin.afteralice
+      linia: 11
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 484
+  skrypt: clowns_circus_bobconvo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: tannerynew
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.clowns_circus_bobconvo.tannerynew
+      linia: 69
+      sekcja_skryptu: tannerynew
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tannerysaw
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.clowns_circus_bobconvo.tannerysaw
+      linia: 75
+      sekcja_skryptu: tannerysaw
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 626
+  skrypt: cre_twilighthat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: skiptutt
+    wpisy:
+    - id: wol_e78518952bed34c727bb
+      kontekst: data.json:scripts.cre_twilighthat.skiptutt
+      linia: 3
+      sekcja_skryptu: skiptutt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Normal Horse
+      pl: Normalny Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c69086d17d61d9af7b9c
+      kontekst: data.json:scripts.cre_twilighthat.skiptutt
+      linia: 4
+      sekcja_skryptu: skiptutt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dark Horse
+      pl: Mroczny Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d30019a134588fd65444
+      kontekst: data.json:scripts.cre_twilighthat.skiptutt
+      linia: 5
+      sekcja_skryptu: skiptutt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pale Horse
+      pl: Blady Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_affff0b4852d4a2e241b
+      kontekst: data.json:scripts.cre_twilighthat.skiptutt
+      linia: 6
+      sekcja_skryptu: skiptutt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crazy Horse
+      pl: Szalony Koń
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1044
+  skrypt: debug_goblinjibber
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: beef
+    wpisy:
+    - id: wol_73dbb35bc2f2d4a17f3d
+      kontekst: data.json:scripts.debug_goblinjibber.beef
+      linia: 2
+      sekcja_skryptu: beef
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Again
+      pl: Jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1408
+  skrypt: fort1_tent1locker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: open
+    wpisy:
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker1.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker1.open
+      linia: 4
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker1.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1409
+  skrypt: fort1_tent1locker2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: open
+    wpisy:
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker2.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker2.open
+      linia: 4
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker2.open
+      linia: 5
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1410
+  skrypt: fort1_tent1locker3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker3.picklock
+      linia: 4
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker3.picklock
+      linia: 5
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0178cddd8de8724950e
+      kontekst: data.json:scripts.fort1_tent1locker3.picklock
+      linia: 6
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, hey, what's this?
+      pl: Och, hej, co to?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1534
+  skrypt: geologist_josie
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: pause4
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.geologist_josie.pause4
+      linia: 34
+      sekcja_skryptu: pause4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1574
+  skrypt: goblin1_house2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: readone
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.goblin1_house2.readone
+      linia: 10
+      sekcja_skryptu: readone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.goblin1_house2.goin
+      linia: 11
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1
+    wpisy:
+    - id: wol_1a1108845c722da73c17
+      kontekst: data.json:scripts.goblin1_house2.book1
+      linia: 16
+      sekcja_skryptu: book1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Stop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: wol_1a1108845c722da73c17
+      kontekst: data.json:scripts.goblin1_house2.book2
+      linia: 20
+      sekcja_skryptu: book2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Stop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3
+    wpisy:
+    - id: wol_1a1108845c722da73c17
+      kontekst: data.json:scripts.goblin1_house2.book3
+      linia: 24
+      sekcja_skryptu: book3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop
+      pl: Stop
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.goblin1_house2.start
+      linia: 26
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000112
+  skrypt: house_ghost_lawyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: house.json:scripts.house_ghost_lawyer.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: house.json:scripts.house_ghost_lawyer.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: house.json:scripts.house_ghost_lawyer.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: house.json:scripts.house_ghost_lawyer.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: house.json:scripts.house_ghost_lawyer.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: house.json:scripts.house_ghost_lawyer.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: house.json:scripts.house_ghost_lawyer.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: house.json:scripts.house_ghost_lawyer.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: house.json:scripts.house_ghost_lawyer.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1797
+  skrypt: mine2_locker
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.mine2_locker.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.mine2_locker.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.mine2_locker.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.mine2_locker.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.mine2_locker.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.mine2_locker.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.mine2_locker.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.mine2_locker.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.mine2_locker.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1949
+  skrypt: mission1_nun
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: grassprogress2
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.mission1_nun.grassprogress2
+      linia: 13
+      sekcja_skryptu: grassprogress2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2190
+  skrypt: ranch2_hippy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: starthatquest
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.ranch2_hippy2.starthatquest
+      linia: 50
+      sekcja_skryptu: starthatquest
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2281
+  skrypt: re_banditambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: giveup
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditambush.giveup
+      linia: 8
+      sekcja_skryptu: giveup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditambush.giveup
+      linia: 9
+      sekcja_skryptu: giveup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.re_banditambush.losedone
+      linia: 11
+      sekcja_skryptu: losedone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornstwo
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.re_banditambush.hornstwo
+      linia: 41
+      sekcja_skryptu: hornstwo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.re_banditambush.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.re_banditambush.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.re_banditambush.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.re_banditambush.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.re_banditambush.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.re_banditambush.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.re_banditambush.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditambush.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditambush.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2282
+  skrypt: re_banditb1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: giveup
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditb1.giveup
+      linia: 9
+      sekcja_skryptu: giveup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditb1.giveup
+      linia: 10
+      sekcja_skryptu: giveup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.re_banditb1.losedone
+      linia: 12
+      sekcja_skryptu: losedone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle2
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.re_banditb1.hornswoggle2
+      linia: 40
+      sekcja_skryptu: hornswoggle2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.re_banditb1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.re_banditb1.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.re_banditb1.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.re_banditb1.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.re_banditb1.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.re_banditb1.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.re_banditb1.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditb1.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditb1.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2283
+  skrypt: re_banditb2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: giveup
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditb2.giveup
+      linia: 25
+      sekcja_skryptu: giveup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditb2.giveup
+      linia: 26
+      sekcja_skryptu: giveup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.re_banditb2.losedone
+      linia: 28
+      sekcja_skryptu: losedone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.re_banditb2.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.re_banditb2.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.re_banditb2.win
+      linia: 5
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.re_banditb2.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.re_banditb2.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.re_banditb2.aftersusie
+      linia: 8
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.re_banditb2.afteralice
+      linia: 9
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditb2.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditb2.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2284
+  skrypt: re_banditb3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.re_banditb3.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.re_banditb3.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.re_banditb3.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.re_banditb3.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.re_banditb3.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.re_banditb3.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.re_banditb3.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_banditb3.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_banditb3.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.re_banditb3.losedone
+      linia: 5
+      sekcja_skryptu: losedone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2364
+  skrypt: re_goblind3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: horns2
+    wpisy:
+    - id: wol_5b8bd8f1da8d58e8da5b
+      kontekst: data.json:scripts.re_goblind3.horns2
+      linia: 28
+      sekcja_skryptu: horns2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nice
+      pl: Nieźle
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_d60d328ef78c25dd00b7
+      kontekst: data.json:scripts.re_goblind3.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_susienotch%'
+      pl: '%pardner_susienotch%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_susienotch%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac40316beee06135bcbd
+      kontekst: data.json:scripts.re_goblind3.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Cow-hate flashes in her eyes.  Her resolve intensifies.
+      pl: W jej oczach błyska nienawiść do krów. Jej determinacja wzrasta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22693ea1bdf3986c6235
+      kontekst: data.json:scripts.re_goblind3.win
+      linia: 4
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Susie has become stronger!</b>
+      pl: <b>Susie stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: aftersusie
+    wpisy:
+    - id: wol_66b739451aa558e632fb
+      kontekst: data.json:scripts.re_goblind3.aftersusie
+      linia: 5
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%pardner_alicestudy%'
+      pl: '%pardner_alicestudy%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%pardner_alicestudy%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_781a02426a561ed81190
+      kontekst: data.json:scripts.re_goblind3.aftersusie
+      linia: 6
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes light up -- evidently she's had an epiphany of some sort.
+      pl: Jej oczy się rozświetlają — najwyraźniej doznała jakiegoś olśnienia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87f143a261d8fe7938a3
+      kontekst: data.json:scripts.re_goblind3.aftersusie
+      linia: 7
+      sekcja_skryptu: aftersusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Alice has become stronger!</b>
+      pl: <b>Alice stała się silniejsza!</b>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: afteralice
+    wpisy:
+    - id: wol_9a089dd0ee6dc9603320
+      kontekst: data.json:scripts.re_goblind3.afteralice
+      linia: 8
+      sekcja_skryptu: afteralice
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: $winbutton$
+      pl: $winbutton$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $winbutton$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8ef9d9091363c5b98b7c
+      kontekst: data.json:scripts.re_goblind3.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get so angry about losing that fight that you pass out.
+      pl: Tak wściekasz się na przegraną walkę, że mdlejesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3df40749ca03bab2eafb
+      kontekst: data.json:scripts.re_goblind3.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Zzzzz
+      pl: Zzzzz
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: losedone
+    wpisy:
+    - id: wol_3c75dabc81cca6fc22ce
+      kontekst: data.json:scripts.re_goblind3.losedone
+      linia: 5
+      sekcja_skryptu: losedone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%$bucket$%'
+      pl: '%$bucket$%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%$bucket$%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2553
+  skrypt: stadia_makeboots
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_65cea6721397c6e4afad
+      kontekst: data.json:scripts.stadia_makeboots.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it
+      pl: Użyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2555
+  skrypt: stadia_makehat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_65cea6721397c6e4afad
+      kontekst: data.json:scripts.stadia_makehat.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it
+      pl: Użyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2557
+  skrypt: stadia_makepants
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_65cea6721397c6e4afad
+      kontekst: data.json:scripts.stadia_makepants.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Use it
+      pl: Użyj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2797
+  skrypt: zzz_riff_guytest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: mrsgun
+    wpisy:
+    - id: wol_73dbb35bc2f2d4a17f3d
+      kontekst: data.json:scripts.zzz_riff_guytest.mrsgun
+      linia: 45
+      sekcja_skryptu: mrsgun
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Again
+      pl: Jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doinit
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.zzz_riff_guytest.doinit
+      linia: 8
+      sekcja_skryptu: doinit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_a834ae437ddd3558e0fb
+      kontekst: data.json:scripts.zzz_riff_guytest.hornswoggle
+      linia: 13
+      sekcja_skryptu: hornswoggle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave
+      pl: Odejdź
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

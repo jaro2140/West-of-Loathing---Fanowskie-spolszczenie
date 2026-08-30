@@ -1,0 +1,2326 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: the_stearns_ranch
+zrodlowy_batch: 096_dialog_loc_ranch1_the_stearns_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 19
+liczba_wpisow: 135
+sceny:
+- kolejnosc_w_danych_gry: 2168
+  skrypt: ranch1_altar
+  pomieszczenie: &id001
+    id: ranch1
+    nazwa_en: The Stearns Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_37b9092f7420c58471ac
+      kontekst: data.json:scripts.ranch1_altar.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Atop this sinister-looking altar sits a copper goblet filled with what appears to be blood.
+      pl: Na tym złowrogim ołtarzu stoi miedziany kielich wypełniony czymś, co wygląda na krew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f44d31af5801a38c30a3
+      kontekst: data.json:scripts.ranch1_altar.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the goblet
+      pl: Weź kielich
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getblood
+    wpisy:
+    - id: wol_f112db723350bb1b121f
+      kontekst: data.json:scripts.ranch1_altar.getblood
+      linia: 3
+      sekcja_skryptu: getblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A chill runs down your spine as you touch the goblet.
+      pl: Dotykając kielicha, czujesz dreszcz na plecach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_8d2135d766a52c35170e
+      kontekst: data.json:scripts.ranch1_altar.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy the goblet [5 Muscle]
+      pl: Zniszcz puchar [5 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: smash
+    wpisy:
+    - id: wol_44da96c84c629ff459bf
+      kontekst: data.json:scripts.ranch1_altar.smash
+      linia: 6
+      sekcja_skryptu: smash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't know what this is, but you know it's abominable.  You grab the goblet and smash it against the altar.
+      pl: Nie wiesz, co to jest, ale wiesz, że to obrzydliwe. Chwytasz kielich i rozbijasz o ołtarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_90b49e12992c9611ce5b
+      kontekst: data.json:scripts.ranch1_altar.smash
+      linia: 7
+      sekcja_skryptu: smash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Everywhere the blood lands, cracks appear.  The altar groans as it crumbles into ruin.
+      pl: Wszędzie tam, gdzie spada krew, pojawiają się pęknięcia. Ołtarz jęczy i rozpada się w ruinę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a74518c5a5dd482ad82
+      kontekst: data.json:scripts.ranch1_altar.smash
+      linia: 8
+      sekcja_skryptu: smash
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: And how.
+      pl: I to jak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_fe66108b84ea4fdb204c
+      kontekst: data.json:scripts.ranch1_altar.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Destroy the goblet [Requires 5 Muscle]
+      pl: Zniszcz puchar [Wymaga 5 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 5 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2169
+  skrypt: ranch1_cowstain
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_10248fcb406e201018d1
+      kontekst: data.json:scripts.ranch1_cowstain.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a weird cow-shaped stain on the wall
+      pl: Na ścianie dziwna plama w kształcie krowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_873bb3303f42f7c15220
+      kontekst: data.json:scripts.ranch1_cowstain.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whisper "peanut butter"
+      pl: Wyszeptaj „masło orzechowe”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2171
+  skrypt: ranch1_drygoods
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b94bb70c2611c17dda31
+      kontekst: data.json:scripts.ranch1_drygoods.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's still some food on this shelf.
+      pl: Na półce zostało trochę jedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2172
+  skrypt: ranch1_flower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_79c19d3482bc52188d08
+      kontekst: data.json:scripts.ranch1_flower.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This flower is smoking...
+      pl: Ten kwiat dymi...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_08a1c8ff4ad71316ab05
+      kontekst: data.json:scripts.ranch1_flower.pick
+      linia: 3
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ow ow ow!
+      pl: Au au au!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2173
+  skrypt: ranch1_grace
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 62
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_0625cf9c707e35988b11
+      kontekst: data.json:scripts.ranch1_grace.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the work of a moment to fix the doll's voicebox.
+      pl: Naprawa głosika lalki to kwestia chwili.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e190ec03954e708f140
+      kontekst: data.json:scripts.ranch1_grace.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull the string
+      pl: Pociągnij za sznurek
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: go
+    wpisy:
+    - id: wol_4695b05eb72bba0a35bf
+      kontekst: data.json:scripts.ranch1_grace.go
+      linia: 3
+      sekcja_skryptu: go
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the string.  The doll's eyes roll back into its head and its mouth begins to move.
+      pl: Ciągniesz za sznurek. Oczy lalki toczy się do tyłu głowy, a usta zaczynają się ruszać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_88849bdb103f4316a609
+      kontekst: data.json:scripts.ranch1_grace.go
+      linia: 4
+      sekcja_skryptu: go
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, I'm Grace!  What's your name?
+      pl: Cześć, jestem Grace! Jak masz na imię?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2deeb08760704fbb707e
+      kontekst: data.json:scripts.ranch1_grace.go
+      linia: 5
+      sekcja_skryptu: go
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm @firstname@.
+      pl: Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: name
+    wpisy:
+    - id: wol_3a5736a6d31a0e22d00a
+      kontekst: data.json:scripts.ranch1_grace.name
+      linia: 7
+      sekcja_skryptu: name
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, @firstname@!  You're nice!  Do you want to play with me?
+      pl: Cześć, @firstname@! Jesteś miły! Chcesz pobawić się ze mną?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: play
+    wpisy:
+    - id: wol_c8609a36950548b63bb5
+      kontekst: data.json:scripts.ranch1_grace.play
+      linia: 8
+      sekcja_skryptu: play
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes, let's play.
+      pl: Tak, zagrajmy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_95afb85478e1436fdffc
+      kontekst: data.json:scripts.ranch1_grace.yes
+      linia: 10
+      sekcja_skryptu: 'yes'
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hooray!  Mary used to play with me, but we didn't get to finish our tea party before she went away.  Will you help me finish it?
+      pl: Hurra! Mary kiedyś ze mną bawiła, ale nie skończyliśmy herbatki, zanim poszła. Pomożesz mi ją dokończyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4537d287722b00eb01e7
+      kontekst: data.json:scripts.ranch1_grace.yes
+      linia: 11
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Surely!
+      pl: Oczywiście!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: help
+    wpisy:
+    - id: wol_01ba8deff7c7e74d5067
+      kontekst: data.json:scripts.ranch1_grace.help
+      linia: 13
+      sekcja_skryptu: help
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hooray!  The game is almost over!  Mary did such a good job!
+      pl: Hurra! Gra prawie się skończyła! Mary tak dobrze sobie poradziła!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f43489a6f1689f9aa47a
+      kontekst: data.json:scripts.ranch1_grace.help
+      linia: 14
+      sekcja_skryptu: help
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The doll's eyes roll back forward.
+      pl: Oczy lalki znowu obracają się do przodu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d126ff9c504a2453d82
+      kontekst: data.json:scripts.ranch1_grace.help
+      linia: 15
+      sekcja_skryptu: help
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Go downstairs and get my cup.  Do you know the magic word to make the mean cow let you into his secret room?
+      pl: Zejdź na dół i przynieś mój kubek. Znasz magiczne słowo, które sprawi, że zła krowa wpuści cię do swojego sekretnego pokoju?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4586c6b130e489eb8e98
+      kontekst: data.json:scripts.ranch1_grace.help
+      linia: 16
+      sekcja_skryptu: help
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, what is it?
+      pl: Nie, o co chodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: help2
+    wpisy:
+    - id: wol_604def623e0afeb93187
+      kontekst: data.json:scripts.ranch1_grace.help2
+      linia: 18
+      sekcja_skryptu: help2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: The magic word is "peanut butter."
+      pl: Magiczne słowo brzmi „masło orzechowe.”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a0374707835efbc535c
+      kontekst: data.json:scripts.ranch1_grace.help2
+      linia: 19
+      sekcja_skryptu: help2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The doll goes silent.
+      pl: Lalka milknie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ccc41cd07010fe88ab90
+      kontekst: data.json:scripts.ranch1_grace.help2
+      linia: 20
+      sekcja_skryptu: help2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Got it.  "Peanut butter."
+      pl: Jasne. „Masło orzechowe.”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: shudder
+    wpisy:
+    - id: wol_cd1c9916066f4b30008a
+      kontekst: data.json:scripts.ranch1_grace.shudder
+      linia: 21
+      sekcja_skryptu: shudder
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shudder as you realize that talking dolls haven't been invented yet.
+      pl: Dreszcz ci przechodzi, gdy orientujesz się, że mówiące lalki jeszcze nie zostały wynalezione.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a921b91b9b51fc76fb09
+      kontekst: data.json:scripts.ranch1_grace.shudder
+      linia: 22
+      sekcja_skryptu: shudder
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Spooky...
+      pl: Upiornie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: helpagain
+    wpisy:
+    - id: wol_49c30432628f06fb2abb
+      kontekst: data.json:scripts.ranch1_grace.helpagain
+      linia: 24
+      sekcja_skryptu: helpagain
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Go downstairs and get my cup.  You know the magic word now.  Quickly, so that we can finish our tea party!
+      pl: Zejdź na dół i przynieś mój kubek. Znasz już magiczne słowo. Szybko, żebyśmy skończyły herbatkę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_afe2df6fd9d4445c575c
+      kontekst: data.json:scripts.ranch1_grace.helpagain
+      linia: 25
+      sekcja_skryptu: helpagain
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hey, I've got an actual tea set here. [@item:quest_houseteaset3.name@]
+      pl: Hej, mam tu prawdziwy serwis do herbaty. [@item:quest_houseteaset3.name@]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[@item:quest_houseteaset3.name@]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tryteaseta
+    wpisy:
+    - id: wol_404bd10d0f3caba7c946
+      kontekst: data.json:scripts.ranch1_grace.tryteaseta
+      linia: 26
+      sekcja_skryptu: tryteaseta
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, I've got an actual tea set here. Why don't we just use that?
+      pl: Hej, mam tu prawdziwy serwis do herbaty. Czemu po prostu tego nie użyjemy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d8c7e8917e606f214792
+      kontekst: data.json:scripts.ranch1_grace.tryteaseta
+      linia: 27
+      sekcja_skryptu: tryteaseta
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No! I want my <i>own</i> cup! Go get it for me!
+      pl: Nie! Chcę <i>własny</i> kubek! Idź mi go przynieść!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7957d81ab03ed91a3e23
+      kontekst: data.json:scripts.ranch1_grace.tryteaseta
+      linia: 28
+      sekcja_skryptu: tryteaseta
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Alright, fine, sheesh.
+      pl: Dobrze, dobra, no już.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: helpagain
+    wpisy:
+    - id: wol_3255da5e698f0f9c3f0b
+      kontekst: data.json:scripts.ranch1_grace.helpagain
+      linia: 29
+      sekcja_skryptu: helpagain
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, sure.  Right.
+      pl: Okej, jasne. No tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_adaca2d817e0e591a0ed
+      kontekst: data.json:scripts.ranch1_grace.yes
+      linia: 30
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I should really hit the trail.
+      pl: Powinienem już ruszyć w drogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_eee05a325b12289b03b3
+      kontekst: data.json:scripts.ranch1_grace.no
+      linia: 32
+      sekcja_skryptu: 'no'
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's okay!  Somebody else will come along soon.  You're already dead anyway.  Hee hee!
+      pl: W porządku! Wkrótce przyjdzie ktoś inny. I tak już jesteś martwy. Hee hee!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a0374707835efbc535c
+      kontekst: data.json:scripts.ranch1_grace.no
+      linia: 33
+      sekcja_skryptu: 'no'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The doll goes silent.
+      pl: Lalka milknie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: play
+    wpisy:
+    - id: wol_8ea42a5a64a446ba082b
+      kontekst: data.json:scripts.ranch1_grace.play
+      linia: 35
+      sekcja_skryptu: play
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, I don't have time for games.
+      pl: Nie, nie mam czasu na gry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: go
+    wpisy:
+    - id: wol_c399258c322ef6d81f70
+      kontekst: data.json:scripts.ranch1_grace.go
+      linia: 36
+      sekcja_skryptu: go
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: None of your business, doll.
+      pl: Nie twoja sprawa, laleczko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: none
+    wpisy:
+    - id: wol_79a3eca69c45c08bc250
+      kontekst: data.json:scripts.ranch1_grace.none
+      linia: 38
+      sekcja_skryptu: none
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The doll's head shakes back and forth violently.
+      pl: Głowa lalki gwałtownie trzęsie się na boki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_881e62c703fa5e300f8d
+      kontekst: data.json:scripts.ranch1_grace.none
+      linia: 39
+      sekcja_skryptu: none
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hee hee!  You're funny!  Do you want to play with me?
+      pl: Hee hee! Jesteś zabawny! Chcesz się ze mną pobawić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a3a38fc5ecff0f78d0d1
+      kontekst: data.json:scripts.ranch1_grace.start
+      linia: 40
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No thank you
+      pl: Nie, dziękuję
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backwithfinal
+    wpisy:
+    - id: wol_0b1c699725e67edd6d5f
+      kontekst: data.json:scripts.ranch1_grace.backwithfinal
+      linia: 41
+      sekcja_skryptu: backwithfinal
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grace isn't speaking to you anymore.
+      pl: Grace już z tobą nie rozmawia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backwithsmash
+    wpisy:
+    - id: wol_0c7dd08c5e7140bfef49
+      kontekst: data.json:scripts.ranch1_grace.backwithsmash
+      linia: 43
+      sekcja_skryptu: backwithsmash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grace's eyes glow red.  She must know what you did.
+      pl: Oczy Grace świecą na czerwono. Na pewno wie, co zrobiłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_546fab5f813d74a20889
+      kontekst: data.json:scripts.ranch1_grace.backwithsmash
+      linia: 44
+      sekcja_skryptu: backwithsmash
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You'll live to regret this.  Hee hee!
+      pl: Będziesz tego żałować. Hee hee!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_723610b5d5e5db731375
+      kontekst: data.json:scripts.ranch1_grace.backwithsmash
+      linia: 45
+      sekcja_skryptu: backwithsmash
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her mouth snaps shut and her eyelids close.
+      pl: Jej usta zatrzaskują się, a powieki opadają.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aaf6a88c092caa070d6c
+      kontekst: data.json:scripts.ranch1_grace.backwithsmash
+      linia: 46
+      sekcja_skryptu: backwithsmash
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well that's only a little bit ominous
+      pl: No, to tylko trochę złowieszcze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backwithblood
+    wpisy:
+    - id: wol_8ae040527a8f29755a35
+      kontekst: data.json:scripts.ranch1_grace.backwithblood
+      linia: 47
+      sekcja_skryptu: backwithblood
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grace's eyes begin to glow.
+      pl: Oczy Grace zaczynają świecić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_328b482d737a77327829
+      kontekst: data.json:scripts.ranch1_grace.backwithblood
+      linia: 48
+      sekcja_skryptu: backwithblood
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: My tea!  We can finish our tea party now!
+      pl: Moja herbata! Możemy w końcu dokończyć herbatkę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f36e10248be8d4e1fb8a
+      kontekst: data.json:scripts.ranch1_grace.backwithblood
+      linia: 49
+      sekcja_skryptu: backwithblood
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, why not?
+      pl: Jasne, czemu nie?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: give
+    wpisy:
+    - id: wol_b5334ae151ae7b0ada97
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 51
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully pour the blood from the goblet into Grace's mouth.
+      pl: Ostrożnie wlewasz krew z kielicha do ust Grace.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04f845737683a5c3a12b
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 52
+      sekcja_skryptu: give
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ahhhhhhhh.
+      pl: Achhhhhhhh.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9f8af4043cddeaf83914
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 53
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grace leaps out of the toybox, laughing manically, and climbs the ranch house's ruined chimney.  She turns toward you.
+      pl: Grace wyskakuje z pudełka na zabawki, maniakalnie się śmiejąc, i wspina się po zrujnowanym kominie rancza. Odwraca się w twoją stronę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9dc0d56f1c2ddfe15fda
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 54
+      sekcja_skryptu: give
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: See you soon!
+      pl: Do zobaczenia wkrótce!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5e541ce900f7b797b4e
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 55
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She leaps to the ground behind the house and scampers off to the northwest.
+      pl: Skacze na ziemię za domem i biegnie na północny zachód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_966034fff63c5183bde8
+      kontekst: data.json:scripts.ranch1_grace.give
+      linia: 56
+      sekcja_skryptu: give
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's probably fine
+      pl: Pewnie w porządku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backwithblood
+    wpisy:
+    - id: wol_afe2df6fd9d4445c575c
+      kontekst: data.json:scripts.ranch1_grace.backwithblood
+      linia: 57
+      sekcja_skryptu: backwithblood
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hey, I've got an actual tea set here. [@item:quest_houseteaset3.name@]
+      pl: Hej, mam tu prawdziwy serwis do herbaty. [@item:quest_houseteaset3.name@]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[@item:quest_houseteaset3.name@]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tryteasetb
+    wpisy:
+    - id: wol_d5b983b83801ba919de0
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 58
+      sekcja_skryptu: tryteasetb
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, I've got an actual tea set here. Wouldn't you rather have real tea instead of some grody old bloody goblet?
+      pl: Hej, mam tu prawdziwy serwis do herbaty. Wolę prawdziwą herbatę niż jakiś brudny stary zakrwawiony kielich, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c2b3125f177142c611c
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 59
+      sekcja_skryptu: tryteasetb
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: No! My cup! Give me my cup!
+      pl: Nie! Mój kubek! Daj mi mój kubek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5fae1f16fb6b9a4d7f0
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 60
+      sekcja_skryptu: tryteasetb
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I've got these real nice china saucers and everything...
+      pl: Mam takie naprawdę ładne porcelanowe spodeczki i w ogóle...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4cc0d504129293321f3
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 61
+      sekcja_skryptu: tryteasetb
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Grace starts to make a high-pitched keening sound, and smoke leaks out from around her eyes.
+      pl: Grace zaczyna wydawać wysoki, skamlany dźwięk, a spod oczu wydobywa się dym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ef3badaa158733ed3ba1
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 62
+      sekcja_skryptu: tryteasetb
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay! The goblet it is! Jeez.
+      pl: Okej, okej! Kielich niech będzie! No weź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0476003663c31d388a88
+      kontekst: data.json:scripts.ranch1_grace.tryteasetb
+      linia: 63
+      sekcja_skryptu: tryteasetb
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk away, quickly
+      pl: Odejdź szybko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: backwithblood
+    wpisy:
+    - id: wol_acbcbbfdc83a0e5d1ec5
+      kontekst: data.json:scripts.ranch1_grace.backwithblood
+      linia: 64
+      sekcja_skryptu: backwithblood
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't give her the goblet.
+      pl: Nie dawaj jej kielicha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dont
+    wpisy:
+    - id: wol_7a5dc98c74ab6d5b5f3d
+      kontekst: data.json:scripts.ranch1_grace.dont
+      linia: 65
+      sekcja_skryptu: dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't think it's a good idea to pour blood into a clearly haunted doll's mouth.
+      pl: Nie uważasz za dobry pomysł wlewanie krwi do ust wyraźnie nawiedzonej lalki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a39d78419909734bf2a8
+      kontekst: data.json:scripts.ranch1_grace.dont
+      linia: 66
+      sekcja_skryptu: dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A little plume of smoke rises from Grace's right nostril.
+      pl: Z prawego nozdrza Grace unosi się mały dymek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_671a22d86f169a77e3a9
+      kontekst: data.json:scripts.ranch1_grace.dont
+      linia: 67
+      sekcja_skryptu: dont
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Give me my tea!
+      pl: Daj mi moją herbatę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33e65cd12f8faa35b20f
+      kontekst: data.json:scripts.ranch1_grace.dont
+      linia: 68
+      sekcja_skryptu: dont
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, have it. Jeez.
+      pl: No dobra, bierz. O rany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dont2
+    wpisy:
+    - id: wol_417fd0a8d45d91cbe053
+      kontekst: data.json:scripts.ranch1_grace.dont2
+      linia: 71
+      sekcja_skryptu: dont2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her eyes narrow.
+      pl: Jej oczy się zawężają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_360111662fbcb50d4a7e
+      kontekst: data.json:scripts.ranch1_grace.dont2
+      linia: 72
+      sekcja_skryptu: dont2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's okay!  You'll be back.  Curiosity will get the better of you and you'll be back.
+      pl: Spoko! Wrócisz. Ciekawość wygra i wrócisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_723610b5d5e5db731375
+      kontekst: data.json:scripts.ranch1_grace.dont2
+      linia: 73
+      sekcja_skryptu: dont2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Her mouth snaps shut and her eyelids close.
+      pl: Jej usta zatrzaskują się, a powieki opadają.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0a4d1f74911bfff38d9
+      kontekst: data.json:scripts.ranch1_grace.dont2
+      linia: 74
+      sekcja_skryptu: dont2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: We'll see about that
+      pl: Zobaczymy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2174
+  skrypt: ranch1_hearth
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e732d7ff0cbf90dbe86f
+      kontekst: data.json:scripts.ranch1_hearth.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are still some beans in this pot.
+      pl: W garnku zostało trochę fasoli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_9e50bcec9b1070dbbb0a
+      kontekst: data.json:scripts.ranch1_hearth.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You upend the pot into your pack.
+      pl: Wywracasz garnek do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2175
+  skrypt: ranch1_jethrosbones
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_50422430a30828f9d0f2
+      kontekst: data.json:scripts.ranch1_jethrosbones.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like Jethro's bones were dug up by some varmint or another.
+      pl: Wygląda na to, że kości Jethro wykopał jakiś szkodnik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f587ed7169dfe81d2701
+      kontekst: data.json:scripts.ranch1_jethrosbones.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search 'em
+      pl: Przeszukaj ich
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: search
+    wpisy:
+    - id: wol_4574b0fffb8c460a675b
+      kontekst: data.json:scripts.ranch1_jethrosbones.search
+      linia: 3
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a charred locket among the blackened bones.
+      pl: Wśród zwęglonych kości znajdujesz spalony medalion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2176
+  skrypt: ranch1_lockbox
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c3431710e50b0911c330
+      kontekst: data.json:scripts.ranch1_lockbox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a lockbox.  True to its name, it's locked.
+      pl: To sejfik. Zgodnie z nazwą — zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_87378e48c6965889d542
+      kontekst: data.json:scripts.ranch1_lockbox.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock and open the box.
+      pl: Otwierasz zamek i pudełko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_36ea5d49c5b5d2fae4e7
+      kontekst: data.json:scripts.ranch1_lockbox.picklock
+      linia: 4
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, a document!
+      pl: Och, dokument!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2178
+  skrypt: ranch1_outhouse
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_069ab4f54535d59b8fe9
+      kontekst: data.json:scripts.ranch1_outhouse.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Between the smoke and the noise, you're guessing that the contents of this outhouse are more dangerous than average outhouse contents.
+      pl: Przy tym dymie i hałasie obstawiasz, że zawartość tego wychodka jest groźniejsza niż przeciętna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0af54c8d70a274f1b97
+      kontekst: data.json:scripts.ranch1_outhouse.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Open the door [Fight]
+      pl: Otwórz drzwi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quiet
+    wpisy:
+    - id: wol_e8a626f2a07ec7b44879
+      kontekst: data.json:scripts.ranch1_outhouse.quiet
+      linia: 3
+      sekcja_skryptu: quiet
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's all quiet now.
+      pl: Teraz jest cicho.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_8e03ae4b3849f9dec352
+      kontekst: data.json:scripts.ranch1_outhouse.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The outhouse is now safe as houses.  Outhouses.
+      pl: Sławojka jest teraz bezpieczna jak domy. Sławojki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7899256635aa88ec4d7a
+      kontekst: data.json:scripts.ranch1_outhouse.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: By the soft light of the fading embers, you see a glint of light from below.  You hold your nose with one hand as you fish out your prize with the other.
+      pl: Przy miękkim świetle gasnących żarówek widzisz błysk światła z dołu. Jedną ręką zakrywasz nos, drugą wyciągasz swoją nagrodę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_f3eeef98bc446249fdc4
+      kontekst: data.json:scripts.ranch1_outhouse.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You end up burned to a crisp and covered with outhouse juice.  Story of your life.
+      pl: Kończysz spalony na węgiel i pokryty sokiem z wychodka. Historia twojego życia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2179
+  skrypt: ranch1_safe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ff46046a40c74c80792d
+      kontekst: data.json:scripts.ranch1_safe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This safe is scorched, but its contents are probably still... safe.
+      pl: Ten sejf jest przypalony, ale zawartość pewnie wciąż... bezpieczna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_d7be2ecfd30a41a96ded
+      kontekst: data.json:scripts.ranch1_safe.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the safe.  Somebody in the Stearns family was quite the investor, it appears!
+      pl: Otwierasz sejf. Ktoś z rodziny Stearnsów był, jak widać, całkiem niezłym inwestorem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2180
+  skrypt: ranch1_shelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8516a7d1c76253fe958c
+      kontekst: data.json:scripts.ranch1_shelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All of the books on this shelf are burned, but you notice something strange about the back of the shelf.
+      pl: Wszystkie książki na tej półce są spalone, ale tył półki wydaje ci się dziwny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab0230545e1a35cae450
+      kontekst: data.json:scripts.ranch1_shelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate [4 Moxie]
+      pl: Zbadaj [4 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[4 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv
+    wpisy:
+    - id: wol_864899199f2ae21bb2ad
+      kontekst: data.json:scripts.ranch1_shelf.inv
+      linia: 3
+      sekcja_skryptu: inv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your deft fingers find a hidden catch, and the back panel of the shelf slides away to reveal a secret compartment.
+      pl: Twoje zwinne palce znajdują ukryty zatrzask i tylna półka przesuwa się, odsłaniając tajną przegródkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d172fb9b22cd6ca3de0
+      kontekst: data.json:scripts.ranch1_shelf.inv
+      linia: 4
+      sekcja_skryptu: inv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a book inside!
+      pl: W środku jest książka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_61d05a6bf8c3ee6c7eb2
+      kontekst: data.json:scripts.ranch1_shelf.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Investigate [Requires 4 Moxie]
+      pl: Zbadaj [Wymaga 4 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 4 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: done
+    wpisy:
+    - id: wol_b833cae11deb8c9cd0a8
+      kontekst: data.json:scripts.ranch1_shelf.done
+      linia: 6
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing else of interest here, unless you're interested in burned books.
+      pl: Nic więcej ciekawego, chyba że interesują cię spalone książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_907b43a6fe1014c6130d
+      kontekst: data.json:scripts.ranch1_shelf.done
+      linia: 7
+      sekcja_skryptu: done
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not.
+      pl: Nie jesteś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2181
+  skrypt: ranch1_tombstone1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_03abd9f650591b6193f5
+      kontekst: data.json:scripts.ranch1_tombstone1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: MARY STEARNS
+      pl: MARY STEARNS
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aac4827e320003ed54e1
+      kontekst: data.json:scripts.ranch1_tombstone1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: died Feb 18, 1894
+      pl: zmarł 18 lutego 1894
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2182
+  skrypt: ranch1_tombstone1_mary
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 21
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ad45caf69ff9e409c2f8
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you approach the grave marker, the hair on the back of your neck stands up as a voice whispers in your ear.
+      pl: Gdy podchodzisz do nagrobka, włosy stają ci dęba na karku, gdy głos szepcze ci do ucha.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0030c9f169a44c53a9b
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '"Give it to me.  Giiiiive iiiiit tooooo meeeee."'
+      pl: „Daj mi to. Daaaaaj miiiii toooooo.”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0bcc12a8a0a92703e40b
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Give... what to you?
+      pl: Co... komu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_d3bfd738422e67e91385
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.what
+      linia: 5
+      sekcja_skryptu: what
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The air grows colder.
+      pl: Powietrze robi się chłodniejsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c8dd2cb80fb81348a592
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.what
+      linia: 6
+      sekcja_skryptu: what
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: The picture.  The picture of me.  I can see it.  You have it.  You shouldn't look at it.  Nobody should look at it.
+      pl: Obraz. Obraz mnie. Widzę go. Masz go. Nie powinieneś na niego patrzeć. Nikt nie powinien.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f0ccbda2adc798d1e22
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.what
+      linia: 7
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I guess you must be Mary.
+      pl: Ty musisz być Mary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe4a83b8232e453948e2
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.what
+      linia: 8
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why don't you want anyone to look at it?
+      pl: Czemu nie chcesz, żeby ktoś na to patrzył?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: why
+    wpisy:
+    - id: wol_d661629e58da6937bfd6
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.why
+      linia: 10
+      sekcja_skryptu: why
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The whispering gets quieter.  Anger seeps in around the edges of the voice.
+      pl: Szept cichnie. Wokół brzegów głosu wdziera się gniew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_02716a78a7086f41aeab
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.why
+      linia: 11
+      sekcja_skryptu: why
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Because they'll know.  Give it to me.
+      pl: Bo się dowiedzą. Daj mi to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_933c569e58a92b1a6f77
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.why
+      linia: 12
+      sekcja_skryptu: why
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.  Here's the picture.
+      pl: Okej, okej. Oto zdjęcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: give
+    wpisy:
+    - id: wol_721332c98bcd206b35c7
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.give
+      linia: 14
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hold the photograph out toward the grave marker, and it disintegrates in your hand.
+      pl: Wyciągasz fotografię w stronę nagrobka i rozpada się ci w dłoni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1214af41d9b513d359de
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.give
+      linia: 16
+      sekcja_skryptu: give
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The air returns to normal.  You hope Mary finds some peace now.
+      pl: Powietrze wraca do normy. Masz nadzieję, że Mary znajdzie teraz spokój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: why
+    wpisy:
+    - id: wol_ab21bdfd53f3182b1804
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.why
+      linia: 18
+      sekcja_skryptu: why
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Know... what?
+      pl: Wiedzieć... co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knowwhat
+    wpisy:
+    - id: wol_74d002b5af1af7e72da4
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.knowwhat
+      linia: 20
+      sekcja_skryptu: knowwhat
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: What happened.  What I did.  Give me the picture.  Give it to me now.
+      pl: Co się stało. Co zrobiłem. Daj mi obraz. Daj mi go teraz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56eb80c4ccbaa1ae57ee
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.knowwhat
+      linia: 21
+      sekcja_skryptu: knowwhat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She sounds pretty serious.
+      pl: Brzmi całkiem poważnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3d4ce4faa19e746adea6
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.knowwhat
+      linia: 22
+      sekcja_skryptu: knowwhat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, here you go.
+      pl: Okej, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e314f0788e932363d2ae
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.knowwhat
+      linia: 23
+      sekcja_skryptu: knowwhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep the picture [Fight]
+      pl: Zatrzymaj zdjęcie [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_485ae83523108c1d2560
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.what
+      linia: 24
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, you can have it.
+      pl: Okej, możesz to mieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_071a707887043197d1c7
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.start
+      linia: 25
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get out of here, and quickly!
+      pl: Wynoś się stąd, szybko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_c344bc02eb1752d76e17
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Poor girl. You hope she finds some peace. You tear up her picture and scatter it on the wind.
+      pl: Biedna dziewczyna. Masz nadzieję, że znajdzie spokój. Rozrywasz jej zdjęcie i rozrzucasz je na wietrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_46f82b52311f07e79f62
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: For the entirely non-corporeal remains of a little girl, she really packs a punch, eh?  She managed to take her picture from you after the fracas, and then disappeared into the ether.
+      pl: Jak na całkowicie niematerialne szczątki małej dziewczynki to naprawdę kopie, co? Udało jej się odebrać ci zdjęcie po awanturze, a potem zniknęła w eterze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2183
+  skrypt: ranch1_tombstone2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7741aebaa6e87efe068f
+      kontekst: data.json:scripts.ranch1_tombstone2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: GWENDOLYN STEARNS
+      pl: GWENDOLYN STEARNS
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d58506852cb2da9bf6ba
+      kontekst: data.json:scripts.ranch1_tombstone2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: devoted mother
+      pl: oddana matka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32de3fad68ce463c7b8c
+      kontekst: data.json:scripts.ranch1_tombstone2.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: died 1895
+      pl: zmarł 1895
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2184
+  skrypt: ranch1_tombstone3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba8ba8f89f506506c435
+      kontekst: data.json:scripts.ranch1_tombstone3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: JETHRO STEARNS
+      pl: JETHRO STEARNS
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6816cdf912abe8477143
+      kontekst: data.json:scripts.ranch1_tombstone3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: devoted father
+      pl: oddany ojciec
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32de3fad68ce463c7b8c
+      kontekst: data.json:scripts.ranch1_tombstone3.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: died 1895
+      pl: zmarł 1895
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2185
+  skrypt: ranch1_toybox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ba32f9aefce860ef76a2
+      kontekst: data.json:scripts.ranch1_toybox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The toybox contains a single object -- a creepy burnt porcelain doll.
+      pl: W pudełku z zabawkami jest jeden przedmiot — przerażająca spalona porcelanowa lalka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c937e576f51debd964fd
+      kontekst: data.json:scripts.ranch1_toybox.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to it [5 Mysticality]
+      pl: Porozmawiaj z tym [Mistycyzm 5]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[5 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63fe79a8a6f853bc1643
+      kontekst: data.json:scripts.ranch1_toybox.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Talk to it [Requires 5 Mysticality]
+      pl: Porozmawiaj z nim [Wymaga 5 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 5 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: blooded
+    wpisy:
+    - id: wol_329f33265501ad1cc286
+      kontekst: data.json:scripts.ranch1_toybox.blooded
+      linia: 4
+      sekcja_skryptu: blooded
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This box used to have a haunted doll in it, but you fed her some childrens' blood and then she got up and ran away.
+      pl: W pudełku była nawiedzona lalka — dałeś jej krwi dzieci i uciekła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2198
+  skrypt: ranch3_hearth
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: wol_08a1c8ff4ad71316ab05
+      kontekst: data.json:scripts.ranch3_hearth.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ow ow ow!
+      pl: Au au au!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2604
+  skrypt: train_investigate4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f36e10248be8d4e1fb8a
+      kontekst: data.json:scripts.train_investigate4.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, why not?
+      pl: Jasne, czemu nie?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2747
+  skrypt: tut_susie
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: turnin
+    wpisy:
+    - id: wol_2deeb08760704fbb707e
+      kontekst: data.json:scripts.tut_susie.turnin
+      linia: 16
+      sekcja_skryptu: turnin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm @firstname@.
+      pl: Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin2
+    wpisy:
+    - id: wol_2deeb08760704fbb707e
+      kontekst: data.json:scripts.tut_susie.turnin2
+      linia: 17
+      sekcja_skryptu: turnin2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm @firstname@.
+      pl: Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

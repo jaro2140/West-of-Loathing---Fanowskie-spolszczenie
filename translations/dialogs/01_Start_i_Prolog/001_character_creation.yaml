@@ -1,0 +1,3737 @@
+schema_version: 1
+dzial:
+  numer: '01'
+  nazwa: Start_i_Prolog
+grupa_lokacji_lub_systemu: character_creation
+zrodlowy_batch: 046_dialog_loc_cre_character_creation.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 32
+liczba_wpisow: 214
+sceny:
+- kolejnosc_w_danych_gry: 607
+  skrypt: cre_brobed
+  pomieszczenie: &id001
+    id: cre
+    nazwa_en: Character Creation
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7699287b0428d3c4bc60
+      kontekst: data.json:scripts.cre_brobed.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So tidy!
+      pl: Ale porządek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 608
+  skrypt: cre_brobookshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6bace14768a6aaf246a1
+      kontekst: data.json:scripts.cre_brobookshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up one of your brother's weird books and flip through it.
+      pl: Bierzesz jedną z dziwnych książek brata i kartkujesz ją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73039fae7f19a9de34d9
+      kontekst: data.json:scripts.cre_brobookshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%cre_boringbook%"'
+      pl: '"%cre_boringbook%"'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cre_boringbook%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d9c8052cc07ac2fb4ef
+      kontekst: data.json:scripts.cre_brobookshelf.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%cre_boringbookreact%'
+      pl: '%cre_boringbookreact%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%cre_boringbookreact%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 609
+  skrypt: cre_brodesk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b0726d2df658e751fa6a
+      kontekst: data.json:scripts.cre_brodesk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's covered with all of his weird diagrams and charts.
+      pl: Całe usiane jego dziwnymi schematami i wykresami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 610
+  skrypt: cre_brother
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_be0531004e761a6d6c63
+      kontekst: data.json:scripts.cre_brother.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your brother Rufus is standing here looking nervous.  He's pretty good at looking nervous.
+      pl: Brat Rufus stoi tu i wygląda na zdenerwowanego. Całkiem nieźle mu to wychodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c441bc0e9ad8a6154364
+      kontekst: data.json:scripts.cre_brother.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say goodbye
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2
+    wpisy:
+    - id: wol_e15cc400d0b9add9d039
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 3
+      sekcja_skryptu: bro2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, Rufus.  Time for me to head West.
+      pl: Hej, Rufus. Pora ruszyć na Zachód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f9378d847df0be845a76
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 4
+      sekcja_skryptu: bro2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I still don't understand why you're leaving.
+      pl: Nadal nie rozumiem, po co wyjeżdżasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_912ec4b1df76ca372a6d
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 5
+      sekcja_skryptu: bro2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's got a point, you know.  Why <i>are</i> you going West, anyway?
+      pl: Ma trochę racji, wiesz. Po co <i>właściwie</i> jedziesz na Zachód?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_050e15a6b28afc5f4af7
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 6
+      sekcja_skryptu: bro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: To help people
+      pl: Żeby pomagać ludziom
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2a
+    wpisy:
+    - id: wol_2b2e73dfa055a799673a
+      kontekst: data.json:scripts.cre_brother.bro2a
+      linia: 7
+      sekcja_skryptu: bro2a
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: You've read the papers, Rufus.  The people out West are in trouble.  They need all the help they can get.
+      pl: Czytałeś gazety, Rufus. Ludzie na Zachodzie są w tarapatach. Potrzebują każdej pomocy, jaką dostaną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro3
+    wpisy:
+    - id: wol_1b54ef1cde54bf13dc23
+      kontekst: data.json:scripts.cre_brother.bro3
+      linia: 8
+      sekcja_skryptu: bro3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: But it's so dangerous!  60% of the people who go West get killed within a year, and that statistic is from <i>before</i> The Cows Came Home.
+      pl: Ale to takie niebezpieczne! 60% osób jadących na Zachód ginie w ciągu roku — a ta statystyka jest sprzed czasów, <i>zanim</i> Krowy Wróciły do Domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e99b400a2662849d905
+      kontekst: data.json:scripts.cre_brother.bro3
+      linia: 9
+      sekcja_skryptu: bro3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll be okay.
+      pl: Dam sobie radę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro4
+    wpisy:
+    - id: wol_7b6d6c5dd9566dfa2221
+      kontekst: data.json:scripts.cre_brother.bro4
+      linia: 10
+      sekcja_skryptu: bro4
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'll be okay.  You worry about taking care of Mom and Dad, I'll worry about me.
+      pl: Dam sobie radę. Ty dbaj o mamę i tatę, a ja o siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_934b31d74503a7e1ca5e
+      kontekst: data.json:scripts.cre_brother.bro4
+      linia: 11
+      sekcja_skryptu: bro4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay.  If you say so.  I still think you'll be dead by Crimbo.
+      pl: Okej. Skoro tak mówisz. I tak obstawiam, że do Gwizdonek cię już nie będzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99b4d72d7f7c19a41797
+      kontekst: data.json:scripts.cre_brother.bro4
+      linia: 12
+      sekcja_skryptu: bro4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll miss you, Rufus.
+      pl: Będę za tobą tęsknił, Rufusie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro5
+    wpisy:
+    - id: wol_99b4d72d7f7c19a41797
+      kontekst: data.json:scripts.cre_brother.bro5
+      linia: 13
+      sekcja_skryptu: bro5
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'll miss you, Rufus.
+      pl: Będę za tobą tęsknił, Rufusie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2bfbaa5fa50b4c6ecfb9
+      kontekst: data.json:scripts.cre_brother.bro5
+      linia: 15
+      sekcja_skryptu: bro5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give him a playful punch on the arm.
+      pl: Przyjaźnie klepiesz go w ramię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2
+    wpisy:
+    - id: wol_05347da54ddfa065f2d2
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 17
+      sekcja_skryptu: bro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: To seek my fortune
+      pl: Szukać fortuny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2b
+    wpisy:
+    - id: wol_46f69a10ad2466769953
+      kontekst: data.json:scripts.cre_brother.bro2b
+      linia: 18
+      sekcja_skryptu: bro2b
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: There's just no opportunity here, kid.  If I'm gonna make something of myself, I gotta go where I can make some Meat.
+      pl: Tutaj nie ma perspektyw, młody. Jak chcę cokolwiek z siebie zrobić, muszę jechać tam, gdzie da się zarobić Mięso.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2
+    wpisy:
+    - id: wol_064836573107c63304bb
+      kontekst: data.json:scripts.cre_brother.bro2
+      linia: 19
+      sekcja_skryptu: bro2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: To get off this stupid farm
+      pl: Wydostać się z tej głupiej farmy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro2c
+    wpisy:
+    - id: wol_3b8f777619b9f233c0dc
+      kontekst: data.json:scripts.cre_brother.bro2c
+      linia: 20
+      sekcja_skryptu: bro2c
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Rufus, you know how much I hate it here.  I can't stay.  I've gotta go where the action is.
+      pl: Rufus, wiesz, jak nienawidzę tego miejsca. Nie mogę tu zostać. Muszę jechać tam, gdzie coś się dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_f61494bbb23ca85f311a
+      kontekst: data.json:scripts.cre_brother.already
+      linia: 21
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's busy drawing pictures in the dust.
+      pl: Ma zajęcie — rysuje obrazki na piasku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73a846c8931706a21381
+      kontekst: data.json:scripts.cre_brother.already
+      linia: 22
+      sekcja_skryptu: already
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weird kid
+      pl: Dziwny z niego typ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz2
+    wpisy:
+    - id: wol_3b836dd94c8ac6a9b5b3
+      kontekst: data.json:scripts.cre_brother.puzz2
+      linia: 23
+      sekcja_skryptu: puzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him his puzzle back
+      pl: Oddaj mu układankę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz3
+    wpisy:
+    - id: wol_13abc553daa8ad360997
+      kontekst: data.json:scripts.cre_brother.puzz3
+      linia: 24
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him the puzzle and he starts fidgeting with it.
+      pl: Podajesz mu układankę, a on zaraz zaczyna się z nią bawić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73a846c8931706a21381
+      kontekst: data.json:scripts.cre_brother.puzz3
+      linia: 25
+      sekcja_skryptu: puzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weird kid
+      pl: Dziwny z niego typ
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givecube
+    wpisy:
+    - id: wol_3b836dd94c8ac6a9b5b3
+      kontekst: data.json:scripts.cre_brother.givecube
+      linia: 26
+      sekcja_skryptu: givecube
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him his puzzle back
+      pl: Oddaj mu układankę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bro1a
+    wpisy:
+    - id: wol_13abc553daa8ad360997
+      kontekst: data.json:scripts.cre_brother.bro1a
+      linia: 27
+      sekcja_skryptu: bro1a
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him the puzzle and he starts fidgeting with it.
+      pl: Podajesz mu układankę, a on zaraz zaczyna się z nią bawić.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c441bc0e9ad8a6154364
+      kontekst: data.json:scripts.cre_brother.bro1a
+      linia: 28
+      sekcja_skryptu: bro1a
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say goodbye
+      pl: Pożegnaj się
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 611
+  skrypt: cre_brotoybox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_958d8f0e451e820aec2d
+      kontekst: data.json:scripts.cre_brotoybox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's your kid brother's toybox.
+      pl: Skrzynka na zabawki młodszego brata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getpuz
+    wpisy:
+    - id: wol_0b3ec8e0e74665fe3e65
+      kontekst: data.json:scripts.cre_brotoybox.getpuz
+      linia: 3
+      sekcja_skryptu: getpuz
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Heh.  He loves stuff like this.
+      pl: Heh. Uwielbia takie rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 613
+  skrypt: cre_dadconvo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_78a8df650ac4cfbecf6d
+      kontekst: data.json:scripts.cre_dadconvo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your father morosely jabs at the haystack.
+      pl: Tata smutno dźga widły w stóg siana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd052d24d428e23214c8
+      kontekst: data.json:scripts.cre_dadconvo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That hat doesn't fit you, Dad.
+      pl: Ta czapka ci nie pasuje, tato.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat
+    wpisy:
+    - id: wol_bd052d24d428e23214c8
+      kontekst: data.json:scripts.cre_dadconvo.hat
+      linia: 3
+      sekcja_skryptu: hat
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: That hat doesn't fit you, Dad.
+      pl: Ta czapka ci nie pasuje, tato.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97ce8de5c48195adf10b
+      kontekst: data.json:scripts.cre_dadconvo.hat
+      linia: 4
+      sekcja_skryptu: hat
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll grow into it.
+      pl: Urosnę do niej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c707d579f3c2b7b7cfb7
+      kontekst: data.json:scripts.cre_dadconvo.hat
+      linia: 5
+      sekcja_skryptu: hat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's time for me to leave.
+      pl: Pora na mnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaving
+    wpisy:
+    - id: wol_bae2c70a63fd1c4501ac
+      kontekst: data.json:scripts.cre_dadconvo.leaving
+      linia: 7
+      sekcja_skryptu: leaving
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: His lip quivers a little.
+      pl: Warga mu lekko drży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bdb1ee5ed83292489ef
+      kontekst: data.json:scripts.cre_dadconvo.leaving
+      linia: 8
+      sekcja_skryptu: leaving
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Listen, I... want you to have this.  It's $heirloom$.
+      pl: Słuchaj, chcę, żebyś to wziął. To $heirloom$.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $heirloom$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bb5d967d4306ecee09f
+      kontekst: data.json:scripts.cre_dadconvo.leaving
+      linia: 9
+      sekcja_skryptu: leaving
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thank him
+      pl: Podziękuj mu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thankyou
+    wpisy:
+    - id: wol_77c40356246e8ee6325d
+      kontekst: data.json:scripts.cre_dadconvo.thankyou
+      linia: 10
+      sekcja_skryptu: thankyou
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks, Dad.
+      pl: Dzięki, tato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_557ef663d25d7ea2218a
+      kontekst: data.json:scripts.cre_dadconvo.thankyou
+      linia: 11
+      sekcja_skryptu: thankyou
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Good...  good luck out there.  Be sure to say goodbye to your mother.
+      pl: Dobrze... powodzenia tam. Koniecznie pożegnaj się z mamą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_921996c77cd53a370b32
+      kontekst: data.json:scripts.cre_dadconvo.thankyou
+      linia: 12
+      sekcja_skryptu: thankyou
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I did. Goodbye, Dad.
+      pl: Już się pożegnałem. Pa, tato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1117ef9e32fd9b70e86
+      kontekst: data.json:scripts.cre_dadconvo.thankyou
+      linia: 13
+      sekcja_skryptu: thankyou
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I will. Goodbye, Dad.
+      pl: Pożegnam się. Pa, tato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_f4563fded2f971bd8935
+      kontekst: data.json:scripts.cre_dadconvo.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Time for me to leave, Dad.
+      pl: Muszę już jechać, tato.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: didalready
+    wpisy:
+    - id: wol_ababf79991e30b379018
+      kontekst: data.json:scripts.cre_dadconvo.didalready
+      linia: 15
+      sekcja_skryptu: didalready
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's just barely holding it together.  It's probably best for him if you just go.
+      pl: Ledwo trzyma się na nogach. Chyba lepiej już po prostu iść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 614
+  skrypt: cre_desk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d9334fdc49735361dfc8
+      kontekst: data.json:scripts.cre_desk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Goodbye, desk.
+      pl: Pa, biurku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7196fce4321f7a3be315
+      kontekst: data.json:scripts.cre_desk.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Comb Hair
+      pl: Poczesaj włosy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comb
+    wpisy:
+    - id: wol_4e20482a03c35f6a2c3d
+      kontekst: data.json:scripts.cre_desk.comb
+      linia: 3
+      sekcja_skryptu: comb
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You comb your hair one last time.
+      pl: Po raz ostatni czeszesz włosy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 616
+  skrypt: cre_firewood
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7e385f007787eed2f650
+      kontekst: data.json:scripts.cre_firewood.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What a mess!
+      pl: Co za syf!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_79b7372e8eaae5a59927
+      kontekst: data.json:scripts.cre_firewood.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stack firewood
+      pl: Porządnie ułóż drewno
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 617
+  skrypt: cre_haystack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_17a75400d71a28394345
+      kontekst: data.json:scripts.cre_haystack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a haystack.
+      pl: To stóg siana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: search
+    wpisy:
+    - id: wol_33a233daab4a84d06008
+      kontekst: data.json:scripts.cre_haystack.search
+      linia: 3
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, a needle!
+      pl: Ej, igła!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 619
+  skrypt: cre_mother
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 23
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_54d9d45a6435eb9f9526
+      kontekst: data.json:scripts.cre_mother.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your mom smiles warmly as you approach.
+      pl: Mama wita cię ciepłym uśmiechem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6bcee4e3aca51b6e2163
+      kontekst: data.json:scripts.cre_mother.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm leaving now, Mom.
+      pl: Muszę już iść, mamo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mom2
+    wpisy:
+    - id: wol_6bcee4e3aca51b6e2163
+      kontekst: data.json:scripts.cre_mother.mom2
+      linia: 3
+      sekcja_skryptu: mom2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm leaving now, Mom.
+      pl: Muszę już iść, mamo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dacdfc524e79a7907c1d
+      kontekst: data.json:scripts.cre_mother.mom2
+      linia: 4
+      sekcja_skryptu: mom2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: We're gonna miss you, kiddo.  Oh, and before you leave, I got you a present.
+      pl: Będziemy za tobą tęsknić, kochanie. Aha, i zanim wyjedziesz — mam dla ciebie prezent.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a24ec75c3a792b4d749d
+      kontekst: data.json:scripts.cre_mother.mom2
+      linia: 5
+      sekcja_skryptu: mom2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A present?
+      pl: Prezent?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mom3
+    wpisy:
+    - id: wol_a24ec75c3a792b4d749d
+      kontekst: data.json:scripts.cre_mother.mom3
+      linia: 6
+      sekcja_skryptu: mom3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: A present?
+      pl: Prezent?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0c88da7883c0350219f
+      kontekst: data.json:scripts.cre_mother.mom3
+      linia: 7
+      sekcja_skryptu: mom3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep!  It's that book you wanted for Crimbo.  I know it's early, but...
+      pl: Ta! To ta książka na Gwizdonki, o którą chodziło. Wiem, wcześnie, ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a99fe62a5364a768dde5
+      kontekst: data.json:scripts.cre_mother.mom3
+      linia: 8
+      sekcja_skryptu: mom3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The one about picking locks?  Oh boy!
+      pl: Ta o otwieraniu zamków? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1
+    wpisy:
+    - id: wol_a99fe62a5364a768dde5
+      kontekst: data.json:scripts.cre_mother.book1
+      linia: 9
+      sekcja_skryptu: book1
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: The one about picking locks?  Oh boy!
+      pl: Ta o otwieraniu zamków? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_112f4d18dd719b0e73eb
+      kontekst: data.json:scripts.cre_mother.book1
+      linia: 10
+      sekcja_skryptu: book1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's the one!  Enjoy it.
+      pl: Dokładnie ta! Miłej lektury.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: end
+    wpisy:
+    - id: wol_f397dd7f0247b0196cf2
+      kontekst: data.json:scripts.cre_mother.end
+      linia: 11
+      sekcja_skryptu: end
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Please be careful out there.  Write us a letter when you can.
+      pl: Uważaj na siebie. Napisz do nas, jak będziesz mógł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea41c248e2f30058660d
+      kontekst: data.json:scripts.cre_mother.end
+      linia: 12
+      sekcja_skryptu: end
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She hugs you.
+      pl: Przytula cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87e066bebf898548e915
+      kontekst: data.json:scripts.cre_mother.end
+      linia: 13
+      sekcja_skryptu: end
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I will, Mom.  Goodbye.
+      pl: Obiecuję, mamo. Pa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mom3
+    wpisy:
+    - id: wol_bc1628246514f7974237
+      kontekst: data.json:scripts.cre_mother.mom3
+      linia: 14
+      sekcja_skryptu: mom3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The one about desert survival?  Oh boy!
+      pl: Ta o przetrwaniu na pustyni? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: wol_bc1628246514f7974237
+      kontekst: data.json:scripts.cre_mother.book2
+      linia: 15
+      sekcja_skryptu: book2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: The one about desert survival?  Oh boy!
+      pl: Ta o przetrwaniu na pustyni? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_112f4d18dd719b0e73eb
+      kontekst: data.json:scripts.cre_mother.book2
+      linia: 16
+      sekcja_skryptu: book2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's the one!  Enjoy it.
+      pl: Dokładnie ta! Miłej lektury.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mom3
+    wpisy:
+    - id: wol_fcce48905c28e33a33e5
+      kontekst: data.json:scripts.cre_mother.mom3
+      linia: 17
+      sekcja_skryptu: mom3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The one about bartering?  Oh boy!
+      pl: Ta o targowaniu się? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3
+    wpisy:
+    - id: wol_fcce48905c28e33a33e5
+      kontekst: data.json:scripts.cre_mother.book3
+      linia: 18
+      sekcja_skryptu: book3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: The one about bartering?  Oh boy!
+      pl: Ta o targowaniu się? O rety!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_112f4d18dd719b0e73eb
+      kontekst: data.json:scripts.cre_mother.book3
+      linia: 19
+      sekcja_skryptu: book3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That's the one!  Enjoy it.
+      pl: Dokładnie ta! Miłej lektury.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anotherhug
+    wpisy:
+    - id: wol_c13e5ebb82f2aa462853
+      kontekst: data.json:scripts.cre_mother.anotherhug
+      linia: 20
+      sekcja_skryptu: anotherhug
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your mom raises her eyebrow.
+      pl: Mama unosi brew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_155b35c703e56ef4859a
+      kontekst: data.json:scripts.cre_mother.anotherhug
+      linia: 21
+      sekcja_skryptu: anotherhug
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just wanted one more hug before I leave.
+      pl: Potrzebuję jeszcze jednego przytulenia przed wyjazdem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hug2
+    wpisy:
+    - id: wol_155b35c703e56ef4859a
+      kontekst: data.json:scripts.cre_mother.hug2
+      linia: 22
+      sekcja_skryptu: hug2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I just wanted one more hug before I leave.
+      pl: Potrzebuję jeszcze jednego przytulenia przed wyjazdem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5695d4ef8bbe393f6ea
+      kontekst: data.json:scripts.cre_mother.hug2
+      linia: 23
+      sekcja_skryptu: hug2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She smiles and hugs you again.
+      pl: Uśmiecha się i znów cię przytula.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 620
+  skrypt: cre_phonograph
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6707b2a5c9f7b8d91b20
+      kontekst: data.json:scripts.cre_phonograph.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Goodbye phonograph!
+      pl: Pa, fonografie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7503399ece1ca46eecf9
+      kontekst: data.json:scripts.cre_phonograph.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it on
+      pl: Włącz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: wol_b6e1326f77daaa85e79f
+      kontekst: data.json:scripts.cre_phonograph.e2
+      linia: 3
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You move the needle down to the cylinder and crank the handle a few times.
+      pl: Opuszczasz iglicę na cylinder i kręcisz korbelem kilka razy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_9546861ed476969916aa
+      kontekst: data.json:scripts.cre_phonograph.e
+      linia: 5
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the needle away from the cylinder and stow the handle away.
+      pl: Odsuwasz iglicę od cylindra i chowasz korbel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 621
+  skrypt: cre_ravenconvo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_543501ec0b4a646517fa
+      kontekst: data.json:scripts.cre_ravenconvo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya Russell.  How you doin'?
+      pl: Siema, Russell. Jak tam leci?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd404b507071f2d10225
+      kontekst: data.json:scripts.cre_ravenconvo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Caw!
+      pl: Kra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5610dc49b0adf4c6a3d
+      kontekst: data.json:scripts.cre_ravenconvo.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm gonna miss you, buddy.
+      pl: Będę za tobą tęsknił, stary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: missyou
+    wpisy:
+    - id: wol_c5610dc49b0adf4c6a3d
+      kontekst: data.json:scripts.cre_ravenconvo.missyou
+      linia: 4
+      sekcja_skryptu: missyou
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm gonna miss you, buddy.
+      pl: Będę za tobą tęsknił, stary.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_321d1edc6707eb3c454f
+      kontekst: data.json:scripts.cre_ravenconvo.missyou
+      linia: 5
+      sekcja_skryptu: missyou
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Caw!  Caw caw!
+      pl: Kra! Kra kra!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d3fb92357a5223d3078e
+      kontekst: data.json:scripts.cre_ravenconvo.missyou
+      linia: 6
+      sekcja_skryptu: missyou
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Feed Russell a cricket
+      pl: Daj Russellowi świerszcza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cricket
+    wpisy:
+    - id: wol_f10b848b3a53ccf330f2
+      kontekst: data.json:scripts.cre_ravenconvo.cricket
+      linia: 7
+      sekcja_skryptu: cricket
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a cricket from your cricket bag and feed it to Russell.  He coos appreciatively and nuzzles your hand.
+      pl: Wyciągasz świerszcza z sakiewki na świerszcze i dajesz Russellowi. Burczy z zadowoleniem i ociera się o twoją dłoń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2d7600ec02848f517ad9
+      kontekst: data.json:scripts.cre_ravenconvo.cricket
+      linia: 8
+      sekcja_skryptu: cricket
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Goodbye Russell.  Be good.
+      pl: Pa, Russell. Bądź grzeczny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fdf5eaac31cddd985a92
+      kontekst: data.json:scripts.cre_ravenconvo.cricket
+      linia: 9
+      sekcja_skryptu: cricket
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe it's time for you to leave, too...
+      pl: Może i ty powinieneś stąd wylecieć...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: release
+    wpisy:
+    - id: wol_339e9bf8ea28004641b0
+      kontekst: data.json:scripts.cre_ravenconvo.release
+      linia: 10
+      sekcja_skryptu: release
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open your bedroom window (not pictured) and unlatch the door to Russell's cage.  He winks at you, caws one last time, then flies away to the West.
+      pl: Otwierasz okno w sypialni (niewidoczne na ekranie) i otwierasz klatkę Russella. Mruga do ciebie, kracze po raz ostatni i odlatuje na Zachód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3473a404ecb72065a2f6
+      kontekst: data.json:scripts.cre_ravenconvo.release
+      linia: 11
+      sekcja_skryptu: release
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It's time to hit the trail
+      pl: Pora ruszyć w drogę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_42c2f6a8ff70d6720d70
+      kontekst: data.json:scripts.cre_ravenconvo.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave Russell alone
+      pl: Zostaw Russella w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 622
+  skrypt: cre_skiptut
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 64
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_296ba8a851ba1c5afbc3
+      kontekst: data.json:scripts.cre_skiptut.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like this isn't your first rodeo!
+      pl: Wygląda na to, że to nie twój pierwszy rodeo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9bf1200cecbdaaacbfd3
+      kontekst: data.json:scripts.cre_skiptut.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Would you like to skip the Boring Springs prologue and head straight to Dirtwater?
+      pl: Pominąć prolog w Boring Springs i od razu ruszyć do Dirtwater?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d84db1a2fa48a72694c0
+      kontekst: data.json:scripts.cre_skiptut.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Any horses or pardners you unlocked in any previous game will be available to you, and you'll start with @tutskip_maxmeat@ Meat and some of the more important items from Boring Springs.
+      pl: Konie i towarzysze odblokowani w poprzednich grach będą dostępni. Dostaniesz @tutskip_maxmeat@ Mięsa i część ważniejszych rzeczy z Boring Springs.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@tutskip_maxmeat@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7ac3088aa3553541d44
+      kontekst: data.json:scripts.cre_skiptut.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, I'll skip it
+      pl: Jasne, pomijam
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: skip
+    wpisy:
+    - id: wol_357ee4ddce874883eb58
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 5
+      sekcja_skryptu: skip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, first things first. Do you want to wear the hard hat?
+      pl: Najpierw sprawa pierwsza. Zakładasz twardy kask?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7f821c349a19462a7ea
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 6
+      sekcja_skryptu: skip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you put this hat on, you won't ever be able to take it off, and things will be much harder for you.
+      pl: Jak założysz ten kask, nie zdejmiesz go już nigdy — i gra stanie się dużo trudniejsza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95a291eee07830362a3b
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 7
+      sekcja_skryptu: skip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (Both Gary and the dark horse will refuse to ride with you as well.)
+      pl: (Gary i mroczny koń też odmówią jazdy z tobą.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6eab0de8d56fea8bf93f
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 8
+      sekcja_skryptu: skip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (The dark horse will refuse to ride with you as well.)
+      pl: (Mroczny koń też odmówi jazdy z tobą.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_72f6c531e7d1a63c5a03
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 9
+      sekcja_skryptu: skip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (Gary will refuse to ride with you as well.)
+      pl: (Gary też odmówi jazdy z tobą.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b4245e90e785df2e2ed
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 10
+      sekcja_skryptu: skip
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bring it on [Hard Mode]
+      pl: No to jedziemy [Tryb trudny]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Hard Mode]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse
+    wpisy:
+    - id: wol_1cb7dc4c2eb4e54ffbe0
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 11
+      sekcja_skryptu: horse
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alrighty then, buckaroo! The hard road it is. Now, what horse would you like to take?
+      pl: No dobra, buckaroo! Wybrałeś trudną drogę. Którego konia bierzesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3209e7618f4d3169a39
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 12
+      sekcja_skryptu: horse
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alrighty then, buckaroo! What horse would you like to take?
+      pl: No dobra, buckaroo! Którego konia bierzesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_180de75583861579afb2
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 13
+      sekcja_skryptu: horse
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The normal horse
+      pl: Normalny koń
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse1
+    wpisy:
+    - id: wol_b3572afdcc575b54678d
+      kontekst: data.json:scripts.cre_skiptut.horse1
+      linia: 14
+      sekcja_skryptu: horse1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The normal horse it is!
+      pl: To będzie normalny koń!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.cre_skiptut.horse1
+      linia: 15
+      sekcja_skryptu: horse1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse
+    wpisy:
+    - id: wol_9ddcd678510958899091
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 16
+      sekcja_skryptu: horse
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: The dark horse [Hates your hard hat]
+      pl: Czarny koń [Nie cierpi twojego kasku]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hates your hard hat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_709de52edc8e798a3d78
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 17
+      sekcja_skryptu: horse
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The dark horse
+      pl: Mroczny koń
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse2
+    wpisy:
+    - id: wol_fc6710a62909deff85b8
+      kontekst: data.json:scripts.cre_skiptut.horse2
+      linia: 18
+      sekcja_skryptu: horse2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The dark horse it is!
+      pl: To będzie mroczny koń!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f23b43324a71ec551f00
+      kontekst: data.json:scripts.cre_skiptut.horse2
+      linia: 19
+      sekcja_skryptu: horse2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give her a name
+      pl: Nadaj jej imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 20
+      sekcja_skryptu: horse
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99a69c18f72000b91bf4
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 21
+      sekcja_skryptu: horse
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The pale horse
+      pl: Blady koń
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse3
+    wpisy:
+    - id: wol_166fb637b637b2d0efb0
+      kontekst: data.json:scripts.cre_skiptut.horse3
+      linia: 22
+      sekcja_skryptu: horse3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The pale horse it is!
+      pl: To będzie blady koń!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f23b43324a71ec551f00
+      kontekst: data.json:scripts.cre_skiptut.horse3
+      linia: 23
+      sekcja_skryptu: horse3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give her a name
+      pl: Nadaj jej imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 24
+      sekcja_skryptu: horse
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c8a9ce21815a0dc2eab5
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 25
+      sekcja_skryptu: horse
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The crazy horse
+      pl: Szalony koń
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse4
+    wpisy:
+    - id: wol_a6e092b00e9d3f7b8552
+      kontekst: data.json:scripts.cre_skiptut.horse4
+      linia: 26
+      sekcja_skryptu: horse4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The crazy horse it is!
+      pl: To będzie szalony koń!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.cre_skiptut.horse4
+      linia: 27
+      sekcja_skryptu: horse4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horse
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 28
+      sekcja_skryptu: horse
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99bb767a568be0fe98e2
+      kontekst: data.json:scripts.cre_skiptut.horse
+      linia: 29
+      sekcja_skryptu: horse
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I changed my mind, I don't want to skip ahead
+      pl: Jednak nie — nie chcę nic pomijać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: skip
+    wpisy:
+    - id: wol_e18d36021915176f548f
+      kontekst: data.json:scripts.cre_skiptut.skip
+      linia: 30
+      sekcja_skryptu: skip
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do not want this
+      pl: Tego nie chcę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_5a2f2e05a147658ab2ba
+      kontekst: data.json:scripts.cre_skiptut.start
+      linia: 31
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No, I want to play the prologue again
+      pl: Nie, chcę zagrać prolog jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmname
+    wpisy:
+    - id: wol_46f8f72c3bdf852113a0
+      kontekst: data.json:scripts.cre_skiptut.confirmname
+      linia: 1
+      sekcja_skryptu: confirmname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Are you sure you want to name your horse $promptvalue$?
+      pl: Na pewno chcesz nazwać konia $promptvalue$?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesname
+    wpisy:
+    - id: wol_67e8bf7827b32a058830
+      kontekst: data.json:scripts.cre_skiptut.yesname
+      linia: 3
+      sekcja_skryptu: yesname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All right then.  $promptvalue$ the horse.  It's got a nice ring to it.
+      pl: W porządku. Koń imieniem $promptvalue$. Ładnie to brzmi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fccd5cf715e4002546a9
+      kontekst: data.json:scripts.cre_skiptut.yesname
+      linia: 4
+      sekcja_skryptu: yesname
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Now pick a pardner
+      pl: Teraz wybierz towarzysza
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pardner
+    wpisy:
+    - id: wol_ef8c41ce0c25c1315e97
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 5
+      sekcja_skryptu: pardner
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Who would you like to take West with you as a pardner?
+      pl: Kogo zabierasz ze sobą na Zachód jako towarzysza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4bc9a0c4353a338620d
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 6
+      sekcja_skryptu: pardner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Crazy Pete
+      pl: Weź Szalonego Peta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takepete
+    wpisy:
+    - id: wol_ce7751bb6e1e8ff93940
+      kontekst: data.json:scripts.cre_skiptut.takepete
+      linia: 7
+      sekcja_skryptu: takepete
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Crazy Pete.
+      pl: W drogę ruszysz z Szalonym Petem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: language
+    wpisy:
+    - id: wol_fb6d5ec2346706901664
+      kontekst: data.json:scripts.cre_skiptut.language
+      linia: 8
+      sekcja_skryptu: language
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Goblins with you can speaking?
+      pl: Gobliny ze mną mogą rozmawiać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1f56fd953c9c92718c17
+      kontekst: data.json:scripts.cre_skiptut.language
+      linia: 9
+      sekcja_skryptu: language
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sigh, yes [Goblintongue]
+      pl: Eh, dobra [Goblińszczyzna]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Goblintongue]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: temperament
+    wpisy:
+    - id: wol_bd8e6ea9bb056096d7dc
+      kontekst: data.json:scripts.cre_skiptut.temperament
+      linia: 10
+      sekcja_skryptu: temperament
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: How would you describe your... sense of justice?
+      pl: Jak opisałbyś swój... zmysł sprawiedliwości?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73bb904f2335e8440b22
+      kontekst: data.json:scripts.cre_skiptut.temperament
+      linia: 11
+      sekcja_skryptu: temperament
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fairly normal
+      pl: Całkiem normalny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finish
+    wpisy:
+    - id: wol_56441b66ea20807703fe
+      kontekst: data.json:scripts.cre_skiptut.finish
+      linia: 12
+      sekcja_skryptu: finish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Finally, would you like to keep spending your XP automatically, or would you like to do it yourself?
+      pl: 'Na koniec: wydawać PD automatycznie, czy wolisz robić to sam?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b52b9764594230a07e9
+      kontekst: data.json:scripts.cre_skiptut.finish
+      linia: 13
+      sekcja_skryptu: finish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep spending it automatically
+      pl: Wydawaj automatycznie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: realfinish
+    wpisy:
+    - id: wol_172c2c539d0179bd25ae
+      kontekst: data.json:scripts.cre_skiptut.realfinish
+      linia: 14
+      sekcja_skryptu: realfinish
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, looks like you're ready to mosey on over to Dirtwater!
+      pl: No to wygląda na to, że możesz ruszać do Dirtwater!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fad020de1999d62c4a9
+      kontekst: data.json:scripts.cre_skiptut.realfinish
+      linia: 15
+      sekcja_skryptu: realfinish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I was born ready to mosey on over there
+      pl: Na to czekałem całe życie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finish
+    wpisy:
+    - id: wol_0fccf25686cc80870c2f
+      kontekst: data.json:scripts.cre_skiptut.finish
+      linia: 16
+      sekcja_skryptu: finish
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Start spending it manually
+      pl: Wydawaj samemu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: manual
+    wpisy:
+    - id: wol_721172b116ce483fd97e
+      kontekst: data.json:scripts.cre_skiptut.manual
+      linia: 17
+      sekcja_skryptu: manual
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Alrighty!  Automatic XP spending has been disabled.  You can change this back in the Options Menu at any time.
+      pl: Ekstra! Auto-wydawanie PD jest wyłączone. Możesz to zmienić w menu Opcji w każdej chwili.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: temperament
+    wpisy:
+    - id: wol_a1f2acf58ba8ea5258e9
+      kontekst: data.json:scripts.cre_skiptut.temperament
+      linia: 18
+      sekcja_skryptu: temperament
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Very compassionate [Honorable]
+      pl: Bardzo współczujący [Honorowy]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Honorable]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_65ac9bdc4385b10aa26a
+      kontekst: data.json:scripts.cre_skiptut.temperament
+      linia: 19
+      sekcja_skryptu: temperament
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Very effective [Ruthless]
+      pl: Bardzo skuteczny [Bezwzględny]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Ruthless]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: language
+    wpisy:
+    - id: wol_1758118d7a118b68649a
+      kontekst: data.json:scripts.cre_skiptut.language
+      linia: 20
+      sekcja_skryptu: language
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What? No
+      pl: Co? Nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: temperamenttemp
+    wpisy:
+    - id: wol_1517f2ec3034a96dc1b1
+      kontekst: data.json:scripts.cre_skiptut.temperamenttemp
+      linia: 21
+      sekcja_skryptu: temperamenttemp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No Goblintongue for you this time.
+      pl: Tym razem bez Goblińszczyzny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pardner
+    wpisy:
+    - id: wol_180908bb978e4ada1507
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 22
+      sekcja_skryptu: pardner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Doc Alice
+      pl: Weź Doc Alice
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takealice
+    wpisy:
+    - id: wol_e772ba2db77aa8b114d4
+      kontekst: data.json:scripts.cre_skiptut.takealice
+      linia: 23
+      sekcja_skryptu: takealice
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Doc Alice.
+      pl: W drogę ruszysz z Doc Alice.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pardner
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 24
+      sekcja_skryptu: pardner
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5e49a1712ad0d04253c
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 25
+      sekcja_skryptu: pardner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Susie Cochrane
+      pl: Weź Susie Cochrane
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takesusie
+    wpisy:
+    - id: wol_987d7c155e0319d0bf62
+      kontekst: data.json:scripts.cre_skiptut.takesusie
+      linia: 26
+      sekcja_skryptu: takesusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Susie Cochrane.
+      pl: W drogę ruszysz z Susie Cochrane.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pardner
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 27
+      sekcja_skryptu: pardner
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed6503e20645b49d4eb8
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 28
+      sekcja_skryptu: pardner
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Take Gary the Goblin [Hates your hard hat]
+      pl: Weź Gary'ego Goblina [Nie cierpi twojego kasku]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hates your hard hat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00c7b4a0c8e9ba90f661
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 29
+      sekcja_skryptu: pardner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Gary the Goblin
+      pl: Weź Gary'ego Goblina
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takegary
+    wpisy:
+    - id: wol_45932c4a5673fab0c0a4
+      kontekst: data.json:scripts.cre_skiptut.takegary
+      linia: 30
+      sekcja_skryptu: takegary
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Gary the Goblin.
+      pl: W drogę ruszysz z Gary'm Goblinem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pardner
+    wpisy:
+    - id: wol_94a406da5482e8fea285
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 31
+      sekcja_skryptu: pardner
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: ??? [Not unlocked]
+      pl: ??? [Nie odblokowano]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Not unlocked]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2a2a34a301ae6e9e586
+      kontekst: data.json:scripts.cre_skiptut.pardner
+      linia: 32
+      sekcja_skryptu: pardner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go it alone [Not recommended]
+      pl: Samotnie [Nie polecane]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Not recommended]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alone
+    wpisy:
+    - id: wol_978c194a07369a361a3c
+      kontekst: data.json:scripts.cre_skiptut.alone
+      linia: 33
+      sekcja_skryptu: alone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Suit yourself!  Gonna be a hard road, I can tell you that for sure.
+      pl: Twoja sprawa! Będzie ci ciężko — tego ci gwarantuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmname
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.cre_skiptut.confirmname
+      linia: 34
+      sekcja_skryptu: confirmname
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 623
+  skrypt: cre_souvenirshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_414136ddf34462472c41
+      kontekst: data.json:scripts.cre_souvenirshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's our shelf full of souvenirs from old family vacations.
+      pl: To nasza półka pełna pamiątek ze starych rodzinnych wyjazdów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26df6799a56bab35571b
+      kontekst: data.json:scripts.cre_souvenirshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plunder those memories
+      pl: Przeszperaj te wspomnienia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 624
+  skrypt: cre_starttut
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5ac161eb02329c223a94
+      kontekst: data.json:scripts.cre_starttut.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Go West, Young $man$?
+      pl: Idź na zachód, młody $man$?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $man$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talktodad
+    wpisy:
+    - id: wol_f707f3a421a9d3be8d9b
+      kontekst: data.json:scripts.cre_starttut.talktodad
+      linia: 3
+      sekcja_skryptu: talktodad
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shouldn't leave without at least saying goodbye to your dad.
+      pl: Nie powinieneś wyjeżdżać, nie pożegnawszy się z tatą choćby krótko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talktorufus
+    wpisy:
+    - id: wol_79e533e34c9865318b78
+      kontekst: data.json:scripts.cre_starttut.talktorufus
+      linia: 4
+      sekcja_skryptu: talktorufus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You should give your brother Rufus his weird puzzle back.
+      pl: Powinieneś oddać bratu Rufusowi jego dziwną układankę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 625
+  skrypt: cre_treewall
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thinkpopup
+    wpisy:
+    - id: wol_e1417445b64ca0bb701d
+      kontekst: data.json:scripts.cre_treewall.thinkpopup
+      linia: 1
+      sekcja_skryptu: thinkpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No time to screw around in the woods. Time to head West!
+      pl: Nie ma czasu na głupoty w lesie. Czas ruszać na Zachód!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 626
+  skrypt: cre_twilighthat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_195a83700b447202a9a6
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Welcome to the debug hat!
+      pl: Witaj w kapeluszu debugowym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8cc4571f64b74cc001d
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Skip to leaving BS
+      pl: Pomiń do wyjazdu z BS
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7daa9d38a4b262f74c73
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: test prompt
+      pl: test prompt
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b89f30b32898a166ec3
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to Twilight Zone
+      pl: Idź do Strefy Zmierzchu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4430339c631f74845357
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to Trailer Zone
+      pl: Idź do strefy przyczepy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bde9596236835abcba93
+      kontekst: data.json:scripts.cre_twilighthat.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to Photo Studio
+      pl: Idź do studia foto
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 628
+  skrypt: cre_wasdposter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0d241289967bc7e082d3
+      kontekst: data.json:scripts.cre_wasdposter.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This weird poster appeared here one night.
+      pl: Pewnej nocy na ścianie pojawił się ten dziwny plakat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 629
+  skrypt: cre_yourbed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: saypopup
+    wpisy:
+    - id: wol_277b8592baf9d1668b68
+      kontekst: data.json:scripts.cre_yourbed.saypopup
+      linia: 1
+      sekcja_skryptu: saypopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Goodbye, bed.  Time to head West to chase my <i>real</i> dreams!
+      pl: Pa, łóżko. Pora ruszyć na Zachód za <i>prawdziwymi</i> marzeniami!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 630
+  skrypt: cre_yourbooks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: firstread
+    wpisy:
+    - id: wol_eb82546130aaaa23c6e6
+      kontekst: data.json:scripts.cre_yourbooks.firstread
+      linia: 1
+      sekcja_skryptu: firstread
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You read the spine of one of your books.
+      pl: Czytasz okładkę jednej ze swoich książek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fcbac5a4e4863631652e
+      kontekst: data.json:scripts.cre_yourbooks.firstread
+      linia: 2
+      sekcja_skryptu: firstread
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%adventurebook_title%".'
+      pl: '"%adventurebook_title%".'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%adventurebook_title%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c901e48c265947e881a7
+      kontekst: data.json:scripts.cre_yourbooks.firstread
+      linia: 3
+      sekcja_skryptu: firstread
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%adventurebook_comment%'
+      pl: '%adventurebook_comment%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%adventurebook_comment%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f08416803b97e747f807
+      kontekst: data.json:scripts.cre_yourbooks.firstread
+      linia: 4
+      sekcja_skryptu: firstread
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read another title
+      pl: Przeczytaj inny tytuł
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: read
+    wpisy:
+    - id: wol_fcbac5a4e4863631652e
+      kontekst: data.json:scripts.cre_yourbooks.read
+      linia: 5
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%adventurebook_title%".'
+      pl: '"%adventurebook_title%".'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%adventurebook_title%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c901e48c265947e881a7
+      kontekst: data.json:scripts.cre_yourbooks.read
+      linia: 6
+      sekcja_skryptu: read
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%adventurebook_comment%'
+      pl: '%adventurebook_comment%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%adventurebook_comment%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f08416803b97e747f807
+      kontekst: data.json:scripts.cre_yourbooks.read
+      linia: 7
+      sekcja_skryptu: read
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Read another title
+      pl: Przeczytaj inny tytuł
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coolbook
+    wpisy:
+    - id: wol_73dc4cf96f04bdbe7ab4
+      kontekst: data.json:scripts.cre_yourbooks.coolbook
+      linia: 8
+      sekcja_skryptu: coolbook
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh hey, this one might come in handy.
+      pl: Ej, ta może się przydać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000023
+  skrypt: house_boilerfaucet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7503399ece1ca46eecf9
+      kontekst: house.json:scripts.house_boilerfaucet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it on
+      pl: Włącz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000088
+  skrypt: house_floorlamp
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'off'
+    wpisy:
+    - id: wol_7503399ece1ca46eecf9
+      kontekst: house.json:scripts.house_floorlamp.off
+      linia: 4
+      sekcja_skryptu: 'off'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it on
+      pl: Włącz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000270
+  skrypt: house_tween_gramophone
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7503399ece1ca46eecf9
+      kontekst: house.json:scripts.house_tween_gramophone.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it on
+      pl: Włącz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1698
+  skrypt: item_elv_transponder
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: invpopup
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.item_elv_transponder.invpopup
+      linia: 5
+      sekcja_skryptu: invpopup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnbackon
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.item_elv_transponder.turnbackon
+      linia: 10
+      sekcja_skryptu: turnbackon
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1716
+  skrypt: item_minipiano
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: invpopup
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.item_minipiano.invpopup
+      linia: 5
+      sekcja_skryptu: invpopup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1753
+  skrypt: item_whisperstone
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: listen
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.item_whisperstone.listen
+      linia: 8
+      sekcja_skryptu: listen
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1977
+  skrypt: npc_bshostler
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: confirmhorse1
+    wpisy:
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.npc_bshostler.confirmhorse1
+      linia: 43
+      sekcja_skryptu: confirmhorse1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmhorse2
+    wpisy:
+    - id: wol_f23b43324a71ec551f00
+      kontekst: data.json:scripts.npc_bshostler.confirmhorse2
+      linia: 66
+      sekcja_skryptu: confirmhorse2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give her a name
+      pl: Nadaj jej imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmhorse3
+    wpisy:
+    - id: wol_f23b43324a71ec551f00
+      kontekst: data.json:scripts.npc_bshostler.confirmhorse3
+      linia: 89
+      sekcja_skryptu: confirmhorse3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give her a name
+      pl: Nadaj jej imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmhorse4
+    wpisy:
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.npc_bshostler.confirmhorse4
+      linia: 113
+      sekcja_skryptu: confirmhorse4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swaphorse1
+    wpisy:
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.npc_bshostler.swaphorse1
+      linia: 144
+      sekcja_skryptu: swaphorse1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swaphorse3
+    wpisy:
+    - id: wol_f23b43324a71ec551f00
+      kontekst: data.json:scripts.npc_bshostler.swaphorse3
+      linia: 148
+      sekcja_skryptu: swaphorse3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give her a name
+      pl: Nadaj jej imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: swaphorse4
+    wpisy:
+    - id: wol_497de8da17e36cf805be
+      kontekst: data.json:scripts.npc_bshostler.swaphorse4
+      linia: 152
+      sekcja_skryptu: swaphorse4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him a name
+      pl: Nadaj mu imię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmname
+    wpisy:
+    - id: wol_46f8f72c3bdf852113a0
+      kontekst: data.json:scripts.npc_bshostler.confirmname
+      linia: 1
+      sekcja_skryptu: confirmname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Are you sure you want to name your horse $promptvalue$?
+      pl: Na pewno chcesz nazwać konia $promptvalue$?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesname
+    wpisy:
+    - id: wol_67e8bf7827b32a058830
+      kontekst: data.json:scripts.npc_bshostler.yesname
+      linia: 3
+      sekcja_skryptu: yesname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All right then.  $promptvalue$ the horse.  It's got a nice ring to it.
+      pl: W porządku. Koń imieniem $promptvalue$. Ładnie to brzmi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmname
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.npc_bshostler.confirmname
+      linia: 7
+      sekcja_skryptu: confirmname
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmnewname
+    wpisy:
+    - id: wol_46f8f72c3bdf852113a0
+      kontekst: data.json:scripts.npc_bshostler.confirmnewname
+      linia: 1
+      sekcja_skryptu: confirmnewname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Are you sure you want to name your horse $promptvalue$?
+      pl: Na pewno chcesz nazwać konia $promptvalue$?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesnewname
+    wpisy:
+    - id: wol_67e8bf7827b32a058830
+      kontekst: data.json:scripts.npc_bshostler.yesnewname
+      linia: 3
+      sekcja_skryptu: yesnewname
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All right then.  $promptvalue$ the horse.  It's got a nice ring to it.
+      pl: W porządku. Koń imieniem $promptvalue$. Ładnie to brzmi.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: confirmnewname
+    wpisy:
+    - id: wol_130a51d3fb6025bb17d9
+      kontekst: data.json:scripts.npc_bshostler.confirmnewname
+      linia: 5
+      sekcja_skryptu: confirmnewname
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'No'
+      pl: Nie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1979
+  skrypt: npc_cactusbill
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: givepaper
+    wpisy:
+    - id: wol_8bb5d967d4306ecee09f
+      kontekst: data.json:scripts.npc_cactusbill.givepaper
+      linia: 22
+      sekcja_skryptu: givepaper
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thank him
+      pl: Podziękuj mu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2631
+  skrypt: train_passenter6b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: russ1
+    wpisy:
+    - id: wol_dd404b507071f2d10225
+      kontekst: data.json:scripts.train_passenter6b.russ1
+      linia: 16
+      sekcja_skryptu: russ1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Caw!
+      pl: Kra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: russ2
+    wpisy:
+    - id: wol_dd404b507071f2d10225
+      kontekst: data.json:scripts.train_passenter6b.russ2
+      linia: 20
+      sekcja_skryptu: russ2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Caw!
+      pl: Kra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: russ3
+    wpisy:
+    - id: wol_dd404b507071f2d10225
+      kontekst: data.json:scripts.train_passenter6b.russ3
+      linia: 29
+      sekcja_skryptu: russ3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Caw!
+      pl: Kra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2672
+  skrypt: tut_finished
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_b4bc9a0c4353a338620d
+      kontekst: data.json:scripts.tut_finished.yes
+      linia: 5
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Crazy Pete
+      pl: Weź Szalonego Peta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: autoxpcheck
+    wpisy:
+    - id: wol_0fccf25686cc80870c2f
+      kontekst: data.json:scripts.tut_finished.autoxpcheck
+      linia: 17
+      sekcja_skryptu: autoxpcheck
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Start spending it manually
+      pl: Wydawaj samemu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_180908bb978e4ada1507
+      kontekst: data.json:scripts.tut_finished.yes
+      linia: 21
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Doc Alice
+      pl: Weź Doc Alice
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5e49a1712ad0d04253c
+      kontekst: data.json:scripts.tut_finished.yes
+      linia: 24
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Susie Cochrane
+      pl: Weź Susie Cochrane
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00c7b4a0c8e9ba90f661
+      kontekst: data.json:scripts.tut_finished.yes
+      linia: 28
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take Gary the Goblin
+      pl: Weź Gary'ego Goblina
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2692
+  skrypt: tut_gethardhat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: hardmode
+    wpisy:
+    - id: wol_4b4245e90e785df2e2ed
+      kontekst: data.json:scripts.tut_gethardhat.hardmode
+      linia: 7
+      sekcja_skryptu: hardmode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bring it on [Hard Mode]
+      pl: No to jedziemy [Tryb trudny]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Hard Mode]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e18d36021915176f548f
+      kontekst: data.json:scripts.tut_gethardhat.hardmode
+      linia: 11
+      sekcja_skryptu: hardmode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I do not want this
+      pl: Tego nie chcę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2766
+  skrypt: twilightzone_changepardner
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: takepete
+    wpisy:
+    - id: wol_ce7751bb6e1e8ff93940
+      kontekst: data.json:scripts.twilightzone_changepardner.takepete
+      linia: 6
+      sekcja_skryptu: takepete
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Crazy Pete.
+      pl: W drogę ruszysz z Szalonym Petem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takealice
+    wpisy:
+    - id: wol_e772ba2db77aa8b114d4
+      kontekst: data.json:scripts.twilightzone_changepardner.takealice
+      linia: 10
+      sekcja_skryptu: takealice
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Doc Alice.
+      pl: W drogę ruszysz z Doc Alice.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takesusie
+    wpisy:
+    - id: wol_987d7c155e0319d0bf62
+      kontekst: data.json:scripts.twilightzone_changepardner.takesusie
+      linia: 12
+      sekcja_skryptu: takesusie
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Susie Cochrane.
+      pl: W drogę ruszysz z Susie Cochrane.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: takegary
+    wpisy:
+    - id: wol_45932c4a5673fab0c0a4
+      kontekst: data.json:scripts.twilightzone_changepardner.takegary
+      linia: 14
+      sekcja_skryptu: takegary
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You'll travel with Gary the Goblin.
+      pl: W drogę ruszysz z Gary'm Goblinem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

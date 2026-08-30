@@ -1,0 +1,3481 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: fort_memoriam
+zrodlowy_batch: 062_dialog_loc_fort4_fort_memoriam.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 27
+liczba_wpisow: 202
+sceny:
+- kolejnosc_w_danych_gry: 1449
+  skrypt: fort4_guitarman
+  pomieszczenie: &id001
+    id: fort4
+    nazwa_en: Fort Memoriam
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_650e440aa2862c997abd
+      kontekst: data.json:scripts.fort4_guitarman.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya. What's up? Not into the game?
+      pl: Hej. Co słychać? Nie masz ochoty grać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74fb26a3d812367ae9b1
+      kontekst: data.json:scripts.fort4_guitarman.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah. I mean, I like games, that's why I hang out with these guys, but I've gotten bored of these strategy wargames. I want something different.
+      pl: Nie. To znaczy, lubię gry, dlatego trzymam się z tymi gośćmi, ale znudziły mi się strategiczne gry wojenne. Chcę czegoś innego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_726cac3405361ce4e948
+      kontekst: data.json:scripts.fort4_guitarman.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Like what?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: half
+    wpisy:
+    - id: wol_e9df3de3e0f6e80bc0fb
+      kontekst: data.json:scripts.fort4_guitarman.half
+      linia: 5
+      sekcja_skryptu: half
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I like playing the guitar, so I was thinking some kind of guitar game? Where you pretend you're in a band and you have to hit the right chords?
+      pl: Lubię grać na gitarze, więc pomyślałem o jakiejś grze na gitarze? Gdzie udajesz, że jesteś w zespole i musisz trafić w odpowiednie akordy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_552d078cae3d57086e95
+      kontekst: data.json:scripts.fort4_guitarman.half
+      linia: 6
+      sekcja_skryptu: half
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That sounds hard, if you don't already know how to play guitar.
+      pl: To brzmi trudno, jeśli jeszcze nie umiesz grać na gitarze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_236ccb4729ff86c0bb36
+      kontekst: data.json:scripts.fort4_guitarman.half
+      linia: 7
+      sekcja_skryptu: half
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. I thought of making like a real simplified version of a guitar? But then it wouldn't be much fun for <i>me</i>.
+      pl: Tak. Myślałem o zrobieniu naprawdę uproszczonej wersji gitary? Ale wtedy nie byłoby to dla mnie <i>zabawne</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee4945fabba39eccbb6b
+      kontekst: data.json:scripts.fort4_guitarman.half
+      linia: 8
+      sekcja_skryptu: half
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have an idea.
+      pl: Mam pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_fba4a594f0baad025f6f
+      kontekst: data.json:scripts.fort4_guitarman.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I have an idea. Instead of pretending to play in a band, why don't you join an actual band and play guitar for real? I know a place that's looking for talent.
+      pl: Mam pomysł. Zamiast udawać, że grasz w zespole, dołącz do prawdziwego i naprawdę graj na gitarze. Znam miejsce, które szuka talentów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6a21d6e0253ab1f5f87
+      kontekst: data.json:scripts.fort4_guitarman.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh... put my guitar skills to actual use? ...That's not a bad idea. Okay, cool!
+      pl: Hę... naprawdę wykorzystać moje umiejętności gitarowe? ...To nie jest zły pomysł. Dobra, świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d2ff75162fe1a63b229
+      kontekst: data.json:scripts.fort4_guitarman.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It's the Jewel Saloon in Dirtwater. Tell them I sent ya.
+      pl: To Jewel Saloon w Dirtwater. Powiedz, że ja cię przysłałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57c8bd697896ffeb4ca9
+      kontekst: data.json:scripts.fort4_guitarman.two
+      linia: 12
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks a bunch! I'll head out right now!
+      pl: Wielkie dzięki! Ruszam natychmiast!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_09763f472663470c722d
+      kontekst: data.json:scripts.fort4_guitarman.two
+      linia: 13
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Godspeed, Guitar Man
+      pl: Powodzenia, Gitarowy Gościu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: half
+    wpisy:
+    - id: wol_622135222f4570063eb5
+      kontekst: data.json:scripts.fort4_guitarman.half
+      linia: 14
+      sekcja_skryptu: half
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck.
+      pl: No, powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1450
+  skrypt: fort4_guitarmanpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2bf48708b221e4e7eabf
+      kontekst: data.json:scripts.fort4_guitarmanpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy doesn't seem interested in the game. He's just noodling around on his guitar.
+      pl: Ten gość nie interesuje się grą. Gmera na gitarze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1451
+  skrypt: fort4_guyconvo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3308877e100586b6942d
+      kontekst: data.json:scripts.fort4_guyconvo.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[It''s a nerd.]'
+      pl: '[To kujon.]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[It''s a nerd.]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1452
+  skrypt: fort4_guyconvo1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5c2884cff61473a76dec
+      kontekst: data.json:scripts.fort4_guyconvo1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy. I'm Ernie.
+      pl: Witaj. Jestem Ernie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_22358b3480be7db59dd0
+      kontekst: data.json:scripts.fort4_guyconvo1.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you the cemetery caretaker?
+      pl: Jesteś opiekunem cmentarza?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouhim
+    wpisy:
+    - id: wol_93c3a6b55b28c3ba8082
+      kontekst: data.json:scripts.fort4_guyconvo1.areyouhim
+      linia: 5
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not me. I'm an emergency telegraph operator.
+      pl: Nie ja. Jestem awaryjnym operatorem telegrafu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3559f21f065fe6d723a
+      kontekst: data.json:scripts.fort4_guyconvo1.areyouhim
+      linia: 6
+      sekcja_skryptu: areyouhim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Um. Doesn't that mean you should be at your listening post?
+      pl: Hmm. Czy to nie oznacza, że powinieneś być na swoim stanowisku odsłuchowym?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71db3a30b3e22956790a
+      kontekst: data.json:scripts.fort4_guyconvo1.areyouhim
+      linia: 7
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's all right, I have my portable.
+      pl: W porządku, mam swój przenośny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f97b98bbb43597fdb241
+      kontekst: data.json:scripts.fort4_guyconvo1.areyouhim
+      linia: 8
+      sekcja_skryptu: areyouhim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes a telegraph key out of his pocket to show you.
+      pl: Wyciąga z kieszeni klucz telegraficzny, żeby ci pokazać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_8ed7aa2b7729f65b3b82
+      kontekst: data.json:scripts.fort4_guyconvo1.opts
+      linia: 9
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's this kinetoscope reel you're talking about?
+      pl: O jakiej taśmie kinetoskopu mówisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: wol_30fa23e1a7a10928611d
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 10
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh man, you haven't seen "The Dickson Experimental Sound Film" yet? It's amazing!
+      pl: O rany, nie widziałeś jeszcze „Eksperymentalnego filmu dźwiękowego Dicksona”? Jest niesamowity!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e6c17ab17f24417a059
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 11
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's it about?
+      pl: O co chodzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f462863f5eddb37cf8
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 12
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, there's two guys dancing while a third guy plays a violin into a huge cone. You can actually <i>hear</i> the violin! It's so great! And then a fourth guy walks in!
+      pl: Dwóch facetów tańczy, a trzeci gra na skrzypcach w wielkim stożku. Słychać <i>skrzypce</i>! To takie wspaniałe! A potem wchodzi czwarty facet!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22c1f09241906e0a2f89
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 13
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What does he do?
+      pl: Czym się zajmuje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f423f1513c3e6ba6d28
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 14
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nothing, that's when it ends.
+      pl: Nic, wtedy się kończy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a44430c92467e9b84416
+      kontekst: data.json:scripts.fort4_guyconvo1.story
+      linia: 15
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sounds pretty avant-garde.
+      pl: Brzmi dość awangardowo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_d8c17bf0a71ad6445e6f
+      kontekst: data.json:scripts.fort4_guyconvo1.opts
+      linia: 16
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How's the game going?
+      pl: Jak idzie gra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_a8f7f2711a292266f99e
+      kontekst: data.json:scripts.fort4_guyconvo1.game
+      linia: 18
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pretty good. We're on a real winning streak. If we'd been in charge of the army when the real war happened, things might have gone a lot differently!
+      pl: Całkiem dobrze. Mamy prawdziwą zwycięską passę. Gdybyśmy dowodzili armią podczas prawdziwej wojny, wszystko mogłoby potoczyć się zupełnie inaczej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_38a6b209d97f89a2a562
+      kontekst: data.json:scripts.fort4_guyconvo1.game
+      linia: 19
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Probably the real war was a lot more unbalanced in terms of unit allotments.
+      pl: Prawdziwa wojna była pewnie znacznie mniej zrównoważona pod względem przydziału jednostek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_107ac9b1e83a7f208ce2
+      kontekst: data.json:scripts.fort4_guyconvo1.game
+      linia: 20
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm, good point.
+      pl: Hmm, słuszna uwaga.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meetagain
+    wpisy:
+    - id: wol_f0d17e020dcf3c7b5bfc
+      kontekst: data.json:scripts.fort4_guyconvo1.meetagain
+      linia: 22
+      sekcja_skryptu: meetagain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Ernie.
+      pl: Witaj, Ernie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5c2d73e4fcb08958076
+      kontekst: data.json:scripts.fort4_guyconvo1.meetagain
+      linia: 23
+      sekcja_skryptu: meetagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heya @firstname@.
+      pl: Hej, @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1453
+  skrypt: fort4_guyconvo2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 38
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f66cda72d8fd29dc6d0f
+      kontekst: data.json:scripts.fort4_guyconvo2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hiya. I'm Jeff.
+      pl: Cześć. Jestem Jeff.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_22358b3480be7db59dd0
+      kontekst: data.json:scripts.fort4_guyconvo2.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you the cemetery caretaker?
+      pl: Jesteś opiekunem cmentarza?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouhim
+    wpisy:
+    - id: wol_070952c771e35200f4e1
+      kontekst: data.json:scripts.fort4_guyconvo2.areyouhim
+      linia: 5
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, that's me. Did one of the other guys tell you? I try to keep it hush because people assume you're a weirdo if you work in a graveyard.
+      pl: Tak, to ja. Czy ktoś inny ci powiedział? Staram się utrzymać to w tajemnicy, bo ludzie zakładają, że jesteś dziwakiem, jeśli pracujesz na cmentarzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94b728e78c55ef306266
+      kontekst: data.json:scripts.fort4_guyconvo2.areyouhim
+      linia: 6
+      sekcja_skryptu: areyouhim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm actually here to tell you to get back to work, because skeletons are wandering out of the place and causing trouble for the neighbors.
+      pl: Tak właściwie przyszedłem ci powiedzieć, żebyś wracał do pracy, bo szkielety wychodzą stąd i sprawiają kłopoty sąsiadom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a3d63bef42f603cb462
+      kontekst: data.json:scripts.fort4_guyconvo2.areyouhim
+      linia: 7
+      sekcja_skryptu: areyouhim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I just happened to be in the cemetery and saw your caretaker's shack. Listen, you should probably get back there. Weird things are happening in graveyards all over, and someone needs to keep an eye on those skeletons.
+      pl: Nie, akurat byłem na cmentarzu i zobaczyłem chatę dozorcy. Słuchaj, powinieneś tam wrócić. Na cmentarzach wszędzie dzieją się dziwne rzeczy i ktoś musi pilnować tych szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba431f384b684facd84b
+      kontekst: data.json:scripts.fort4_guyconvo2.areyouhim
+      linia: 8
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, nuts. All right, well, look -- I'm on a real winning streak here. I'll go back once it's over, okay?
+      pl: O nie. Słuchaj, mam tu świetną passę. Wrócę, kiedy się skończy, dobrze?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knowopts
+    wpisy:
+    - id: wol_70ef8aac076231b47970
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 9
+      sekcja_skryptu: knowopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Intimidate him [Intimidatin' 4]
+      pl: Zastrasz go [Zastraszanie 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_720ad9ea45cf52895ba0
+      kontekst: data.json:scripts.fort4_guyconvo2.intim
+      linia: 10
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No. Look dude, this is your job we're talking about. Take some responsibility, and go do your job, if you want to keep it.
+      pl: Nie. Słuchaj, stary, mówimy o twojej pracy. Weź odpowiedzialność i idź ją wykonać, jeśli chcesz ją zachować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51921dfea80792ca688f
+      kontekst: data.json:scripts.fort4_guyconvo2.intim
+      linia: 12
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorry to hassle you, but this is important. You gotta keep those soldiers in their holes.
+      pl: Przepraszam, że cię nękam, ale to ważne. Musisz trzymać tych żołnierzy w ich norach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59d8ca67d27756813894
+      kontekst: data.json:scripts.fort4_guyconvo2.intim
+      linia: 13
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, fine. Sorry guys, my <i>@dad@</i> says I have to go.
+      pl: Dobra, chłopaki, przepraszam, ale mój <i>@dad@</i> mówi, że muszę iść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '@dad@'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_24461c50719ccfbf3901
+      kontekst: data.json:scripts.fort4_guyconvo2.intim
+      linia: 14
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He leaves with a dramatic eyeroll, and the other nerds snicker.
+      pl: Odchodzi z teatralnym przewróceniem oczami, a reszta kujonów chichocze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knowopts
+    wpisy:
+    - id: wol_8a12b9b00b40e230bba8
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 16
+      sekcja_skryptu: knowopts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Intimidate him [Requires Intimidatin' 4]
+      pl: Zastrasz go [Wymaga Zastraszania 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f68935317585b47f6e54
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 17
+      sekcja_skryptu: knowopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outfox him [Outfoxin' 4]
+      pl: Przechytrz go [Przechytrzanie 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_2518b9623c00a1d1a72b
+      kontekst: data.json:scripts.fort4_guyconvo2.outfox
+      linia: 18
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You've already lost, look at the table.
+      pl: Już przegrałeś, spójrz na stół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_db8dfbab55bd34293c24
+      kontekst: data.json:scripts.fort4_guyconvo2.outfox
+      linia: 20
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're outflanked, and they still have reinforcement chits left. You've got maybe one cannon bombardment still in you, but the dice are way against you on this terrain. You've got two turns left, tops.
+      pl: Zostałeś oskrzydlony, a oni wciąż mają żetony posiłków. Masz w zanadrzu może jeszcze jeden ostrzał artyleryjski, ale kości na tym terenie totalnie ci nie sprzyjają. Zostały ci maksymalnie dwie tury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22268188048f4b066979
+      kontekst: data.json:scripts.fort4_guyconvo2.outfox
+      linia: 21
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, jeez. Yeah, I guess you're right. All right, fine.
+      pl: O rany. Chyba masz rację. Dobra, niech będzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d14f738792e3c2cf6af
+      kontekst: data.json:scripts.fort4_guyconvo2.outfox
+      linia: 22
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey guys, I'm gonna cut out and go back to work, I'll catch you next week.
+      pl: Hej, chłopaki, będę się zbierał i wracał do pracy. Widzimy się za tydzień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knowopts
+    wpisy:
+    - id: wol_2bcf77eada7e8522ccfc
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 23
+      sekcja_skryptu: knowopts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outfox him [Requires Outfoxin' 4]
+      pl: Przechytrz go [Wymaga Przechytrzania 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_53fb434cc563d0df7caa
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 24
+      sekcja_skryptu: knowopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hornswoggle him [Hornswoggin' 4]
+      pl: Oszukaj go [Oszukiwanie 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswoggin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_2ede25a8d794a6fd39ee
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 25
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No no no. You've got it backwards. Now's the time to leave, while you're winning.
+      pl: Nie, nie, nie. Masz to na odwrót. Właśnie teraz trzeba odejść, póki wygrywasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d18a0f6319012c06464d
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 26
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How do you figure?
+      pl: Jak to wyliczyłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cd9c880b64cead54b990
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 27
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Attitude is important. You feel like a winner, you play like a winner, right? If you wait until you've lost to leave, you'll go home feeling like a loser. Go home a <i>winner</i>, and soak in that sweet satisfaction of victory. Then you'll be ready to do it again next time.
+      pl: Nastawienie jest ważne. Czujesz się zwycięzcą, grasz jak zwycięzca, prawda? Jeśli poczekasz z odejściem do porażki, wrócisz do domu jak przegrany. Odejdź jako <i>zwycięzca</i> i napawaj się słodką satysfakcją. Wtedy następnym razem znów będziesz gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9f1a6dd0731b9116f5c4
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 28
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh! You know, that makes a lot of sense.
+      pl: Hę! Wiesz, to ma dużo sensu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_efed3763d7cb83bc9b8d
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 29
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey guys, I'm heading out. I'll be back to kick your butts again next week.
+      pl: Hej, chłopaki, wychodzę. Wrócę skopać wam tyłki za tydzień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4451697da317b8c2010
+      kontekst: data.json:scripts.fort4_guyconvo2.hornswoggle
+      linia: 30
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The others jeer and make dismissive gestures as he leaves.
+      pl: Pozostali gwizdzą i robią lekceważące gesty, gdy odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: knowopts
+    wpisy:
+    - id: wol_34667c6024a7289c48c1
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 31
+      sekcja_skryptu: knowopts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Hornswoggle him [Requires Hornswogglin' 4]
+      pl: Oszukaj go [Wymaga Oszukiwania 4]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 4]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_efc09dadea0ad26649ac
+      kontekst: data.json:scripts.fort4_guyconvo2.knowopts
+      linia: 32
+      sekcja_skryptu: knowopts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Looks like I broke your winning streak.
+      pl: Wygląda na to, że przerwałem twoją passę zwycięstw.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beat
+    wpisy:
+    - id: wol_f4c1461e0e9054c13848
+      kontekst: data.json:scripts.fort4_guyconvo2.beat
+      linia: 34
+      sekcja_skryptu: beat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, dangit, I guess you did. GG.
+      pl: Chyba tak. GG.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74d0221285c5ff08d95d
+      kontekst: data.json:scripts.fort4_guyconvo2.beat
+      linia: 35
+      sekcja_skryptu: beat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey guys, I gotta get back to work. I'll catch you next week.
+      pl: Hej, chłopaki, muszę wracać do pracy. Widzimy się za tydzień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c025b7c345d377787a3
+      kontekst: data.json:scripts.fort4_guyconvo2.beat
+      linia: 36
+      sekcja_skryptu: beat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The other guys reply with a chorus of 'seeya's as he leaves.
+      pl: Pozostali odpowiadają chórem „seeya”, gdy odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ec8db3b2b1049be01637
+      kontekst: data.json:scripts.fort4_guyconvo2.opts
+      linia: 38
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You like this game?
+      pl: Lubisz tę grę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_d0b1f9f74ca36cefac96
+      kontekst: data.json:scripts.fort4_guyconvo2.game
+      linia: 40
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, it's pretty fun. I'm working on some rule-mods for naval combat, so we can do older wars, though. Like Conquistadors and Vikings and stuff.
+      pl: Tak, całkiem fajnie. Pracuję nad jakimiś modami do walki morskiej, więc możemy robić starsze wojny. Jak konkwistadorzy, wikingowie i takie tam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_baf71fd32e1091db9b3a
+      kontekst: data.json:scripts.fort4_guyconvo2.game
+      linia: 41
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Conquistadors vs. Vikings would be pretty cool.
+      pl: Konkwistadorzy kontra wikingowie byliby całkiem nieźli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f254154a6d002023c6ff
+      kontekst: data.json:scripts.fort4_guyconvo2.game
+      linia: 42
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Man, I <i>know</i>, right?
+      pl: Stary, <i>wiem,</i> nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_29c76434b612bb91b698
+      kontekst: data.json:scripts.fort4_guyconvo2.opts
+      linia: 43
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How'd you get into this?
+      pl: Jak w to wszedłeś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: wol_00d1baddf320aa94909c
+      kontekst: data.json:scripts.fort4_guyconvo2.story
+      linia: 45
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I have a lot of time to read at my job, and mostly I read a lot of history. So when I saw a flyer for this 'historical re-enactment' thing, I thought it sounded interesting. They'd already quit doing real re-enactments by the time I joined, but this is pretty good too. And painting the figurines gives me something else to do at work.
+      pl: Cóż, mam dużo czasu na czytanie w mojej pracy i głównie czytam dużo historii. Kiedy zobaczyłem ulotkę na temat rekonstrukcji historycznej, pomyślałem, że to brzmi interesująco. Już przestali robić rekonstrukcje, zanim się przyłączyłem, ale to też jest całkiem niezłe. Malowanie figurek daje mi coś innego do roboty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meetagain
+    wpisy:
+    - id: wol_d6795220e7bee3aeb570
+      kontekst: data.json:scripts.fort4_guyconvo2.meetagain
+      linia: 47
+      sekcja_skryptu: meetagain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya Jeff.
+      pl: Hej, Jeff.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_256f946593966a7dfdb6
+      kontekst: data.json:scripts.fort4_guyconvo2.meetagain
+      linia: 48
+      sekcja_skryptu: meetagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey.
+      pl: Hej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1454
+  skrypt: fort4_guyconvo3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d868f13e4aa51938df4f
+      kontekst: data.json:scripts.fort4_guyconvo3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi. I'm Buddy.
+      pl: Cześć. Jestem Buddy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_22358b3480be7db59dd0
+      kontekst: data.json:scripts.fort4_guyconvo3.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you the cemetery caretaker?
+      pl: Jesteś opiekunem cmentarza?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouhim
+    wpisy:
+    - id: wol_6188e791a9be3d812e66
+      kontekst: data.json:scripts.fort4_guyconvo3.areyouhim
+      linia: 5
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope! I am a dedicated unemployed layabout.
+      pl: Nie! Jestem oddanym bezrobotnym obibokiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9713d1ac82ec7fbf6a75
+      kontekst: data.json:scripts.fort4_guyconvo3.areyouhim
+      linia: 6
+      sekcja_skryptu: areyouhim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Then where do you get the money to buy expensive wargaming miniatures?
+      pl: To skąd bierzesz pieniądze na drogie figurki do gier wojennych?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8a3cb529a68b642b7a08
+      kontekst: data.json:scripts.fort4_guyconvo3.areyouhim
+      linia: 7
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Grift.
+      pl: Przekręt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ff186ecdada82656c4a1
+      kontekst: data.json:scripts.fort4_guyconvo3.opts
+      linia: 8
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So how do you like this game?
+      pl: To jak ci się podoba ta gra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_27f3805d0e97775694de
+      kontekst: data.json:scripts.fort4_guyconvo3.game
+      linia: 10
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's pretty good. I prefer the science-fiction version, though.
+      pl: Jest całkiem dobra. Wolę jednak wersję fantastycznonaukową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df67b43548152673ba05
+      kontekst: data.json:scripts.fort4_guyconvo3.game
+      linia: 11
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's that like?
+      pl: Jak to jest?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_405525a36c87a8e2310f
+      kontekst: data.json:scripts.fort4_guyconvo3.game
+      linia: 12
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's real interesting -- it has vehicles that move without horses, and guns that fire more than once before reloading.
+      pl: Jest naprawdę ciekawa — ma pojazdy poruszające się bez koni i broń, która strzela więcej niż raz przed przeładowaniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0ee0e996378c7180c97e
+      kontekst: data.json:scripts.fort4_guyconvo3.game
+      linia: 13
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whoa, that sounds really imba.
+      pl: To brzmi naprawdę imba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_29c76434b612bb91b698
+      kontekst: data.json:scripts.fort4_guyconvo3.opts
+      linia: 14
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How'd you get into this?
+      pl: Jak w to wszedłeś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: wol_db72ee4aced401bbf67b
+      kontekst: data.json:scripts.fort4_guyconvo3.story
+      linia: 16
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I was in the actual war. Made it out with only a few scars and a limp, fortunately, on account of I spent the whole thing hiding in a cave. When I heard about re-enactments, I signed up to find out what I missed.
+      pl: Byłem na prawdziwej wojnie. Wyszedłem z niej ledwie z paroma bliznami i utykaniem, na szczęście — bo całą przesiedziałem w jaskini. Jak usłyszałem o rekonstrukcjach, zapisałem się, żeby sprawdzić, co mnie ominęło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6181bd00c12da04a693f
+      kontekst: data.json:scripts.fort4_guyconvo3.story
+      linia: 17
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...This is probably not a whole lot like what you missed.'
+      pl: '...To pewnie niewiele przypomina to, co przegapiłeś.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1840a58e2913ae176e5
+      kontekst: data.json:scripts.fort4_guyconvo3.story
+      linia: 18
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah. Better snacks, for one.
+      pl: Tak. Na przykład lepsze przekąski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meetagain
+    wpisy:
+    - id: wol_88ce132a9ed8c49573fb
+      kontekst: data.json:scripts.fort4_guyconvo3.meetagain
+      linia: 20
+      sekcja_skryptu: meetagain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, Buddy.
+      pl: Cześć, Buddy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5c2d73e4fcb08958076
+      kontekst: data.json:scripts.fort4_guyconvo3.meetagain
+      linia: 21
+      sekcja_skryptu: meetagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heya @firstname@.
+      pl: Hej, @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1455
+  skrypt: fort4_guyconvo4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_58359d2ea88c6794d096
+      kontekst: data.json:scripts.fort4_guyconvo4.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. I'm @firstname@.
+      pl: Cześć. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8feb4d1fc6ef9a4b1cd9
+      kontekst: data.json:scripts.fort4_guyconvo4.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, I'm Mike.
+      pl: Cześć, jestem Mike.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_22358b3480be7db59dd0
+      kontekst: data.json:scripts.fort4_guyconvo4.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you the cemetery caretaker?
+      pl: Jesteś opiekunem cmentarza?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouhim
+    wpisy:
+    - id: wol_659ce37cb827a58057c6
+      kontekst: data.json:scripts.fort4_guyconvo4.areyouhim
+      linia: 5
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, that's Jeff. I'm a paralegal.
+      pl: Nie, to Jeff. Jestem asystentem prawnym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b33f7f3cd562706faf0
+      kontekst: data.json:scripts.fort4_guyconvo4.areyouhim
+      linia: 6
+      sekcja_skryptu: areyouhim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's a lot of those in this hobby, I've noticed.
+      pl: Zauważyłem, że w tym hobby jest ich sporo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74da6de4a20510be0b72
+      kontekst: data.json:scripts.fort4_guyconvo4.areyouhim
+      linia: 7
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, 'cause here if you lose the argument, nobody goes to jail.
+      pl: Jeśli przegrasz, nikt nie pójdzie do więzienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_b150d33c22c1d254c687
+      kontekst: data.json:scripts.fort4_guyconvo4.opts
+      linia: 8
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You seem to be taking this game real seriously.
+      pl: Wygląda na to, że traktujesz tę grę bardzo poważnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: wol_20cc1eb961bc954ebe99
+      kontekst: data.json:scripts.fort4_guyconvo4.story
+      linia: 10
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, of course! You gotta play to win! Otherwise, what's the point?
+      pl: Oczywiście! Musisz grać, żeby wygrać! W przeciwnym razie, jaki w tym sens?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4d70e3c08bec79e453f1
+      kontekst: data.json:scripts.fort4_guyconvo4.story
+      linia: 11
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Having fun?
+      pl: Dobrze się bawisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0388efe5cb565229b583
+      kontekst: data.json:scripts.fort4_guyconvo4.story
+      linia: 12
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Exactly! And winning is how you do that!
+      pl: Właśnie! A robi się to, wygrywając!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_52d0e41dc18bf0a13dd7
+      kontekst: data.json:scripts.fort4_guyconvo4.opts
+      linia: 13
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You having line-of-sight issues?
+      pl: Masz problemy z linią wzroku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_ce6320bd26e6bac662ca
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 15
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, they don't let me have my tape measure on the board when it isn't my turn anymore, so I have to eyeball it.
+      pl: Tak, nie pozwalają mi mieć mojej taśmy miarowej na tablicy, kiedy nie jest już moja kolej, więc muszę się temu przyjrzeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ac0280c83a0b4960010
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 16
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It looks like you could get a hit on that front guy. He'd have partial cover, though.
+      pl: Wygląda na to, że mógłbyś trafić tego z przodu. Miałby jednak częściową osłonę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b036f2bdbf994a43b79b
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 17
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heh. I think you mean "soft cover".
+      pl: He. Chyba chodzi ci o „miękką okładkę”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fb89d3321ddf1822a32
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 18
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, you're playing fourth edition.
+      pl: Och, grasz w czwartą edycję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b50c9f8264063118961
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 19
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, <i>yeah.</i> Third edition was a total kludge.
+      pl: <i>Trzecia edycja</i> była kompletną klapą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_959a56ae62443ae02f96
+      kontekst: data.json:scripts.fort4_guyconvo4.game
+      linia: 20
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Man, you and my brother would be bitter enemies.
+      pl: Stary, ty i mój brat bylibyście śmiertelnymi wrogami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meetagain
+    wpisy:
+    - id: wol_e56dd4bd02fd93cd3b2e
+      kontekst: data.json:scripts.fort4_guyconvo4.meetagain
+      linia: 22
+      sekcja_skryptu: meetagain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya, Mike.
+      pl: Hej, Mike.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b63c0c224d7f5e6f9df
+      kontekst: data.json:scripts.fort4_guyconvo4.meetagain
+      linia: 23
+      sekcja_skryptu: meetagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heya, @firstname@.
+      pl: Hej, @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1456
+  skrypt: fort4_guyconvo5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 21
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_58359d2ea88c6794d096
+      kontekst: data.json:scripts.fort4_guyconvo5.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. I'm @firstname@.
+      pl: Cześć. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4164d97d4d9675b7906
+      kontekst: data.json:scripts.fort4_guyconvo5.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Heya. I'm Melvin.
+      pl: Hej. Jestem Melvin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_22358b3480be7db59dd0
+      kontekst: data.json:scripts.fort4_guyconvo5.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Are you the cemetery caretaker?
+      pl: Jesteś opiekunem cmentarza?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: areyouhim
+    wpisy:
+    - id: wol_9c01165d7def0f14a5ff
+      kontekst: data.json:scripts.fort4_guyconvo5.areyouhim
+      linia: 5
+      sekcja_skryptu: areyouhim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope. I think Jeff said something about having a day job? It hasn't been that day for like two weeks though, ha ha <i>snort.</i>
+      pl: Nie. Chyba Jeff wspominał, że ma pracę na dzień? Tylko od jakichś dwóch tygodni nie nadszedł ten dzień, ha, ha. <i>parsknięcie.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_4c95c2a7c7052370fc9e
+      kontekst: data.json:scripts.fort4_guyconvo5.opts
+      linia: 6
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's with the hat?
+      pl: Co z tym kapeluszem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story
+    wpisy:
+    - id: wol_727efb11f7df1132c0d8
+      kontekst: data.json:scripts.fort4_guyconvo5.story
+      linia: 8
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We're doing historical re-enactments!
+      pl: Robimy rekonstrukcje historyczne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_647d0ddc3be9591420c1
+      kontekst: data.json:scripts.fort4_guyconvo5.story
+      linia: 9
+      sekcja_skryptu: story
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're playing a tabletop wargame.
+      pl: Grasz w stołową grę bitewną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0b2134f8de9b7077867
+      kontekst: data.json:scripts.fort4_guyconvo5.story
+      linia: 10
+      sekcja_skryptu: story
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, okay, sure. But a historical one! Anyway, we only switched to this after we quit doing real re-enactments.
+      pl: Dobrze, jasne. Ale historyczny! W każdym razie, przełączyliśmy się na to dopiero po tym, jak rzuciliśmy rekonstrukcję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d09336711b9ef7938f5
+      kontekst: data.json:scripts.fort4_guyconvo5.story
+      linia: 11
+      sekcja_skryptu: story
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Why'd you quit?
+      pl: Czemu odszedłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: story2
+    wpisy:
+    - id: wol_d6de16e2f6b7942077a4
+      kontekst: data.json:scripts.fort4_guyconvo5.story2
+      linia: 13
+      sekcja_skryptu: story2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It was too much exercise. Also <i>somebody</i> kept refusing to lie down when he got killed!
+      pl: To było za dużo ruchu. Poza tym <i>ktoś</i> uparcie nie chciał się kłaść, kiedy go zabijano!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3dee7accce9be780d99
+      kontekst: data.json:scripts.fort4_guyconvo5.story2
+      linia: 14
+      sekcja_skryptu: story2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You missed!
+      pl: Spudłowałeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_b67488d80f83b81ff7a5
+      kontekst: data.json:scripts.fort4_guyconvo5.opts
+      linia: 15
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's this game you're playing?
+      pl: W jaką grę grasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_834e08dfc1447817ee2f
+      kontekst: data.json:scripts.fort4_guyconvo5.game
+      linia: 17
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you probably aren't familiar with this type of board game, it's a very specialized form of entertainment.
+      pl: Och, pewnie nie znasz tego rodzaju gry planszowej. To bardzo wyspecjalizowana forma rozrywki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_202e9eb82e7d41c80dc5
+      kontekst: data.json:scripts.fort4_guyconvo5.game
+      linia: 18
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What I mean is, you seem to be using Flintlock 4000 rules, but my brother's set didn't have cows.
+      pl: Chodzi mi o to, że używasz zasad Flintlock 4000, ale plan mojego brata nie miał krów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff7db0718607f23efbe8
+      kontekst: data.json:scripts.fort4_guyconvo5.game
+      linia: 19
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Well, uh, yeah! We had to mod them in ourselves. Cool, huh?
+      pl: Och! No, yyy, tak! Musieliśmy sami dodać je modem. Fajne, nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_c8988ba1eab7b638c29c
+      kontekst: data.json:scripts.fort4_guyconvo5.opts
+      linia: 20
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I play?
+      pl: Mogę grać?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: play
+    wpisy:
+    - id: wol_6cbfa91c97b117876afb
+      kontekst: data.json:scripts.fort4_guyconvo5.play
+      linia: 22
+      sekcja_skryptu: play
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, the rules are pretty complex. I don't think the others will want to stop to play a teaching game.
+      pl: Zasady są dość złożone. Nie sądzę, by inni chcieli przestać grać w grę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5be26c3ff8226bdc76fc
+      kontekst: data.json:scripts.fort4_guyconvo5.play
+      linia: 23
+      sekcja_skryptu: play
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I already know it, my brother used to bug me to play him all the time so he could test his strategies.
+      pl: Już to znam, mój brat zawsze nagabywał mnie, żebym z nim grał, bo chciał testować swoje strategie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9df72d8dca2d18c4e1a2
+      kontekst: data.json:scripts.fort4_guyconvo5.play
+      linia: 24
+      sekcja_skryptu: play
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Then great, yeah! We're short a player on the cows' side. Step up to the table and grab some dice!
+      pl: To świetnie! Brakuje nam gracza po stronie krów. Podejdź do stołu i weź kości!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: meetagain
+    wpisy:
+    - id: wol_3993a8acbf57d0fbc72b
+      kontekst: data.json:scripts.fort4_guyconvo5.meetagain
+      linia: 27
+      sekcja_skryptu: meetagain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya, Melvin.
+      pl: Hej, Melvin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_86b6ea9eee669e0838ae
+      kontekst: data.json:scripts.fort4_guyconvo5.meetagain
+      linia: 28
+      sekcja_skryptu: meetagain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Moooo.
+      pl: Muuuu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1457
+  skrypt: fort4_guytalk1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_639c7edabe130c118c30
+      kontekst: data.json:scripts.fort4_guytalk1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is excitedly (and repeatedly) describing his favorite kinetoscope reel.
+      pl: Ten gość ekscytowanie (i w kółko) opowiada o ulubionej taśmie kinetoskopu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1458
+  skrypt: fort4_guytalk2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_db139d0c2cf6d7c61846
+      kontekst: data.json:scripts.fort4_guytalk2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is eating chips like they're going out of style.
+      pl: Ten gość je chipsy, jakby wychodziły z mody.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4580a9676d8b387f30a7
+      kontekst: data.json:scripts.fort4_guytalk2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wait, he's a nerd. Nerds don't care about what's in style.
+      pl: Czekaj, to nerd. Nerdom nie zależy na tym, co jest modne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1459
+  skrypt: fort4_guytalk3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e1c6b5b4db4dc4481d4b
+      kontekst: data.json:scripts.fort4_guytalk3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Mom made Rufus stop drinking that brand of soda after he didn't sleep for four days and started yammering about putting our cat in a box to see if it was alive or not.
+      pl: Mama kazała Rufusowi przestać pić tę markę coli, kiedy nie spał przez cztery dni i zaczął paplać o wsadzeniu naszego kota do pudełka, żeby sprawdzić, czy żyje, czy nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1460
+  skrypt: fort4_guytalk4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ec1d9218609aca359ae5
+      kontekst: data.json:scripts.fort4_guytalk4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy keeps peering intently at the figures on the table and muttering about "line of sight".
+      pl: Ten gość wpatruje się w figurki na stole i mamrocze o „linii wzroku”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1461
+  skrypt: fort4_guytalk5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_929965eb5d622dcd8c42
+      kontekst: data.json:scripts.fort4_guytalk5.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not many people would walk around in a cow hat in this day and age.
+      pl: W dzisiejszych czasach niewiele osób chodzi w krowim kapeluszu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f4849db686db9e45c7f
+      kontekst: data.json:scripts.fort4_guytalk5.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not to imply they were ever in fashion, or anything.
+      pl: Nie żebym sugerował, że kiedykolwiek były modne, czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1462
+  skrypt: fort4_nastypile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9c91437f7123e91b0acf
+      kontekst: data.json:scripts.fort4_nastypile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of trash smells very, very bad.
+      pl: Ta sterta śmieci pachnie bardzo, bardzo źle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inve
+    wpisy:
+    - id: wol_27202d27fe8868142677
+      kontekst: data.json:scripts.fort4_nastypile.inve
+      linia: 3
+      sekcja_skryptu: inve
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You power through the stench and find a few non-garbage items in the pile.
+      pl: Przebijasz się przez smród i znajdujesz w stosie kilka nie-śmieciowych przedmiotów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_377bbc315fda87bbb58b
+      kontekst: data.json:scripts.fort4_nastypile.nope
+      linia: 5
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already got everything good out of that mess.
+      pl: Już wyciągnąłeś z tego bałaganu wszystko, co dobre.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1463
+  skrypt: fort4_playgame
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ddbb8f6448ca506c731f
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Which battle would you like to recreate?
+      pl: Którą bitwę chciałbyś odtworzyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bcda628cfc3ed91b7ed3
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The Battle of Cow Ridge (1889) [Won]
+      pl: Bitwa o Cow Ridge (1889) [Wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d8b23a3bb9df138e4468
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The Battle of Cow Ridge (1889) [Not yet won]
+      pl: Bitwa o Cow Ridge (1889) [Jeszcze nie wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Not yet won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2af6db1fcb3e304503a5
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The Battle of Medley (1887) [Won]
+      pl: Bitwa o Medley (1887) [Wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5dfdf1aa4db8b2a2c02
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The Battle of Medley (1887) [Not yet won]
+      pl: Bitwa o Medley (1887) [Jeszcze nie wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Not yet won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b871c27f961105e6de2f
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Lobber's Battle (1886) [Won]
+      pl: Lobber's Battle (1886) [Wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5579fa7925d33a3b6840
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Lobber's Battle (1886) [Not yet won]
+      pl: Lobber's Battle (1886) [Jeszcze nie wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Not yet won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07e03904485cdcd5ef94
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Early Skirmish (1884) [Won]
+      pl: Wczesna potyczka (1884) [Wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26c602a4ce597647ae57
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Early Skirmish (1884) [Not yet won]
+      pl: Wczesna potyczka (1884) [Jeszcze nie wygrana]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Not yet won]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_61516fc71598ae12d91d
+      kontekst: data.json:scripts.fort4_playgame.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop playing around
+      pl: Przestań się bawić
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win1
+    wpisy:
+    - id: wol_82adaf508e59ee61f7f9
+      kontekst: data.json:scripts.fort4_playgame.win1
+      linia: 1
+      sekcja_skryptu: win1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You prevailed in The Battle of Cow Ridge!
+      pl: Zwyciężyłeś w Bitwie o Cow Ridge!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17debd5d1ce414dcb85
+      kontekst: data.json:scripts.fort4_playgame.win1
+      linia: 2
+      sekcja_skryptu: win1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%fort4_youwon%'
+      pl: '%fort4_youwon%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%fort4_youwon%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_e642d65b736f808c612e
+      kontekst: data.json:scripts.fort4_playgame.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Play another one
+      pl: Zagraj jeszcze jedną
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cbc7bf2b00231032dcf
+      kontekst: data.json:scripts.fort4_playgame.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave while you're ahead
+      pl: Wynoś się, póki jesteś na plusie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: guns
+    wpisy:
+    - id: wol_3a005db1392cad71a2ad
+      kontekst: data.json:scripts.fort4_playgame.guns
+      linia: 5
+      sekcja_skryptu: guns
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, you're really good at this game!
+      pl: Wow, jesteś naprawdę dobry w tej grze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48c0576fce54c1ad650f
+      kontekst: data.json:scripts.fort4_playgame.guns
+      linia: 6
+      sekcja_skryptu: guns
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Getting good was the only way to keep my little brother from lording it over me all the time.
+      pl: Musiałem stać się dobry, żeby mój młodszy brat przestał się cały czas nade mną wywyższać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c821c76d21d2acf15d0e
+      kontekst: data.json:scripts.fort4_playgame.guns
+      linia: 7
+      sekcja_skryptu: guns
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I feel like we should give you some kind of prize... um... I've got some leftover guns from when I was gluing the figurines together. Want 'em?
+      pl: Chyba powinniśmy dać ci jakąś nagrodę... eee... zostało mi trochę broni po sklejaniu figurek. Chcesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_01732d699c04b5f8f1f5
+      kontekst: data.json:scripts.fort4_playgame.guns
+      linia: 8
+      sekcja_skryptu: guns
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, thanks!
+      pl: Jasne, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: guns2
+    wpisy:
+    - id: wol_01732d699c04b5f8f1f5
+      kontekst: data.json:scripts.fort4_playgame.guns2
+      linia: 9
+      sekcja_skryptu: guns2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, thanks!
+      pl: Jasne, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win2
+    wpisy:
+    - id: wol_5969d2ce0c713401cc3d
+      kontekst: data.json:scripts.fort4_playgame.win2
+      linia: 1
+      sekcja_skryptu: win2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You prevailed in The Battle of Medley!
+      pl: Zwyciężyłeś w Bitwie o Medley!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17debd5d1ce414dcb85
+      kontekst: data.json:scripts.fort4_playgame.win2
+      linia: 2
+      sekcja_skryptu: win2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%fort4_youwon%'
+      pl: '%fort4_youwon%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%fort4_youwon%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win3
+    wpisy:
+    - id: wol_8698ffddc045f065d9d3
+      kontekst: data.json:scripts.fort4_playgame.win3
+      linia: 1
+      sekcja_skryptu: win3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You prevailed in the Lobber's Battle of 1886!
+      pl: Zwyciężyłeś w Bitwie Lobberów 1886!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17debd5d1ce414dcb85
+      kontekst: data.json:scripts.fort4_playgame.win3
+      linia: 2
+      sekcja_skryptu: win3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%fort4_youwon%'
+      pl: '%fort4_youwon%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%fort4_youwon%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win4
+    wpisy:
+    - id: wol_55f9d7ad31d053a9750e
+      kontekst: data.json:scripts.fort4_playgame.win4
+      linia: 1
+      sekcja_skryptu: win4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You prevailed in the Early Skirmish of 1884!
+      pl: Zwyciężyłeś we Wczesnej Potyczce 1884!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17debd5d1ce414dcb85
+      kontekst: data.json:scripts.fort4_playgame.win4
+      linia: 2
+      sekcja_skryptu: win4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%fort4_youwon%'
+      pl: '%fort4_youwon%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%fort4_youwon%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8cea784e325d29f93cc1
+      kontekst: data.json:scripts.fort4_playgame.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%fort4_gitgud%'
+      pl: '%fort4_gitgud%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%fort4_gitgud%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_173e53fa2e5cc1d9c920
+      kontekst: data.json:scripts.fort4_playgame.lose
+      linia: 2
+      sekcja_skryptu: lose
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '%fort4_darnit%'
+      pl: '%fort4_darnit%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%fort4_darnit%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5400a31a90c42456548a
+      kontekst: data.json:scripts.fort4_playgame.lose
+      linia: 3
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Play another battle
+      pl: Zagraj jeszcze jedną bitwę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fce91de9a178a905dce4
+      kontekst: data.json:scripts.fort4_playgame.lose
+      linia: 4
+      sekcja_skryptu: lose
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Quit playing
+      pl: Przestań grać
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1464
+  skrypt: fort4_rulebooks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5d80f9295e50000f05dd
+      kontekst: data.json:scripts.fort4_rulebooks.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf is stuffed full of rulebooks for the weird game those nerds are playing.
+      pl: Ta półka wypchana podręcznikami do dziwnej gry, w którą grają ci nerdy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c751cb064b6b42e62eff
+      kontekst: data.json:scripts.fort4_rulebooks.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Study them [25 Mysticality]
+      pl: Przestudiuj je [Mistycyzm 25]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[25 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: study
+    wpisy:
+    - id: wol_956d117aa6138df23074
+      kontekst: data.json:scripts.fort4_rulebooks.study
+      linia: 3
+      sekcja_skryptu: study
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pore over the rules until you understand them perfectly enough to realize that they're for an entirely different game than these guys are actually playing.
+      pl: Wertujesz zasady, aż zrozumiesz je wystarczająco, by zorientować się, że dotyczą zupełnie innej gry niż ta, w którą ci goście grają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1272bf8bf12fdaa2228
+      kontekst: data.json:scripts.fort4_rulebooks.study
+      linia: 4
+      sekcja_skryptu: study
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh well.  At least you learned something... useful...
+      pl: No cóż. Przynajmniej nauczyłeś się czegoś... użytecznego...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3ca87fde7a4e5550fd4
+      kontekst: data.json:scripts.fort4_rulebooks.study
+      linia: 5
+      sekcja_skryptu: study
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you're about to walk away from the shelf, you notice a book that definitely doesn't belong here...
+      pl: Gdy masz odejść od półki, zauważasz książkę, która zdecydowanie tu nie pasuje...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75d595f50f2e6a13c39d
+      kontekst: data.json:scripts.fort4_rulebooks.study
+      linia: 7
+      sekcja_skryptu: study
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh
+      pl: Och
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_3f70ed1c5b31407ba50e
+      kontekst: data.json:scripts.fort4_rulebooks.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Study them [Requires 25 Mysticality]
+      pl: Przestudiuj je [Wymaga 25 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 25 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1465
+  skrypt: fort4_snackshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d3a2d145a132c3fbe282
+      kontekst: data.json:scripts.fort4_snackshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The shelf is laden with candy.
+      pl: Półka obciążona cukierkami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0958f58f300894141cfe
+      kontekst: data.json:scripts.fort4_snackshelf.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Help yourself
+      pl: Pomagaj sobie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1466
+  skrypt: fort4_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2d231248f1898e24e7c2
+      kontekst: data.json:scripts.fort4_spittoon.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The liquid in this spittoon is bright yellow. I feel like that's all that needs to be said about it.
+      pl: Ciecz w tej spluwaczce jest jaskrawożółta. Chyba tyle wystarczy o niej powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_d19924f5e0c80e8fd74d
+      kontekst: data.json:scripts.fort4_spittoon.two
+      linia: 3
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I'll never understand you.
+      pl: Nigdy cię nie zrozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0b79ddbb65d751bd4fe
+      kontekst: data.json:scripts.fort4_spittoon.two
+      linia: 4
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All right, well, you crouch down next to the spittoon. From the nauseatingly sweet stench coming off of it, it appears that these nerds haven't been using it as a makeshift urinal as you may have suspected, but rather they're using bright yellow lemon-lime soda-flavored chewing tobacco. Unless...
+      pl: Dobra, kucasz przy spluwaczce. Z mdląco słodkiego smrodu, który z niej bije, wnioskujesz, że te kujony nie używały jej jako prowizorycznego pisuaru, jak podejrzewałeś — one żują jaskrawożółty tytoń o smaku cytrynowo-limonkowej oranżady. Chyba że...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a5b3f733b6b93aacccab
+      kontekst: data.json:scripts.fort4_spittoon.two
+      linia: 5
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unless?
+      pl: Chyba że?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_97d5dd44634770e3efdb
+      kontekst: data.json:scripts.fort4_spittoon.three
+      linia: 6
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, another possibility is that they <i>have</i> been using it as a urinal, and they're all extremely diabetic. Which, now I think about it, is a real possibility. In fact, it is probable that both these things are true.
+      pl: No, inna możliwość jest taka, że <i>używali</i> tego jako pisuaru i wszyscy mają ciężką cukrzycę. Co, jak teraz o tym myślę, jest realną możliwością. W gruncie rzeczy prawdopodobne, że obie te rzeczy są prawdziwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_d9c6e3df7f27301f9b3f
+      kontekst: data.json:scripts.fort4_spittoon.four
+      linia: 8
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Really? You're going to put your hand in the nerds' piss and/or spit bucket? Just gonna dive right in there, huh? Just gonna splish-splash around in that sticky yellow broth of spit and pee with no restraint whatsoever?
+      pl: Naprawdę? Włożysz rękę do kubełka na mocz i/lub plwocinę nerdów? Po prostu nurkniesz tam, co? Po prostu będziesz pluskać się w tej lepkiej, żółtej zupie ze śliny i moczu bez żadnej powściągliwości?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f8bb0b6eb7f2a9777da
+      kontekst: data.json:scripts.fort4_spittoon.four
+      linia: 9
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I sure am.
+      pl: No jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_3b920d23736373ee1638
+      kontekst: data.json:scripts.fort4_spittoon.five
+      linia: 10
+      sekcja_skryptu: five
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With a fanfare of sad trombones and a choir of angels retching, a sword rises out of the spittoon, held aloft by a wet, bedraggled, and miserable-looking woman's arm. Since you're already kneeling, the arm wastes no time before tapping you on both shoulders with the sword, splashing your clothes with yellow slime and officially declaring you @firstname@ @lastname@, @King@ of Filth. Congratulations. The sword clatters on the floor as the hand drops it with a shudder and withdraws into the spittoon.
+      pl: Przy fanfarze smutnych puzonów i chóru wymiotujących aniołów ze spluwaczki wynurza się miecz, unoszony przez mokrą, zalaną i nieszczęśliwie wyglądającą kobiecą rękę. Skoro już klęczysz, ręka nie traci czasu i dotyka mieczem obu twoich ramion, obryzgując ubrania żółtą breją i oficjalnie ogłaszając cię @firstname@ @lastname@, @King@ Brudu. Gratulacje. Miecz brzęczy o podłogę, gdy dłoń z drżeniem go puszcza i cofa się do spluwaczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      - '@King@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2407729a9472d5260636
+      kontekst: data.json:scripts.fort4_spittoon.five
+      linia: 11
+      sekcja_skryptu: five
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Long live the @king@!
+      pl: Niech żyje @king@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@king@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_51349afa3fdb2a70573c
+      kontekst: data.json:scripts.fort4_spittoon.four
+      linia: 12
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: On second thought, no.
+      pl: Z drugiej strony, nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1467
+  skrypt: fort4_table
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7617d4bf2a5bede1252f
+      kontekst: data.json:scripts.fort4_table.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This table is covered with little toy soldiers and little toy cows and weird dice.
+      pl: Stół pokryty małymi żołnierzykami, małymi krowami i dziwnymi kośćmi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca38f6d9e80385aa21fc
+      kontekst: data.json:scripts.fort4_table.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Play their little game
+      pl: Zagraj w ich gierkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1468
+  skrypt: fort4_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: discovercemetery3
+    wpisy:
+    - id: wol_0ee0cc015938b71460e6
+      kontekst: data.json:scripts.fort4_watchtower.discovercemetery3
+      linia: 1
+      sekcja_skryptu: discovercemetery3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a giant cemetery in the distance -- the sign out front is so big you can read it from here!  REBOOT HILL.  Is what it says.
+      pl: Widzisz ogromny cmentarz w oddali — tablica z przodu jest tak wielka, że możesz ją odczytać stąd! REBOOT HILL. Tak właśnie jest napisane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_c5761015e5404ef0149d
+      kontekst: data.json:scripts.fort4_watchtower.rembin
+      linia: 3
+      sekcja_skryptu: rembin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep Fort Memorial Beautiful
+      pl: Dbaj o piękno Fort Memorial
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverranch6
+    wpisy:
+    - id: wol_dfe966394a07a4105627
+      kontekst: data.json:scripts.fort4_watchtower.discoverranch6
+      linia: 1
+      sekcja_skryptu: discoverranch6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a ranch in the distance.  Well, you see what's left of a ranch in the distance.  Now it's mostly smoldering wreckage and scintillating fiery doorways to Hell.
+      pl: Widzisz ranczo w oddali. Cóż, widzisz to, co zostało z rancza w oddali. Teraz to głównie tliące się ruiny i migoczące ogniste bramy do Piekła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovermine5
+    wpisy:
+    - id: wol_85bc0df58349c1246a5d
+      kontekst: data.json:scripts.fort4_watchtower.discovermine5
+      linia: 1
+      sekcja_skryptu: discovermine5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a soupy discoloration of the rocks in the mountains to the east, and in the center of the stain -- the entrance to a mine!
+      pl: Zauważasz zupopodobne przebarwienie skał w górach na wschodzie, a w środku plamy — wejście do kopalni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverwestpole
+    wpisy:
+    - id: wol_8e7c97eead20e0c2713b
+      kontekst: data.json:scripts.fort4_watchtower.discoverwestpole
+      linia: 1
+      sekcja_skryptu: discoverwestpole
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a strange pattern in the trees surrounding a cluster of cairns in the distance.
+      pl: Zauważasz dziwny wzór w drzewach otaczających skupisko kopców w oddali.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1498
+  skrypt: fort6_talkindude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_58359d2ea88c6794d096
+      kontekst: data.json:scripts.fort6_talkindude.intro
+      linia: 27
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. I'm @firstname@.
+      pl: Cześć. Jestem @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000100
+  skrypt: house_ghostbuster_conversation
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: house_billiards_peace
+    wpisy:
+    - id: wol_726cac3405361ce4e948
+      kontekst: house.json:scripts.house_ghostbuster_conversation.house_billiards_peace
+      linia: 17
+      sekcja_skryptu: house_billiards_peace
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Like what?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000102
+  skrypt: house_ghostbuster_preconvo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_622135222f4570063eb5
+      kontekst: house.json:scripts.house_ghostbuster_preconvo.intro
+      linia: 59
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck.
+      pl: No, powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000196
+  skrypt: house_mrsgunfinal2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: two
+    wpisy:
+    - id: wol_726cac3405361ce4e948
+      kontekst: house.json:scripts.house_mrsgunfinal2.two
+      linia: 17
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Like what?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: anteye2
+    wpisy:
+    - id: wol_726cac3405361ce4e948
+      kontekst: data.json:scripts.pardner_talk.anteye2
+      linia: 32
+      sekcja_skryptu: anteye2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Like what?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: anteye2b
+    wpisy:
+    - id: wol_726cac3405361ce4e948
+      kontekst: data.json:scripts.pardner_talk.anteye2b
+      linia: 33
+      sekcja_skryptu: anteye2b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Like what?
+      pl: Na przykład?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2420
+  skrypt: re_skeletonb2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_75d595f50f2e6a13c39d
+      kontekst: data.json:scripts.re_skeletonb2.intim
+      linia: 15
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh
+      pl: Och
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2658
+  skrypt: tut_cardguys
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c8988ba1eab7b638c29c
+      kontekst: data.json:scripts.tut_cardguys.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can I play?
+      pl: Mogę grać?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: caniplay
+    wpisy:
+    - id: wol_c8988ba1eab7b638c29c
+      kontekst: data.json:scripts.tut_cardguys.caniplay
+      linia: 3
+      sekcja_skryptu: caniplay
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Can I play?
+      pl: Mogę grać?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []

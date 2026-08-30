@@ -1,0 +1,120 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: moonshine_still
+zrodlowy_batch: 086_dialog_loc_moonshinestill_moonshine_still.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 1
+liczba_wpisow: 6
+sceny:
+- kolejnosc_w_danych_gry: 1952
+  skrypt: moonshinestill_usestill
+  pomieszczenie:
+    id: moonshinestill
+    nazwa_en: Moonshine Still
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: begin
+    wpisy:
+    - id: wol_b1ae98046cdfaebd7eb2
+      kontekst: data.json:scripts.moonshinestill_usestill.begin
+      linia: 1
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a still for turning moon into moonshine.
+      pl: To alembik do przekształcania księżyca w samogon.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c73c079f5f0aad71fdbd
+      kontekst: data.json:scripts.moonshinestill_usestill.begin
+      linia: 2
+      sekcja_skryptu: begin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make some [moon bits]
+      pl: Zrób trochę [kawałków księżyca]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[moon bits]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: makesome
+    wpisy:
+    - id: wol_fe6dcd500cff0aee6a7e
+      kontekst: data.json:scripts.moonshinestill_usestill.makesome
+      linia: 3
+      sekcja_skryptu: makesome
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drop some moon bits into the hopper, wait a few minutes, and collect the liquid that comes out of the still.
+      pl: Wrzucasz kawałki księżyca do lejka, czekasz kilka minut i zbierasz płyn z alembiku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7a9beadc510413eb790
+      kontekst: data.json:scripts.moonshinestill_usestill.makesome
+      linia: 4
+      sekcja_skryptu: makesome
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make some more [moon bits]
+      pl: Zrób jeszcze trochę [kawałków księżyca]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[moon bits]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: begin
+    wpisy:
+    - id: wol_9871c5dc856c30a12ff1
+      kontekst: data.json:scripts.moonshinestill_usestill.begin
+      linia: 5
+      sekcja_skryptu: begin
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Make some [Requires moon bits]
+      pl: Zrób trochę [Wymaga kawałków księżyca]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires moon bits]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firstjar
+    wpisy:
+    - id: wol_4dee22f6b4e7da77a809
+      kontekst: data.json:scripts.moonshinestill_usestill.firstjar
+      linia: 6
+      sekcja_skryptu: firstjar
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a jar of moonshine under the spout.
+      pl: Pod kranem stoi słoik z bimbrem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

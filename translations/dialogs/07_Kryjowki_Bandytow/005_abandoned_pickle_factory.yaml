@@ -1,0 +1,3505 @@
+schema_version: 1
+dzial:
+  numer: '07'
+  nazwa: Kryjowki_Bandytow
+grupa_lokacji_lub_systemu: abandoned_pickle_factory
+zrodlowy_batch: 028_dialog_loc_bandit5_abandoned_pickle_factory.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 41
+liczba_wpisow: 197
+sceny:
+- kolejnosc_w_danych_gry: 111
+  skrypt: bandit5_bellows
+  pomieszczenie: &id001
+    id: bandit5
+    nazwa_en: Abandoned Pickle Factory
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2c8a0db9f12a0f09d96e
+      kontekst: data.json:scripts.bandit5_bellows.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a bellows pointed at the furnace.
+      pl: To miech skierowany w stronę pieca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b434d78e1f73b3393a8
+      kontekst: data.json:scripts.bandit5_bellows.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pump it
+      pl: Pompuj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: push
+    wpisy:
+    - id: wol_53c8f60794cd3452d07c
+      kontekst: data.json:scripts.bandit5_bellows.push
+      linia: 3
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pump the bellows.  The coal burns away and the vinegar heats up to its boiling point of 245 degrees.
+      pl: Dmuchasz w miechy. Węgiel się spala, a ocet nagrzewa się do punktu wrzenia 245 stopni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59e47b4fec5e975b3af3
+      kontekst: data.json:scripts.bandit5_bellows.push
+      linia: 4
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pump the bellows.  The coal burns away and the vinegar heats up by $increase$ degrees.
+      pl: Dmuchasz w miechy. Węgiel się spala, a ocet nagrzewa się o $increase$ stopni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $increase$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whiff
+    wpisy:
+    - id: wol_f7f61a0f2ca3b5d846c7
+      kontekst: data.json:scripts.bandit5_bellows.whiff
+      linia: 5
+      sekcja_skryptu: whiff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's no coal in the furnace, so nothing happens.
+      pl: W piecu nie ma węgla, więc nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 112
+  skrypt: bandit5_boiler
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ffe886c36f80dc32520a
+      kontekst: data.json:scripts.bandit5_boiler.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a furnace.
+      pl: To piec.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: report
+    wpisy:
+    - id: wol_fdd252dfb1ccd4321282
+      kontekst: data.json:scripts.bandit5_boiler.report
+      linia: 2
+      sekcja_skryptu: report
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's currently empty.
+      pl: Na razie jest pusty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4cf350aa91a63a6962b
+      kontekst: data.json:scripts.bandit5_boiler.report
+      linia: 3
+      sekcja_skryptu: report
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's got one shovelful of coal in it.
+      pl: Ma w środku jedną łopatę węgla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f834bcbe7a3459b71704
+      kontekst: data.json:scripts.bandit5_boiler.report
+      linia: 4
+      sekcja_skryptu: report
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's got @bandit5_coal@ shovelfuls of coal in it.
+      pl: Ma w środku @bandit5_coal@ łopat węgla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@bandit5_coal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3cf18ef527f664ed6462
+      kontekst: data.json:scripts.bandit5_boiler.report
+      linia: 5
+      sekcja_skryptu: report
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Add some coal [Use shovel]
+      pl: Dodaj trochę węgla [Użyj łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Use shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coalit
+    wpisy:
+    - id: wol_748a2ccddc614117de87
+      kontekst: data.json:scripts.bandit5_boiler.coalit
+      linia: 6
+      sekcja_skryptu: coalit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You add some coal to the furnace.
+      pl: Dodajesz trochę węgla do pieca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: report
+    wpisy:
+    - id: wol_d11ec3f0124c65d69c00
+      kontekst: data.json:scripts.bandit5_boiler.report
+      linia: 7
+      sekcja_skryptu: report
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Add some coal [Requires shovel]
+      pl: Dodaj trochę węgla [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 113
+  skrypt: bandit5_cucumberdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_0ab4e53c16d80648facd
+      kontekst: data.json:scripts.bandit5_cucumberdoor.nope
+      linia: 1
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door just leads to an empty, dusty room.  Huh.  You could've sworn there were a bunch of cucumber storage tubs in there before.
+      pl: Te drzwi prowadzą tylko do pustego, zakurzonego pokoju. Hm. Mógłbyś przysiąc, że były tu wcześniej kadzie z ogórkami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b490f9476b0d61950c6
+      kontekst: data.json:scripts.bandit5_cucumberdoor.nope
+      linia: 2
+      sekcja_skryptu: nope
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well
+      pl: No cóż
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 114
+  skrypt: bandit5_cukeshunt1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1468465e7648980aac8d
+      kontekst: data.json:scripts.bandit5_cukeshunt1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lever here.
+      pl: Jest tu dźwignia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e113fff26bd9f7628a39
+      kontekst: data.json:scripts.bandit5_cukeshunt1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it
+      pl: Pociągnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_2548ff949a911f56aac9
+      kontekst: data.json:scripts.bandit5_cukeshunt1.yes
+      linia: 3
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It just clicks.
+      pl: Po prostu klika.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_483343210c7f76e5fb48
+      kontekst: data.json:scripts.bandit5_cukeshunt1.doit
+      linia: 4
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Kchunk.
+      pl: Trzask.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e85c314338175b59ec6
+      kontekst: data.json:scripts.bandit5_cukeshunt1.doit
+      linia: 5
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it again
+      pl: Pociągnij jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 115
+  skrypt: bandit5_cukeshunt2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1468465e7648980aac8d
+      kontekst: data.json:scripts.bandit5_cukeshunt2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lever here.
+      pl: Jest tu dźwignia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e113fff26bd9f7628a39
+      kontekst: data.json:scripts.bandit5_cukeshunt2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it
+      pl: Pociągnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_2548ff949a911f56aac9
+      kontekst: data.json:scripts.bandit5_cukeshunt2.yes
+      linia: 3
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It just clicks.
+      pl: Po prostu klika.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_483343210c7f76e5fb48
+      kontekst: data.json:scripts.bandit5_cukeshunt2.doit
+      linia: 4
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Kchunk.
+      pl: Trzask.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e85c314338175b59ec6
+      kontekst: data.json:scripts.bandit5_cukeshunt2.doit
+      linia: 5
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it again
+      pl: Pociągnij jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 116
+  skrypt: bandit5_cukeshunt3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1468465e7648980aac8d
+      kontekst: data.json:scripts.bandit5_cukeshunt3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lever here.
+      pl: Jest tu dźwignia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e113fff26bd9f7628a39
+      kontekst: data.json:scripts.bandit5_cukeshunt3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it
+      pl: Pociągnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_2548ff949a911f56aac9
+      kontekst: data.json:scripts.bandit5_cukeshunt3.yes
+      linia: 3
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It just clicks.
+      pl: Po prostu klika.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_483343210c7f76e5fb48
+      kontekst: data.json:scripts.bandit5_cukeshunt3.doit
+      linia: 4
+      sekcja_skryptu: doit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Kchunk.
+      pl: Trzask.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e85c314338175b59ec6
+      kontekst: data.json:scripts.bandit5_cukeshunt3.doit
+      linia: 5
+      sekcja_skryptu: doit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it again
+      pl: Pociągnij jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 117
+  skrypt: bandit5_frontdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 32
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6deb8ba4b07f5c8f0af6
+      kontekst: data.json:scripts.bandit5_frontdoor.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feel a sudden electrical jolt as your hand touches the doorknob.
+      pl: Czujesz nagły elektryczny impuls, gdy dłoń dotyka klamki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a87ad2500e560f232c5
+      kontekst: data.json:scripts.bandit5_frontdoor.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch!
+      pl: Auć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_b18f2770de1dae406dfa
+      kontekst: data.json:scripts.bandit5_frontdoor.node2
+      linia: 3
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh no, you're late for your shift! Mrs. Vlass is gonna be <i>so mad!</i> She might literally bite your head off! Okay, well, not <i>literally</i> literally. Probably.
+      pl: O nie, spóźniłeś się na zmianę! Pani Vlass będzie <i>wściekła!</i> Może ci dosłownie odgryźć głowę! No, właściwie to nie <i>dosłownie</i> dosłownie. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87872a48a003518a2ed6
+      kontekst: data.json:scripts.bandit5_frontdoor.node2
+      linia: 4
+      sekcja_skryptu: node2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Quick! Get suited up!
+      pl: Szybko! Ubieraj się!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_8ef2fcfb3c158afb9cf2
+      kontekst: data.json:scripts.bandit5_frontdoor.node3
+      linia: 5
+      sekcja_skryptu: node3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You clock in and hurriedly put on your bright green coveralls. Mrs. Vlass, as predicted, is furious.
+      pl: Odbijasz kartę i w pośpiechu zakładasz jaskrawozielony kombinezon. Pani Vlass, jak przewidywano, jest wściekła.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac8f293b21fbed7b95dd
+      kontekst: data.json:scripts.bandit5_frontdoor.node3
+      linia: 6
+      sekcja_skryptu: node3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Late again?! You'd better stop taking this job for granted! You think you're gonna find a place with a nice dormitory and a reasonably-priced company store like ours somewhere else? With <i>your</i> skills? Hah! You're doing three shifts today, buster! Get to work, you're on pickle hopper duty!
+      pl: Znowu się spóźniłeś?! Lepiej przestań uważać tę pracę za coś oczywistego! Myślisz, że gdzie indziej znajdziesz miejsce z porządnym dormitorium i sklepem firmowym w rozsądnych cenach, takim jak nasz? Z <i>twoimi</i> umiejętnościami? Ha! Dzisiaj pracujesz trzy zmiany, kolego! Do roboty, masz służbę przy lejach z ogórkami!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3f573e8f6bbe4433d17
+      kontekst: data.json:scripts.bandit5_frontdoor.node3
+      linia: 7
+      sekcja_skryptu: node3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Start your shift
+      pl: Rozpocznij zmianę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node4
+    wpisy:
+    - id: wol_a416b4e6481110036de0
+      kontekst: data.json:scripts.bandit5_frontdoor.node4
+      linia: 8
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pickle hopper duty runs you ragged, like always. Keeping the hoppers filled to keep a constant flow down the chutes means you're constantly at a near-sprint, because you have to manage the cuke shunts to keep the levels equal.
+      pl: Służba przy lejach z ogórkami wyczerpuje cię jak zawsze. Żeby utrzymać stały przepływ w rynnach, musisz non stop zapełniać leje — biegniesz prawie sprintem, bo trzeba sterować przekierowaniami ogórków, żeby poziomy się zgadzały.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce428ac9bae8315bad5a
+      kontekst: data.json:scripts.bandit5_frontdoor.node4
+      linia: 9
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you get uneven pickle levels, Mrs. Vlass knows. Nobody knows <i>how</i> she knows, but she knows. A whack from her cane is the minimum you'll get.
+      pl: Jeśli poziomy ogórków wychodzą nierówne, pani Vlass wie. Nikt nie wie, <i>jak</i> wie, ale wie. Uderzenie laską to minimum, co dostaniesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17f32a626624ffee175
+      kontekst: data.json:scripts.bandit5_frontdoor.node4
+      linia: 10
+      sekcja_skryptu: node4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dammit dammit dammit
+      pl: Cholera cholera cholera
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node10
+    wpisy:
+    - id: wol_24b8df4e6bca2b4bac4b
+      kontekst: data.json:scripts.bandit5_frontdoor.node10
+      linia: 11
+      sekcja_skryptu: node10
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At the end of the first six-hour shift, you get a brief break. You cram a stale cheese sandwich into your mouth while Mrs. Vlass glares at her pocketwatch, counting down three minutes to the second.
+      pl: Pod koniec pierwszej sześciogodzinnej zmiany dostajesz krótką przerwę. Wpychasz w usta czerstwą kanapkę z serem, podczas gdy pani Vlass wpatruje się w kieszonkowy zegarek, odliczając trzy minuty co do sekundy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_446419e46e3c02f5ef25
+      kontekst: data.json:scripts.bandit5_frontdoor.node10
+      linia: 12
+      sekcja_skryptu: node10
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Break's over! Second shift! You, get over to the salt tank! <i>NOW!</i>
+      pl: Koniec przerwy! Druga zmiana! Ty, do zbiornika z solą! <i>JUŻ!</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9166f033e1b976a794de
+      kontekst: data.json:scripts.bandit5_frontdoor.node10
+      linia: 13
+      sekcja_skryptu: node10
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh god
+      pl: O rany
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node11
+    wpisy:
+    - id: wol_3c8d17f907e3e980e322
+      kontekst: data.json:scripts.bandit5_frontdoor.node11
+      linia: 14
+      sekcja_skryptu: node11
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Managing the salt tank isn't as strenuous as the pickle hoppers, but it's still a neverending tension. The brine concentration has to be constantly monitored and kept at a very specific measurement, which means constant adjustments. Meanwhile, you can feel yourself desiccating from the haze of salt dust that fills the room.
+      pl: Obsługa zbiornika soli nie jest tak wyczerpująca jak skakanie po ogórkach, ale to nieustanna nerwica. Stężenie solanki trzeba non stop monitorować i utrzymywać na bardzo konkretnym poziomie, co oznacza ciągłe korekty. Tymczasem czujesz, jak wysychasz od mgły solnej kurzu wypełniającej pomieszczenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9d09b5184972e50bbf5
+      kontekst: data.json:scripts.bandit5_frontdoor.node11
+      linia: 15
+      sekcja_skryptu: node11
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If anything in this place kills you, it's probably gonna be salt tank duty. White lung is nasty business.
+      pl: Jeśli cokolwiek w tym miejscu cię zabije, to pewnie będzie to służba przy zbiorniku z solanką. Białe płuca to brudna robota.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e65ae31e4dc7890aa27
+      kontekst: data.json:scripts.bandit5_frontdoor.node11
+      linia: 16
+      sekcja_skryptu: node11
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cough!
+      pl: Kaszl!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node12
+    wpisy:
+    - id: wol_924cb85645f87ed958fd
+      kontekst: data.json:scripts.bandit5_frontdoor.node12
+      linia: 17
+      sekcja_skryptu: node12
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Cough on your own time! And get that salinity back to normal! It's supposed to be nine hundred and seventy-six parts per thousand! How hard is that to remember? Nine hundred seventy-six! Idiot!
+      pl: Kasłaj we własnym czasie! I przywróć zasolenie do normy! Ma wynosić dziewięćset siedemdziesiąt sześć części na tysiąc! Jak trudno to zapamiętać? Dziewięćset siedemdziesiąt sześć! Idioto!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_254566269cb1dd93e9b7
+      kontekst: data.json:scripts.bandit5_frontdoor.node12
+      linia: 18
+      sekcja_skryptu: node12
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Please let me out of here
+      pl: Proszę, wypuść mnie stąd
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node15
+    wpisy:
+    - id: wol_450d54b1619c1a73b3ee
+      kontekst: data.json:scripts.bandit5_frontdoor.node15
+      linia: 19
+      sekcja_skryptu: node15
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get another 180-second break before third shift. You spend most of it drinking water. The company doesn't charge for water, but you've heard a rumor they're considering it.
+      pl: Masz kolejną 180-sekundową przerwę przed trzecią zmianą. Większość spędzasz na piciu wody. Firma nie bierze za wodę, ale słyszałeś plotkę, że rozważają to wprowadzenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b19168ebef9d40d67ded
+      kontekst: data.json:scripts.bandit5_frontdoor.node15
+      linia: 20
+      sekcja_skryptu: node15
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Break's over! Get to the boiler!
+      pl: Koniec przerwy! Do kotła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb64a63b51be1fb90ca1
+      kontekst: data.json:scripts.bandit5_frontdoor.node15
+      linia: 21
+      sekcja_skryptu: node15
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh no please let me out please
+      pl: O nie proszę wypuść mnie proszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node16
+    wpisy:
+    - id: wol_d2c6d829758611437579
+      kontekst: data.json:scripts.bandit5_frontdoor.node16
+      linia: 22
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boiler duty means shoveling coal into a furnace. A furnace that runs a giant tank of boiling vinegar.
+      pl: Obowiązki przy kotle to wrzucanie węgla do pieca. Pieca, który napędza gigantyczny zbiornik wrzącego octu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9fdeec46373e770177a7
+      kontekst: data.json:scripts.bandit5_frontdoor.node16
+      linia: 23
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It stings in here. You've tried to work with your eyes closed, but Mrs. Vlass screams if you drop any coal on the floor. Or if you let the temperature get too low. Or too high. Or just for no particular reason.
+      pl: Tu piecze w oczach. Próbowałeś pracować z zamkniętymi oczami, ale pani Vlass wrzeszczy, jeśli upuścisz choć kawałek węgla na podłogę. Albo jeśli temperatura spadnie za nisko. Albo wzrośnie za wysoko. Albo po prostu bez powodu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_375b690557b30055e91d
+      kontekst: data.json:scripts.bandit5_frontdoor.node16
+      linia: 24
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At least you're used to the smell of boiling vinegar. In fact, you can't smell anything any more.
+      pl: Przynajmniej jesteś przyzwyczajony do zapachu gotującego się octu. Właściwie to nie czujesz już żadnych zapachów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d6a56798bdb0e08d409
+      kontekst: data.json:scripts.bandit5_frontdoor.node16
+      linia: 25
+      sekcja_skryptu: node16
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: let me out please let me out
+      pl: wypuść mnie proszę wypuść mnie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node17
+    wpisy:
+    - id: wol_46311afadc1da0c07133
+      kontekst: data.json:scripts.bandit5_frontdoor.node17
+      linia: 26
+      sekcja_skryptu: node17
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: One hundred and ninety degrees, idiot! Not one hundred eighty-nine! Not one hundred ninety-one! What do you think we pay you for??
+      pl: Sto dziewięćdziesiąt stopni, idioto! Nie sto osiemdziesiąt dziewięć! Nie sto dziewięćdziesiąt jeden! Za co ci niby płacimy??
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b4eeb54285e2b174dca
+      kontekst: data.json:scripts.bandit5_frontdoor.node17
+      linia: 27
+      sekcja_skryptu: node17
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't really miss your sense of smell. Or not coughing all the time. You don't really <i>want</i> anything any more.
+      pl: Nie tęsknisz za węchem. Ani za ciągłym kaszlem. Nie <i>chcesz</i> już niczego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f018d8bdd6497f929cb5
+      kontekst: data.json:scripts.bandit5_frontdoor.node17
+      linia: 28
+      sekcja_skryptu: node17
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Except to die.
+      pl: Poza umieraniem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac384eadc7e82850f988
+      kontekst: data.json:scripts.bandit5_frontdoor.node17
+      linia: 29
+      sekcja_skryptu: node17
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: let me out let me out letmeout letmeout<i>letmeout</i>
+      pl: wypuść mnie wypuść mnie wypuśćmnie wypuśćmnie<i>wypuśćmnie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node20
+    wpisy:
+    - id: wol_69956d36f746faacfa64
+      kontekst: data.json:scripts.bandit5_frontdoor.node20
+      linia: 30
+      sekcja_skryptu: node20
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With a gasp, you finally snap out of the horrible hallucination, or possession, or whatever the hell that was. Jeez, you can still feel the sting of vinegar vapor in your eyes.
+      pl: Z westchnieniem wreszcie wychodzisz z tej okropnej halucynacji, opętania czy czego tam to było. O rany, wciąż czujesz pieczenie oparów octu w oczach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3ccb8df0fcd87b67e8bd
+      kontekst: data.json:scripts.bandit5_frontdoor.node20
+      linia: 31
+      sekcja_skryptu: node20
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Enter the pickle factory
+      pl: Wejdź do fabryki ogórków kiszonych
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6794a57a978d2eaa5e68
+      kontekst: data.json:scripts.bandit5_frontdoor.node20
+      linia: 32
+      sekcja_skryptu: node20
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do not enter the pickle factory
+      pl: Nie wchodzić do fabryki ogórków
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 118
+  skrypt: bandit5_ghost1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_309b4fd24910769f9656
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the ghost.
+      pl: Podchodzisz do ducha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb35b516beddefe9875e
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Gotta... gotta...  can't sleep until it's right.
+      pl: Muszę... muszę... nie zasnę, dopóki nie będzie dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf99210f886ce477ae69
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You all right there, pardner?
+      pl: Wszystko w porządku, partnerze?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: wol_23308af62a53576ee720
+      kontekst: data.json:scripts.bandit5_ghost1.convo
+      linia: 5
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Can't sleep can't sleep can't sleep can't sleep.
+      pl: Nie mogę spać nie mogę spać nie mogę spać nie mogę spać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cced79ba2135d7c70575
+      kontekst: data.json:scripts.bandit5_ghost1.convo
+      linia: 6
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes
+      pl: Ojej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a2dd063f1c282ce0c844
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's okay.  I took care of the cucumbers.
+      pl: W porządku. Ogarnąłem ogórki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: wol_2c6906975f45662763e3
+      kontekst: data.json:scripts.bandit5_ghost1.fix
+      linia: 8
+      sekcja_skryptu: fix
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's...  It's finally done.  Thank you.
+      pl: To... w końcu skończone. Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0b28a1b8e66db6c4d30
+      kontekst: data.json:scripts.bandit5_ghost1.fix
+      linia: 9
+      sekcja_skryptu: fix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost smiles as he fades away.  A few bones hit the ground below it.
+      pl: Duch uśmiecha się, gdy znika. Kilka kości spada na podłogę pod nim.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_abe5a40d0333d9bfc333
+      kontekst: data.json:scripts.bandit5_ghost1.fix
+      linia: 10
+      sekcja_skryptu: fix
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rest in peace, poor guy
+      pl: Spoczywaj w pokoju, biedaku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_e25773c3e1454ece5a2e
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put him out of his misery [Fight]
+      pl: Uwolnij go od cierpienia [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9537aee0eb259e3d62a
+      kontekst: data.json:scripts.bandit5_ghost1.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his misery
+      pl: Zostaw go w jego nieszczęściu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_416d193f392ecaf7c114
+      kontekst: data.json:scripts.bandit5_ghost1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thanks to your unrivaled peacemaking abilities, that ghost is definitely at peace now.
+      pl: Dzięki twoim niezrównanym zdolnościom pojednawczym ten duch na pewno ma teraz spokój.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_7235348deb8da2cb8b93
+      kontekst: data.json:scripts.bandit5_ghost1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That man and his army of ghostly cucumbers really did a number on you.  You come to amid piles of pickle-scented filth.
+      pl: Ten człowiek i jego armia upiornych ogórków naprawdę cię wykończyli. Odzyskujesz przytomność pośród stosów pachnącego kiszonym ogórkiem brudu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_64dc092a9eec5f1decae
+      kontekst: data.json:scripts.bandit5_ghost1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You can say that again
+      pl: Możesz to powtórzyć
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 119
+  skrypt: bandit5_ghost2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_309b4fd24910769f9656
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the ghost.
+      pl: Podchodzisz do ducha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e470bbc9cd7f1f678ef0
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Salt.  Salt salt.  Gotta salt the salt.  Salt.
+      pl: Sól. Sól sól. Trzeba posolić sól. Sól.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf99210f886ce477ae69
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You all right there, pardner?
+      pl: Wszystko w porządku, partnerze?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: wol_13ffa06bb0eb2544f95b
+      kontekst: data.json:scripts.bandit5_ghost2.convo
+      linia: 5
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: SALT!
+      pl: SÓL!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4820cc75746d68dacc64
+      kontekst: data.json:scripts.bandit5_ghost2.convo
+      linia: 6
+      sekcja_skryptu: convo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Jeez, okay, salt.  Calm down.
+      pl: O rany, dobra, sól. Spokojnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_49a8a937bc2861f56f05
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The salt is correct.
+      pl: Sól jest poprawna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: wol_2c6906975f45662763e3
+      kontekst: data.json:scripts.bandit5_ghost2.fix
+      linia: 8
+      sekcja_skryptu: fix
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's...  It's finally done.  Thank you.
+      pl: To... w końcu skończone. Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0b28a1b8e66db6c4d30
+      kontekst: data.json:scripts.bandit5_ghost2.fix
+      linia: 9
+      sekcja_skryptu: fix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost smiles as he fades away.  A few bones hit the ground below it.
+      pl: Duch uśmiecha się, gdy znika. Kilka kości spada na podłogę pod nim.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4996b460401696b94a72
+      kontekst: data.json:scripts.bandit5_ghost2.fix
+      linia: 10
+      sekcja_skryptu: fix
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rest in peace
+      pl: Spoczywaj w pokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_e25773c3e1454ece5a2e
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put him out of his misery [Fight]
+      pl: Uwolnij go od cierpienia [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9537aee0eb259e3d62a
+      kontekst: data.json:scripts.bandit5_ghost2.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his misery
+      pl: Zostaw go w jego nieszczęściu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_c63581cf05e9b1be991e
+      kontekst: data.json:scripts.bandit5_ghost2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've put that unfortunate bandit to rest.  Maybe now he'll have less of a salty attitude.
+      pl: Dałeś temu nieszczęsnemu bandytowi spokój. Może teraz będzie mniej słony w nastawieniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_e61380a6973a57409d16
+      kontekst: data.json:scripts.bandit5_ghost2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not only did he give you grievous wounds, but he rubbed salt in them!  You wake up in a pile of pickle-scented trash.
+      pl: Nie tylko zadał ci poważne rany, ale jeszcze wetarł w nie sól! Budzisz się w stercie śmieci pachnących ogórkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_a49377f616d648049f39
+      kontekst: data.json:scripts.bandit5_ghost2.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insult to injury!
+      pl: Obelga do obrażeń!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 120
+  skrypt: bandit5_ghost3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_309b4fd24910769f9656
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the ghost.
+      pl: Podchodzisz do ducha.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e85236f234f6786c9f14
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's not right, it's not right.
+      pl: To nie tak, to nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf99210f886ce477ae69
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You all right there, pardner?
+      pl: Wszystko w porządku, partnerze?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: convo
+    wpisy:
+    - id: wol_8bc447d062416b3f71ac
+      kontekst: data.json:scripts.bandit5_ghost3.convo
+      linia: 5
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: All wrong.  The temperature.  It's not right.  It's all wrong.  Not right at all.
+      pl: Wszystko źle. Temperatura. Nie tak. Wszystko jest nie tak. W ogóle nie tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46f1f23cc33b8ea95555
+      kontekst: data.json:scripts.bandit5_ghost3.convo
+      linia: 6
+      sekcja_skryptu: convo
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Alright, then, do you...
+      pl: Dobrze więc, czy ty...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c74e715ef174d339a6f6
+      kontekst: data.json:scripts.bandit5_ghost3.convo
+      linia: 7
+      sekcja_skryptu: convo
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: All wrong!
+      pl: Wszystko źle!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_db19447ce712551dcac3
+      kontekst: data.json:scripts.bandit5_ghost3.convo
+      linia: 8
+      sekcja_skryptu: convo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Aaaaah!
+      pl: Aaaaach!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_36dfb08fa228f213b3b9
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The vinegar is 190 degrees.
+      pl: Ocet ma 190 stopni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: wol_2c6906975f45662763e3
+      kontekst: data.json:scripts.bandit5_ghost3.fix
+      linia: 10
+      sekcja_skryptu: fix
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: It's...  It's finally done.  Thank you.
+      pl: To... w końcu skończone. Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0b28a1b8e66db6c4d30
+      kontekst: data.json:scripts.bandit5_ghost3.fix
+      linia: 11
+      sekcja_skryptu: fix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost smiles as he fades away.  A few bones hit the ground below it.
+      pl: Duch uśmiecha się, gdy znika. Kilka kości spada na podłogę pod nim.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4996b460401696b94a72
+      kontekst: data.json:scripts.bandit5_ghost3.fix
+      linia: 12
+      sekcja_skryptu: fix
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rest in peace
+      pl: Spoczywaj w pokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_e25773c3e1454ece5a2e
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put him out of his misery [Fight]
+      pl: Uwolnij go od cierpienia [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9537aee0eb259e3d62a
+      kontekst: data.json:scripts.bandit5_ghost3.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his misery
+      pl: Zostaw go w jego nieszczęściu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_bd2b6ab21a1c6174ad6a
+      kontekst: data.json:scripts.bandit5_ghost3.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You set that ghostly fellow to rights, all right.
+      pl: Postawiłeś tego upiornego gościa na nogi, owszem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_863320bbed95205dc334
+      kontekst: data.json:scripts.bandit5_ghost3.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird.  He didn't even have legs.
+      pl: Dziwne. Nie miał nawet nóg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_0fee4a75e59bd155575b
+      kontekst: data.json:scripts.bandit5_ghost3.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That vinegar ghost fight really went sour.  You come to amidst the foul-smelling garbage on the factory floor.
+      pl: Ta walka z octowym duchem naprawdę poszła na kwaśno. Odzyskujesz przytomność pośród śmierdzącego śmiecia na fabrycznej podłodze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_5329134c71fa82aca5f4
+      kontekst: data.json:scripts.bandit5_ghost3.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 121
+  skrypt: bandit5_lever1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: top
+    wpisy:
+    - id: wol_5a9b3a41b4f032648bc2
+      kontekst: data.json:scripts.bandit5_lever1.top
+      linia: 1
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: COARSE SALT ADJUSTMENT
+      pl: ZGRUBNA REGULACJA SOLI
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa4ab7db40307afa075a
+      kontekst: data.json:scripts.bandit5_lever1.top
+      linia: 2
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The salinity meter on the tank reads @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@
+      pl: 'Miernik zasolenia na zbiorniku: @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@bandit5_salinity1@'
+      - '@bandit5_salinity2@'
+      - '@bandit5_salinity3@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6de5a1aa75e57c284004
+      kontekst: data.json:scripts.bandit5_lever1.top
+      linia: 3
+      sekcja_skryptu: top
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull lever
+      pl: Pociągnij dźwignię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 122
+  skrypt: bandit5_lever2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: top
+    wpisy:
+    - id: wol_b0d88d80318d4b347039
+      kontekst: data.json:scripts.bandit5_lever2.top
+      linia: 1
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: SALT ADJUSTMENT
+      pl: REGULACJA SOLI
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa4ab7db40307afa075a
+      kontekst: data.json:scripts.bandit5_lever2.top
+      linia: 2
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The salinity meter on the tank reads @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@
+      pl: 'Miernik zasolenia na zbiorniku: @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@bandit5_salinity1@'
+      - '@bandit5_salinity2@'
+      - '@bandit5_salinity3@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6de5a1aa75e57c284004
+      kontekst: data.json:scripts.bandit5_lever2.top
+      linia: 3
+      sekcja_skryptu: top
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull lever
+      pl: Pociągnij dźwignię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 123
+  skrypt: bandit5_lever3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: top
+    wpisy:
+    - id: wol_b0251ba5c474ffcff946
+      kontekst: data.json:scripts.bandit5_lever3.top
+      linia: 1
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: FINE SALT ADJUSTMENT
+      pl: DOKŁADNA REGULACJA SOLI
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa4ab7db40307afa075a
+      kontekst: data.json:scripts.bandit5_lever3.top
+      linia: 2
+      sekcja_skryptu: top
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The salinity meter on the tank reads @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@
+      pl: 'Miernik zasolenia na zbiorniku: @bandit5_salinity1@@bandit5_salinity2@@bandit5_salinity3@'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '@bandit5_salinity1@'
+      - '@bandit5_salinity2@'
+      - '@bandit5_salinity3@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6de5a1aa75e57c284004
+      kontekst: data.json:scripts.bandit5_lever3.top
+      linia: 3
+      sekcja_skryptu: top
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull lever
+      pl: Pociągnij dźwignię
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 124
+  skrypt: bandit5_picklelever
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a25109e6ebf2ec8c5363
+      kontekst: data.json:scripts.bandit5_picklelever.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It says FACTORY ACTIVATION LEVER.
+      pl: 'Napis: DŹWIGNIA AKTYWACJI FABRYKI.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e113fff26bd9f7628a39
+      kontekst: data.json:scripts.bandit5_picklelever.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it
+      pl: Pociągnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pull
+    wpisy:
+    - id: wol_1e5c126195e4205e6e56
+      kontekst: data.json:scripts.bandit5_picklelever.pull
+      linia: 3
+      sekcja_skryptu: pull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the lever and nothing happens.  Something in the machinery rooms must not be set up correctly.
+      pl: Ciągniesz dźwignię i nic się nie dzieje. Coś w maszynowniach musi być źle ustawione.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3de7a04bf3aa73cfa933
+      kontekst: data.json:scripts.bandit5_picklelever.pull
+      linia: 4
+      sekcja_skryptu: pull
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rats
+      pl: Szlag
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: success
+    wpisy:
+    - id: wol_de26ec5bcc75f104072d
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 5
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the lever and there is a deafening roar as the old machinery springs into life.
+      pl: Ciągniesz dźwignię i rozlega się ogłuszający ryk, gdy stary mechanizm ożywa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_428ef95a7578be3b8c78
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 6
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a while, a load of pickles is deposited in the receptacle to the left of the switch.
+      pl: Po chwili w pojemniku po lewej stronie przełącznika ląduje partia ogórków kiszonych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03400ca863c9b34c3b51
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 7
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  All that work for three pickles?  No wonder this place went out of business.
+      pl: Hm. Tyle roboty dla trzech ogórków kiszonych? Nic dziwnego, że to miejsce upadło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_138cd4b5df45f970b888
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 8
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost from the cucumber room drifts through the door, gives you a grateful look, then clatters to the floor as it is replaced with a pile of bones.
+      pl: Duch z pokoju ogórkowego przepływa przez drzwi, rzuca ci wdzięczne spojrzenie, po czym brzęczy na podłodze, zamieniając się w stos kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c72b8500ef42c3ec3f04
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 9
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost from the salt room drifts through the door, gives you a grateful look, then collapses into a pile of remains.
+      pl: Duch z pokoju solnego przepływa przez drzwi, rzuca ci wdzięczne spojrzenie, po czym zapada się w stos szczątków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f43d5d64bffe6f569b86
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 10
+      sekcja_skryptu: success
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost from the vinegar room drifts through the door, gives you a grateful look, then vanishes in a puff of bones.
+      pl: Duch z pokoju octowego przepływa przez drzwi, rzuca ci wdzięczne spojrzenie, po czym znika w chmurce kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa3c75c1caee62e5f70e
+      kontekst: data.json:scripts.bandit5_picklelever.success
+      linia: 11
+      sekcja_skryptu: success
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep
+      pl: Ta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_6868bcec7591b0700bdc
+      kontekst: data.json:scripts.bandit5_picklelever.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't pull it
+      pl: Nie pociągaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadydone
+    wpisy:
+    - id: wol_c56a71077838f2ec5da9
+      kontekst: data.json:scripts.bandit5_picklelever.alreadydone
+      linia: 13
+      sekcja_skryptu: alreadydone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already activated the pickle factory and made some pickles.  There's no pickle ingredients left to make pickles out of, even if "pickle" actually seemed like a word at this point.
+      pl: Już uruchomiłeś fabrykę ogórków i zrobiłeś ogórki. Nie zostało składników na ogórki, nawet gdyby słowo „ogórek” w ogóle brzmiało sensownie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 125
+  skrypt: bandit5_releasevalve
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_92c1289eb2cf385eab07
+      kontekst: data.json:scripts.bandit5_releasevalve.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a steam release valve.
+      pl: To zawór upustu pary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opt
+    wpisy:
+    - id: wol_76f6afc55a1b148ac2d9
+      kontekst: data.json:scripts.bandit5_releasevalve.opt
+      linia: 2
+      sekcja_skryptu: opt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it
+      pl: Obróć to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pull
+    wpisy:
+    - id: wol_9344b80bd3908b372859
+      kontekst: data.json:scripts.bandit5_releasevalve.pull
+      linia: 3
+      sekcja_skryptu: pull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some steam is released.
+      pl: Uwalnia się trochę pary.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3ff6504a335ed3e21a4
+      kontekst: data.json:scripts.bandit5_releasevalve.pull
+      linia: 4
+      sekcja_skryptu: pull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>%bandit5_steam%</i>
+      pl: <i>%bandit5_steam%</i>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - '%bandit5_steam%'
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98e12221671fe1bd5409
+      kontekst: data.json:scripts.bandit5_releasevalve.pull
+      linia: 5
+      sekcja_skryptu: pull
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Turn it again
+      pl: Obróć znowu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whiff
+    wpisy:
+    - id: wol_487425d857c1f0801cfa
+      kontekst: data.json:scripts.bandit5_releasevalve.whiff
+      linia: 6
+      sekcja_skryptu: whiff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens.
+      pl: Nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 126
+  skrypt: bandit5_saltdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_bc9713b101458a315c63
+      kontekst: data.json:scripts.bandit5_saltdoor.nope
+      linia: 1
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door just leads to an empty, dusty room.  Huh.  You could've sworn there was a big tank full of pickle brine in there before.  And a ghost.
+      pl: Drzwi prowadzą do pustego, zakurzonego pokoju. Hm. Przysiągłbyś, że była tam wielka kadź z zalewą korniszonową i duch.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b490f9476b0d61950c6
+      kontekst: data.json:scripts.bandit5_saltdoor.nope
+      linia: 2
+      sekcja_skryptu: nope
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well
+      pl: No cóż
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 127
+  skrypt: bandit5_shovelbin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c029b8db5a16e1dcd7d9
+      kontekst: data.json:scripts.bandit5_shovelbin.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a bin of coal with a shovel in it.
+      pl: To pojemnik z węglem i łopatą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_15e5ab0614eede82a103
+      kontekst: data.json:scripts.bandit5_shovelbin.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the shovel
+      pl: Weź łopatę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 131
+  skrypt: bandit5_vinegardoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: nope
+    wpisy:
+    - id: wol_1e6f6df2e7050370f3fc
+      kontekst: data.json:scripts.bandit5_vinegardoor.nope
+      linia: 1
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This door just leads to an empty, dusty room.  Huh.  You could've sworn there was a vinegar tank and a boiler in there.  And why would you make something like that up?
+      pl: Te drzwi prowadzą tylko do pustego, zakurzonego pokoju. Hm. Mógłbyś przysiąc, że był tu zbiornik z octem i piec. I po co miałbyś to zmyślać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b490f9476b0d61950c6
+      kontekst: data.json:scripts.bandit5_vinegardoor.nope
+      linia: 2
+      sekcja_skryptu: nope
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well
+      pl: No cóż
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 132
+  skrypt: bandit5_vlassgrave
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f173b7946cc02272541a
+      kontekst: data.json:scripts.bandit5_vlassgrave.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gretcha Vlass.
+      pl: Gretcha Vlass.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1723352598138dd4fe05
+      kontekst: data.json:scripts.bandit5_vlassgrave.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 1801-1879
+      pl: 1801-1879
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb76508fbf3d184e7c7b
+      kontekst: data.json:scripts.bandit5_vlassgrave.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She was very very terrible.
+      pl: Była bardzo, bardzo okropna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5ac5d2520ea409a0af7f
+      kontekst: data.json:scripts.bandit5_vlassgrave.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Commune with her spirit [20 Mysticality]
+      pl: Nawiąż kontakt z jej duchem [20 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[20 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5ac5d2520ea409a0af7f
+      kontekst: data.json:scripts.bandit5_vlassgrave.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Commune with her spirit [20 Mysticality]
+      pl: Nawiąż kontakt z jej duchem [20 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[20 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 133
+  skrypt: bandit5_vlassrevisit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 30
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bac6a0853ff319083b05
+      kontekst: data.json:scripts.bandit5_vlassrevisit.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reach into Gretcha's grave with your mind.
+      pl: Sięgasz umysłem do grobu Gretchy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52dc1fa30c574e59d2ea
+      kontekst: data.json:scripts.bandit5_vlassrevisit.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The... the pain!
+      pl: B... ból!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_b18f2770de1dae406dfa
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node2
+      linia: 3
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh no, you're late for your shift! Mrs. Vlass is gonna be <i>so mad!</i> She might literally bite your head off! Okay, well, not <i>literally</i> literally. Probably.
+      pl: O nie, spóźniłeś się na zmianę! Pani Vlass będzie <i>wściekła!</i> Może ci dosłownie odgryźć głowę! No, właściwie to nie <i>dosłownie</i> dosłownie. Chyba.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_87872a48a003518a2ed6
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node2
+      linia: 4
+      sekcja_skryptu: node2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Quick! Get suited up!
+      pl: Szybko! Ubieraj się!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_8ef2fcfb3c158afb9cf2
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node3
+      linia: 5
+      sekcja_skryptu: node3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You clock in and hurriedly put on your bright green coveralls. Mrs. Vlass, as predicted, is furious.
+      pl: Odbijasz kartę i w pośpiechu zakładasz jaskrawozielony kombinezon. Pani Vlass, jak przewidywano, jest wściekła.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac8f293b21fbed7b95dd
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node3
+      linia: 6
+      sekcja_skryptu: node3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Late again?! You'd better stop taking this job for granted! You think you're gonna find a place with a nice dormitory and a reasonably-priced company store like ours somewhere else? With <i>your</i> skills? Hah! You're doing three shifts today, buster! Get to work, you're on pickle hopper duty!
+      pl: Znowu się spóźniłeś?! Lepiej przestań uważać tę pracę za coś oczywistego! Myślisz, że gdzie indziej znajdziesz miejsce z porządnym dormitorium i sklepem firmowym w rozsądnych cenach, takim jak nasz? Z <i>twoimi</i> umiejętnościami? Ha! Dzisiaj pracujesz trzy zmiany, kolego! Do roboty, masz służbę przy lejach z ogórkami!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3f573e8f6bbe4433d17
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node3
+      linia: 7
+      sekcja_skryptu: node3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Start your shift
+      pl: Rozpocznij zmianę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node4
+    wpisy:
+    - id: wol_a416b4e6481110036de0
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node4
+      linia: 8
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pickle hopper duty runs you ragged, like always. Keeping the hoppers filled to keep a constant flow down the chutes means you're constantly at a near-sprint, because you have to manage the cuke shunts to keep the levels equal.
+      pl: Służba przy lejach z ogórkami wyczerpuje cię jak zawsze. Żeby utrzymać stały przepływ w rynnach, musisz non stop zapełniać leje — biegniesz prawie sprintem, bo trzeba sterować przekierowaniami ogórków, żeby poziomy się zgadzały.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce428ac9bae8315bad5a
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node4
+      linia: 9
+      sekcja_skryptu: node4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If you get uneven pickle levels, Mrs. Vlass knows. Nobody knows <i>how</i> she knows, but she knows. A whack from her cane is the minimum you'll get.
+      pl: Jeśli poziomy ogórków wychodzą nierówne, pani Vlass wie. Nikt nie wie, <i>jak</i> wie, ale wie. Uderzenie laską to minimum, co dostaniesz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d17f32a626624ffee175
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node4
+      linia: 10
+      sekcja_skryptu: node4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dammit dammit dammit
+      pl: Cholera cholera cholera
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node10
+    wpisy:
+    - id: wol_24b8df4e6bca2b4bac4b
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node10
+      linia: 11
+      sekcja_skryptu: node10
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At the end of the first six-hour shift, you get a brief break. You cram a stale cheese sandwich into your mouth while Mrs. Vlass glares at her pocketwatch, counting down three minutes to the second.
+      pl: Pod koniec pierwszej sześciogodzinnej zmiany dostajesz krótką przerwę. Wpychasz w usta czerstwą kanapkę z serem, podczas gdy pani Vlass wpatruje się w kieszonkowy zegarek, odliczając trzy minuty co do sekundy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_446419e46e3c02f5ef25
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node10
+      linia: 12
+      sekcja_skryptu: node10
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Break's over! Second shift! You, get over to the salt tank! <i>NOW!</i>
+      pl: Koniec przerwy! Druga zmiana! Ty, do zbiornika z solą! <i>JUŻ!</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9166f033e1b976a794de
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node10
+      linia: 13
+      sekcja_skryptu: node10
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh god
+      pl: O rany
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node11
+    wpisy:
+    - id: wol_3c8d17f907e3e980e322
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node11
+      linia: 14
+      sekcja_skryptu: node11
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Managing the salt tank isn't as strenuous as the pickle hoppers, but it's still a neverending tension. The brine concentration has to be constantly monitored and kept at a very specific measurement, which means constant adjustments. Meanwhile, you can feel yourself desiccating from the haze of salt dust that fills the room.
+      pl: Obsługa zbiornika soli nie jest tak wyczerpująca jak skakanie po ogórkach, ale to nieustanna nerwica. Stężenie solanki trzeba non stop monitorować i utrzymywać na bardzo konkretnym poziomie, co oznacza ciągłe korekty. Tymczasem czujesz, jak wysychasz od mgły solnej kurzu wypełniającej pomieszczenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9d09b5184972e50bbf5
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node11
+      linia: 15
+      sekcja_skryptu: node11
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: If anything in this place kills you, it's probably gonna be salt tank duty. White lung is nasty business.
+      pl: Jeśli cokolwiek w tym miejscu cię zabije, to pewnie będzie to służba przy zbiorniku z solanką. Białe płuca to brudna robota.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e65ae31e4dc7890aa27
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node11
+      linia: 16
+      sekcja_skryptu: node11
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cough!
+      pl: Kaszl!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node12
+    wpisy:
+    - id: wol_924cb85645f87ed958fd
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node12
+      linia: 17
+      sekcja_skryptu: node12
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Cough on your own time! And get that salinity back to normal! It's supposed to be nine hundred and seventy-six parts per thousand! How hard is that to remember? Nine hundred seventy-six! Idiot!
+      pl: Kasłaj we własnym czasie! I przywróć zasolenie do normy! Ma wynosić dziewięćset siedemdziesiąt sześć części na tysiąc! Jak trudno to zapamiętać? Dziewięćset siedemdziesiąt sześć! Idioto!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_254566269cb1dd93e9b7
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node12
+      linia: 18
+      sekcja_skryptu: node12
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Please let me out of here
+      pl: Proszę, wypuść mnie stąd
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node15
+    wpisy:
+    - id: wol_450d54b1619c1a73b3ee
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node15
+      linia: 19
+      sekcja_skryptu: node15
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You get another 180-second break before third shift. You spend most of it drinking water. The company doesn't charge for water, but you've heard a rumor they're considering it.
+      pl: Masz kolejną 180-sekundową przerwę przed trzecią zmianą. Większość spędzasz na piciu wody. Firma nie bierze za wodę, ale słyszałeś plotkę, że rozważają to wprowadzenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b19168ebef9d40d67ded
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node15
+      linia: 20
+      sekcja_skryptu: node15
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Break's over! Get to the boiler!
+      pl: Koniec przerwy! Do kotła!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb64a63b51be1fb90ca1
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node15
+      linia: 21
+      sekcja_skryptu: node15
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh no please let me out please
+      pl: O nie proszę wypuść mnie proszę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node16
+    wpisy:
+    - id: wol_d2c6d829758611437579
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node16
+      linia: 22
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boiler duty means shoveling coal into a furnace. A furnace that runs a giant tank of boiling vinegar.
+      pl: Obowiązki przy kotle to wrzucanie węgla do pieca. Pieca, który napędza gigantyczny zbiornik wrzącego octu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9fdeec46373e770177a7
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node16
+      linia: 23
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It stings in here. You've tried to work with your eyes closed, but Mrs. Vlass screams if you drop any coal on the floor. Or if you let the temperature get too low. Or too high. Or just for no particular reason.
+      pl: Tu piecze w oczach. Próbowałeś pracować z zamkniętymi oczami, ale pani Vlass wrzeszczy, jeśli upuścisz choć kawałek węgla na podłogę. Albo jeśli temperatura spadnie za nisko. Albo wzrośnie za wysoko. Albo po prostu bez powodu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_375b690557b30055e91d
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node16
+      linia: 24
+      sekcja_skryptu: node16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At least you're used to the smell of boiling vinegar. In fact, you can't smell anything any more.
+      pl: Przynajmniej jesteś przyzwyczajony do zapachu gotującego się octu. Właściwie to nie czujesz już żadnych zapachów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d6a56798bdb0e08d409
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node16
+      linia: 25
+      sekcja_skryptu: node16
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: let me out please let me out
+      pl: wypuść mnie proszę wypuść mnie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node17
+    wpisy:
+    - id: wol_46311afadc1da0c07133
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node17
+      linia: 26
+      sekcja_skryptu: node17
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: One hundred and ninety degrees, idiot! Not one hundred eighty-nine! Not one hundred ninety-one! What do you think we pay you for??
+      pl: Sto dziewięćdziesiąt stopni, idioto! Nie sto osiemdziesiąt dziewięć! Nie sto dziewięćdziesiąt jeden! Za co ci niby płacimy??
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b4eeb54285e2b174dca
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node17
+      linia: 27
+      sekcja_skryptu: node17
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't really miss your sense of smell. Or not coughing all the time. You don't really <i>want</i> anything any more.
+      pl: Nie tęsknisz za węchem. Ani za ciągłym kaszlem. Nie <i>chcesz</i> już niczego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f018d8bdd6497f929cb5
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node17
+      linia: 28
+      sekcja_skryptu: node17
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Except to die.
+      pl: Poza umieraniem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac384eadc7e82850f988
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node17
+      linia: 29
+      sekcja_skryptu: node17
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: let me out let me out letmeout letmeout<i>letmeout</i>
+      pl: wypuść mnie wypuść mnie wypuśćmnie wypuśćmnie<i>wypuśćmnie</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node20
+    wpisy:
+    - id: wol_663625764b3ba4af5571
+      kontekst: data.json:scripts.bandit5_vlassrevisit.node20
+      linia: 30
+      sekcja_skryptu: node20
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bleh.  Why did you go through that?
+      pl: Ech. Po co ci to było?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 134
+  skrypt: bandit6_ambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: nothingtodo
+    wpisy:
+    - id: wol_fa3c75c1caee62e5f70e
+      kontekst: data.json:scripts.bandit6_ambush.nothingtodo
+      linia: 32
+      sekcja_skryptu: nothingtodo
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep
+      pl: Ta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 249
+  skrypt: book_cookery
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getrid
+    wpisy:
+    - id: wol_2b490f9476b0d61950c6
+      kontekst: data.json:scripts.book_cookery.getrid
+      linia: 5
+      sekcja_skryptu: getrid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well
+      pl: No cóż
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 250
+  skrypt: book_cowpuncher
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thickskin
+    wpisy:
+    - id: wol_3de7a04bf3aa73cfa933
+      kontekst: data.json:scripts.book_cowpuncher.thickskin
+      linia: 3
+      sekcja_skryptu: thickskin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rats
+      pl: Szlag
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 268
+  skrypt: book_potionery
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: getrid
+    wpisy:
+    - id: wol_2b490f9476b0d61950c6
+      kontekst: data.json:scripts.book_potionery.getrid
+      linia: 5
+      sekcja_skryptu: getrid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well
+      pl: No cóż
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 271
+  skrypt: book_snakeoiler
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: potionery
+    wpisy:
+    - id: wol_3de7a04bf3aa73cfa933
+      kontekst: data.json:scripts.book_snakeoiler.potionery
+      linia: 3
+      sekcja_skryptu: potionery
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rats
+      pl: Szlag
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: poisoner
+    wpisy:
+    - id: wol_3de7a04bf3aa73cfa933
+      kontekst: data.json:scripts.book_snakeoiler.poisoner
+      linia: 3
+      sekcja_skryptu: poisoner
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rats
+      pl: Szlag
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 330
+  skrypt: breadcrumb_fort2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_fa3c75c1caee62e5f70e
+      kontekst: data.json:scripts.breadcrumb_fort2.alreadygot
+      linia: 5
+      sekcja_skryptu: alreadygot
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep
+      pl: Ta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 359
+  skrypt: cemetery2_alcove2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_3de7a04bf3aa73cfa933
+      kontekst: data.json:scripts.cemetery2_alcove2.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Rats
+      pl: Szlag
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 390
+  skrypt: cemetery3_cultists
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: wait
+    wpisy:
+    - id: wol_cced79ba2135d7c70575
+      kontekst: data.json:scripts.cemetery3_cultists.wait
+      linia: 16
+      sekcja_skryptu: wait
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes
+      pl: Ojej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 634
+  skrypt: curlyscairn_exit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_fa3c75c1caee62e5f70e
+      kontekst: data.json:scripts.curlyscairn_exit.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep
+      pl: Ta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1184
+  skrypt: elvibrato2_fightcollider
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_5329134c71fa82aca5f4
+      kontekst: data.json:scripts.elvibrato2_fightcollider.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1204
+  skrypt: elvibrato3_enemybutton
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: press
+    wpisy:
+    - id: wol_487425d857c1f0801cfa
+      kontekst: data.json:scripts.elvibrato3_enemybutton.press
+      linia: 3
+      sekcja_skryptu: press
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens.
+      pl: Nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1374
+  skrypt: food_turnip
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_fa3c75c1caee62e5f70e
+      kontekst: data.json:scripts.food_turnip.yes
+      linia: 3
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep
+      pl: Ta
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1473
+  skrypt: fort5_goblinshed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_5329134c71fa82aca5f4
+      kontekst: data.json:scripts.fort5_goblinshed.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1531
+  skrypt: geologist_fight1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_5329134c71fa82aca5f4
+      kontekst: data.json:scripts.geologist_fight1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oof
+      pl: Uff
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1854
+  skrypt: mine4_switch1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e113fff26bd9f7628a39
+      kontekst: data.json:scripts.mine4_switch1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull it
+      pl: Pociągnij
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1861
+  skrypt: mine4_top_pile2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: findit
+    wpisy:
+    - id: wol_cced79ba2135d7c70575
+      kontekst: data.json:scripts.mine4_top_pile2.findit
+      linia: 5
+      sekcja_skryptu: findit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes
+      pl: Ojej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2279
+  skrypt: re_armycratef
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_cced79ba2135d7c70575
+      kontekst: data.json:scripts.re_armycratef.dontexplode
+      linia: 19
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes
+      pl: Ojej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2284
+  skrypt: re_banditb3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_5e65ae31e4dc7890aa27
+      kontekst: data.json:scripts.re_banditb3.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cough!
+      pl: Kaszl!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2471
+  skrypt: roybean_honeybean
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: buy0
+    wpisy:
+    - id: wol_64dc092a9eec5f1decae
+      kontekst: data.json:scripts.roybean_honeybean.buy0
+      linia: 13
+      sekcja_skryptu: buy0
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You can say that again
+      pl: Możesz to powtórzyć
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2484
+  skrypt: shroomcave_bonespile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_cced79ba2135d7c70575
+      kontekst: data.json:scripts.shroomcave_bonespile.alreadygot
+      linia: 12
+      sekcja_skryptu: alreadygot
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes
+      pl: Ojej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2786
+  skrypt: westpole_rockex
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: petroprompt
+    wpisy:
+    - id: wol_487425d857c1f0801cfa
+      kontekst: data.json:scripts.westpole_rockex.petroprompt
+      linia: 4
+      sekcja_skryptu: petroprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Nothing happens.
+      pl: Nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

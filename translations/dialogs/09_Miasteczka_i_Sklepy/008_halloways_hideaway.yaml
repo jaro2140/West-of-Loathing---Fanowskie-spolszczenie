@@ -1,0 +1,722 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: halloways_hideaway
+zrodlowy_batch: 073_dialog_loc_hallowaystore_halloways_hideaway.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 6
+liczba_wpisow: 42
+sceny:
+- kolejnosc_w_danych_gry: 1625
+  skrypt: hallowaystore_blood
+  pomieszczenie: &id001
+    id: hallowaystore
+    nazwa_en: Halloway's Hideaway
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5475e04ce32deebf4f02
+      kontekst: data.json:scripts.hallowaystore_blood.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This blood splatter is disturbingly squirrel shaped.
+      pl: Ta plama krwi niepokojąco przypomina wiewiórkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1626
+  skrypt: hallowaystore_curlysmeat
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_be2c628b4eb843115859
+      kontekst: data.json:scripts.hallowaystore_curlysmeat.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This X isn't real.  It's an abstract representation of your knowledge that something is buried here.
+      pl: To X nie jest prawdziwe. To abstrakcyjne przedstawienie twojej wiedzy, że coś tu jest zakopane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_815a8feb36487badc3ea
+      kontekst: data.json:scripts.hallowaystore_curlysmeat.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig up that abstraction [shovel]
+      pl: Wykop tę abstrakcję [łopata]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cd350741b2417de569e1
+      kontekst: data.json:scripts.hallowaystore_curlysmeat.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig up that abstraction [Requires shovel]
+      pl: Wykop tę abstrakcję [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1627
+  skrypt: hallowaystore_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f03573d58f235fe95f12
+      kontekst: data.json:scripts.hallowaystore_intro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guy behind the counter looks surprised when you enter, and makes some high-pitched chittering sounds, then shakes his head as if to clear out the cobwebs.
+      pl: Facet za ladą wygląda na zaskoczonego, gdy wchodzisz, wydaje kilka piskliwych dźwięków, potem kręci głową, jakby strząsał pajęczyny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1481a3df8ff194a955e7
+      kontekst: data.json:scripts.hallowaystore_intro.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ooookay
+      pl: Ooookej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1628
+  skrypt: hallowaystore_poo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ce7422b1cca043610f95
+      kontekst: data.json:scripts.hallowaystore_poo.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yuck.  Squirrel droppings.
+      pl: Fuj. Wiewiórcze kupy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d34ee37e2233e99d369b
+      kontekst: data.json:scripts.hallowaystore_poo.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Shovel them
+      pl: Wykop je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_06419f1cff34a7de1d91
+      kontekst: data.json:scripts.hallowaystore_poo.dig
+      linia: 3
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's nasty work, and you're not entirely sure why you're doing it all the way out here in the near wilderness.
+      pl: Brudna robota i nie do końca wiesz, czemu w ogóle robisz ją tu, na skraju dziczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1629
+  skrypt: hallowaystore_store
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 32
+  sekcje:
+  - etykieta: optstemp
+    wpisy:
+    - id: wol_237dc8d570553027da77
+      kontekst: data.json:scripts.hallowaystore_store.optstemp
+      linia: 1
+      sekcja_skryptu: optstemp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Halloway chews on something he had stored away in one of his cheeks.
+      pl: Halloway przeżuwa coś, co trzymał schowane w jednym policzku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_78edfff33c7f6315903b
+      kontekst: data.json:scripts.hallowaystore_store.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What happened to the squirrels?
+      pl: Co stało się z wiewiórkami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grace
+    wpisy:
+    - id: wol_17d811a0a2709777db5f
+      kontekst: data.json:scripts.hallowaystore_store.grace
+      linia: 4
+      sekcja_skryptu: grace
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, one day they were here, and the next day they were bloodstains.  I had the creepiest dream that night.  I dreamt a little girl with big, empty white eyes jumped in through my bedroom window and asked me if I wanted to have a tea party.
+      pl: No, pewnego dnia tu byli, a następnego zostali plamami krwi. Tej nocy miałem najbardziej mrożący krew sen. Śniło mi się, że mała dziewczynka z wielkimi, pustymi białymi oczami wskoczyła przez okno sypialni i zapytała, czy chcę herbatkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85fa3c6d0241e84be5fc
+      kontekst: data.json:scripts.hallowaystore_store.grace
+      linia: 5
+      sekcja_skryptu: grace
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Uhh...  Let's talk about something else.
+      pl: Eee... Porozmawiajmy o czymś innym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_ae1249d622b090abf744
+      kontekst: data.json:scripts.hallowaystore_store.opts
+      linia: 6
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: H. Halloway? I found this silver pin...
+      pl: H. Halloway? Znalazłem tę srebrną spinkę...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keepsake
+    wpisy:
+    - id: wol_2e5bb42e0c1835f3898a
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 7
+      sekcja_skryptu: keepsake
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: H. Halloway? I found this silver pin that I think belongs to you.
+      pl: H. Halloway? Znalazłem tę srebrną spinkę i chyba należy do pana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dfdd7854acfabf29e5f5
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 8
+      sekcja_skryptu: keepsake
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw dangit. I was hopin' not to see that again. I locked that up with the keys inside on purpose. Too many bad memories. I 'preciate the intention, that's real kind of you, but go ahead an' keep it.
+      pl: O rany. Liczyłem, że tego już nie zobaczę. Celowo to zamknąłem z kluczami w środku. Za dużo złych wspomnień. Doceniam intencję, to naprawdę miłe z twojej strony, ale zatrzymaj to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a3b6e54b7b70f62d102
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 9
+      sekcja_skryptu: keepsake
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is it something to do with why you live all the way out here with squirrels?
+      pl: Czy to ma coś wspólnego z tym, czemu mieszkasz na takim odludziu z wiewiórkami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f16eca0a6f0f84cd4f3
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 10
+      sekcja_skryptu: keepsake
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I just don't feel comfortable in regular society no more.
+      pl: Po prostu nie czuję się już dobrze w zwykłym społeczeństwie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_772d3706bd69eb57f69d
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 11
+      sekcja_skryptu: keepsake
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is it something to do with this old pickaxe?
+      pl: Ma to coś wspólnego z tym starym kilofem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickaxe
+    wpisy:
+    - id: wol_ebe9bedaecfc6c21908a
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 12
+      sekcja_skryptu: pickaxe
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Is it something to do with this old pickaxe? It has your initials on it, and I found it in the same mine your pin is from.
+      pl: Czy to ma coś wspólnego z tym starym kilofem? Są na nim twoje inicjały, a znalazłem go w tej samej kopalni, z której pochodzi twoja odznaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6aad7242d38002ea257
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 13
+      sekcja_skryptu: pickaxe
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh my god! No! I didn't do nothin'!
+      pl: O mój Boże! Nie! To nie ja!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_307c10524a50b631ea9f
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 14
+      sekcja_skryptu: pickaxe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He starts chattering wildly in Squirrel.
+      pl: Zaczyna gorączkowo paplać po Wiewiórku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_426729ed3961411de596
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 15
+      sekcja_skryptu: pickaxe
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! Whoa! Okay, sorry, I'm putting it away, never mind!
+      pl: Wow! Whoa! Dobra, przepraszam, odkładam to, nieważne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1351871a3d1a6443bf8
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 16
+      sekcja_skryptu: pickaxe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Halloway grabs a paper bag from under the counter and hyperventilates into it for a bit. Eventually he calms down, though he still has kind of a wild look in his eyes.
+      pl: Halloway chwyta papierową torbę spod lady i przez chwilę w nią hiperwentyluje. W końcu się uspokaja, choć w oczach wciąż ma coś dzikiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3eaa26be0770087ae52
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 17
+      sekcja_skryptu: pickaxe
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So, uh, w-welcome to my shop. What can I do for you?
+      pl: Więc, yyy, w-witaj w moim sklepie. Co mogę dla ciebie zrobić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: keepsake
+    wpisy:
+    - id: wol_8196c0d10090ebb2ea02
+      kontekst: data.json:scripts.hallowaystore_store.keepsake
+      linia: 20
+      sekcja_skryptu: keepsake
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, I won't pry further.
+      pl: No, nie będę dalej wtykać nosa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_5b6499568bf2be9dbd24
+      kontekst: data.json:scripts.hallowaystore_store.opts
+      linia: 21
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You know a fella name of Curly? I found part of a map...
+      pl: Znasz faceta imieniem Curly? Znalazłem kawałek mapy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mapask2
+    wpisy:
+    - id: wol_b06f08ea756fcaac5611
+      kontekst: data.json:scripts.hallowaystore_store.mapask2
+      linia: 23
+      sekcja_skryptu: mapask2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He regards you coolly.
+      pl: Spokojnie cię ocenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b5a5553bbee1013b62f1
+      kontekst: data.json:scripts.hallowaystore_store.mapask2
+      linia: 24
+      sekcja_skryptu: mapask2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I can't say as I remember what you're talking about.
+      pl: Nie przypominam sobie, o czym mówisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_645ebf8094a2a6e86529
+      kontekst: data.json:scripts.hallowaystore_store.mapask2
+      linia: 25
+      sekcja_skryptu: mapask2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Sounds like he doesn't exactly trust you.
+      pl: Brzmi, jakby ci do końca nie ufał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f13d30f4bdcc478a63d5
+      kontekst: data.json:scripts.hallowaystore_store.mapask2
+      linia: 26
+      sekcja_skryptu: mapask2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well.  What are you selling?
+      pl: No cóż. Co sprzedajesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10539f37d06f4c1f4b86
+      kontekst: data.json:scripts.hallowaystore_store.mapask2
+      linia: 27
+      sekcja_skryptu: mapask2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, never mind then.
+      pl: No, to nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givemap
+    wpisy:
+    - id: wol_4a8524e1c8a261c08c47
+      kontekst: data.json:scripts.hallowaystore_store.givemap
+      linia: 29
+      sekcja_skryptu: givemap
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aha. Well, since you came all this way just to return my pin, I guess you're the trustworthy sort Curly was lookin' for. Here ya go, this is the other half a' that map.
+      pl: Aha. Skoro przebyłeś całą tę drogę tylko po to, żeby oddać moją przypinkę, chyba jesteś tym godnym zaufania typem, którego szukał Curly. Proszę, to druga połowa mapy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_475130ab946ef3bf57aa
+      kontekst: data.json:scripts.hallowaystore_store.givemap
+      linia: 30
+      sekcja_skryptu: givemap
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wow, thanks!
+      pl: Wow, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_495e51c5168966b2868a
+      kontekst: data.json:scripts.hallowaystore_store.opts
+      linia: 31
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let me see what you're selling.
+      pl: Zobaczmy, co sprzedajesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_832068fa8e0b6df5eb12
+      kontekst: data.json:scripts.hallowaystore_store.opts
+      linia: 32
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, see you later.
+      pl: No, do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_5b91cc164d62dfd90e7d
+      kontekst: data.json:scripts.hallowaystore_store.intro
+      linia: 33
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Uh, howdy. Name's Halloway. Hab Halloway. Sorry for the chitterin', I ain't seen another person in a long time.
+      pl: Eee, witaj. Nazywam się Halloway. Hab Halloway. Wybacz szczękanie, ale od dawna nie widziałem innego człowieka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b355d76ab32c6d02864
+      kontekst: data.json:scripts.hallowaystore_store.intro
+      linia: 34
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's not surprising, this place is pretty secluded. What do you do here?
+      pl: Nic dziwnego, to miejsce jest dość odludne. Czym się tu zajmujecie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5d9bd7ba408a94e44ba
+      kontekst: data.json:scripts.hallowaystore_store.intro
+      linia: 35
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mostly I sell pinecones to squirrels.
+      pl: Głównie sprzedaję wiewiórkom szyszki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96daa03ba8929dc92921
+      kontekst: data.json:scripts.hallowaystore_store.intro
+      linia: 37
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well...  I used to.
+      pl: Cóż... Kiedyś tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59f540d8d21516d95006
+      kontekst: data.json:scripts.hallowaystore_store.intro
+      linia: 38
+      sekcja_skryptu: intro
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Well, all right.
+      pl: Hm. No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2363
+  skrypt: re_goblind2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_59f540d8d21516d95006
+      kontekst: data.json:scripts.re_goblind2.hornswoggle
+      linia: 32
+      sekcja_skryptu: hornswoggle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Huh. Well, all right.
+      pl: Hm. No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

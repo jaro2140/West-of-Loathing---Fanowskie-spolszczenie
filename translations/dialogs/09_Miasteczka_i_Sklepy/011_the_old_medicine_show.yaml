@@ -1,0 +1,214 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: the_old_medicine_show
+zrodlowy_batch: 076_dialog_loc_medicineshow_the_old_medicine_show.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 7
+liczba_wpisow: 9
+sceny:
+- kolejnosc_w_danych_gry: 1000000
+  skrypt: house_airbnb3leftdoor
+  pomieszczenie: &id001
+    id: medicineshow
+    nazwa_en: The Old Medicine Show
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_98617c9357ed8396f808
+      kontekst: house.json:scripts.house_airbnb3leftdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000001
+  skrypt: house_airbnb3rightdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_98617c9357ed8396f808
+      kontekst: house.json:scripts.house_airbnb3rightdoor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000002
+  skrypt: house_airbnb4armoire
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: e
+    wpisy:
+    - id: wol_98617c9357ed8396f808
+      kontekst: house.json:scripts.house_airbnb4armoire.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000011
+  skrypt: house_airbnbpanelpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: gothrough
+    wpisy:
+    - id: wol_98617c9357ed8396f808
+      kontekst: house.json:scripts.house_airbnbpanelpop.gothrough
+      linia: 4
+      sekcja_skryptu: gothrough
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1771
+  skrypt: medicineshow_bookshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bec0cb296bc582e16a5f
+      kontekst: data.json:scripts.medicineshow_bookshelf.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Most of these books are fake, but there's one real one.
+      pl: Większość tych książek to podróbki, ale jedna jest prawdziwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1772
+  skrypt: medicineshow_nightstand
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1b8ad8e07d240b091b63
+      kontekst: data.json:scripts.medicineshow_nightstand.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the former resident's nightstand.
+      pl: To stolik nocny byłego mieszkańca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_98617c9357ed8396f808
+      kontekst: data.json:scripts.medicineshow_nightstand.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go through it
+      pl: Przejdź przez to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_b7126d9b8645be22865e
+      kontekst: data.json:scripts.medicineshow_nightstand.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's full of old snake pieces!
+      pl: Pełen starych wężowych kawałków!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1773
+  skrypt: medicineshow_popup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d4729275c537ecaec443
+      kontekst: data.json:scripts.medicineshow_popup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%medicineshow_a% %medicineshow_b%'
+      pl: '%medicineshow_a% %medicineshow_b%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%medicineshow_a%'
+      - '%medicineshow_b%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

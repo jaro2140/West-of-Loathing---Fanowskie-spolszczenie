@@ -1,0 +1,1059 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: silversmiths_house
+zrodlowy_batch: 107_dialog_loc_silversmith_silversmiths_house.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 9
+liczba_wpisow: 59
+sceny:
+- kolejnosc_w_danych_gry: 2500
+  skrypt: silversmith_bed
+  pomieszczenie: &id001
+    id: silversmith
+    nazwa_en: Silversmith's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0f8dec049dfce855e1f0
+      kontekst: data.json:scripts.silversmith_bed.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A twin bed.  The silversmith must've been a bachelor.  Or a half-width guy with a half-width spouse.
+      pl: Łóżko pojedyncze. Srebrnik musiał być kawalerem. Albo facetem o połowie szerokości z małżonką o połowie szerokości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2501
+  skrypt: silversmith_door
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_49aa003b1dda6fe4bf3a
+      kontekst: data.json:scripts.silversmith_door.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The door is locked.
+      pl: Drzwi są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_5e9a1c0ebbe59039b9be
+      kontekst: data.json:scripts.silversmith_door.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Got it!
+      pl: Jasne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2502
+  skrypt: silversmith_foodshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_322bb253aa28d5237ca1
+      kontekst: data.json:scripts.silversmith_foodshelf.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shelf looks pretty picked-over.
+      pl: Ta półka wygląda na dość przeszukaną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_818774697c7cf38e0d06
+      kontekst: data.json:scripts.silversmith_foodshelf.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a couple of things that still look edible.
+      pl: Znajdujesz parę rzeczy, które wciąż wyglądają na jadalne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2503
+  skrypt: silversmith_makebullets
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2f469d0dfdf66aa2cedb
+      kontekst: data.json:scripts.silversmith_makebullets.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The workbench has a little burner and crucible for melting silver things, and some bullet molds.  It seems pretty straightforward. There's also a vice, so you could smash silver bullets into needles if you wanted to.
+      pl: Na warsztacie jest mały palnik i tygiel do topienia srebrnych rzeczy oraz formy do kul. Wygląda prosto. Jest też imadło — mógłbyś rozbić srebrne kule na igły, gdybyś chciał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_2c160ad336d9a39d8db8
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 2
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make 1 bullet [silver nugget]
+      pl: Zrób 1 pocisk [srebrny samorodek]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver nugget]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nugget
+    wpisy:
+    - id: wol_bd98c4e9fd64caa9924d
+      kontekst: data.json:scripts.silversmith_makebullets.nugget
+      linia: 3
+      sekcja_skryptu: nugget
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You melt the nugget and make a bullet, observing in the process that "nugget" and "bullet" are pretty similar words.
+      pl: Przetapiasz samorodek i robisz pocisk, stwierdzając po drodze, że „nugget” i „bullet” to całkiem podobne słowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6fe6cc3e298773893d52
+      kontekst: data.json:scripts.silversmith_makebullets.nugget
+      linia: 4
+      sekcja_skryptu: nugget
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to make an extra bullet out of the leftover silver.
+      pl: Udaje ci się zrobić dodatkowy pocisk z resztek srebra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_33644da5e25ede888f7c
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 5
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make 2 bullets [silver wedding ring]
+      pl: Zrób 2 pociski [srebrna obrączka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver wedding ring]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ring
+    wpisy:
+    - id: wol_222b541606d3893bf4dc
+      kontekst: data.json:scripts.silversmith_makebullets.ring
+      linia: 6
+      sekcja_skryptu: ring
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You melt down the wedding ring and make a couple of bullets.  It might have been a shotgun wedding, but it's a revolver divorce!
+      pl: Przetapiasz obrączkę ślubną i robisz parę pocisków. Może to był ślub z musu, ale to rozwód z rewolweru!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6fe6cc3e298773893d52
+      kontekst: data.json:scripts.silversmith_makebullets.ring
+      linia: 7
+      sekcja_skryptu: ring
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to make an extra bullet out of the leftover silver.
+      pl: Udaje ci się zrobić dodatkowy pocisk z resztek srebra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_387e645994c291ed7d1f
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 8
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make 3 bullets [silver cufflinks]
+      pl: Zrób 3 pociski [srebrne spinki do mankietów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver cufflinks]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cufflinks
+    wpisy:
+    - id: wol_364fcf117a18ff0e2d85
+      kontekst: data.json:scripts.silversmith_makebullets.cufflinks
+      linia: 9
+      sekcja_skryptu: cufflinks
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're not planning on going to any weddings or funerals any time soon, so you figure it's safe to turn these cufflinks into something more immediately useful.
+      pl: Nie planujesz wesel ani pogrzebów w najbliższej przyszłości, więc uznajesz, że można zamienić te spinki w coś bardziej użytecznego od razu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f44e67b7d8339ef3da6c
+      kontekst: data.json:scripts.silversmith_makebullets.cufflinks
+      linia: 10
+      sekcja_skryptu: cufflinks
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to make a couple of extra bullets out of the leftover silver.
+      pl: Udaje ci się zrobić parę dodatkowych pocisków z resztek srebra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_ae814991a3c481dcf8ae
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 11
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make 5 bullets [silver pocketwatch]
+      pl: Zrób 5 pocisków [srebrny zegarek kieszonkowy]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver pocketwatch]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: watch
+    wpisy:
+    - id: wol_a1fb04fdfe8cac0cfcf2
+      kontekst: data.json:scripts.silversmith_makebullets.watch
+      linia: 12
+      sekcja_skryptu: watch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The only time you care about is high noon.  Take that, fine Swiss craftsmanship!
+      pl: Jedyna godzina, na której ci zależy, to high noon. A nuż, szwajcarskie rzemiosło!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_88240d09eba5bdbdd00d
+      kontekst: data.json:scripts.silversmith_makebullets.watch
+      linia: 13
+      sekcja_skryptu: watch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to make a few extra bullets out of the leftover silver.
+      pl: Udaje ci się zrobić kilka dodatkowych pocisków z resztek srebra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: menu
+    wpisy:
+    - id: wol_bc4f96ec7b1ff21013b9
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 14
+      sekcja_skryptu: menu
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't have anything silver to make into bullets.
+      pl: Nie masz nic srebrnego na pociski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4ce618a416ca2bc9845
+      kontekst: data.json:scripts.silversmith_makebullets.menu
+      linia: 15
+      sekcja_skryptu: menu
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make needles [silver bullet]
+      pl: Zrób igły [srebrna kula]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[silver bullet]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: makeneedles
+    wpisy:
+    - id: wol_6ecb350f16f4c22a3a52
+      kontekst: data.json:scripts.silversmith_makebullets.makeneedles
+      linia: 16
+      sekcja_skryptu: makeneedles
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You squeeze the bullet in the vice a bunch of times to make some crude needles.
+      pl: Kilka razy ściskasz pocisk w imadle, robiąc prymitywne igły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2504
+  skrypt: silversmith_safe
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ddb943d7ef7a72de4477
+      kontekst: data.json:scripts.silversmith_safe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a note on the safe reading "I FORGOT THE DURNED COMBINATION TO THIS CONFOUNDED THING.  IF YOU CAN OPEN IT, YOU'RE WELCOME TO WHAT'S IN IT."
+      pl: 'Na sejfie notatka: „ZAPOMNIAŁEM CHOLERNY KOD DO TEGO UDRĘCZAJĄCEGO GRATU. JAK OTWORZYSZ, BIERZ CO W ŚRODKU.”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e94a425a966c5ce63415
+      kontekst: data.json:scripts.silversmith_safe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like a tricky one...
+      pl: Wygląda na trudne...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_4b2d1ad0a7cbf38a47b0
+      kontekst: data.json:scripts.silversmith_safe.open
+      linia: 4
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the safe!
+      pl: Otwierasz sejf!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2505
+  skrypt: silversmith_shelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8dad4c949ba43e6e1a0d
+      kontekst: data.json:scripts.silversmith_shelf.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bookshelf contains like 90 copies of Johnny Tremain.
+      pl: Na półce jest jakieś 90 egzemplarzy „Johnny'ego Tremain”.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dbe108e64be0754dc38c
+      kontekst: data.json:scripts.silversmith_shelf.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something weird about it, though.  It's... too neatly organized.  Like maybe the guy was hiding something.
+      pl: Jest w tym coś dziwnego — zbyt schludnie poukładane. Jakby ktoś coś ukrywał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_036e2e8385245ba6106c
+      kontekst: data.json:scripts.silversmith_shelf.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search for secrets [10 Moxie]
+      pl: Szukaj sekretów [10 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[10 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: search
+    wpisy:
+    - id: wol_dd042c3efa735dc1eb8c
+      kontekst: data.json:scripts.silversmith_shelf.search
+      linia: 4
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Tucked behind one of the books you find a small envelope filled with receipts.  About half of them are from a shop called The Silver Plater.
+      pl: Za jedną z książek znajdujesz małą kopertę z paragonami. Około połowa z nich jest ze sklepu o nazwie „Posrebrzacz”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1147600a2dd7a123e28
+      kontekst: data.json:scripts.silversmith_shelf.search
+      linia: 5
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He was crooked!  The silversmith was selling cheap fakes!
+      pl: Był nieuczciwy! Jubiler sprzedawał tanie podróbki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa0e6060fdcac5ae0eea
+      kontekst: data.json:scripts.silversmith_shelf.search
+      linia: 6
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh well.  He's gone now, and so are most of his customers.  No sense in stirring up trouble at this point.
+      pl: No cóż. Poszedł, a z nim większość klientów. Nie ma sensu teraz mieszać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3744ad5ed3ada9f4cd67
+      kontekst: data.json:scripts.silversmith_shelf.search
+      linia: 7
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You write down the location of the shop.  Might come in handy.
+      pl: Zapisujesz lokalizację sklepu. Może się przydać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a76bb493e4fda507b7a1
+      kontekst: data.json:scripts.silversmith_shelf.search
+      linia: 8
+      sekcja_skryptu: search
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's hit the road
+      pl: Ruszajmy w drogę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a0d2c9a51b50d71da22e
+      kontekst: data.json:scripts.silversmith_shelf.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Search for secrets [Requires 10 Moxie]
+      pl: Poszukaj sekretów [Wymaga 10 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 10 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2506
+  skrypt: silversmith_shelf_popup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8dad4c949ba43e6e1a0d
+      kontekst: data.json:scripts.silversmith_shelf_popup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bookshelf contains like 90 copies of Johnny Tremain.
+      pl: Na półce jest jakieś 90 egzemplarzy „Johnny'ego Tremain”.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2507
+  skrypt: silversmith_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 23
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_180dcc3d57f0ff6a0a71
+      kontekst: data.json:scripts.silversmith_spittoon.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A spittoon. At least... it looks like a spittoon. But it's next to the bed. It might actually be a bedpan.
+      pl: Spluwaczka. No, przynajmniej... wygląda jak spluwaczka. Ale stoi obok łóżka. Może to tak naprawdę nocnik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_ecf978440806b8b4d89f
+      kontekst: data.json:scripts.silversmith_spittoon.two
+      linia: 3
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What, really? I mean, if it is just a spittoon, that's bad enough. But it might be a bedpan, and that would be <i>way</i> worse.
+      pl: Co, naprawdę? To znaczy, jeśli to tylko spluwaczka, i tak źle. Ale może to nocnik, a to byłoby <i>dużo</i> gorzej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_b5a117bffcdd812b18dc
+      kontekst: data.json:scripts.silversmith_spittoon.three
+      linia: 5
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I feel like maybe you aren't getting what I'm saying. We're talking about an object that someone probably uses when they wake up in the middle of the night and can't be bothered to walk to the outhouse. And the <i>best</i> you can hope for is maybe they <i>only</i> use it to spit nighttime tobacco juice into, in which case it's only full of rancid, congealing tobacco spit.
+      pl: Mam wrażenie, że może nie do końca ogarniasz, o czym mówię. Mówimy o przedmiocie, z którego ktoś prawdopodobnie korzysta, gdy budzi się w środku nocy i nie ma ochoty iść do wychodka. A <i>najlepsze</i>, na co możesz liczyć, to że służy <i>tylko</i> do plucia nocnym tytoniowym ślinem — wtedy jest pełen zjełczałej, gęstniejącej plwociny tytoniowej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1a370f0ffb50bb2c4db
+      kontekst: data.json:scripts.silversmith_spittoon.three
+      linia: 6
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm investigating it
+      pl: Badam to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_09c85d76ea393ad3f69c
+      kontekst: data.json:scripts.silversmith_spittoon.four
+      linia: 7
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: I... are you even listening to me, or are you just sort of skimming past the text? BEDPAN.
+      pl: Ja... w ogóle mnie słuchasz, czy tylko jakoś przebiegasz wzrokiem po tekście? NOCNIK.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f36993d7a5ed1be07a3c
+      kontekst: data.json:scripts.silversmith_spittoon.four
+      linia: 8
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm pretty sure there's treasure in there, and you aren't stopping me
+      pl: Jestem prawie pewien, że tam jest skarb, i mnie nie powstrzymasz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_f6305aa76865f46ab6ff
+      kontekst: data.json:scripts.silversmith_spittoon.five
+      linia: 9
+      sekcja_skryptu: five
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>BEDPAN.</i></b>
+      pl: <b><i>BEDPAN.</i></b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97788063a4aecc21d455
+      kontekst: data.json:scripts.silversmith_spittoon.five
+      linia: 10
+      sekcja_skryptu: five
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Shut up! I'm investigating!
+      pl: Cicho! Prowadzę śledztwo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: six
+    wpisy:
+    - id: wol_10889c5291585d0d3018
+      kontekst: data.json:scripts.silversmith_spittoon.six
+      linia: 11
+      sekcja_skryptu: six
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Okay, <i>fine</i>. Have it your own way. Your own filthy disgusting way.
+      pl: Okej, <i>dobra</i>. Niech będzie po twojemu. Po twojemu własnemu brudnemu, obrzydliwemu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf87cd1bea82c76beacb
+      kontekst: data.json:scripts.silversmith_spittoon.six
+      linia: 12
+      sekcja_skryptu: six
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It turns out to probably not be a bedpan. But it is definitely a spittoon, and it is definitely filled with rotting brown spit.
+      pl: Okazuje się, że to chyba nie nocnik. Za to na pewno spluwaczka, i na pewno pełna zgniłej, brązowej plwociny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seven
+    wpisy:
+    - id: wol_020e63ad730d06ad4c18
+      kontekst: data.json:scripts.silversmith_spittoon.seven
+      linia: 14
+      sekcja_skryptu: seven
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What is <i>wrong</i> with you?
+      pl: Co z tobą <i>nie tak</i>?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa746625025e4d3fa910
+      kontekst: data.json:scripts.silversmith_spittoon.seven
+      linia: 15
+      sekcja_skryptu: seven
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bite me!
+      pl: Wal się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: eight
+    wpisy:
+    - id: wol_ab7cf97d2781dbdb71bf
+      kontekst: data.json:scripts.silversmith_spittoon.eight
+      linia: 16
+      sekcja_skryptu: eight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh good god. Okay. You plunge your hand in up to the wrist. It makes a <i>"gloop"</i> noise, and breaks the thin skin of congealing toxins that was previously keeping the dire smell in relative check. Now you are choking in a miasma of oily, bitter chaw-stink.
+      pl: O rany Boże. Dobra. Wciskasz dłoń aż po nadgarstek. Wydaje <i>„gloop”</i> i przebija cienką skórkę zgęstniałych toksyn, która dotąd trzymała okropny smród w miarę pod kontrolą. Teraz dusisz się w miazmacie tłustego, gorzkiego smrodu żucia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d7762af301804b45e779
+      kontekst: data.json:scripts.silversmith_spittoon.eight
+      linia: 17
+      sekcja_skryptu: eight
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You know that feeling you get when you're about to puke? How you get that taste way back in the rear corners of your mouth, that metallic tang by the root of your tongue like you're sucking on a corroded old penny?
+      pl: Znasz to uczucie, gdy masz zwymiotować? Ten smak głęboko w tylnych kącikach ust, metaliczna nuta u podstawy języka, jakbyś ssał skorodowanego starego grosza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c8010dd6b98ecffd9f8b
+      kontekst: data.json:scripts.silversmith_spittoon.eight
+      linia: 18
+      sekcja_skryptu: eight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Just tell me what I found already
+      pl: Powiedz mi w końcu, co znalazłem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nine
+    wpisy:
+    - id: wol_d6913d010012e77de6ec
+      kontekst: data.json:scripts.silversmith_spittoon.nine
+      linia: 19
+      sekcja_skryptu: nine
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You found a filthy slime-covered old brooch, are you happy? I bet you're going to put it on without even washing it first.
+      pl: Znalazłeś brudną, pokrytą śluzem starą broszkę, jesteś zadowolony? Założysz ją bez mycia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57def042f241da0300a4
+      kontekst: data.json:scripts.silversmith_spittoon.nine
+      linia: 20
+      sekcja_skryptu: nine
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe I will! So there!
+      pl: Może i tak zrobię! No i co!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: eight
+    wpisy:
+    - id: wol_64c4ef42c54b2490952c
+      kontekst: data.json:scripts.silversmith_spittoon.eight
+      linia: 21
+      sekcja_skryptu: eight
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ugggh I'm out of here
+      pl: Ugggh, wychodzę stąd
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seven
+    wpisy:
+    - id: wol_78230cbd6bf1ee6a18ef
+      kontekst: data.json:scripts.silversmith_spittoon.seven
+      linia: 22
+      sekcja_skryptu: seven
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, you win, never mind
+      pl: Dobra, wygrywasz, nieważne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_e90fa118a5bc62d0b5bd
+      kontekst: data.json:scripts.silversmith_spittoon.five
+      linia: 24
+      sekcja_skryptu: five
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: FINE! I'm leaving!
+      pl: DOBRZE! Wychodzę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_ccb5c563565361d29b2c
+      kontekst: data.json:scripts.silversmith_spittoon.four
+      linia: 25
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, okay, forget it
+      pl: Dobra, okej, nieważne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_6295e2a94e6fbd55c887
+      kontekst: data.json:scripts.silversmith_spittoon.three
+      linia: 26
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, forget it
+      pl: Okej, nieważne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_69c69c45ae3734f3dd6e
+      kontekst: data.json:scripts.silversmith_spittoon.start
+      linia: 28
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay away
+      pl: Trzymaj się z daleka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2508
+  skrypt: silversmith_workbench
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_af92eee57c8f118b7d76
+      kontekst: data.json:scripts.silversmith_workbench.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The sign says "SILVER BULLET MAKIN' APPARATUS -- HELP YERSELF."
+      pl: Znak mówi „APARAT DO ROBIENIA SREBRNYCH KUL -- OBSŁUŻ SIĘ”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21353c4397f07c16d0c2
+      kontekst: data.json:scripts.silversmith_workbench.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Help yerself
+      pl: Pomagaj sobie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

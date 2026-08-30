@@ -1,0 +1,500 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: humming_cave
+zrodlowy_batch: 052_dialog_loc_elvibrato1_humming_cave.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 12
+liczba_wpisow: 24
+sceny:
+- kolejnosc_w_danych_gry: 1172
+  skrypt: elvibrato1_boulder
+  pomieszczenie: &id001
+    id: elvibrato1
+    nazwa_en: Humming Cave
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_93dc12e9e8aa0baf9273
+      kontekst: data.json:scripts.elvibrato1_boulder.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You might be able to push this over...
+      pl: Może uda ci się to przewrócić...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cd0d369e8ea1539e1c4a
+      kontekst: data.json:scripts.elvibrato1_boulder.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try it [Muscle 10]
+      pl: Spróbuj [Mięśnie 10]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Muscle 10]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: push
+    wpisy:
+    - id: wol_d6da27d8d60be6ddab80
+      kontekst: data.json:scripts.elvibrato1_boulder.push
+      linia: 3
+      sekcja_skryptu: push
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Heave!  Ho!
+      pl: Ciągnij! Ho!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: snakefix
+    wpisy:
+    - id: wol_f4fc4e82f746c96d5d00
+      kontekst: data.json:scripts.elvibrato1_boulder.snakefix
+      linia: 4
+      sekcja_skryptu: snakefix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That oughta keep that snake at bay.
+      pl: To powinno trzymać tego węża z daleka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_7cea662058c734254482
+      kontekst: data.json:scripts.elvibrato1_boulder.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Try it [Requires Muscle 10]
+      pl: Spróbuj [Wymaga 10 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Muscle 10]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1175
+  skrypt: elvibrato1_gettransceiver
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ad42ac52be4415519806
+      kontekst: data.json:scripts.elvibrato1_gettransceiver.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A weird device.
+      pl: Dziwne urządzenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1176
+  skrypt: elvibrato1_purplegrass
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_dcaa446fc828b4ed225f
+      kontekst: data.json:scripts.elvibrato1_purplegrass.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Weird purple grass.
+      pl: Dziwna fioletowa trawa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: questget
+    wpisy:
+    - id: wol_9916116a959b4d62d80f
+      kontekst: data.json:scripts.elvibrato1_purplegrass.questget
+      linia: 2
+      sekcja_skryptu: questget
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be what the nun was talking about.
+      pl: To musi być to, o czym mówiła zakonnica.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f9bd6b1aea712f7ceed0
+      kontekst: data.json:scripts.elvibrato1_purplegrass.questget
+      linia: 3
+      sekcja_skryptu: questget
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it
+      pl: Zbierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1177
+  skrypt: elvibrato1_rocktrigger
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thinkpopup
+    wpisy:
+    - id: wol_ddfb77045364dd40f3f1
+      kontekst: data.json:scripts.elvibrato1_rocktrigger.thinkpopup
+      linia: 1
+      sekcja_skryptu: thinkpopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh, these rocks are weirdly organized...
+      pl: Hm, te skały są dziwnie poukładane...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1178
+  skrypt: elvibrato1_snakehole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_da88874377dac1a6e3fe
+      kontekst: data.json:scripts.elvibrato1_snakehole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That snake isn't gonna let you past without a struggle.
+      pl: Ten wąż nie przepuści cię bez walki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_813e347077f952047d51
+      kontekst: data.json:scripts.elvibrato1_snakehole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A struggle it is [Fight]
+      pl: No to szarpanina [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_eeb73316228214bea227
+      kontekst: data.json:scripts.elvibrato1_snakehole.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've been shocked to sleep by the snake.  You wake up in a heap outside the cave.
+      pl: Wąż uśpił cię wstrząsem. Budzisz się w stercie przed jaskinią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_71192d0ceb6abb8dabdc
+      kontekst: data.json:scripts.elvibrato1_snakehole.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_a0727a5cb017f237ffb8
+      kontekst: data.json:scripts.elvibrato1_snakehole.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've put an end to the shocking tale of the shocking snake.
+      pl: Położyłeś kres szokującej opowieści o szokującym wężu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a726e73dd426b4ae9c8a
+      kontekst: data.json:scripts.elvibrato1_snakehole.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You liberate the corpse from its skin.
+      pl: Wyzwalasz zwłoki ze skóry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c21e67ae0e2ea8cfed4a
+      kontekst: data.json:scripts.elvibrato1_snakehole.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You collect $medadd$ medicine from the snake's still-sparking organs.
+      pl: Zbierasz $medadd$ lekarstwa ze wciąż iskrzących organów węża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $medadd$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1181
+  skrypt: elvibrato1_teleprompt
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: saypopup
+    wpisy:
+    - id: wol_826a2b7fb92c28159138
+      kontekst: data.json:scripts.elvibrato1_teleprompt.saypopup
+      linia: 1
+      sekcja_skryptu: saypopup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, what is <i>that</i> thing!?
+      pl: Wow, co to <i>za</i> rzecz!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1206
+  skrypt: elvibrato3_fabtable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ad42ac52be4415519806
+      kontekst: data.json:scripts.elvibrato3_fabtable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A weird device.
+      pl: Dziwne urządzenie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1781
+  skrypt: mine1_snakehole1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_71192d0ceb6abb8dabdc
+      kontekst: data.json:scripts.mine1_snakehole1.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1840
+  skrypt: mine4_office_fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_71192d0ceb6abb8dabdc
+      kontekst: data.json:scripts.mine4_office_fight.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2172
+  skrypt: ranch1_flower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f9bd6b1aea712f7ceed0
+      kontekst: data.json:scripts.ranch1_flower.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it
+      pl: Zbierz to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2299
+  skrypt: re_banditg3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_71192d0ceb6abb8dabdc
+      kontekst: data.json:scripts.re_banditg3.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2301
+  skrypt: re_bandith2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_71192d0ceb6abb8dabdc
+      kontekst: data.json:scripts.re_bandith2.dontexplode
+      linia: 22
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ouch.
+      pl: Auć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

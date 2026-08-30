@@ -1,0 +1,2886 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: deepest_delve_mine
+zrodlowy_batch: 084_dialog_loc_mine8_deepest_delve_mine.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 25
+liczba_wpisow: 167
+sceny:
+- kolejnosc_w_danych_gry: 1000107
+  skrypt: house_ghost_conductor
+  pomieszczenie: &id001
+    id: mine8
+    nazwa_en: Deepest Delve Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: three
+    wpisy:
+    - id: wol_22b28117da2a1591cdf2
+      kontekst: house.json:scripts.house_ghost_conductor.three
+      linia: 23
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh!
+      pl: Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000111
+  skrypt: house_ghost_lardest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: otherb
+    wpisy:
+    - id: wol_22b28117da2a1591cdf2
+      kontekst: house.json:scripts.house_ghost_lardest.otherb
+      linia: 16
+      sekcja_skryptu: otherb
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Gosh!
+      pl: Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1927
+  skrypt: mine8_bracelet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bca62a7702cd6509f86c
+      kontekst: data.json:scripts.mine8_bracelet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a child's bracelet!
+      pl: To dziecięca bransoletka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d69c083ecfc04f681ff4
+      kontekst: data.json:scripts.mine8_bracelet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What the heck is that doing here?
+      pl: Co to cholera tu robi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1928
+  skrypt: mine8_coalcart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2b15e241ca61930ea68c
+      kontekst: data.json:scripts.mine8_coalcart.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing is really heavy!
+      pl: Ta rzecz jest naprawdę ciężka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_daaafaee0c674c8af66e
+      kontekst: data.json:scripts.mine8_coalcart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push it [30 Muscle]
+      pl: Pchnij to [30 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[30 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_daaafaee0c674c8af66e
+      kontekst: data.json:scripts.mine8_coalcart.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Push it [30 Muscle]
+      pl: Pchnij to [30 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[30 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1929
+  skrypt: mine8_coalsmasher
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4661387b7c575c3526fb
+      kontekst: data.json:scripts.mine8_coalsmasher.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This weird shaft thing goes down further than you can see.
+      pl: Ta dziwna rzecz-szyb idzie w dół dalej, niż widzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase1
+    wpisy:
+    - id: wol_a975bae7b184cc4061b6
+      kontekst: data.json:scripts.mine8_coalsmasher.phase1
+      linia: 2
+      sekcja_skryptu: phase1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a button that says WINCH.  It's probably for the winch.
+      pl: Jest przycisk z napisem WINCH. Pewnie do wciągarki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f47b00fb0b1677fc34c5
+      kontekst: data.json:scripts.mine8_coalsmasher.phase1
+      linia: 3
+      sekcja_skryptu: phase1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Activate the winch
+      pl: Uruchom wciągarkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase2
+    wpisy:
+    - id: wol_79392bee211df65e0f53
+      kontekst: data.json:scripts.mine8_coalsmasher.phase2
+      linia: 4
+      sekcja_skryptu: phase2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a button labeled SMASH.
+      pl: Jest przycisk z napisem SMASH.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e2
+    wpisy:
+    - id: wol_0ccb824da98ebf28fef8
+      kontekst: data.json:scripts.mine8_coalsmasher.e2
+      linia: 6
+      sekcja_skryptu: e2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine works its magic, and compresses the massive lump of coal into a much smaller lump of coal.
+      pl: Maszyna działa swoją magią i kompresuje ogromną bryłę węgla w znacznie mniejszą bryłę węgla.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1930
+  skrypt: mine8_cultists1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 36
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e0134f976a7c08eb41d8
+      kontekst: data.json:scripts.mine8_cultists1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These cultists are really going to town with the whispering and tracing of spirals in the air and generally being really creepy cult weirdos.
+      pl: Ci kultyści naprawdę dają czadu ze szeptem, spiralami w powietrzu i byciem upiornymi dziwakami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_116a903a833a4ff961bb
+      kontekst: data.json:scripts.mine8_cultists1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They seem too preoccupied with their spooky nonsense to notice you. Unfortunately, they're blocking your path.
+      pl: Są zbyt zajęci upiornymi bzdurami, by cię zauważyć. Niestety blokują drogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30eb1f9d1e7d6ddff5fd
+      kontekst: data.json:scripts.mine8_cultists1.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their insanity
+      pl: Zostaw ich przy ich szaleństwie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_3746651a7270115d7e10
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 5
+      sekcja_skryptu: leaderhat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you approach, one of them notices your square mask and gasps.
+      pl: Gdy podchodzisz, jeden z nich zauważa twoją kwadratową maskę i gwałtownie wciąga powietrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59c53bfd2c7d9005ec26
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 6
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A Chosen One!
+      pl: Wybraniec!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d7ca4f08abb68834510
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 7
+      sekcja_skryptu: leaderhat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"A Chosen One," the others echo in whispers.'
+      pl: „Wybrany” — szepczą pozostali.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f9bf2b739275a2da0aa3
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 8
+      sekcja_skryptu: leaderhat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yep, that's me all right. Move aside, please, I need to get to... whatever's at the other end of this room.
+      pl: Tak, to ja. Odsuń się, proszę, muszę dostać się do... cokolwiek jest na drugim końcu tego pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc0ddc826952ab3b3807
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 9
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We must not move, we are Tracing the Spiral.
+      pl: Nie możemy się ruszać, śledzimy Spirala.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 10
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f11e893d43cf45268323
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 11
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull rank on them [Intimidatin' $diff$]
+      pl: Przywołaj swoją rangę [Zastraszanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_7dfc5feaf7ada403d1cc
+      kontekst: data.json:scripts.mine8_cultists1.intim
+      linia: 12
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You load your voice up with darkness and gravel.
+      pl: Napełniasz głos ciemnością i żwirem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd896cf068547d0a411f
+      kontekst: data.json:scripts.mine8_cultists1.intim
+      linia: 13
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You <i>dare</i> to defy me? <i>Me,</i> one of our Master's Chosen?!
+      pl: <i>Śmiesz mi się</i> sprzeciwiać? <i>Ja,</i> jeden z wybrańców naszego mistrza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30ff18c81c026bd37fd9
+      kontekst: data.json:scripts.mine8_cultists1.intim
+      linia: 14
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Whoops! Uh, sorry, I have a cold. What I meant to say was, "Of course, Chosen One, we salute your dark presence."
+      pl: 'Ups! Przepraszam, przeziębiłem się. Chciałem powiedzieć: "Oczywiście, Wybrańcu, pozdrawiamy twoją mroczną obecność".'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cac9e18da8ed0e2d64d6
+      kontekst: data.json:scripts.mine8_cultists1.intim
+      linia: 15
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She shakes the others by the shoulders and they all shuffle out of your way, and then out of the room entirely.
+      pl: Potrząsa innymi za ramiona i wszyscy ustępują ci z drogi, a potem wychodzą z pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3801554c80dd17aef81d
+      kontekst: data.json:scripts.mine8_cultists1.intim
+      linia: 16
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't you forget it.
+      pl: Nie zapomnij tego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_238daeac816c1fbadd3a
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 17
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pull rank on them [Requires Intimidatin' $diff$]
+      pl: Wykorzystaj wyższą rangę [Wymaga Zastraszania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f40b2c3e3a12b712f6b
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 18
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reason with them [Outfoxin' $diff$]
+      pl: Rozmawiaj z nimi [Przechytrzanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_b1ee5131f8f67367d878
+      kontekst: data.json:scripts.mine8_cultists1.outfox
+      linia: 19
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Good, good. I appreciate your dedication. But I really need to get through here. Look, just... here, you take one step to the left. And you, one step to the right, please? Good. Thank you.
+      pl: Dobrze, dobrze. Doceniam wasze oddanie. Ale naprawdę muszę tędy przejść. Słuchajcie, po prostu... ty zrób krok w lewo. A ty krok w prawo, proszę. Dobrze. Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca95f454dc31092d11fd
+      kontekst: data.json:scripts.mine8_cultists1.outfox
+      linia: 20
+      sekcja_skryptu: outfox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sidle through the cultists, and see some kind of weird altar beyond them. Oddly, when you turn to look at the cultists again, they've all vanished.
+      pl: Przeciskasz się między kultystami i widzisz za nimi jakiś dziwny ołtarz. Co dziwne, gdy odwracasz się, by spojrzeć na kultystów, wszyscy zniknęli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d48a7f54415a7bfa8132
+      kontekst: data.json:scripts.mine8_cultists1.outfox
+      linia: 21
+      sekcja_skryptu: outfox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weird.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_d8e81457418f03108ec8
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 22
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Reason with them [Requires Outfoxin' $diff$]
+      pl: Przemów im do rozsądku [Wymaga Przechytrzania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb64e76c1069db5621b9
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 23
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trick them into leaving [Hornswogglin' $diff$]
+      pl: Namów ich do odejścia [Oszukiwanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_dc7c40facafde2e442ce
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 24
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Tracing the Spiral? Don't you know what day it is?
+      pl: Kreślenie Spirali? Nie wiesz, jaki dziś dzień?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_76d556d687b1aa37ff0d
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 25
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Um... Thursday?
+      pl: Hmm... czwartek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fc1c59b7cf1bf73d122
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 26
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And on Thursdays we...?
+      pl: A w czwartki my...?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d52b571974278a527781
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 27
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Spaghetti night!
+      pl: Och! Wieczór spaghetti!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6a6c46e638b8c99a340
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 28
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's right. Off you go, all of you.
+      pl: Zgadza się. A teraz wszyscy sobie idźcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69adaf2459d4c840b4fd
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 29
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultists scamper away excitedly.
+      pl: Kultyści podekscytowanie uciekają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ffd2be370d6591cb4ff7
+      kontekst: data.json:scripts.mine8_cultists1.hornswoggle
+      linia: 30
+      sekcja_skryptu: hornswoggle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That's that then.
+      pl: No to tyle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_f6e00509087a98793528
+      kontekst: data.json:scripts.mine8_cultists1.leaderhat
+      linia: 31
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Trick them into leaving [Requires Hornswogglin' $diff$]
+      pl: Nakłoń ich podstępem do odejścia [Wymaga Oszukiwania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lowmask
+    wpisy:
+    - id: wol_413511e89e93846c2351
+      kontekst: data.json:scripts.mine8_cultists1.lowmask
+      linia: 33
+      sekcja_skryptu: lowmask
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One of them notices you approaching and nods politely before going back to her muttering and whatever. She's the only one that notices you, and none of them seem inclined to get out of your way.
+      pl: Jedna z nich zauważa, że podchodzisz, grzecznie kiwa głową i wraca do mamrotania i tego, co tam robi. Tylko ona cię dostrzega i żadna nie wydaje się chętna zrobić ci miejsca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists1.lowmask
+      linia: 34
+      sekcja_skryptu: lowmask
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30eb1f9d1e7d6ddff5fd
+      kontekst: data.json:scripts.mine8_cultists1.lowmask
+      linia: 35
+      sekcja_skryptu: lowmask
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their insanity
+      pl: Zostaw ich przy ich szaleństwie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_89a7b68dd4e3304318ba
+      kontekst: data.json:scripts.mine8_cultists1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dispatched all four of the cultists in record time.
+      pl: Rozprawiłeś się ze wszystkimi czterema kultystami w rekordowym czasie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ac1597626dcba04a8f53
+      kontekst: data.json:scripts.mine8_cultists1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wake up in a heap outside the mine entrance, both in the sense that your body is <i>like</i> a heap and that it is <i>in</i> a heap of rubble.
+      pl: Budzisz się w stercie przed wejściem do kopalni — zarówno w sensie, że twoje ciało <i>jest jak</i> sterta, jak i że <i>leży w</i> stercie gruzów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1932
+  skrypt: mine8_cultists2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 37
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9795ee7363bae628c8e1
+      kontekst: data.json:scripts.mine8_cultists2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a bunch of cultists here, whispering to themselves and tracing spirals in the air. Six of them, to be exact.
+      pl: Jest tu grupa kultystów, którzy szeptają do siebie i rysują spirale w powietrzu. Dokładnie sześciu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_926df26bfb09bbc09742
+      kontekst: data.json:scripts.mine8_cultists2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They don't seem to have noticed you, but pushing through them will definitely change that.
+      pl: Chyba cię nie zauważyli, ale przepchnięcie się przez nich to zmieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30eb1f9d1e7d6ddff5fd
+      kontekst: data.json:scripts.mine8_cultists2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their insanity
+      pl: Zostaw ich przy ich szaleństwie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_26b5b62c744ee2d5a363
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 5
+      sekcja_skryptu: leaderhat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You start to push past the cultists.
+      pl: Zaczynasz przepychać się przez kultystów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3745722ea743a1078480
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 6
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, don't-- Oh! A Chosen One! This is a great honor.
+      pl: Hej, nie— Och! Wybraniec! To wielki zaszczyt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ef14477087c2d7fbbba2
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 7
+      sekcja_skryptu: leaderhat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, thanks. Blessings of The Master and spirals and stuff be upon you or whatever. Scram, please.
+      pl: Tak, dzięki. Błogosławieństwa Mistrza i spirale i takie tam. Zjeżdżaj, proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f8d8503c452692c3e6f
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 8
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: B-but this is the hour of prayer. We can't leave for any reason!
+      pl: A-ale to godzina modlitwy. Nie możemy wyjść z żadnego powodu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 9
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f11e893d43cf45268323
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 10
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull rank on them [Intimidatin' $diff$]
+      pl: Przywołaj swoją rangę [Zastraszanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_6752ed3e68e93f8637c3
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 11
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: All of you need to get out of my way right now, or I will cast your souls into the Devouring Maw of Ultimate Void.
+      pl: Wszyscy natychmiast zejdźcie mi z drogi, bo wrzucę wasze dusze w Pożerającą Paszczę Ostatecznej Pustki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c588d13afc80448b4236
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 12
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That... doesn't sound good.
+      pl: To... nie brzmi dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03ac30723545a6eded92
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 13
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, it's very, very bad.
+      pl: Nie, jest bardzo, bardzo źle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_959ada52cd85a12f68e0
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 14
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What, uh... what happens there?
+      pl: Co się tam dzieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_558de6fc0ab12c60c581
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 15
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, just let your imagination run wild.
+      pl: Och, po prostu puść wodze wyobraźni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_351f5e3a2110edadc691
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 16
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>*gulp*</i> Hey guys? New orders. We need to scram.
+      pl: <i>*przełknięcie śliny*</i> Hej, ludzie? Nowe rozkazy. Musimy zwiewać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_238daeac816c1fbadd3a
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 18
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pull rank on them [Requires Intimidatin' $diff$]
+      pl: Wykorzystaj wyższą rangę [Wymaga Zastraszania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f40b2c3e3a12b712f6b
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 19
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reason with them [Outfoxin' $diff$]
+      pl: Rozmawiaj z nimi [Przechytrzanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_385afc8678974ed130ec
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 20
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are you wearing a watch?
+      pl: Masz zegarek?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3998a146c20cbb49ce77
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 21
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? No.
+      pl: Hę? Nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0cfa2a7f0cf2ad21fe4f
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 22
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know what time it actually is? Or how long you've been standing here?
+      pl: Wiesz, która właściwie jest godzina? Albo jak długo tu stoisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_decaaec0db1cf55fb37e
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 23
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, no, stuff like that is <i>real</i> fuzzy down here.
+      pl: Nie, takie rzeczy są tu <i>naprawdę</i> niewyraźne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6a900cd8b87c7af12c9
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 24
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah. The Hour of Prayer has been over for like, twenty minutes.
+      pl: Tak. Godzina modlitwy skończyła się jakieś 20 minut temu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_697ba8cc8bf37725daae
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 25
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh man! We wouldn't want to over-pray. C'mon, everybody! Shift's over!
+      pl: O rany! Nie chcemy się przecież przemodlić. No już, wszyscy! Koniec zmiany!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fb2b9c746cdca3a0c08
+      kontekst: data.json:scripts.mine8_cultists2.outfox
+      linia: 26
+      sekcja_skryptu: outfox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good job
+      pl: Dobra robota
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_d8e81457418f03108ec8
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 27
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Reason with them [Requires Outfoxin' $diff$]
+      pl: Przemów im do rozsądku [Wymaga Przechytrzania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb64e76c1069db5621b9
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 28
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trick them into leaving [Hornswogglin' $diff$]
+      pl: Namów ich do odejścia [Oszukiwanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_10f4419413ee6c8a92d0
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 29
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can't leave for any reason, eh?
+      pl: Nie możecie wyjść z żadnego powodu, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_727ab578ae172d4d8c69
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 30
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You cup your hands to your mouth and yell:'
+      pl: 'Składasz dłonie przy ustach i krzyczysz:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e2dd9e12e41f2274b7d1
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 31
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey everybody! There's a guy upstairs with a tattoo gun and he's offering free creepy spiral tattoos!
+      pl: Hej, wszyscy! Na górze jest gość z maszynką do tatuowania i rozdaje darmowe, upiorne spiralne tatuaże!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d25243d618db79548787
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 32
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh man! Rad!
+      pl: O rany! Czadowo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b0144a7c7f3f2070c5c9
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 33
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm gonna get one right around my belly button!
+      pl: Zrobię sobie jeden dokładnie wokół pępka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22d97f408afa3a61a153
+      kontekst: data.json:scripts.mine8_cultists2.hornswoggle
+      linia: 34
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultists all rush to the elevator.
+      pl: Kultyści rzucają się do windy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_f6e00509087a98793528
+      kontekst: data.json:scripts.mine8_cultists2.leaderhat
+      linia: 36
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Trick them into leaving [Requires Hornswogglin' $diff$]
+      pl: Nakłoń ich podstępem do odejścia [Wymaga Oszukiwania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lowmask
+    wpisy:
+    - id: wol_e3de0594b6a6cbb34d2d
+      kontekst: data.json:scripts.mine8_cultists2.lowmask
+      linia: 38
+      sekcja_skryptu: lowmask
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You try to push past, but the one in back shakes his head and indicates for you to stay where you are. I guess there's a queue or something?
+      pl: Próbujesz się przepchnąć, ale ten z tyłu kręci głową i każe zostać. Chyba jest kolejka czy coś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_1b93ec7c31fd3e4dae8e
+      kontekst: data.json:scripts.mine8_cultists2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You defeated the pack of six cultists. Wait, or were there eight of them?
+      pl: Pokonałeś sześciu kultystów. Czekaj, a może było ich ośmiu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ac1597626dcba04a8f53
+      kontekst: data.json:scripts.mine8_cultists2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wake up in a heap outside the mine entrance, both in the sense that your body is <i>like</i> a heap and that it is <i>in</i> a heap of rubble.
+      pl: Budzisz się w stercie przed wejściem do kopalni — zarówno w sensie, że twoje ciało <i>jest jak</i> sterta, jak i że <i>leży w</i> stercie gruzów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1934
+  skrypt: mine8_cultists3
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 40
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5503be687a68bf2dca8c
+      kontekst: data.json:scripts.mine8_cultists3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a whole crowd of cultists here, muttering and doing creepy tai chi.
+      pl: Tu cały tłum kultystów mamrocze i robi upiorne tai chi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93a391771c10324a287d
+      kontekst: data.json:scripts.mine8_cultists3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They don't seem to have noticed you. Not yet, anyway.
+      pl: Chyba cię nie zauważyli. Na razie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists3.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30eb1f9d1e7d6ddff5fd
+      kontekst: data.json:scripts.mine8_cultists3.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their insanity
+      pl: Zostaw ich przy ich szaleństwie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_e9f6d9776213d3f72e26
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 5
+      sekcja_skryptu: leaderhat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: All right, guys, break it up. Move along.
+      pl: Dobra, panowie, rozejść się. Proszę iść dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_54f23ce7899ec4fcfd04
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 6
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A square mask! A Chosen One!
+      pl: Kwadratowa maska! Wybraniec!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4491bb5fa59b0c9534b8
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 7
+      sekcja_skryptu: leaderhat
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's right, and I've got things under control here, so you can all go find something else to do.
+      pl: Zgadza się, a ja mam tu wszystko pod kontrolą, więc możecie znaleźć sobie inne zajęcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3c929aae682e529a83b1
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 8
+      sekcja_skryptu: leaderhat
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But... this ritual requires at least eight people.
+      pl: Ale... ten rytuał wymaga co najmniej ośmiu osób.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 9
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f11e893d43cf45268323
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 10
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull rank on them [Intimidatin' $diff$]
+      pl: Przywołaj swoją rangę [Zastraszanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_98dc881e94f82b75651f
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 11
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ooh, lah-de-dah! Look who thinks he knows a thing or two about occult rituals! Are you telling me, a Chosen One, that you know this business better than I do?
+      pl: Och, la-di-da! Patrzcie, kto myśli, że zna się na okultystycznych rytuałach! Twierdzisz, że wiesz o tym więcej ode mnie, Wybrańca?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5e76a859b6a38596a303
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 12
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No no! No, I meant no disrespect!
+      pl: Nie, nie! Nie chciałem okazać braku szacunku!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5626a25fc29c79611f20
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 13
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You better not, or I'll have your skull filled with... beetles or something!
+      pl: Lepiej nie, albo będę miał twoją czaszkę wypełnioną... żukami czy czymś takim!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17f13520a9d142d4be8c
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 14
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh jeez, that sounds <i>really</i> uncomfortable!
+      pl: O rany, to brzmi <i>naprawdę</i> niekomfortowo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_477606b786db4315f7c8
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 15
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Get out of here! All of you!
+      pl: Wynocha stąd! Wszyscy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eca8bf90a9c82d5b6622
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 16
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultists scatter fearfully.
+      pl: Kultyści w popłochu rozpraszają się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4095fa601e9016d69f3e
+      kontekst: data.json:scripts.mine8_cultists3.intim
+      linia: 17
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: And don't you forget it!
+      pl: I nie zapomnij o tym!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_238daeac816c1fbadd3a
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 18
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pull rank on them [Requires Intimidatin' $diff$]
+      pl: Wykorzystaj wyższą rangę [Wymaga Zastraszania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f40b2c3e3a12b712f6b
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 19
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reason with them [Outfoxin' $diff$]
+      pl: Rozmawiaj z nimi [Przechytrzanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_e9e724a021c71c38b19c
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 20
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And which ritual is this, exactly?
+      pl: A który to dokładnie rytuał?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_43fabbc9c02af6f3e8df
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 21
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, you know. Drawing the spiral, whispering paeans to The Master?
+      pl: No wiesz. Rysujesz spiralę, szepczesz peeanom do Mistrza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9446e253a2cd9348b6a0
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 22
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh huh, but this particular version of that takes eight people? And it needs to be done right here in this hallway?
+      pl: Aha, ale ta konkretna wersja wymaga ośmiu osób? I trzeba ją wykonać właśnie tutaj, na tym korytarzu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1ff0ecefe5b6d665e2c1
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 23
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that was my understanding, but...
+      pl: Tak myślałem, ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07f250e3226d2296cc8c
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 24
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You guys should go read the manual again. Go on, shoo.
+      pl: Powinniście jeszcze raz przeczytać instrukcję. Dalej, sio.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_01a0f485af61ba9bbc5d
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 25
+      sekcja_skryptu: outfox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultists leave with questioning murmurs and shrugs.
+      pl: Kultyści odchodzą z pytającymi mamrotaniami i wzruszeniami ramion.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8929e9833316a4bcca0
+      kontekst: data.json:scripts.mine8_cultists3.outfox
+      linia: 26
+      sekcja_skryptu: outfox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good
+      pl: Dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_d8e81457418f03108ec8
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 27
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Reason with them [Requires Outfoxin' $diff$]
+      pl: Przemów im do rozsądku [Wymaga Przechytrzania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb64e76c1069db5621b9
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 28
+      sekcja_skryptu: leaderhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trick them into leaving [Hornswogglin' $diff$]
+      pl: Namów ich do odejścia [Oszukiwanie $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_208347de13c6570a841d
+      kontekst: data.json:scripts.mine8_cultists3.hornswoggle
+      linia: 29
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It requires eight of <i>you guys</i>. No offense, you guys are doing a great job, but I was Chosen by the Master himself. I've done rituals that would take, like, fourteen of you.
+      pl: Do tego potrzeba ośmiu <i>takich jak wy.</i> Bez urazy, świetnie sobie radzicie, ale mnie wybrał sam Mistrz. Odprawiałem rytuały, do których trzeba by was ze czternastu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22b28117da2a1591cdf2
+      kontekst: data.json:scripts.mine8_cultists3.hornswoggle
+      linia: 30
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Gosh!
+      pl: Rany!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ca7bd3a2b3f013cf81b
+      kontekst: data.json:scripts.mine8_cultists3.hornswoggle
+      linia: 31
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Go on, clear out. Go grab a sandwich or something, I've got this.
+      pl: No już, wynoście się. Idźcie po kanapkę czy coś, ja się tym zajmę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fda66c572aa4424d5252
+      kontekst: data.json:scripts.mine8_cultists3.hornswoggle
+      linia: 32
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, okay!
+      pl: Dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a42abfb167442290c8c9
+      kontekst: data.json:scripts.mine8_cultists3.hornswoggle
+      linia: 33
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultists amble away, leaving you alone in the tunnel.
+      pl: Kultyści powoli odchodzą, zostawiając cię samego w tunelu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leaderhat
+    wpisy:
+    - id: wol_f6e00509087a98793528
+      kontekst: data.json:scripts.mine8_cultists3.leaderhat
+      linia: 35
+      sekcja_skryptu: leaderhat
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Trick them into leaving [Requires Hornswogglin' $diff$]
+      pl: Nakłoń ich podstępem do odejścia [Wymaga Oszukiwania $diff$]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' $diff$]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lowmask
+    wpisy:
+    - id: wol_fc98ad888653d05b0337
+      kontekst: data.json:scripts.mine8_cultists3.lowmask
+      linia: 37
+      sekcja_skryptu: lowmask
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey there, fellow cultist coming through.
+      pl: Witaj, bracie kultysto, przechodzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fe8b8ee84dce8f63c0d
+      kontekst: data.json:scripts.mine8_cultists3.lowmask
+      linia: 38
+      sekcja_skryptu: lowmask
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They ignore you and continue to block your path.
+      pl: Ignorują cię i dalej blokują drogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbdfe725c2db15bf560e
+      kontekst: data.json:scripts.mine8_cultists3.lowmask
+      linia: 39
+      sekcja_skryptu: lowmask
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wade in and fight them [Fight]
+      pl: Wejdź i walcz z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30eb1f9d1e7d6ddff5fd
+      kontekst: data.json:scripts.mine8_cultists3.lowmask
+      linia: 40
+      sekcja_skryptu: lowmask
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave them to their insanity
+      pl: Zostaw ich przy ich szaleństwie
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_7bb1047666ea6eff66cd
+      kontekst: data.json:scripts.mine8_cultists3.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You managed to defeat all eight of the cultists in a fair fight.  Unless you cheated, somehow.  Did you cheat?
+      pl: Udało ci się pokonać wszystkich ośmiu kultyistów w uczciwej walce. Chyba że jakoś oszukiwałeś. Oszukiwałeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_ac1597626dcba04a8f53
+      kontekst: data.json:scripts.mine8_cultists3.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wake up in a heap outside the mine entrance, both in the sense that your body is <i>like</i> a heap and that it is <i>in</i> a heap of rubble.
+      pl: Budzisz się w stercie przed wejściem do kopalni — zarówno w sensie, że twoje ciało <i>jest jak</i> sterta, jak i że <i>leży w</i> stercie gruzów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1936
+  skrypt: mine8_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_0669e36e4b94ca0cd187
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lever inside to tell the elevator where to go. How modern!
+      pl: W środku jest dźwignia, która mówi windzie, dokąd jechać. Jak nowocześnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6147d779a46bd9ed2461
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 1
+      pl: Idź na poziom 1
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1ad3355669b2bbcb21c
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 2
+      pl: Idź na poziom 2
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed833b50a09b70b86063
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay on level 2
+      pl: Zostań na poziomie 2
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c0c93bc119823e17c8a
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 3
+      pl: Idź na poziom 3
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_42c848e7bd0db2600b9d
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay on level 3
+      pl: Zostań na poziomie 3
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2453579a53e3eff08d39
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 4
+      pl: Idź na poziom 4
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e56a76a5bc08091da677
+      kontekst: data.json:scripts.mine8_elevator.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay on level 4
+      pl: Zostań na poziomie 4
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1938
+  skrypt: mine8_elevator_top
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_0669e36e4b94ca0cd187
+      kontekst: data.json:scripts.mine8_elevator_top.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a lever inside to tell the elevator where to go. How modern!
+      pl: W środku jest dźwignia, która mówi windzie, dokąd jechać. Jak nowocześnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_652a3a6a44a4abf35d0c
+      kontekst: data.json:scripts.mine8_elevator_top.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stay on level 1
+      pl: Zostań na poziomie 1
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f1ad3355669b2bbcb21c
+      kontekst: data.json:scripts.mine8_elevator_top.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 2
+      pl: Idź na poziom 2
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7c0c93bc119823e17c8a
+      kontekst: data.json:scripts.mine8_elevator_top.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 3
+      pl: Idź na poziom 3
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2453579a53e3eff08d39
+      kontekst: data.json:scripts.mine8_elevator_top.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go to level 4
+      pl: Idź na poziom 4
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1937
+  skrypt: mine8_elevatordown
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1eb83a825ff52702d0d6
+      kontekst: data.json:scripts.mine8_elevatordown.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull the lever, but nothing happens. A quick peek at the generator reveals that it's out of kerosene.
+      pl: Ciągniesz dźwignię, ale nic się nie dzieje. Szybki rzut oka na generator pokazuje, że skończyło się naftę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_912d2dc378dee20142d6
+      kontekst: data.json:scripts.mine8_elevatordown.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fuel it up [can of kerosene]
+      pl: Zatankuj [puszka naftu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[can of kerosene]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase2
+    wpisy:
+    - id: wol_becd2eb14fd6479f5033
+      kontekst: data.json:scripts.mine8_elevatordown.phase2
+      linia: 3
+      sekcja_skryptu: phase2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fuel up the generator, and then realize the gas cap is missing. That's no good.
+      pl: Tankujesz generator i orientujesz się, że brakuje korka. To źle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_843b9454f25ba355ffb5
+      kontekst: data.json:scripts.mine8_elevatordown.phase2
+      linia: 4
+      sekcja_skryptu: phase2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Replace it [gas cap]
+      pl: Wymień to [korek do baku]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[gas cap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: wol_d8dd2609857eb0092d2b
+      kontekst: data.json:scripts.mine8_elevatordown.fix
+      linia: 5
+      sekcja_skryptu: fix
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You screw the gas cap on and fire up the generator -- it purrs like a kitten. A kitten with black lung, but still.
+      pl: Zakręcasz korek od benzyny i odpalasz generator — mruczy jak kociak. Kociak z pylicą, ale jednak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: phase2
+    wpisy:
+    - id: wol_919c38d68f37cbdb6c7e
+      kontekst: data.json:scripts.mine8_elevatordown.phase2
+      linia: 7
+      sekcja_skryptu: phase2
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Replace it [Requires gas cap]
+      pl: Załóż [Wymaga korka wlewu paliwa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires gas cap]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_455789bdf94b3849dc74
+      kontekst: data.json:scripts.mine8_elevatordown.popup
+      linia: 8
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Fuel it up [Requires can of kerosene]
+      pl: Napełnij paliwem [Wymaga bańki nafty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires can of kerosene]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bang
+    wpisy:
+    - id: wol_a45cc897427410b6e8a8
+      kontekst: data.json:scripts.mine8_elevatordown.bang
+      linia: 11
+      sekcja_skryptu: bang
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Bing-bam-boom! You hit the elevator in all the right places. It starts up like it's surprised.
+      pl: Bing-bam-bum! Trafiasz windę we wszystkie właściwe miejsca. Rusza, jakby była zaskoczona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1940
+  skrypt: mine8_l2altarpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e4ed23d01e30a92cf9a0
+      kontekst: data.json:scripts.mine8_l2altarpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The posts on this altar seem straight enough when you look right at them, but in your peripheral vision they writhe nauseatingly.
+      pl: Słupy tego ołtarza wydają się proste, gdy patrzysz prosto, ale w peryferiach wzroku mdliąco się wiją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cross
+    wpisy:
+    - id: wol_14d81296f4f1fe57f4fb
+      kontekst: data.json:scripts.mine8_l2altarpop.cross
+      linia: 2
+      sekcja_skryptu: cross
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a big cross made of El Vibrato stuff. Its precise lines and corners stand in marked contrast to the altar, which makes your eyes spin involuntarily when you look at it.
+      pl: To wielki krzyż zrobiony z rzeczy El Vibrato. Jego precyzyjne linie i kąty wyraźnie kontrastują z ołtarzem, od którego patrzenia oczy same się kręcą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_d215cf7bf558d5e77006
+      kontekst: data.json:scripts.mine8_l2altarpop.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the cross in your pack.
+      pl: Chowasz krzyż do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1941
+  skrypt: mine8_partcrate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e9aafd3092a75c69c143
+      kontekst: data.json:scripts.mine8_partcrate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh boy, a toolox!
+      pl: O rety, toolox!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_967123b5757dd52d0f66
+      kontekst: data.json:scripts.mine8_partcrate.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh.  All it had in it was a gas cap.
+      pl: Hm. W środku był tylko korek do baku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1942
+  skrypt: mine8_rockpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9170bfcd92115a9cb80b
+      kontekst: data.json:scripts.mine8_rockpile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of rocks is really seriously mortared together.
+      pl: Ta sterta kamieni jest naprawdę solidnie zmurowana.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ff0398d61496545eb9c
+      kontekst: data.json:scripts.mine8_rockpile.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Destroy it [pickaxe + 50 Muscle]
+      pl: Zniszcz to [kilof + 50 Mięśnie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[pickaxe + 50 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6faa1b06863c88314bcf
+      kontekst: data.json:scripts.mine8_rockpile.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Destroy it [Requires pickaxe and 50 Muscle]
+      pl: Zniszcz go [Wymaga kilofa i 50 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires pickaxe and 50 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1943
+  skrypt: mine8_shaft1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1188d3909817895f604a
+      kontekst: data.json:scripts.mine8_shaft1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shaft has collapsed, but there's a rope leading down through the rubble.
+      pl: Ten szyb się zawalił, ale przez gruz wiedzie lina w dół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1944
+  skrypt: mine8_teleporttrigger
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_68b3c7dd4dab3d574f1a
+      kontekst: data.json:scripts.mine8_teleporttrigger.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a trapezoidal piece missing from the crossbar.
+      pl: W poprzeczce brakuje trapezowego elementu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1945
+  skrypt: mine8_toilet1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ce13491435a91683d9b2
+      kontekst: data.json:scripts.mine8_toilet1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This toilet is remarkably clean for being underground.
+      pl: Ta toaleta jest zadziwiająco czysta jak na podziemia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1946
+  skrypt: mine8_toilet2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c2434956bd7d766352f5
+      kontekst: data.json:scripts.mine8_toilet2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This toilet is, unsurprisingly, very dirty.
+      pl: Ta toaleta jest, co nie dziwi, bardzo brudna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: alice_postalstation
+    wpisy:
+    - id: wol_d48a7f54415a7bfa8132
+      kontekst: data.json:scripts.pardner_talk.alice_postalstation
+      linia: 4
+      sekcja_skryptu: alice_postalstation
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Weird.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_hallowaystore
+    wpisy:
+    - id: wol_d48a7f54415a7bfa8132
+      kontekst: data.json:scripts.pardner_talk.pete_hallowaystore
+      linia: 4
+      sekcja_skryptu: pete_hallowaystore
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Weird.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_hallowaystore
+    wpisy:
+    - id: wol_d48a7f54415a7bfa8132
+      kontekst: data.json:scripts.pardner_talk.susie_hallowaystore
+      linia: 4
+      sekcja_skryptu: susie_hallowaystore
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Weird.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2163
+  skrypt: railcamp_rockdude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_4095fa601e9016d69f3e
+      kontekst: data.json:scripts.railcamp_rockdude.intim
+      linia: 22
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And don't you forget it!
+      pl: I nie zapomnij o tym!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2274
+  skrypt: re_aaa_fighttemplate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: runaway
+    wpisy:
+    - id: wol_e8929e9833316a4bcca0
+      kontekst: data.json:scripts.re_aaa_fighttemplate.runaway
+      linia: 5
+      sekcja_skryptu: runaway
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good
+      pl: Dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2283
+  skrypt: re_banditb2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: runaway
+    wpisy:
+    - id: wol_e8929e9833316a4bcca0
+      kontekst: data.json:scripts.re_banditb2.runaway
+      linia: 19
+      sekcja_skryptu: runaway
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good
+      pl: Dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2285
+  skrypt: re_banditc1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: runaway
+    wpisy:
+    - id: wol_e8929e9833316a4bcca0
+      kontekst: data.json:scripts.re_banditc1.runaway
+      linia: 15
+      sekcja_skryptu: runaway
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good
+      pl: Dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2286
+  skrypt: re_banditc2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: runaway
+    wpisy:
+    - id: wol_e8929e9833316a4bcca0
+      kontekst: data.json:scripts.re_banditc2.runaway
+      linia: 15
+      sekcja_skryptu: runaway
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good
+      pl: Dobra
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2786
+  skrypt: westpole_rockex
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: pick
+    wpisy:
+    - id: wol_d48a7f54415a7bfa8132
+      kontekst: data.json:scripts.westpole_rockex.pick
+      linia: 4
+      sekcja_skryptu: pick
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Weird.
+      pl: Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

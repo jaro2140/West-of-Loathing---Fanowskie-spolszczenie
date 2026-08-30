@@ -1,0 +1,1748 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: fort_alldead
+zrodlowy_batch: 060_dialog_loc_fort2_fort_alldead.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 30
+liczba_wpisow: 93
+sceny:
+- kolejnosc_w_danych_gry: 1417
+  skrypt: fort2_alicesign
+  pomieszczenie: &id001
+    id: fort2
+    nazwa_en: Fort Alldead
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_fcec036649aa2790958b
+      kontekst: data.json:scripts.fort2_alicesign.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This sign represents Doc Alice and an idea she has.
+      pl: Ten znak przedstawia Doc Alice i pomysł, który ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_47b95506a55d49b7a986
+      kontekst: data.json:scripts.fort2_alicesign.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Listen to the idea
+      pl: Wysłuchaj pomysłu
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: listen
+    wpisy:
+    - id: wol_c7ddbf115f12cee5f55e
+      kontekst: data.json:scripts.fort2_alicesign.listen
+      linia: 3
+      sekcja_skryptu: listen
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Doc Alice says you should poison all these skeletons.  She says if you can get their waste products into their food supply, that oughta do the trick.
+      pl: Doc Alice mówi, że powinieneś otruć wszystkie te szkielety. Mówi, że jak wrzucisz ich produkty odpadowe do zapasów żywności, to powinno zadziałać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1418
+  skrypt: fort2_bigpit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_00ba7024c4736b21d285
+      kontekst: data.json:scripts.fort2_bigpit.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This mass grave is absolutely teeming with those skeletal riflemen.  They don't seem to be interested in getting out, but you could definitely jump in there if you were itching for a fight.
+      pl: Ten masowy grób roi się od szkieletowych strzelców. Nie wyglądają na zainteresowanych wydostaniem się, ale mógłbyś wskoczyć, jeśli masz ochotę na walkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4b157cbd4703dcb5abc
+      kontekst: data.json:scripts.fort2_bigpit.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's one wandering in the end of the pit nearest you.
+      pl: Jeden krąży przy końcu dołu najbliżej ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_adee372abfd8b800f7bb
+      kontekst: data.json:scripts.fort2_bigpit.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hop in! [Fight]
+      pl: Wskakuj! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_adee372abfd8b800f7bb
+      kontekst: data.json:scripts.fort2_bigpit.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hop in! [Fight]
+      pl: Wskakuj! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49553b2d1fdc600ee147
+      kontekst: data.json:scripts.fort2_bigpit.hardstart
+      linia: 6
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice in your head convinces you that you should not spend any more time down in a pit today. The whole rest of the world awaits!
+      pl: Głos w twojej głowie przekonuje cię, że nie powinieneś dziś spędzać więcej czasu w dole. Cała reszta świata czeka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_1005b2fb6e77a7bc923b
+      kontekst: data.json:scripts.fort2_bigpit.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You brush yourself off, collect your loot, and climb back out of the pit.
+      pl: Otrzepujesz się, zbierasz łupy i wspinasz z dołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_e2e7e6a45c68e71c6419
+      kontekst: data.json:scripts.fort2_bigpit.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'It''s like your mother always told you:  Don''t jump into a pit filled with skeletal riflemen if you''re not pretty sure you can do it without getting your ass handed to you.'
+      pl: 'Jak zawsze mówiła ci matka: nie skacz do dołu pełnego szkieletów-strzelców, jeśli nie masz sporej pewności, że ujdzie ci to bez lanego.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_80f4eb93dd77f0d3662c
+      kontekst: data.json:scripts.fort2_bigpit.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, it's weird how often she said that
+      pl: Ta, dziwne, jak często to mówiła
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1419
+  skrypt: fort2_cavpin
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a919289fe745f452df1a
+      kontekst: data.json:scripts.fort2_cavpin.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a little metal pin on the floor here.
+      pl: Na podłodze leży mały metalowy pin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c27ac71e8132cf531ec7
+      kontekst: data.json:scripts.fort2_cavpin.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1420
+  skrypt: fort2_checkpoison
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: deaddead
+    wpisy:
+    - id: wol_e2ac7c86b455d440981c
+      kontekst: data.json:scripts.fort2_checkpoison.deaddead
+      linia: 1
+      sekcja_skryptu: deaddead
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It appears that Alice's idea worked.  There's not a single skeleton left... alive... in the entire fort.
+      pl: Wygląda na to, że pomysł Alice zadziałał. Nie ma już ani jednego szkieletu... żywego... w całym forcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6c3609e06dd99e13c1c
+      kontekst: data.json:scripts.fort2_checkpoison.deaddead
+      linia: 2
+      sekcja_skryptu: deaddead
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I didn't know skeletons eat. And I didn't know that they crap. But I guess you learn something new every day.
+      pl: Nie wiedziałam, że szkielety jedzą. I nie wiedziałam, że robią kupę. Ale chyba codziennie człowiek uczy się czegoś nowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7e69f2f9da1127d59d0f
+      kontekst: data.json:scripts.fort2_checkpoison.deaddead
+      linia: 3
+      sekcja_skryptu: deaddead
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: And that's two things, so we're ahead of the game.
+      pl: To już dwie rzeczy, więc wyprzedzamy plan.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_19267998e0ac19c364d9
+      kontekst: data.json:scripts.fort2_checkpoison.deaddead
+      linia: 4
+      sekcja_skryptu: deaddead
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Heck yeah.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1422
+  skrypt: fort2_deployforces
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_34786700e7444812a6bf
+      kontekst: data.json:scripts.fort2_deployforces.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can probably get this army to attack a place by putting your little toy skeletons there on the diorama thing.
+      pl: Pewnie możesz skierować tę armię do ataku na miejsce, stawiając tam swoje małe szkieletowe zabawki na dioramie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e269925d64409ed7bc7
+      kontekst: data.json:scripts.fort2_deployforces.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Deploy to Gustavson Gulch
+      pl: Rozmieść do Wąwozu Gustavsona
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gulch
+    wpisy:
+    - id: wol_41230f31b0b910f5b93d
+      kontekst: data.json:scripts.fort2_deployforces.gulch
+      linia: 3
+      sekcja_skryptu: gulch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the toy skeletons on the little Gulch.  Tomorrow is gonna be a big day for the Gulch Goblins!
+      pl: Stawiasz zabawkowe szkielety na małym Gulch. Jutro będzie wielki dzień dla Gulch Goblins!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nogulch
+    wpisy:
+    - id: wol_ade14478bf5101eaca4f
+      kontekst: data.json:scripts.fort2_deployforces.nogulch
+      linia: 5
+      sekcja_skryptu: nogulch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consider deploying the skeleton army to Gustavson Gulch to commit goblin genocide, but you reconsider when you think about how you'd explain it to Gary...
+      pl: Rozważasz wysłanie armii szkieletów do Wąwozu Gustavsona, żeby dokonać ludobójstwa goblinów, ale wycofujesz się na myśl o tym, jak miałbyś to wytłumaczyć Gary'emu...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8060055adbef7018e2e
+      kontekst: data.json:scripts.fort2_deployforces.nogulch
+      linia: 6
+      sekcja_skryptu: nogulch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fair enough
+      pl: No dobrze
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_5c7ffe2dc72c10b4103c
+      kontekst: data.json:scripts.fort2_deployforces.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Deploy to Barnaby Bob's Perfectly Normal Traveling Circus
+      pl: Rozmieść do Całkowicie Normalnego Wędrownego Cyrku Barnaby'ego Boba
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: circus
+    wpisy:
+    - id: wol_ed245c0766b609cc7833
+      kontekst: data.json:scripts.fort2_deployforces.circus
+      linia: 8
+      sekcja_skryptu: circus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the toy skeletons around the little circus tent. Barnaby Bob's going to get quite a surprise tomorrow.
+      pl: Stawiasz zabawkowe szkielety wokół małego namiotu cyrkowego. Barnaby Bob jutro dostanie niezłą niespodziankę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_578e26aaa49f0193525c
+      kontekst: data.json:scripts.fort2_deployforces.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't deploy anywhere just yet
+      pl: Na razie nigdzie nie rozmieszczaj
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: deployed
+    wpisy:
+    - id: wol_990a68c8ed6a652d94b8
+      kontekst: data.json:scripts.fort2_deployforces.deployed
+      linia: 11
+      sekcja_skryptu: deployed
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already given the skeleton army their marching orders.
+      pl: Już dałeś armii szkieletów rozkazy marszu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1423
+  skrypt: fort2_footlocker1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6f3c79ead48325508a3c
+      kontekst: data.json:scripts.fort2_footlocker1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lock on this footlocker has rusted away to nothing.
+      pl: Zamek tej skrzyni zardzewiał całkowicie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1424
+  skrypt: fort2_footlocker2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9dfb4af74121c8d5fda4
+      kontekst: data.json:scripts.fort2_footlocker2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is at the foot of the bed, but it's not locked.
+      pl: Kufer u nóg łóżka, ale nie zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_0f7c280d7cbca25194fd
+      kontekst: data.json:scripts.fort2_footlocker2.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm, nothing in here but a sewing kit.
+      pl: Hmm, jest tu tylko zestaw do szycia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1426
+  skrypt: fort2_footlocker4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2ee2830be1b218e685c5
+      kontekst: data.json:scripts.fort2_footlocker4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is only half-locked.
+      pl: Kufer tylko w połowie zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1427
+  skrypt: fort2_footlocker6
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: picklock
+    wpisy:
+    - id: wol_6a83a1a26f88b7297d15
+      kontekst: data.json:scripts.fort2_footlocker6.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock, revealing the footlocker to be full of... human bones!
+      pl: Otwierasz zamek, ukazując kufer pełen... ludzkich kości!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1428
+  skrypt: fort2_knapsack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_487f570bd4f7c4daa040
+      kontekst: data.json:scripts.fort2_knapsack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Somebody left their knapsack behind.
+      pl: Ktoś zostawił plecak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1429
+  skrypt: fort2_knapsack2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c920136fadde0982685d
+      kontekst: data.json:scripts.fort2_knapsack2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig through the knapsack.
+      pl: Przeszukujesz plecak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_1fd8b2ff49e8c20323bb
+      kontekst: data.json:scripts.fort2_knapsack2.node2
+      linia: 4
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's also an evil-looking leather-bound tome.
+      pl: Jest też złowrogie tomiszcze w skórze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_837f1389be8af446bc30
+      kontekst: data.json:scripts.fort2_knapsack2.node3
+      linia: 7
+      sekcja_skryptu: node3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The last thing is a little diary, which you decide to leave in there in case the owner comes back looking for it.
+      pl: Ostatnia rzecz to mały dziennik — zostawiasz go, gdyby właściciel wrócił po niego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: diary
+    wpisy:
+    - id: wol_cd01aa09116b94abde40
+      kontekst: data.json:scripts.fort2_knapsack2.diary
+      linia: 9
+      sekcja_skryptu: diary
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems to have been written by one of the Necromancer's cultists. He and several others were reanimating the dead soldiers here, on the theory that the best undead army would be a literal undead army. The hitch in the plan came when they raised the officers, who decided they weren't going to take orders from a bunch of weirdo civilians. The last entry suggests the author and his cohorts were planning on abandoning their station and reporting back to the Necromancer, but the entry ends abruptly in the middle of a sentence.
+      pl: Wygląda na to, że napisał to jeden z kultyści Nekromanty. On i kilku innych ożywiało tu martwych żołnierzy, wychodząc z założenia, że najlepsza nieumarła armia to dosłownie nieumarła armia. Plan posypał się, gdy wskrzesili oficerów, którzy postanowili nie słuchać rozkazów dziwacznych cywilów. Ostatni wpis sugeruje, że autor i jego kompani planowali opuścić posterunek i zdać raport Nekromancie, ale wpis urywa się nagle w połowie zdania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27e440c7de238808bb2f
+      kontekst: data.json:scripts.fort2_knapsack2.diary
+      linia: 10
+      sekcja_skryptu: diary
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fascinating
+      pl: Fascynujące
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: diaryoptions
+    wpisy:
+    - id: wol_02c3d63f4baba8893b77
+      kontekst: data.json:scripts.fort2_knapsack2.diaryoptions
+      linia: 11
+      sekcja_skryptu: diaryoptions
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ignore it
+      pl: Zignoruj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadylooted
+    wpisy:
+    - id: wol_96a3bfb66a60f0fdcd2c
+      kontekst: data.json:scripts.fort2_knapsack2.alreadylooted
+      linia: 12
+      sekcja_skryptu: alreadylooted
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All that's left in there now is the diary.
+      pl: Został tam już tylko pamiętnik.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1430
+  skrypt: fort2_shelfs
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b51d6c2dc0ffdbfe2a1e
+      kontekst: data.json:scripts.fort2_shelfs.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shelves filled with the skeleton army's food supply.
+      pl: Półki pełne zapasów żywności armii szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5674773c436bd0b4022
+      kontekst: data.json:scripts.fort2_shelfs.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine it
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_8f77a841a0c1371d672d
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a can at random and read the label.
+      pl: Podnosisz losową puszkę i czytasz etykietę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39412afeab93fc245f50
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a box at random and read the label.
+      pl: Podnosisz losowe pudełko i czytasz etykietę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f24dd0efce14f7737e09
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 5
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%skeletonfood_cantemplate%."'
+      pl: '"%skeletonfood_cantemplate%."'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_cantemplate%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cbb6cc99a85600d0d4d
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 6
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%skeletonfood_boxtemplate%."'
+      pl: '"%skeletonfood_boxtemplate%."'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_boxtemplate%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa260f52cf6160ff9217
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%skeletonfood_gross%'
+      pl: '%skeletonfood_gross%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_gross%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ae3b324db8d56907314
+      kontekst: data.json:scripts.fort2_shelfs.e
+      linia: 8
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at something else
+      pl: Spójrz na coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1431
+  skrypt: fort2_taintfood
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 12
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_7bcbc4478c8268062db8
+      kontekst: data.json:scripts.fort2_taintfood.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Shelves laden with the skeleton army's food supply.
+      pl: Półki obciążone zapasami żywności armii szkieletów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5674773c436bd0b4022
+      kontekst: data.json:scripts.fort2_taintfood.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine it
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_8f77a841a0c1371d672d
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a can at random and read the label.
+      pl: Podnosisz losową puszkę i czytasz etykietę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39412afeab93fc245f50
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a box at random and read the label.
+      pl: Podnosisz losowe pudełko i czytasz etykietę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f24dd0efce14f7737e09
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 5
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%skeletonfood_cantemplate%."'
+      pl: '"%skeletonfood_cantemplate%."'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_cantemplate%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cbb6cc99a85600d0d4d
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 6
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"%skeletonfood_boxtemplate%."'
+      pl: '"%skeletonfood_boxtemplate%."'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_boxtemplate%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa260f52cf6160ff9217
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 7
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%skeletonfood_gross%'
+      pl: '%skeletonfood_gross%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%skeletonfood_gross%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ae3b324db8d56907314
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 8
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at something else
+      pl: Spójrz na coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de37e52fdb06570e5b19
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 9
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Taint the food supply with waste
+      pl: Skaż zapasy żywności odpadami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: poison
+    wpisy:
+    - id: wol_aee7ef60b4d012fabe72
+      kontekst: data.json:scripts.fort2_taintfood.poison
+      linia: 10
+      sekcja_skryptu: poison
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sprinkle the waste all over the food. If this works, by tomorrow they should all be no more.
+      pl: Posypujesz odpadami całe jedzenie. Jeśli zadziała, do jutra powinny zniknąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_c4d8e01556ecea0d9d8e
+      kontekst: data.json:scripts.fort2_taintfood.e
+      linia: 12
+      sekcja_skryptu: e
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop looking at this horrible stuff
+      pl: Przestań patrzeć na te okropne rzeczy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_46ebd26d11b1fdfb6a38
+      kontekst: data.json:scripts.fort2_taintfood.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Taint it with waste
+      pl: Skaż to odpadami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1432
+  skrypt: fort2_toilet1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d53e2e950c9d54fd62a9
+      kontekst: data.json:scripts.fort2_toilet1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These toilets are all very clean.
+      pl: Te toalety są bardzo czyste.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbb98898742d09ecb82d
+      kontekst: data.json:scripts.fort2_toilet1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush this one
+      pl: Spuść w tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1433
+  skrypt: fort2_toilet2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d53e2e950c9d54fd62a9
+      kontekst: data.json:scripts.fort2_toilet2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These toilets are all very clean.
+      pl: Te toalety są bardzo czyste.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbb98898742d09ecb82d
+      kontekst: data.json:scripts.fort2_toilet2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush this one
+      pl: Spuść w tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1434
+  skrypt: fort2_toilet3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1e965988d0aeac544b68
+      kontekst: data.json:scripts.fort2_toilet3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a toilet.
+      pl: To toaleta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c939ea589b00c2bfb418
+      kontekst: data.json:scripts.fort2_toilet3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And the flusher is broken.  Yuck.
+      pl: A spłuczka jest zepsuta. Fuj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bc8d2453db33674f26b6
+      kontekst: data.json:scripts.fort2_toilet3.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The flush handle is missing, though.
+      pl: Choć brakuje dźwigni spłuczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_110a1e77f74a12b3bd8d
+      kontekst: data.json:scripts.fort2_toilet3.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fish around in it
+      pl: Grzeb w tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_08e4172fe7c40957c1f7
+      kontekst: data.json:scripts.fort2_toilet3.get
+      linia: 5
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the contents of the toilet.
+      pl: Chwytasz zawartość toalety.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1435
+  skrypt: fort2_toilet4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d53e2e950c9d54fd62a9
+      kontekst: data.json:scripts.fort2_toilet4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These toilets are all very clean.
+      pl: Te toalety są bardzo czyste.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbb98898742d09ecb82d
+      kontekst: data.json:scripts.fort2_toilet4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush this one
+      pl: Spuść w tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1436
+  skrypt: fort2_trashcan
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_28d6f0eddf417e95462a
+      kontekst: data.json:scripts.fort2_trashcan.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This trash can smells terrible!
+      pl: Ten kosz na śmieci okropnie śmierdzi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_92160ad675c68f9c633a
+      kontekst: data.json:scripts.fort2_trashcan.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh good, a disgusting old hat.
+      pl: No i super, obrzydliwy stary kapelusz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_163c0362cb96d7393cdb
+      kontekst: data.json:scripts.fort2_trashcan.nope
+      linia: 4
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No way!  Not without some Stench Resistance.
+      pl: Nie ma mowy! Nie bez Odporności na smród.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1437
+  skrypt: fort2_wartable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_eeb2962f355e4b46e4fc
+      kontekst: data.json:scripts.fort2_wartable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This table has a little model of the region on it.
+      pl: Na tym stole leży mały model regionu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e88781c9c567d6e4560f
+      kontekst: data.json:scripts.fort2_wartable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Deploy Forces [toy skeletons]
+      pl: Rozmieść siły [szkieletowe zabawki]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[toy skeletons]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_940316b9cd7236c141d7
+      kontekst: data.json:scripts.fort2_wartable.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already deployed your forces on it.
+      pl: Już rozmieściłeś tam swoje siły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1438
+  skrypt: fort2_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: discoverclowns_circus_ticketbooth
+    wpisy:
+    - id: wol_ec1f420d4d46b3afac6e
+      kontekst: data.json:scripts.fort2_watchtower.discoverclowns_circus_ticketbooth
+      linia: 1
+      sekcja_skryptu: discoverclowns_circus_ticketbooth
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spot the unmistakable silhouette of a circus tent up north.
+      pl: Na północy dostrzegasz nieomylną sylwetkę namiotu cyrkowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_7cb953cbab8f3299ccd6
+      kontekst: data.json:scripts.fort2_watchtower.rembin
+      linia: 3
+      sekcja_skryptu: rembin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tidy!
+      pl: Porządek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverelvibrato1
+    wpisy:
+    - id: wol_f1ebbe8ac387edc91dca
+      kontekst: data.json:scripts.fort2_watchtower.discoverelvibrato1
+      linia: 1
+      sekcja_skryptu: discoverelvibrato1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a cave entrance just northeast of the fort.  Looking at it... somehow... makes your ears... hum.  Weird.
+      pl: Widzisz wejście do jaskini na północny wschód od fortu. Patrzenie na nie... jakoś... sprawia, że uszy... brzęczą. Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovermission1
+    wpisy:
+    - id: wol_f76d920152965d251caf
+      kontekst: data.json:scripts.fort2_watchtower.discovermission1
+      linia: 1
+      sekcja_skryptu: discovermission1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a lonely mission nestled amidst the pines to the southeast.
+      pl: Widzisz samotną misję wśród sosen na południowy wschód.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovermine3
+    wpisy:
+    - id: wol_f093612fa30289ea5114
+      kontekst: data.json:scripts.fort2_watchtower.discovermine3
+      linia: 1
+      sekcja_skryptu: discovermine3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a mine entrance a ways to the west.
+      pl: Widzisz wejście do kopalni gdzieś na zachodzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverranch2
+    wpisy:
+    - id: wol_45ab66fbed1b74d11bf0
+      kontekst: data.json:scripts.fort2_watchtower.discoverranch2
+      linia: 1
+      sekcja_skryptu: discoverranch2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a ranch a few miles west of the fort.
+      pl: Widzisz ranczo kilka mil na zachód od fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1508
+  skrypt: frisco_flyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c27ac71e8132cf531ec7
+      kontekst: data.json:scripts.frisco_flyer.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000249
+  skrypt: house_statposter2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_27e440c7de238808bb2f
+      kontekst: house.json:scripts.house_statposter2.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fascinating
+      pl: Fascynujące
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1847
+  skrypt: mine4_pickaxe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c27ac71e8132cf531ec7
+      kontekst: data.json:scripts.mine4_pickaxe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: gary_tannery_shed
+    wpisy:
+    - id: wol_19267998e0ac19c364d9
+      kontekst: data.json:scripts.pardner_talk.gary_tannery_shed
+      linia: 2
+      sekcja_skryptu: gary_tannery_shed
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Heck yeah.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_necrotower_done
+    wpisy:
+    - id: wol_19267998e0ac19c364d9
+      kontekst: data.json:scripts.pardner_talk.susie_necrotower_done
+      linia: 8
+      sekcja_skryptu: susie_necrotower_done
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Heck yeah.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2303
+  skrypt: re_banditsneakup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: ruthless
+    wpisy:
+    - id: wol_19267998e0ac19c364d9
+      kontekst: data.json:scripts.re_banditsneakup.ruthless
+      linia: 8
+      sekcja_skryptu: ruthless
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Heck yeah.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2507
+  skrypt: silversmith_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: six
+    wpisy:
+    - id: wol_110a1e77f74a12b3bd8d
+      kontekst: data.json:scripts.silversmith_spittoon.six
+      linia: 13
+      sekcja_skryptu: six
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fish around in it
+      pl: Grzeb w tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2532
+  skrypt: sinzone_thiefin_interior_treasure
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c27ac71e8132cf531ec7
+      kontekst: data.json:scripts.sinzone_thiefin_interior_treasure.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2523
+  skrypt: sinzonethiefin_interior_sadtree
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: findhat
+    wpisy:
+    - id: wol_c27ac71e8132cf531ec7
+      kontekst: data.json:scripts.sinzonethiefin_interior_sadtree.findhat
+      linia: 2
+      sekcja_skryptu: findhat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick it up
+      pl: Podnieś to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2746
+  skrypt: tut_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_02c3d63f4baba8893b77
+      kontekst: data.json:scripts.tut_spittoon.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ignore it
+      pl: Zignoruj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2787
+  skrypt: westpole_rockpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c5674773c436bd0b4022
+      kontekst: data.json:scripts.westpole_rockpop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Examine it
+      pl: Zbadaj
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

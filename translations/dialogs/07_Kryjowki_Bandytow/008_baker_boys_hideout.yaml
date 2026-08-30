@@ -1,0 +1,1616 @@
+schema_version: 1
+dzial:
+  numer: '07'
+  nazwa: Kryjowki_Bandytow
+grupa_lokacji_lub_systemu: baker_boys_hideout
+zrodlowy_batch: 031_dialog_loc_bandit9_baker_boys_hideout.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 12
+liczba_wpisow: 95
+sceny:
+- kolejnosc_w_danych_gry: 179
+  skrypt: bandit9_checklouise
+  pomieszczenie: &id001
+    id: bandit9
+    nazwa_en: Baker Boys' Hideout
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_efc685added8cd2f6eac
+      kontekst: data.json:scripts.bandit9_checklouise.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see Louise Lathrop busily baking bread.  Billy Baker hops to his feet as you enter.
+      pl: Widzisz Louise Lathrop zajętą pieczeniem chleba. Billy Baker podskakuje na nogi, gdy wchodzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ddd0c0d7917eb94445e
+      kontekst: data.json:scripts.bandit9_checklouise.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey! Thanks for sending Louise over! She knows a ton about baking!
+      pl: Hej! Dzięki, że przysłałeś Louise! Wie mnóstwo o pieczeniu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0aef75e5993014f3bb1
+      kontekst: data.json:scripts.bandit9_checklouise.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah! We're gonna be major league bakers with her around!
+      pl: Tak! Będziemy z nią piec w pierwszej lidze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e7171713542b896b50bd
+      kontekst: data.json:scripts.bandit9_checklouise.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No problem, fellas. Let me grab enough bread to settle things with the Mayor, and we'll call it square.
+      pl: Nie ma sprawy, chłopaki. Wezmę tylko dość chleba, żeby rozliczyć się z burmistrzem, i będziemy kwita.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_189e215a5bcefd1d9782
+      kontekst: data.json:scripts.bandit9_checklouise.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All's well that ends well!
+      pl: Wszystko dobre, co się dobrze kończy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: louiseintro2
+    wpisy:
+    - id: wol_b8efe2422c6dd1ff8ebe
+      kontekst: data.json:scripts.bandit9_checklouise.louiseintro2
+      linia: 6
+      sekcja_skryptu: louiseintro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, hi! Thanks for letting me know about this place! These boys had a swell start on their operation here, so I think between the three of us we'll really be going places!
+      pl: Och, cześć! Dzięki, że powiedziałeś mi o tym miejscu! Ci chłopcy świetnie zaczęli ten interes, więc myślę, że we trójkę zajdziemy daleko!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e14d704c46cf875b067a
+      kontekst: data.json:scripts.bandit9_checklouise.louiseintro2
+      linia: 7
+      sekcja_skryptu: louiseintro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Glad to hear it.
+      pl: Miło słyszeć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: louisefix
+    wpisy:
+    - id: wol_9ab840af82fc859e7a93
+      kontekst: data.json:scripts.bandit9_checklouise.louisefix
+      linia: 8
+      sekcja_skryptu: louisefix
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, hi! Good thing you let me know about this place, these boys were in a real pickle, bakery-wise! I think with my help we'll be able to get this operation up and running real nice, though!
+      pl: Och, cześć! Dobrze, że powiedziałeś mi o tym miejscu, bo ci chłopcy byli w prawdziwych piekarniczych tarapatach! Ale sądzę, że z moją pomocą porządnie rozkręcimy ten interes!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e14d704c46cf875b067a
+      kontekst: data.json:scripts.bandit9_checklouise.louisefix
+      linia: 9
+      sekcja_skryptu: louisefix
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Glad to hear it.
+      pl: Miło słyszeć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 180
+  skrypt: bandit9_leader
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 74
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bd595e126d7e40f5005c
+      kontekst: data.json:scripts.bandit9_leader.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These teenagers seem dispirited, and are trying to drown their sorrows with big mugs of water. Maybe they misunderstood the idiom.
+      pl: Ci nastolatkowie są przygnębieni i zalewają smutki wielkimi kuflami wody. Może źle zrozumieli idiom.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d9e00186f656db217134
+      kontekst: data.json:scripts.bandit9_leader.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, you boys wouldn't know about some bread that went missing, would you?
+      pl: Hej, chłopcy, nie wiecie przypadkiem czegoś o chlebie, który zaginął?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_06aaa7ace92cce57ea8e
+      kontekst: data.json:scripts.bandit9_leader.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw nuts! I told you we'd get in trouble, Billy!
+      pl: O nie! Mówiłem, że wpadniemy w kłopoty, Billy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b34efd99043941712226
+      kontekst: data.json:scripts.bandit9_leader.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Shut up, Jerry! Way to just blab everything, dude!
+      pl: Zamknij się, Jerry! Świetnie, wygadałeś wszystko, stary!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2ee1903d92326083667e
+      kontekst: data.json:scripts.bandit9_leader.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Calm down, you two.
+      pl: Spokojnie, wy dwoje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_ad3d79758f2be267e9af
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Calm down, you two. The mayor just wants his bread back. Hand it over, and the trouble you're in will be minimal.
+      pl: Spokojnie, wy dwoje. Burmistrz chce tylko odzyskać chleb. Oddajcie go, a wasze kłopoty będą minimalne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f34f7ef9f4d256e945e
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It ain't that simple, @mister@. We sold that bread for Meat to start up this bakery.
+      pl: To nie takie proste, @mister@. Sprzedaliśmy ten chleb za Mięso, żeby otworzyć piekarnię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@mister@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4fbef247635e0a6a867
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Why?'
+      pl: '...Czemu?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3805b4cad319c4a4547b
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Coz we wanted to make somethin' of our lives! Everyone in Breadwood is just bums!
+      pl: Bo chcieliśmy coś osiągnąć! W Breadwood mieszkają sami obiboki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_83a4543cf99863e88c3a
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Plus, like, everyone needs bread, right? So we figured we'd make it big.
+      pl: Poza tym każdy potrzebuje chleba, nie? Pomyśleliśmy więc, że zbijemy fortunę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba2c74d6fb9279c7961e
+      kontekst: data.json:scripts.bandit9_leader.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, well, no problem.
+      pl: Okej, no, bez problemu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_a7e14430605e4459fa8e
+      kontekst: data.json:scripts.bandit9_leader.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, well, no problem. We take the mayor the bread you've made, and call it even.
+      pl: Dobra, żaden problem. Zaniesiemy burmistrzowi upieczony przez was chleb i będziemy kwita.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c29deb0e660a22251b7
+      kontekst: data.json:scripts.bandit9_leader.three
+      linia: 13
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah, no problem. Except for the fact that we don't know a dang thing about making bread, it turns out. All we ended up with is weird lumps.
+      pl: A tak, żaden problem. Poza tym, że, jak się okazało, nie mamy bladego pojęcia o pieczeniu chleba. Wyszły nam tylko jakieś dziwne bryły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa9e7b65f84285ffdf98
+      kontekst: data.json:scripts.bandit9_leader.three
+      linia: 14
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, that ain't true, Billy! The last loaf we tried was almost right.
+      pl: Nieprawda, Billy! Ostatni bochenek był prawie dobry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb6676ec7776689cfac7
+      kontekst: data.json:scripts.bandit9_leader.three
+      linia: 15
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, sure, that one was <i>nearly</i> edible. But we're practically out of ingredients.
+      pl: Ta była <i>prawie</i> jadalna. Ale praktycznie nie mamy składników.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51045e4406948afa69ea
+      kontekst: data.json:scripts.bandit9_leader.three
+      linia: 16
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe I can help...
+      pl: Może mogę pomóc...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_4c700ac2146b55e036f4
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 18
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I might know someone...
+      pl: Może znam kogoś...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hippybaker
+    wpisy:
+    - id: wol_37fc1a608ee25704e861
+      kontekst: data.json:scripts.bandit9_leader.hippybaker
+      linia: 19
+      sekcja_skryptu: hippybaker
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I might know someone who could help you out.  Do you two know Louise Lathrop?
+      pl: Chyba znam kogoś, kto mógłby wam pomóc. Znacie Louise Lathrop?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d18b84d26bffd23b5874
+      kontekst: data.json:scripts.bandit9_leader.hippybaker
+      linia: 20
+      sekcja_skryptu: hippybaker
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, who's that?
+      pl: Nie, kto to?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6cd017a6b9ee0b2b7917
+      kontekst: data.json:scripts.bandit9_leader.hippybaker
+      linia: 21
+      sekcja_skryptu: hippybaker
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: She might just be the solution to your problems!  Let me head on over to where she lives and talk to her for you.
+      pl: Może być rozwiązaniem waszych problemów! Pójdę do niej i porozmawiam z nią w waszym imieniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7fcb6739304fb0d22408
+      kontekst: data.json:scripts.bandit9_leader.hippybaker
+      linia: 22
+      sekcja_skryptu: hippybaker
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Go now [Travel to Lazy-A-Dude Ranch]
+      pl: Idź teraz [Podróż do Lazy-A-Dude Ranch]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Travel to Lazy-A-Dude Ranch]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_40a974b72a882cb9b143
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 24
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I know a place... [Unlimited Grain]
+      pl: Znam miejsce... [Nieograniczone Zboże]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Unlimited Grain]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grain
+    wpisy:
+    - id: wol_4deb3e81d136902fcef8
+      kontekst: data.json:scripts.bandit9_leader.grain
+      linia: 25
+      sekcja_skryptu: grain
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I know a place where you can get more grain. They have so much, they'll never notice if you boys take some on the quiet.
+      pl: Znam miejsce, gdzie można zdobyć więcej zboża. Mają go tyle, że nie zauważą, jeśli po cichu trochę weźmiecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9627174434d6eac19d57
+      kontekst: data.json:scripts.bandit9_leader.grain
+      linia: 26
+      sekcja_skryptu: grain
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, that sounds like a good deal. We wouldn't even need much, just enough to figure the recipe out and start making enough Meat to buy our own.
+      pl: Hej, to brzmi jak dobry układ. Nie potrzebujemy dużo, tylko tyle, żeby rozgryźć przepis i zacząć zarabiać dość Mięsa na własne zapasy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c7b1787e2f92205c063
+      kontekst: data.json:scripts.bandit9_leader.grain
+      linia: 27
+      sekcja_skryptu: grain
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. I'll draw you a map.
+      pl: Okej. Narysuję ci mapę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesgrain
+    wpisy:
+    - id: wol_3771e6ad00d5e172a8fc
+      kontekst: data.json:scripts.bandit9_leader.yesgrain
+      linia: 28
+      sekcja_skryptu: yesgrain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Baker Boys sneak out to Kellogg Ranch to filch a few bags of grain.
+      pl: Chłopcy Baker'a wymykają się na Ranczo Kellogg, żeby podkradnąć kilka worków zboża.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfcb404d6f934dee2cd3
+      kontekst: data.json:scripts.bandit9_leader.yesgrain
+      linia: 29
+      sekcja_skryptu: yesgrain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a couple tries, the boys hit on a decent bread recipe, and bake enough to cover what they stole from the Mayor.
+      pl: Po kilku próbach chłopaki trafiają na przyzwoity przepis na chleb i pieką tyle, żeby pokryć to, co ukradli burmistrzowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_189e215a5bcefd1d9782
+      kontekst: data.json:scripts.bandit9_leader.yesgrain
+      linia: 30
+      sekcja_skryptu: yesgrain
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All's well that ends well!
+      pl: Wszystko dobre, co się dobrze kończy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_78f94abce78c59bd2101
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 32
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I know... [Unlimited Bones]
+      pl: Wiem... [Nieograniczone Kości]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Unlimited Bones]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bones
+    wpisy:
+    - id: wol_14aaf9349d4b4f6a2cea
+      kontekst: data.json:scripts.bandit9_leader.bones
+      linia: 33
+      sekcja_skryptu: bones
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I know where you can get an unlimited supply of bones...
+      pl: Wiem, gdzie można zdobyć nieograniczony zapas kości...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba2171743cc7f42c1745
+      kontekst: data.json:scripts.bandit9_leader.bones
+      linia: 34
+      sekcja_skryptu: bones
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? We can't make bread out of bones.
+      pl: Co? Nie możemy zrobić chleba z kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46738b6ccbd95b4a8745
+      kontekst: data.json:scripts.bandit9_leader.bones
+      linia: 35
+      sekcja_skryptu: bones
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Gross!
+      pl: Fuj!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d7cba825f0978df13e8
+      kontekst: data.json:scripts.bandit9_leader.bones
+      linia: 36
+      sekcja_skryptu: bones
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, see...
+      pl: Nie, widzisz...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bones2
+    wpisy:
+    - id: wol_0759a91a6bc528fa1e69
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 37
+      sekcja_skryptu: bones2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, see, you grind it into bonemeal. It's powerful fertilizer, you could use it to grow more wheat.
+      pl: Nie, widzisz, mielisz je na mączkę kostną. To silny nawóz, można dzięki niemu wyhodować więcej pszenicy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4fcc035308d5533a59f
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 38
+      sekcja_skryptu: bones2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, huh. We do have maybe a handful of wheat grains left. That'll take forever, though!
+      pl: Oho. Mamy może jeszcze garść ziaren pszenicy. Ale to potrwa wieczność!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_31528a456ad75903e9b3
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 39
+      sekcja_skryptu: bones2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: There's been some... magic going on in that area. I think these bones will make <i>extremely</i> effective fertilizer.
+      pl: W tamtej okolicy działy się pewne... magiczne rzeczy. Myślę, że te kości będą <i>wyjątkowo</i> skutecznym nawozem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5fedbb1ae513fd8aa4ca
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 40
+      sekcja_skryptu: bones2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's worth a shot, I guess.
+      pl: Chyba warto spróbować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1368b274ddb541be2025
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 41
+      sekcja_skryptu: bones2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What could go wrong?
+      pl: Co może pójść nie tak?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c7b1787e2f92205c063
+      kontekst: data.json:scripts.bandit9_leader.bones2
+      linia: 42
+      sekcja_skryptu: bones2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. I'll draw you a map.
+      pl: Okej. Narysuję ci mapę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesbones
+    wpisy:
+    - id: wol_3d486f441a027b228561
+      kontekst: data.json:scripts.bandit9_leader.yesbones
+      linia: 43
+      sekcja_skryptu: yesbones
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The Baker Boys sneak out to the Buffalo Pile and collect a load of bones, which do indeed turn out to make bizarrely effective fertilizer. As in, you can literally watch the wheat growing.
+      pl: Chłopcy Baker'a wymykają się do Stosu Bawołów i zbierają ładunek kości, które rzeczywiście okazują się dziwnie skutecznym nawozem. Dosłownie widać, jak rośnie pszenica.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_719a1592472211f607ee
+      kontekst: data.json:scripts.bandit9_leader.yesbones
+      linia: 44
+      sekcja_skryptu: yesbones
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The grain seems fine though, and after a couple tries, the boys hit on a decent bread recipe, and bake enough to cover what they stole from the Mayor.
+      pl: Ziarno jednak wygląda w porządku, a po kilku próbach chłopaki trafiają na przyzwoity przepis na chleb i pieką tyle, żeby pokryć to, co ukradli burmistrzowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_189e215a5bcefd1d9782
+      kontekst: data.json:scripts.bandit9_leader.yesbones
+      linia: 45
+      sekcja_skryptu: yesbones
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All's well that ends well!
+      pl: Wszystko dobre, co się dobrze kończy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_4cd195c11841ef381f9d
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 47
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've got an idea... [Foragin' 3]
+      pl: Mam pomysł... [Zbieractwo 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Foragin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: forage
+    wpisy:
+    - id: wol_f9db0d46711109a31627
+      kontekst: data.json:scripts.bandit9_leader.forage
+      linia: 48
+      sekcja_skryptu: forage
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm a pretty good forager, I could teach you boys what to look for. There's plenty of cactuses and wild grains you could use.
+      pl: Całkiem nieźle radzę sobie ze zbieractwem — mogę was nauczyć, chłopcy, czego wypatrywać. Jest tu mnóstwo kaktusów i dzikich zbóż do wykorzystania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63b50cb677817faef298
+      kontekst: data.json:scripts.bandit9_leader.forage
+      linia: 49
+      sekcja_skryptu: forage
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That sounds hard and boring.
+      pl: To brzmi trudno i nudno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b403bd95f6b6603f856
+      kontekst: data.json:scripts.bandit9_leader.forage
+      linia: 50
+      sekcja_skryptu: forage
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But you'll have lots of different options for ingredients, and what customers want is variety.
+      pl: Ale będziesz mieć mnóstwo różnych składników, a klienci chcą różnorodności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_360d3c06b21ba955de1a
+      kontekst: data.json:scripts.bandit9_leader.forage
+      linia: 51
+      sekcja_skryptu: forage
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That's a good point. I don't mind foragin' if you just wanna do the bakin', Billy.
+      pl: Słuszna uwaga. Nie mam nic przeciwko zbieractwu, jeśli ty chcesz się zająć tylko pieczeniem, Billy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c0d33b8100cf448071d
+      kontekst: data.json:scripts.bandit9_leader.forage
+      linia: 52
+      sekcja_skryptu: forage
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right then, school's in session.
+      pl: No dobrze, lekcja się zaczyna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesforage
+    wpisy:
+    - id: wol_13a6e9e3613579d01e9a
+      kontekst: data.json:scripts.bandit9_leader.yesforage
+      linia: 53
+      sekcja_skryptu: yesforage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You teach Jerry how to find the wild ingredients they need while Billy works on figuring out a proper recipe.
+      pl: Uczysz Jerry'ego, jak znaleźć dzikie składniki, których potrzebują, podczas gdy Billy pracuje nad właściwym przepisem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_96af3abed89040bbb73e
+      kontekst: data.json:scripts.bandit9_leader.yesforage
+      linia: 54
+      sekcja_skryptu: yesforage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a couple tries, they manage to produce a pretty decent loaf of bread, and bake enough to cover what they stole from the Mayor.
+      pl: Po kilku próbach udaje im się upiec całkiem przyzwoity bochenek i wystarczająco dużo chleba, żeby pokryć to, co ukradli burmistrzowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_189e215a5bcefd1d9782
+      kontekst: data.json:scripts.bandit9_leader.yesforage
+      linia: 55
+      sekcja_skryptu: yesforage
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: All's well that ends well!
+      pl: Wszystko dobre, co się dobrze kończy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_2a2457f98c9ec9d8f811
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 57
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hell, I don't have time... [35 Mysticality]
+      pl: Cholera, nie mam czasu... [35 Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[35 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_09709ed2427c8c39e4ec
+      kontekst: data.json:scripts.bandit9_leader.illdoit
+      linia: 58
+      sekcja_skryptu: illdoit
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hell, I don't have time for this. I'm smart enough to cook a dang loaf of bread, just give me whatever ingredients you have left.
+      pl: Do diabła, nie mam na to czasu. Jestem dość bystry, żeby upiec przeklęty bochenek chleba. Daj mi po prostu wszystkie składniki, które ci zostały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_287258d046c28aa1674f
+      kontekst: data.json:scripts.bandit9_leader.illdoit
+      linia: 59
+      sekcja_skryptu: illdoit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But then we won't learn how to bake it ourselves!
+      pl: Ale wtedy sami nie nauczymy się go piec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b35a3c39f5aa05bb0a8
+      kontekst: data.json:scripts.bandit9_leader.illdoit
+      linia: 60
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you wanna be bakers, or do you wanna stay out of jail?
+      pl: Chcecie być piekarzami, czy wolicie uniknąć więzienia?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesilldoit
+    wpisy:
+    - id: wol_26d9275567836a80a83f
+      kontekst: data.json:scripts.bandit9_leader.yesilldoit
+      linia: 62
+      sekcja_skryptu: yesilldoit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The boys grumble, but they turn over the last remnants of their ingredients, and you manage to get enough bread out of them to satisfy the mayor.
+      pl: Chłopaki burczą, ale oddają resztki składników i udaje ci się wycisnąć z nich tyle chleba, żeby zadowolić burmistrza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_540251f76b45e14e78a9
+      kontekst: data.json:scripts.bandit9_leader.yesilldoit
+      linia: 63
+      sekcja_skryptu: yesilldoit
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good enough for me!
+      pl: Dla mnie wystarczy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit
+    wpisy:
+    - id: wol_7178f5c4708b7536e8e6
+      kontekst: data.json:scripts.bandit9_leader.illdoit
+      linia: 64
+      sekcja_skryptu: illdoit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, fine. I'll think of something else.
+      pl: No dobra, dobra. Wymyślę coś innego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_188023e1fb99c16fb143
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 65
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't have time... [Beanslinger, 25 Mysticality]
+      pl: Nie mam czasu... [Fasolomanta, 25 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Beanslinger, 25 Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit2
+    wpisy:
+    - id: wol_2df49eaaa18a8abce98a
+      kontekst: data.json:scripts.bandit9_leader.illdoit2
+      linia: 66
+      sekcja_skryptu: illdoit2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't have time for this. Look, I know cooking magic, just give me whatever ingredients you have left.
+      pl: Nie mam na to czasu. Słuchaj, znam się na magii kulinarnej, po prostu daj mi, jakiekolwiek składniki ci zostały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_287258d046c28aa1674f
+      kontekst: data.json:scripts.bandit9_leader.illdoit2
+      linia: 67
+      sekcja_skryptu: illdoit2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: But then we won't learn how to bake it ourselves!
+      pl: Ale wtedy sami nie nauczymy się go piec!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5b35a3c39f5aa05bb0a8
+      kontekst: data.json:scripts.bandit9_leader.illdoit2
+      linia: 68
+      sekcja_skryptu: illdoit2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you wanna be bakers, or do you wanna stay out of jail?
+      pl: Chcecie być piekarzami, czy wolicie uniknąć więzienia?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: yesilldoit2
+    wpisy:
+    - id: wol_26d9275567836a80a83f
+      kontekst: data.json:scripts.bandit9_leader.yesilldoit2
+      linia: 70
+      sekcja_skryptu: yesilldoit2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The boys grumble, but they turn over the last remnants of their ingredients, and you manage to get enough bread out of them to satisfy the mayor.
+      pl: Chłopaki burczą, ale oddają resztki składników i udaje ci się wycisnąć z nich tyle chleba, żeby zadowolić burmistrza.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_540251f76b45e14e78a9
+      kontekst: data.json:scripts.bandit9_leader.yesilldoit2
+      linia: 71
+      sekcja_skryptu: yesilldoit2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good enough for me!
+      pl: Dla mnie wystarczy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: illdoit2
+    wpisy:
+    - id: wol_7178f5c4708b7536e8e6
+      kontekst: data.json:scripts.bandit9_leader.illdoit2
+      linia: 72
+      sekcja_skryptu: illdoit2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, fine. I'll think of something else.
+      pl: No dobra, dobra. Wymyślę coś innego.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_a7c5937fe46199a9c0cc
+      kontekst: data.json:scripts.bandit9_leader.opts
+      linia: 73
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Nope, I''ve got nothing.'
+      pl: '...Nie, nic nie mam.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whine
+    wpisy:
+    - id: wol_aa2a4a608a64d9f1678f
+      kontekst: data.json:scripts.bandit9_leader.whine
+      linia: 74
+      sekcja_skryptu: whine
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for getting us out of trouble with the Mayor, I guess.
+      pl: Chyba dzięki za wyciągnięcie nas z kłopotów u burmistrza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8d07bd6e56658fe0806
+      kontekst: data.json:scripts.bandit9_leader.whine
+      linia: 75
+      sekcja_skryptu: whine
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How're we gonna become famous bakers now, though?
+      pl: Jak mamy teraz zostać sławnymi piekarzami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7377c5d772ce7a45f8e5
+      kontekst: data.json:scripts.bandit9_leader.whine
+      linia: 76
+      sekcja_skryptu: whine
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not my problem!
+      pl: Nie moja sprawa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thanks
+    wpisy:
+    - id: wol_3ce0298e87c67ad8fb66
+      kontekst: data.json:scripts.bandit9_leader.thanks
+      linia: 77
+      sekcja_skryptu: thanks
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for helping us get our bakery started, @mister@! We're gonna be famous before you know it!
+      pl: Dzięki za pomoc w rozkręceniu naszej piekarni, @mister@! Nim się obejrzysz, będziemy sławni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@mister@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.bandit9_leader.thanks
+      linia: 78
+      sekcja_skryptu: thanks
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beforeopts
+    wpisy:
+    - id: wol_af771107410b127cc068
+      kontekst: data.json:scripts.bandit9_leader.beforeopts
+      linia: 79
+      sekcja_skryptu: beforeopts
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Any progress on the bread bakin'?
+      pl: Jak postępy w pieczeniu chleba?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9c7517579b9794cc100
+      kontekst: data.json:scripts.bandit9_leader.beforeopts
+      linia: 80
+      sekcja_skryptu: beforeopts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: None at all, @mister@.  We're screwed!
+      pl: Ani trochę, @mister@. Mamy przechlapane!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@mister@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51045e4406948afa69ea
+      kontekst: data.json:scripts.bandit9_leader.beforeopts
+      linia: 81
+      sekcja_skryptu: beforeopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe I can help...
+      pl: Może mogę pomóc...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 182
+  skrypt: bandit9_oven
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bcc07f533523d314d195
+      kontekst: data.json:scripts.bandit9_oven.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The big baker's oven is warm and fragrant.
+      pl: Wielki piec piekarza jest ciepły i pachnący.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_631932d0df30beec8ef7
+      kontekst: data.json:scripts.bandit9_oven.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The big baker's oven is long-cold.
+      pl: Wielki piec piekarza dawno wystygł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 367
+  skrypt: cemetery2_plaque1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_46738b6ccbd95b4a8745
+      kontekst: data.json:scripts.cemetery2_plaque1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Gross!
+      pl: Fuj!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1054
+  skrypt: dirtwater_bookseller
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_e14d704c46cf875b067a
+      kontekst: data.json:scripts.dirtwater_bookseller.intro
+      linia: 14
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Glad to hear it.
+      pl: Miło słyszeć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alice_necrotower_done
+    wpisy:
+    - id: wol_e14d704c46cf875b067a
+      kontekst: data.json:scripts.pardner_talk.alice_necrotower_done
+      linia: 9
+      sekcja_skryptu: alice_necrotower_done
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Glad to hear it.
+      pl: Miło słyszeć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2108
+  skrypt: punland_mainstage_stage
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: boat2
+    wpisy:
+    - id: wol_b4fbef247635e0a6a867
+      kontekst: data.json:scripts.punland_mainstage_stage.boat2
+      linia: 151
+      sekcja_skryptu: boat2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Why?'
+      pl: '...Czemu?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2167
+  skrypt: railcamp_worker2convo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thanks
+    wpisy:
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.railcamp_worker2convo.thanks
+      linia: 14
+      sekcja_skryptu: thanks
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2303
+  skrypt: re_banditsneakup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: banditsneakup2
+    wpisy:
+    - id: wol_540251f76b45e14e78a9
+      kontekst: data.json:scripts.re_banditsneakup.banditsneakup2
+      linia: 5
+      sekcja_skryptu: banditsneakup2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good enough for me!
+      pl: Dla mnie wystarczy!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2470
+  skrypt: re_woundedguy
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: woundedguy3
+    wpisy:
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.re_woundedguy.woundedguy3
+      linia: 13
+      sekcja_skryptu: woundedguy3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2474
+  skrypt: roybean_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: opts
+    wpisy:
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.roybean_talk.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2733
+  skrypt: tut_sherf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: return4
+    wpisy:
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.tut_sherf.return4
+      linia: 81
+      sekcja_skryptu: return4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: return4a
+    wpisy:
+    - id: wol_ff088bffa15dd2091772
+      kontekst: data.json:scripts.tut_sherf.return4a
+      linia: 82
+      sekcja_skryptu: return4a
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't mention it.
+      pl: Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

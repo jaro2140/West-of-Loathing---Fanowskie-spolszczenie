@@ -1,0 +1,270 @@
+schema_version: 1
+dzial:
+  numer: '13'
+  nazwa: Pozna_Gra_i_Final
+grupa_lokacji_lub_systemu: the_big_apple
+zrodlowy_batch: 035_dialog_loc_bigapple_the_big_apple.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 3
+liczba_wpisow: 15
+sceny:
+- kolejnosc_w_danych_gry: 244
+  skrypt: bigapple_bigapple
+  pomieszczenie: &id001
+    id: bigapple
+    nazwa_en: The Big Apple
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1a51775b0d7414f65a17
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It doesn't smell any better up close.
+      pl: Z bliska nie pachnie lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26e2cd23917035157fc8
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's smaller than it was before.
+      pl: Jest mniejsze niż wcześniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1f1666d4f24ae5a8eb02
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's quite a bit smaller than it was before.
+      pl: Jest sporo mniejsze niż wcześniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2548f1fb59e931efd603
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's way smaller than it was before.
+      pl: Jest o wiele mniejsze niż wcześniej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f56add3def5e4871f6c
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's almost gone now.
+      pl: Prawie już zniknęło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2ea63bba895ccb58f05f
+      kontekst: data.json:scripts.bigapple_bigapple.popup
+      linia: 6
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Clean it up [shovel]
+      pl: Posprzątaj [łopata]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_e0066cf2ff1a1eb87150
+      kontekst: data.json:scripts.bigapple_bigapple.dig
+      linia: 7
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make a little dent in it.
+      pl: Robisz w tym małe wgniecenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f1bd7838b7c7f36eddd
+      kontekst: data.json:scripts.bigapple_bigapple.dig
+      linia: 8
+      sekcja_skryptu: dig
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep digging
+      pl: Kop dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 245
+  skrypt: bigapple_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_cbd9f515249304ee88db
+      kontekst: data.json:scripts.bigapple_intro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you reach the center of the clearing, you are simultaneously struck with a profound awe and a terrible stench as you discover the largest road apple you've ever seen.
+      pl: Gdy docierasz do środka polany, jednocześnie ogarniają cię głęboki podziw i straszliwy smród — odkrywasz największe „drogowe jabłko”, jakie kiedykolwiek widziałeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3547534da3d825b0428a
+      kontekst: data.json:scripts.bigapple_intro.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't even imagine how this got here.  Was it... a giant horse?  Was it two hundred normal-sized horses acting collaboratively?
+      pl: Nawet nie wyobrażasz sobie, jak to tu trafiło. Czy to... olbrzymi koń? Czy dwieście normalnych koni działających wspólnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51c93de7c339ac70fbcf
+      kontekst: data.json:scripts.bigapple_intro.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They...  They should've sent a poet.
+      pl: Powinni... powinni wysłać poetę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_579bf68f0a516f35fbdf
+      kontekst: data.json:scripts.bigapple_intro.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, they should have
+      pl: Ta, powinni byli
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: theydid
+    wpisy:
+    - id: wol_8fc54573b673a4c95eae
+      kontekst: data.json:scripts.bigapple_intro.theydid
+      linia: 1
+      sekcja_skryptu: theydid
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, you're a poet, are you?  Okay then, @mr@ Fancy-Pants Big City Poet.  Write me a poem about this.
+      pl: O, jesteś poetą, tak? No dobrze, @mr@ Wypasiony Wielkomiejski Poeto. Napisz mi wiersz o tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@mr@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bc67ec349a32084e7b9
+      kontekst: data.json:scripts.bigapple_intro.theydid
+      linia: 2
+      sekcja_skryptu: theydid
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ahem
+      pl: Ekhem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1022
+  skrypt: daveyard_davegrave
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dig2
+    wpisy:
+    - id: wol_2f1bd7838b7c7f36eddd
+      kontekst: data.json:scripts.daveyard_davegrave.dig2
+      linia: 6
+      sekcja_skryptu: dig2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep digging
+      pl: Kop dalej
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

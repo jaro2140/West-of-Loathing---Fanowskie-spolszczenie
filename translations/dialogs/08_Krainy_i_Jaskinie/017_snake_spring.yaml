@@ -1,0 +1,314 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: snake_spring
+zrodlowy_batch: 111_dialog_loc_snakespring_snake_spring.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 2
+liczba_wpisow: 18
+sceny:
+- kolejnosc_w_danych_gry: 2547
+  skrypt: snakespring_spring
+  pomieszczenie: &id001
+    id: snakespring
+    nazwa_en: Snake Spring
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 15
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_79d476a97557f2fc1a31
+      kontekst: data.json:scripts.snakespring_spring.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An endless stream of snakes pours out of a hole in the canyon wall.
+      pl: Z dziury w ścianie kanionu wylewa się niekończący się strumień węży.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf48b718b3c396f92a75
+      kontekst: data.json:scripts.snakespring_spring.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a big one [Fight]
+      pl: Weź dużego [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e03ff8ec69d3ace4aaa8
+      kontekst: data.json:scripts.snakespring_spring.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a handful [Fight]
+      pl: Weź garść [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a661793c83bfe74d9c09
+      kontekst: data.json:scripts.snakespring_spring.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the spring alone
+      pl: Zostaw źródło w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_79d476a97557f2fc1a31
+      kontekst: data.json:scripts.snakespring_spring.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An endless stream of snakes pours out of a hole in the canyon wall.
+      pl: Z dziury w ścianie kanionu wylewa się niekończący się strumień węży.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf48b718b3c396f92a75
+      kontekst: data.json:scripts.snakespring_spring.hardstart
+      linia: 6
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a big one [Fight]
+      pl: Weź dużego [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e03ff8ec69d3ace4aaa8
+      kontekst: data.json:scripts.snakespring_spring.hardstart
+      linia: 7
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a handful [Fight]
+      pl: Weź garść [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68f84e4e7b1b666afa9e
+      kontekst: data.json:scripts.snakespring_spring.hardstart
+      linia: 8
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice in your head explains that you're much too tired to fight any more snakes today.
+      pl: Głos w twojej głowie tłumaczy, że jesteś zbyt zmęczony, żeby walczyć dziś z kolejnymi wężami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bb9b2176aa973973573
+      kontekst: data.json:scripts.snakespring_spring.hardstart
+      linia: 9
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get some rest
+      pl: Odpocznij
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win1
+    wpisy:
+    - id: wol_14a55da0266d4edbcb0d
+      kontekst: data.json:scripts.snakespring_spring.win1
+      linia: 1
+      sekcja_skryptu: win1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You successfully killed one snake out of infinity snakes.
+      pl: Udało ci się zabić jednego węża z nieskończonej liczby węży.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_546a015be665f3200f03
+      kontekst: data.json:scripts.snakespring_spring.win1
+      linia: 3
+      sekcja_skryptu: win1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The snake doesn't have enough skin on it for you to even bother pulling out your knife.
+      pl: Na wężu nie ma dość skóry, żebyś miał sens wyciągać nóż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win3
+    wpisy:
+    - id: wol_1a8bade050575ec650c5
+      kontekst: data.json:scripts.snakespring_spring.win3
+      linia: 1
+      sekcja_skryptu: win3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You successfully killed four snakes out of infinity snakes.  Just infinity more to go!
+      pl: Udało ci się zabić cztery węże z nieskończonej liczby węży. Zostało tylko nieskończenie więcej!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_790e505f5c6e7e6d8ad7
+      kontekst: data.json:scripts.snakespring_spring.win3
+      linia: 3
+      sekcja_skryptu: win3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These snakes don't have enough skin on 'em for you to even bother pulling out your knife.
+      pl: Na tych wężach za mało skóry, by wyciągać nóż.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_b60693c1c9af2e19d322
+      kontekst: data.json:scripts.snakespring_spring.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really have nobody but yourself to blame for that.
+      pl: Naprawdę masz winić tylko siebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_b1c52c670bcb12a24363
+      kontekst: data.json:scripts.snakespring_spring.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I know
+      pl: Ta, wiem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2548
+  skrypt: snakespring_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ecfbf57842fbb9f00885
+      kontekst: data.json:scripts.snakespring_timerift.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'It opens onto the incredibly brightly lit interior of a building.  A sign on the far wall reads "SNAKE SPRINGS PLUMBING SUPPLY, EST. 1925" and a sign on a nearby bin full of toilet plungers says "PLUNGERS:  45,000 MEAT EACH."'
+      pl: 'Otwiera się na oślepiająco jasne wnętrze budynku. Na dalekiej ścianie wisi napis „SNAKE SPRINGS PLUMBING SUPPLY, ZAŁ. 1925”, a na pobliskim pojemniku pełnym przepychaczek do klozetów: „PRZEPYCHACZKI: PO 45 000 MIĘSA ZA SZTUKĘ”.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16e6bc28861bfa4d110d
+      kontekst: data.json:scripts.snakespring_timerift.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's...  That's exorbitant!  They're not even special solid gold toilet plungers or anything like that.  Just regular plungers!
+      pl: To... To horrendalne! To nawet nie specjalne przepychacze z litego złota czy coś takiego. Zwykłe przepychacze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7733d2409e8dac4d1f8a
+      kontekst: data.json:scripts.snakespring_timerift.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: That would be shoplifting
+      pl: To byłby kradzież sklepowa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

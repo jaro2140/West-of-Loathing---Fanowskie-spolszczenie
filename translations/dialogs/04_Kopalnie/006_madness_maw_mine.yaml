@@ -1,0 +1,3385 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: madness_maw_mine
+zrodlowy_batch: 082_dialog_loc_mine6_madness_maw_mine.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 29
+liczba_wpisow: 197
+sceny:
+- kolejnosc_w_danych_gry: 1000079
+  skrypt: house_employee3
+  pomieszczenie: &id001
+    id: mine6
+    nazwa_en: Madness Maw Mine
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_e78222051707d4181415
+      kontekst: house.json:scripts.house_employee3.no
+      linia: 32
+      sekcja_skryptu: 'no'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her
+      pl: Zostaw ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1879
+  skrypt: mine6_cultist
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0ee5c2062a408d5df384
+      kontekst: data.json:scripts.mine6_cultist.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist ignores you.
+      pl: Kultysta cię ignoruje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_02a31b996d989aa36ad8
+      kontekst: data.json:scripts.mine6_cultist.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist bows to you, but doesn't offer much else in the way of communication.
+      pl: Kultysta kłania ci się, ale poza tym nie ma wiele do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1880
+  skrypt: mine6_cultist1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0ee5c2062a408d5df384
+      kontekst: data.json:scripts.mine6_cultist1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist ignores you.
+      pl: Kultysta cię ignoruje.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1882
+  skrypt: mine6_cultistguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 37
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a22210ce1f2d0d51c016
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You aren't one of us! Begone from this place, interloper!
+      pl: Nie jesteś jednym z nas! Odejdź stąd, intruzie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_75756f1635774e3e1f34
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Now you <i>know</i> something bad is going down. Nobody good uses the word "interloper".
+      pl: Teraz <i>wiesz</i>, że szykuje się coś złego. Nikt porządny nie używa słowa „intruz”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b079328f7598c7e26c94
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her [Fight]
+      pl: Zaatakuj ją [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00e88618cd5ba99d3e3a
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Intimidate her [Intimidatin' 3]
+      pl: Zastrasz ją [Zastraszanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_c32202e39f0f0ede13c5
+      kontekst: data.json:scripts.mine6_cultistguard.intim
+      linia: 5
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You dare tell me where I can and cannot go? <i>Me,</i> among the highest eschelons of our master's servants? You <i>dare?</i>
+      pl: Śmiesz mi mówić, gdzie mogę, a dokąd nie? <i>Ja,</i> należąca do najwyższych szeregów sług naszego pana? <i>Śmiesz?</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68fb1c0fb83b721917b7
+      kontekst: data.json:scripts.mine6_cultistguard.intim
+      linia: 6
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wow, jeez, okay! Sorry! I guess I didn't recognize you without your mask on. Go on in!
+      pl: Rany, dobra! Przepraszam! Chyba nie poznałem cię bez maski. Wejdź!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_381599f4256d254b446a
+      kontekst: data.json:scripts.mine6_cultistguard.intim
+      linia: 7
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard scampers away into the mine.
+      pl: Strażnik ucieka do kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_b259e5c04000eeb841ed
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Intimidate her [Requires Intimidatin' 3]
+      pl: Zastrasz ją [Wymaga Zastraszania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e41dc15220d68b544d77
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outfox her [Outfoxin' 3]
+      pl: Przechytrz ją [Przechytrzanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_40dead31da70366ec221
+      kontekst: data.json:scripts.mine6_cultistguard.outfox
+      linia: 11
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What makes you say that?
+      pl: Dlaczego tak mówisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d0bfa2a043bb9edaecf
+      kontekst: data.json:scripts.mine6_cultistguard.outfox
+      linia: 12
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I don't recognize you.
+      pl: Nie poznaję cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93bb4aed6a56ed991a06
+      kontekst: data.json:scripts.mine6_cultistguard.outfox
+      linia: 13
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: But how could you possibly recognize anyone, with the masks and robes and all? I should be <i>easier</i> for you to recognize, because I'm <i>not</i> wearing that stuff. Don't you remember me?
+      pl: Jak możesz kogokolwiek rozpoznać przez maski i szaty? Mnie powinno być <i>łatwiej</i> poznać, bo <i>nie</i> mam ich na sobie. Nie pamiętasz mnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_486f9ed0cc0d869f5bfd
+      kontekst: data.json:scripts.mine6_cultistguard.outfox
+      linia: 14
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...No?'
+      pl: '...Nie?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d617bcaba0dfc1f436d9
+      kontekst: data.json:scripts.mine6_cultistguard.outfox
+      linia: 15
+      sekcja_skryptu: outfox
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's probably just because...
+      pl: To pewnie tylko dlatego, że...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fox2
+    wpisy:
+    - id: wol_70331e7509c92d5c064a
+      kontekst: data.json:scripts.mine6_cultistguard.fox2
+      linia: 16
+      sekcja_skryptu: fox2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's probably just because you've never seen me without the mask on.
+      pl: Pewnie dlatego, że nigdy nie widziałeś mnie bez maski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c75a4949f211db934525
+      kontekst: data.json:scripts.mine6_cultistguard.fox2
+      linia: 17
+      sekcja_skryptu: fox2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I... guess that makes sense? Okay, come on in.
+      pl: To... chyba ma sens? Dobra, wchodź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb7a8affa11cba6c9e5f
+      kontekst: data.json:scripts.mine6_cultistguard.fox2
+      linia: 18
+      sekcja_skryptu: fox2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She leads the way into the cave.
+      pl: Prowadzi do jaskini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_780deea97bd2fe213e36
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 20
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outfox her [Requires Outfoxin' 3]
+      pl: Przechytrz ją [Wymaga Przechytrzania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_323ff46f1d8c988ed78e
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 21
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hornswoggle her [Hornswoggin' 3]
+      pl: Oszukaj ją [Oszukiwanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswoggin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_78c9f5b95114862b20c3
+      kontekst: data.json:scripts.mine6_cultistguard.hornswoggle
+      linia: 22
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Chill, chill, I just don't have my mask on. I forgot it here after the last time.
+      pl: Spokojnie, po prostu nie mam maski. Zapomniałem jej po ostatnim razie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b07dcbcb258a8381f22d
+      kontekst: data.json:scripts.mine6_cultistguard.hornswoggle
+      linia: 23
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah? Where's your proof?
+      pl: Ach tak? A gdzie dowód?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ae868defaa8360618048
+      kontekst: data.json:scripts.mine6_cultistguard.hornswoggle
+      linia: 24
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Proof that I left it here? Well, I'm not wearing it, am I? Which I obviously <i>would</i> be, if I had it with me.
+      pl: Dowód, że go tu zostawiłem? Przecież go nie noszę, prawda? A oczywiście <i>nosiłbym,</i> gdybym miał go przy sobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb945c055295f614f3f2
+      kontekst: data.json:scripts.mine6_cultistguard.hornswoggle
+      linia: 25
+      sekcja_skryptu: hornswoggle
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5b3270e58051b5fd71
+      kontekst: data.json:scripts.mine6_cultistguard.hornswoggle
+      linia: 26
+      sekcja_skryptu: hornswoggle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Come on, let me in...
+      pl: No dalej, wpuść mnie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: horn2
+    wpisy:
+    - id: wol_97f99ed40d4200aedb83
+      kontekst: data.json:scripts.mine6_cultistguard.horn2
+      linia: 27
+      sekcja_skryptu: horn2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Come on, let me in, I don't want to miss the thing.
+      pl: No weź, wpuść mnie, nie chcę tego przegapić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_12a11b321bcc76a3569c
+      kontekst: data.json:scripts.mine6_cultistguard.horn2
+      linia: 28
+      sekcja_skryptu: horn2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, fine. But don't forget your mask this time.
+      pl: Dobra, niech będzie. Ale tym razem nie zapomnij maski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35df26f3522eebe053fe
+      kontekst: data.json:scripts.mine6_cultistguard.horn2
+      linia: 29
+      sekcja_skryptu: horn2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She turns and enters the mine.
+      pl: Odwraca się i wchodzi do kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_3bfca4f09b5cb15b2b19
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 31
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Hornswoggle her [Requires Hornswogglin' 3]
+      pl: Oszukaj ją [Wymaga Oszukiwania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 3]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bf9f90ad4f334c13862
+      kontekst: data.json:scripts.mine6_cultistguard.start
+      linia: 32
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put the headband on her [El Vibrato headband]
+      pl: Załóż jej opaskę [Opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_c6ddb62b2f3ea01e3248
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 33
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hold still a second, I just wanna put this thing on your head.
+      pl: Nie ruszaj się przez chwilę, chcę tylko założyć ci to na głowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1776373f40ca625e282
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 34
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Wha...
+      pl: Hę? Co...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b1a77755e5e59618151f
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 35
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, jeez... what happened? I feel like I overslept, but like for a whole week. Bleah.
+      pl: O rany... co się stało? Czuję się, jakbym zaspał, ale tak o cały tydzień. Ble.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e135b696bbdb6d57583
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 36
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, what's going on in this mine?
+      pl: Co się dzieje w tej kopalni?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4e681f099a5739095ad
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 37
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Mine? What are you talking about? Look, I need to go find an aspirin. See you later.
+      pl: Mój? O czym ty mówisz? Słuchaj, muszę znaleźć aspirynę. Do zobaczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc9ee0c67bab05ba4e60
+      kontekst: data.json:scripts.mine6_cultistguard.headband
+      linia: 38
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She wanders off into the desert.
+      pl: Zbacza w pustynię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_7da7c5679f520b8ad683
+      kontekst: data.json:scripts.mine6_cultistguard.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Once again, good triumphs over evil!
+      pl: I znów dobro triumfuje nad złem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_9c909d11dfb8c19a782e
+      kontekst: data.json:scripts.mine6_cultistguard.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You lost. The guard kicks you out of... er, <i>further</i> out of the mine.
+      pl: Przegrałeś. Strażnik wyrzuca cię z... eee, <i>jeszcze dalej</i> z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1883
+  skrypt: mine6_cultistguard_back
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6825e31f608d72ad064c
+      kontekst: data.json:scripts.mine6_cultistguard_back.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist hears you coming up behind her and turns around.
+      pl: Kultystka słyszy, że idziesz za nią, i się odwraca.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_366bbf92b3c27adcc73e
+      kontekst: data.json:scripts.mine6_cultistguard_back.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What the-- who the heck are you? How did you get back there?
+      pl: Kim ty do cholery jesteś? Jak tam wróciłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b079328f7598c7e26c94
+      kontekst: data.json:scripts.mine6_cultistguard_back.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her [Fight]
+      pl: Zaatakuj ją [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26b8a421d987e2057904
+      kontekst: data.json:scripts.mine6_cultistguard_back.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run past her
+      pl: Przebiegnij obok niej
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: run
+    wpisy:
+    - id: wol_c0943410c19b7ec6242b
+      kontekst: data.json:scripts.mine6_cultistguard_back.run
+      linia: 5
+      sekcja_skryptu: run
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You sprint past her and make it back to your horse before she can even say "Hey!"
+      pl: Przebiegasz obok niej i docierasz do konia, zanim zdąży powiedzieć „Hej!”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e083c3c9105a2101bf3
+      kontekst: data.json:scripts.mine6_cultistguard_back.run
+      linia: 6
+      sekcja_skryptu: run
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He--
+      pl: On—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63202ac1311f9d1c706b
+      kontekst: data.json:scripts.mine6_cultistguard_back.run
+      linia: 7
+      sekcja_skryptu: run
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Made it!
+      pl: Udało się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_7ab383bd6fa88e147867
+      kontekst: data.json:scripts.mine6_cultistguard_back.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You knock the guard out -- that'll teach her to uh... be surprised at your sudden appearance.
+      pl: Powalasz strażniczkę — to ją nauczy, eee... dziwić się twojemu nagłemu pojawieniu się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_4ab209f44bf1e2e82891
+      kontekst: data.json:scripts.mine6_cultistguard_back.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard beats the heck out of you and dumps you outside. Which is where you wanted to be, right? So that's basically a success.
+      pl: Strażnik solidnie cię obłupuje i wyrzuca na zewnątrz. A przecież tam chciałeś być, prawda? Więc to w zasadzie sukces.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1885
+  skrypt: mine6_cultistguard_disguise
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_73ed2cd00a19202e3aec
+      kontekst: data.json:scripts.mine6_cultistguard_disguise.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard nods at you as you pass by.
+      pl: Strażnik kiwa głową, gdy przechodzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c466ce3b268904b5a83b
+      kontekst: data.json:scripts.mine6_cultistguard_disguise.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The guard bows deeply at you as you pass by.
+      pl: Strażnik głęboko ci się kłania, gdy przechodzisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1887
+  skrypt: mine6_cultistnote
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ce0c26fa3fa14647c8c4
+      kontekst: data.json:scripts.mine6_cultistnote.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: DEAR GEOFF
+      pl: DROGI GEOFF
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48dc0128dcf8c341bf19
+      kontekst: data.json:scripts.mine6_cultistnote.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: THE BIG GUY SAYS TO STAY OUT OF HERE
+      pl: WIELKI FACET MÓWI, ŻEBY TU NIE WCHODZIĆ
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63d870a4b578515925ce
+      kontekst: data.json:scripts.mine6_cultistnote.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: PRAISE BE ROBERTO
+      pl: CHWAŁA NIECH BĘDZIE ROBERTO
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e43d3c6426ffcd59904
+      kontekst: data.json:scripts.mine6_cultistnote.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: SINCERELY, GEFF
+      pl: Z POWAŻANIEM, GEFF
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1888
+  skrypt: mine6_curlyliquor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0ee4f17b41457b5a8683
+      kontekst: data.json:scripts.mine6_curlyliquor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A lot of these bottles are empty.
+      pl: Wiele z tych butelek jest pustych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d7006570c6741f04214c
+      kontekst: data.json:scripts.mine6_curlyliquor.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take what's left
+      pl: Weź, co zostało
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1889
+  skrypt: mine6_curlynightstand
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5939326d569c07fe8e94
+      kontekst: data.json:scripts.mine6_curlynightstand.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a pretty nice nightstand, for being in a cave and all.
+      pl: Całkiem ładny stolik nocny jak na jaskinię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1963d308ec64e0be0db
+      kontekst: data.json:scripts.mine6_curlynightstand.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what's in it
+      pl: Zobacz, co w środku
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_00e0e0c0c22085e26c90
+      kontekst: data.json:scripts.mine6_curlynightstand.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hey, there's a map in the drawer!
+      pl: Hej, w szufladzie jest mapa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1890
+  skrypt: mine6_curlypie
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0df36b4808604a5946be
+      kontekst: data.json:scripts.mine6_curlypie.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a pie safe.
+      pl: To szafa na ciasta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gobgotit
+    wpisy:
+    - id: wol_813a731c6455215a094e
+      kontekst: data.json:scripts.mine6_curlypie.gobgotit
+      linia: 3
+      sekcja_skryptu: gobgotit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like that pie-shootin' goblin got here first.
+      pl: Wygląda na to, że ten goblin strzelający ciastami dotarł tu pierwszy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1893
+  skrypt: mine6_elvpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2dd6586aa5161872585e
+      kontekst: data.json:scripts.mine6_elvpile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something weird about these rocks.  But then again there's something weird about everything in here, so it's probably nothing.
+      pl: Te skały są dziwne. Ale tu wszystko jest dziwne, więc pewnie nic to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elv
+    wpisy:
+    - id: wol_a666c9ce9443e4f8676e
+      kontekst: data.json:scripts.mine6_elvpile.elv
+      linia: 2
+      sekcja_skryptu: elv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your El Vibrato transponder goes crazy when you get near these rocks.
+      pl: Twój transponder El Vibrato szaleje, gdy zbliżysz się do tych skał.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be9cfd64ec5780fd3903
+      kontekst: data.json:scripts.mine6_elvpile.elv
+      linia: 3
+      sekcja_skryptu: elv
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig in [pickaxe]
+      pl: Kop w to [kilof]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dig
+    wpisy:
+    - id: wol_a42bf0711489cf15354c
+      kontekst: data.json:scripts.mine6_elvpile.dig
+      linia: 4
+      sekcja_skryptu: dig
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your deft picking reveals a ladder leading downward.
+      pl: Twoje zwinne dłubanie odsłania drabinę prowadzącą w dół.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elv
+    wpisy:
+    - id: wol_68d1a93bf6724293daf0
+      kontekst: data.json:scripts.mine6_elvpile.elv
+      linia: 5
+      sekcja_skryptu: elv
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig in [Requires pickaxe]
+      pl: Przekop się [Wymaga kilofa]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Requires pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1895
+  skrypt: mine6_elvvending
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_331e2caf1c02cdd0f108
+      kontekst: data.json:scripts.mine6_elvvending.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The screen on this machine says ^CLOTHING FABRICATION^translate_elvibrato^
+      pl: Ekran tej maszyny mówi ^CLOTHING FABRICATION^translate_elvibrato^
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^CLOTHING FABRICATION^
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e5343c769d32f67b22ab
+      kontekst: data.json:scripts.mine6_elvvending.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are four buttons.
+      pl: Są cztery przyciski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat
+    wpisy:
+    - id: wol_417d9d9631798e4516ff
+      kontekst: data.json:scripts.mine6_elvvending.hat
+      linia: 4
+      sekcja_skryptu: hat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a noise like a duck and a slot opens.  The El Vibrato scraps in your pack vibrate, so you cram some of them in the hole.  After ten, the slot closes and reopens, having converted your garbage into a hat!
+      pl: Maszyna wydaje dźwięk jak kaczka i otwiera się slot. Złom El Vibrato w plecaku wibruje, wciskasz go w otwór. Po dziesięciu slot zamyka się i otwiera ponownie — śmieci zamieniły się w kapelusz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat2
+    wpisy:
+    - id: wol_34c79eaea0a9a3d767ad
+      kontekst: data.json:scripts.mine6_elvvending.hat2
+      linia: 11
+      sekcja_skryptu: hat2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a noise like a duck and a slot opens.  The El Vibrato scraps in your pack vibrate, so you cram some of them in the hole.  After ten, the slot closes and reopens, having converted your garbage into one of those headbands!
+      pl: Maszyna wydaje dźwięk jak kaczka i otwiera się slot. Złom El Vibrato wibruje, wciskasz go w otwór. Po dziesięciu slot zamyka się i otwiera ponownie — śmieci zamieniły się w jedną z tych opasek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pants
+    wpisy:
+    - id: wol_004fb28e64347de2f085
+      kontekst: data.json:scripts.mine6_elvvending.pants
+      linia: 14
+      sekcja_skryptu: pants
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a noise like a duck and a slot opens.  The El Vibrato scraps in your pack vibrate, so you cram some of them in the hole.  After ten, the slot closes and reopens, having converted your garbage into pants!
+      pl: Maszyna wydaje dźwięk jak kaczka i otwiera się slot. Złom El Vibrato wibruje, wciskasz go w otwór. Po dziesięciu slot zamyka się i otwiera ponownie — śmieci zamieniły się w spodnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: boots
+    wpisy:
+    - id: wol_03459bb9c737573a26a0
+      kontekst: data.json:scripts.mine6_elvvending.boots
+      linia: 17
+      sekcja_skryptu: boots
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine emits a noise like a duck and a slot opens.  The El Vibrato scraps in your pack vibrate, so you cram some of them in the hole.  After ten, the slot closes and reopens, having converted your garbage into boots!
+      pl: Maszyna wydaje dźwięk jak kaczka i otwiera się slot. Złom El Vibrato wibruje, wciskasz go w otwór. Po dziesięciu slot zamyka się i otwiera ponownie — śmieci zamieniły się w buty!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1898
+  skrypt: mine6_talkcultist1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b5dc5cc2be178986616b
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hello there, fellow cultist!
+      pl: Witaj, bracie kultysto!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0c462ee5dc540d59655
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? Go away.
+      pl: Co? Odejdź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f84c4b43c29a543b8f14
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, that's not very friendly.
+      pl: To niezbyt przyjacielskie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9366a5e2bd8ad0ac6e48
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This isn't a knitting circle. Where's your mask, anyway?
+      pl: To nie kółko robótek ręcznych. A właściwie gdzie jest twoja maska?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5ff6da39b099f1533e
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c208f4596fe0e9565330
+      kontekst: data.json:scripts.mine6_talkcultist1.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband him [El Vibrato headband]
+      pl: Zaopaskuj go [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_887acd83a1afebf26a04
+      kontekst: data.json:scripts.mine6_talkcultist1.headband
+      linia: 7
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You whip out the El Vibrato headband and put it on the guy before he can react.
+      pl: Wyciągasz opaskę El Vibrato i zakładasz facetowi, zanim zareaguje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85e9cefce5ac8bf717b7
+      kontekst: data.json:scripts.mine6_talkcultist1.headband
+      linia: 8
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wha--
+      pl: Co...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d34190c08a1ccf0d97b6
+      kontekst: data.json:scripts.mine6_talkcultist1.headband
+      linia: 10
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I can't... I can't hear him... I can't hear the Master! What did you do??
+      pl: Nie mogę... nie słyszę go... nie słyszę Mistrza! Co ty zrobiłeś??
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6585388f49cd69e0b7e5
+      kontekst: data.json:scripts.mine6_talkcultist1.headband
+      linia: 11
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He runs out of the mine in a panic.
+      pl: W panice wybiega z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfd931d56ccdf7dc3afb
+      kontekst: data.json:scripts.mine6_talkcultist1.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Presumably he'll be fine.
+      pl: Pewnie da sobie radę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_67290bdcfb21dd189791
+      kontekst: data.json:scripts.mine6_talkcultist1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Fortunately, none of the other cultists seems to have noticed you beating the stuffing out of that one.
+      pl: Na szczęście żaden z pozostałych kultystów nie zdaje się zauważyć, że wybijałeś z tamtego całe nadzienie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_f9d9a688855b6a0d3d09
+      kontekst: data.json:scripts.mine6_talkcultist1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist beat the hell out of you and dragged you out of the mine.
+      pl: Kultysta solidnie cię pobił i wyciągnął z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1899
+  skrypt: mine6_talkcultist2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 13
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_048e7d053a63cd67adbb
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened to your mask?
+      pl: Co się stało z twoją maską?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81b2e87fed511c31f212
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I modified it. It made drinking difficult. ...What happened to <i>your</i> mask?
+      pl: Zmodyfikowałem ją. Utrudniała picie. ...Co się stało z <i>twoją</i> maską?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14803d913ee65abdc096
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Err... I'll be right back.
+      pl: Eee... zaraz wracam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b079328f7598c7e26c94
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her [Fight]
+      pl: Zaatakuj ją [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49b978cef618e2d59e5b
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband her [El Vibrato headband]
+      pl: Zaopaskuj ją [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_b3d2d4c171fb5ab77d02
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 6
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You quickly put the El Vibrato headband on her before she has time to react.
+      pl: Szybko zakładasz jej opaskę El Vibrato, zanim zdąży zareagować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_727ad9b12890c80b7899
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 9
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Where... am I? Oh my god, what's going on?
+      pl: Gdzie ja jestem? O mój Boże, co się dzieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e513ac045f597144f4f
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 10
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Funny you should use that phrase. You should probably get out of here.
+      pl: Zabawne, że używasz takiego określenia. Lepiej stąd wyjdź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3cf72ccb43df99a2bda9
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 11
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She scampers out of the mine without any further questions.
+      pl: Wybiega z kopalni bez dalszych pytań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6f0b68e2648dbd535ea
+      kontekst: data.json:scripts.mine6_talkcultist2.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hope she'll be all right.
+      pl: Mam nadzieję, że będzie w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_19362e961212e6df8697
+      kontekst: data.json:scripts.mine6_talkcultist2.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her alone
+      pl: Zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_f998d7a6229195b6cde5
+      kontekst: data.json:scripts.mine6_talkcultist2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You drag the cultist's body to a dark corner so none of the others stumble across her.
+      pl: Ciągniesz ciało kultystki w ciemny róg, żeby inni na nią nie natknęli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_f5cd47a2487236a53388
+      kontekst: data.json:scripts.mine6_talkcultist2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist beats the crap out of you and hucks you out of the mine.
+      pl: Kultysta solidnie cię załatwi i wyrzuci z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1900
+  skrypt: mine6_talkcultist3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 15
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e13b928854428c1ffb2b
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. What's up?
+      pl: Cześć. Co słychać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2ef62a565a4040333820
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I... I got some rocks.
+      pl: Ja... mam trochę kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bff83b8b53601a86b70d
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The Master gave them to me. He wanted me to have them.
+      pl: Mistrz mi je dał. Chciał, żebym je miał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52066798354553600878
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay. What's cool about them?
+      pl: Dobra. Co w nich fajnego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee568f225dbc36d0630b
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They're mine. Don't touch them!
+      pl: Są moje. Nie dotykaj ich!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_135efd6dc1bbe92872a3
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her[Fight]
+      pl: Zaatakuj ją[Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49b978cef618e2d59e5b
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband her [El Vibrato headband]
+      pl: Zaopaskuj ją [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_18b0407a8421d71e5adc
+      kontekst: data.json:scripts.mine6_talkcultist3.headband
+      linia: 9
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You whip an El Vibrato headband out of your pocket and onto her head.
+      pl: Wyciągasz z kieszeni opaskę El Vibrato i zakładasz jej na głowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85e9cefce5ac8bf717b7
+      kontekst: data.json:scripts.mine6_talkcultist3.headband
+      linia: 10
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wha--
+      pl: Co...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_80663b1701dbb9b10a1f
+      kontekst: data.json:scripts.mine6_talkcultist3.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What... happened to me? What have I done? That... that wasn't me!
+      pl: Co mi się stało? Co ja zrobiłem? To nie byłem ja!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_66da46d02f139601407a
+      kontekst: data.json:scripts.mine6_talkcultist3.headband
+      linia: 13
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She staggers away in a daze.
+      pl: Odchodzi chwiejnym krokiem, oszołomiona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_052f2acd30345751b57c
+      kontekst: data.json:scripts.mine6_talkcultist3.headband
+      linia: 14
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm sure she'll be fine.
+      pl: Pewnie nic jej nie będzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_19362e961212e6df8697
+      kontekst: data.json:scripts.mine6_talkcultist3.start
+      linia: 15
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her alone
+      pl: Zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_c6d5dc22dd50fb14594b
+      kontekst: data.json:scripts.mine6_talkcultist3.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hide the cultist's body behind her pile of rocks.
+      pl: Chowasz ciało kultyistki za jej stertą kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d0fb7b89f099eeb5cdee
+      kontekst: data.json:scripts.mine6_talkcultist3.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist bashes you with her rock collection and drags you outside.
+      pl: Kultystka walnie cię swoją kolekcją kamieni i wyciąga na zewnątrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1901
+  skrypt: mine6_talkcultist4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_f850b441b63a461058b5
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You okay? You seem kind of injured.
+      pl: Wszystko w porządku? Wyglądasz na rannego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_178d00f2c9f6789d1568
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I fell... I fell down. But the Master picked me back up.
+      pl: Upadłem... Upadłem. Ale Mistrz mnie podniósł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_acf341f85e2a59a4241c
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's... nice?
+      pl: To... miłe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_82ac1164858e755e9522
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He'll pick us all back up. He'll pick you back up.
+      pl: Podniesie nas wszystkich. Podniesie ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5ff6da39b099f1533e
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c208f4596fe0e9565330
+      kontekst: data.json:scripts.mine6_talkcultist4.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband him [El Vibrato headband]
+      pl: Zaopaskuj go [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_0a5150a2faaffffdf3a9
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 8
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pull out the El Vibrato headband and yank it down over his head.
+      pl: Wyciągasz opaskę El Vibrato i ściągasz mu ją na głowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_662b2c5bb0f0fd92b81e
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 9
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey--
+      pl: Hej—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d0b0f6e993065d40be2d
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 11
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What... who... where...
+      pl: Co... kto... gdzie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9509045131749633c86
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Leave first, ask questions later.
+      pl: Najpierw odejdź, potem zadawaj pytania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_44b14cf8b195fa8f2ace
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 13
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He staggers away, limping.
+      pl: Chwiejnym krokiem odchodzi, kulejąc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_79ebaf75ae219da7d607
+      kontekst: data.json:scripts.mine6_talkcultist4.headband
+      linia: 14
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hope he finds some medical attention.
+      pl: Mam nadzieję, że dostanie pomoc medyczną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_336aa293d7d86e9e7d46
+      kontekst: data.json:scripts.mine6_talkcultist4.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat what stuffing remained out of the cultist.
+      pl: Wybijasz z kultysty resztki wypełnienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_1838ff5bdf67388e7729
+      kontekst: data.json:scripts.mine6_talkcultist4.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist knocks you out and drags your out of the mine.
+      pl: Kultysta cię znokautował i wyciągnął z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1902
+  skrypt: mine6_talkcultist5
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b8b88bb62d6ca61a2098
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, how's it going?
+      pl: Cześć, jak leci?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_381342c1b5a456ef82db
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: New mask, who dis.
+      pl: Nowa maska, kto mówi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b941be43f35b72ab1e9a
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm, uh...
+      pl: Jestem, ee...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8ce9c8ec512cc9477ef
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She glares at you suspiciously.
+      pl: Patrzy na ciebie podejrzliwie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a4313b1ab1dc38bd0a2a
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack [Fight]
+      pl: Atakuj [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_49b978cef618e2d59e5b
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband her [El Vibrato headband]
+      pl: Zaopaskuj ją [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_4a41ea26ca55c1655c05
+      kontekst: data.json:scripts.mine6_talkcultist5.headband
+      linia: 7
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You whip out the El Vibrato headband and put it on her.
+      pl: Wyciągasz opaskę El Vibrato i zakładasz jej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8e8b51637f363b65ac2
+      kontekst: data.json:scripts.mine6_talkcultist5.headband
+      linia: 8
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, what--
+      pl: Hej, co—
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9007bbeb21e0db442bf8
+      kontekst: data.json:scripts.mine6_talkcultist5.headband
+      linia: 10
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I uh. I gotta go.
+      pl: Ja, ee. Muszę iść.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dc7cd9be6e100a183162
+      kontekst: data.json:scripts.mine6_talkcultist5.headband
+      linia: 11
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She books it out of the mine, eyes wider than the eyeholes in her mask.
+      pl: Wybiega z kopalni, oczy ma szersze niż otwory w masce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe83d0ec1fd35c05126d
+      kontekst: data.json:scripts.mine6_talkcultist5.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: So much for that!
+      pl: No i koniec z tym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_e78222051707d4181415
+      kontekst: data.json:scripts.mine6_talkcultist5.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her
+      pl: Zostaw ją
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_b22e7c5ad888c2c5f627
+      kontekst: data.json:scripts.mine6_talkcultist5.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Great! That's one less cultist in your way to whatever is in this mine!
+      pl: Świetnie! O jednego kultystę mniej na drodze do tego, cokolwiek jest w tej kopalni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_878a484dc7d69eb87aac
+      kontekst: data.json:scripts.mine6_talkcultist5.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist beats you half to death and drags you back out of the mine.
+      pl: Kultysta pobije cię prawie na śmierć i wyciągnie z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1903
+  skrypt: mine6_talkcultist6
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 16
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_77ba271b67436285066a
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, how's it...
+      pl: Cześć, jak...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee3161be1517452af211
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Shh shh shh. I'm listening.
+      pl: Ciii, ciii, ciii. Słucham.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1253c56110fa7030c236
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: To what?
+      pl: Do czego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bcf0174daf18b2787911
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The Master, of course. Can't you hear him?
+      pl: Mistrz, oczywiście. Nie słyszysz go?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6cf7c03080945b595e85
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, uh, yeah! Of course.
+      pl: Och, yyy, tak! Oczywiście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1aba7052c0f726e19c6e
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He gives you some real side-eye.
+      pl: Rzuca ci naprawdę mordercze spojrzenie z boku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5ff6da39b099f1533e
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c208f4596fe0e9565330
+      kontekst: data.json:scripts.mine6_talkcultist6.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband him [El Vibrato headband]
+      pl: Zaopaskuj go [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_1cc1f7f674d9071a5e9a
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 9
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take out the El Vibrato headband and get it on the guy's head before he can stop you.
+      pl: Wyciągasz opaskę El Vibrato i zakładasz ją facetowi na głowę, zanim cię powstrzyma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85e9cefce5ac8bf717b7
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 10
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Wha--
+      pl: Co...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_38af283b97bdcfb8cafd
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I can't hear him. What happened, I can't hear him! What do I... Why...
+      pl: Nie słyszę go. Co się stało, nie słyszę go! Co ja... Dlaczego...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b62c9c31fbb11185784d
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 13
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Why don't you go outside and get some air.
+      pl: Wyjdźcie na zewnątrz i zaczerpnijcie powietrza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7eed9f1a34d710c96697
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 14
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He stumbles away, confused.
+      pl: Zdezorientowany potyka się i odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63de8fd01f0c2c22bc7b
+      kontekst: data.json:scripts.mine6_talkcultist6.headband
+      linia: 15
+      sekcja_skryptu: headband
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: He'll be fine once he gets over the shock.
+      pl: Będzie w porządku, jak opadnie szok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_9ff97206dd6d2133e3ec
+      kontekst: data.json:scripts.mine6_talkcultist6.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat up the cultist and drag him into a dark corner so nobody raises an alarm.
+      pl: Pobijasz kultystę i ciągniesz go w ciemny róg, żeby nikt nie podniósł alarmu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_95a423547d22be2ab6a4
+      kontekst: data.json:scripts.mine6_talkcultist6.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist beat you up and dragged your sorry butt out of the mine.
+      pl: Kultysta cię pobił i wyciągnął twój żałosny tyłek z kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1904
+  skrypt: mine6_talkcultist7
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 22
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4cc40bc90c3090bf4456
+      kontekst: data.json:scripts.mine6_talkcultist7.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. Why is your mask different?
+      pl: Cześć. Czemu twoja maska wygląda inaczej?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f422e9c0a31a68ca2f35
+      kontekst: data.json:scripts.mine6_talkcultist7.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Because I''m the leader of this cell? How can you be down here and not know that?'
+      pl: '...Bo jestem przywódcą tej komórki? Jak możesz tu być na dole i tego nie wiedzieć?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ae9aebc52e8c5ccdb8cd
+      kontekst: data.json:scripts.mine6_talkcultist7.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Look, I passed seven different guys to get here. Obviously if I weren't meant to be here, that would be impossible.
+      pl: Słuchaj, minąłem po drodze siedmiu różnych gości. Gdybym nie miał tu być, byłoby to oczywiście niemożliwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8fedcedcaafde2a3abb6
+      kontekst: data.json:scripts.mine6_talkcultist7.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I... suppose?
+      pl: Ja... chyba?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40fb911f7f409541dc32
+      kontekst: data.json:scripts.mine6_talkcultist7.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So who's this Master everyone's talking about?
+      pl: Kim jest ten Mistrz, o którym wszyscy mówią?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_40fb911f7f409541dc32
+      kontekst: data.json:scripts.mine6_talkcultist7.start2
+      linia: 6
+      sekcja_skryptu: start2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So who's this Master everyone's talking about?
+      pl: Kim jest ten Mistrz, o którym wszyscy mówią?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_052a7b8b56fd734ce7e8
+      kontekst: data.json:scripts.mine6_talkcultist7.start2
+      linia: 7
+      sekcja_skryptu: start2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Our Great Dark Master Roberto. Are you <i>sure</i> you're supposed to be down here?
+      pl: Nasz Wielki Mroczny Mistrz Roberto. <i>Na pewno</i> powinieneś tu być?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_715746bf00b84981be25
+      kontekst: data.json:scripts.mine6_talkcultist7.start2
+      linia: 8
+      sekcja_skryptu: start2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, sure. It's fine.
+      pl: Jasne, jasne. W porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5ff6da39b099f1533e
+      kontekst: data.json:scripts.mine6_talkcultist7.start2
+      linia: 9
+      sekcja_skryptu: start2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c208f4596fe0e9565330
+      kontekst: data.json:scripts.mine6_talkcultist7.start2
+      linia: 10
+      sekcja_skryptu: start2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Headband him [El Vibrato headband]
+      pl: Zaopaskuj go [opaska El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne:
+      - '[El Vibrato headband]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband
+    wpisy:
+    - id: wol_e95ee5491a4f065de884
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 11
+      sekcja_skryptu: headband
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You whip the El Vibrato headband out of your bag and wrestle it onto his head.
+      pl: Wyciągasz opaskę El Vibrato z torby i walczysz, żeby założyć mu na głowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b544f7bdda7becab6949
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 12
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey! What, stop...
+      pl: Hej! Co, przestań...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba7d87f727d7f9ab475f
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 14
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What... happened to me? That voice... what have I done? What's going on here?
+      pl: Co mi się stało? Ten głos... Co ja zrobiłem? Co tu się dzieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c0509d61f737799f302a
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 15
+      sekcja_skryptu: headband
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: See, I was kind of hoping you could tell <i>me</i> that.
+      pl: Widzisz, miałem nadzieję, że to <i>ty</i> mi powiesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e556e4d4833fc1d2b93
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 16
+      sekcja_skryptu: headband
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It was a... a calling. An order, but also a desire... I heard... instructions, from outside myself but in my voice...
+      pl: To było... powołanie. Rozkaz, ale też pragnienie... Słyszałem... instrukcje spoza siebie, ale wypowiadane moim głosem...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_099fd597c6a0b1cf69af
+      kontekst: data.json:scripts.mine6_talkcultist7.headband
+      linia: 17
+      sekcja_skryptu: headband
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Instructions to do what, exactly?
+      pl: Instrukcje do czego, dokładnie?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: headband2
+    wpisy:
+    - id: wol_099fd597c6a0b1cf69af
+      kontekst: data.json:scripts.mine6_talkcultist7.headband2
+      linia: 18
+      sekcja_skryptu: headband2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Instructions to do what, exactly?
+      pl: Instrukcje do czego, dokładnie?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a099058c53a304d0227
+      kontekst: data.json:scripts.mine6_talkcultist7.headband2
+      linia: 19
+      sekcja_skryptu: headband2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: To dig. To free him. To... excuse me, I have to go freak out now.
+      pl: Kopać. Uwolnić go. Żeby... przepraszam, muszę teraz iść spanikować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5007946f61b5827516e4
+      kontekst: data.json:scripts.mine6_talkcultist7.headband2
+      linia: 20
+      sekcja_skryptu: headband2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He drops his mask on the ground and runs away.
+      pl: Upuszcza maskę na ziemię i ucieka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_22f62c3ee0d76eb8a5bb
+      kontekst: data.json:scripts.mine6_talkcultist7.headband2
+      linia: 21
+      sekcja_skryptu: headband2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, bye. Good luck!
+      pl: Okej, pa. Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_e71a9fcf4715b053f477
+      kontekst: data.json:scripts.mine6_talkcultist7.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat up the cult leader and take his mask. Looks like you just got promoted!
+      pl: Pobijasz przywódcę kultu i zabierasz jego maskę. Wygląda na to, że właśnie awansowałeś!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_c9855dd3352200ea3877
+      kontekst: data.json:scripts.mine6_talkcultist7.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cult leader beats the hell out of you and orders his minions to drag you back outside.
+      pl: Przywódca kultu solidnie cię pobije i każe sługom wyciągnąć cię na zewnątrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1910
+  skrypt: mine7_cultistnote
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_63d870a4b578515925ce
+      kontekst: data.json:scripts.mine7_cultistnote.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: PRAISE BE ROBERTO
+      pl: CHWAŁA NIECH BĘDZIE ROBERTO
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1925
+  skrypt: mine7_teleporterpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2dd6586aa5161872585e
+      kontekst: data.json:scripts.mine7_teleporterpile.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something weird about these rocks.  But then again there's something weird about everything in here, so it's probably nothing.
+      pl: Te skały są dziwne. Ale tu wszystko jest dziwne, więc pewnie nic to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: elv
+    wpisy:
+    - id: wol_a666c9ce9443e4f8676e
+      kontekst: data.json:scripts.mine7_teleporterpile.elv
+      linia: 2
+      sekcja_skryptu: elv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your El Vibrato transponder goes crazy when you get near these rocks.
+      pl: Twój transponder El Vibrato szaleje, gdy zbliżysz się do tych skał.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_be9cfd64ec5780fd3903
+      kontekst: data.json:scripts.mine7_teleporterpile.elv
+      linia: 3
+      sekcja_skryptu: elv
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig in [pickaxe]
+      pl: Kop w to [kilof]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68d1a93bf6724293daf0
+      kontekst: data.json:scripts.mine7_teleporterpile.elv
+      linia: 5
+      sekcja_skryptu: elv
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig in [Requires pickaxe]
+      pl: Przekop się [Wymaga kilofa]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Requires pickaxe]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: aliceh
+    wpisy:
+    - id: wol_486f9ed0cc0d869f5bfd
+      kontekst: data.json:scripts.pardner_talk.aliceh
+      linia: 174
+      sekcja_skryptu: aliceh
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...No?'
+      pl: '...Nie?'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_wascos
+    wpisy:
+    - id: wol_fb945c055295f614f3f2
+      kontekst: data.json:scripts.pardner_talk.alice_wascos
+      linia: 5
+      sekcja_skryptu: alice_wascos
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_breadwood
+    wpisy:
+    - id: wol_fb945c055295f614f3f2
+      kontekst: data.json:scripts.pardner_talk.gary_breadwood
+      linia: 6
+      sekcja_skryptu: gary_breadwood
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2089
+  skrypt: punland_bossfight_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro1
+    wpisy:
+    - id: wol_fb945c055295f614f3f2
+      kontekst: data.json:scripts.punland_bossfight_intro.intro1
+      linia: 7
+      sekcja_skryptu: intro1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2105
+  skrypt: punland_mainstage_bossfight_stage
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: whatdoyouwant
+    wpisy:
+    - id: wol_fb945c055295f614f3f2
+      kontekst: data.json:scripts.punland_mainstage_bossfight_stage.whatdoyouwant
+      linia: 25
+      sekcja_skryptu: whatdoyouwant
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uh...
+      pl: Eee...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2221
+  skrypt: ranch4_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_19362e961212e6df8697
+      kontekst: data.json:scripts.ranch4_timerift.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her alone
+      pl: Zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2284
+  skrypt: re_banditb3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_19362e961212e6df8697
+      kontekst: data.json:scripts.re_banditb3.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her alone
+      pl: Zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2292
+  skrypt: re_bandite2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: options
+    wpisy:
+    - id: wol_cb5ff6da39b099f1533e
+      kontekst: data.json:scripts.re_bandite2.options
+      linia: 13
+      sekcja_skryptu: options
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack him [Fight]
+      pl: Zaatakuj go [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2301
+  skrypt: re_bandith2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: two
+    wpisy:
+    - id: wol_b079328f7598c7e26c94
+      kontekst: data.json:scripts.re_bandith2.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her [Fight]
+      pl: Zaatakuj ją [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_b079328f7598c7e26c94
+      kontekst: data.json:scripts.re_bandith2.intim
+      linia: 28
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Attack her [Fight]
+      pl: Zaatakuj ją [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2628
+  skrypt: train_passenter3b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_19362e961212e6df8697
+      kontekst: data.json:scripts.train_passenter3b.start
+      linia: 29
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave her alone
+      pl: Zostaw ją w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,5284 @@
+schema_version: 1
+dzial:
+  numer: '04'
+  nazwa: Kopalnie
+grupa_lokacji_lub_systemu: jumbleneck_mine
+zrodlowy_batch: 080_dialog_loc_mine4_jumbleneck_mine.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 48
+liczba_wpisow: 303
+sceny:
+- kolejnosc_w_danych_gry: 1000048
+  skrypt: house_cellarspider4
+  pomieszczenie: &id001
+    id: mine4
+    nazwa_en: Jumbleneck Mine
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e7cea5dcbaa8f1d7914d
+      kontekst: house.json:scripts.house_cellarspider4.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes [Fight]
+      pl: Tak [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1824
+  skrypt: mine4_aliceskel
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a3bea8bfac2716f72fb2
+      kontekst: data.json:scripts.mine4_aliceskel.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What do you think about this old skeleton, Doc?
+      pl: Co myślisz o tym starym szkielecie, doktorku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_02372371c60245481c63
+      kontekst: data.json:scripts.mine4_aliceskel.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Are you asking me to diagnose a body that doesn't have a head?
+      pl: Prosisz mnie o diagnozę ciała bez głowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_db8b3b738ed3ae50f778
+      kontekst: data.json:scripts.mine4_aliceskel.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think they <i>probably</i> died of not having a head.
+      pl: Myślę, że <i>najpewniej</i> zmarli na brak głowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_abfb06c0545a6136b929
+      kontekst: data.json:scripts.mine4_aliceskel.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Damage is consistent with the skull we found upstairs.
+      pl: Uszkodzenia odpowiadają czaszce znalezionej na górze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aefb17af4ba2054028da
+      kontekst: data.json:scripts.mine4_aliceskel.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! An epidemic of pickaxe murders! Now we have to find this guy's head, in addition to the other guy's body!
+      pl: Wow! Epidemia morderstw z kilofem! Teraz musimy znaleźć jego głowę, oprócz ciała tego drugiego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1a7fcc8a5116cfa94252
+      kontekst: data.json:scripts.mine4_aliceskel.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm just playing, Doc.
+      pl: Tylko żartuję, pani Doktor.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aeb4208a86768a5481f9
+      kontekst: data.json:scripts.mine4_aliceskel.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay. You had me going there for a sec.
+      pl: Dobra. Przez chwilę dałam się nabrać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: twob
+    wpisy:
+    - id: wol_9bfedb7e28d1d2fd5aad
+      kontekst: data.json:scripts.mine4_aliceskel.twob
+      linia: 12
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Same thing I thought the last time you asked me: Damage is consistent with the skull we found upstairs.'
+      pl: 'To samo co ostatnim razem, gdy pytałeś: uszkodzenia pasują do czaszki znalezionej na górze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd0e7db26489aa1ef19c
+      kontekst: data.json:scripts.mine4_aliceskel.twob
+      linia: 13
+      sekcja_skryptu: twob
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ah, yeah, right.
+      pl: Ach, ta, racja.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: one
+    wpisy:
+    - id: wol_a6abe02cd75d539e04f0
+      kontekst: data.json:scripts.mine4_aliceskel.one
+      linia: 14
+      sekcja_skryptu: one
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Same thing I thought the last time you asked me: I think they <i>probably</i> died of not having a head.'
+      pl: 'To samo co ostatnim razem, gdy pytałeś: <i>prawdopodobnie</i> umarł z powodu braku głowy.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd0e7db26489aa1ef19c
+      kontekst: data.json:scripts.mine4_aliceskel.one
+      linia: 15
+      sekcja_skryptu: one
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Ah, yeah, right.
+      pl: Ach, ta, racja.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1825
+  skrypt: mine4_crate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5fcd55f8a8a4e4e3a4b4
+      kontekst: data.json:scripts.mine4_crate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a crate of old dynamite. Dynamite gets very dangerous when it ages, but I know better than to try and stop you from taking a stick if you've decided you want one.
+      pl: Skrzynia starego dynamitu. Starzeje się niebezpiecznie, ale wiem, że nie powstrzymam cię, jeśli chcesz kawałek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b25e28991452bd53f240
+      kontekst: data.json:scripts.mine4_crate.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I have decided that
+      pl: Postanowiłem, że
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_b1d747633d96ef1d15ed
+      kontekst: data.json:scripts.mine4_crate.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up a stick of old dynamite. I don't recommend you do a lot of hopping up and down while you're carrying that.
+      pl: Podnosisz stary kawałek dynamitu. Nie polecam dużo skakać, niosąc to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_9827f635d9f93d674c3f
+      kontekst: data.json:scripts.mine4_crate.nope
+      linia: 4
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're already carrying one. Trust me, one is more than plenty.
+      pl: Nosisz już jeden. Uwierz mi, jeden to więcej niż wystarczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope2
+    wpisy:
+    - id: wol_5a6be72c8f6a2b7cf679
+      kontekst: data.json:scripts.mine4_crate.nope2
+      linia: 5
+      sekcja_skryptu: nope2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You already grabbed one stick of extremely dangerous old dynamite. You decide not to press your luck by grabbing another.
+      pl: Już chwyciłeś jeden kawałek niebezpiecznego starego dynamitu. Postanawiasz nie ponaglać losu, biorąc drugi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1826
+  skrypt: mine4_deadguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9cf63fcd276362f09402
+      kontekst: data.json:scripts.mine4_deadguy.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This old skeleton has its arms outstretched, like it's praying or grovelling. Creepy.
+      pl: Ten stary szkielet ma wyciągnięte ramiona, jakby się modlił albo płaszczył. Przerażające.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1828
+  skrypt: mine4_idol
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e54b09c0e9c669739411
+      kontekst: data.json:scripts.mine4_idol.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's some kind of weird statuette on the ground.
+      pl: Na ziemi jakaś dziwna statuetka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_9b84e39183639d10616e
+      kontekst: data.json:scripts.mine4_idol.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the statuette. It's made of silver, and the tarnish and darkness make it hard to tell what it's meant to depict.
+      pl: Podnosisz statuetkę. Jest ze srebra, a patyna i ciemność utrudniają rozpoznanie, co ma przedstawiać.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1829
+  skrypt: mine4_idolpete
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9b84e39183639d10616e
+      kontekst: data.json:scripts.mine4_idolpete.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick up the statuette. It's made of silver, and the tarnish and darkness make it hard to tell what it's meant to depict.
+      pl: Podnosisz statuetkę. Jest ze srebra, a patyna i ciemność utrudniają rozpoznanie, co ma przedstawiać.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_120c3273bb54d4fa269e
+      kontekst: data.json:scripts.mine4_idolpete.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What's... what's that you got there?
+      pl: Co tam masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_daf1a72610ffbc4eb577
+      kontekst: data.json:scripts.mine4_idolpete.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Dunno. Some kind of weird little statue-y thing. Look.
+      pl: Nie wiem. Jakiś dziwny mały posążek czy coś. Spójrz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5cb6050e59e1bc4d336a
+      kontekst: data.json:scripts.mine4_idolpete.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's... it's beautiful. Ugh. I... love it.
+      pl: To... to jest piękne. Uch. Ja... uwielbiam to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ac2261cdfd04cac96418
+      kontekst: data.json:scripts.mine4_idolpete.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: It's okay, I guess.
+      pl: Chyba w porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_400efe1679eaeffc63a0
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hnng.
+      pl: Hnng.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_496460b122c41931a3dd
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are you okay? You don't look well.
+      pl: Wszystko w porządku? Nie wyglądasz dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c0ea819733aa7526b10
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: My stomach don't feel right. An' my head feels 'bout fit ta burst.
+      pl: Coś mi niedobrze na żołądku. A głowa zaraz mi pęknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe958b7a4e29a0174c0a
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm with you on the stomach part, I do feel a bit queasy all of a sudden. Maybe I better ditch this thing.
+      pl: Co do żołądka się zgadzam, nagle zrobiło mi się trochę niedobrze. Może lepiej pozbędę się tego czegoś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dcb949fe5c80d015322e
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, don't! It's great, we <i>need</i> it.
+      pl: Nie, przestań! Jest świetnie, <i>potrzebujemy</i> tego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_578b714d3aed91546870
+      kontekst: data.json:scripts.mine4_idolpete.two
+      linia: 12
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Jeez, man. It's not <i>that</i> cool.
+      pl: O rany, stary. To nie jest <i>aż tak</i> fajne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1830
+  skrypt: mine4_levergo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: unlever
+    wpisy:
+    - id: wol_4478c2f14d1fbd3f6e1e
+      kontekst: data.json:scripts.mine4_levergo.unlever
+      linia: 1
+      sekcja_skryptu: unlever
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lever is already in the 'pulled' position. You try pushing it instead, but nothing happens.
+      pl: Dźwignia jest już w pozycji „pociągniętej”. Próbujesz ją pchnąć — nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leverno
+    wpisy:
+    - id: wol_7cb0c7cb965c7f2d0e60
+      kontekst: data.json:scripts.mine4_levergo.leverno
+      linia: 3
+      sekcja_skryptu: leverno
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The lever mechanism is rusted and stuck. This is going to require something heavier-duty than a can of oil, seems like.
+      pl: Mechanizm dźwigni jest zardzewiały i zablokowany. Chyba trzeba czegoś mocniejszego niż puszka oleju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c8380e8076583e909c51
+      kontekst: data.json:scripts.mine4_levergo.leverno
+      linia: 4
+      sekcja_skryptu: leverno
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grease up that lever
+      pl: Naoliw tę dźwignię
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grease
+    wpisy:
+    - id: wol_4ed010d285709145aeff
+      kontekst: data.json:scripts.mine4_levergo.grease
+      linia: 5
+      sekcja_skryptu: grease
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dump a bunch of grease into the mechanism, and use the sandwich bag to sort of goosh it up in there without getting too much of it on your hands.
+      pl: Wylewasz masę smaru w mechanizm i workiem na kanapki rozsmarowujesz go tam, nie brudząc zbytnio rąk.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8ed694ccf3d6f4741ab
+      kontekst: data.json:scripts.mine4_levergo.grease
+      linia: 6
+      sekcja_skryptu: grease
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pull that lever
+      pl: Pociągnij tę dźwignię
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leveryes
+    wpisy:
+    - id: wol_13411c9ddd371d56eb95
+      kontekst: data.json:scripts.mine4_levergo.leveryes
+      linia: 7
+      sekcja_skryptu: leveryes
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You yank hard on the lever, and it releases the mechanism's wound-up springs, launching the minecart down the track with a terrific <i>WHANG!</i> noise.
+      pl: Mocno szarpniesz dźwignię i uwalnia sprężyny mechanizmu, wystrzeliwując wagonik po torze z okropnym <i>WHANG!</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab3401ca17b912e78fe0
+      kontekst: data.json:scripts.mine4_levergo.leveryes
+      linia: 8
+      sekcja_skryptu: leveryes
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Off in the distance, you hear a <i>clunk</i>.
+      pl: W oddali słyszysz <i>clunk</i>.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6f05b72df01bc68746b7
+      kontekst: data.json:scripts.mine4_levergo.leveryes
+      linia: 9
+      sekcja_skryptu: leveryes
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Off in the distance, you hear a <i>bonk</i>.
+      pl: W oddali słyszysz <i>bonk</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dynamite
+    wpisy:
+    - id: wol_13411c9ddd371d56eb95
+      kontekst: data.json:scripts.mine4_levergo.dynamite
+      linia: 11
+      sekcja_skryptu: dynamite
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You yank hard on the lever, and it releases the mechanism's wound-up springs, launching the minecart down the track with a terrific <i>WHANG!</i> noise.
+      pl: Mocno szarpniesz dźwignię i uwalnia sprężyny mechanizmu, wystrzeliwując wagonik po torze z okropnym <i>WHANG!</i>
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab3401ca17b912e78fe0
+      kontekst: data.json:scripts.mine4_levergo.dynamite
+      linia: 12
+      sekcja_skryptu: dynamite
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Off in the distance, you hear a <i>clunk</i>.
+      pl: W oddali słyszysz <i>clunk</i>.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_404e29156b9cb629b1ac
+      kontekst: data.json:scripts.mine4_levergo.dynamite
+      linia: 13
+      sekcja_skryptu: dynamite
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Off in the distance, you hear a <i>KABOOM!</i>
+      pl: W oddali słyszysz <i>KABOOM!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1831
+  skrypt: mine4_looklaunch
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: unloaded
+    wpisy:
+    - id: wol_5332d531467a6752ae43
+      kontekst: data.json:scripts.mine4_looklaunch.unloaded
+      linia: 1
+      sekcja_skryptu: unloaded
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of rusty old spring-loaded ratcheting mechanism, with an activation lever. It has a sort of gripper on the front, but it isn't gripping anything.
+      pl: Jakiś zardzewiały sprężynowy mechanizm z grzechotką i dźwignią aktywacyjną. Z przodu ma coś w rodzaju chwytaka, ale niczego nie trzyma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loaded
+    wpisy:
+    - id: wol_35406ce5ba2de1ccd7ce
+      kontekst: data.json:scripts.mine4_looklaunch.loaded
+      linia: 3
+      sekcja_skryptu: loaded
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some kind of rusty old spring-loaded ratcheting mechanism, with an activation lever. It appears to have latched onto the minecart and locked it into place.
+      pl: Jakiś zardzewiały sprężynowy mechanizm z grzechotką i dźwignią aktywacyjną. Wygląda na to, że zaczepił się o wagonik i zablokował go na miejscu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1832
+  skrypt: mine4_lunchbox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_22f717906d3a1cba600b
+      kontekst: data.json:scripts.mine4_lunchbox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like someone forgot their lunchbox down here. They must be <i>real</i> hungry by now.
+      pl: Wygląda na to, że ktoś zapomniał tu śniadaniówki. Muszą być już <i>naprawdę</i> głodni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_dbd7da9765b50394129f
+      kontekst: data.json:scripts.mine4_lunchbox.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pretty much everything inside has crumbled into dust, except for a waxed-paper sandwich bag and some raisins that probably weren't intended to become raisins.
+      pl: Prawie wszystko w środku rozsypało się w pył, oprócz papierowej torebki na kanapki i kilku rodzynek, które chyba nie miały tak skończyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1833
+  skrypt: mine4_minecart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_169b287747cb69a58426
+      kontekst: data.json:scripts.mine4_minecart.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This minecart is full of rocks. There doesn't look to be anything special about them.
+      pl: Ten wagonik jest pełen skał. Nie wyglądają na specjalne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2dd42cf6eb52302a7991
+      kontekst: data.json:scripts.mine4_minecart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stick that old dynamite in there
+      pl: Włóż tam ten stary dynamit
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dyna
+    wpisy:
+    - id: wol_b745ae2749e3ee7847ab
+      kontekst: data.json:scripts.mine4_minecart.dyna
+      linia: 3
+      sekcja_skryptu: dyna
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wedge a stick of unstable old dynamite into the minecart. This can't possibly go awry.
+      pl: Wciskasz kij niestabilnego starego dynamitu do wagonika. To na pewno się nie posypie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_86215c5238fdc875be40
+      kontekst: data.json:scripts.mine4_minecart.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's also a stick of antique dynamite in there for some reason.
+      pl: Z jakiegoś powodu leży tam też kawałek antycznego dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e31dc9abe1f44b0732c
+      kontekst: data.json:scripts.mine4_minecart.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give the cart a shove
+      pl: Pchnij wagonik
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1834
+  skrypt: mine4_minecartb
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_169b287747cb69a58426
+      kontekst: data.json:scripts.mine4_minecartb.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This minecart is full of rocks. There doesn't look to be anything special about them.
+      pl: Ten wagonik jest pełen skał. Nie wyglądają na specjalne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2dd42cf6eb52302a7991
+      kontekst: data.json:scripts.mine4_minecartb.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stick that old dynamite in there
+      pl: Włóż tam ten stary dynamit
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dyna
+    wpisy:
+    - id: wol_b745ae2749e3ee7847ab
+      kontekst: data.json:scripts.mine4_minecartb.dyna
+      linia: 3
+      sekcja_skryptu: dyna
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wedge a stick of unstable old dynamite into the minecart. This can't possibly go awry.
+      pl: Wciskasz kij niestabilnego starego dynamitu do wagonika. To na pewno się nie posypie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_86215c5238fdc875be40
+      kontekst: data.json:scripts.mine4_minecartb.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's also a stick of antique dynamite in there for some reason.
+      pl: Z jakiegoś powodu leży tam też kawałek antycznego dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e31dc9abe1f44b0732c
+      kontekst: data.json:scripts.mine4_minecartb.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give the cart a shove
+      pl: Pchnij wagonik
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: shove
+    wpisy:
+    - id: wol_da73e84219186ea019c9
+      kontekst: data.json:scripts.mine4_minecartb.shove
+      linia: 6
+      sekcja_skryptu: shove
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The minecart seems to be locked into some kind of mechanism.
+      pl: Wagonik wydaje się zablokowany w jakimś mechanizmie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1835
+  skrypt: mine4_minecartshove
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: switchon
+    wpisy:
+    - id: wol_da2cadb4d77e5205f462
+      kontekst: data.json:scripts.mine4_minecartshove.switchon
+      linia: 1
+      sekcja_skryptu: switchon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put your shoulder to the minecart and give it a shove. It rolls around the bend in the track and disappears into the next room. After a moment you hear a distant <i>clank</i> noise.
+      pl: Opierasz ramię o wagonik i popychasz go. Toczy się za zakręt toru i znika w następnym pomieszczeniu. Po chwili słyszysz odległy <i>clank</i>.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pileoff
+    wpisy:
+    - id: wol_6abb9c45aed4c85ef450
+      kontekst: data.json:scripts.mine4_minecartshove.pileoff
+      linia: 3
+      sekcja_skryptu: pileoff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put your shoulder to the minecart and give it a shove. It rolls back to the other end of the room.
+      pl: Opierasz ramię o wagonik i popychasz go. Toczy się z powrotem na drugi koniec pokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pileon
+    wpisy:
+    - id: wol_da2cadb4d77e5205f462
+      kontekst: data.json:scripts.mine4_minecartshove.pileon
+      linia: 5
+      sekcja_skryptu: pileon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put your shoulder to the minecart and give it a shove. It rolls around the bend in the track and disappears into the next room. After a moment you hear a distant <i>clank</i> noise.
+      pl: Opierasz ramię o wagonik i popychasz go. Toczy się za zakręt toru i znika w następnym pomieszczeniu. Po chwili słyszysz odległy <i>clank</i>.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: switchoff
+    wpisy:
+    - id: wol_c416bfd77178b7e45d3d
+      kontekst: data.json:scripts.mine4_minecartshove.switchoff
+      linia: 7
+      sekcja_skryptu: switchoff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put your shoulder to the minecart and give it a shove. It trundles down the track and bonks into the big pile of rocks.
+      pl: Opierasz ramię o wagonik i popychasz go. Toczy się po torze i uderza w wielką stertę kamieni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_935d14c5c9c0b8aacf0a
+      kontekst: data.json:scripts.mine4_minecartshove.switchoff
+      linia: 8
+      sekcja_skryptu: switchoff
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like that gentle impact wasn't enough to set off the dynamite.
+      pl: Wygląda na to, że to delikatne uderzenie nie wystarczyło, żeby odpalić dynamit.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1836
+  skrypt: mine4_noheadskel
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_33cc2c28d3b87f77332b
+      kontekst: data.json:scripts.mine4_noheadskel.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a headless skeleton. Skullless. Skullllesss.
+      pl: To bezgłowy szkielet. Bezczaaszkowy. Bezczaasasaszkowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e142568438b89e2d3ed
+      kontekst: data.json:scripts.mine4_noheadskel.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask Doc Alice about it
+      pl: Zapytaj Doc Alice o to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1838
+  skrypt: mine4_office_cal
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d6727b4d12b1558d571e
+      kontekst: data.json:scripts.mine4_office_cal.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: An old calendar. Looks like work stopped here a bunch of months ago.
+      pl: Stary kalendarz. Wygląda na to, że prace ustały tu kilka miesięcy temu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1839
+  skrypt: mine4_office_desk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: desk
+    wpisy:
+    - id: wol_c1c3783ccf6e1f2a3880
+      kontekst: data.json:scripts.mine4_office_desk.desk
+      linia: 1
+      sekcja_skryptu: desk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since no one is here, you're free to rummage around in this desk.
+      pl: Skoro nikogo tu nie ma, możesz grzebać w tym biurku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8df5df71dd4da05b8ee6
+      kontekst: data.json:scripts.mine4_office_desk.desk
+      linia: 2
+      sekcja_skryptu: desk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's do it
+      pl: Zróbmy to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rummage
+    wpisy:
+    - id: wol_c904c949df297ef46f7f
+      kontekst: data.json:scripts.mine4_office_desk.rummage
+      linia: 3
+      sekcja_skryptu: rummage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find some old jerky and a key. Nice!
+      pl: Stare jerky i klucz. Fajnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c828de53c20abb9975db
+      kontekst: data.json:scripts.mine4_office_desk.rummage
+      linia: 4
+      sekcja_skryptu: rummage
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find some old jerky.
+      pl: Stare jerky.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: empty
+    wpisy:
+    - id: wol_b3989cd36f91789031f8
+      kontekst: data.json:scripts.mine4_office_desk.empty
+      linia: 5
+      sekcja_skryptu: empty
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already looted this desk, and nobody's come by to refill it.
+      pl: Już splądrowałeś to biurko i nikt go nie uzupełnił.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1840
+  skrypt: mine4_office_fight
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_d856dc2b68450092fd19
+      kontekst: data.json:scripts.mine4_office_fight.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You successfully killed a ghost! 'Killed' is probably not the right word to use here.
+      pl: Udało ci się zabić ducha! „Zabić” chyba nie jest tu właściwym słowem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8978c11afedb5720aad8
+      kontekst: data.json:scripts.mine4_office_fight.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost beat you up and threw you out of his office. Good job getting your butt kicked by someone without corporeal mass.
+      pl: Duch cię pobił i wyrzucił z biura. Dobra robota — oberwałeś od kogoś bez masy cielesnej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1841
+  skrypt: mine4_office_foreman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cbbe938305c64d90a07a
+      kontekst: data.json:scripts.mine4_office_foreman.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This ghost is busily shuffling the ghosts of papers on his desk.
+      pl: Duch przekłada upiorne papiery na biurku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1842
+  skrypt: mine4_office_hrack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3f78469cf6918c9bb9a2
+      kontekst: data.json:scripts.mine4_office_hrack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A hatrack -- with a standard-issue miner's helmet hanging on it.
+      pl: Wieszak na kapelusze — z wiszącym na nim standardowym hełmem górniczym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3acb14ce50460005df0
+      kontekst: data.json:scripts.mine4_office_hrack.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not a skinny three-legged guy trying to get your attention. Just a hatrack.
+      pl: To nie chudy trójnogi gość, który próbuje zwrócić na siebie twoją uwagę. Tylko wieszak na kapelusze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bc10e1a30cf8f150038b
+      kontekst: data.json:scripts.mine4_office_hrack.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab the helmet
+      pl: Chwyć hełm
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_54582c52eced20935bc9
+      kontekst: data.json:scripts.mine4_office_hrack.take
+      linia: 4
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yoink.
+      pl: Yoink.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1843
+  skrypt: mine4_office_looksafe
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 15
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_45a43a31ec66b0fd970b
+      kontekst: data.json:scripts.mine4_office_looksafe.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stoop down to take a closer look at the safe. It's a pretty standard heavy-duty safe with a dial-type combination lock.
+      pl: Schylasz się, żeby przyjrzeć sejfowi. To dość standardowy ciężki sejf z kombinacyjnym zamkiem na tarczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52b68ac64a2ba062d26d
+      kontekst: data.json:scripts.mine4_office_looksafe.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the safe alone
+      pl: Zostaw sejf w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a353070f1ff7c8cf2e4
+      kontekst: data.json:scripts.mine4_office_looksafe.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 3]
+      pl: Włam się do sejfu [Sejfowanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Safecrackin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crack
+    wpisy:
+    - id: wol_5bfa4e4b8c81096303d0
+      kontekst: data.json:scripts.mine4_office_looksafe.crack
+      linia: 4
+      sekcja_skryptu: crack
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You press your ear up against the safe door and slowly turn the dial. Eventually you manage to pop it open.
+      pl: Przykładasz ucho do drzwi sejfu i powoli kręcisz tarczą. W końcu udaje ci się go otworzyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_fc03c3b16ab0fad965cf
+      kontekst: data.json:scripts.mine4_office_looksafe.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 3]
+      pl: Włam się do sejfu [Wymaga Sejfowania 3]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d2170fb2784ad53489e6
+      kontekst: data.json:scripts.mine4_office_looksafe.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock the safe
+      pl: Odblokuj sejf
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: openit
+    wpisy:
+    - id: wol_fe277eb518f071a2c74f
+      kontekst: data.json:scripts.mine4_office_looksafe.openit
+      linia: 8
+      sekcja_skryptu: openit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You spin the dial to the combination the ghost told you, and the safe door swings open.
+      pl: Ustawiasz tarczę na kombinację podaną przez ducha, a drzwi sejfu się otwierają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foreman
+    wpisy:
+    - id: wol_35f90e5bb4c816d12c58
+      kontekst: data.json:scripts.mine4_office_looksafe.foreman
+      linia: 10
+      sekcja_skryptu: foreman
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey! Something wrong with your ears? I told you to get away from there!
+      pl: Hej! Masz coś ze słuchem? Kazałem ci się stamtąd wynosić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5e68a011279204060b2
+      kontekst: data.json:scripts.mine4_office_looksafe.foreman
+      linia: 11
+      sekcja_skryptu: foreman
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to open the safe
+      pl: Spróbuj otworzyć sejf
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoops
+    wpisy:
+    - id: wol_2b81b1bef958ae1a40c3
+      kontekst: data.json:scripts.mine4_office_looksafe.whoops
+      linia: 12
+      sekcja_skryptu: whoops
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why you little -- c'mere!
+      pl: Ty mały... chodź no tu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33aab03836adbfcb800a
+      kontekst: data.json:scripts.mine4_office_looksafe.whoops
+      linia: 13
+      sekcja_skryptu: whoops
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh-oh [Fight]
+      pl: O-o [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickaxe
+    wpisy:
+    - id: wol_b54d4ace9c71f0d83bb7
+      kontekst: data.json:scripts.mine4_office_looksafe.pickaxe
+      linia: 14
+      sekcja_skryptu: pickaxe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost leaps out of his chair and charges at you. Without thinking, you reflexively swing that old pickaxe you found at him, knocking his head clean off. The ghostly foreman dissolves into nothingness, leaving you with a real eerie feeling.
+      pl: Duch wyskakuje z krzesła i szarżuje na ciebie. Bez myślenia odruchowo zamachujesz się tym starym kilofem, który znalazłeś, i odcinasz mu głowę. Upiorny brygadzista rozpływa się w niczym, zostawiając ci prawdziwie upiorne uczucie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8df786b4525e40c8f25f
+      kontekst: data.json:scripts.mine4_office_looksafe.pickaxe
+      linia: 15
+      sekcja_skryptu: pickaxe
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Brr.
+      pl: Brr.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: whoops
+    wpisy:
+    - id: wol_a55138ae0fdf1c92e802
+      kontekst: data.json:scripts.mine4_office_looksafe.whoops
+      linia: 16
+      sekcja_skryptu: whoops
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flee!
+      pl: Uciekaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: foreman
+    wpisy:
+    - id: wol_52b68ac64a2ba062d26d
+      kontekst: data.json:scripts.mine4_office_looksafe.foreman
+      linia: 17
+      sekcja_skryptu: foreman
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the safe alone
+      pl: Zostaw sejf w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1844
+  skrypt: mine4_office_safe1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7660fa7382522948aa94
+      kontekst: data.json:scripts.mine4_office_safe1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This safe is dirty, but solid-looking.
+      pl: Ten sejf jest brudny, ale wygląda solidnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2fc1909043b4fa198f2
+      kontekst: data.json:scripts.mine4_office_safe1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"Get away from that," the ghostly figure behind the desk growls.'
+      pl: „Odejdź od tego,” warczy upiorna postać za biurkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1845
+  skrypt: mine4_office_safe2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_74bf022341f200d450ba
+      kontekst: data.json:scripts.mine4_office_safe2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The office safe is empty. You're the one who emptied it, remember?
+      pl: Sejf biurowy jest pusty. To ty go opróżniłeś, pamiętasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1846
+  skrypt: mine4_office_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 60
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_63d81ebf1256efd8d42c
+      kontekst: data.json:scripts.mine4_office_talk.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Kid, I'm busy here. I've got a mine to run. Take a hike, okay?
+      pl: Dzieciaku, jestem zajęty. Mam kopalnię do prowadzenia. Zjeżdżaj, dobra?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dbb233364cda414e2bc7
+      kontekst: data.json:scripts.mine4_office_talk.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: This mine is still running?
+      pl: Ta kopalnia wciąż działa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: running
+    wpisy:
+    - id: wol_3450ae826280d1044e6c
+      kontekst: data.json:scripts.mine4_office_talk.running
+      linia: 5
+      sekcja_skryptu: running
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This mine is still running? I haven't seen anyone around.
+      pl: Ta kopalnia nadal działa? Nikogo tu nie widziałem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d7e9f14515c76877337
+      kontekst: data.json:scripts.mine4_office_talk.running
+      linia: 6
+      sekcja_skryptu: running
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We're <i>miners</i>, kid. If you saw anyone up here, I'd have to fire them for not doing their jobs.
+      pl: <i>Jesteśmy górnikami</i>. Gdybyś kogoś tu zobaczył, musiałbym ich zwolnić za to, że nie wykonują swojej pracy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_5d0231df5081ab2e9cf9
+      kontekst: data.json:scripts.mine4_office_talk.options
+      linia: 7
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How's business?
+      pl: Jak leci interes?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howsbiz
+    wpisy:
+    - id: wol_5d0231df5081ab2e9cf9
+      kontekst: data.json:scripts.mine4_office_talk.howsbiz
+      linia: 8
+      sekcja_skryptu: howsbiz
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's business?
+      pl: Jak leci interes?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1391321a8b40141682d5
+      kontekst: data.json:scripts.mine4_office_talk.howsbiz
+      linia: 9
+      sekcja_skryptu: howsbiz
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, just great. Hunky-friggin'-dory. See this face? This is my happy face. And I'm double-excited about answering questions from some random kid that wandered into my office while I'm working. Look how ecstatic I am!
+      pl: Och, po prostu świetnie. Kurde, cud-miód. Widzisz tę twarz? To moja szczęśliwa twarz. A już podwójnie cieszy mnie odpowiadanie na pytania jakiegoś przypadkowego dzieciaka, który wlazł do mojego biura, kiedy pracuję. Spójrz tylko, jaki jestem zachwycony!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_323d38944dd832b2035e
+      kontekst: data.json:scripts.mine4_office_talk.howsbiz
+      linia: 10
+      sekcja_skryptu: howsbiz
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's quite a silver tooth...
+      pl: Całkiem srebrny ząb...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: howsbiz2
+    wpisy:
+    - id: wol_1004fb39f0823068efe3
+      kontekst: data.json:scripts.mine4_office_talk.howsbiz2
+      linia: 11
+      sekcja_skryptu: howsbiz2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's quite a silver tooth you've got in that sarcastic grin.
+      pl: Niezły srebrny ząb błyszczy w tym twoim szyderczym uśmiechu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e5d772914f479897c81d
+      kontekst: data.json:scripts.mine4_office_talk.howsbiz2
+      linia: 12
+      sekcja_skryptu: howsbiz2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Made it myself. I've made a few little silver trinkets in my time. Now go away.
+      pl: Sam to zrobiłem. Zdarzyło mi się w życiu wykonać parę srebrnych błyskotek. A teraz odejdź.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_0578eb168d1f97efac16
+      kontekst: data.json:scripts.mine4_office_talk.options
+      linia: 13
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Your calendar is out of date.
+      pl: Twój kalendarz jest nieaktualny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: calendar
+    wpisy:
+    - id: wol_0578eb168d1f97efac16
+      kontekst: data.json:scripts.mine4_office_talk.calendar
+      linia: 14
+      sekcja_skryptu: calendar
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Your calendar is out of date.
+      pl: Twój kalendarz jest nieaktualny.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c2fcf22423222fed14b
+      kontekst: data.json:scripts.mine4_office_talk.calendar
+      linia: 16
+      sekcja_skryptu: calendar
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, it's like six months old.
+      pl: Tak, ma jakieś sześć miesięcy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc4bb8731549bcb3e4db
+      kontekst: data.json:scripts.mine4_office_talk.calendar
+      linia: 17
+      sekcja_skryptu: calendar
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...I like the picture, okay? Scram.'
+      pl: '...Lubię ten obrazek, okej? Spadaj.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_f15b057da95a6c0a5f93
+      kontekst: data.json:scripts.mine4_office_talk.options
+      linia: 18
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: This mine is abandoned.
+      pl: Ta kopalnia jest opuszczona.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: abandoned
+    wpisy:
+    - id: wol_3bd69a24dcf15b8e1f98
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 19
+      sekcja_skryptu: abandoned
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This mine is abandoned. What's going on?
+      pl: Ta kopalnia jest opuszczona. Co się dzieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc650d290d4b8a995af9
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 20
+      sekcja_skryptu: abandoned
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Kid, I am not interested in playing games.
+      pl: Dzieciaku, nie interesują mnie gierki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6b9d0b4f0dffcef1e97
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 21
+      sekcja_skryptu: abandoned
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I'm not playing. The mineshaft is silent, everything's covered in dust, and according to the calendar nothing has happened here for six months. This place is dead.
+      pl: Nie żartuję. W szybie panuje cisza, wszystko pokrywa kurz, a według kalendarza od sześciu miesięcy nic się tu nie wydarzyło. To miejsce jest martwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b26fa0336138b8b19f9
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 22
+      sekcja_skryptu: abandoned
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>You're</i> gonna be the dead one if you don't leave me alone!
+      pl: <i>To ty</i> zaraz będziesz martwy, jeśli nie dasz mi spokoju!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_057727dce1dc920dc17c
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 23
+      sekcja_skryptu: abandoned
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm not afraid of any ghost! [Fight]
+      pl: Nie boję się żadnego ducha! [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickaxe
+    wpisy:
+    - id: wol_b54d4ace9c71f0d83bb7
+      kontekst: data.json:scripts.mine4_office_talk.pickaxe
+      linia: 24
+      sekcja_skryptu: pickaxe
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost leaps out of his chair and charges at you. Without thinking, you reflexively swing that old pickaxe you found at him, knocking his head clean off. The ghostly foreman dissolves into nothingness, leaving you with a real eerie feeling.
+      pl: Duch wyskakuje z krzesła i szarżuje na ciebie. Bez myślenia odruchowo zamachujesz się tym starym kilofem, który znalazłeś, i odcinasz mu głowę. Upiorny brygadzista rozpływa się w niczym, zostawiając ci prawdziwie upiorne uczucie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8df786b4525e40c8f25f
+      kontekst: data.json:scripts.mine4_office_talk.pickaxe
+      linia: 25
+      sekcja_skryptu: pickaxe
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Brr.
+      pl: Brr.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: abandoned
+    wpisy:
+    - id: wol_4f04c1b27775efc02f9a
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 26
+      sekcja_skryptu: abandoned
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You think I'm scared of a ghost? BOO! [Intimidatin' 3]
+      pl: Myślisz, że boję się ducha? BU! [Zastraszanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_4f6d03108e57bfb3b853
+      kontekst: data.json:scripts.mine4_office_talk.intim
+      linia: 27
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ghost leaps out of his chair and rushes at you, but dissolves into nothingness before it can strike. Gosh, that's the first time you've ever taunted someone right out of existence, probably!
+      pl: Duch wyskakuje z krzesła i rzuca się na ciebie, ale rozpływa się w niczym, zanim zdąży uderzyć. O rany, to chyba pierwszy raz, gdy kogoś wyśmiałeś z samego istnienia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e6b1d47e503ec5bf3f99
+      kontekst: data.json:scripts.mine4_office_talk.intim
+      linia: 28
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Awesome!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: abandoned
+    wpisy:
+    - id: wol_de29616f345c26b61a0e
+      kontekst: data.json:scripts.mine4_office_talk.abandoned
+      linia: 29
+      sekcja_skryptu: abandoned
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: You think I'm scared? BOO! [Requires Intimidatin' 3]
+      pl: Myślisz, że się boję? BU! [Wymaga Zastraszania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_69ffdcddeb76a0371cf1
+      kontekst: data.json:scripts.mine4_office_talk.options
+      linia: 31
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you know that you're a ghost?
+      pl: Wiesz, że jesteś duchem?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: ghost
+    wpisy:
+    - id: wol_69ffdcddeb76a0371cf1
+      kontekst: data.json:scripts.mine4_office_talk.ghost
+      linia: 32
+      sekcja_skryptu: ghost
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Do you know that you're a ghost?
+      pl: Wiesz, że jesteś duchem?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_56431488cd19b60cb76c
+      kontekst: data.json:scripts.mine4_office_talk.ghost
+      linia: 33
+      sekcja_skryptu: ghost
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Do you know that you're a pain in the ass?
+      pl: Wiesz, że działasz mi na nerwy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71c733ee57576b87811c
+      kontekst: data.json:scripts.mine4_office_talk.ghost
+      linia: 34
+      sekcja_skryptu: ghost
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I'm serious...
+      pl: Nie, mówię poważnie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_25800398c8b89c9aeaa1
+      kontekst: data.json:scripts.mine4_office_talk.ghost
+      linia: 35
+      sekcja_skryptu: ghost
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You see me laughing?
+      pl: Widzisz, jak się śmieję?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a5de6bb8f60a9092141
+      kontekst: data.json:scripts.mine4_office_talk.ghost
+      linia: 36
+      sekcja_skryptu: ghost
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I have something that belongs to you.
+      pl: Mam coś, co do ciebie należy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: proof
+    wpisy:
+    - id: wol_4a5de6bb8f60a9092141
+      kontekst: data.json:scripts.mine4_office_talk.proof
+      linia: 37
+      sekcja_skryptu: proof
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I have something that belongs to you.
+      pl: Mam coś, co do ciebie należy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2245df31f32aa875f897
+      kontekst: data.json:scripts.mine4_office_talk.proof
+      linia: 38
+      sekcja_skryptu: proof
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah? Well-- uh. That's a human skull.
+      pl: Ach tak? No-- yyy. To ludzka czaszka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a4cde9d365bb54d0d4b6
+      kontekst: data.json:scripts.mine4_office_talk.proof
+      linia: 39
+      sekcja_skryptu: proof
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Notice the silver tooth? Look familiar?
+      pl: Widzisz srebrny ząb? Wygląda znajomo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e892f970567054fda311
+      kontekst: data.json:scripts.mine4_office_talk.proof
+      linia: 41
+      sekcja_skryptu: proof
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't mean to upset you, but...
+      pl: Nie chcę cię zdenerwować, ale...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: upset
+    wpisy:
+    - id: wol_e892f970567054fda311
+      kontekst: data.json:scripts.mine4_office_talk.upset
+      linia: 42
+      sekcja_skryptu: upset
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't mean to upset you, but...
+      pl: Nie chcę cię zdenerwować, ale...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32362a20829837df0ae8
+      kontekst: data.json:scripts.mine4_office_talk.upset
+      linia: 43
+      sekcja_skryptu: upset
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Ugh. I guess I... forgot, somehow.'
+      pl: '...Ugh. Chyba jakoś... zapomniałem.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea3c9a743586d3e5fb84
+      kontekst: data.json:scripts.mine4_office_talk.upset
+      linia: 44
+      sekcja_skryptu: upset
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: It must have been a traumatic experience.
+      pl: To musiało być traumatyczne przeżycie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f5dfa3e14be7080160c
+      kontekst: data.json:scripts.mine4_office_talk.upset
+      linia: 45
+      sekcja_skryptu: upset
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you think? You think maybe? Sheesh. Give me that damn skull. It's mine, after all.
+      pl: Och, tak myślisz? Może tak myślisz? Rany. Daj mi tę cholerną czaszkę. W końcu jest moja.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_9813d582815551961b49
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 48
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I don't want to talk about it. And frankly, kid, it's none of your business. Leave me alone so I can get on with "going into the light" or whatever.
+      pl: Nie chcę o tym rozmawiać. I szczerze mówiąc, dzieciaku, to nie twoja sprawa. Zostaw mnie, żebym mógł „pójść w stronę światła” czy coś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3249637cb729474759cd
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 49
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You sure there isn't anything... [Outfoxin' 3]
+      pl: Na pewno nie ma nic... [Przechytrzanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_03531904a8d07015f3f1
+      kontekst: data.json:scripts.mine4_office_talk.outfox
+      linia: 50
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You sure there isn't anything you want to get off your chest before you go?
+      pl: Jesteś pewien, że przed wyjazdem nie chcesz nic z siebie wyrzucić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f08b1dbf65eee5f2a6e1
+      kontekst: data.json:scripts.mine4_office_talk.outfox
+      linia: 51
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '...Look, I got wrapped up in some stuff that made a lot of sense at the time, but I''m seeing things more clearly now, and these aren''t memories I care to relive with a fresh perspective. I''m just glad Halloway got me before things went any further.'
+      pl: '...Słuchaj, wplątałem się w coś, co w tamtym momencie miało dużo sensu, ale teraz widzę wszystko wyraźniej i to nie są wspomnienia, które chcę przeżywać na nowo ze świeżej perspektywy. Cieszę się tylko, że Halloway mnie dorwał, zanim sprawy zaszły dalej.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e5f1e2aac026bdedbd4
+      kontekst: data.json:scripts.mine4_office_talk.outfox
+      linia: 52
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Halloway?
+      pl: Halloway?
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_052a549e1b21e89896db
+      kontekst: data.json:scripts.mine4_office_talk.outfox
+      linia: 53
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: If you know what's good for you, you'll stay out of that damn mine.
+      pl: Jak wiesz, co dla ciebie dobre, będziesz się trzymać z dala od tej przeklętej kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_8b2fbe6ba2a98a591b60
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 55
+      sekcja_skryptu: what
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: You sure there isn't anything... [Requires Outfoxin' 3]
+      pl: Jesteś pewien, że niczego nie chcesz...? [Wymaga Przechytrzania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fed7ddc073dae585a7a8
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 56
+      sekcja_skryptu: what
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You know, you can't take it with you... [Hornswogglin' 3]
+      pl: Wiesz, tego ze sobą nie weźmiesz... [Oszukiwanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswog
+    wpisy:
+    - id: wol_0283b87f909259ec8ed0
+      kontekst: data.json:scripts.mine4_office_talk.hornswog
+      linia: 57
+      sekcja_skryptu: hornswog
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You know, you can't take it with you...
+      pl: Wiesz, nie możesz tego zabrać ze sobą...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d6b766084f1fd1779d9
+      kontekst: data.json:scripts.mine4_office_talk.hornswog
+      linia: 58
+      sekcja_skryptu: hornswog
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Take what?
+      pl: Hę? Zabrać co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_104a838801fe95a9ed38
+      kontekst: data.json:scripts.mine4_office_talk.hornswog
+      linia: 59
+      sekcja_skryptu: hornswog
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whatever's in that safe over there.
+      pl: Cokolwiek jest w tamtym sejfie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1ccfb1445aa13607fcc
+      kontekst: data.json:scripts.mine4_office_talk.hornswog
+      linia: 60
+      sekcja_skryptu: hornswog
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Yeah, fine. The combination's 0451.
+      pl: Och. Tak, dobra. Szyfr to 0451.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_d7c9fe128accb2366dfe
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 62
+      sekcja_skryptu: what
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Can't take it with you... [Requires Hornswogglin' 3]
+      pl: Do grobu tego nie zabierzesz... [Wymaga Oszukiwania 3]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c29d131089d4d8298bf4
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 63
+      sekcja_skryptu: what
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. Bye.
+      pl: Okej. Pa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_ed85fb1627cce5003c99
+      kontekst: data.json:scripts.mine4_office_talk.options
+      linia: 65
+      sekcja_skryptu: options
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Do you know anything about this weird statuette I found?
+      pl: Wiesz coś o tej dziwnej statuetce, którą znalazłem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idol
+    wpisy:
+    - id: wol_2a5c4c5cf4fdf377a846
+      kontekst: data.json:scripts.mine4_office_talk.idol
+      linia: 67
+      sekcja_skryptu: idol
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You show the ghost the weird silver statuette, and he jumps out of his chair in a sudden fury.
+      pl: Pokazujesz duchowi dziwną srebrną statuetkę, a on z furii wyskakuje z krzesła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9fb18196a97909afd9b
+      kontekst: data.json:scripts.mine4_office_talk.idol
+      linia: 68
+      sekcja_skryptu: idol
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <i>That isn't yours!</i>
+      pl: <i>To nie jest twoje!</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a97d517eefc8f058041e
+      kontekst: data.json:scripts.mine4_office_talk.idol
+      linia: 69
+      sekcja_skryptu: idol
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run out of the office
+      pl: Wybiegnij z biura
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: run
+    wpisy:
+    - id: wol_47a2c08d91f4df483913
+      kontekst: data.json:scripts.mine4_office_talk.run
+      linia: 70
+      sekcja_skryptu: run
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You book it out of the office and slam the door behind you.
+      pl: Wymykasz się z biura i trzaskasz drzwiami za sobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idol
+    wpisy:
+    - id: wol_120412818aecaf3b5eca
+      kontekst: data.json:scripts.mine4_office_talk.idol
+      linia: 72
+      sekcja_skryptu: idol
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stand and fight him.
+      pl: Stań i walcz z nim.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1837
+  skrypt: mine4_officeenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: fightprompt
+    wpisy:
+    - id: wol_091e0b958b5135fb2118
+      kontekst: data.json:scripts.mine4_officeenter.fightprompt
+      linia: 1
+      sekcja_skryptu: fightprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That ghost foreman is still pretty angry.  Are you sure you want to be in here?
+      pl: Ten duch brygadzisty wciąż jest dość wściekły. Na pewno chcesz tu być?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e7cea5dcbaa8f1d7914d
+      kontekst: data.json:scripts.mine4_officeenter.fightprompt
+      linia: 2
+      sekcja_skryptu: fightprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yes [Fight]
+      pl: Tak [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d2ba01b3123652b3b167
+      kontekst: data.json:scripts.mine4_officeenter.fightprompt
+      linia: 3
+      sekcja_skryptu: fightprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No, I should go back outside
+      pl: Nie, powinienem wrócić na zewnątrz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: normal
+    wpisy:
+    - id: wol_1133b7e0f7ad8ed5578b
+      kontekst: data.json:scripts.mine4_officeenter.normal
+      linia: 4
+      sekcja_skryptu: normal
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Except for the dust all over everything, and the fact that the guy at the desk is a ghost, this looks like a regular mine foreman's office.
+      pl: Poza kurzem na wszystkim i tym, że gość przy biurku to duch, wygląda to jak zwykłe biuro nadzorcy kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7cbcc490db4bc9cf9ce7
+      kontekst: data.json:scripts.mine4_officeenter.normal
+      linia: 5
+      sekcja_skryptu: normal
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh, okay.
+      pl: Eee, okej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: normal2
+    wpisy:
+    - id: wol_19aea4d335bd9d7781ed
+      kontekst: data.json:scripts.mine4_officeenter.normal2
+      linia: 6
+      sekcja_skryptu: normal2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Except for the dust all over everything, this looks like a regular mine foreman's office.
+      pl: Poza kurzem na wszystkim wygląda to jak zwykłe biuro nadzorcy kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bf0c553187c263f3f0d
+      kontekst: data.json:scripts.mine4_officeenter.normal2
+      linia: 7
+      sekcja_skryptu: normal2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure does.
+      pl: Jasne, że tak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1847
+  skrypt: mine4_pickaxe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9cb0fbe6e597dde5499e
+      kontekst: data.json:scripts.mine4_pickaxe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Someone left their pickaxe here. I guess this is what they call "environmental storytelling".
+      pl: Ktoś zostawił tu kilof. Chyba to się nazywa „opowiadaniem przez otoczenie”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickup
+    wpisy:
+    - id: wol_67504135e97a978c4fc3
+      kontekst: data.json:scripts.mine4_pickaxe.pickup
+      linia: 3
+      sekcja_skryptu: pickup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Picked.
+      pl: Zebrano.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1848
+  skrypt: mine4_pit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1d62655aa7138ee81538
+      kontekst: data.json:scripts.mine4_pit.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pit seems pretty deep. You kick a rock into it, but never hear it hit the bottom.
+      pl: Ten dołek wydaje się głęboki. Kopniesz kamień — nigdy nie słyszysz, jak uderza w dno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71d63dce5859f5326037
+      kontekst: data.json:scripts.mine4_pit.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw something into it
+      pl: Wrzuć coś do środka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1849
+  skrypt: mine4_rooma_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8c61e88dd6956dfcd22c
+      kontekst: data.json:scripts.mine4_rooma_elevator.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The elevator is waiting patiently to take you back up to the surface, once you're done with whatever you plan to do down here.
+      pl: Winda cierpliwie czeka, żeby zabrać cię z powrotem na powierzchnię, gdy skończysz to, co planujesz tu zrobić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_66e4dcaf0ff6d04285a2
+      kontekst: data.json:scripts.mine4_rooma_elevator.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ride it
+      pl: Wjedź na to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1850
+  skrypt: mine4_rooma_petecavein
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_920d39d16dccbc14c9c0
+      kontekst: data.json:scripts.mine4_rooma_petecavein.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whaddya think, Pete?
+      pl: Co myślisz, Pete?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7eae82543fd805131ca3
+      kontekst: data.json:scripts.mine4_rooma_petecavein.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think this weren't no natural cave-in.
+      pl: Coś mi się widzi, że to nie był naturalny zawał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5734e944bd2bc9c107c
+      kontekst: data.json:scripts.mine4_rooma_petecavein.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How d'you mean?
+      pl: Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b50d3193afa7cde46b3
+      kontekst: data.json:scripts.mine4_rooma_petecavein.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I mean someone blew up this tunnel deliberate-like. You can tell by the stress fractures in the rock, y'see? Here and here?
+      pl: Mam na myśli, że ktoś celowo wysadził ten tunel. Widać to po pęknięciach naprężeniowych w skale. Tutaj i tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d879d44e2aa17c33bd6b
+      kontekst: data.json:scripts.mine4_rooma_petecavein.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No, but I'll take your word for it.
+      pl: Nie, ale wierzę ci na słowo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1851
+  skrypt: mine4_rooma_rocks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_271422f6807b69d9ff51
+      kontekst: data.json:scripts.mine4_rooma_rocks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm. Looks like there was a cave-in.
+      pl: Hmm. Wygląda na zawalenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: check
+    wpisy:
+    - id: wol_d042b0355b8ee563958e
+      kontekst: data.json:scripts.mine4_rooma_rocks.check
+      linia: 3
+      sekcja_skryptu: check
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There isn't much to see, except for rocks. There's quite a lot of them though, so if you want to look at rocks, there's great selection to choose from.
+      pl: Niewiele tu widać, poza skałami. Jest ich jednak sporo, więc jeśli chcesz oglądać skały, masz z czego wybierać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_e2df7c04bcda3d618d9d
+      kontekst: data.json:scripts.mine4_rooma_rocks.already
+      linia: 4
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing new here.
+      pl: Nic tu nowego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1852
+  skrypt: mine4_skeleton2pop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_09cb45ee9f359f0b6ec8
+      kontekst: data.json:scripts.mine4_skeleton2pop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's hard to tell at a glance, but on closer inspection this guy seems to have died in a facedown abasement or prayer pose. Praying to the pit, maybe? It's difficult to say.
+      pl: Na pierwszy rzut oka trudno powiedzieć, ale z bliska wygląda na to, że zginął w pozycji twarzą w dół — pokory albo modlitwy. Może modlił się do dołu? Ciężko stwierdzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2966c746535c189b323c
+      kontekst: data.json:scripts.mine4_skeleton2pop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Might've just been napping weird.
+      pl: Może po prostu dziwnie drzemał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1853
+  skrypt: mine4_skeletonpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_143e9e9fe19383ca40dc
+      kontekst: data.json:scripts.mine4_skeletonpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This skeleton seems to be reaching out to that weird statuette. Or reaching out <i>with</i> the statuette? With the hands having fallen off, it's impossible to tell.
+      pl: Ten szkielet wydaje się sięgać do tej dziwnej statuetki. Albo sięga <i>nią</i>? Skoro dłonie odpadły, nie da się powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1854
+  skrypt: mine4_switch1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3eab306ec4d044a29fc2
+      kontekst: data.json:scripts.mine4_switch1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It looks like this lever controls the junction in the minecart tracks.
+      pl: Wygląda na to, że ta dźwignia steruje rozjazdem na torach wagonika.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pull
+    wpisy:
+    - id: wol_c46a6c281e9206cdb3d8
+      kontekst: data.json:scripts.mine4_switch1.pull
+      linia: 3
+      sekcja_skryptu: pull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It makes a satisfying <i>ker-chonk</i> noise.
+      pl: Wydaje z siebie satysfakcjonujący dźwięk <i>ker-czynk</i>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1855
+  skrypt: mine4_throwpit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 76
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_ad83a854edfe4affba6a
+      kontekst: data.json:scripts.mine4_throwpit.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look through your pack for something that might be good to throw into a bottomless pit.
+      pl: Przeszukujesz plecak w poszukiwaniu czegoś dobrego do wrzucenia w bezdenną dziurę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: options
+    wpisy:
+    - id: wol_3620e10aeccb4743b49d
+      kontekst: data.json:scripts.mine4_throwpit.options
+      linia: 2
+      sekcja_skryptu: options
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: But you can't seem to find anything suitable.
+      pl: Ale nie możesz znaleźć nic odpowiedniego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: weirdknife
+    wpisy:
+    - id: wol_4267104c8ed28142610e
+      kontekst: data.json:scripts.mine4_throwpit.weirdknife
+      linia: 4
+      sekcja_skryptu: weirdknife
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the weird, twisty, tarnished silver knife out of your pack and look at it. You don't like looking at it very much.
+      pl: Wyciągasz z plecaka dziwny, skręcony, pokryty patyną srebrny nóż i patrzysz na niego. Nie lubisz na niego patrzeć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.weirdknife
+      linia: 5
+      sekcja_skryptu: weirdknife
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: weirdknifethrow
+    wpisy:
+    - id: wol_c3f2ddf114ce4c99ece8
+      kontekst: data.json:scripts.mine4_throwpit.weirdknifethrow
+      linia: 6
+      sekcja_skryptu: weirdknifethrow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You toss the weird silver knife into the hole. This makes you feel relieved, though it's hard to say why.
+      pl: Rzucasz dziwny srebrny nóż do dołu. Czujesz ulgę, choć trudno powiedzieć czemu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: weirdknifedont
+    wpisy:
+    - id: wol_4a4a417a381b46e6d48a
+      kontekst: data.json:scripts.mine4_throwpit.weirdknifedont
+      linia: 9
+      sekcja_skryptu: weirdknifedont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shudder a little as you put the knife back in your pack.
+      pl: Lekko dreszcz ci przechodzi, gdy chowasz nóż z powrotem do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_f67291d2c37047baa3d2
+      kontekst: data.json:scripts.mine4_throwpit.opts
+      linia: 10
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You dig deeper into your pack, looking for something else you might want to toss into a bottomless pit.
+      pl: Grzebiesz głębiej w plecaku, szukając czegoś do wrzucenia w bezdenny szyb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: skull
+    wpisy:
+    - id: wol_d38215beeb5860fb1c34
+      kontekst: data.json:scripts.mine4_throwpit.skull
+      linia: 11
+      sekcja_skryptu: skull
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hold up the silver-toothed skull. Alas, poor... ugh, never mind.
+      pl: Unosisz czaszkę ze srebrnymi zębami. Ach, biedny... eee, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.skull
+      linia: 12
+      sekcja_skryptu: skull
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: skullthrow
+    wpisy:
+    - id: wol_881cb179e998f8cf2324
+      kontekst: data.json:scripts.mine4_throwpit.skullthrow
+      linia: 13
+      sekcja_skryptu: skullthrow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You toss the skull into the pit. As it falls, it yells <i>"I'm coming home!"</i>
+      pl: Rzucasz czaszkę do dołu. Gdy spada, krzyczy <i>„Wracam do domu!”</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_434cb3990afa7b9a6aaf
+      kontekst: data.json:scripts.mine4_throwpit.skullthrow
+      linia: 14
+      sekcja_skryptu: skullthrow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: So <i>that's</i> a little unsettling.
+      pl: No to <i>to</i> trochę niepokoi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8df786b4525e40c8f25f
+      kontekst: data.json:scripts.mine4_throwpit.skullthrow
+      linia: 15
+      sekcja_skryptu: skullthrow
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Brr.
+      pl: Brr.
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: skulldont
+    wpisy:
+    - id: wol_fd487b4f8bde2be5a3c7
+      kontekst: data.json:scripts.mine4_throwpit.skulldont
+      linia: 17
+      sekcja_skryptu: skulldont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the skull back in your bag. Two heads are better than one, right?
+      pl: Chowasz czaszkę z powrotem do torby. Dwie głowy lepsze niż jedna, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idol
+    wpisy:
+    - id: wol_552c2f7ed561879222e1
+      kontekst: data.json:scripts.mine4_throwpit.idol
+      linia: 18
+      sekcja_skryptu: idol
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You take the idol out of your bag. You don't like the way it looks in this dim light.
+      pl: Wyciągasz bożka z torby. Nie lubisz, jak wygląda w tym przyćmionym świetle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_66132db36b13494f2a36
+      kontekst: data.json:scripts.mine4_throwpit.idol
+      linia: 19
+      sekcja_skryptu: idol
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't like the way it looks <i>at you</i> in this dim light.
+      pl: Nie lubisz, jak na ciebie <i>patrzy</i> w tym półmroku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5439ac56ea2fcf4b05c5
+      kontekst: data.json:scripts.mine4_throwpit.idol
+      linia: 20
+      sekcja_skryptu: idol
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Say, uh... what're... what're ya doin' there, boss?
+      pl: Powiedz, yyy... co... co tam robisz, szefie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.idol
+      linia: 21
+      sekcja_skryptu: idol
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idolthrow
+    wpisy:
+    - id: wol_4a8c44fc6f41e50beb87
+      kontekst: data.json:scripts.mine4_throwpit.idolthrow
+      linia: 22
+      sekcja_skryptu: idolthrow
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No, don't! Aw dangit!
+      pl: Nie, nie rób tego! O, cholera!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3ccf511c89dbd1aea96b
+      kontekst: data.json:scripts.mine4_throwpit.idolthrow
+      linia: 23
+      sekcja_skryptu: idolthrow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You throw the idol into the pit. The weird feeling in your stomach fades away, although you get a sense of... well, it's like if you heard someone chuckle behind you, except you didn't hear anything, and there isn't anyone behind you.
+      pl: Rzucasz bożka do dołu. Dziwne uczucie w brzuchu znika, choć masz wrażenie... no, jakby ktoś za tobą parsknął, tylko nic nie słyszysz i nikogo za tobą nie ma.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: peteidol
+    wpisy:
+    - id: wol_de7683e379eac646a3d1
+      kontekst: data.json:scripts.mine4_throwpit.peteidol
+      linia: 25
+      sekcja_skryptu: peteidol
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Now what'd ya haveta go an' do a fool thing like that fer?
+      pl: I po coś zrobił takie głupstwo?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27adb543201954bb6247
+      kontekst: data.json:scripts.mine4_throwpit.peteidol
+      linia: 26
+      sekcja_skryptu: peteidol
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: We're better off without it, Pete.
+      pl: Lepiej nam bez tego, Pete.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5cf7ca85a9fc4e9a1465
+      kontekst: data.json:scripts.mine4_throwpit.peteidol
+      linia: 27
+      sekcja_skryptu: peteidol
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well... if yer sure...
+      pl: Cóż... jeśli jesteś pewien...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69cd547ab2c4ab77344f
+      kontekst: data.json:scripts.mine4_throwpit.peteidol
+      linia: 28
+      sekcja_skryptu: peteidol
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, I'm sure.
+      pl: Ta, jestem pewien.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: idoldont
+    wpisy:
+    - id: wol_2d40016bf3d5306b2246
+      kontekst: data.json:scripts.mine4_throwpit.idoldont
+      linia: 30
+      sekcja_skryptu: idoldont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the idol back in your bag. The weird feeling it gives you doesn't go away.
+      pl: Chowasz bożka z powrotem do torby. Dziwne uczucie, które daje, nie mija.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b6bb11fc34e6b8011c8
+      kontekst: data.json:scripts.mine4_throwpit.idoldont
+      linia: 31
+      sekcja_skryptu: idoldont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Pete sighs in relief. He looks extremely tired.
+      pl: Pete z ulgą wzdycha. Wygląda na skrajnie zmęczonego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goblet
+    wpisy:
+    - id: wol_1cead3a8a7db39a26475
+      kontekst: data.json:scripts.mine4_throwpit.goblet
+      linia: 32
+      sekcja_skryptu: goblet
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hold up the cursed blood goblet. Good grief, why are you even carrying this thing around?
+      pl: Unosisz przeklęty kielich krwi. Boże, czemu w ogóle to przy sobie taszczysz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e9e59d8377400562a66c
+      kontekst: data.json:scripts.mine4_throwpit.goblet
+      linia: 33
+      sekcja_skryptu: goblet
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Chuck it into the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gobletthrow
+    wpisy:
+    - id: wol_4b61140d4238f54bc07c
+      kontekst: data.json:scripts.mine4_throwpit.gobletthrow
+      linia: 34
+      sekcja_skryptu: gobletthrow
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pitch the gross thing into the hole. Good riddance.
+      pl: Wrzucasz obrzydliwą rzecz do dziury. Dobrze że zniknęła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gobletdont
+    wpisy:
+    - id: wol_ff0012298a60795c38cc
+      kontekst: data.json:scripts.mine4_throwpit.gobletdont
+      linia: 37
+      sekcja_skryptu: gobletdont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the goblet back in your bag. How have you not spilled all the blood out of it yet?
+      pl: Chowasz kielich z powrotem do torby. Jak jeszcze nie wylałeś z niego całej krwi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1
+    wpisy:
+    - id: wol_223af9df16be62d4d0c8
+      kontekst: data.json:scripts.mine4_throwpit.book1
+      linia: 38
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Introductory Nex-Mex". This book could be your first steps toward real power.
+      pl: Patrzysz na okładkę książki. „Introductory Nex-Mex”. Ta książka może być twoimi pierwszymi krokami ku prawdziwej mocy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cfdcca3bdc2b3bc694b6
+      kontekst: data.json:scripts.mine4_throwpit.book1
+      linia: 39
+      sekcja_skryptu: book1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: But at what cost?
+      pl: Ale jakim kosztem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book1
+      linia: 40
+      sekcja_skryptu: book1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1throw
+    wpisy:
+    - id: wol_371908257c1cdc61e64b
+      kontekst: data.json:scripts.mine4_throwpit.book1throw
+      linia: 41
+      sekcja_skryptu: book1throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You toss the book into the hole. Good thing it isn't a library book.
+      pl: Rzucasz książkę do dołu. Dobrze, że to nie książka biblioteczna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book1dont
+    wpisy:
+    - id: wol_7fb728c592f801e2ca71
+      kontekst: data.json:scripts.mine4_throwpit.book1dont
+      linia: 44
+      sekcja_skryptu: book1dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the book back into your pack. Heck, you can always come back if you change your mind.
+      pl: Chowasz książkę z powrotem do plecaka. Zawsze możesz wrócić, jeśli zmienisz zdanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: wol_eefdba8f2886acb42a34
+      kontekst: data.json:scripts.mine4_throwpit.book2
+      linia: 45
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "The Fundamentals of Nex-Mex". They say the fundamentals are the most important part of learning.
+      pl: Patrzysz na okładkę książki. „The Fundamentals of Nex-Mex”. Mówią, że podstawy to najważniejsza część nauki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book2
+      linia: 46
+      sekcja_skryptu: book2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2throw
+    wpisy:
+    - id: wol_691fcf4682d0fcf80751
+      kontekst: data.json:scripts.mine4_throwpit.book2throw
+      linia: 47
+      sekcja_skryptu: book2throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You toss the book into the hole. When the schoolmarm said "Reading is fundamental", she probably didn't mean this book.
+      pl: Rzucasz książkę do dołu. Gdy nauczycielka mówiła „Czytanie jest fundamentalne”, pewnie nie miała na myśli tej książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2dont
+    wpisy:
+    - id: wol_17c8fdd3fe7233fdc5d6
+      kontekst: data.json:scripts.mine4_throwpit.book2dont
+      linia: 50
+      sekcja_skryptu: book2dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You slide the book back into your bag. No need to rush into this decision, after all.
+      pl: Wsuwasz książkę z powrotem do torby. Nie ma po co spieszyć się z tą decyzją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3
+    wpisy:
+    - id: wol_a49c6e586d295db4b53e
+      kontekst: data.json:scripts.mine4_throwpit.book3
+      linia: 51
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Intermediate Nex-Mex". The back cover blurb says it can teach you how to steal people's blood.
+      pl: Patrzysz na okładkę książki. „Intermediate Nex-Mex”. Notka na tylnej okładce mówi, że nauczy cię kraść ludziom krew.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bf13043948717b21852
+      kontekst: data.json:scripts.mine4_throwpit.book3
+      linia: 52
+      sekcja_skryptu: book3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That sounds...
+      pl: To brzmi...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book3
+      linia: 53
+      sekcja_skryptu: book3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3throw
+    wpisy:
+    - id: wol_27e4f53cd069ec89de6a
+      kontekst: data.json:scripts.mine4_throwpit.book3throw
+      linia: 54
+      sekcja_skryptu: book3throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That sounds horrible. You toss the book into the hole.
+      pl: To brzmi okropnie. Wrzucasz książkę do dołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book3dont
+    wpisy:
+    - id: wol_9e63a358ad2a5cd345c9
+      kontekst: data.json:scripts.mine4_throwpit.book3dont
+      linia: 57
+      sekcja_skryptu: book3dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That sounds horrible. But... intriguing. You put the book back into your bag.
+      pl: To brzmi okropnie. Ale... intrygująco. Wkładasz książkę z powrotem do torby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3fd2bcbbc8bf34fadbd
+      kontekst: data.json:scripts.mine4_throwpit.book3dont
+      linia: 58
+      sekcja_skryptu: book3dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Heck, it couldn't hurt just to <i>read</i> about it.
+      pl: Kurczę, przecież samo <i>przeczytanie</i> o tym nie zaszkodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book4
+    wpisy:
+    - id: wol_2236cf5bf411e0159460
+      kontekst: data.json:scripts.mine4_throwpit.book4
+      linia: 59
+      sekcja_skryptu: book4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Frightening Topics in Nex-Mex". That seems like it ought to cover <i>all</i> topics in Nex-Mex.
+      pl: Patrzysz na okładkę książki. „Frightening Topics in Nex-Mex”. To chyba powinno obejmować <i>wszystkie</i> tematy Nex-Mex.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book4
+      linia: 60
+      sekcja_skryptu: book4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book4throw
+    wpisy:
+    - id: wol_ba39ca7fbc5f83d105f5
+      kontekst: data.json:scripts.mine4_throwpit.book4throw
+      linia: 61
+      sekcja_skryptu: book4throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You chuck the book into the hole. Sheesh, as if you need more fear in your life.
+      pl: Wrzucasz książkę do dołu. Ojej, jakby brakowało ci strachu w życiu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book4dont
+    wpisy:
+    - id: wol_39cacf3fb0c5c11111cd
+      kontekst: data.json:scripts.mine4_throwpit.book4dont
+      linia: 64
+      sekcja_skryptu: book4dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the book back in your bag. Heck, like you'd let yourself be scared of a stupid old book.
+      pl: Chowasz książkę z powrotem do torby. No jasne, nie dasz się przestraszyć głupiej starej książce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book5
+    wpisy:
+    - id: wol_66dd1589f1e5b43fb50b
+      kontekst: data.json:scripts.mine4_throwpit.book5
+      linia: 65
+      sekcja_skryptu: book5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Horrifying Concepts of Nex-Mex". This is getting further down that dark path than you're comfortable with.
+      pl: Patrzysz na okładkę książki. „Horrifying Concepts of Nex-Mex”. To coraz dalej tą mroczną ścieżką, niż ci wygodnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ded752f989658bedb5dc
+      kontekst: data.json:scripts.mine4_throwpit.book5
+      linia: 66
+      sekcja_skryptu: book5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '...Or is it?'
+      pl: '...A może jednak?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book5
+      linia: 67
+      sekcja_skryptu: book5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book5throw
+    wpisy:
+    - id: wol_6e258a3379aa3e3755f2
+      kontekst: data.json:scripts.mine4_throwpit.book5throw
+      linia: 68
+      sekcja_skryptu: book5throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pause a moment and run your hand over the cover of the book. Then you throw it into the hole.
+      pl: Zatrzymujesz się na chwilę i przesuwasz dłonią po okładce książki. Potem wrzucasz ją do dziury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book5dont
+    wpisy:
+    - id: wol_a612a4ceebb9f34c342a
+      kontekst: data.json:scripts.mine4_throwpit.book5dont
+      linia: 71
+      sekcja_skryptu: book5dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pause a moment and run your hand over the cover of the book.
+      pl: Zatrzymujesz się na chwilę i przesuwasz dłonią po okładce książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c64d3e661bc99f240a8e
+      kontekst: data.json:scripts.mine4_throwpit.book5dont
+      linia: 72
+      sekcja_skryptu: book5dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put it back in your pack.
+      pl: Chowasz z powrotem do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book6
+    wpisy:
+    - id: wol_52dcc3db6daa2d94f434
+      kontekst: data.json:scripts.mine4_throwpit.book6
+      linia: 73
+      sekcja_skryptu: book6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Dangerously Advanced Nex-Mex". Just reading the title makes you break out in a sweat.
+      pl: Patrzysz na okładkę książki. „Dangerously Advanced Nex-Mex”. Samo czytanie tytułu sprawia, że wybijasz się w pot.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book6
+      linia: 74
+      sekcja_skryptu: book6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book6throw
+    wpisy:
+    - id: wol_70516ef584a06313fbc5
+      kontekst: data.json:scripts.mine4_throwpit.book6throw
+      linia: 75
+      sekcja_skryptu: book6throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the hole. Then you look at the book again.
+      pl: Patrzysz na dziurę. Potem znowu patrzysz na książkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book6throw
+      linia: 76
+      sekcja_skryptu: book6throw
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book6throw2
+    wpisy:
+    - id: wol_4033e245f44508b733a4
+      kontekst: data.json:scripts.mine4_throwpit.book6throw2
+      linia: 77
+      sekcja_skryptu: book6throw2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After a long pause, you drop the book into the hole.
+      pl: Po długiej pauzie wrzucasz książkę do dołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book6dont
+    wpisy:
+    - id: wol_f761ba34d705f8580c37
+      kontekst: data.json:scripts.mine4_throwpit.book6dont
+      linia: 80
+      sekcja_skryptu: book6dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the book back into your pack.
+      pl: Chowasz książkę z powrotem do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7
+    wpisy:
+    - id: wol_5bbf6c053deb5d54a057
+      kontekst: data.json:scripts.mine4_throwpit.book7
+      linia: 82
+      sekcja_skryptu: book7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cover of the book. "Dark Forbidden Secrets of Nex-Mex".
+      pl: Patrzysz na okładkę książki. „Dark Forbidden Secrets of Nex-Mex”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08bf2c154e875ef2e477
+      kontekst: data.json:scripts.mine4_throwpit.book7
+      linia: 83
+      sekcja_skryptu: book7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just imagine the power contained in this book.
+      pl: Pomyśl tylko, jaka moc kryje się w tej książce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13709442ce1cbc5a2b3f
+      kontekst: data.json:scripts.mine4_throwpit.book7
+      linia: 84
+      sekcja_skryptu: book7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Just imagine.
+      pl: Pomyśl tylko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book7
+      linia: 85
+      sekcja_skryptu: book7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7throw
+    wpisy:
+    - id: wol_51a54372a4084207380a
+      kontekst: data.json:scripts.mine4_throwpit.book7throw
+      linia: 86
+      sekcja_skryptu: book7throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're standing at the edge of the pit.
+      pl: Stoisz na krawędzi dołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f92fa4b5dc88a52978b9
+      kontekst: data.json:scripts.mine4_throwpit.book7throw
+      linia: 87
+      sekcja_skryptu: book7throw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're still looking at the cover of the book.
+      pl: Wciąż patrzysz na okładkę książki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7930fb6ab3452e0a8d6
+      kontekst: data.json:scripts.mine4_throwpit.book7throw
+      linia: 88
+      sekcja_skryptu: book7throw
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Throw it in the hole
+      pl: Wrzuć to do dziury
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7throw2
+    wpisy:
+    - id: wol_5bbad5d604292cc163f7
+      kontekst: data.json:scripts.mine4_throwpit.book7throw2
+      linia: 89
+      sekcja_skryptu: book7throw2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stretch out both your arms.
+      pl: Wyciągasz obie ręce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d0ae937e36ef014d3df
+      kontekst: data.json:scripts.mine4_throwpit.book7throw2
+      linia: 90
+      sekcja_skryptu: book7throw2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop the book
+      pl: Upuść książkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7throw3
+    wpisy:
+    - id: wol_2118a241591820bc8d75
+      kontekst: data.json:scripts.mine4_throwpit.book7throw3
+      linia: 91
+      sekcja_skryptu: book7throw3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Minutes pass.
+      pl: Mijają minuty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d0ae937e36ef014d3df
+      kontekst: data.json:scripts.mine4_throwpit.book7throw3
+      linia: 92
+      sekcja_skryptu: book7throw3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop the book
+      pl: Upuść książkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7throw4
+    wpisy:
+    - id: wol_1a545c43a6245969b120
+      kontekst: data.json:scripts.mine4_throwpit.book7throw4
+      linia: 93
+      sekcja_skryptu: book7throw4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your hands are shaking.
+      pl: Twoje ręce drżą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d0ae937e36ef014d3df
+      kontekst: data.json:scripts.mine4_throwpit.book7throw4
+      linia: 94
+      sekcja_skryptu: book7throw4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Drop the book
+      pl: Upuść książkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7throw5
+    wpisy:
+    - id: wol_147d5969b6d842478954
+      kontekst: data.json:scripts.mine4_throwpit.book7throw5
+      linia: 96
+      sekcja_skryptu: book7throw5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '...You can''t.'
+      pl: '...Nie możesz.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b019030ca0d014993e8d
+      kontekst: data.json:scripts.mine4_throwpit.book7throw5
+      linia: 97
+      sekcja_skryptu: book7throw5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the book back in your bag.
+      pl: Chowasz książkę z powrotem do torby.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book7dont
+    wpisy:
+    - id: wol_b019030ca0d014993e8d
+      kontekst: data.json:scripts.mine4_throwpit.book7dont
+      linia: 99
+      sekcja_skryptu: book7dont
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put the book back in your bag.
+      pl: Chowasz książkę z powrotem do torby.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1856
+  skrypt: mine4_top_aliceskull
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_375decef919a27829fe0
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You poke through the rocks and turn up a human skull.
+      pl: Przeszukujesz skały i wydobywasz ludzką czaszkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2494e6b147f8348086fc
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whoa... that's a little ominous. What do you think, Doc?
+      pl: To trochę złowieszcze. Co o tym myślisz, doktorku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c978fb9d6ebdfbcca0dd
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I agree.
+      pl: Zgadzam się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a37932a5d40708ec911b
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I meant like from a medical standpoint.
+      pl: Miałem na myśli medyczny punkt widzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d8d9356c15f28093f8b
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Well, hand it over.
+      pl: Och. No dobrze, daj ją.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2c5fc7af83a68f13c742
+      kontekst: data.json:scripts.mine4_top_aliceskull.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nice silver tooth. ...Hmm.
+      pl: Ładny srebrny ząb. ...Hmm.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_1e6634e36450b6e51ed5
+      kontekst: data.json:scripts.mine4_top_aliceskull.what
+      linia: 9
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Damage to the occipital bone, around the edges of the foramen magnum. And heavy damage on the left temporal bone. Looks like a hit with a blunt but flat edge, couple-three inches across.
+      pl: Uszkodzenie kości potylicznej na obrzeżach otworu wielkiego oraz poważne uszkodzenie lewej kości skroniowej. Wygląda na uderzenie tępą, płaską krawędzią szerokości kilku cali.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4fdfae9eb6a4f1ac7503
+      kontekst: data.json:scripts.mine4_top_aliceskull.what
+      linia: 10
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! What does that mean?
+      pl: Wow! Co to znaczy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_623086d075adc14f2b27
+      kontekst: data.json:scripts.mine4_top_aliceskull.what
+      linia: 11
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: In layman's terms, someone hit this fella with the wide end of a pickaxe and knocked his head clean off.
+      pl: 'Mówiąc po ludzku: ktoś uderzył tego gościa szerokim końcem kilofa i gładko strącił mu głowę z karku.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4e721d477f6d9fd986c4
+      kontekst: data.json:scripts.mine4_top_aliceskull.what
+      linia: 12
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Jeez. Where's the rest of the skeleton, though? Why's just the skull here?
+      pl: Rany. Ale gdzie jest reszta szkieletu? Czemu została tylko czaszka?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_67dfbcaa81bee0da1812
+      kontekst: data.json:scripts.mine4_top_aliceskull.what
+      linia: 13
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That I can't tell ya.
+      pl: Tego nie mogę ci powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1857
+  skrypt: mine4_top_barrel
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e4ef3e001b09b2af8bc6
+      kontekst: data.json:scripts.mine4_top_barrel.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This barrel is full of old grease. Ugh.
+      pl: Ta beczka pełna starego smaru. Fuu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa32e6e34d23c7fd5f8e
+      kontekst: data.json:scripts.mine4_top_barrel.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take some
+      pl: Weź trochę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_0252e8354b908e908d3f
+      kontekst: data.json:scripts.mine4_top_barrel.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What, just grab a handful? No.
+      pl: Co, po prostu chwycić garść? Nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9f26f528f8532bcca30
+      kontekst: data.json:scripts.mine4_top_barrel.take
+      linia: 4
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have plenty of that already.
+      pl: Masz tego już sporo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getgrease
+    wpisy:
+    - id: wol_571fad07de14a5272e0f
+      kontekst: data.json:scripts.mine4_top_barrel.getgrease
+      linia: 5
+      sekcja_skryptu: getgrease
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You fill your waxed-paper sandwich bag with old grease. Hopefully this will come in handy very soon, so you can stop carrying it around.
+      pl: Napełniasz papierowy worek na kanapki starym smarem. Mam nadzieję, że wkrótce się przyda i przestaniesz to nosić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1858
+  skrypt: mine4_top_elepop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0f024757b6d003dac30e
+      kontekst: data.json:scripts.mine4_top_elepop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is the elevator down into the mine.
+      pl: To winda w dół do kopalni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1859
+  skrypt: mine4_top_elevator
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_0ed59d938cf2c2251b78
+      kontekst: data.json:scripts.mine4_top_elevator.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This elevator is pretty dusty inside, and doesn't appear to have been maintained for quite a while. It does still seem functional, but the control lever is chained and padlocked.
+      pl: Ta winda jest w środku dość zakurzona i nie wygląda, żeby ktoś ją od dawna serwisował. Nadal wydaje się sprawna, ale dźwignia sterująca jest zapięta na łańcuch i kłódkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_891eb40b621e950b990b
+      kontekst: data.json:scripts.mine4_top_elevator.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You also notice that the shaft is totally silent. You'd expect to hear the rumbling of minecarts and the clanking of pickaxes echoing up from below, but there's nothing.
+      pl: Zauważasz też, że szyb jest całkowicie cichy. Spodziewałbyś się słyszeć stukot wagoników i brzęk kilofów dobiegający z dołu, ale nic.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d5c9835d7c32398f347c
+      kontekst: data.json:scripts.mine4_top_elevator.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Unlock the lever [elevator key]
+      pl: Odblokuj dźwignię [klucz windy]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[elevator key]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: key
+    wpisy:
+    - id: wol_b461684b75cdcf5e9e6b
+      kontekst: data.json:scripts.mine4_top_elevator.key
+      linia: 4
+      sekcja_skryptu: key
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You unlock the lever with the foreman's key and give it a yank. The elevator shudders as it begins to descend, accompanied by the sound of clanking chains and grinding pulleys. Very quickly, it becomes too dark to see and you pull out your lantern. Very slowly, the elevator reaches its destination. You pull the door open and peer into the gloom.
+      pl: Odblokowujesz dźwignię kluczem brygadzisty i szarpniesz. Winda drży, zaczynając schodzić, przy dźwięku brzęczących łańcuchów i skrzypiących kół. Bardzo szybko robi się za ciemno i wyciągasz latarnię. Bardzo powoli winda dociera na miejsce. Otwierasz drzwi i zaglądasz w mrok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_91198efe1b73d4ac5056
+      kontekst: data.json:scripts.mine4_top_elevator.pick
+      linia: 7
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You pick the lock, remove the chains, and give the lever a yank. The elevator shudders as it begins to descend, accompanied by the sound of clanking chains and grinding pulleys. Very quickly, it becomes too dark to see and you pull out your lantern. Very slowly, the elevator reaches its destination. You pull the door open and peer into the gloom.
+      pl: Otwierasz zamek, zdejmujesz łańcuchy i szarpiesz dźwignię. Winda drży, zaczynając schodzić, przy dźwięku brzęczących łańcuchów i zgrzytających krążków. Bardzo szybko robi się za ciemno i wyciągasz latarnię. Bardzo powoli winda dociera na miejsce. Otwierasz drzwi i zaglądasz w mrok.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_81dfbdf0f66fbd134866
+      kontekst: data.json:scripts.mine4_top_elevator.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hop back out
+      pl: Wyskocz z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: unlocked
+    wpisy:
+    - id: wol_4a5f2805e2b25227def9
+      kontekst: data.json:scripts.mine4_top_elevator.unlocked
+      linia: 11
+      sekcja_skryptu: unlocked
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the elevator back down
+      pl: Zjedź windą z powrotem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1860
+  skrypt: mine4_top_pile1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5e6ace7089579d9d624f
+      kontekst: data.json:scripts.mine4_top_pile1.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Rocks. Probably some mine leavings that got piled up here.
+      pl: Skały. Pewnie odpady z kopalni, które tu się nagromadziły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c23dc5a419907e6c9e4
+      kontekst: data.json:scripts.mine4_top_pile1.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search the rocks
+      pl: Przeszukaj skały
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: search
+    wpisy:
+    - id: wol_1ed08e2fc73e6275a1e8
+      kontekst: data.json:scripts.mine4_top_pile1.search
+      linia: 3
+      sekcja_skryptu: search
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You poke around in the rocks, but don't find anything of interest.
+      pl: Grzebiesz w skałach, ale nic ciekawego nie znajdujesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pete
+    wpisy:
+    - id: wol_3cf848f8f7b6d2912735
+      kontekst: data.json:scripts.mine4_top_pile1.pete
+      linia: 5
+      sekcja_skryptu: pete
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Fair amount 'a lead in these rocks. This is prob'ly a silver mine, you get 'em together a lotta times.
+      pl: W tych skałach jest sporo ołowiu. To pewnie kopalnia srebra, często występują razem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_41770136438839f141c7
+      kontekst: data.json:scripts.mine4_top_pile1.pete
+      linia: 6
+      sekcja_skryptu: pete
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Are these worth anything?
+      pl: Czy to jest coś warte?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5ecf138f480a0201679f
+      kontekst: data.json:scripts.mine4_top_pile1.pete
+      linia: 7
+      sekcja_skryptu: pete
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Not enough to be haulin' 'em around. And don't lick 'em!
+      pl: Za mało, żeby je stąd zabierać. I nie liż ich!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d53069d3b964887a39b
+      kontekst: data.json:scripts.mine4_top_pile1.pete
+      linia: 8
+      sekcja_skryptu: pete
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I wasn't going to!
+      pl: Wcale nie zamierzałem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1861
+  skrypt: mine4_top_pile2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0ffb8ba2deea1b430ec9
+      kontekst: data.json:scripts.mine4_top_pile2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of rocks is probably mining leftovers.
+      pl: Ta sterta kamieni to pewnie pozostałości po wydobyciu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8111755857f790e65d66
+      kontekst: data.json:scripts.mine4_top_pile2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search them
+      pl: Przeszukaj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: findit
+    wpisy:
+    - id: wol_e55558fdcea31d8b4a70
+      kontekst: data.json:scripts.mine4_top_pile2.findit
+      linia: 4
+      sekcja_skryptu: findit
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Whoa, uh... there's a human skull hidden in this rock pile. That's a little ominous.
+      pl: Wow, eee... w tej stercie kamieni jest ukryta ludzka czaszka. Trochę złowieszcze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1862
+  skrypt: mine4_wreckedcart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d0b873aaaf890b6134f4
+      kontekst: data.json:scripts.mine4_wreckedcart.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You give the wrecked minecart a salute in respect of its valor and service.
+      pl: Salutujesz zniszczonemu wagonikowi w uznaniu jego męstwa i służby.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1874
+  skrypt: mine5_lockers
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8111755857f790e65d66
+      kontekst: data.json:scripts.mine5_lockers.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Search them
+      pl: Przeszukaj je
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1977
+  skrypt: npc_bshostler
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5d0231df5081ab2e9cf9
+      kontekst: data.json:scripts.npc_bshostler.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How's business?
+      pl: Jak leci interes?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: business
+    wpisy:
+    - id: wol_5d0231df5081ab2e9cf9
+      kontekst: data.json:scripts.npc_bshostler.business
+      linia: 3
+      sekcja_skryptu: business
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: How's business?
+      pl: Jak leci interes?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2077
+  skrypt: professor_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: batt
+    wpisy:
+    - id: wol_e6b1d47e503ec5bf3f99
+      kontekst: data.json:scripts.professor_talk.batt
+      linia: 8
+      sekcja_skryptu: batt
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Awesome!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2239
+  skrypt: ranch5_kelloggdesk2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: unlocklounge
+    wpisy:
+    - id: wol_e6b1d47e503ec5bf3f99
+      kontekst: data.json:scripts.ranch5_kelloggdesk2.unlocklounge
+      linia: 8
+      sekcja_skryptu: unlocklounge
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Awesome!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2284
+  skrypt: re_banditb3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: horn2
+    wpisy:
+    - id: wol_e6b1d47e503ec5bf3f99
+      kontekst: data.json:scripts.re_banditb3.horn2
+      linia: 32
+      sekcja_skryptu: horn2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Awesome!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2474
+  skrypt: roybean_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro3
+    wpisy:
+    - id: wol_f5734e944bd2bc9c107c
+      kontekst: data.json:scripts.roybean_talk.intro3
+      linia: 14
+      sekcja_skryptu: intro3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: How d'you mean?
+      pl: Co masz na myśli?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2499
+  skrypt: silverplater_platerhimself
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: barbedwire
+    wpisy:
+    - id: wol_e6b1d47e503ec5bf3f99
+      kontekst: data.json:scripts.silverplater_platerhimself.barbedwire
+      linia: 40
+      sekcja_skryptu: barbedwire
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Awesome!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2504
+  skrypt: silversmith_safe
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2a353070f1ff7c8cf2e4
+      kontekst: data.json:scripts.silversmith_safe.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Crack the safe [Safecrackin' 3]
+      pl: Włam się do sejfu [Sejfowanie 3]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Safecrackin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc03c3b16ab0fad965cf
+      kontekst: data.json:scripts.silversmith_safe.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Crack the safe [Requires Safecrackin' 3]
+      pl: Włam się do sejfu [Wymaga Sejfowania 3]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Requires Safecrackin'' 3]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2558
+  skrypt: stadia_makepants2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8df5df71dd4da05b8ee6
+      kontekst: data.json:scripts.stadia_makepants2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let's do it
+      pl: Zróbmy to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

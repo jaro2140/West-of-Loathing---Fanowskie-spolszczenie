@@ -1,0 +1,1739 @@
+schema_version: 1
+dzial:
+  numer: '13'
+  nazwa: Pozna_Gra_i_Final
+grupa_lokacji_lub_systemu: frisco
+zrodlowy_batch: 066_dialog_loc_frisco_frisco.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 19
+liczba_wpisow: 99
+sceny:
+- kolejnosc_w_danych_gry: 1506
+  skrypt: frisco_clooncybartender
+  pomieszczenie: &id001
+    id: frisco
+    nazwa_en: Frisco
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 27
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1470fb7dddb284d04038
+      kontekst: data.json:scripts.frisco_clooncybartender.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy! Welcome back!
+      pl: Witaj! Miło cię znowu widzieć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_730e0ebed87e8803bbb6
+      kontekst: data.json:scripts.frisco_clooncybartender.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Clooncy.
+      pl: Witaj, Clooncy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca6ba7680ebd341bb5f1
+      kontekst: data.json:scripts.frisco_clooncybartender.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What can I getcha?
+      pl: Co podać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_85b0d146c85a71a88792
+      kontekst: data.json:scripts.frisco_clooncybartender.hub
+      linia: 4
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What have you got?
+      pl: Co masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0617f5a9e9d667eaa788
+      kontekst: data.json:scripts.frisco_clooncybartender.hub
+      linia: 5
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's with the huge brawl going on over there?
+      pl: Co z tą wielką bójką tam?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: brawl
+    wpisy:
+    - id: wol_35a8fdac3da093bfb25c
+      kontekst: data.json:scripts.frisco_clooncybartender.brawl
+      linia: 7
+      sekcja_skryptu: brawl
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, them fellas're always blowin' off steam. I just let them go ahead and get their aggressions out. So long as they keep over there, away from what furniture I've got left.
+      pl: Och, ci faceci ciągle muszą spuszczać parę. Pozwalam im wyładować agresję, dopóki trzymają się tam, z dala od resztek moich mebli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_98855318085bd387799d
+      kontekst: data.json:scripts.frisco_clooncybartender.hub
+      linia: 9
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What can you tell me about Frisco?
+      pl: Co możesz mi powiedzieć o Frisco?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: frisco
+    wpisy:
+    - id: wol_409f2da72df03c703b47
+      kontekst: data.json:scripts.frisco_clooncybartender.frisco
+      linia: 11
+      sekcja_skryptu: frisco
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, it's a fine town! Fella named Samson Frisco founded it way back, when the mines first opened out this way and everyone caught the fever.
+      pl: Och, to zacne miasto! Założył je niejaki Samson Frisco dawno temu, kiedy otwarto tutejsze kopalnie i wszystkich ogarnęła gorączka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ccaf711623305290167a
+      kontekst: data.json:scripts.frisco_clooncybartender.frisco
+      linia: 12
+      sekcja_skryptu: frisco
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Mining fever?
+      pl: Gorączka górnicza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbab5721b29c5e9fb2c0
+      kontekst: data.json:scripts.frisco_clooncybartender.frisco
+      linia: 13
+      sekcja_skryptu: frisco
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep, the kind you get from breathing too much dirt. Frisco was a doctor, y'see.
+      pl: Tak, takie, które dostajesz z oddychania za dużo brudu. Frisco był lekarzem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd0b87d7a17d9047f11b
+      kontekst: data.json:scripts.frisco_clooncybartender.frisco
+      linia: 14
+      sekcja_skryptu: frisco
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ahh, gotcha.
+      pl: Aaa, rozumiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_6490f7a52372b31ca8f4
+      kontekst: data.json:scripts.frisco_clooncybartender.hub
+      linia: 15
+      sekcja_skryptu: hub
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Bye bye barman!
+      pl: Pa pa, barman!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anteye
+    wpisy:
+    - id: wol_148d6f5cf7b75199862a
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye
+      linia: 16
+      sekcja_skryptu: anteye
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You don't look well.
+      pl: Nie wyglądasz za dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b5c4204272384044abea
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye
+      linia: 17
+      sekcja_skryptu: anteye
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ugh, yeah, and I can't see well either.
+      pl: Uch, tak, ja też słabo widzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0552057c8b2ea43a25d7
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye
+      linia: 18
+      sekcja_skryptu: anteye
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no, did that rascal Norton do this to ya?  He was ravin' about some sort of ant-eye virus earlier.
+      pl: O nie, czy ten łajdak Norton ci to zrobił? Wcześniej bredził o jakimś wirusie anty-ocznym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f879638e687a3225bf00
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye
+      linia: 19
+      sekcja_skryptu: anteye
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Any idea how I can fix this?
+      pl: Masz pomysł, jak to naprawić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: anteye2
+    wpisy:
+    - id: wol_1cdc66980d99a3c41f92
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye2
+      linia: 21
+      sekcja_skryptu: anteye2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: D'you know that feller name a' Roy Bean? The one that collects all kindsa jellybeans? I think mebbe he's got one made of honey, and that it could help with yer predicament?
+      pl: Znasz takiego typa, Roya Beana? Tego, który zbiera wszelkie fasolki żelkowe? Chyba ma jedną z miodu, która mogłaby pomóc z twoim kłopotem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3f73dc665670330ae84b
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye2
+      linia: 22
+      sekcja_skryptu: anteye2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think I heard 'bout a feller name a' Roy Bean, collects all kindsa jellybeans. Mebbe he's got one made of honey, and it could help with yer predicament?
+      pl: Chyba słyszałem o gościu nazwiskiem Roy Bean, co to zbiera wszelakie żelki. Może ma jakąś miodową i to by pomogło na twój kłopot?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa11043cdf9e75d408c6
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye2
+      linia: 23
+      sekcja_skryptu: anteye2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That makes zero sense, but I suppose I don't have a better plan.
+      pl: To nie ma za grosz sensu, ale chyba nie mam lepszego planu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e351f201f3f789a35b18
+      kontekst: data.json:scripts.frisco_clooncybartender.anteye2
+      linia: 24
+      sekcja_skryptu: anteye2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Best get goin'!
+      pl: Lepiej ruszać!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_33620e89a6a0f2a918bb
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 25
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well I'll be, a new face! I'm Clooncy, make yourself at home!
+      pl: A niech mnie, nowa twarz! Jestem Clooncy, rozgość się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a4ea79199f6e41ae7f1
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 26
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks! I'm @firstname@ @lastname@.
+      pl: Dzięki! Jestem @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ed2a1230a31d3a0fa77c
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 27
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: New to town?
+      pl: Nowy w mieście?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ec10b64e209422c9011c
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 28
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I've been helping Manifest Destiny get the rail tracks laid. It was a tough job, but we finally got here!
+      pl: Pomagałem Manifest Destiny kłaść tory. Ciężka robota, ale w końcu dotarliśmy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c27742e2e037bb103ce
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 29
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I've been helping Manifest Destiny get the rail tracks laid. We're very, very, close, but haven't quite finished yet.
+      pl: Pomagałem Manifest Destiny kłaść tory. Jesteśmy bardzo, bardzo blisko, ale jeszcze nie całkiem skończyliśmy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3b9273ca00947a5cf12
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 30
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sounds like you could use a drink!
+      pl: Brzmi, jakby przydał ci się drink!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4c86807b7bcc561ee79c
+      kontekst: data.json:scripts.frisco_clooncybartender.intro
+      linia: 31
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Clooncy, I sure could.
+      pl: Clooncy, jak najbardziej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1507
+  skrypt: frisco_finalcutscene
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_05c24b9eb0ec8028201f
+      kontekst: data.json:scripts.frisco_finalcutscene.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like somebody on that train got a job as the projectionist.
+      pl: Wygląda na to, że ktoś z tego pociągu dostał robotę jako projekcjonista.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfd4f1b913bd54960d25
+      kontekst: data.json:scripts.frisco_finalcutscene.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Would you like to watch this movie?  It's free, because movies have only recently been invented and nobody has figured out that they can charge for them yet.
+      pl: Chcesz obejrzeć ten film? Jest darmowy, bo filmy dopiero co wynaleziono i nikt jeszcze nie wymyślił, że można za nie płacić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74a9f7d369f115eab84e
+      kontekst: data.json:scripts.frisco_finalcutscene.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'NOTE: Doing this will not change anything about the world or your character. When the cut-scene is over, you''ll still be right here and you can keep playing if you want.'
+      pl: 'UWAGA: To nic nie zmieni w świecie ani w twojej postaci. Gdy scenka się skończy, nadal będziesz tu, gdzie jesteś, i możesz grać dalej, jeśli chcesz.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a5b783c583289661244
+      kontekst: data.json:scripts.frisco_finalcutscene.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, show me the final cut-scene!
+      pl: Jasne, pokaż mi finałową scenkę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7ed0b73e3f2a08ddc8b
+      kontekst: data.json:scripts.frisco_finalcutscene.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Not just yet
+      pl: Jeszcze nie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1508
+  skrypt: frisco_flyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c8d266558357ab6af6a6
+      kontekst: data.json:scripts.frisco_flyer.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a flier of some sort.
+      pl: To jakaś ulotka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1510
+  skrypt: frisco_norton
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1ea76d11ea6b895fab0a
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Who the heck are you?
+      pl: Kim ty do cholery jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f9e5aecb833522f03ca2
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm Emperor Norton! I'm in charge of this city, and you can't build any train tracks here without my permission!
+      pl: Jestem cesarz Norton! To ja rządzę tym miastem i nie możecie tu budować żadnych torów bez mojego pozwolenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_50d2279fad2612da5d65
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: An emperor? Where's your crown, then?
+      pl: Cesarz? To gdzie twoja korona?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3cc2707fb780f7da2239
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: As it happens, I lost my dang crown. Fool thing didn't fit right anyway. But without it, I can't issue any official permits, and that means no rails for you! Unless, of course... you were to give me a <i>new</i> crown. A <i>properly-fitting</i> one.
+      pl: Tak się składa, że zgubiłem cholerną koronę. I tak źle leżała. Bez niej nie mogę jednak wydawać oficjalnych pozwoleń, czyli nici z szyn! Chyba że... dasz mi <i>nową</i> koronę. <i>Dobrze dopasowaną.</i>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba3d675fed5aec82ef1e
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've got this gold crown. [Give gold tooth crown]
+      pl: Mam tę złotą koronę. [Daj koronę ze złotego zęba]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Give gold tooth crown]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crown1
+    wpisy:
+    - id: wol_f09270deee73d5fe8684
+      kontekst: data.json:scripts.frisco_norton.crown1
+      linia: 7
+      sekcja_skryptu: crown1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well! Gold and everything! It's certainly fancy... fits all right, too! All right, fine! You've got yourself a deal. Welcome to Frisco!
+      pl: Cóż! Złoto i w ogóle! Na pewno jest wyszukany... pasuje też w porządku! Dobra, w porządku! Umowa stoi. Witamy we Frisco!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c542d8cd33ee0ef14e2e
+      kontekst: data.json:scripts.frisco_norton.crown1
+      linia: 8
+      sekcja_skryptu: crown1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Thanks!
+      pl: Świetnie! Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b20cbf7697f14609d97
+      kontekst: data.json:scripts.frisco_norton.crown1
+      linia: 9
+      sekcja_skryptu: crown1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Turn around for a second so I can use your back to sign this permit. ...Aaaaand done! The movie theater up the street has the final cutscene, whenever you're ready.
+      pl: Odwróć się na chwilę, żebym mógł podpisać zezwolenie na twoich plecach. ...Iiii gotowe! Kino na końcu ulicy ma ostatnią scenkę, gdy tylko będziesz gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_6868b1938a44f2fadd91
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've got this creepy crown. [Give necromancer crown]
+      pl: Mam tę upiorną koronę. [Daj koronę nekromanty]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Give necromancer crown]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crown2
+    wpisy:
+    - id: wol_926cd9daebedf08f3e0a
+      kontekst: data.json:scripts.frisco_norton.crown2
+      linia: 13
+      sekcja_skryptu: crown2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great googly moogly. That's a heckuva thing! Hmm... fits pretty nice, though. All right, fine! You've got yourself a deal. Welcome to Frisco!
+      pl: Wielkie nieba i szelki. Ależ to cudo! Hmm... całkiem nieźle pasuje. No dobrze! Umowa stoi. Witaj we Frisco!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c542d8cd33ee0ef14e2e
+      kontekst: data.json:scripts.frisco_norton.crown2
+      linia: 14
+      sekcja_skryptu: crown2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Thanks!
+      pl: Świetnie! Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b20cbf7697f14609d97
+      kontekst: data.json:scripts.frisco_norton.crown2
+      linia: 15
+      sekcja_skryptu: crown2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Turn around for a second so I can use your back to sign this permit. ...Aaaaand done! The movie theater up the street has the final cutscene, whenever you're ready.
+      pl: Odwróć się na chwilę, żebym mógł podpisać zezwolenie na twoich plecach. ...Iiii gotowe! Kino na końcu ulicy ma ostatnią scenkę, gdy tylko będziesz gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_950fc5796d3d45ae3796
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 17
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've got this... silver crown. [Give turnip crown]
+      pl: Mam tę... srebrną koronę. [Daj koronę z rzodkiewki]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Give turnip crown]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crown3
+    wpisy:
+    - id: wol_8cf913a3ec8a2034b1fa
+      kontekst: data.json:scripts.frisco_norton.crown3
+      linia: 19
+      sekcja_skryptu: crown3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh. Funny shape for a crown. Seems like real silver, though. Fits pretty nice, too. All right, fine! You've got yourself a deal. Welcome to Frisco!
+      pl: Hę. Dziwny kształt jak na koronę. Wygląda jednak na prawdziwe srebro. Całkiem dobrze pasuje. No dobrze! Umowa stoi. Witaj we Frisco!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c542d8cd33ee0ef14e2e
+      kontekst: data.json:scripts.frisco_norton.crown3
+      linia: 20
+      sekcja_skryptu: crown3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Thanks!
+      pl: Świetnie! Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b20cbf7697f14609d97
+      kontekst: data.json:scripts.frisco_norton.crown3
+      linia: 21
+      sekcja_skryptu: crown3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Turn around for a second so I can use your back to sign this permit. ...Aaaaand done! The movie theater up the street has the final cutscene, whenever you're ready.
+      pl: Odwróć się na chwilę, żebym mógł podpisać zezwolenie na twoich plecach. ...Iiii gotowe! Kino na końcu ulicy ma ostatnią scenkę, gdy tylko będziesz gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ce2005bccb91934da783
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 23
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I've got this weird crown. [Give El Vibrato crown]
+      pl: Mam tę dziwną koronę. [Daj koronę El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Give El Vibrato crown]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: crown4
+    wpisy:
+    - id: wol_547272d3dc9949196e09
+      kontekst: data.json:scripts.frisco_norton.crown4
+      linia: 25
+      sekcja_skryptu: crown4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What in the sam-hill is this thing? It's <i>shaped</i> like a crown, but I've never seen a crown with all glowy lights on it... and is this made of some weird kind of stone? Hmm... lighter than it looks, though. Fits real nice, too. All right, fine! You've got yourself a deal. Welcome to Frisco!
+      pl: Co to jest? Jest <i>w kształcie</i> korony, ale nigdy nie widziałem korony ze świecącymi światłami... i czy to jest zrobione z jakiegoś dziwnego kamienia? Hmm... lżejszy niż wygląda. Pasuje bardzo ładnie. Dobra, w porządku! Umowa stoi. Witamy we Frisco!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c542d8cd33ee0ef14e2e
+      kontekst: data.json:scripts.frisco_norton.crown4
+      linia: 26
+      sekcja_skryptu: crown4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great! Thanks!
+      pl: Świetnie! Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b20cbf7697f14609d97
+      kontekst: data.json:scripts.frisco_norton.crown4
+      linia: 27
+      sekcja_skryptu: crown4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Turn around for a second so I can use your back to sign this permit. ...Aaaaand done! The movie theater up the street has the final cutscene, whenever you're ready.
+      pl: Odwróć się na chwilę, żebym mógł podpisać zezwolenie na twoich plecach. ...Iiii gotowe! Kino na końcu ulicy ma ostatnią scenkę, gdy tylko będziesz gotowy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_b62507332df5c9fed0f0
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 29
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I don't have any crowns, sorry.
+      pl: Nie mam koron, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nocrown
+    wpisy:
+    - id: wol_bec59cecd55e2db1241a
+      kontekst: data.json:scripts.frisco_norton.nocrown
+      linia: 31
+      sekcja_skryptu: nocrown
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well! I guess that just tears it, don't it? So not only do you not get that permit, but also...
+      pl: Cóż! To chyba przelewa czarę, prawda? Więc nie tylko nie dostajesz tego pozwolenia, ale także...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c7cb91feb47f8a6f30e
+      kontekst: data.json:scripts.frisco_norton.nocrown
+      linia: 32
+      sekcja_skryptu: nocrown
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He reaches into his pocket and grabs a handful of powder, which he throws in your face. Your eyes burn.
+      pl: Sięga do kieszeni, chwyta garść proszku i ciska nią ci w twarz. Palą cię oczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f73b3b57ff34ee745b35
+      kontekst: data.json:scripts.frisco_norton.nocrown
+      linia: 33
+      sekcja_skryptu: nocrown
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hah! Have a taste of my famous ant-eye virus, sucker!
+      pl: Ha! Skosztuj mojego słynnego wirusa anty-ocznego, frajerze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48065e1637296127f2ba
+      kontekst: data.json:scripts.frisco_norton.nocrown
+      linia: 34
+      sekcja_skryptu: nocrown
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your vision goes all weird and you pass out...
+      pl: Twój wzrok robi się dziwny i tracisz przytomność...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97e247307d0506dcd4b0
+      kontekst: data.json:scripts.frisco_norton.nocrown
+      linia: 35
+      sekcja_skryptu: nocrown
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What was <i>that</i>!?
+      pl: Co to <i>było</i>!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trainnapping
+    wpisy:
+    - id: wol_f7bf178ddc188c21d861
+      kontekst: data.json:scripts.frisco_norton.trainnapping
+      linia: 36
+      sekcja_skryptu: trainnapping
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: When you come to, Norton is gone and so is the train!
+      pl: Gdy odzyskujesz przytomność, Nortona nie ma i pociągu też!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_070dd8f1da0723215df0
+      kontekst: data.json:scripts.frisco_norton.trainnapping
+      linia: 37
+      sekcja_skryptu: trainnapping
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Uh oh.
+      pl: O nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_8e569ca44113ba3f3261
+      kontekst: data.json:scripts.frisco_norton.start
+      linia: 38
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hmm, I don't think I want to give you a crown. Sorry.
+      pl: Hmm, chyba nie chcę dawać ci korony. Przykro mi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1511
+  skrypt: frisco_ped1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0e28e2d5d4266a936e5a
+      kontekst: data.json:scripts.frisco_ped1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%frisco_ped1%'
+      pl: '%frisco_ped1%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%frisco_ped1%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1512
+  skrypt: frisco_ped2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ce90ec5c15ff66bf939f
+      kontekst: data.json:scripts.frisco_ped2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%frisco_ped2%'
+      pl: '%frisco_ped2%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%frisco_ped2%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1513
+  skrypt: frisco_ped3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_da385a714e511a62f805
+      kontekst: data.json:scripts.frisco_ped3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%frisco_ped3%'
+      pl: '%frisco_ped3%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%frisco_ped3%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1514
+  skrypt: frisco_ped4
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_baf03d2b5957757e9387
+      kontekst: data.json:scripts.frisco_ped4.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%frisco_ped4%'
+      pl: '%frisco_ped4%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '%frisco_ped4%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1515
+  skrypt: frisco_smee
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4fd216984f3c05596842
+      kontekst: data.json:scripts.frisco_smee.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You gotta get that train back!  This is embarrassing!
+      pl: Musisz odzyskać ten pociąg! To żenujące!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_736eb84e9feac77492e0
+      kontekst: data.json:scripts.frisco_smee.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Smee points to that set of deep ruts off to the side of the railroad tracks.
+      pl: Smee wskazuje głębokie koleiny z boku torów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7880240bfc7e6f4ba04b
+      kontekst: data.json:scripts.frisco_smee.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Norton's taken the train off somewhere in the desert, you have to follow him!
+      pl: Norton zabrał pociąg gdzieś na pustynię. Musisz ruszyć za nim!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talknorton
+    wpisy:
+    - id: wol_8c670a6c8ea866e080f8
+      kontekst: data.json:scripts.frisco_smee.talknorton
+      linia: 5
+      sekcja_skryptu: talknorton
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's going on, Smee?
+      pl: Co się dzieje, Smee?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03bb4325457a5e07f024
+      kontekst: data.json:scripts.frisco_smee.talknorton
+      linia: 6
+      sekcja_skryptu: talknorton
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This fancypants calls himself the Emperor, and he won't let us build our tracks up to the station! Can you see if you can talk some sense into him?
+      pl: Ten elegancik nazywa siebie Cesarzem i nie pozwala nam doprowadzić torów do stacji! Sprawdzisz, czy da się przemówić mu do rozsądku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd973c6b51a0570ca37d
+      kontekst: data.json:scripts.frisco_smee.talknorton
+      linia: 7
+      sekcja_skryptu: talknorton
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm on it.
+      pl: Zajmę się tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stoletrain
+    wpisy:
+    - id: wol_f55960396c9547d32e38
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 8
+      sekcja_skryptu: stoletrain
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Where'd the train go!?
+      pl: Gdzie podział się pociąg!?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_101262dfd1c7bfe9f5bb
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 9
+      sekcja_skryptu: stoletrain
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: That lunatic stole it!  He drove it off somewhere into the desert!  Norton's gone off the rails!
+      pl: Ten szaleniec to ukradł! Odwiózł to gdzieś na pustynię! Norton zwariował!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea6750488141371c164d
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 10
+      sekcja_skryptu: stoletrain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He points to a set of deep ruts off to the side of the railroad tracks.
+      pl: Wskazuje na głębokie koleiny z boku torów kolejowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f1b75a028ecbfd54e36
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 11
+      sekcja_skryptu: stoletrain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You walk over to investigate, but you can't see it because of this weird hexagon thing your eyes are doing.
+      pl: Podchodzisz zbadać, ale nie widzisz tego przez dziwny heksagon, jaki robią twoje oczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_25894947a81a07fea9ec
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 12
+      sekcja_skryptu: stoletrain
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You should probably get that checked out, boss. That Norton fella said something about an "ant-eye virus"? Maybe someone around here knows something about that?
+      pl: Powinieneś to pewnie zbadać, szefie. Ten Norton wspomniał coś o „wirusie anty-ocznym”? Może ktoś tutaj wie coś na ten temat?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6e55b70f23bf230b8dc
+      kontekst: data.json:scripts.frisco_smee.stoletrain
+      linia: 13
+      sekcja_skryptu: stoletrain
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah, probably.
+      pl: Ta, pewnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stilleyes
+    wpisy:
+    - id: wol_813e08f044c6fc2f59ca
+      kontekst: data.json:scripts.frisco_smee.stilleyes
+      linia: 14
+      sekcja_skryptu: stilleyes
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You gotta get those eyes fixed, boss! Norton's getting away with our train!
+      pl: Musisz naprawić te oczy, szefie! Norton ucieka z naszym pociągiem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40f8d69e90001289aa32
+      kontekst: data.json:scripts.frisco_smee.stilleyes
+      linia: 15
+      sekcja_skryptu: stilleyes
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm working on it!
+      pl: Pracuję nad tym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finished
+    wpisy:
+    - id: wol_e7c86ff3fcbca1c988ae
+      kontekst: data.json:scripts.frisco_smee.finished
+      linia: 16
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You did it! Thanks, boss!
+      pl: Udało ci się! Dzięki, szefie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_005754d1272b8a4f1a3b
+      kontekst: data.json:scripts.frisco_smee.finished
+      linia: 18
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We got the track laid right up to the station, now! The first ever cross-territory railroad, thanks to the Manifest Destiny Railroad Company... and principally you! You did a real good job, @firstname@ @lastname@.
+      pl: Ścieżka jest ustawiona na stacji! Pierwsza w historii kolej, dzięki Manifest Destiny Railroad Company... a przede wszystkim tobie! Dobrze się spisałeś, @firstname@@lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3f290d4e59519934f26
+      kontekst: data.json:scripts.frisco_smee.finished
+      linia: 19
+      sekcja_skryptu: finished
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aw, shucks. Don't mention it.
+      pl: Ach, daj spokój. Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1516
+  skrypt: frisco_theaterdoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_bc96c7a5837975bc28e7
+      kontekst: data.json:scripts.frisco_theaterdoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Word on the street is that "Projectionist Wanted 2" is already in the works.
+      pl: Plotka głosi, że „Projectionist Wanted 2” jest już w produkcji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1517
+  skrypt: frisco_trainstation
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_de7c19d4c815ae2b4a04
+      kontekst: data.json:scripts.frisco_trainstation.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This was a one-way train, so there's no sense in going in there now.
+      pl: To był pociąg jednokierunkowy, więc nie ma sensu tam teraz wchodzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_730a7748ea190b87b8ce
+      kontekst: data.json:scripts.frisco_trainstation.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a nice station!  Too bad there's no train that runs to it yet.
+      pl: Ładna stacja! Szkoda, że jeszcze nie jeździ tu pociąg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1518
+  skrypt: frisco_traintracks
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_4c16273333ae785d63c2
+      kontekst: data.json:scripts.frisco_traintracks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't focus on the tracks well enough to follow them.  You gotta get your eyes fixed!
+      pl: Nie możesz wystarczająco skupić się na tropach, żeby je śledzić. Musisz naprawić oczy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a30642b638cb0585a90
+      kontekst: data.json:scripts.frisco_traintracks.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: These are the tell-tale signs of a train robbery.
+      pl: To charakterystyczne ślady napadu na pociąg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1519
+  skrypt: frisco_traintracks2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_2a46890ff8fe1b23c980
+      kontekst: data.json:scripts.frisco_traintracks2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You jump onto @horsename@'s back and ride like the wind, following the railroad tracks back into the desert. When you finally catch up, you stand up on @horsename@'s saddle and leap onto the back of the train like a real badass, just barely catching the edge of the roof and pulling yourself up.
+      pl: Wskakujesz na grzbiet @horsename@ i jedziesz jak wiatr, śledząc tory z powrotem na pustynię. Gdy w końcu doganiasz, stajesz na siodle @horsename@ i skaczesz na tył pociągu jak prawdziwy twardziel, ledwo łapiąc krawędź dachu i ciągnąc się w górę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@horsename@'
+      - '@horsename@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8e35cb36208034c9110
+      kontekst: data.json:scripts.frisco_traintracks2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Here's hoping you don't have to do that again, your stuntman could've been killed.
+      pl: Trudno, żebyś musiał to powtarzać — twój kaskader mógł zginąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_24dd3045a2883ea97353
+      kontekst: data.json:scripts.frisco_traintracks2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like @pardnername@ decided not to join you, on account of not having a stuntman, so you're on your own until you get back to Frisco.
+      pl: Wygląda na to, że @pardnername@ postanowił do ciebie nie dołączyć, bo nie ma kaskadera — jesteś sam, dopóki nie wrócisz do Frisco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@pardnername@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a0cc8f339298e787d60
+      kontekst: data.json:scripts.frisco_traintracks2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000100
+  skrypt: house_ghostbuster_conversation
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: house_gallery_metlawyer
+    wpisy:
+    - id: wol_a6e55b70f23bf230b8dc
+      kontekst: house.json:scripts.house_ghostbuster_conversation.house_gallery_metlawyer
+      linia: 22
+      sekcja_skryptu: house_gallery_metlawyer
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, probably.
+      pl: Ta, pewnie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1846
+  skrypt: mine4_office_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: run
+    wpisy:
+    - id: wol_5a0cc8f339298e787d60
+      kontekst: data.json:scripts.mine4_office_talk.run
+      linia: 71
+      sekcja_skryptu: run
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: anteye1b
+    wpisy:
+    - id: wol_fa11043cdf9e75d408c6
+      kontekst: data.json:scripts.pardner_talk.anteye1b
+      linia: 27
+      sekcja_skryptu: anteye1b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That makes zero sense, but I suppose I don't have a better plan.
+      pl: To nie ma za grosz sensu, ale chyba nie mam lepszego planu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: anteyefin
+    wpisy:
+    - id: wol_e351f201f3f789a35b18
+      kontekst: data.json:scripts.pardner_talk.anteyefin
+      linia: 28
+      sekcja_skryptu: anteyefin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Best get goin'!
+      pl: Lepiej ruszać!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2294
+  skrypt: re_banditf1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_5a0cc8f339298e787d60
+      kontekst: data.json:scripts.re_banditf1.hornswoggle
+      linia: 29
+      sekcja_skryptu: hornswoggle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2300
+  skrypt: re_bandith1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intim2
+    wpisy:
+    - id: wol_5a0cc8f339298e787d60
+      kontekst: data.json:scripts.re_bandith1.intim2
+      linia: 29
+      sekcja_skryptu: intim2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2301
+  skrypt: re_bandith2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: runaway
+    wpisy:
+    - id: wol_5a0cc8f339298e787d60
+      kontekst: data.json:scripts.re_bandith2.runaway
+      linia: 13
+      sekcja_skryptu: runaway
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Whew!
+      pl: Uff!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

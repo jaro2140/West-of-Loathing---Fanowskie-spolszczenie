@@ -1,0 +1,1853 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: the_manifest_destiny_railroad_company_ca
+zrodlowy_batch: 094_dialog_loc_railcamp_the_manifest_destiny_railroad_company_ca.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 9
+liczba_wpisow: 111
+sceny:
+- kolejnosc_w_danych_gry: 2156
+  skrypt: railcamp_chatterer
+  pomieszczenie: &id001
+    id: railcamp
+    nazwa_en: The Manifest Destiny Railroad Company Camp
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_50860aa937ac60b64a30
+      kontekst: data.json:scripts.railcamp_chatterer.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Generate chatter
+      pl: Generuj paplaninę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2157
+  skrypt: railcamp_dynamitejim
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 38
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_04143fc47aa411fa57b4
+      kontekst: data.json:scripts.railcamp_dynamitejim.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's the situation?
+      pl: Jaka jest sytuacja?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_763262f18dc5e7958ded
+      kontekst: data.json:scripts.railcamp_dynamitejim.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'm sure you didn't miss seeing this giant pile of rocks blocking our path. The surveyors say there isn't any other suitable mountain pass, so we can't reroute around it even if we had the months it'd take.
+      pl: Jestem pewien, że nie przegapiłeś widoku tej ogromnej sterty skał, która blokuje nam drogę. Geodeci mówią, że nie ma żadnej innej odpowiedniej przepustki, więc nie możemy jej zmienić, nawet gdybyśmy mieli tyle miesięcy, ile potrzeba.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7f3d0a359a7e25702fb4
+      kontekst: data.json:scripts.railcamp_dynamitejim.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, by my calculations, we could dynamite it clear without too much trouble. Problem is, it'll take a lot of dynamite. A whole year's worth, I figure. We used to keep that much on hand, for emergencies just such as this one, but a pack of goblins stole it all. Sneaky little varmints.
+      pl: Z moich obliczeń wynika, że możemy to zrobić bez większych problemów. Problem w tym, że potrzeba dużo dynamitu. Myślę, że cały rok. Trzymaliśmy tyle pod ręką, na wypadek takiej sytuacji, jak ta, ale paczka goblinów ukradła wszystko. Podstępne małe robaczki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b5fa07c56d31c75d041
+      kontekst: data.json:scripts.railcamp_dynamitejim.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, I'll get it back for you.
+      pl: Dobra, odzyskam to dla ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: doit
+    wpisy:
+    - id: wol_35ec6706ea9c4fb293df
+      kontekst: data.json:scripts.railcamp_dynamitejim.doit
+      linia: 7
+      sekcja_skryptu: doit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Glad to hear it. The goblins are holed up over in Gustavson Gulch. It's a real rough place -- you might want to spend some time getting the lay of the land and honing your fighting skills before you head that way. Especially if you plan to go in guns blazing.
+      pl: Cieszę się, że to słyszę. Gobliny zaszyły się w Wąwozie Gustavsona. To naprawdę paskudne miejsce — zanim tam ruszysz, może warto rozeznać się w okolicy i podszlifować umiejętności bojowe. Zwłaszcza jeśli zamierzasz wejść z hukiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ba604f4b9ca7922e5f5c
+      kontekst: data.json:scripts.railcamp_dynamitejim.doit
+      linia: 8
+      sekcja_skryptu: doit
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We don't need that specific dynamite, though. Any you can lay your hands on'd be fine, so long as there's enough of it.
+      pl: Nie potrzebujemy akurat tego dynamitu. Każdy, jaki uda ci się zdobyć, będzie w porządku, o ile wystarczy go pod dostatkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_28b0511afef81a0b5b6a
+      kontekst: data.json:scripts.railcamp_dynamitejim.doit
+      linia: 9
+      sekcja_skryptu: doit
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll look into it.
+      pl: Sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_9948500ba1999ad09de6
+      kontekst: data.json:scripts.railcamp_dynamitejim.nope
+      linia: 12
+      sekcja_skryptu: nope
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'Not interested in helping? Some foreman you turned out to be. I''ll tell you this for nothing, though: if you''re looking to get any further west, you won''t be doing it without this train. Like I said, there''s only one pass through the mountains.'
+      pl: 'Nie chcesz pomóc? Co z ciebie za brygadzista. Jedno powiem ci za darmo: jeśli chcesz ruszyć dalej na zachód, bez tego pociągu ci się nie uda. Jak mówiłem, przez góry prowadzi tylko jedna przełęcz.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51d8d30b86953a1c73b9
+      kontekst: data.json:scripts.railcamp_dynamitejim.nope
+      linia: 13
+      sekcja_skryptu: nope
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Nuts.'
+      pl: '...Cholera.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e9bd42fad9d88acd92b5
+      kontekst: data.json:scripts.railcamp_dynamitejim.nope
+      linia: 15
+      sekcja_skryptu: nope
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Fine, I'll help.
+      pl: No dobra, pomogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talktoboss
+    wpisy:
+    - id: wol_85894145c06c39269497
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss
+      linia: 16
+      sekcja_skryptu: talktoboss
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You approach the beleaguered-looking man with the tiny glasses.
+      pl: Podchodzisz do nieszczęśliwie wyglądającego mężczyzny w malutkich okularach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0031d569a77ef3d5f93
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss
+      linia: 17
+      sekcja_skryptu: talktoboss
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy there.  Who's in charge of this outfit?
+      pl: Howdy. Kto tu rządzi?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_444e6a9b843e85da4543
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss
+      linia: 18
+      sekcja_skryptu: talktoboss
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: If I'm being charitable, I'd say that the fella over there in the white hat is the foreman.
+      pl: Jeśli mam być łaskawy, powiedziałbym, że gość tam w białym kapeluszu to brygadzista.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d77d06ad04387358e3e
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss
+      linia: 19
+      sekcja_skryptu: talktoboss
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He points at the man next to the huge pile of rocks.
+      pl: Wskazuje na mężczyznę obok ogromnego stosu skał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4c6b5455694e2ff08c05
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss
+      linia: 20
+      sekcja_skryptu: talktoboss
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: And if you're not?
+      pl: A jeśli nie jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talktoboss2
+    wpisy:
+    - id: wol_cec34ade32a6ceec653d
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss2
+      linia: 22
+      sekcja_skryptu: talktoboss2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He smiles.
+      pl: Uśmiecha się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_890f9292141eb42dd153
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss2
+      linia: 23
+      sekcja_skryptu: talktoboss2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Then I'd say that paper-backed idiot over there in the absurd white hat is the fella you're looking for.
+      pl: To powiedziałbym, że tamten pozbawiony kręgosłupa idiota w absurdalnym białym kapeluszu to gość, którego szukasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8934c9a2613a27a002a
+      kontekst: data.json:scripts.railcamp_dynamitejim.talktoboss2
+      linia: 24
+      sekcja_skryptu: talktoboss2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty! Thanks!
+      pl: No dobrze! Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: smeeintro
+    wpisy:
+    - id: wol_a6f7ebedfd3d00887b3e
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 25
+      sekcja_skryptu: smeeintro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I guess I'm the boss now?
+      pl: Chyba teraz jestem szefem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f3a9337b8fea2de7b4a
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 26
+      sekcja_skryptu: smeeintro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man looks you up and down.
+      pl: Facet mierzy cię wzrokiem od stóp do głów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8aeb68bbce968b8afa1c
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 27
+      sekcja_skryptu: smeeintro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well now, I s'pose you can't be any worse than that last clown.
+      pl: No, zgaduję, że nie możesz być gorszy od tamtego ostatniego klauna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10bd0aa50e70db707f1c
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 28
+      sekcja_skryptu: smeeintro
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He extends his hand.
+      pl: Wyciąga rękę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1afc9d402935ff96407
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 29
+      sekcja_skryptu: smeeintro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Name's Smee.  I'm your assistant.
+      pl: Nazywam się Smee. Jestem twoim asystentem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04143fc47aa411fa57b4
+      kontekst: data.json:scripts.railcamp_dynamitejim.smeeintro
+      linia: 30
+      sekcja_skryptu: smeeintro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's the situation?
+      pl: Jaka jest sytuacja?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comeback
+    wpisy:
+    - id: wol_ce7b19b9c92b94ffa5d6
+      kontekst: data.json:scripts.railcamp_dynamitejim.comeback
+      linia: 31
+      sekcja_skryptu: comeback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Any luck finding a year's supply of dynamite? The passengers are getting restless.
+      pl: Udało się znaleźć roczny zapas dynamitu? Pasażerowie robią się niespokojni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: givedynamite
+    wpisy:
+    - id: wol_ad456c9ba70dae214323
+      kontekst: data.json:scripts.railcamp_dynamitejim.givedynamite
+      linia: 34
+      sekcja_skryptu: givedynamite
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good! Perfect, this'll do the trick just fine. Hang back for a bit while I get the fellas to set up the charges, and I'll let you do the honors.
+      pl: Dobrze! Doskonale, to załatwi sprawę. Zaczekaj chwilę z tyłu, aż chłopaki rozłożą ładunki, a potem oddam ci zaszczyt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb66189503555a6a32bf
+      kontekst: data.json:scripts.railcamp_dynamitejim.givedynamite
+      linia: 35
+      sekcja_skryptu: givedynamite
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Smee consults with the other workers and they inspect the rocks for a time. Eventually one of them shrugs, pushes the whole crate of dynamite up next to the rocks, and wires up a detonator.
+      pl: Smee konsultuje się z innymi robotnikami i przez chwilę oglądają skały. W końcu jeden wzrusza ramionami, podstawia całą skrzynię dynamitu przy skałach i podpina detonator.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f91be051b3529bbf0d4d
+      kontekst: data.json:scripts.railcamp_dynamitejim.givedynamite
+      linia: 36
+      sekcja_skryptu: givedynamite
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, let 'er rip!
+      pl: Dobra, odpalaj!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_994005d92acbb3daed4b
+      kontekst: data.json:scripts.railcamp_dynamitejim.givedynamite
+      linia: 38
+      sekcja_skryptu: givedynamite
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, uh... don't you have a longer detonator cable?
+      pl: Czekaj, eee... nie masz dłuższego kabla do detonatora?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: wait
+    wpisy:
+    - id: wol_3f0e915053f4a5e7dbea
+      kontekst: data.json:scripts.railcamp_dynamitejim.wait
+      linia: 42
+      sekcja_skryptu: wait
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Don't worry, you'll be fine! Just give me a three-count before you hit the plunger, so I have time to get under the train.
+      pl: Nie martw się, nic ci nie będzie! Odlicz do trzech, zanim naciśniesz detonator, żebym zdążył wejść pod pociąg.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eca340e55276c9c0e0d8
+      kontekst: data.json:scripts.railcamp_dynamitejim.wait
+      linia: 43
+      sekcja_skryptu: wait
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Great
+      pl: Świetnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comeback
+    wpisy:
+    - id: wol_05aa0565c5157773c62c
+      kontekst: data.json:scripts.railcamp_dynamitejim.comeback
+      linia: 44
+      sekcja_skryptu: comeback
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nope, not yet.
+      pl: Nie, jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: setitoff
+    wpisy:
+    - id: wol_49cfccfebacfca5bbe39
+      kontekst: data.json:scripts.railcamp_dynamitejim.setitoff
+      linia: 45
+      sekcja_skryptu: setitoff
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: C'mon, set off those fireworks! What're you waiting for, Independence Day?
+      pl: No dalej, odpal fajerwerki! Na co czekasz, na Dzień Niepodległości?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: talkaboutrockdude
+    wpisy:
+    - id: wol_c1db4d838c0920a40f2d
+      kontekst: data.json:scripts.railcamp_dynamitejim.talkaboutrockdude
+      linia: 47
+      sekcja_skryptu: talkaboutrockdude
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The surveyors didn't say anything about a crazy rock monster! Quick -- you're the protagonist, do something about it!
+      pl: Geodeci nic nie mówili o szalonym kamiennym potworze! Szybko — jesteś protagonistą, zrób coś z nim!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: beatrockdude
+    wpisy:
+    - id: wol_d6bd61492d1ecb0682bf
+      kontekst: data.json:scripts.railcamp_dynamitejim.beatrockdude
+      linia: 49
+      sekcja_skryptu: beatrockdude
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well now, that is as fine a day's work as I've ever seen! Much obliged, friend. We'll be getting the rest of this track laid down and head out now. Here, I'll mark our route on your map for you, in case our paths happen to cross again.
+      pl: Cóż, to jest tak dobry dzień pracy jak kiedykolwiek widziałem! Wielkie dzięki, przyjacielu. Resztę utworu odłożymy i ruszymy. Zaznaczę wam naszą trasę na mapie, na wypadek, gdyby nasze ścieżki znów się skrzyżowały.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0fbd97eb23c9c79c7e0f
+      kontekst: data.json:scripts.railcamp_dynamitejim.beatrockdude
+      linia: 50
+      sekcja_skryptu: beatrockdude
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thanks, but can't I just ride the train?
+      pl: Dzięki, ale nie mogę po prostu pojechać pociągiem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_549de06c5bf5bd03278f
+      kontekst: data.json:scripts.railcamp_dynamitejim.beatrockdude
+      linia: 51
+      sekcja_skryptu: beatrockdude
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Got a ticket?
+      pl: Masz bilet?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bba42bf3a83bfb5a977f
+      kontekst: data.json:scripts.railcamp_dynamitejim.beatrockdude
+      linia: 53
+      sekcja_skryptu: beatrockdude
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha! Just kidding. 'Course you don't, every seat on this train's sold out. Sorry, boss.
+      pl: Ha! Tylko żartuję. Oczywiście, że nie masz, wszystkie miejsca w pociągu są wyprzedane. Przykro mi, szefie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2158
+  skrypt: railcamp_foreman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_21b1c087128cae38d194
+      kontekst: data.json:scripts.railcamp_foreman.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi, are you in charge? I was wondering if there's anything I can do to help.
+      pl: Cześć, ty tu rządzisz? Zastanawiam się, czy mogę jakoś pomóc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b0739f9d34a61a9fe1c1
+      kontekst: data.json:scripts.railcamp_foreman.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You want to know something? I love trains.
+      pl: Chcesz coś wiedzieć? Kocham pociągi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d9c5e6ce2380e1ba286
+      kontekst: data.json:scripts.railcamp_foreman.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ever since I was little boy. Huge, magnificent, roaring iron beasts. They were magical to me, like dragons. When the opportunity arose to take on management of this rail line, I jumped on it like a shot. And you know what I learned?
+      pl: Odkąd byłem małym chłopcem. Ogromne, wspaniałe, ryczące żelazne bestie. Były dla mnie magiczne niczym smoki. Gdy nadarzyła się okazja, by przejąć zarządzanie tą linią kolejową, rzuciłem się na nią bez wahania. I wiesz, czego się nauczyłem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_b6842a3b95f0dc9f81fe
+      kontekst: data.json:scripts.railcamp_foreman.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Organizing and building and running one of these operations is the most amazing pain in the ass you will ever imagine. You want to help? Congratulations, you're the new foreman. I'm going home to play with my models.
+      pl: Organizowanie, budowanie i prowadzenie takiego przedsięwzięcia to najbardziej niewiarygodny ból tyłka, jaki możesz sobie wyobrazić. Chcesz pomóc? Gratulacje, jesteś nowym brygadzistą. Wracam do domu pobawić się modelami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2160
+  skrypt: railcamp_locomotive
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7dd13f710eac32450858
+      kontekst: data.json:scripts.railcamp_locomotive.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The old %railcamp_metal% %railcamp_animal%.  Yep.  The good old %railcamp_metal% %railcamp_animal%.
+      pl: Stary %railcamp_metal% %railcamp_animal%. Ta. Dobry stary %railcamp_metal% %railcamp_animal%.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%railcamp_metal%'
+      - '%railcamp_animal%'
+      - '%railcamp_metal%'
+      - '%railcamp_animal%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2162
+  skrypt: railcamp_plunger
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d23aa0e925516bbfd105
+      kontekst: data.json:scripts.railcamp_plunger.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's ready to detonate!
+      pl: Gotowe do detonacji!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3723fb1eefd204c20c7f
+      kontekst: data.json:scripts.railcamp_plunger.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Do it!
+      pl: Zrób to!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: do
+    wpisy:
+    - id: wol_c5ebd14a9e14d7e20a97
+      kontekst: data.json:scripts.railcamp_plunger.do
+      linia: 3
+      sekcja_skryptu: do
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Kablooie!
+      pl: Bum!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: reset
+    wpisy:
+    - id: wol_a955ca8798bd3778b250
+      kontekst: data.json:scripts.railcamp_plunger.reset
+      linia: 1
+      sekcja_skryptu: reset
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'DEBUG: Press again to reset.'
+      pl: 'DEBUG: Naciśnij ponownie, aby zresetować.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2163
+  skrypt: railcamp_rockdude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 33
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_de35de33c48c848f4b42
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There is a very large and very angry-looking... thing? Guy? Standing here. Apparently it's a little peeved at having a year's supply of dynamite blown up next to its butt while it was sleeping.
+      pl: Stoi tu coś bardzo dużego i bardzo wściekłego... rzecz? Gość? Wygląda na lekko zirytowanego, że podczas snu obok jego tyłka wysadzono roczny zapas dynamitu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18a1ff462789dba4512b
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: How are you going to handle this?
+      pl: Jak zamierzasz to ogarnąć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d12b3036d02c080793fd
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: A fair fight, that's how [Fight]
+      pl: Uczciwa walka, o to chodzi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_851449993544f8808a36
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pulverize it [$statdiff$ Muscle]
+      pl: Rozmiel to [$statdiff$ Mięśnie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$statdiff$ Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outmus
+    wpisy:
+    - id: wol_17188d68e9c1443a7db2
+      kontekst: data.json:scripts.railcamp_rockdude.outmus
+      linia: 5
+      sekcja_skryptu: outmus
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You crack your knuckles, take a deep breath, and aim your strongest haymaker at the rock monster. Your punch blows open a fracture caused by the dynamite, and cascading faultlines criss-cross the creature's surface. With a roar of anger and pain, it explodes into fine gravel.
+      pl: Strzelasz palcami, bierzesz głęboki oddech i celujesz najmocniejszym haymakerem w kamiennego potwora. Cios otwiera pęknięcie od dynamitu, a lawina szczelin przecina powierzchnię stwora. Z rykiem gniewu i bólu wybucha na drobny żwir.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1181ed5f1ff06ff1026
+      kontekst: data.json:scripts.railcamp_rockdude.outmus
+      linia: 6
+      sekcja_skryptu: outmus
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heck yeah. Welcome to the gun show.
+      pl: Do diabła, tak. Witaj na pokazie broni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_2fc8711a3206b0953d72
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pulverize it [Requires $statdiff$ Muscle]
+      pl: Roztrzaskaj [Wymaga $statdiff$ Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires $statdiff$ Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fede59e30b44724336dd
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Magic it away [$statdiff$ Mysticality]
+      pl: Zaklęj to precz [$statdiff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$statdiff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outmyst
+    wpisy:
+    - id: wol_f969dcf0e65394a3bcaa
+      kontekst: data.json:scripts.railcamp_rockdude.outmyst
+      linia: 10
+      sekcja_skryptu: outmyst
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You still your breathing and squint until you can make out the rock monster's aura. As you expected, there is a web of cracks and faults in it, where the creature's energy was disrupted by the force of the dynamite. You point your finger at the weakest part of the damage and channel a little magic into it.
+      pl: Uspokajasz oddech i mrużysz oczy, aż dostrzegasz aurę skalnego potwora. Jak się spodziewałeś, jest w niej sieć pęknięć i uszkodzeń, gdzie energia stworzenia została zakłócona siłą dynamitu. Wskazujesz palcem najsłabsze miejsce uszkodzenia i kierujesz tam odrobinę magii.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd65f9d01a8899895028
+      kontekst: data.json:scripts.railcamp_rockdude.outmyst
+      linia: 11
+      sekcja_skryptu: outmyst
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The monster's aura shatters, and the rocks drop lifelessly to the ground.
+      pl: Aura potwora pęka, a skały bezwładnie spadają na ziemię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ad3682b93f5d7f746291
+      kontekst: data.json:scripts.railcamp_rockdude.outmyst
+      linia: 12
+      sekcja_skryptu: outmyst
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You blow a little smoke from the tip of your finger and put it back in its holster.
+      pl: Dmuchasz odrobinę dymu z końcówki palca i chowasz go z powrotem do kabury.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_fdaadb89ee81a94ac1b4
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Magic it away [Requires $statdiff$ Mysticality]
+      pl: Usuń to magią [Wymaga $statdiff$ Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires $statdiff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57549b1b6fcf9fb205ef
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dance at it [$statdiff$ Moxie]
+      pl: Zatańcz przy tym [$statdiff$ Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$statdiff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outmox
+    wpisy:
+    - id: wol_1137366eb348e41b0db2
+      kontekst: data.json:scripts.railcamp_rockdude.outmox
+      linia: 15
+      sekcja_skryptu: outmox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rock monster is extremely strong, but that only matters if it can hit you -- and it is geologically slow. Dancing around the creature, you find plenty of places to stick a knife, widening fractures and fissures created by the initial dynamite blast. Eventually the entire thing just crumbles into gravel with an angry groan.
+      pl: Potwór skalny jest ekstremalnie silny, ale to ma znaczenie tylko, jeśli trafi — a jest geologicznie wolny. Tańcząc wokół stworzenia, znajdujesz miejsca na nóż, poszerzając pęknięcia po dynamicie. W końcu całość rozpada się na żwir z gniewnym jękiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9e7c439517c19bd2652
+      kontekst: data.json:scripts.railcamp_rockdude.outmox
+      linia: 16
+      sekcja_skryptu: outmox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Booyah.
+      pl: No i pięknie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_a07b1f420946bc39b610
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 17
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dance at it [Requires $statdiff$ Moxie]
+      pl: Zatańcz przed nim [Wymaga $statdiff$ Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires $statdiff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d913ec9a137abc6a6561
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 18
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Intimidate it [Intimidatin' $speechdiff$]
+      pl: Zastrasz to [Zastraszanie $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Intimidatin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_8dfafe28cb0733c229b8
+      kontekst: data.json:scripts.railcamp_rockdude.intim
+      linia: 19
+      sekcja_skryptu: intim
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh yeah? You want a piece of this? You think you can handle this, gravel-neck? Come on, bring it! I'll show you the meaning of cleavage! Er, in the geological sense! I'll smash you into pebbles and use you to line my driveway! And what's left over I'll crush into cat litter! And...
+      pl: Ach tak? Chcesz kawałek mnie? Myślisz, że sobie poradzisz, żwirowy karku? No dalej, dawaj! Pokażę ci, co znaczy łupliwość! Eee, w sensie geologicznym! Rozwalę cię na kamyczki i wyłożę tobą podjazd! A to, co zostanie, pokruszę na żwirek dla kota! I...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_887c311274eb1ed84b5e
+      kontekst: data.json:scripts.railcamp_rockdude.intim
+      linia: 20
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <b>OKAY, OKAY. I GET IT. JEEZ.</b>
+      pl: <b>DOBRA, DOBRA. ROZUMIEM. RANY.</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fee46ffb4da95db76656
+      kontekst: data.json:scripts.railcamp_rockdude.intim
+      linia: 21
+      sekcja_skryptu: intim
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The monster stomps away.
+      pl: Potwór odchodzi tupiąc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_7aa7d96ab3dbb1ca18cc
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 23
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Intimidate it [Requires Intimidatin' $speechdiff$]
+      pl: Zastrasz to [Wymaga Zastraszania $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Intimidatin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_435819b429c77eccdf7b
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 24
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Outfox it [Outfoxin' $speechdiff$]
+      pl: Przechytrz to [Przechytrzanie $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Outfoxin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: outfox
+    wpisy:
+    - id: wol_c9dcd34da31be7b024b0
+      kontekst: data.json:scripts.railcamp_rockdude.outfox
+      linia: 25
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, listen, sorry about the whole dynamite thing, we didn't know you're... alive? -Ish? Anyway, it's just as well that we woke you up, because you picked a really bad place to nap.
+      pl: Hej, słuchaj, przepraszamy za ten dynamit. Nie wiedzieliśmy, że jesteś... żywy? W pewnym sensie? Tak czy inaczej, dobrze, że cię obudziliśmy, bo wybrałeś naprawdę fatalne miejsce na drzemkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_25ae28da716ed8dac38b
+      kontekst: data.json:scripts.railcamp_rockdude.outfox
+      linia: 26
+      sekcja_skryptu: outfox
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: <b>...?</b>
+      pl: <b>...?</b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29bbe1c9567552f700d5
+      kontekst: data.json:scripts.railcamp_rockdude.outfox
+      linia: 27
+      sekcja_skryptu: outfox
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: This is a pass through the mountains, and it's a natural wind funnel. And that plus desert sands means this place would be an erosion nightmare for you. You'd be worn down to nothing in just a few hundred years. You need to find somewhere on the leeward side of a mountain, where you'll be protected from the wind.
+      pl: To przełęcz w górach i naturalny tunel dla wiatru. W połączeniu z pustynnym piaskiem oznacza to dla ciebie koszmarną erozję. W ciągu zaledwie kilkuset lat zetrzesz się do zera. Musisz znaleźć miejsce po zawietrznej stronie góry, gdzie ochroni cię przed wiatrem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a052a9352fe67185cb2b
+      kontekst: data.json:scripts.railcamp_rockdude.outfox
+      linia: 28
+      sekcja_skryptu: outfox
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The creature seems to understand. It nods its thanks and trudges away.
+      pl: Stworzenie chyba rozumie. Kiwa głową z wdzięcznością i ciężko odchodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_c459b1f2832ec336da85
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 29
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Outfox it [Requires Outfoxin' $speechdiff$]
+      pl: Przechytrz to [Wymaga Przechytrzania $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Outfoxin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c03b02fae7c1eba78945
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 30
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hornswoggle it [Hornswogglin' $speechdiff$]
+      pl: Oszukaj to [Oszukiwanie $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Hornswogglin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_e401f65e623d7281e4c5
+      kontekst: data.json:scripts.railcamp_rockdude.hornswoggle
+      linia: 31
+      sekcja_skryptu: hornswoggle
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You gotta get outta here! There's a huge flood coming down the mountain pass, you'll be worn down into smooth round pebbles! Don't worry about us, just save yourself!
+      pl: Musisz stąd uciekać! Jest ogromna powódź, która spływa przez przełęcz górską, a wy zostaniecie zniszczeni w gładkie, okrągłe kamyki! Nie martw się o nas, ratuj się!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3e7f0850050ed3d15cb3
+      kontekst: data.json:scripts.railcamp_rockdude.hornswoggle
+      linia: 32
+      sekcja_skryptu: hornswoggle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The rock monster stomps away in a panic.
+      pl: Potwór skalny ucieka w panice.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_08521d2ff956dadeb15d
+      kontekst: data.json:scripts.railcamp_rockdude.start
+      linia: 33
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Hornswoggle it [Requires Hornswogglin' $speechdiff$]
+      pl: Oszukaj to [Wymaga Oszukiwania $speechdiff$]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Hornswogglin'' $speechdiff$]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_5482e554ac1e1bb8e7a7
+      kontekst: data.json:scripts.railcamp_rockdude.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You showed that rock who the boss of rocks is.
+      pl: Pokazałeś tej skale, kto tu rządzi skałami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_e22708fa7fb565efaa80
+      kontekst: data.json:scripts.railcamp_rockdude.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really got rocked, there.
+      pl: Naprawdę cię tam wstrząsnęło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2164
+  skrypt: railcamp_rockremains
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ce1a327c2ffffdc80bb5
+      kontekst: data.json:scripts.railcamp_rockremains.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The remains of your triumph over that crazy rock pile / guy.
+      pl: Szczątki twojego triumfu nad tym szalonym stosem skał / facetem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bdfd5cbc067879aec695
+      kontekst: data.json:scripts.railcamp_rockremains.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab a rock for Dr. Morton
+      pl: Weź kamień dla doktora Mortona
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_0cd6dd8c72b717efdf58
+      kontekst: data.json:scripts.railcamp_rockremains.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab a rock, which you hope is sufficiently interesting.
+      pl: Chwytasz kamień, który — masz nadzieję — jest wystarczająco interesujący.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2166
+  skrypt: railcamp_worker2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1ae527ef0d2d35108ea5
+      kontekst: data.json:scripts.railcamp_worker2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's too busy playing with his watch to get any work done.
+      pl: Jest zbyt zajęty zabawą z zegarkiem, żeby cokolwiek robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_74915c5f02552da52f73
+      kontekst: data.json:scripts.railcamp_worker2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask him where he got it
+      pl: Zapytaj, skąd to ma
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2167
+  skrypt: railcamp_worker2convo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 25
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5132eec4b564349a2c5d
+      kontekst: data.json:scripts.railcamp_worker2convo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Say, that's a nice watch.  Where'd you get it?
+      pl: Hej, ładny zegarek. Skąd go masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e1424f1415ec8da7a688
+      kontekst: data.json:scripts.railcamp_worker2convo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I bought it from this gal what runs a store down south of here, name o' Buttonwillow.  Buttonwillow Mc...  McSomething.
+      pl: Kupiłem to od dziewczyny, co prowadzi sklep na południe stąd, na imię Buttonwillow. Buttonwillow Mc... McCoś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff3a25236f391684098a
+      kontekst: data.json:scripts.railcamp_worker2convo.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh yeah, I know that store.
+      pl: A tak, znam ten sklep.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_661b3d0e70595fc1efe7
+      kontekst: data.json:scripts.railcamp_worker2convo.already
+      linia: 5
+      sekcja_skryptu: already
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep.  Real nice store.  Real nice watch.
+      pl: Ta. Naprawdę fajny sklep. Naprawdę fajny zegarek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb2136f3fa6169df6693
+      kontekst: data.json:scripts.railcamp_worker2convo.already
+      linia: 6
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He goes back to fiddling with his watch.
+      pl: Wraca do majstrowania przy zegarku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_3c37fa005e0d3b27a228
+      kontekst: data.json:scripts.railcamp_worker2convo.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where's this store, exactly?
+      pl: Gdzie dokładnie jest ten sklep?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: learn
+    wpisy:
+    - id: wol_94984745a22c95512024
+      kontekst: data.json:scripts.railcamp_worker2convo.learn
+      linia: 10
+      sekcja_skryptu: learn
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, you can't miss it.  It's right in between a cactus and a different cactus.
+      pl: O, nie możesz tego przegapić. Jest dokładnie między kaktusem a innym kaktusem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0dbf04793b03be5fcec6
+      kontekst: data.json:scripts.railcamp_worker2convo.learn
+      linia: 11
+      sekcja_skryptu: learn
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He points to a spot on your map.
+      pl: Wskazuje miejsce na twojej mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thanks
+    wpisy:
+    - id: wol_1b15ef629ada9d21dc85
+      kontekst: data.json:scripts.railcamp_worker2convo.thanks
+      linia: 15
+      sekcja_skryptu: thanks
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it
+      pl: Nie ma za co
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_352aa4d39763fd6acd92
+      kontekst: data.json:scripts.railcamp_worker2convo.thanks
+      linia: 16
+      sekcja_skryptu: thanks
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mention it
+      pl: Wspomnij o tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mention
+    wpisy:
+    - id: wol_d04686498599d4d35839
+      kontekst: data.json:scripts.railcamp_worker2convo.mention
+      linia: 17
+      sekcja_skryptu: mention
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No, really, thanks a lot.
+      pl: Nie, naprawdę, wielkie dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b777311de0921fb5efea
+      kontekst: data.json:scripts.railcamp_worker2convo.mention
+      linia: 18
+      sekcja_skryptu: mention
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man furrows his brow.
+      pl: Facet marszczy brwi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_973bd2dfeedacf8fcf81
+      kontekst: data.json:scripts.railcamp_worker2convo.mention
+      linia: 19
+      sekcja_skryptu: mention
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure, sure.  Don't mention it.
+      pl: Jasne, jasne. Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1b15ef629ada9d21dc85
+      kontekst: data.json:scripts.railcamp_worker2convo.mention
+      linia: 20
+      sekcja_skryptu: mention
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it
+      pl: Nie ma za co
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_352aa4d39763fd6acd92
+      kontekst: data.json:scripts.railcamp_worker2convo.mention
+      linia: 21
+      sekcja_skryptu: mention
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mention it
+      pl: Wspomnij o tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mention2
+    wpisy:
+    - id: wol_a86aa96d3c2a357dd621
+      kontekst: data.json:scripts.railcamp_worker2convo.mention2
+      linia: 22
+      sekcja_skryptu: mention2
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I mean it.  I really appreciate you telling me where that store is.
+      pl: Mówię serio. Naprawdę doceniam, że powiedziałeś mi, gdzie jest ten sklep.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a426f47ae6942ede226f
+      kontekst: data.json:scripts.railcamp_worker2convo.mention2
+      linia: 23
+      sekcja_skryptu: mention2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: His eyes narrow.
+      pl: Jego oczy się zawężają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_85888ea836862d7e1952
+      kontekst: data.json:scripts.railcamp_worker2convo.mention2
+      linia: 24
+      sekcja_skryptu: mention2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Really.  It's no trouble at all.  Don't mention it.  I mean it.
+      pl: Naprawdę. Żaden kłopot. Nie ma za co. Mówię poważnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1b15ef629ada9d21dc85
+      kontekst: data.json:scripts.railcamp_worker2convo.mention2
+      linia: 25
+      sekcja_skryptu: mention2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Don't mention it
+      pl: Nie ma za co
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_352aa4d39763fd6acd92
+      kontekst: data.json:scripts.railcamp_worker2convo.mention2
+      linia: 26
+      sekcja_skryptu: mention2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Mention it
+      pl: Wspomnij o tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: mention3
+    wpisy:
+    - id: wol_ab8dfb54c74ef0d6924a
+      kontekst: data.json:scripts.railcamp_worker2convo.mention3
+      linia: 27
+      sekcja_skryptu: mention3
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: I've run out of ways to thank you, but I really do want you to know that I'm very grateful for your help.
+      pl: Wyczerpały mi się sposoby, żeby ci podziękować, ale naprawdę chcę, żebyś wiedział, że bardzo doceniam twoją pomoc.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c48acc00f70ed3b0da46
+      kontekst: data.json:scripts.railcamp_worker2convo.mention3
+      linia: 28
+      sekcja_skryptu: mention3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: His face starts to turn red.
+      pl: Jego twarz zaczyna czerwienieć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8442cba88645cfbe3dfc
+      kontekst: data.json:scripts.railcamp_worker2convo.mention3
+      linia: 29
+      sekcja_skryptu: mention3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Do.  Not.  Mention.  It.
+      pl: Nie. Wspominaj. O. Tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5312410fec2c94497104
+      kontekst: data.json:scripts.railcamp_worker2convo.mention3
+      linia: 30
+      sekcja_skryptu: mention3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks about ready to punch you if you don't knock it off.
+      pl: Wygląda, jakby miał cię walnąć, jeśli nie przestaniesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b3f730ab407086fd178e
+      kontekst: data.json:scripts.railcamp_worker2convo.mention3
+      linia: 31
+      sekcja_skryptu: mention3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, okay.  Don't mention it.
+      pl: Okej, okej. Nie ma za co.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

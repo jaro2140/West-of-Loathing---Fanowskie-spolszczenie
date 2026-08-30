@@ -1,0 +1,1086 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: jewelers_cabin
+zrodlowy_batch: 075_dialog_loc_jewelrystore_jewelers_cabin.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 6
+liczba_wpisow: 63
+sceny:
+- kolejnosc_w_danych_gry: 1757
+  skrypt: jewelrystore_shop
+  pomieszczenie: &id001
+    id: jewelrystore
+    nazwa_en: Jeweler's Cabin
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 55
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_296c7577f279489380d0
+      kontekst: data.json:scripts.jewelrystore_shop.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: This one again?
+      pl: Znowu ten?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a69793ad5c53e1b3c373
+      kontekst: data.json:scripts.jewelrystore_shop.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Welcome back! Have you brought any gemstone that you would like Master Gerald to craft into rings for you?
+      pl: Witamy z powrotem! Przywiozłeś jakiś kamień szlachetny, z którego chciałbyś, żeby pan Gerald zrobił dla ciebie pierścień?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_708fcd0f305189f2a7d5
+      kontekst: data.json:scripts.jewelrystore_shop.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Have a look.
+      pl: Zobacz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optstemp
+    wpisy:
+    - id: wol_97b51b6a0ba8a2c5c71d
+      kontekst: data.json:scripts.jewelrystore_shop.optstemp
+      linia: 6
+      sekcja_skryptu: optstemp
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes a look at the rocks you have with you.
+      pl: Mistrz Gerald przygląda się kamieniom, które masz przy sobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_2ccb8b5a8cfe21958685
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 7
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your effluvious emerald [$cost$ Meat]
+      pl: twój wonny szmaragd [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: stinkgem
+    wpisy:
+    - id: wol_d1e2ee8d83a3d56d36cb
+      kontekst: data.json:scripts.jewelrystore_shop.stinkgem
+      linia: 8
+      sekcja_skryptu: stinkgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your effluvious emerald, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój wonny szmaragd, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_2ccb8b5a8cfe21958685
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 9
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your effluvious emerald [$cost$ Meat]
+      pl: twój wonny szmaragd [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_884394500e7f8bf32943
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 10
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your cowseye [$cost$ Meat]
+      pl: twoje krowie oko [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: cowgem
+    wpisy:
+    - id: wol_8dbe1664e0c4f85f0e58
+      kontekst: data.json:scripts.jewelrystore_shop.cowgem
+      linia: 11
+      sekcja_skryptu: cowgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your cowseye, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twoje krowie oko, szlifuje je, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_884394500e7f8bf32943
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your cowseye [$cost$ Meat]
+      pl: twoje krowie oko [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35830054a35f621dbc61
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 13
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your cool sapphire [$cost$ Meat]
+      pl: twój chłodny szafir [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: sapphiregem
+    wpisy:
+    - id: wol_2aa7f0e309578eed108e
+      kontekst: data.json:scripts.jewelrystore_shop.sapphiregem
+      linia: 14
+      sekcja_skryptu: sapphiregem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your cool sapphire, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój chłodny szafir, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_35830054a35f621dbc61
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 15
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your cool sapphire [$cost$ Meat]
+      pl: twój chłodny szafir [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c099a48a7038645e7b71
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 16
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your unbreakable ruby [$cost$ Meat]
+      pl: twój niezniszczalny rubin [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tontinegem
+    wpisy:
+    - id: wol_413b37f013f1c935212e
+      kontekst: data.json:scripts.jewelrystore_shop.tontinegem
+      linia: 17
+      sekcja_skryptu: tontinegem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your unbreakable ruby, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój niezniszczalny rubin, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_c099a48a7038645e7b71
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 18
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your unbreakable ruby [$cost$ Meat]
+      pl: twój niezniszczalny rubin [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_66712ec15490ab3ab8bc
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 19
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your superdense coal [$cost$ Meat]
+      pl: twój supergęsty węgiel [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: coalgem
+    wpisy:
+    - id: wol_5caa61b2410ec718ff84
+      kontekst: data.json:scripts.jewelrystore_shop.coalgem
+      linia: 20
+      sekcja_skryptu: coalgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your superdense coal, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój supergęsty węgiel, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_66712ec15490ab3ab8bc
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 21
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your superdense coal [$cost$ Meat]
+      pl: twój supergęsty węgiel [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8b62e85c171b0dab4418
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 22
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your strange silvery crystal [$cost$ Meat]
+      pl: twój dziwny srebrzysty kryształ [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: silicongem
+    wpisy:
+    - id: wol_381cd85e339671f51dc1
+      kontekst: data.json:scripts.jewelrystore_shop.silicongem
+      linia: 23
+      sekcja_skryptu: silicongem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your strange silvery crystal, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój dziwny srebrzysty kryształ, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_8b62e85c171b0dab4418
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 24
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your strange silvery crystal [$cost$ Meat]
+      pl: twój dziwny srebrzysty kryształ [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b79192efbb41fb70751f
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 25
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your massive diamond [$cost$ Meat]
+      pl: twój masywny diament [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: diamondgem
+    wpisy:
+    - id: wol_32e770b94d6a34a91f3b
+      kontekst: data.json:scripts.jewelrystore_shop.diamondgem
+      linia: 26
+      sekcja_skryptu: diamondgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your massive diamond, cuts and polishes it, and sets it in a fine ring for you.
+      pl: Mistrz Gerald bierze twój ogromny diament, szlifuje go, poleruje i osadza w pięknym pierścionku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_b79192efbb41fb70751f
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 27
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your massive diamond [$cost$ Meat]
+      pl: twój masywny diament [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e38e832ed85e2ae0afaf
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 28
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: your polished thaumomorphic diorite [$cost$ Meat]
+      pl: twój wypolerowany taumomorficzny dioryt [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hexgem
+    wpisy:
+    - id: wol_6872d525802e3100c0ee
+      kontekst: data.json:scripts.jewelrystore_shop.hexgem
+      linia: 29
+      sekcja_skryptu: hexgem
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Master Gerald takes your polished thaumomorphic diorite and sets it in a fine ring for you.  He doesn't have to polish or cut it, because aeons of ley energy already did the job for him!  Maybe you should have given your $cost$ Meat to aeons of ley energy, not Gerald.
+      pl: Mistrz Gerald bierze twój wypolerowany taumomorficzny dioryt i osadza go w pięknym pierścionku. Nie musi go szlifować ani ciąć, bo eony energii ley zrobiły to za niego! Może powinieneś był dać swoje $cost$ Mięsa eonom energii ley, a nie Geraldowi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $cost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_e38e832ed85e2ae0afaf
+      kontekst: data.json:scripts.jewelrystore_shop.opts
+      linia: 30
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: your polished thaumomorphic diorite [$cost$ Meat]
+      pl: twój wypolerowany taumomorficzny dioryt [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: trash
+    wpisy:
+    - id: wol_9cee81ee2cf028188cb5
+      kontekst: data.json:scripts.jewelrystore_shop.trash
+      linia: 33
+      sekcja_skryptu: trash
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Bah! All of trash and garbage being!
+      pl: Ba! Same śmieci i odpadki być!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_812d958dbd47d6bb6fe7
+      kontekst: data.json:scripts.jewelrystore_shop.trash
+      linia: 34
+      sekcja_skryptu: trash
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Master Gerald apologizes, but there's nothing here he can work with.
+      pl: Mistrz Gerald przeprasza, ale nie ma tu niczego, z czym mógłby pracować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a386a2ea1881262cadff
+      kontekst: data.json:scripts.jewelrystore_shop.trash
+      linia: 35
+      sekcja_skryptu: trash
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh well, thanks anyway.
+      pl: No cóż, i tak dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_0425d1595360e27def00
+      kontekst: data.json:scripts.jewelrystore_shop.start
+      linia: 36
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er, no, never mind.
+      pl: Er, nie, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_05151f4c00619af19642
+      kontekst: data.json:scripts.jewelrystore_shop.intro
+      linia: 38
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Hello a customer!
+      pl: Och! Witaj, kliencie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ca72e9a24af7abc8f23
+      kontekst: data.json:scripts.jewelrystore_shop.intro
+      linia: 39
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Why, hello! Welcome to Master Gerald's jewelry shop!
+      pl: Cześć! Witamy w jubilerskim sklepie pana Geralda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b6b628fe49f21b881a4e
+      kontekst: data.json:scripts.jewelrystore_shop.intro
+      linia: 40
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy. Are you Master Gerald?
+      pl: Witaj. Czy pan jest mistrzem Geraldem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cff31416dcf91b8cdaff
+      kontekst: data.json:scripts.jewelrystore_shop.intro
+      linia: 41
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no, Master Gerald is back there at his workbench. I'm just his assistant and translator.
+      pl: O nie, mistrz Gerald jest z tyłu przy swoim warsztacie. Ja mu tylko pomagam i tłumaczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d613e4ab939186efbc31
+      kontekst: data.json:scripts.jewelrystore_shop.intro
+      linia: 42
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: A goblin jewelsmith?
+      pl: Gobliński jubiler?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_a5cdf4b1ce7cfbb0ae1b
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 45
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You betting your britches, @sonny@! And not forgetting it!
+      pl: Stawiasz swoje spodnie, @sonny@! I nie zapomnij o tym!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@sonny@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d971db2b336a01463949
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 46
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He says that's right, the finest jeweler in the territory!
+      pl: Mówi, że zgadza się — najlepszy jubiler na całym terytorium!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c450b0a216a9f0d51fe1
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 47
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, what do you know. I don't see anything on display, though?
+      pl: Cóż, co ty wiesz. Ale nie widzę nic na wystawie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee9db678f715459407f0
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 48
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Master Gerald only does bespoke work. If you bring in a sufficiently valuable gemstone, he'll craft it into a fine ring for you, for a fee.
+      pl: Mistrz Gerald wykonuje wyłącznie pracę na zamówienie. Jeśli przyniesiesz dostatecznie cenny kamień szlachetny, za opłatą zrobi z niego piękny pierścień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_682d1514f18f3b57b9d4
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 50
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No trash rocks!
+      pl: Żadnych śmieciowych kamieni!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eeef160fef20634685b4
+      kontekst: data.json:scripts.jewelrystore_shop.intro2
+      linia: 51
+      sekcja_skryptu: intro2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, here's what I've got...
+      pl: No, oto co mam...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glasses
+    wpisy:
+    - id: wol_0bf98c6ac2f996e27643
+      kontekst: data.json:scripts.jewelrystore_shop.glasses
+      linia: 52
+      sekcja_skryptu: glasses
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I need a pair of eyeglasses...
+      pl: Potrzebuję pary okularów...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glasses2
+    wpisy:
+    - id: wol_d2ea7145aee60b15804e
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 53
+      sekcja_skryptu: glasses2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I need a pair of eyeglasses for a nearly blind watchtower lookout. Can you guys make them for me?
+      pl: Potrzebuję okularów dla prawie ślepego obserwatora z wieży strażniczej. Zrobicie mi takie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8bb9fe6f9a23398f592
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 54
+      sekcja_skryptu: glasses2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The clerk translates the question for Master Gerald, who thinks about it and then nods.
+      pl: Urzędniczka tłumaczy pytanie Mistrzowi Geraldowi, który się zastanawia i kiwa głową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3dcade6441bb51f8bbd
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 56
+      sekcja_skryptu: glasses2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Having some old soda bottles for grinding down, should working fine.
+      pl: Mieć trochę starych butelek po napojach do zmielenia, powinny działać dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04c496750327b16b1ec5
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 57
+      sekcja_skryptu: glasses2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He says yes, we have some glass of the finest optical quality. Is $cost$ meat acceptable?
+      pl: Mówi, że tak, mamy szkło najwyższej jakości optycznej. Czy $cost$ Mięsa to akceptowalna cena?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $cost$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08e01528efe808dab5f2
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 58
+      sekcja_skryptu: glasses2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure. [$cost$ Meat]
+      pl: Jasne. [$cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buyglasses
+    wpisy:
+    - id: wol_1c0a548dead70f2b5e65
+      kontekst: data.json:scripts.jewelrystore_shop.buyglasses
+      linia: 60
+      sekcja_skryptu: buyglasses
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The clerk invites you to have a seat in their living area while Master Gerald gets to work cutting and grinding some glass into lenses and setting them in wire frames. You flip through an indecipherable goblin magazine while you wait.
+      pl: Urzędniczka zaprasza cię do siedzenia w ich salonie, podczas gdy Mistrz Gerald tnie i szlifuje szkło na soczewki i osadza je w drucianych oprawkach. Czekając, przeglądasz nieczytelny goblini magazyn.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f1fdc0f9e2cc759959c
+      kontekst: data.json:scripts.jewelrystore_shop.buyglasses
+      linia: 61
+      sekcja_skryptu: buyglasses
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The clerk invites you to have a seat in their living area while Master Gerald gets to work cutting and grinding some glass into lenses and setting them into wire frames. You flip through a goblin magazine while you wait; the lead article seems to be about social interaction with humans, and the value of occasionally pretending to be dumber than you actually are.
+      pl: Urzędniczka zaprasza cię do siedzenia w ich salonie, podczas gdy Mistrz Gerald tnie i szlifuje szkło na soczewki i osadza je w drucianych oprawkach. Czekając, przeglądasz goblini magazyn; główny artykuł chyba o interakcji społecznej z ludźmi i o tym, że czasem warto udawać głupszego niż się jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0eafa197dbbdab0c84e4
+      kontekst: data.json:scripts.jewelrystore_shop.buyglasses
+      linia: 63
+      sekcja_skryptu: buyglasses
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay, close enough for government working.
+      pl: Dobra, jak na robotę rządową wystarczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fee9dc3ff956a858764c
+      kontekst: data.json:scripts.jewelrystore_shop.buyglasses
+      linia: 64
+      sekcja_skryptu: buyglasses
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Master Gerald has completed your spectacles with the utmost degree of craftsmanship. Here you are!
+      pl: Mistrz Gerald wykonał twoje okulary z najwyższym kunsztem. Proszę bardzo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glasses2
+    wpisy:
+    - id: wol_cc6aecd0d8ac2bff590b
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 66
+      sekcja_skryptu: glasses2
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Sure. [Requires $cost$ Meat]
+      pl: Jasne. [Wymaga $cost$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires $cost$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_88700bce9abfdde863c4
+      kontekst: data.json:scripts.jewelrystore_shop.glasses2
+      linia: 67
+      sekcja_skryptu: glasses2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Mmm, maybe later.
+      pl: Mmm, może później.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1759
+  skrypt: jewelrystore_tablepop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3a163fe5d679a8cf408a
+      kontekst: data.json:scripts.jewelrystore_tablepop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This appears to be their dining-table, but they've left out a stack of magazine for customers to look at while they're waiting. They're all in Goblin, though.
+      pl: To ich stół jadalny, ale zostawili stos magazynów dla klientów. Wszystkie po goblinie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_24d891cfe22c6c076505
+      kontekst: data.json:scripts.jewelrystore_tablepop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Most of them are Goblin celebrity gossip, and the crossword puzzles have already been filled in.
+      pl: Większość to goblinie plotki o celebrytach, a krzyżówki są już wypełnione.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1760
+  skrypt: jewelrystore_toilet
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e819a3e16b08e7723e04
+      kontekst: data.json:scripts.jewelrystore_toilet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This must be the assistant's toilet.  It doesn't have enough rusty scrap metal bolted onto it to be a goblin toilet.
+      pl: To musi być toaleta asystenta. Nie ma wystarczająco dużo zardzewiałego złomu przykręconego, by była goblini.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1761
+  skrypt: jewelrystore_vanity
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_008970f0d627820f72f6
+      kontekst: data.json:scripts.jewelrystore_vanity.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your eyebrows are getting kind of wild.
+      pl: Twoje brwi robią się trochę dzikie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fde71a11912bddeea87c
+      kontekst: data.json:scripts.jewelrystore_vanity.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pluck 'em
+      pl: Wyrywaj je
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_d118fd94c733878ea0ea
+      kontekst: data.json:scripts.jewelrystore_vanity.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That's better.
+      pl: Lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1882
+  skrypt: mine6_cultistguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_d118fd94c733878ea0ea
+      kontekst: data.json:scripts.mine6_cultistguard.intim
+      linia: 8
+      sekcja_skryptu: intim
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's better.
+      pl: Lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: pete_fort2_interior
+    wpisy:
+    - id: wol_d118fd94c733878ea0ea
+      kontekst: data.json:scripts.pardner_talk.pete_fort2_interior
+      linia: 4
+      sekcja_skryptu: pete_fort2_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's better.
+      pl: Lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []

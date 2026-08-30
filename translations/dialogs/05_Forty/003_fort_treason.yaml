@@ -1,0 +1,443 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: fort_treason
+zrodlowy_batch: 061_dialog_loc_fort3_fort_treason.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 5
+liczba_wpisow: 24
+sceny:
+- kolejnosc_w_danych_gry: 1439
+  skrypt: fort3_cannon
+  pomieszczenie: &id001
+    id: fort3
+    nazwa_en: Fort Treason
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8f0d4374311f5931209b
+      kontekst: data.json:scripts.fort3_cannon.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a demi-culverin cannon.
+      pl: To działo demi-culverin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a479a48e86891bc44ec
+      kontekst: data.json:scripts.fort3_cannon.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look closely
+      pl: Przyjrzyj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1440
+  skrypt: fort3_cannon2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_19f1e081743e3a166df6
+      kontekst: data.json:scripts.fort3_cannon2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look at the cannon.  It's a fine cannon.  Demi-culverin in size.
+      pl: Patrzysz na działo. To finezyjne działo. Rozmiaru demi-culverin.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0584f898869f1fbafdbd
+      kontekst: data.json:scripts.fort3_cannon2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert your cannonball
+      pl: Włóż swoją kulę armatnią
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step2
+    wpisy:
+    - id: wol_28a2b6e5529e602b5010
+      kontekst: data.json:scripts.fort3_cannon2.step2
+      linia: 3
+      sekcja_skryptu: step2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You peer through the rangefinder at the distant smoke of your targeting flare.
+      pl: Patrzysz przez dalmierz na dym odległej flary celowniczej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b29223f7190b0f4985ae
+      kontekst: data.json:scripts.fort3_cannon2.step2
+      linia: 4
+      sekcja_skryptu: step2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You consult the ballistics chart and turn the little knobs and cranks and stuff to the appropriate places.
+      pl: Konsultujesz tabelę balistyczną i ustawiasz pokrętła i korby we właściwych miejscach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14dd45c488ccde32386b
+      kontekst: data.json:scripts.fort3_cannon2.step2
+      linia: 5
+      sekcja_skryptu: step2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You root around in your pack and find a match.
+      pl: Grzebiesz w plecaku i znajdujesz zapałkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a4094af9a4461054012
+      kontekst: data.json:scripts.fort3_cannon2.step2
+      linia: 6
+      sekcja_skryptu: step2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Light it up
+      pl: Podpal to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: light
+    wpisy:
+    - id: wol_cb8ef11bff5e365aaa71
+      kontekst: data.json:scripts.fort3_cannon2.light
+      linia: 7
+      sekcja_skryptu: light
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <i>BOOM!</i> If that didn't open that vault door, then those grapes are probably sour anyway.
+      pl: <i>BUM!</i> Jeśli to nie otworzyło drzwi skarbca, te winogrona i tak pewnie były kwaśne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step2
+    wpisy:
+    - id: wol_f08a89159f174fa41059
+      kontekst: data.json:scripts.fort3_cannon2.step2
+      linia: 9
+      sekcja_skryptu: step2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: On second thought
+      pl: Z drugiej strony
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: noflare
+    wpisy:
+    - id: wol_6f0cc58ae2dc3dd4cb14
+      kontekst: data.json:scripts.fort3_cannon2.noflare
+      linia: 10
+      sekcja_skryptu: noflare
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You look through the rangefinder on the cannon, but you can't see any indication of anything you want to shoot at.  You decide not to waste the ball.
+      pl: Patrzysz przez dalmierz na dziale, ale nie widzisz nic, w co chciałbyś strzelić. Postanawiasz nie marnować kuli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a22519bc71ef32950a3b
+      kontekst: data.json:scripts.fort3_cannon2.noflare
+      linia: 11
+      sekcja_skryptu: noflare
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Seems rational
+      pl: Brzmi rozsądnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nochart
+    wpisy:
+    - id: wol_842f91fced2edd711d65
+      kontekst: data.json:scripts.fort3_cannon2.nochart
+      linia: 12
+      sekcja_skryptu: nochart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you have no idea how to actually <i>aim</i> the cannon at the flare.
+      pl: Niestety nie masz pojęcia, jak <i>celować</i> armatą w flarę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nomatch
+    wpisy:
+    - id: wol_6ae39a67046d0c9ef697
+      kontekst: data.json:scripts.fort3_cannon2.nomatch
+      linia: 14
+      sekcja_skryptu: nomatch
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you've got no match to light the fuse with.  Hey, that reminds me of a joke.  I've got a match -- your face and the face of a person who is sad because they don't have a way of lighting a cannon fuse!
+      pl: Niestety nie masz zapałki do lontu. Hej, przypomniał mi się żart. Mam zapałkę — twoja twarz i twarz smutnej osoby bez sposobu na zapalenie lontu armatniego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc2eff9dd4f0ccc0d090
+      kontekst: data.json:scripts.fort3_cannon2.nomatch
+      linia: 15
+      sekcja_skryptu: nomatch
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Hysterical
+      pl: Histeryczny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_3e023e47f8fac01ec2b7
+      kontekst: data.json:scripts.fort3_cannon2.start
+      linia: 16
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Unfortunately, you don't have a cannonball that will fit in it.
+      pl: Niestety nie masz kuli armatniej, która by pasowała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1445
+  skrypt: fort3_messtable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e3ebbd96c10ff1b57c15
+      kontekst: data.json:scripts.fort3_messtable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like they left in the middle of dinner.
+      pl: Wygląda na to, że wyszli w połowie obiadu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2d0de7e02bc412d42d0e
+      kontekst: data.json:scripts.fort3_messtable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick over the leavings
+      pl: Przeszukaj resztki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1446
+  skrypt: fort3_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: discoverranch4
+    wpisy:
+    - id: wol_166c36893cb058010b80
+      kontekst: data.json:scripts.fort3_watchtower.discoverranch4
+      linia: 1
+      sekcja_skryptu: discoverranch4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a blasted ranch just southwest of the fort.
+      pl: Widzisz zniszczone ranczo na południowy zachód od fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_14d5226e8845f1216fca
+      kontekst: data.json:scripts.fort3_watchtower.rembin
+      linia: 3
+      sekcja_skryptu: rembin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep Fort Treason Beautiful
+      pl: Dbaj o piękno Posterunku Zdrajców
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovercemetery4
+    wpisy:
+    - id: wol_bafc07eb5f6ec27d2bad
+      kontekst: data.json:scripts.fort3_watchtower.discovercemetery4
+      linia: 1
+      sekcja_skryptu: discovercemetery4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a cemetery in the distance.  Orderly rows of tombstones -- must be military.
+      pl: Widzisz cmentarz w oddali. Równe rzędy nagrobków — musi być wojskowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovermine4
+    wpisy:
+    - id: wol_cb54c72cb6f1c03514ac
+      kontekst: data.json:scripts.fort3_watchtower.discovermine4
+      linia: 1
+      sekcja_skryptu: discovermine4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see a mine entrance off to the east.
+      pl: Widzisz wejście do kopalni na wschodzie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discoverghosttown1
+    wpisy:
+    - id: wol_8407a8b37f218d154727
+      kontekst: data.json:scripts.fort3_watchtower.discoverghosttown1
+      linia: 1
+      sekcja_skryptu: discoverghosttown1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see the faint outlines of some ghostly buildings far to the southwest.
+      pl: Daleko na południowy zachód widzisz blade zarysy upiornych budynków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000115
+  skrypt: house_ghost_novelty
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: givecigar
+    wpisy:
+    - id: wol_2a4094af9a4461054012
+      kontekst: house.json:scripts.house_ghost_novelty.givecigar
+      linia: 43
+      sekcja_skryptu: givecigar
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Light it up
+      pl: Podpal to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

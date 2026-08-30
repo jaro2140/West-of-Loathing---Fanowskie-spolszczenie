@@ -1,0 +1,180 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: el_vibrato_control_center
+zrodlowy_batch: 058_dialog_loc_elvibrato7_el_vibrato_control_center.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 3
+liczba_wpisow: 9
+sceny:
+- kolejnosc_w_danych_gry: 1248
+  skrypt: elvibrato7_crowntable
+  pomieszczenie: &id001
+    id: elvibrato7
+    nazwa_en: El Vibrato Control Center
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3b746169429097d39b34
+      kontekst: data.json:scripts.elvibrato7_crowntable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This definitely wasn't here before.
+      pl: Tego tu wcześniej na pewno nie było.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_55ab5559db8f802a7b07
+      kontekst: data.json:scripts.elvibrato7_crowntable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take the crown
+      pl: Weź koronę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_dfdfe39c09aac841e967
+      kontekst: data.json:scripts.elvibrato7_crowntable.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a perfect fit!
+      pl: Idealnie pasuje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1252
+  skrypt: elvibrato7_shaft
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d2303add8fd0951b46ae
+      kontekst: data.json:scripts.elvibrato7_shaft.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shaft goes down further than you can see.
+      pl: Ten szyb idzie w dół dalej, niż widzisz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: placecross
+    wpisy:
+    - id: wol_d2303add8fd0951b46ae
+      kontekst: data.json:scripts.elvibrato7_shaft.placecross
+      linia: 2
+      sekcja_skryptu: placecross
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This shaft goes down further than you can see.
+      pl: Ten szyb idzie w dół dalej, niż widzisz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27a32412ee280455f6a0
+      kontekst: data.json:scripts.elvibrato7_shaft.placecross
+      linia: 3
+      sekcja_skryptu: placecross
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cross-shaped El Vibrato device is going crazy.
+      pl: Krzyżowate urządzenie El Vibrato szaleje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_07a3fb9aa59faa1275fe
+      kontekst: data.json:scripts.elvibrato7_shaft.placecross
+      linia: 4
+      sekcja_skryptu: placecross
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Place it in the machine
+      pl: Włóż to do maszyny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_9281e55062b5075612d7
+      kontekst: data.json:scripts.elvibrato7_shaft.e
+      linia: 5
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It snaps into place of its own accord.
+      pl: Samo z impetem wskakuje na miejsce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1254
+  skrypt: elvibrato7_terminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_7e1aecec971346873029
+      kontekst: data.json:scripts.elvibrato7_terminal.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'The terminal''s screen reads:'
+      pl: 'Na ekranie terminala widać:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,612 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: olive_gardens_homestead
+zrodlowy_batch: 088_dialog_loc_olivegarden_olive_gardens_homestead.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 4
+liczba_wpisow: 35
+sceny:
+- kolejnosc_w_danych_gry: 1985
+  skrypt: olivegarden_convo
+  pomieszczenie: &id001
+    id: olivegarden
+    nazwa_en: Olive Garden's Homestead
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 22
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_566b7c81ead55236b0f6
+      kontekst: data.json:scripts.olivegarden_convo.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Olive.
+      pl: Howdy, Olive.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9063563552ab315e64dd
+      kontekst: data.json:scripts.olivegarden_convo.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy again, @firstname@!
+      pl: Howdy znowu, @firstname@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_1652d6fc14986d37e199
+      kontekst: data.json:scripts.olivegarden_convo.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nice garden you've got here, Olive.
+      pl: Fajny ogród masz tutaj, Olive.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node1
+    wpisy:
+    - id: wol_9767d68337ced8c138a8
+      kontekst: data.json:scripts.olivegarden_convo.node1
+      linia: 5
+      sekcja_skryptu: node1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Why thanks!
+      pl: Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3bd437d7c38e4777feb
+      kontekst: data.json:scripts.olivegarden_convo.node1
+      linia: 6
+      sekcja_skryptu: node1
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Looks delicious!
+      pl: Wygląda pysznie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_031d89d3bd7f0f06a139
+      kontekst: data.json:scripts.olivegarden_convo.node1
+      linia: 7
+      sekcja_skryptu: node1
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, I don't grow 'em to eat, I just grow 'em to grow 'em.  In fact, if you've got the knowhow, you're welcome to harvest anything you'd like.
+      pl: O, nie uprawiam ich, żeby je jeść, uprawiam je po to, żeby je uprawiać. Właściwie, jeśli wiesz jak, możesz zebrać, co tylko chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_312f679db6cd9ba8becb
+      kontekst: data.json:scripts.olivegarden_convo.node2
+      linia: 10
+      sekcja_skryptu: node2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Sure thing, hon! Why, I'm always happy to meet another cactus aficionado! Did you know there's more than two thousand different breeds of cactus? All different shapes and sizes, and all different colors of flowers, too!
+      pl: Jasna sprawa, kochanie! Zawsze cieszę się, gdy spotykam kolejnego miłośnika kaktusów! Wiesz, że jest ponad dwa tysiące odmian kaktusów? Wszystkie inne kształty i rozmiary, i wszystkie inne kolory kwiatów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_d1edbebc14c3e2844a6a
+      kontekst: data.json:scripts.olivegarden_convo.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll be!
+      pl: A niech mnie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node3
+    wpisy:
+    - id: wol_cdb2a1a7f4dd52d1ac74
+      kontekst: data.json:scripts.olivegarden_convo.node3
+      linia: 13
+      sekcja_skryptu: node3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: If you know what sort of cactus to look for, they'll help you survive out in the desert for quite a while, too! They collect and store a lot of drinkable water, and several varieties bear edible fruit!
+      pl: Jeśli wiesz, jakiego kaktusa szukać, pomogą ci też przetrwać na pustyni przez spory czas! Zbierają i magazynują dużo wody do picia, a kilka odmian ma jadalne owoce!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_194d6c4a8cfc408d0002
+      kontekst: data.json:scripts.olivegarden_convo.opts
+      linia: 14
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's fascinating!
+      pl: To fascynujące!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node4
+    wpisy:
+    - id: wol_ec30b5bc1e7c24e03437
+      kontekst: data.json:scripts.olivegarden_convo.node4
+      linia: 16
+      sekcja_skryptu: node4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: And that's even before we get into their medical uses! Did you know if you sterilize cactus spines over hot coals, you can use them for sutures? Although you have to be careful, because there's a couple breeds whose spines are actually venomous!
+      pl: A to jeszcze przed zastosowaniami medycznymi! Wiesz, że jeśli wysterylizujesz kolce kaktusa nad gorącym węglem, możesz ich użyć do szwów? Trzeba uważać, bo kilka gatunków ma kolce faktycznie jadowite!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_c08ceffb6f4157d20764
+      kontekst: data.json:scripts.olivegarden_convo.opts
+      linia: 17
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, I'll be darned.
+      pl: No, nigdy bym nie pomyślał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node5
+    wpisy:
+    - id: wol_873e5ddf115d1732eedf
+      kontekst: data.json:scripts.olivegarden_convo.node5
+      linia: 19
+      sekcja_skryptu: node5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you know that saguaro cactuses -- those are the tall ones with the arms, that you probably picture when you think about cactuses -- generally live to be 160 or 170 years old? Sometimes as old as 200 years! Heck, they aren't even considered adults until they're 125!
+      pl: Wiesz, że kaktusy saguaro — te wysokie z ramionami, które pewnie widzisz przed oczami, gdy myślisz o kaktusach — żyją zwykle 160 albo 170 lat? Czasem nawet 200! Hej, dorosłe uznaje się je dopiero w wieku 125 lat!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node6
+    wpisy:
+    - id: wol_8cdac1fb00c7e39fc926
+      kontekst: data.json:scripts.olivegarden_convo.node6
+      linia: 22
+      sekcja_skryptu: node6
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You'll probably think I'm silly, but I kind of think of these cactuses as pets! They're like my big green prickly children! Though a lot easier to take care of, obviously.
+      pl: Pewnie uznasz mnie za głupią, ale traktuję te kaktusy jak zwierzaki! Jak moje duże zielone kolczaste dzieci! Choć dużo łatwiejsze w opiece, oczywiście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node7
+    wpisy:
+    - id: wol_5afb63f147f25e51388d
+      kontekst: data.json:scripts.olivegarden_convo.node7
+      linia: 25
+      sekcja_skryptu: node7
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: People probably think of me as that weird cactus lady that lives outside of town, but that doesn't matter to me so long as I've got my needle-babies!
+      pl: Ludzie pewnie myślą o mnie jak o tej dziwnej kaktusowej babie mieszkającej za miastem, ale to mnie nie obchodzi, dopóki mam swoje igiełkowe dzieciaczki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_68e748ddb3936946bf75
+      kontekst: data.json:scripts.olivegarden_convo.opts
+      linia: 26
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Y'know, if you love cactuses so much...
+      pl: Wiesz, skoro tak kochasz kaktusy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node8
+    wpisy:
+    - id: wol_6c80e33c081ef8fd1a8c
+      kontekst: data.json:scripts.olivegarden_convo.node8
+      linia: 27
+      sekcja_skryptu: node8
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Y'know, if you love cactuses so much...  Why don't you marry one?
+      pl: Wiesz, skoro tak kochasz kaktusy... Czemu nie poślubisz jednego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_683a09991a7f2a3cb821
+      kontekst: data.json:scripts.olivegarden_convo.node8
+      linia: 28
+      sekcja_skryptu: node8
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '@firstname@, you are definitely not the first person that''s suggested that.  And I''ll tell you what -- I would absolutely, positively marry a cactus if I could find one that wanted to marry me.'
+      pl: '@firstname@, na pewno nie jesteś pierwszą osobą, która to sugeruje. A powiem ci co — absolutnie, bez wątpienia wyszłabym za kaktusa, gdybym znalazła takiego, który chciałby się ze mną ożenić.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_d07b66d25916b4da4943
+      kontekst: data.json:scripts.olivegarden_convo.intro
+      linia: 30
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy!
+      pl: Howdy!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_30f14e1786bdc834ebf0
+      kontekst: data.json:scripts.olivegarden_convo.intro
+      linia: 31
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, stranger!
+      pl: Howdy, nieznajomy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6cbbd1766be9faa7e67b
+      kontekst: data.json:scripts.olivegarden_convo.intro
+      linia: 32
+      sekcja_skryptu: intro
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Name's @firstname@.
+      pl: Nazywam się @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_af00477225e3a238a6fb
+      kontekst: data.json:scripts.olivegarden_convo.intro
+      linia: 33
+      sekcja_skryptu: intro
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@.  I'm Olive.  Olive Garden.
+      pl: Howdy, @firstname@. Jestem Olive. Olive Garden.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1986
+  skrypt: olivegarden_convo2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d5b4c6fc58d5a4af0ece
+      kontekst: data.json:scripts.olivegarden_convo2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya, Bill! I see you found the place.
+      pl: Hej, Bill! Widzę, że znalazłeś to miejsce.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f3dd4c5a949dd6ffe4c
+      kontekst: data.json:scripts.olivegarden_convo2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I found the love of my life! And it's all thanks to you, @firstname@!
+      pl: Znalazłem miłość swojego życia! A wszystko dzięki tobie, @firstname@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cf2b19c6080af4894343
+      kontekst: data.json:scripts.olivegarden_convo2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, thank you! It was love at first sight! We got married right away!
+      pl: Tak, dziękuję! To była miłość od pierwszego wejrzenia! Od razu się pobraliśmy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4339f663c703ce0447e8
+      kontekst: data.json:scripts.olivegarden_convo2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well I'm just glad to have helped someone find happiness in this desolate wasteland. Good luck to you both.
+      pl: Cieszę się, że pomogłem komuś znaleźć szczęście w tym opuszczonym pustkowiu. Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: second
+    wpisy:
+    - id: wol_db12a267948136f45be0
+      kontekst: data.json:scripts.olivegarden_convo2.second
+      linia: 6
+      sekcja_skryptu: second
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We're still figuring out the whole hugging thing.
+      pl: Wciąż zastanawiamy się nad tym całym przytulaniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6bf9c685efba6ad7741
+      kontekst: data.json:scripts.olivegarden_convo2.second
+      linia: 7
+      sekcja_skryptu: second
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I wonder if I could find some puncture-proof coveralls somewhere.
+      pl: Ciekawe, czy dałoby się gdzieś znaleźć kombinezon odporny na przebicie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: third
+    wpisy:
+    - id: wol_01e7015a14b736f41838
+      kontekst: data.json:scripts.olivegarden_convo2.third
+      linia: 9
+      sekcja_skryptu: third
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Maybe I should shave.
+      pl: Może powinienem się ogolić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4aa1f05b1662446d39f4
+      kontekst: data.json:scripts.olivegarden_convo2.third
+      linia: 10
+      sekcja_skryptu: third
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, but those spines are important to protect and shade your skin!
+      pl: Och, ale te kolce są ważne, bo chronią twoją skórę i dają jej cień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fourth
+    wpisy:
+    - id: wol_0be5ae83cb5bc53ad5a0
+      kontekst: data.json:scripts.olivegarden_convo2.fourth
+      linia: 12
+      sekcja_skryptu: fourth
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, at least we can kiss, so long as we're careful.
+      pl: Przynajmniej możemy się pocałować, o ile będziemy ostrożni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e2a67c98daa3e494527
+      kontekst: data.json:scripts.olivegarden_convo2.fourth
+      linia: 13
+      sekcja_skryptu: fourth
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I wonder what our children will look like!
+      pl: Ciekawe, jak będą wyglądały nasze dzieci!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cb5520ddc3b030212e3e
+      kontekst: data.json:scripts.olivegarden_convo2.fourth
+      linia: 14
+      sekcja_skryptu: fourth
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Oh jeez okay bye!
+      pl: O rany, okej, pa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2499
+  skrypt: silverplater_platerhimself
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d07b66d25916b4da4943
+      kontekst: data.json:scripts.silverplater_platerhimself.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy!
+      pl: Howdy!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2652
+  skrypt: tut_bartender
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: heyagain
+    wpisy:
+    - id: wol_d07b66d25916b4da4943
+      kontekst: data.json:scripts.tut_bartender.heyagain
+      linia: 70
+      sekcja_skryptu: heyagain
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy!
+      pl: Howdy!
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []

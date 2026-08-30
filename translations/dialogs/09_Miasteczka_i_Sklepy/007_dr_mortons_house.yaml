@@ -1,0 +1,2524 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: dr_mortons_house
+zrodlowy_batch: 068_dialog_loc_geologist_dr_mortons_house.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 28
+liczba_wpisow: 144
+sceny:
+- kolejnosc_w_danych_gry: 1527
+  skrypt: geologist_bedrocks
+  pomieszczenie: &id001
+    id: geologist
+    nazwa_en: Dr. Morton's House
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a3f10f7e0eb8bee3b17c
+      kontekst: data.json:scripts.geologist_bedrocks.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a bed made of stone.  A bed rock, if you will.  She's really committed to the whole geology thing!
+      pl: To łóżko z kamienia. Łóżko skalne, że tak powiem. Naprawdę trzyma się tej geologii!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1528
+  skrypt: geologist_bench
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d869fb289123b79aa5c4
+      kontekst: data.json:scripts.geologist_bench.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are some weird-looking boots on this workbench.
+      pl: Na warsztacie leżą dziwnie wyglądające buty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1529
+  skrypt: geologist_bench2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 10
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8ef9bcad900880b20b4b
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You poke your head out the door to give Josie a shout.
+      pl: Wystawiasz głowę przez drzwi, żeby zawołać Josie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26def86808310db88cec
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey Josie, what's up with these boots?
+      pl: Hej Josie, co z tymi butami?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a90e0e73cbd0dfe2b53d
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, that's just an invention I lost interest in.
+      pl: O, to tylko wynalazek, którym straciłem zainteresowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_45b68b4719b0f4ab6961
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What do they do?
+      pl: Co robią?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_338e636a8f957432f155
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: They're supposed to make you run really fast, but I couldn't get any significant boost out of them.
+      pl: Miały cię bardzo przyspieszyć, ale nie dało się wycisnąć z nich sensownego boosta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_649f61dd28e4f1251248
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You're so close, though! [Mysticality 25]
+      pl: Jesteś tak blisko! [Mistycyzm 25]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Mysticality 25]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fix
+    wpisy:
+    - id: wol_1408751e5c7a5ab65833
+      kontekst: data.json:scripts.geologist_bench2.fix
+      linia: 8
+      sekcja_skryptu: fix
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah?
+      pl: A tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eac30a8c05242c292795
+      kontekst: data.json:scripts.geologist_bench2.fix
+      linia: 9
+      sekcja_skryptu: fix
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure!  Just gotta hook this wire up to this spring, twist this flange a little, and Bob's yer uncle.
+      pl: Jasne! Trzeba tylko podłączyć ten drut do tej sprężyny, lekko przekręcić ten kołnierz i Bob's yer uncle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ebe1b8b916b66a3bd2d
+      kontekst: data.json:scripts.geologist_bench2.fix
+      linia: 10
+      sekcja_skryptu: fix
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, huh! Clever! Well, I'm still not interested in them. You can keep them if you want.
+      pl: O, hej! Sprytne! Wciąż jednak nie jestem nimi zainteresowany. Możesz je zatrzymać, jeśli chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_6d86d63031f491cd0fb0
+      kontekst: data.json:scripts.geologist_bench2.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Alright, then
+      pl: Dobrze więc
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1530
+  skrypt: geologist_crawlhole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_15df7768d7890f35fa79
+      kontekst: data.json:scripts.geologist_crawlhole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a tight squeeze.
+      pl: Ciasno tu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21cd0bdd382ddf666e21
+      kontekst: data.json:scripts.geologist_crawlhole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wriggle through it [$diff$ Moxie]
+      pl: Przeczołgaj się [$diff$ Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_21cd0bdd382ddf666e21
+      kontekst: data.json:scripts.geologist_crawlhole.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Wriggle through it [$diff$ Moxie]
+      pl: Przeczołgaj się [$diff$ Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1531
+  skrypt: geologist_fight1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_29cc39eab2c293f2fdad
+      kontekst: data.json:scripts.geologist_fight1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A menacing array of stones stand in your way.
+      pl: Groźny szyk kamieni stoi ci na drodze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.geologist_fight1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_2168ab6cc1bdeb2dbe45
+      kontekst: data.json:scripts.geologist_fight1.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really cursed those hexes.
+      pl: Naprawdę przekląłeś te klątwy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d2560f644aed0a9a88f8
+      kontekst: data.json:scripts.geologist_fight1.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those stones really know how to trip you up!
+      pl: Te kamienie naprawdę potrafią cię potknąć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1532
+  skrypt: geologist_fight2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_29cc39eab2c293f2fdad
+      kontekst: data.json:scripts.geologist_fight2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A menacing array of stones stand in your way.
+      pl: Groźny szyk kamieni stoi ci na drodze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.geologist_fight2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_2168ab6cc1bdeb2dbe45
+      kontekst: data.json:scripts.geologist_fight2.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You really cursed those hexes.
+      pl: Naprawdę przekląłeś te klątwy.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d2560f644aed0a9a88f8
+      kontekst: data.json:scripts.geologist_fight2.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those stones really know how to trip you up!
+      pl: Te kamienie naprawdę potrafią cię potknąć!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1533
+  skrypt: geologist_holedown
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b4bda2f4b8d227d014ad
+      kontekst: data.json:scripts.geologist_holedown.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This ladder leads down into the tunnel Josie just opened. That mining rig is fast as heck!
+      pl: Ta drabina prowadzi w dół do tunelu, który Josie właśnie otworzyła. Ta wiertnica jest cholernie szybka!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1534
+  skrypt: geologist_josie
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 59
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_b455ce401bd40247d17d
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Heya, Josie!
+      pl: Hej, Josie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_27c6b19ea98d8d33b1aa
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi there, Dr. Morton.
+      pl: Dzień dobry, doktor Morton.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4957e6a3f3db11d169bb
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh hi, @firstname@. Did you find any interesting rocks for me?
+      pl: O, cześć, @firstname@. Znalazłeś dla mnie jakieś ciekawe kamienie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_767bdce6a02c17cdd0ca
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I did, in fact! [interesting rock]
+      pl: Tak, w istocie! [ciekawy kamień]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[interesting rock]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step4
+    wpisy:
+    - id: wol_70287c9f9f8e15c1a2f6
+      kontekst: data.json:scripts.geologist_josie.step4
+      linia: 6
+      sekcja_skryptu: step4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand her the rock.
+      pl: Wręczasz jej kamień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c2159d0a747c2bd1ef36
+      kontekst: data.json:scripts.geologist_josie.step4
+      linia: 7
+      sekcja_skryptu: step4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well now, this <i>is</i> interesting! Where did you find it?
+      pl: To <i>ciekawe</i>! Gdzie go znalazłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c68440eb89046999c9e
+      kontekst: data.json:scripts.geologist_josie.step4
+      linia: 8
+      sekcja_skryptu: step4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Uhh... I've forgotten? Weird.
+      pl: Uhh... zapomniałem? Dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4dd3b07cd2170424fb95
+      kontekst: data.json:scripts.geologist_josie.step4
+      linia: 9
+      sekcja_skryptu: step4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh. Well anyway, thanks for the help!
+      pl: Hę. W każdym razie dzięki za pomoc!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ee99e61b3894dd612e8
+      kontekst: data.json:scripts.geologist_josie.step4
+      linia: 10
+      sekcja_skryptu: step4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Anything else you need?
+      pl: Potrzebujesz jeszcze czegoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step4cont
+    wpisy:
+    - id: wol_9582daacb2ab36e9aaf3
+      kontekst: data.json:scripts.geologist_josie.step4cont
+      linia: 12
+      sekcja_skryptu: step4cont
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, actually -- I found an interesting hexitite node in a cave nearby, but I couldn't shift the thing. You've proven youself the resourceful type, think you could collect it for me?
+      pl: Tak, właściwie — znalazłem ciekawy węzeł heksytitowy w jaskini niedaleko, ale nie mogłem tego ruszyć. Udowodniłeś, że jesteś zaradny, myślisz, że mógłbyś to dla mnie zebrać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a3ad4bebb7ad5bf57f6
+      kontekst: data.json:scripts.geologist_josie.step4cont
+      linia: 13
+      sekcja_skryptu: step4cont
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure thing, Dr. Morton!
+      pl: Oczywiście, doktorze Morton!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e9e376984a959a66c2e8
+      kontekst: data.json:scripts.geologist_josie.step4cont
+      linia: 14
+      sekcja_skryptu: step4cont
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, no need to stand on ceremony. Call me Josie.
+      pl: Nie musimy się tak oficjalnie zachowywać. Mów mi Josie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6756dc8dc03da838c492
+      kontekst: data.json:scripts.geologist_josie.step4cont
+      linia: 15
+      sekcja_skryptu: step4cont
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure thing, Josie!
+      pl: Jasna sprawa, Josie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step4a
+    wpisy:
+    - id: wol_58af54dde64a56aef70b
+      kontekst: data.json:scripts.geologist_josie.step4a
+      linia: 16
+      sekcja_skryptu: step4a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well now, this is quite a nice chunk of golemite. Where did you find it?
+      pl: Niezły kawałek golemitu. Gdzie go znalazłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b351b6c84d25668299d
+      kontekst: data.json:scripts.geologist_josie.step4a
+      linia: 17
+      sekcja_skryptu: step4a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: A big rock monster attacked some railroad guys I was helping out -- like a huge man-shaped boulder pile! A really angry one!
+      pl: Wielki kamienny potwór napadł na kolejarzy, którym pomagałem — jak ogromna sterta głazów w kształcie człowieka! I to bardzo wściekła!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d15dc333823d4397edc2
+      kontekst: data.json:scripts.geologist_josie.step4a
+      linia: 18
+      sekcja_skryptu: step4a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A full-on anthropomorphicite? Amazing! They're quite rare, I've never seen a living one in person! I suppose you were forced to destroy it, though?
+      pl: Pełnoprawny antropomorfit? Niesamowite! Są bardzo rzadkie, nigdy nie widziałam żywego na własne oczy! Rozumiem jednak, że musiałeś go zniszczyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_45aca93056193ea3c40e
+      kontekst: data.json:scripts.geologist_josie.step4a
+      linia: 19
+      sekcja_skryptu: step4a
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: No...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step4a2
+    wpisy:
+    - id: wol_c948bba8452b791f690f
+      kontekst: data.json:scripts.geologist_josie.step4a2
+      linia: 20
+      sekcja_skryptu: step4a2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Actually, I managed to convince it to leave! But a bunch of it fell off as it stomped away.
+      pl: Tak naprawdę udało mi się przekonać go, żeby odszedł! Ale kiedy odtupywał, sporo z niego odpadło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_48cb423363b44f496496
+      kontekst: data.json:scripts.geologist_josie.step4a2
+      linia: 21
+      sekcja_skryptu: step4a2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That makes sense, they're very tightly connected to their personal territory.
+      pl: To ma sens, są bardzo silnie związane ze swoim osobistym terytorium.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7d0d82cbad6bfbc13c7d
+      kontekst: data.json:scripts.geologist_josie.step4a2
+      linia: 22
+      sekcja_skryptu: step4a2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, yeah, it was violent and there were a lot of people around. Sorry!
+      pl: Cóż, tak, to było brutalne i było dużo ludzi wokół. Przepraszam!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d323ba0367f177d64f88
+      kontekst: data.json:scripts.geologist_josie.step4a2
+      linia: 23
+      sekcja_skryptu: step4a2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's a shame, but that's the usual outcome. No worries.
+      pl: Szkoda, ale zwykle tak się to kończy. Nie ma sprawy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ee99e61b3894dd612e8
+      kontekst: data.json:scripts.geologist_josie.step4a2
+      linia: 24
+      sekcja_skryptu: step4a2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Anything else you need?
+      pl: Potrzebujesz jeszcze czegoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step4b
+    wpisy:
+    - id: wol_a9a6edec23652d45f488
+      kontekst: data.json:scripts.geologist_josie.step4b
+      linia: 25
+      sekcja_skryptu: step4b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, this is a very nice sample of raw hermetitite. Where did you find it?
+      pl: Ach, to bardzo ładna próbka surowego hermetitytu. Gdzie ją znalazłeś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cd63f63046176f80026
+      kontekst: data.json:scripts.geologist_josie.step4b
+      linia: 26
+      sekcja_skryptu: step4b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: At the West Pole. There's a whole bunch of it there, it stacks up into all kinds of weird formations when you poke at it!
+      pl: Na Biegunie Zachodnim. Jest go tam mnóstwo i po szturchnięciu układa się w najróżniejsze dziwne formacje!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_238b1db84b4a917a57fa
+      kontekst: data.json:scripts.geologist_josie.step4b
+      linia: 27
+      sekcja_skryptu: step4b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep, that's what this stuff does -- It's quite maginetic.
+      pl: Tak, to jest to, co to robi -- jest dość magnetyczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_844a356a8bd27ab7b8ec
+      kontekst: data.json:scripts.geologist_josie.step4b
+      linia: 29
+      sekcja_skryptu: step4b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Magically magnetic. We arcanogeologists have fun with our words sometimes.
+      pl: Magicznie magnetyczne. My, arkanogeolodzy, czasem bawimy się słowami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ee99e61b3894dd612e8
+      kontekst: data.json:scripts.geologist_josie.step4b
+      linia: 30
+      sekcja_skryptu: step4b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Anything else you need?
+      pl: Potrzebujesz jeszcze czegoś?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_ffca73465dcf1e36d8f6
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 31
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, but I'm keeping an eye out.
+      pl: Jeszcze nie, ale mam oko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pause4
+    wpisy:
+    - id: wol_28ee8c243c207e6aaa00
+      kontekst: data.json:scripts.geologist_josie.pause4
+      linia: 33
+      sekcja_skryptu: pause4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I appreciate it. Thanks!
+      pl: Doceniam to. Dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_0a4431f0c279a63094a2
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 35
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm stuck. Got any hints?
+      pl: Utknąłem. Masz jakieś wskazówki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pause4a
+    wpisy:
+    - id: wol_522dc50ff614d54f8f27
+      kontekst: data.json:scripts.geologist_josie.pause4a
+      linia: 37
+      sekcja_skryptu: pause4a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hints? Well, I overheard someone at Clooncy's talking about seeing some kind of rock monster during their train ride to Frisco. They sounded pretty drunk, though.
+      pl: Wskazówki? Podsłuchałam, jak ktoś u Clooncy’ego opowiadał, że podczas podróży pociągiem do Frisco widział jakiegoś skalnego potwora. Ale brzmiał na nieźle pijanego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb7ed6310e0e54e11918
+      kontekst: data.json:scripts.geologist_josie.pause4a
+      linia: 38
+      sekcja_skryptu: pause4a
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh yeah, that kind of rings a bell...
+      pl: A tak, coś mi świta...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dd917157ddcde940c5db
+      kontekst: data.json:scripts.geologist_josie.pause4a
+      linia: 39
+      sekcja_skryptu: pause4a
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The planet's magnetic poles are usually hotbeds of weird rock activity as well.
+      pl: Bieguny magnetyczne planety także zwykle są siedliskiem dziwnej aktywności skał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_d93cc0d50d4c5bd9236a
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 41
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi, @firstname@. Any luck getting the rock sample from that old cave?
+      pl: Cześć, @firstname@. Udało ci się zdobyć próbkę skały z tej starej jaskini?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a3060cf1cce36f6a86cc
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 42
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Still working on it.
+      pl: Wciąż nad tym pracuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pause5
+    wpisy:
+    - id: wol_9a9b9992e2156b0c0e42
+      kontekst: data.json:scripts.geologist_josie.pause5
+      linia: 44
+      sekcja_skryptu: pause5
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Okay. Be careful though, those amygdaloidal levitites can trip you up if you aren't paying attention.
+      pl: Okej. Tylko uważaj, te amygdałoidalne lewitity mogą cię wywrócić, jak nie będziesz uważać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_422d65fe4b3ceebbee1b
+      kontekst: data.json:scripts.geologist_josie.pause5
+      linia: 45
+      sekcja_skryptu: pause5
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Those what?
+      pl: Tamte co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d0efd2da37fa6221f5c
+      kontekst: data.json:scripts.geologist_josie.pause5
+      linia: 46
+      sekcja_skryptu: pause5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The little floaty ones.
+      pl: Te małe, unoszące się w powietrzu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_810cf1da455b51461829
+      kontekst: data.json:scripts.geologist_josie.pause5
+      linia: 47
+      sekcja_skryptu: pause5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, gotcha.
+      pl: Okej, jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_0bd0f93cad565212b410
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 48
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep! [rock sample]
+      pl: Ta! [próbka skały]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[rock sample]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step6
+    wpisy:
+    - id: wol_08f3c5f181159738c4dc
+      kontekst: data.json:scripts.geologist_josie.step6
+      linia: 50
+      sekcja_skryptu: step6
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ah, that's a beauty. Set it over here on my workbench.
+      pl: Ach, cudo. Połóż to tu na moim warsztacie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a2a2f186911075ddeff
+      kontekst: data.json:scripts.geologist_josie.step6
+      linia: 51
+      sekcja_skryptu: step6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She carefully examines the stone through a crystal lens while tapping on it with a little engraved silver hammer.
+      pl: Ostrożnie bada kamień przez kryształową soczewkę, stukając w niego małym grawerowanym srebrnym młotkiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2e9d4ad4538a69104ddc
+      kontekst: data.json:scripts.geologist_josie.step6
+      linia: 52
+      sekcja_skryptu: step6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep, this is just the stuff I'm looking for! And if my readings of the resonance frequencies are correct, I'm sitting right on top of a prime vein of research material. Or rather, the very similar-looking hexitite boulder outside my house is.
+      pl: Właśnie tego szukam! Jeśli moje odczyty częstotliwości rezonansu są poprawne, siedzę na szczycie głównej żyły materiału badawczego. A raczej, bardzo podobny sześciokątny głaz przed moim domem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7da55c02541f3873bb20
+      kontekst: data.json:scripts.geologist_josie.step6
+      linia: 54
+      sekcja_skryptu: step6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Very neat! Just one little problem, which is that the secondhand drilling rig I bought didn't come with any actual drill bits.
+      pl: Bardzo schludnie! Jest tylko jeden mały problem, a mianowicie to, że używana wiertnica, którą kupiłem, nie była wyposażona w żadne wiertła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bad13dd1b1a665e6c7c4
+      kontekst: data.json:scripts.geologist_josie.step6
+      linia: 55
+      sekcja_skryptu: step6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aw jeez. Isn't that always the way?
+      pl: O rany. Zawsze tak bywa, co?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step6b
+    wpisy:
+    - id: wol_8a31510590a8ac87a225
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 57
+      sekcja_skryptu: step6b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That is pretty much my experience, yep.
+      pl: Tak, mniej więcej tak to wyglądało w moim przypadku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_099cc57b1ab3d53bf18b
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 58
+      sekcja_skryptu: step6b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Can't you buy one somewhere?
+      pl: Nie możesz gdzieś kupić?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_537ea02be0df31763b39
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 59
+      sekcja_skryptu: step6b
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh I could mail-order one, sure. Then I'd have to wait a couple months for it to arrive. <i>Or,</i> I could have an adventurous acquaintance of mine check out an abandoned mining site west of here and see if they can scavenge one for me?
+      pl: Mógłbym zamówić pocztą, jasne. Potem czekałbym parę miesięcy na dostawę. <i>Albo</i> mógłbym poprosić mojego awanturniczego znajomego, żeby sprawdził opuszczoną kopalnię na zachód stąd i zobaczył, czy da się coś dla mnie wydłubać?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7ff864e0af7f848c3410
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 60
+      sekcja_skryptu: step6b
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, that sounds like a much better plan. Who's your acquaintance? ...Oh wait, ha ha -- it's me, isn't it?
+      pl: Tak, to brzmi jak znacznie lepszy plan. Kim jest twój znajomy? ...Chwila, ha, ha — chodzi o mnie, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_313b10d6705c48b95af1
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 61
+      sekcja_skryptu: step6b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ha ha, yep!
+      pl: Ha, ha, tak!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17589dbc77dcffc737a5
+      kontekst: data.json:scripts.geologist_josie.step6b
+      linia: 62
+      sekcja_skryptu: step6b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'm on it!
+      pl: Okej, biorę się do tego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_de2963bb6f0008b4f57e
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 63
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hello! Found that replacement bit yet?
+      pl: Witaj! Znalazłeś już tę część zamienna?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_51fe0a31ff62c3ddf67e
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 64
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, I'll keep looking.
+      pl: Jeszcze nie, będę dalej szukał.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pause7
+    wpisy:
+    - id: wol_a6d0327f82127e03dc63
+      kontekst: data.json:scripts.geologist_josie.pause7
+      linia: 66
+      sekcja_skryptu: pause7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Best place to look would be the abandoned mine directly west of here.
+      pl: Najlepiej zacząć w opuszczonej kopalni dokładnie na zachód stąd.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d6e582351fec69ef590f
+      kontekst: data.json:scripts.geologist_josie.pause7
+      linia: 67
+      sekcja_skryptu: pause7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got it.
+      pl: Jasne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_90c7db3414dbadab6d8b
+      kontekst: data.json:scripts.geologist_josie.start
+      linia: 68
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I sure have! [high-tech drill bit]
+      pl: Jasne, że tak! [zaawansowane wiertło]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[high-tech drill bit]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: step8
+    wpisy:
+    - id: wol_23d7b92615ddb26b1180
+      kontekst: data.json:scripts.geologist_josie.step8
+      linia: 69
+      sekcja_skryptu: step8
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hey, that's great! A little bit of surface rust, but if my calculations are right, this should do just fine for our purposes. C'mon, let's go hook it up right now!
+      pl: Hej, super! Trochę rdzy na powierzchni, ale jeśli moje obliczenia się zgadzają, do naszych celów w zupełności wystarczy. Chodź, podłączmy to od razu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5038448af4f66f7c6f93
+      kontekst: data.json:scripts.geologist_josie.step8
+      linia: 70
+      sekcja_skryptu: step8
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: She excitedly runs out of the house.
+      pl: Ekscytowana wybiega z domu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1371f2e7e5ec23cbdef7
+      kontekst: data.json:scripts.geologist_josie.step8
+      linia: 71
+      sekcja_skryptu: step8
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Follow her
+      pl: Idź za nią
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1535
+  skrypt: geologist_josiepopup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_430dbc17fb00af722c4d
+      kontekst: data.json:scripts.geologist_josiepopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Dr. Morton.
+      pl: To dr Morton.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1536
+  skrypt: geologist_josiequarry
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_dc79fa0ec6b9fe28208c
+      kontekst: data.json:scripts.geologist_josiequarry.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: That was crazy fast, Josie! Jeez, you've got lights set up in here already, and everything...
+      pl: To było szalone szybkie, Josie! Jeez, masz tu już światła ustawione i w ogóle...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_231f0f6aa7a8a1f4f795
+      kontekst: data.json:scripts.geologist_josiequarry.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, while you were out running errands for me, I didn't have much to do except plan this out. Having to fight an anthropomorphicite was not part of my plan, though.
+      pl: No, póki biegałeś po moich sprawach, nie miałam wiele do roboty poza planowaniem. Walka z antropomorfitem nie była częścią planu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aa36af440b39064b628e
+      kontekst: data.json:scripts.geologist_josiequarry.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: A what now?
+      pl: Co takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b5283ba38cad5e70e2cf
+      kontekst: data.json:scripts.geologist_josiequarry.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The angry stone fellow over there. Boy, what I wouldn't give to be able to examine one up close! Unfortunately, getting mashed into a pulp would probably hurt my chances of getting tenure.
+      pl: Ten wściekły kamienny jegomość. Ile bym dała, żeby zbadać takiego z bliska! Niestety rozgniecenie na miazgę raczej zmniejszyłoby moje szanse na etat.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a79ef74acfcc72dd7702
+      kontekst: data.json:scripts.geologist_josiequarry.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: See what you can do
+      pl: Zobacz, co możesz zrobić
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quest10
+    wpisy:
+    - id: wol_1a763d2274fb62fa2556
+      kontekst: data.json:scripts.geologist_josiequarry.quest10
+      linia: 7
+      sekcja_skryptu: quest10
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Um... Hello.
+      pl: Ym... Cześć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8f7698de95d07a5a3bfe
+      kontekst: data.json:scripts.geologist_josiequarry.quest10
+      linia: 8
+      sekcja_skryptu: quest10
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hi? Is something up?
+      pl: Cześć? Coś się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7717018a6ac682a7bf54
+      kontekst: data.json:scripts.geologist_josiequarry.quest10
+      linia: 9
+      sekcja_skryptu: quest10
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No, I'm just going around poking at everything to make sure I didn't miss anything.
+      pl: Nie, tylko chodzę i wszystkiego dotykam, żeby upewnić się, że niczego nie pominąłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0546acbf6f3d22b340bd
+      kontekst: data.json:scripts.geologist_josiequarry.quest10
+      linia: 10
+      sekcja_skryptu: quest10
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I see. Well, when you're done with that, If you could get that rock monster out of the way, I'd appreciate it.
+      pl: Rozumiem. No cóż, jak już z tym skończysz, byłabym wdzięczna za usunięcie tego skalnego potwora z drogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quest11
+    wpisy:
+    - id: wol_f331f17ca599d5af6cec
+      kontekst: data.json:scripts.geologist_josiequarry.quest11
+      linia: 12
+      sekcja_skryptu: quest11
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, that's an extremely interesting rock.
+      pl: Wow, to niezwykle ciekawa skała.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ec0a6ad493b6c0f31452
+      kontekst: data.json:scripts.geologist_josiequarry.quest11
+      linia: 13
+      sekcja_skryptu: quest11
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Isn't it incredible? This will definitely get me into the history books! Or at least, get my research paper into an important arcanogeology journal. Thanks so much for your help!
+      pl: Czyż to nie niesamowite? To na pewno wpisze mnie do ksiąg historii! Albo przynajmniej mój artykuł naukowy trafi do ważnego czasopisma z dziedziny arcanogeologii. Wielkie dzięki za pomoc!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0bd4e63798f460aca06a
+      kontekst: data.json:scripts.geologist_josiequarry.quest11
+      linia: 14
+      sekcja_skryptu: quest11
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Aw, it was nothing.
+      pl: To nic takiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quest11b
+    wpisy:
+    - id: wol_56e6a11051c326a48af2
+      kontekst: data.json:scripts.geologist_josiequarry.quest11b
+      linia: 16
+      sekcja_skryptu: quest11b
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I'll be giving you an assistant credit when I publish, of course. I'd like to give you a more material reward, but I spent most of the grant money on the drilling rig...
+      pl: Przy publikacji dam ci oczywiście współautorstwo. Chciałabym dać ci bardziej namacalną nagrodę, ale większość grantu wydałam na wiertnicę...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_15b00966a61b38519ad3
+      kontekst: data.json:scripts.geologist_josiequarry.quest11b
+      linia: 17
+      sekcja_skryptu: quest11b
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, how about this? I don't need this hexitite sample any more. Maybe you could wear it as a hat?
+      pl: Och, a może to? Nie potrzebuję już tej próbki heksytitu. Może mógłbyś nosić ją jako kapelusz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: quest11
+    wpisy:
+    - id: wol_adae10b8f99fe689080f
+      kontekst: data.json:scripts.geologist_josiequarry.quest11
+      linia: 19
+      sekcja_skryptu: quest11
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: And my reward is...
+      pl: A moja nagroda to...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: questover
+    wpisy:
+    - id: wol_baff111ac10f5dbd270b
+      kontekst: data.json:scripts.geologist_josiequarry.questover
+      linia: 20
+      sekcja_skryptu: questover
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How's it going with your big magic rock, Josie?
+      pl: Jak idzie z twoim wielkim magicznym kamieniem, Josie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5189f48f840b142657a4
+      kontekst: data.json:scripts.geologist_josiequarry.questover
+      linia: 21
+      sekcja_skryptu: questover
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Pretty great! Check out how hexagonal and floaty it is!
+      pl: Całkiem super! Patrz, jaki ma sześciokątny i unoszący się wygląd!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8a45707678cb50855bda
+      kontekst: data.json:scripts.geologist_josiequarry.questover
+      linia: 22
+      sekcja_skryptu: questover
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I know, right?
+      pl: Wiem, prawda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e855b352c1ec2522d304
+      kontekst: data.json:scripts.geologist_josiequarry.questover
+      linia: 23
+      sekcja_skryptu: questover
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for all your help. I've got years of study ahead of me down here.
+      pl: Dzięki za całą pomoc. Mam tu przed sobą lata badań.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ad51535e3b44d718b2f3
+      kontekst: data.json:scripts.geologist_josiequarry.questover
+      linia: 24
+      sekcja_skryptu: questover
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Have fun!
+      pl: Baw się dobrze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1537
+  skrypt: geologist_josiequarrypopup
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cf1e2f223f8601e132a8
+      kontekst: data.json:scripts.geologist_josiequarrypopup.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Dr. Morton seems extremely excited to be here.
+      pl: dr Morton wydaje się być niezmiernie podekscytowany, że tu jest.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1539
+  skrypt: geologist_leftobstacle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_c3f76d6786a607f0b7b8
+      kontekst: data.json:scripts.geologist_leftobstacle.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, this looks dangerous!
+      pl: Wow, to wygląda niebezpiecznie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4b1333e1a7b9c42fc6a
+      kontekst: data.json:scripts.geologist_leftobstacle.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run through [$diff$ Speed]
+      pl: Przebiegnij [$diff$ Szybkość]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Speed]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4b1333e1a7b9c42fc6a
+      kontekst: data.json:scripts.geologist_leftobstacle.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Run through [$diff$ Speed]
+      pl: Przebiegnij [$diff$ Szybkość]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Speed]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1540
+  skrypt: geologist_light
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3f777fbb3a8f87b997c0
+      kontekst: data.json:scripts.geologist_light.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A fancy high-tech electric light.
+      pl: Eleganckie wysokotechnologiczne światło elektryczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6bac0f1be48a21556869
+      kontekst: data.json:scripts.geologist_light.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about it
+      pl: Zapytaj o to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1541
+  skrypt: geologist_light2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e2965f6f7a39278eada1
+      kontekst: data.json:scripts.geologist_light2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Don't these new lamp things usually need to be plugged in to something?
+      pl: Te nowe lampy zwykle trzeba podłączać do czegoś, nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e39c7b94cf431df40cba
+      kontekst: data.json:scripts.geologist_light2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes, but I've modified these to run on ambient arcanolithic radiation.
+      pl: Tak, ale zmodyfikowałem je, żeby działały na otaczające promieniowanie arkanolityczne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_767a59a8bcb9169cdc4d
+      kontekst: data.json:scripts.geologist_light2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You can see how they work more reliably the closer they are to that dioritic resonator on the floor there.
+      pl: Widać, jak działają pewniej, im bliżej tamtego diorytowego rezonatora na podłodze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f686185934132ac178ad
+      kontekst: data.json:scripts.geologist_light2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes...  I understand this...
+      pl: Tak... Rozumiem to...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1542
+  skrypt: geologist_prizehole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1e612f489a1749d77a26
+      kontekst: data.json:scripts.geologist_prizehole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something shiny in this hole...
+      pl: W tej dziurze coś błyszczy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93037cddad8f38fa0da5
+      kontekst: data.json:scripts.geologist_prizehole.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Reach in and grab it
+      pl: Sięgnij i chwyć to
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_7cf79187e4dcf5c49012
+      kontekst: data.json:scripts.geologist_prizehole.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ooh, it's an especially shiny rock!
+      pl: Och, to wyjątkowo błyszczący kamień!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nothin
+    wpisy:
+    - id: wol_6d2013df30e15a5d9994
+      kontekst: data.json:scripts.geologist_prizehole.nothin
+      linia: 4
+      sekcja_skryptu: nothin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing left in this hole except a hexagonal volume of air.
+      pl: W dole nie zostało nic poza heksagonalną objętością powietrza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1543
+  skrypt: geologist_quarry3switch
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ca51e23a9a364f7fbfa7
+      kontekst: data.json:scripts.geologist_quarry3switch.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing is bristling with arcane power.
+      pl: Ta rzecz kipi od mocy tajemnej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_quarry3switch.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_quarry3switch.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1544
+  skrypt: geologist_rightobstacle
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_897c6cc971b4579f9157
+      kontekst: data.json:scripts.geologist_rightobstacle.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's dangerous from this side too.
+      pl: Z tej strony też jest niebezpiecznie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9249fe4f12cbf990ebe
+      kontekst: data.json:scripts.geologist_rightobstacle.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Run back through [$diff$ Speed]
+      pl: Przebiegnij z powrotem [$diff$ Szybkość]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Speed]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9249fe4f12cbf990ebe
+      kontekst: data.json:scripts.geologist_rightobstacle.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Run back through [$diff$ Speed]
+      pl: Przebiegnij z powrotem [$diff$ Szybkość]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$diff$ Speed]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1547
+  skrypt: geologist_switch1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_ca51e23a9a364f7fbfa7
+      kontekst: data.json:scripts.geologist_switch1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing is bristling with arcane power.
+      pl: Ta rzecz kipi od mocy tajemnej.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_switch1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_switch1.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1548
+  skrypt: geologist_switch2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_37d35b370ec07097b194
+      kontekst: data.json:scripts.geologist_switch2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This thing is bristling with the same arcane power as the first one you messed with.
+      pl: Ta rzecz kipi od tej samej mocy tajemnej co pierwsza, którą ruszyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_switch2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nothing
+    wpisy:
+    - id: wol_11cd777d57a08c9e774a
+      kontekst: data.json:scripts.geologist_switch2.nothing
+      linia: 3
+      sekcja_skryptu: nothing
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm.  Nothing happens.
+      pl: Hmm. Nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_60d4b1bdb7be21d90f4c
+      kontekst: data.json:scripts.geologist_switch2.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Touch it [$diff$ Mysticality]
+      pl: Dotknij tego [$diff$ Mistycyzm]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[$diff$ Mysticality]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1549
+  skrypt: geologist_tunnel1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_aecc43e43199be4302aa
+      kontekst: data.json:scripts.geologist_tunnel1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This tunnel is conveniently 80% as tall as you.
+      pl: Ten tunel ma wygodnie 80% twojej wysokości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a26b75ba1530b9e922b
+      kontekst: data.json:scripts.geologist_tunnel1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Duck through it
+      pl: Przeczołgaj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1629
+  skrypt: hallowaystore_store
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: pickaxe
+    wpisy:
+    - id: wol_45aca93056193ea3c40e
+      kontekst: data.json:scripts.hallowaystore_store.pickaxe
+      linia: 18
+      sekcja_skryptu: pickaxe
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: No...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: garyh
+    wpisy:
+    - id: wol_aa36af440b39064b628e
+      kontekst: data.json:scripts.pardner_talk.garyh
+      linia: 188
+      sekcja_skryptu: garyh
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: A what now?
+      pl: Co takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_bigapple
+    wpisy:
+    - id: wol_45aca93056193ea3c40e
+      kontekst: data.json:scripts.pardner_talk.gary_bigapple
+      linia: 3
+      sekcja_skryptu: gary_bigapple
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: No...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2274
+  skrypt: re_aaa_fighttemplate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.re_aaa_fighttemplate.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2281
+  skrypt: re_banditambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_aa36af440b39064b628e
+      kontekst: data.json:scripts.re_banditambush.intim
+      linia: 15
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A what now?
+      pl: Co takiego?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hornswoggle
+    wpisy:
+    - id: wol_45aca93056193ea3c40e
+      kontekst: data.json:scripts.re_banditambush.hornswoggle
+      linia: 37
+      sekcja_skryptu: hornswoggle
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: No...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2291
+  skrypt: re_bandite1
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.re_bandite1.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2325
+  skrypt: re_cultistsa
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.re_cultistsa.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2365
+  skrypt: re_gobline1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: talk
+    wpisy:
+    - id: wol_32c3c5f9e4a7ae2e6e88
+      kontekst: data.json:scripts.re_gobline1.talk
+      linia: 20
+      sekcja_skryptu: talk
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Fight 'em [Fight]
+      pl: Wal z nimi [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intim
+    wpisy:
+    - id: wol_1408751e5c7a5ab65833
+      kontekst: data.json:scripts.re_gobline1.intim
+      linia: 23
+      sekcja_skryptu: intim
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh yeah?
+      pl: A tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2630
+  skrypt: train_passenter5b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_45aca93056193ea3c40e
+      kontekst: data.json:scripts.train_passenter5b.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well...
+      pl: No...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

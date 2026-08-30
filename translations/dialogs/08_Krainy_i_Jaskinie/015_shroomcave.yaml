@@ -1,0 +1,670 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: shroomcave
+zrodlowy_batch: 105_dialog_loc_shroomcave_shroomcave.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 11
+liczba_wpisow: 34
+sceny:
+- kolejnosc_w_danych_gry: 2484
+  skrypt: shroomcave_bonespile
+  pomieszczenie: &id001
+    id: shroomcave
+    nazwa_en: Shroomcave
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d4072276c8bccfa3c26c
+      kontekst: data.json:scripts.shroomcave_bonespile.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This pile of bones is wearing some shredded necromancer cultist clothes.
+      pl: Ta sterta kości ma na sobie podarte szaty nekromantycznego kultysty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loot
+    wpisy:
+    - id: wol_eb325b56209528db90ca
+      kontekst: data.json:scripts.shroomcave_bonespile.loot
+      linia: 3
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab everything that isn't nailed to the bones, and then you grab the bones.
+      pl: Chwytasz wszystko, co nie jest przybite do kości, a potem chwytasz kości.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadygot
+    wpisy:
+    - id: wol_46bcc278c8efbfa485b3
+      kontekst: data.json:scripts.shroomcave_bonespile.alreadygot
+      linia: 11
+      sekcja_skryptu: alreadygot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like Grutch came through here after you did, and wrote the last chapter in this cultist's book.
+      pl: Wygląda na to, że Grutch przeszedł tu po tobie i dopisał ostatni rozdział w książce tego kultysty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2485
+  skrypt: shroomcave_cultist
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a4dc5db8806722a1befc
+      kontekst: data.json:scripts.shroomcave_cultist.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This cultist is totally zonked out.
+      pl: Ten kultysta jest totalnie odurzony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_5e1b940fc38663835fe9
+      kontekst: data.json:scripts.shroomcave_cultist.already
+      linia: 3
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's in a better place now. At least as far as you're concerned.
+      pl: Jest teraz w lepszym miejscu. Przynajmniej z twojego punktu widzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ffd90faf7c058681196
+      kontekst: data.json:scripts.shroomcave_cultist.already
+      linia: 4
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You don't even want to think about what this guy's hallucinations are like.
+      pl: Nawet nie chcesz myśleć, jak wyglądają halucynacje tego gościa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2486
+  skrypt: shroomcave_cultist2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5e1cb0a227b71dc0b7cc
+      kontekst: data.json:scripts.shroomcave_cultist2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The cultist is muttering and twitching in his sleep.
+      pl: Kultysta mamrocze i drga we śnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9eff1bfb43b5de0172e5
+      kontekst: data.json:scripts.shroomcave_cultist2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Mushroom crumbs litter the floor around him.
+      pl: Wokół niego na podłodze leżą okruszki grzybów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb827e3cc0c2aadb55c4
+      kontekst: data.json:scripts.shroomcave_cultist2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Put him down [Ruthless]
+      pl: Zlikwiduj go [Bezwzględny]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Ruthless]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: kill
+    wpisy:
+    - id: wol_97842220384b0d1e7374
+      kontekst: data.json:scripts.shroomcave_cultist2.kill
+      linia: 4
+      sekcja_skryptu: kill
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You put a bullet in him. Specifically the brain part of him.
+      pl: Wkładasz w niego pocisk. Konkretnie w część mózgową.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e330b32517ff87cef9fb
+      kontekst: data.json:scripts.shroomcave_cultist2.kill
+      linia: 5
+      sekcja_skryptu: kill
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: And then you grab his belongings.
+      pl: A potem zabierasz jego rzeczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_df26cc872565d54c0f31
+      kontekst: data.json:scripts.shroomcave_cultist2.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loot his belongings
+      pl: Przeszukaj jego dobytek
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loot
+    wpisy:
+    - id: wol_94bccc1bc10845f06a40
+      kontekst: data.json:scripts.shroomcave_cultist2.loot
+      linia: 14
+      sekcja_skryptu: loot
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab everything that isn't nailed to him.
+      pl: Chwytasz wszystko, co nie jest do niego przybite.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2489
+  skrypt: shroomcave_fakedoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_28ae05501637b1c774af
+      kontekst: data.json:scripts.shroomcave_fakedoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It seems like maybe there's a tunnel here, but your eyes can't focus on it right. Like it's slightly out of phase with reality, or something crazy like that.
+      pl: Wygląda, jakby tu był tunel, ale oczy nie mogą się na nim skupić. Jakby był trochę nie w fazie z rzeczywistością, czy coś w tym stylu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2490
+  skrypt: shroomcave_jellycrate
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6fe142c7e7945b8238fb
+      kontekst: data.json:scripts.shroomcave_jellycrate.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's Roy Bean's Beans!
+      pl: To Fasola Roy Bean!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grab
+    wpisy:
+    - id: wol_c80ae656c6872bc21336
+      kontekst: data.json:scripts.shroomcave_jellycrate.grab
+      linia: 3
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Yoink! They do look pretty cool under the blacklight, you have to admit.
+      pl: Yoink! Pod czarnym światłem wyglądają całkiem fajnie, musisz przyznać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2491
+  skrypt: shroomcave_knapsack
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_cbe1baa5f291bed49b14
+      kontekst: data.json:scripts.shroomcave_knapsack.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Someone lost a very dirty knapsack.
+      pl: Ktoś zgubił bardzo brudny plecak.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: investigate
+    wpisy:
+    - id: wol_3dbc9d95d9fdfa33806f
+      kontekst: data.json:scripts.shroomcave_knapsack.investigate
+      linia: 3
+      sekcja_skryptu: investigate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It contains some loose bits of granola and some very, very dirty clothes.
+      pl: W środku jest trochę luźnych okruszków granoli i bardzo, bardzo brudne ubrania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6bd7411dc53d1e95ab7
+      kontekst: data.json:scripts.shroomcave_knapsack.investigate
+      linia: 4
+      sekcja_skryptu: investigate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh, and a map!
+      pl: O, i mapa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2492
+  skrypt: shroomcave_lavalamp
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_9005211120a073c7bb7b
+      kontekst: data.json:scripts.shroomcave_lavalamp.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: What a strange lamp.
+      pl: Co za dziwna lampa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_575ab346167f6133ff77
+      kontekst: data.json:scripts.shroomcave_lavalamp.take
+      linia: 3
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You stow it in your pack. Fortunately, it isn't real lava.
+      pl: Chowasz to do plecaka. Na szczęście to nie prawdziwa lawa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2493
+  skrypt: shroomcave_loungeenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_c4e908db73d79b3ec4dd
+      kontekst: data.json:scripts.shroomcave_loungeenter.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have to kind of unfocus your eyes to get through the tunnel, like one of those magic eye paintings. But you manage it, and enter a room that can only be described as "groovy".
+      pl: Musisz trochę rozmyć wzrok, żeby przejść tunelem, jak przy tych obrazkach magic eye. Ale ci się udaje i wchodzisz do pokoju, który można opisać tylko jako „groovy”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2495
+  skrypt: shroomcave_shroom1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b1ea59eb6e96629422ad
+      kontekst: data.json:scripts.shroomcave_shroom1.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You recognize this!  It's a the extremely hallucinogenic <i>Lactarius Dirtihippica</i>!
+      pl: Rozpoznajesz to! To niezwykle halucynogenny <i>Lactarius Dirtihippica</i>!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9baf96967120e5d1551
+      kontekst: data.json:scripts.shroomcave_shroom1.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Harvest it! [using mushroom pliers]
+      pl: Zbierz to! [szczypcami do grzybów]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[using mushroom pliers]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_8c7e0285cafab542d2a1
+      kontekst: data.json:scripts.shroomcave_shroom1.pick
+      linia: 3
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully pluck the <i>Lactarius Dirtihippica</i> out of the ground and stow it away.
+      pl: Ostrożnie wyrywasz <i>Lactarius Dirtihippica</i> z ziemi i chowasz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_3489b562e3e9569aa641
+      kontekst: data.json:scripts.shroomcave_shroom1.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Harvest it! [you don't have the proper tools]
+      pl: Zbierz je! [Nie masz odpowiednich narzędzi]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[you don''t have the proper tools]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2496
+  skrypt: shroomcave_shroom2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b1ea59eb6e96629422ad
+      kontekst: data.json:scripts.shroomcave_shroom2.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You recognize this!  It's a the extremely hallucinogenic <i>Lactarius Dirtihippica</i>!
+      pl: Rozpoznajesz to! To niezwykle halucynogenny <i>Lactarius Dirtihippica</i>!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9baf96967120e5d1551
+      kontekst: data.json:scripts.shroomcave_shroom2.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Harvest it! [using mushroom pliers]
+      pl: Zbierz to! [szczypcami do grzybów]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[using mushroom pliers]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_8c7e0285cafab542d2a1
+      kontekst: data.json:scripts.shroomcave_shroom2.pick
+      linia: 3
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully pluck the <i>Lactarius Dirtihippica</i> out of the ground and stow it away.
+      pl: Ostrożnie wyrywasz <i>Lactarius Dirtihippica</i> z ziemi i chowasz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_3489b562e3e9569aa641
+      kontekst: data.json:scripts.shroomcave_shroom2.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Harvest it! [you don't have the proper tools]
+      pl: Zbierz je! [Nie masz odpowiednich narzędzi]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[you don''t have the proper tools]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2497
+  skrypt: shroomcave_shroom3
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b1ea59eb6e96629422ad
+      kontekst: data.json:scripts.shroomcave_shroom3.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You recognize this!  It's a the extremely hallucinogenic <i>Lactarius Dirtihippica</i>!
+      pl: Rozpoznajesz to! To niezwykle halucynogenny <i>Lactarius Dirtihippica</i>!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9baf96967120e5d1551
+      kontekst: data.json:scripts.shroomcave_shroom3.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Harvest it! [using mushroom pliers]
+      pl: Zbierz to! [szczypcami do grzybów]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[using mushroom pliers]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pick
+    wpisy:
+    - id: wol_8c7e0285cafab542d2a1
+      kontekst: data.json:scripts.shroomcave_shroom3.pick
+      linia: 3
+      sekcja_skryptu: pick
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You carefully pluck the <i>Lactarius Dirtihippica</i> out of the ground and stow it away.
+      pl: Ostrożnie wyrywasz <i>Lactarius Dirtihippica</i> z ziemi i chowasz.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_3489b562e3e9569aa641
+      kontekst: data.json:scripts.shroomcave_shroom3.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Harvest it! [you don't have the proper tools]
+      pl: Zbierz je! [Nie masz odpowiednich narzędzi]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[you don''t have the proper tools]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

@@ -1,0 +1,966 @@
+schema_version: 1
+dzial:
+  numer: '06'
+  nazwa: Rancza
+grupa_lokacji_lub_systemu: butterfield_ranch
+zrodlowy_batch: 098_dialog_loc_ranch3_butterfield_ranch.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 19
+liczba_wpisow: 50
+sceny:
+- kolejnosc_w_danych_gry: 1000009
+  skrypt: house_airbnbookshelf
+  pomieszczenie: &id001
+    id: ranch3
+    nazwa_en: Butterfield Ranch
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_04ea0beedc5647d2d7c2
+      kontekst: house.json:scripts.house_airbnbookshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate it
+      pl: Zbadaj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000033
+  skrypt: house_canshelf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_91ccbd57e72d4b855fff
+      kontekst: house.json:scripts.house_canshelf.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait a second...
+      pl: Chwila...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2193
+  skrypt: ranch3_barn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_56cb995144881d5254a0
+      kontekst: data.json:scripts.ranch3_barn.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The barn door is locked.
+      pl: Drzwi stodoły są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2194
+  skrypt: ranch3_churn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: begin
+    wpisy:
+    - id: wol_12af8a1d8a0aafdd27cb
+      kontekst: data.json:scripts.ranch3_churn.begin
+      linia: 1
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have nothing to churn.
+      pl: Nie masz czego ubijać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7eb8a06aed6c71f5f917
+      kontekst: data.json:scripts.ranch3_churn.begin
+      linia: 2
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have one bottle of cow's milk.
+      pl: Masz jedną butelkę mleka krowiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5a4cef0c6bac9062e478
+      kontekst: data.json:scripts.ranch3_churn.begin
+      linia: 3
+      sekcja_skryptu: begin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have $milks$ bottles of cow's milk.
+      pl: Masz $milks$ butelek mleka krowiego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $milks$
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a72ddcea50bad798e17
+      kontekst: data.json:scripts.ranch3_churn.begin
+      linia: 4
+      sekcja_skryptu: begin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Make some butter.
+      pl: Zrób trochę masła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: churn
+    wpisy:
+    - id: wol_ea7ae47ac74ca8767e0a
+      kontekst: data.json:scripts.ranch3_churn.churn
+      linia: 5
+      sekcja_skryptu: churn
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Churn, churn, churn!
+      pl: Miel, miel, miel!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2195
+  skrypt: ranch3_cowguard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_a434627c25794249370a
+      kontekst: data.json:scripts.ranch3_cowguard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're gonna have to deal with this cow if you want to explore this area.
+      pl: Musisz zająć się tą krową, jeśli chcesz zbadać ten obszar.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29bbd2524997081f5ddf
+      kontekst: data.json:scripts.ranch3_cowguard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm not ready yet
+      pl: Jeszcze nie jestem gotowy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_a729b95b42d50f3cb223
+      kontekst: data.json:scripts.ranch3_cowguard.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You banished that demonic cow from this realm.  Git thee hence, little dogie!
+      pl: Wypędziłeś tę demoniczną krowę z tego wymiaru. Precz stąd, mała krowo!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e791599a800889b4401
+      kontekst: data.json:scripts.ranch3_cowguard.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cow with your trusty knife.
+      pl: Obdzierasz krowę swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_72b76574a8152152d734
+      kontekst: data.json:scripts.ranch3_cowguard.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Seems your eyes were bigger than your fists, when it came to that particular piece of beef.
+      pl: Wygląda na to, że oczy miałeś większe niż pięści, jeśli chodzi o ten konkretny kawał wołowiny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2197
+  skrypt: ranch3_getmilk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_770f09f900bf40d687af
+      kontekst: data.json:scripts.ranch3_getmilk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Jars of milk.  Mostly evaporated.
+      pl: Słoiki mleka. W większości odparowane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d2cd68cbba89e14755a0
+      kontekst: data.json:scripts.ranch3_getmilk.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Salvage what you can
+      pl: Zabierz, co się da
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: get
+    wpisy:
+    - id: wol_24d6e8b7c798e01829e4
+      kontekst: data.json:scripts.ranch3_getmilk.get
+      linia: 3
+      sekcja_skryptu: get
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You manage to gather up three jars worth.
+      pl: Udaje ci się zebrać na trzy słoiki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2198
+  skrypt: ranch3_hearth
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_762c658abd5d72517547
+      kontekst: data.json:scripts.ranch3_hearth.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's something buried in the smoldering embers...
+      pl: W tlących się żarach coś zakopane...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a426d43b7642c31eca24
+      kontekst: data.json:scripts.ranch3_hearth.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig in
+      pl: Jedz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2199
+  skrypt: ranch3_lithcollider
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d548dfffd7f47635a1ee
+      kontekst: data.json:scripts.ranch3_lithcollider.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: To your horror, you see that every single cow in the Butterfield dairy herd is now an ungulith -- an infernal cow spirit bound in stone.
+      pl: Ku twojemu przerażeniu widzisz, że każda krowa ze stada mlecznego Butterfield to teraz ungulith — piekielny duch krowy uwięziony w kamieniu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_295d4dd68ae34d706776
+      kontekst: data.json:scripts.ranch3_lithcollider.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: They're not dangerous... unless you get near them.
+      pl: Nie są niebezpieczne... chyba że się do nich zbliżysz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_a32f2f116a30bc48f090
+      kontekst: data.json:scripts.ranch3_lithcollider.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk among them [Fight]
+      pl: Przejdź wśród nich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_a32f2f116a30bc48f090
+      kontekst: data.json:scripts.ranch3_lithcollider.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Walk among them [Fight]
+      pl: Przejdź wśród nich [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_76531f41320f63086018
+      kontekst: data.json:scripts.ranch3_lithcollider.hardstart
+      linia: 6
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice in your head suggests that you should take a break from fighting any more unguliths until tomorrow.
+      pl: Głos w twojej głowie sugeruje, że powinieneś zrobić przerwę od walki z kolejnymi ungulithami do jutra.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_040e5d5b86cda40a8662
+      kontekst: data.json:scripts.ranch3_lithcollider.already
+      linia: 8
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There are still an effectively infinite number of unguliths here.
+      pl: Nadal jest tu skutecznie nieskończenie wiele ungulithów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_7bdb25d01b4904a62d81
+      kontekst: data.json:scripts.ranch3_lithcollider.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You thinned the herd a little.  Not enough.  It can never be enough.
+      pl: Przerzedziłeś stado trochę. Za mało. Nigdy nie będzie wystarczająco.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_aae3e6666d39f2efcdd1
+      kontekst: data.json:scripts.ranch3_lithcollider.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The demonic cow spirits bound in stone were more than you could handle.
+      pl: Demoniczne duchy krów uwięzione w kamieniu okazały się ponad twoje siły.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2202
+  skrypt: ranch3_outhose
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_33fa42e8b94893ef116e
+      kontekst: data.json:scripts.ranch3_outhose.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an outhouse.  It is not worth messing with.
+      pl: To sławojka. Nie warto się z nią babrać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: interested
+    wpisy:
+    - id: wol_5ff92fe1dee4032dadfb
+      kontekst: data.json:scripts.ranch3_outhose.interested
+      linia: 2
+      sekcja_skryptu: interested
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice some words carved into the side of the outhouse.  "Curly Wuz Here."
+      pl: Zauważasz słowa wyryte z boku wychodka. „Curly Wuz Here.”
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_91ccbd57e72d4b855fff
+      kontekst: data.json:scripts.ranch3_outhose.interested
+      linia: 3
+      sekcja_skryptu: interested
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wait a second...
+      pl: Chwila...
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lookagain
+    wpisy:
+    - id: wol_f09703ee638073e5ba72
+      kontekst: data.json:scripts.ranch3_outhose.lookagain
+      linia: 4
+      sekcja_skryptu: lookagain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the door and look at the map again.
+      pl: Otwierasz drzwi i znowu patrzysz na mapę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cfec213772afd9d5d7d0
+      kontekst: data.json:scripts.ranch3_outhose.lookagain
+      linia: 5
+      sekcja_skryptu: lookagain
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It still leads to Kaye Ridge Mine, and it still shows a big X in the middle of three weird triangular shapes.
+      pl: Nadal prowadzi do kopalni Kaye Ridge i nadal pokazuje wielkie X pośrodku trzech dziwnych trójkątnych kształtów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2203
+  skrypt: ranch3_outhouse2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_e0d0db0d24251203de66
+      kontekst: data.json:scripts.ranch3_outhouse2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You recognize that name.  Curly.  Curly Butterfield.  The Legend of Curly's Meat!
+      pl: Rozpoznajesz to imię. Curly. Curly Butterfield. Legenda Mięsa Curly'ego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_93cf6f235c4d155a0e0e
+      kontekst: data.json:scripts.ranch3_outhouse2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like maybe this outhouse <i>is</i> worth investigating.
+      pl: Wygląda na to, że ten wychodek <i>jednak</i> jest wart zbadania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04ea0beedc5647d2d7c2
+      kontekst: data.json:scripts.ranch3_outhouse2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate it
+      pl: Zbadaj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: goin
+    wpisy:
+    - id: wol_7bc65f7100a66490485f
+      kontekst: data.json:scripts.ranch3_outhouse2.goin
+      linia: 4
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Luckily, you don't have to actually go inside the outhouse, because once you open the door you find a map scratched onto the inside of it.
+      pl: Na szczęście nie musisz faktycznie wchodzić do wychodka — wystarczy, że otworzysz drzwi i znajdziesz mapę zarysowaną od środka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_43e2a81d643e99c3af7c
+      kontekst: data.json:scripts.ranch3_outhouse2.goin
+      linia: 5
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It appears to lead to Kaye Ridge Mine, just west of where you are right now.
+      pl: Wygląda na to, że prowadzi do kopalni Kaye Ridge, tuż na zachód od miejsca, w którym teraz jesteś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_31507a8ac648fd5e6480
+      kontekst: data.json:scripts.ranch3_outhouse2.goin
+      linia: 6
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The map reveals the location of a mine just west of the ranch, labeled Kaye Ridge.
+      pl: Mapa ujawnia lokalizację kopalni tuż na zachód od rancza, oznaczonej Kaye Ridge.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_80811efff678cf8b0b82
+      kontekst: data.json:scripts.ranch3_outhouse2.goin
+      linia: 7
+      sekcja_skryptu: goin
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's an inset map of the mine itself, with a big X scrawled between three strange triangular icons.
+      pl: W środku mapa kopalni z wielkim X między trzema dziwnymi trójkątnymi symbolami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7247e1639683151879e
+      kontekst: data.json:scripts.ranch3_outhouse2.goin
+      linia: 8
+      sekcja_skryptu: goin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious.
+      pl: Ciekawe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2204
+  skrypt: ranch3_ropefence
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a39eba67053d3c061e13
+      kontekst: data.json:scripts.ranch3_ropefence.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a rope tied to the fencepost here.
+      pl: Do słupka ogrodzenia przywiązana jest lina.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2205
+  skrypt: ranch3_toybox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_5f1674a81c96f4e4465d
+      kontekst: data.json:scripts.ranch3_toybox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's an old toybox.
+      pl: To stara skrzynia z zabawkami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_b8fb35980cc4ffe17494
+      kontekst: data.json:scripts.ranch3_toybox.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's full of toy skeletons!
+      pl: Pełen szkieletów-zabawek!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2226
+  skrypt: ranch5_barndoor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_56cb995144881d5254a0
+      kontekst: data.json:scripts.ranch5_barndoor.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The barn door is locked.
+      pl: Drzwi stodoły są zamknięte.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2309
+  skrypt: re_cowa2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_6e791599a800889b4401
+      kontekst: data.json:scripts.re_cowa2.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cow with your trusty knife.
+      pl: Obdzierasz krowę swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2310
+  skrypt: re_cowambush
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_6e791599a800889b4401
+      kontekst: data.json:scripts.re_cowambush.win
+      linia: 3
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cow with your trusty knife.
+      pl: Obdzierasz krowę swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2311
+  skrypt: re_cowb1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_6e791599a800889b4401
+      kontekst: data.json:scripts.re_cowb1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cow with your trusty knife.
+      pl: Obdzierasz krowę swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2317
+  skrypt: re_cowe1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_6e791599a800889b4401
+      kontekst: data.json:scripts.re_cowe1.win
+      linia: 2
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You skin the cow with your trusty knife.
+      pl: Obdzierasz krowę swoim wiernym nożem.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2472
+  skrypt: roybean_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_04ea0beedc5647d2d7c2
+      kontekst: data.json:scripts.roybean_spittoon.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate it
+      pl: Zbadaj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2507
+  skrypt: silversmith_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_04ea0beedc5647d2d7c2
+      kontekst: data.json:scripts.silversmith_spittoon.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate it
+      pl: Zbadaj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_04ea0beedc5647d2d7c2
+      kontekst: data.json:scripts.silversmith_spittoon.two
+      linia: 4
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Investigate it
+      pl: Zbadaj to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

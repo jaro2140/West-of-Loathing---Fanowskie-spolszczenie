@@ -1,0 +1,4531 @@
+schema_version: 1
+dzial:
+  numer: '03'
+  nazwa: Cmentarze
+grupa_lokacji_lub_systemu: military_cemetery
+zrodlowy_batch: 042_dialog_loc_cemetery4_military_cemetery.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 24
+liczba_wpisow: 269
+sceny:
+- kolejnosc_w_danych_gry: 408
+  skrypt: cemetery4_goblin
+  pomieszczenie: &id001
+    id: cemetery4
+    nazwa_en: Military Cemetery
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 18
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_7a57f099ee33011afdfc
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This goblin is roasting a weenie over the eternal flame.
+      pl: Goblin piecze parówkę nad wiecznym płomieniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3862c77ffa2e04e655f3
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I am pretty sure you're not supposed to do that.
+      pl: Jestem raczej pewien, że nie powinieneś tego robić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca7cab226fdfb9eac1c6
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: No? Is good fire! Not to wasting it!
+      pl: Nie? To dobry ogień! Nie marnować go!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9bab884d621b3714f49
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let Gary handle this
+      pl: Niech Gary to ogarnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: garytalk
+    wpisy:
+    - id: wol_f81a9fc0de4854e796ce
+      kontekst: data.json:scripts.cemetery4_goblin.garytalk
+      linia: 6
+      sekcja_skryptu: garytalk
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary ambles over and chats with the goblin. Both their attitudes toward the whole thing seem to be basically "Hey, why not?"
+      pl: 'Gary podchodzi powoli i gawędzi z goblinem. Oboje wobec całej tej sytuacji wydają się myśleć w zasadzie: „Hej, czemu nie?”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5ddc9ae5eabe663b03fd
+      kontekst: data.json:scripts.cemetery4_goblin.garytalk
+      linia: 7
+      sekcja_skryptu: garytalk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, they asking if wanting buying a weenie?
+      pl: Hej, oni pytać, czy chcieć kupić kiełbaskę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buyoptions
+    wpisy:
+    - id: wol_e7510a1bd841915edcb8
+      kontekst: data.json:scripts.cemetery4_goblin.buyoptions
+      linia: 8
+      sekcja_skryptu: buyoptions
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy a bratwurst [50 Meat]
+      pl: Kup parówkę [50 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[50 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8b450efe7030aec7bbc
+      kontekst: data.json:scripts.cemetery4_goblin.buyoptions
+      linia: 10
+      sekcja_skryptu: buyoptions
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy a bratwurst [Requires 50 Meat]
+      pl: Kup bratwursta [Wymaga 50 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 50 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c8f9374f49b0aed8215
+      kontekst: data.json:scripts.cemetery4_goblin.buyoptions
+      linia: 11
+      sekcja_skryptu: buyoptions
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nah.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nah
+    wpisy:
+    - id: wol_cb7f058f5b8cf2e7960d
+      kontekst: data.json:scripts.cemetery4_goblin.nah
+      linia: 13
+      sekcja_skryptu: nah
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary shrugs and waves bye to the goblin.
+      pl: Gary wzrusza ramionami i macha goblinowi na pożegnanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08dd49f4001bb29f4ef3
+      kontekst: data.json:scripts.cemetery4_goblin.nah
+      linia: 14
+      sekcja_skryptu: nah
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The goblin shrugs and continues roasting his weenie.
+      pl: Goblin wzrusza ramionami i dalej opieka swoją parówkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_595c2434e83d0c7e6458
+      kontekst: data.json:scripts.cemetery4_goblin.start
+      linia: 17
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Talk to him [Goblintongue]
+      pl: Porozmawiaj z nim [Goblińska mowa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Goblintongue]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: youtalk
+    wpisy:
+    - id: wol_447b15512fed3deaf8d9
+      kontekst: data.json:scripts.cemetery4_goblin.youtalk
+      linia: 18
+      sekcja_skryptu: youtalk
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, but this is special fire. It's a special memorial thing. It's not meant for roasting weenies.
+      pl: Tak, ale to specjalny ogień. To coś specjalnego. Nie jest przeznaczony do pieczenia parówek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f2be87e554566a20b79
+      kontekst: data.json:scripts.cemetery4_goblin.youtalk
+      linia: 19
+      sekcja_skryptu: youtalk
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Is very good at roasting, though! Crisp, but juicing! You wanting buying one?
+      pl: Ale bardzo dobre do pieczenia! Chrupkie, ale soczące! Chcieć kupić jedno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_7d0ac4384d43abb10864
+      kontekst: data.json:scripts.cemetery4_goblin.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You teach the goblin not to play with fire. At least not special commemorative fire, and not while you're around.
+      pl: Uczysz goblina, żeby nie bawił się ogniem. Przynajmniej nie specjalnym pamiątkowym ogniem i nie, gdy jesteś w pobliżu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_d7389cb3055b28f53784
+      kontekst: data.json:scripts.cemetery4_goblin.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You played with fire, and you got burned.
+      pl: Bawiłeś się ogniem i się poparzyłeś.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_c787998bd0c4660a576b
+      kontekst: data.json:scripts.cemetery4_goblin.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sizzle.
+      pl: Skwierczenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 409
+  skrypt: cemetery4_investigateshed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 19
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_11d00df298b0f74c80fa
+      kontekst: data.json:scripts.cemetery4_investigateshed.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You poke around in the shed. The caretaker appears to have been shirking his duties for quite a while, judging by the dust and cobwebs.
+      pl: Grzebiesz w szopie. Opiekun najwyraźniej od dawna zaniedbuje obowiązki, sądząc po kurzu i pajęczynach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b568b5a2ddc2161fe47
+      kontekst: data.json:scripts.cemetery4_investigateshed.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Looks like the Mayor was right about him having wandered off. Guess you're gonna have to fetch him back here to do his job.
+      pl: Wygląda na to, że burmistrz miał rację co do tego, że się gdzieś zapodział. Chyba będziesz musiał go stąd sprowadzić, żeby robił swoją robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsthub
+    wpisy:
+    - id: wol_58ad64a3ddbbc0c134f1
+      kontekst: data.json:scripts.cemetery4_investigateshed.firsthub
+      linia: 3
+      sekcja_skryptu: firsthub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at the tools
+      pl: Spójrz na narzędzia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv1
+    wpisy:
+    - id: wol_1c9f362c9865bd09f4ae
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv1
+      linia: 4
+      sekcja_skryptu: inv1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, tool singular. There's a shovel here.
+      pl: No, narzędzie w liczbie pojedynczej. Jest tu łopata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grabshovel
+    wpisy:
+    - id: wol_e4fe47eafd16c8ca6b19
+      kontekst: data.json:scripts.cemetery4_investigateshed.grabshovel
+      linia: 6
+      sekcja_skryptu: grabshovel
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the shovel and cram it in your pack.
+      pl: Chwytasz łopatę i wciskasz ją do plecaka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_53d99d8f76bbc17a1aaf
+      kontekst: data.json:scripts.cemetery4_investigateshed.hub
+      linia: 8
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You continue to poke around in the shed.
+      pl: Dalej grzebiesz w szopie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv1
+    wpisy:
+    - id: wol_093ce0c06e8669770156
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv1
+      linia: 9
+      sekcja_skryptu: inv1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Since you already have a shovel, you leave it alone. It's not like you'd be able to dig twice as fast.
+      pl: Skoro masz już łopatę, zostawiasz ją w spokoju. I tak nie kopniesz dwa razy szybciej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dc10c33179282bc308e3
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv1
+      linia: 10
+      sekcja_skryptu: inv1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: 'True'
+      pl: Prawda
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsthub
+    wpisy:
+    - id: wol_f761cf3ccccca588cc32
+      kontekst: data.json:scripts.cemetery4_investigateshed.firsthub
+      linia: 11
+      sekcja_skryptu: firsthub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look under the chair
+      pl: Zajrzyj pod krzesło
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv2
+    wpisy:
+    - id: wol_740717106a8ee035d0f2
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv2
+      linia: 12
+      sekcja_skryptu: inv2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Like all chairs owned by one guy, it has years worth of lint and food crumbs underneath it.
+      pl: Jak każde krzesło należące do jednego faceta — pod spodem lata nagromadzonego kurzu i okruszków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsthub
+    wpisy:
+    - id: wol_6bf8716fdfa83032cc49
+      kontekst: data.json:scripts.cemetery4_investigateshed.firsthub
+      linia: 14
+      sekcja_skryptu: firsthub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Scope out the desk
+      pl: Rozejrzyj biurko
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv3
+    wpisy:
+    - id: wol_45c16373397a4a999bba
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv3
+      linia: 15
+      sekcja_skryptu: inv3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's covered with old paint-spattered newspapers, and features a large collection of tiny jars of paint, as well as a jar of fine-tipped brushes, a can of thinner, and a stack of history books.
+      pl: Pokryte starymi gazetami poplamionymi farbą; stoi tu też spora kolekcja malutkich słoiczków z farbą, słoik z cienkimi pędzlami, puszka rozcieńczalnika i stos książek historycznych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aaa738b479c5accd44fa
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv3
+      linia: 16
+      sekcja_skryptu: inv3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious
+      pl: Ciekawe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: firsthub
+    wpisy:
+    - id: wol_2cd174f0a79050039585
+      kontekst: data.json:scripts.cemetery4_investigateshed.firsthub
+      linia: 17
+      sekcja_skryptu: firsthub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Check out at the flyers tacked to the wall
+      pl: Przeczytaj ulotki przybite do ściany
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv4
+    wpisy:
+    - id: wol_afdbf71340a5035872e3
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv4
+      linia: 18
+      sekcja_skryptu: inv4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing else interesting among flyers, just that notice about the "Military Re-enactment Enthusiasts Society" meetings at Fort Memoriam, where you think the caretaker might have gone.  Finding him seems like the surest way to clean this boneyard up.
+      pl: W ulotkach nic ciekawego — tylko ogłoszenie o spotkaniach „Military Re-enactment Enthusiasts Society” w Posterunku Pamięci, gdzie mógł pójść opiekun. Jego znalezienie to chyba najpewniejszy sposób posprzątać ten cmentarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1b5ea6c64d863d8a259f
+      kontekst: data.json:scripts.cemetery4_investigateshed.inv4
+      linia: 19
+      sekcja_skryptu: inv4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Back
+      pl: Wstecz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: findflyer
+    wpisy:
+    - id: wol_f4be450fd63f6f475cc2
+      kontekst: data.json:scripts.cemetery4_investigateshed.findflyer
+      linia: 20
+      sekcja_skryptu: findflyer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You find a flyer for a "Military Re-enactment Enthusiasts Society". Apparently they meet regularly at Fort Memoriam.
+      pl: Znajdujesz ulotkę „Military Re-enactment Enthusiasts Society”. Spotykają się regularnie w Posterunku Pamięci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18058a1e491c5281e9d3
+      kontekst: data.json:scripts.cemetery4_investigateshed.findflyer
+      linia: 21
+      sekcja_skryptu: findflyer
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Maybe that's where the caretaker went.
+      pl: Może tam poszedł opiekun.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hesback
+    wpisy:
+    - id: wol_9759198f9bb7794b22a7
+      kontekst: data.json:scripts.cemetery4_investigateshed.hesback
+      linia: 24
+      sekcja_skryptu: hesback
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The caretaker is sleeping off all that wargame adrenaline, it's probably best not to bother him.
+      pl: Opiekun śpi po całej tej wojennej adrenaliny — pewnie lepiej go nie niepokoić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 410
+  skrypt: cemetery4_pickplot
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 205
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1878259d79db2c531e34
+      kontekst: data.json:scripts.cemetery4_pickplot.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Beyond this gate stand countless rows and columns of tombstones.
+      pl: Za tą bramą stoją niezliczone rzędy i kolumny nagrobków.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c1d6ea0322a1e096797
+      kontekst: data.json:scripts.cemetery4_pickplot.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, they're not actually countless.  I've counted them, and there are 999 of them.
+      pl: No, nie są tak naprawdę niezliczone. Policzyłem je i jest ich 999.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_84fb621a4612176dd519
+      kontekst: data.json:scripts.cemetery4_pickplot.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can visit an individual plot by number if you'd like.
+      pl: Możesz odwiedzić konkretną działkę po numerze, jeśli chcesz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_6b1eb508e876ffebec8d
+      kontekst: data.json:scripts.cemetery4_pickplot.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a plot
+      pl: Odwiedź działkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postprompt
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 1
+      sekcja_skryptu: postprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf59317c63934ce6a063
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 2
+      sekcja_skryptu: postprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>$rank$ $skelname$</b>
+      pl: <b>$rank$ $skelname$</b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - $rank$
+      - $skelname$
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea8861972a5454f4d9b2
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 3
+      sekcja_skryptu: postprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>$div$</b>
+      pl: <b>$div$</b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - $div$
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_45a518f42e67564eaa6d
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 4
+      sekcja_skryptu: postprompt
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%milcem_unquiet%'
+      pl: '%milcem_unquiet%'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%milcem_unquiet%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f27c6291aa96ad2c66bf
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 5
+      sekcja_skryptu: postprompt
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Dig it up [Fight]
+      pl: Wykop to [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00a526b32b3690ae0ccf
+      kontekst: data.json:scripts.cemetery4_pickplot.postprompt
+      linia: 6
+      sekcja_skryptu: postprompt
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig it up [Requires shovel]
+      pl: Wykop to [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optsrepeat
+    wpisy:
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.optsrepeat
+      linia: 7
+      sekcja_skryptu: optsrepeat
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alreadydid
+    wpisy:
+    - id: wol_6ce5ca52f70c74a7642f
+      kontekst: data.json:scripts.cemetery4_pickplot.alreadydid
+      linia: 9
+      sekcja_skryptu: alreadydid
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already visited that plot and done everything there is to do there.
+      pl: Już odwiedziłeś tę działkę i zrobiłeś wszystko, co można.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: zero
+    wpisy:
+    - id: wol_c64b9eeb47087ab86d73
+      kontekst: data.json:scripts.cemetery4_pickplot.zero
+      linia: 10
+      sekcja_skryptu: zero
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Army gravediggers didn't start indexing at zero.
+      pl: Wojskowi grabarze nie zaczynali indeksowania od zera.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz1
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 11
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6ab600acd252d69f471b
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 12
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Mjr. Samuel Less</b>
+      pl: <b>Mjr. Samuel Less</b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6389f6b6ae061fbf36ce
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 13
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>__th Telegraph Div.</b>
+      pl: <b>__. Dyw. Telegraficzna</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 14
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59467c0e1dfd469eec30
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 15
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Died of a broken heart</i></b>
+      pl: <b><i>Umarł ze złamanego serca</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_adcc532e7a2133c5a18c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 16
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>...  ---  .-.  .-.  ---  .--</i></b>
+      pl: <b><i>... --- .-. .-. --- .--</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81aa3f94bed82cfccc50
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 17
+      sekcja_skryptu: puzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice that someone left a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz, że ktoś zostawił na tym grobie kamień z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 18
+      sekcja_skryptu: puzz1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 19
+      sekcja_skryptu: puzz1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz1
+      linia: 20
+      sekcja_skryptu: puzz1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: necrotoken
+    wpisy:
+    - id: wol_ff39d63c31b2c7c950b3
+      kontekst: data.json:scripts.cemetery4_pickplot.necrotoken
+      linia: 21
+      sekcja_skryptu: necrotoken
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Next to that tombstone, you find a pile of refuse obviously left behind by one of the Necromancer's cultists.  In addition to being evil meddlers in dark forces best left unmeddled in, those jerks are real litterbugs!
+      pl: Obok tego nagrobka leży sterta śmieci, którą najwyraźniej zostawił jeden z kultystów Nekromanty. Oprócz tego, że to zli wtrącający się w mroczne moce, których lepiej nie tykać, ci łajdacy to prawdziwi bałaganiarze!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: optsagain
+    wpisy:
+    - id: wol_b3525f610e0dca73325a
+      kontekst: data.json:scripts.cemetery4_pickplot.optsagain
+      linia: 23
+      sekcja_skryptu: optsagain
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit another plot
+      pl: Odwiedź kolejną działkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d4508019419abc4a83c
+      kontekst: data.json:scripts.cemetery4_pickplot.optsagain
+      linia: 24
+      sekcja_skryptu: optsagain
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop looting graves
+      pl: Przestań plądrować groby
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz2
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 30
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a51cfff244293999435
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 31
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>1st Lt. Gal Hauteur</b>
+      pl: <b>Por. Gal Hauteur</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e2a9246f79e4872a5b0
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 32
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>___th Mathematics Div.</b>
+      pl: <b>___. Dyw. Matematyczna</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 33
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f070dd274ceb43c8d5d
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 34
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Believed these numbers</i></b>
+      pl: <b><i>Wierzył w te liczby</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e431dc782d1bda626514
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 35
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>held the secret to immortality</i></b>
+      pl: <b><i>posiadał sekret nieśmiertelności</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fb1d97dffea9a98f632c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 36
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>8  21  2  18  9  19</i></b>
+      pl: <b><i>8 21 2 18 9 19</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b229d1808e7a405d702f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 37
+      sekcja_skryptu: puzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz kamień na tym grobie z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 38
+      sekcja_skryptu: puzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 39
+      sekcja_skryptu: puzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz2
+      linia: 40
+      sekcja_skryptu: puzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz3
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 41
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5db978d1756ff7455a57
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 42
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Pvt. Erin Nyovan</b>
+      pl: <b>Szer. Erin Nyovan</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b9079871451a2ccc90f6
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 43
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>___th Trading Div.</b>
+      pl: <b>___. Dyw. Handlowa</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 44
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_050cb38b03af475f6321
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 45
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Born in Distant Lands</i></b>
+      pl: <b><i>Urodzony w odległych krainach</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c40bae26c62107a6dee
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 46
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Died penniless and alone</i></b>
+      pl: <b><i>Umarł bez grosza i w samotności</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1df539d1ce25412d172e
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 47
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>EHVARQ</i></b>
+      pl: <b><i>EHVARQ</i></b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b229d1808e7a405d702f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 48
+      sekcja_skryptu: puzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz kamień na tym grobie z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 49
+      sekcja_skryptu: puzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 50
+      sekcja_skryptu: puzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz3
+      linia: 51
+      sekcja_skryptu: puzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz4
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 52
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0255173ea8555fdc6103
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 53
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Cpl. Mort D. Funct</b>
+      pl: <b>Kpr. Mort D. Funct</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c11efc4be909126fdce0
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 54
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>___th Pogo-stick Div.</b>
+      pl: <b>___. Dyw. Pogo</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 55
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_491a7e064244ad4f55b0
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 56
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Will be missed every second</i></b>
+      pl: <b><i>Będzie go brakować w każdej sekundzie</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_728251d371fcaf6bda0c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 57
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Beau to Ann Yem</i></b>
+      pl: <b><i>Beau to Ann Yem</i></b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81aa3f94bed82cfccc50
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 58
+      sekcja_skryptu: puzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice that someone left a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz, że ktoś zostawił na tym grobie kamień z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 59
+      sekcja_skryptu: puzz4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 60
+      sekcja_skryptu: puzz4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz4
+      linia: 61
+      sekcja_skryptu: puzz4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz5
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 62
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e05b028ad1e4fa2fa021
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 63
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Sgt. Denis Lawson</b>
+      pl: <b>Sierż. Denis Lawson</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_081b1dc21c7c1b8ca45a
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 64
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>___th Party Div.</b>
+      pl: <b>___. Dyw. Imprezowa</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 65
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_769db2b68fd40ac9ae92
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 66
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Crushed at bash</i></b>
+      pl: <b><i>Zgnieciony na balu</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d1011934d2650aa42f19
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 67
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>for boulder salesmen</i></b>
+      pl: <b><i>dla handlarzy głazów</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_409b970964125812118a
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 68
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>DVWTVW</i></b>
+      pl: <b><i>DVWTVW</i></b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b229d1808e7a405d702f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 69
+      sekcja_skryptu: puzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz kamień na tym grobie z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 70
+      sekcja_skryptu: puzz5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 71
+      sekcja_skryptu: puzz5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz5
+      linia: 72
+      sekcja_skryptu: puzz5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: myco
+    wpisy:
+    - id: wol_98b3344200cd20aafe09
+      kontekst: data.json:scripts.cemetery4_pickplot.myco
+      linia: 73
+      sekcja_skryptu: myco
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Plot 420 is completely overgrown with mushrooms.  You root around in the loose shroomage and find a book.
+      pl: Działka 420 całkiem zarosła grzybami. Przekopujesz luźną grzybnię i znajdujesz książkę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8fd37f816bb31b91b21
+      kontekst: data.json:scripts.cemetery4_pickplot.myco
+      linia: 74
+      sekcja_skryptu: myco
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Coincidentally, it's a book about mushrooms!
+      pl: Przypadkiem to książka o grzybach!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: necrobook
+    wpisy:
+    - id: wol_0f2b588ebbda9de8149e
+      kontekst: data.json:scripts.cemetery4_pickplot.necrobook
+      linia: 75
+      sekcja_skryptu: necrobook
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Next to that tombstone you find a pedestal with a leather-bound book on top of it.  Looks evil.  You'd better grab it before somebody else does.
+      pl: Obok tego nagrobka stoi cokół z oprawioną w skórę książką. Wygląda złowrogo. Lepiej ją chwyć, zanim zrobi to ktoś inny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz6
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 77
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b78a5ac57e2abadc9e16
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 78
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Sgt. Maj. Starr Shine</b>
+      pl: <b>Sierż. sztab. Starr Shine</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6904fa8c369acb23e62f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 79
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>___th Naval Signals Div.</b>
+      pl: <b>___. Dyw. Sygnałów Morskich</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58586b018333277f1abb
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 80
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'This tombstone seems more ornate than most, though it''s partially worn away. There''s an epitaph inscribed as well:'
+      pl: 'Ten nagrobek wydaje się bardziej ozdobny niż większość, choć częściowo starty. Widnieje na nim też epitafium — rozwiązanie tej zagadki wygląda na takie, które trzeba wyszeptać po angielsku:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e3a6e14260bfc1bc054c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 81
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>Colored her hair six times a day</i></b>
+      pl: <b><i>Farbowała włosy sześć razy dziennie</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7205c90650d5a04ad7a0
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 82
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b><i>6:00  10:15  1:30  10:37  7:23  4:30</i></b>
+      pl: <b><i>6:00 10:15 1:30 10:37 7:23 4:30</i></b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - <i>
+      - </i>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81aa3f94bed82cfccc50
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 83
+      sekcja_skryptu: puzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You notice that someone left a rock on this grave inscribed with "LOL," which everyone knows stands for "Lots of Love."  How sweet!  Though you're not sure why they placed it upside-down.
+      pl: Zauważasz, że ktoś zostawił na tym grobie kamień z napisem „LOL”, które wszyscy wiedzą, że znaczy „Lots of Love”. Jak słodko! Choć nie wiesz, czemu postawili go do góry nogami.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 84
+      sekcja_skryptu: puzz6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 85
+      sekcja_skryptu: puzz6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz6
+      linia: 86
+      sekcja_skryptu: puzz6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz7
+    wpisy:
+    - id: wol_5b2a406ddc8a5c230d07
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 87
+      sekcja_skryptu: puzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This tombstone is blank. That's weird!
+      pl: Ten nagrobek jest pusty. Dziwne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97313cb3a142abd338f3
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 88
+      sekcja_skryptu: puzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You return to the grave with the blank tombstone, but it has an inscription now.  Someone must have just been buried here!  The headstone reads:'
+      pl: 'Wracasz do grobu z pustym nagrobkiem, ale ma już napis. Ktoś musiał tu właśnie zostać pochowany! Nagrobek głosi:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b6a315f8d4eacf3188f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 89
+      sekcja_skryptu: puzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave. It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c6b759cfba28c304b3cc
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 90
+      sekcja_skryptu: puzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>Gen. Wisen Heimer</b>
+      pl: <b>Gen. Wisen Heimer</b>
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d974c8bbd01cb1da9283
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 91
+      sekcja_skryptu: puzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>1st Metapuzzle Div.</b>
+      pl: <b>1. Dyw. Metazagadek</b>
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 92
+      sekcja_skryptu: puzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 93
+      sekcja_skryptu: puzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7
+      linia: 94
+      sekcja_skryptu: puzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure1
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure1
+      linia: 95
+      sekcja_skryptu: treasure1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de7befd553d914f47ecc
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure1
+      linia: 96
+      sekcja_skryptu: treasure1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      pl: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_rank/$plotmod9$%'
+      - $skelname$
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e783b2db665b19977f4
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure1
+      linia: 97
+      sekcja_skryptu: treasure1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_division/$plotmod8$%</b>
+      pl: <b>%milcem_division/$plotmod8$%</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_division/$plotmod8$%'
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5af0e8f681e261618db
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure1
+      linia: 98
+      sekcja_skryptu: treasure1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%milcem_quiet%'
+      pl: '%milcem_quiet%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '%milcem_quiet%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digt1
+    wpisy:
+    - id: wol_6adf707ced4138ec63e8
+      kontekst: data.json:scripts.cemetery4_pickplot.digt1
+      linia: 100
+      sekcja_skryptu: digt1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ground here is rocky, and it's pretty hard on your shovel.
+      pl: Ziemia tu jest skalista i dość męczy twoją łopatę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d428ea72d2ae96d3c3fd
+      kontekst: data.json:scripts.cemetery4_pickplot.digt1
+      linia: 101
+      sekcja_skryptu: digt1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Instead of a coffin, you find an urn.  Looks like this soldier was cremated.  Or died in a fire.
+      pl: Zamiast trumny znajdujesz urnę. Wygląda na to, że tego żołnierza skremowano. Albo zginął w pożarze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_032efb0cc64aa13ed104
+      kontekst: data.json:scripts.cemetery4_pickplot.digt1
+      linia: 102
+      sekcja_skryptu: digt1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make it down to the coffin and find...  not much to write home about.
+      pl: Docierasz do trumny i znajdujesz... niewiele wartego wspomnienia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkshovel
+    wpisy:
+    - id: wol_efab6cdbc61e3c04f3a5
+      kontekst: data.json:scripts.cemetery4_pickplot.checkshovel
+      linia: 103
+      sekcja_skryptu: checkshovel
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Your shovel finally gives up the ghost, so to speak.
+      pl: Twoja łopata w końcu daje ducha, że tak powiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure1
+    wpisy:
+    - id: wol_00a526b32b3690ae0ccf
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure1
+      linia: 104
+      sekcja_skryptu: treasure1
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig it up [Requires shovel]
+      pl: Wykop to [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure2
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure2
+      linia: 105
+      sekcja_skryptu: treasure2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de7befd553d914f47ecc
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure2
+      linia: 106
+      sekcja_skryptu: treasure2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      pl: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_rank/$plotmod9$%'
+      - $skelname$
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e783b2db665b19977f4
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure2
+      linia: 107
+      sekcja_skryptu: treasure2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_division/$plotmod8$%</b>
+      pl: <b>%milcem_division/$plotmod8$%</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_division/$plotmod8$%'
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5af0e8f681e261618db
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure2
+      linia: 108
+      sekcja_skryptu: treasure2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%milcem_quiet%'
+      pl: '%milcem_quiet%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '%milcem_quiet%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digt2
+    wpisy:
+    - id: wol_6adf707ced4138ec63e8
+      kontekst: data.json:scripts.cemetery4_pickplot.digt2
+      linia: 110
+      sekcja_skryptu: digt2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ground here is rocky, and it's pretty hard on your shovel.
+      pl: Ziemia tu jest skalista i dość męczy twoją łopatę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_82877baeb57c31b5a9fd
+      kontekst: data.json:scripts.cemetery4_pickplot.digt2
+      linia: 111
+      sekcja_skryptu: digt2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make it down to the coffin and find a lockbox.  This soldier must've had no next of kin.  Sad.
+      pl: Docierasz do trumny i znajdujesz skrzynkę na klucze. Ten żołnierz najwyraźniej nie miał żadnych krewnych. Smutne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure2
+    wpisy:
+    - id: wol_00a526b32b3690ae0ccf
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure2
+      linia: 112
+      sekcja_skryptu: treasure2
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig it up [Requires shovel]
+      pl: Wykop to [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure3
+    wpisy:
+    - id: wol_862cdb33a12de3050417
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure3
+      linia: 113
+      sekcja_skryptu: treasure3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You approach the grave.  It reads:'
+      pl: 'Podchodzisz do grobu. Napis:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_de7befd553d914f47ecc
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure3
+      linia: 114
+      sekcja_skryptu: treasure3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      pl: <b>%milcem_rank/$plotmod9$% $skelname$</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_rank/$plotmod9$%'
+      - $skelname$
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0e783b2db665b19977f4
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure3
+      linia: 115
+      sekcja_skryptu: treasure3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: <b>%milcem_division/$plotmod8$%</b>
+      pl: <b>%milcem_division/$plotmod8$%</b>
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - <b>
+      - '%milcem_division/$plotmod8$%'
+      - </b>
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f5af0e8f681e261618db
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure3
+      linia: 116
+      sekcja_skryptu: treasure3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '%milcem_quiet%'
+      pl: '%milcem_quiet%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '%milcem_quiet%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: digt3
+    wpisy:
+    - id: wol_6adf707ced4138ec63e8
+      kontekst: data.json:scripts.cemetery4_pickplot.digt3
+      linia: 118
+      sekcja_skryptu: digt3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The ground here is rocky, and it's pretty hard on your shovel.
+      pl: Ziemia tu jest skalista i dość męczy twoją łopatę.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6dccfb73aa8f96659f4f
+      kontekst: data.json:scripts.cemetery4_pickplot.digt3
+      linia: 119
+      sekcja_skryptu: digt3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You make it down to the coffin and find a lockbox, which you open.
+      pl: Docierasz do trumny i znajdujesz skrzynkę na klucze, którą otwierasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: treasure3
+    wpisy:
+    - id: wol_00a526b32b3690ae0ccf
+      kontekst: data.json:scripts.cemetery4_pickplot.treasure3
+      linia: 123
+      sekcja_skryptu: treasure3
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig it up [Requires shovel]
+      pl: Wykop to [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_22de9ba8136bb22e2647
+      kontekst: data.json:scripts.cemetery4_pickplot.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You beat the skeleton and stuff what's left of it back into the gravehole.
+      pl: Pokonujesz szkielet i wciskasz resztki z powrotem do dołu grobu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_8d802ba7ad88d53f7eb3
+      kontekst: data.json:scripts.cemetery4_pickplot.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Y'know, you'd think you'd have learned by now that you shouldn't let your shovel write a check your gun can't cash.
+      pl: Wiesz, myślałbyś, że nauczyłeś się już, że nie powinieneś pozwalać łopacie wypisać czek, którego rewolwer nie może zrealizować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_f45809476140a94e0faf
+      kontekst: data.json:scripts.cemetery4_pickplot.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'll keep that in mind
+      pl: Zapamiętam
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz1
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 1
+      sekcja_skryptu: postpuzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 2
+      sekcja_skryptu: postpuzz1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 3
+      sekcja_skryptu: postpuzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03dcbef6c588ef0a32e6
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 4
+      sekcja_skryptu: postpuzz1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sorrow
+      pl: Sorrow
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a59e01dc6f7d01d088b
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 5
+      sekcja_skryptu: postpuzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 37.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 37.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 6
+      sekcja_skryptu: postpuzz1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 7
+      sekcja_skryptu: postpuzz1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz1
+      linia: 8
+      sekcja_skryptu: postpuzz1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz2
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 1
+      sekcja_skryptu: postpuzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 2
+      sekcja_skryptu: postpuzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 3
+      sekcja_skryptu: postpuzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_eb1e8613e929687ed3d7
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 4
+      sekcja_skryptu: postpuzz2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hubris
+      pl: Hubris
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_faf14565446754b83f0e
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 5
+      sekcja_skryptu: postpuzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 111.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 111.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 6
+      sekcja_skryptu: postpuzz2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 7
+      sekcja_skryptu: postpuzz2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz2
+      linia: 8
+      sekcja_skryptu: postpuzz2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz3
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 1
+      sekcja_skryptu: postpuzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 2
+      sekcja_skryptu: postpuzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 3
+      sekcja_skryptu: postpuzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8836ee4caad7d996039a
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 4
+      sekcja_skryptu: postpuzz3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Ruined
+      pl: Ruined
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d298038cf85ba59abda8
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 5
+      sekcja_skryptu: postpuzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 230.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 230.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 6
+      sekcja_skryptu: postpuzz3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 7
+      sekcja_skryptu: postpuzz3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz3
+      linia: 8
+      sekcja_skryptu: postpuzz3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz4
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 1
+      sekcja_skryptu: postpuzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 2
+      sekcja_skryptu: postpuzz4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 3
+      sekcja_skryptu: postpuzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa2c639ca6ee41b8cbe8
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 4
+      sekcja_skryptu: postpuzz4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Euonym
+      pl: Euonym
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0311973e7ea5baa90123
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 5
+      sekcja_skryptu: postpuzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 370.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 370.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 6
+      sekcja_skryptu: postpuzz4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 7
+      sekcja_skryptu: postpuzz4
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz4
+      linia: 8
+      sekcja_skryptu: postpuzz4
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz5
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 1
+      sekcja_skryptu: postpuzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 2
+      sekcja_skryptu: postpuzz5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 3
+      sekcja_skryptu: postpuzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f64006eac667f8b463a
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 4
+      sekcja_skryptu: postpuzz5
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wedged
+      pl: Wedged
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68e27eb661ce5d06a95d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 5
+      sekcja_skryptu: postpuzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 690.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 690.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 6
+      sekcja_skryptu: postpuzz5
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 7
+      sekcja_skryptu: postpuzz5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz5
+      linia: 8
+      sekcja_skryptu: postpuzz5
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz6
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 1
+      sekcja_skryptu: postpuzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 2
+      sekcja_skryptu: postpuzz6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 3
+      sekcja_skryptu: postpuzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f0f3b7b453dfd970c6d2
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 4
+      sekcja_skryptu: postpuzz6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Dyeing
+      pl: Dyeing
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e09e260f72993c23c5d6
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 5
+      sekcja_skryptu: postpuzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'After a moment you notice that you can just barely make out the Division number that had worn away over the years: 11.'
+      pl: 'Po chwili zauważasz, że ledwo da się odczytać numer Dywizji, który zatarł się przez lata: 11.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 6
+      sekcja_skryptu: postpuzz6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 7
+      sekcja_skryptu: postpuzz6
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz6
+      linia: 8
+      sekcja_skryptu: postpuzz6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz7
+    wpisy:
+    - id: wol_20e0fb0a693fc8a0c28d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 1
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You shake your head, unable to think of something to say.
+      pl: Kręcisz głową, nie mogąc wymyślić, co powiedzieć.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2fdf1f108d5c16ed1547
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 2
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say a word for the departed
+      pl: Powiedz słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b549a0ebc1ad953ee75c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 3
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You say a brief word for the departed.
+      pl: Wypowiadasz krótkie słowo za zmarłym.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5c4f628780357bd6cdce
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 4
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Shrewd
+      pl: Shrewd
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ea8d55e79dd334ce441
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 5
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A courier walks up to you.
+      pl: Do ciebie podchodzi kurier.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a628d33036b8f873e7c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 6
+      sekcja_skryptu: postpuzz7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: According to General Heimer's will, I am supposed to deliver this to the person standing at his grave at this exact moment.
+      pl: Zgodnie z testamentem generała Heimera mam to przekazać osobie, która dokładnie w tej chwili stoi przy jego grobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1d85b773037fef4df80c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 7
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He hands you a package and then departs. You open the box and inside is a bunch of Meat.
+      pl: Wręcza ci paczkę i odchodzi. Otwierasz pudełko, a w środku jest sporo Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e3804658bdc69bda8d5
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 8
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You cringe for a second, but he hands you a package and then departs. You open the box and inside is a bunch of Meat.
+      pl: Przez chwilę się wzdrygasz, ale wręcza ci paczkę i odchodzi. Otwierasz pudełko — w środku sporo Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6fa0a8242f463532b25a
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 9
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: At the bottom of the package is a note that says, "You've not heard the last from me."
+      pl: 'Na dnie paczki jest kartka z napisem: „Jeszcze o mnie usłyszycie.”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_da357e8879d8d2dd25c9
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 10
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ominous
+      pl: Groza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: puzz7break
+    wpisy:
+    - id: wol_3847c9543a296d97012f
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7break
+      linia: 11
+      sekcja_skryptu: puzz7break
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wonder what that note could mean.
+      pl: Zastanawiasz się, co może znaczyć ta notatka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f806711ce2cbdec1b07e
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7break
+      linia: 12
+      sekcja_skryptu: puzz7break
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say another word for the departed
+      pl: Powiedz kolejne słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_92cfdb5207142e5fa1df
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7break
+      linia: 13
+      sekcja_skryptu: puzz7break
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Visit a different plot
+      pl: Odwiedź inną działkę
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4ceb7ad1f7071d75f01c
+      kontekst: data.json:scripts.cemetery4_pickplot.puzz7break
+      linia: 14
+      sekcja_skryptu: puzz7break
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Stop visiting graves
+      pl: Przestań odwiedzać groby
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: postpuzz7
+    wpisy:
+    - id: wol_93bfa4608a34335a15ac
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 15
+      sekcja_skryptu: postpuzz7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08c7b1486d48e4b8d3a9
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 16
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wait around for a minute, but nothing happens.
+      pl: Czekasz minutę, ale nic się nie dzieje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b5523e6631f4ded4178
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 17
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can't shake the feeling General Heimer hasn't had his last word, though.
+      pl: Nie możesz się jednak pozbyć wrażenia, że generał Heimer nie powiedział ostatniego słowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f806711ce2cbdec1b07e
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 18
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say another word for the departed
+      pl: Powiedz kolejne słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40a4d96d3170cf2cc613
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 19
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Genius
+      pl: Genius
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ea8d55e79dd334ce441
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 20
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A courier walks up to you.
+      pl: Do ciebie podchodzi kurier.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a628d33036b8f873e7c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 21
+      sekcja_skryptu: postpuzz7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: According to General Heimer's will, I am supposed to deliver this to the person standing at his grave at this exact moment.
+      pl: Zgodnie z testamentem generała Heimera mam to przekazać osobie, która dokładnie w tej chwili stoi przy jego grobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52f4d59b67b918d90b96
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 22
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh no, not again!
+      pl: O nie, znowu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ada351cc6c6abbe5be07
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 23
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Seriously?
+      pl: Serio?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb1d1121c48ece39cf8d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 24
+      sekcja_skryptu: postpuzz7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The will is very specific.  And very long.
+      pl: Testament jest bardzo szczegółowy. I bardzo długi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95bbb0143736bce7c8eb
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 25
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Alright, let's get this over with.
+      pl: Dobra, miejmy to już z głowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c39f5f4e6b55ce9a9087
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 26
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The courier then knocks you cold with a cudgel.
+      pl: Kurier następnie obezwładnia cię pałką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1885e22a653cafe37ab9
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 27
+      sekcja_skryptu: postpuzz7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Sleepy time!
+      pl: Pora spać!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7f92e491a38625c1038
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 28
+      sekcja_skryptu: postpuzz7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Wait, what? [Dream]
+      pl: Czekaj, co? [Sen]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Dream]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ae8c10ec5b1613968e22
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 29
+      sekcja_skryptu: postpuzz7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That hurts, you know! [Dream]
+      pl: To boli, wiesz! [Sen]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Dream]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b714a7446af3bdd17f1e
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 30
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sigh [Dream]
+      pl: Westchnienie [Sen]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Dream]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b1d3027fce86029ec89
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 31
+      sekcja_skryptu: postpuzz7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How does this even work? [Dream]
+      pl: Jak to w ogóle działa? [Sen]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Dream]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2925024083f4f7d5bb61
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 32
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Shined
+      pl: Shined
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f4b047ee9ee9a378c826
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 33
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You feel good about that word, but it feels like maybe you skipped a step or two.
+      pl: Dobrze czujesz się z tym słowem, ale chyba pominąłeś krok albo dwa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f806711ce2cbdec1b07e
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 34
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say another word for the departed
+      pl: Powiedz kolejne słowo za zmarłego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ea8d55e79dd334ce441
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 35
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A courier walks up to you.
+      pl: Do ciebie podchodzi kurier.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a628d33036b8f873e7c
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 36
+      sekcja_skryptu: postpuzz7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: According to General Heimer's will, I am supposed to deliver this to the person standing at his grave at this exact moment.
+      pl: Zgodnie z testamentem generała Heimera mam to przekazać osobie, która dokładnie w tej chwili stoi przy jego grobie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52f4d59b67b918d90b96
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 37
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh no, not again!
+      pl: O nie, znowu!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_95cf60a4f4c526da8f7d
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 38
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He hands you a package and leaves. (Thank goodness!)  You open it and inside is a huge gem.  Nice!
+      pl: Wręcza ci paczkę i wychodzi. (Na szczęście!) Otwierasz ją, a w środku jest ogromny klejnot. Nieźle!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_71f6501433c7409b6af1
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 39
+      sekcja_skryptu: postpuzz7
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: $promptvalue$
+      pl: $promptvalue$
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - $promptvalue$
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dab3283e519f2a68750
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 40
+      sekcja_skryptu: postpuzz7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You somehow feel that wasn't quite the right thing to say.
+      pl: Jakoś czujesz, że to nie do końca właściwa rzecz do powiedzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00686868322fc7b0ca69
+      kontekst: data.json:scripts.cemetery4_pickplot.postpuzz7
+      linia: 41
+      sekcja_skryptu: postpuzz7
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Say something else
+      pl: Powiedz coś innego
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 412
+  skrypt: cemetery4_puzzleresolver
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1bb4fe7692811f98c729
+      kontekst: data.json:scripts.cemetery4_puzzleresolver.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You wake up in a heap at the entrance to the military cemetery.
+      pl: Budzisz się w stercie przy wejściu na wojskowy cmentarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee0c5eb382d5a87ca985
+      kontekst: data.json:scripts.cemetery4_puzzleresolver.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well that was certainly enlightening...
+      pl: No, to było z pewnością pouczające...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 413
+  skrypt: cemetery4_puzzletitle
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: toptitle
+    wpisy:
+    - id: wol_f90c2115a96ea1745eb2
+      kontekst: data.json:scripts.cemetery4_puzzletitle.toptitle
+      linia: 1
+      sekcja_skryptu: toptitle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You're having some sort of strange dream.
+      pl: Masz jakiś dziwny sen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9440ca0e1f607048922
+      kontekst: data.json:scripts.cemetery4_puzzletitle.toptitle
+      linia: 2
+      sekcja_skryptu: toptitle
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Oh good, this weird dream again. Fun times.
+      pl: No i super, znowu ten dziwny sen. Fajnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_352db10460250e95ef13
+      kontekst: data.json:scripts.cemetery4_puzzletitle.toptitle
+      linia: 3
+      sekcja_skryptu: toptitle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wake up
+      pl: Obudź się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 421
+  skrypt: cemetery4_shed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_97576256c911457bffaf
+      kontekst: data.json:scripts.cemetery4_shed.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's the caretaker's shanty.
+      pl: To barak opiekuna.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 422
+  skrypt: cemetery4_shovel
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6c1a84bcb28525289b15
+      kontekst: data.json:scripts.cemetery4_shovel.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a shovel here.
+      pl: Tu leży łopata.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 555
+  skrypt: clowns_tannery_hidingguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: howlong
+    wpisy:
+    - id: wol_ada351cc6c6abbe5be07
+      kontekst: data.json:scripts.clowns_tannery_hidingguy.howlong
+      linia: 25
+      sekcja_skryptu: howlong
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Seriously?
+      pl: Serio?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1398
+  skrypt: fort1_generalgob
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: talk
+    wpisy:
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.fort1_generalgob.talk
+      linia: 5
+      sekcja_skryptu: talk
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1481
+  skrypt: fort5_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: static
+    wpisy:
+    - id: wol_aaa738b479c5accd44fa
+      kontekst: data.json:scripts.fort5_timerift.static
+      linia: 10
+      sekcja_skryptu: static
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious
+      pl: Ciekawe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1500
+  skrypt: fort6_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: static
+    wpisy:
+    - id: wol_aaa738b479c5accd44fa
+      kontekst: data.json:scripts.fort6_timerift.static
+      linia: 11
+      sekcja_skryptu: static
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious
+      pl: Ciekawe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1569
+  skrypt: goblin1_guard
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.goblin1_guard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1581
+  skrypt: goblin1_house9
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: bomb
+    wpisy:
+    - id: wol_93bfa4608a34335a15ac
+      kontekst: data.json:scripts.goblin1_house9.bomb
+      linia: 5
+      sekcja_skryptu: bomb
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1601
+  skrypt: goblin3_goblinpile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.goblin3_goblinpile.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.goblin3_goblinpile.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.goblin3_goblinpile.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1602
+  skrypt: goblin3_guard1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.goblin3_guard1.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000067
+  skrypt: house_dictionary2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: pants
+    wpisy:
+    - id: wol_ada351cc6c6abbe5be07
+      kontekst: house.json:scripts.house_dictionary2.pants
+      linia: 3
+      sekcja_skryptu: pants
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Seriously?
+      pl: Serio?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1797
+  skrypt: mine2_locker
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: open3
+    wpisy:
+    - id: wol_0c8f9374f49b0aed8215
+      kontekst: data.json:scripts.mine2_locker.open3
+      linia: 20
+      sekcja_skryptu: open3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Nah.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1809
+  skrypt: mine3_enterlevel2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_aaa738b479c5accd44fa
+      kontekst: data.json:scripts.mine3_enterlevel2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious
+      pl: Ciekawe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2135
+  skrypt: puntown_grandma
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: stillhavebook
+    wpisy:
+    - id: wol_0c8f9374f49b0aed8215
+      kontekst: data.json:scripts.puntown_grandma.stillhavebook
+      linia: 143
+      sekcja_skryptu: stillhavebook
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nah.
+      pl: Nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2157
+  skrypt: railcamp_dynamitejim
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: givedynamite
+    wpisy:
+    - id: wol_93bfa4608a34335a15ac
+      kontekst: data.json:scripts.railcamp_dynamitejim.givedynamite
+      linia: 37
+      sekcja_skryptu: givedynamite
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2221
+  skrypt: ranch4_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: static
+    wpisy:
+    - id: wol_aaa738b479c5accd44fa
+      kontekst: data.json:scripts.ranch4_timerift.static
+      linia: 10
+      sekcja_skryptu: static
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Curious
+      pl: Ciekawe
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2372
+  skrypt: re_gobling2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_bfd41e19a8abc1346bc3
+      kontekst: data.json:scripts.re_gobling2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '%goblin_paragraph%'
+      pl: '%goblin_paragraph%'
+      status: zablokowane
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '%goblin_paragraph%'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: fox2
+    wpisy:
+    - id: wol_93bfa4608a34335a15ac
+      kontekst: data.json:scripts.re_gobling2.fox2
+      linia: 26
+      sekcja_skryptu: fox2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2382
+  skrypt: re_lootgravec
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_00a526b32b3690ae0ccf
+      kontekst: data.json:scripts.re_lootgravec.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Dig it up [Requires shovel]
+      pl: Wykop to [Wymaga łopaty]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires shovel]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2423
+  skrypt: re_skeletonc2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: outfox
+    wpisy:
+    - id: wol_93bfa4608a34335a15ac
+      kontekst: data.json:scripts.re_skeletonc2.outfox
+      linia: 28
+      sekcja_skryptu: outfox
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sweet!
+      pl: Super!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

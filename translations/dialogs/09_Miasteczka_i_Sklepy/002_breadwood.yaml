@@ -1,0 +1,6139 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: breadwood
+zrodlowy_batch: 036_dialog_loc_breadwood_breadwood.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 63
+liczba_wpisow: 350
+sceny:
+- kolejnosc_w_danych_gry: 331
+  skrypt: breadwood_bartender
+  pomieszczenie: &id001
+    id: breadwood
+    nazwa_en: Breadwood
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 32
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_294147d3927197f50fe7
+      kontekst: data.json:scripts.breadwood_bartender.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We don't take kindly ta strangers, stranger. Don't need yer kind 'round here.
+      pl: Nie przyjmujemy uprzejmych nieznajomych. Nie potrzebuję cię tu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b173e76d112d37e742b
+      kontekst: data.json:scripts.breadwood_bartender.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Did you say 'need' or 'knead'?
+      pl: Powiedziałeś „trzeba” czy „trzepać”?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_225b39b6beb781c96a1f
+      kontekst: data.json:scripts.breadwood_bartender.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He glares at you.
+      pl: Wpatruje się w ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e6e0cb81657f740495a2
+      kontekst: data.json:scripts.breadwood_bartender.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, anyway...
+      pl: No, w każdym razie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_26b7ba990c8568c46dfd
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 6
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Buy a drink [15 Meat]
+      pl: Kup drinka [15 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[15 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: buy
+    wpisy:
+    - id: wol_f83d36643fe3705e4761
+      kontekst: data.json:scripts.breadwood_bartender.buy
+      linia: 7
+      sekcja_skryptu: buy
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The bartender pours a shot of something and slaps it on the bar in front of you.
+      pl: Barman nalewa kieliszek czegoś i stawia go na barze przed tobą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e527db3cdb9ea3af0cc5
+      kontekst: data.json:scripts.breadwood_bartender.buy
+      linia: 8
+      sekcja_skryptu: buy
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I don't get to choose?
+      pl: Nie mam wyboru?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2ab3eccdcfc083604b0a
+      kontekst: data.json:scripts.breadwood_bartender.buy
+      linia: 10
+      sekcja_skryptu: buy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, thanks.
+      pl: No, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_d8e25f474dbddc634ee0
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 11
+      sekcja_skryptu: opts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Buy a drink [Requires 15 Meat]
+      pl: Kup drinka [Wymaga 15 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 15 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_efd0580c97595b2a353a
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 12
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about the darts
+      pl: Zapytaj o rzutki
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: darts
+    wpisy:
+    - id: wol_2e0256842987a0cdcf3b
+      kontekst: data.json:scripts.breadwood_bartender.darts
+      linia: 13
+      sekcja_skryptu: darts
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The sign on the...
+      pl: Napis na...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_229038dca8d68ac48bc7
+      kontekst: data.json:scripts.breadwood_bartender.darts
+      linia: 14
+      sekcja_skryptu: darts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ain't got no darts.
+      pl: Nie mam rzutek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b57d2b84e6ea560f6232
+      kontekst: data.json:scripts.breadwood_bartender.darts
+      linia: 15
+      sekcja_skryptu: darts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Dang it.
+      pl: Ojej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_3933d5fa0c9ac4d08e30
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 16
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask about the guy washing dishes
+      pl: Zapytaj o gościa myjącego naczynia
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dishguy1
+    wpisy:
+    - id: wol_9e15f891a3241436a662
+      kontekst: data.json:scripts.breadwood_bartender.dishguy1
+      linia: 17
+      sekcja_skryptu: dishguy1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What's with the guy washing dishes?
+      pl: O co chodzi z tym gościem myjącym naczynia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_29c81d995fb23cebaa16
+      kontekst: data.json:scripts.breadwood_bartender.dishguy1
+      linia: 18
+      sekcja_skryptu: dishguy1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That muffin-lover ran up a tab he couldn't pay off. So now he gets ta wash dishes. Some a' them dishes, I been savin' fer just such an occasion.
+      pl: Ten miłośnik muffinek nabił rachunek, którego nie mógł spłacić. Więc teraz zmywa naczynia. Niektóre trzymałem właśnie na taką okazję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_58aaf8a36ae885d28282
+      kontekst: data.json:scripts.breadwood_bartender.dishguy1
+      linia: 19
+      sekcja_skryptu: dishguy1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How much does he owe?
+      pl: Ile jest mu winien?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b37e4988171bfce8cd3
+      kontekst: data.json:scripts.breadwood_bartender.dishguy1
+      linia: 20
+      sekcja_skryptu: dishguy1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hunnert-fifty.
+      pl: Sto pięćdziesiąt.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: payopts
+    wpisy:
+    - id: wol_9495abe999668500a0d9
+      kontekst: data.json:scripts.breadwood_bartender.payopts
+      linia: 21
+      sekcja_skryptu: payopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll pay it [150 Meat]
+      pl: Zapłacę [150 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[150 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: freedishguy
+    wpisy:
+    - id: wol_047355f515e865fef6b1
+      kontekst: data.json:scripts.breadwood_bartender.freedishguy
+      linia: 23
+      sekcja_skryptu: freedishguy
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yer even dumber'n I assumed, but whatever. You can tell 'im he's free yerself.
+      pl: Jesteś nawet głupszy, niż zakładałem, ale nieważne. Możesz mu powiedzieć, że jest wolny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a234c3abc5426c85c38b
+      kontekst: data.json:scripts.breadwood_bartender.freedishguy
+      linia: 24
+      sekcja_skryptu: freedishguy
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: payopts
+    wpisy:
+    - id: wol_9495abe999668500a0d9
+      kontekst: data.json:scripts.breadwood_bartender.payopts
+      linia: 25
+      sekcja_skryptu: payopts
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: I'll pay it [150 Meat]
+      pl: Zapłacę [150 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[150 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e593c3a6b4385c719fb
+      kontekst: data.json:scripts.breadwood_bartender.payopts
+      linia: 26
+      sekcja_skryptu: payopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Let's talk about something else
+      pl: Porozmawiajmy o czymś innym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_30b32398b065ea02b48e
+      kontekst: data.json:scripts.breadwood_bartender.opts
+      linia: 27
+      sekcja_skryptu: opts
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: About that dish guy...
+      pl: Co do tego gościa od naczyń...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dishguy2
+    wpisy:
+    - id: wol_d71382b0987943e9c3b8
+      kontekst: data.json:scripts.breadwood_bartender.dishguy2
+      linia: 29
+      sekcja_skryptu: dishguy2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '''Less you got a hunnert-fifty Meat, he keeps washin'', an'' that all there is to it.'
+      pl: Chyba że masz sto pięćdziesiąt Mięsa, to dalej się pierze, i tyle w temacie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_7c2276381276ebc8c112
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 31
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well well. Looks like some poor sonofabiscuit wandered into town. Howdy, cakesucker.
+      pl: Dobrze, dobrze. Wygląda na to, że jakiś biedny bułczysyn przybył do miasta. Witaj, ciastossaku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_99d9729da1c5038ebc88
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 32
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, jeez. Rude <i>and</i> baffling.
+      pl: Rany. Niegrzeczne <i>i</i> zaskakujące.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69d72d4f7854d16cfaa4
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 33
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Get used'ta it. We like our cussin' here in Breadwood.
+      pl: Przyzwyczajaj się. Tutaj, w Breadwood, lubimy przeklinać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cc3a18df9c1c99c85e32
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 34
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Sure, fine. But "cakesucker"?
+      pl: Jasne, dobra. Ale „ciastossak”?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69c23674f18cacc92d6a
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 35
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We also like our breads and bread-related products.
+      pl: Lubimy również nasze chleby i produkty związane z chlebem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7dcb09f645d29ca4fff2
+      kontekst: data.json:scripts.breadwood_bartender.intro
+      linia: 36
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: So I've noticed.
+      pl: Zauważyłem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rumor
+    wpisy:
+    - id: wol_be295a054db9e75aeb2b
+      kontekst: data.json:scripts.breadwood_bartender.rumor
+      linia: 1
+      sekcja_skryptu: rumor
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '[Rumor here!]'
+      pl: '[Tu plotka!]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Rumor here!]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 332
+  skrypt: breadwood_cardguys
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_15ba99ddb71e84fa80e8
+      kontekst: data.json:scripts.breadwood_cardguys.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He's still mad about losing.  Better leave him alone.
+      pl: Nadal jest wściekły, że przegrał. Lepiej zostaw go w spokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a1a1ce316f2d11bfc091
+      kontekst: data.json:scripts.breadwood_cardguys.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hmm.  What are these guys up to?
+      pl: Hmm. Co ci goście knują?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8d1616968a3aaa9f72e2
+      kontekst: data.json:scripts.breadwood_cardguys.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ask them
+      pl: Zapytaj ich
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 333
+  skrypt: breadwood_dartboard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_7853d16dee646b07f0be
+      kontekst: data.json:scripts.breadwood_dartboard.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a note on it that says "See bartender for darts."
+      pl: 'Przyklejona notatka: „Lotki u barmana.”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 334
+  skrypt: breadwood_dishguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6b85a2c5ac01f7d30108
+      kontekst: data.json:scripts.breadwood_dishguy.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy is grimly washing dishes. He notices you looking, and waves you away, irritated.
+      pl: Ten gość ponuro myje naczynia. Widzi, że patrzysz, i nerwowo odgania cię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_43b2d88e974748c469c4
+      kontekst: data.json:scripts.breadwood_dishguy.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Tell him he's free
+      pl: Powiedz mu, że jest wolny
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 335
+  skrypt: breadwood_dishguy2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_0f182c1f28fd1f39f8c9
+      kontekst: data.json:scripts.breadwood_dishguy2.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hey, I paid off your tab. You're free.
+      pl: Hej, spłaciłem twój rachunek. Jesteś wolny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ab07bab5abb8bcc4b613
+      kontekst: data.json:scripts.breadwood_dishguy2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Whadja do a thing like that for?
+      pl: Hę? Po coś zrobił coś takiego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_57fe86a2eef649ea6817
+      kontekst: data.json:scripts.breadwood_dishguy2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I was just feeling charitable, I guess.
+      pl: Po prostu naszła mnie chyba dobroczynność.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e029ef83b0dac927b45
+      kontekst: data.json:scripts.breadwood_dishguy2.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well thanks, but I dunno how ta do pretty much nothin' 'cept washin' dishes.
+      pl: Dzięki, ale nie wiem, jak to zrobić bez mycia naczyń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8e86635a9f050ca987db
+      kontekst: data.json:scripts.breadwood_dishguy2.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nothing at all?
+      pl: Absolutnie nic?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_eadb48b32fe3563ec988
+      kontekst: data.json:scripts.breadwood_dishguy2.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I can also wash clothes. An' I can play the washboard. That's pretty much it, though.
+      pl: Mogę też prać ubrania. Umiem grać w washboard. To wszystko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff1780c9ac100503dd4a
+      kontekst: data.json:scripts.breadwood_dishguy2.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Send him to Dirtwater
+      pl: Wyślij go do Dirtwater
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dw
+    wpisy:
+    - id: wol_6cc48fd6c269c4324ea4
+      kontekst: data.json:scripts.breadwood_dishguy2.dw
+      linia: 9
+      sekcja_skryptu: dw
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, there's plenty of job opportunities opening up in Dirtwater. Why don't you try your luck out there?
+      pl: W Dirtwater jest wiele możliwości pracy. Może spróbujesz szczęścia?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a02c3c6f81ae4de9ea6e
+      kontekst: data.json:scripts.breadwood_dishguy2.dw
+      linia: 10
+      sekcja_skryptu: dw
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, all right! It's worth a shot! Thanks, pal!
+      pl: W porządku! Warto spróbować! Dzięki, kolego!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_641b07fc8775ba82f9c6
+      kontekst: data.json:scripts.breadwood_dishguy2.dw
+      linia: 11
+      sekcja_skryptu: dw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He leaves with a wave, and the bartender replaces the sign on the wall.
+      pl: Odchodzi, machając, a barman wymienia tabliczkę na ścianie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6fbea0a472e0ffa6b7d8
+      kontekst: data.json:scripts.breadwood_dishguy2.dw
+      linia: 12
+      sekcja_skryptu: dw
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 337
+  skrypt: breadwood_hallowaylocker
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f0a2d6053e2edb937042
+      kontekst: data.json:scripts.breadwood_hallowaylocker.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This footlocker is labeled "H Halloway" and it's very locked.
+      pl: Kufer z etykietą „H Halloway” — bardzo zamknięty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_09d314f213cbf411c14c
+      kontekst: data.json:scripts.breadwood_hallowaylocker.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 2 + needle]
+      pl: Otwórz zamek [Wytrychowanie 2 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 2 + needle]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: picklock
+    wpisy:
+    - id: wol_269c9adb9e6180f048b2
+      kontekst: data.json:scripts.breadwood_hallowaylocker.picklock
+      linia: 3
+      sekcja_skryptu: picklock
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The locker contains the key to itself and a few miscellaneous sundries.
+      pl: W szafce jest klucz do samej siebie i parę drobiazgów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: popup
+    wpisy:
+    - id: wol_264a501643ee4f181f76
+      kontekst: data.json:scripts.breadwood_hallowaylocker.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pick the lock [Requires Lockpickin' 2]
+      pl: Otwórz zamek [Wymaga Otwierania Zamków 2]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires Lockpickin'' 2]'
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: already
+    wpisy:
+    - id: wol_c70f8d660b200fbd958f
+      kontekst: data.json:scripts.breadwood_hallowaylocker.already
+      linia: 6
+      sekcja_skryptu: already
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've already footlooted this footlocker.
+      pl: Już splądrowałeś ten footlocker.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 339
+  skrypt: breadwood_mailhandling
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: mailman
+    wpisy:
+    - id: wol_c75824a9ff8e4267a3ce
+      kontekst: data.json:scripts.breadwood_mailhandling.mailman
+      linia: 1
+      sekcja_skryptu: mailman
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As you ride into town, a mailman approaches you.
+      pl: Gdy wjeżdżasz do miasteczka, podchodzi do ciebie listonosz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b7c69ee3bdf0ad8ce194
+      kontekst: data.json:scripts.breadwood_mailhandling.mailman
+      linia: 4
+      sekcja_skryptu: mailman
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah, I've been stressed out lately, so I took a day off and rented a room over at Chuck's as a sort of mini-vacation. He's such a great guy -- a little weird I guess, but real personable. And his cooking is great! The tomato soup, and those great big sausages... his tea did wonders for my insomnia, too.
+      pl: Tak, ostatnio byłem zestresowany, więc wziąłem dzień wolnego i wynająłem pokój u Chucka jako rodzaj miniwakacji. To taki świetny facet, trochę dziwny, ale bardzo sympatyczny. A jego gotowanie jest świetne! Zupa pomidorowa, i te wielkie kiełbaski... Jego herbata zrobiła cuda także dla mojej bezsenności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 340
+  skrypt: breadwood_mailman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_11545bafdd6efff145d5
+      kontekst: data.json:scripts.breadwood_mailman.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy seems very focused on his beard-growing.
+      pl: Ten gość bardzo skupiony na hodowli brody.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_7d8a6e61c0a8c4570e2f
+      kontekst: data.json:scripts.breadwood_mailman.intro
+      linia: 3
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy. Are you Reginald?
+      pl: Witaj. Czy pan jest Reginaldem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8641cd79de5fdd80d7c
+      kontekst: data.json:scripts.breadwood_mailman.intro
+      linia: 4
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Who the foccacia are you?
+      pl: Kim do cholery jesteś?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1e776d89adbe875417b4
+      kontekst: data.json:scripts.breadwood_mailman.intro
+      linia: 5
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Name's @firstname@ @lastname@. The mayor's got me investigating some missing mail, said you could give me a line on where to start looking.
+      pl: Nazywam się @firstname@ @lastname@. Burmistrz kazał mi zbadać sprawę zaginionej poczty i powiedział, że możesz mi podpowiedzieć, od czego zacząć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1f133dc8f89eb61a7286
+      kontekst: data.json:scripts.breadwood_mailman.intro
+      linia: 6
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh. Yeah, all right. I gave up bein' a mailman a couple years ago, but I doubt they've changed the system much. All the mail headed here used to go through a way station just southwest of here.  I'll mark it on yer map.
+      pl: Och. Tak, dobrze. Parę lat temu przestałem być listonoszem, ale wątpię, żeby system bardzo się zmienił. Cała poczta zmierzająca tutaj przechodziła przez stację przekaźnikową na południowy zachód stąd. Zaznaczę ją na twojej mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: comeback
+    wpisy:
+    - id: wol_a2d2fb34a7fb0cb0d058
+      kontekst: data.json:scripts.breadwood_mailman.comeback
+      linia: 8
+      sekcja_skryptu: comeback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I already told ya what I know about the mail, ya sonovabiscuit. Leave me be. This beard ain't gonna grow itself.
+      pl: Już ci mówiłem, co wiem o poczcie, ty sukinsynu jeden. Zostaw mnie w spokoju. Ta broda sama sobie nie urośnie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_01407c725cd504e4b37a
+      kontekst: data.json:scripts.breadwood_mailman.comeback
+      linia: 9
+      sekcja_skryptu: comeback
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 341
+  skrypt: breadwood_mailmanpop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_11545bafdd6efff145d5
+      kontekst: data.json:scripts.breadwood_mailmanpop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy seems very focused on his beard-growing.
+      pl: Ten gość bardzo skupiony na hodowli brody.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 342
+  skrypt: breadwood_mayor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 94
+  sekcje:
+  - etykieta: hub
+    wpisy:
+    - id: wol_09261f8a136997ab55a6
+      kontekst: data.json:scripts.breadwood_mayor.hub
+      linia: 2
+      sekcja_skryptu: hub
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mayor glances at the list of problems posted on the wall, and paces around nervously.
+      pl: Burmistrz zerka na listę problemów na ścianie i nerwowo chodzi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3abdfd74e8c8371f98e1
+      kontekst: data.json:scripts.breadwood_mayor.hub
+      linia: 3
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Now about that lumber...
+      pl: A teraz to drewno...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: getdeal
+    wpisy:
+    - id: wol_a11a1cf00aac2341eec7
+      kontekst: data.json:scripts.breadwood_mayor.getdeal
+      linia: 4
+      sekcja_skryptu: getdeal
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, well, you've helped me out quite a bit, so I reckon I can set you up with what you need for that bridge.
+      pl: Dobrze, bardzo mi pomogłeś, więc chyba mogę załatwić ci to, czego potrzebujesz do mostu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hub
+    wpisy:
+    - id: wol_b73df5561686d269c1fe
+      kontekst: data.json:scripts.breadwood_mayor.hub
+      linia: 8
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Offer to help with his problems
+      pl: Zaproponuj pomoc z jego problemami
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: offer
+    wpisy:
+    - id: wol_ddd6c39f3a7501dccefe
+      kontekst: data.json:scripts.breadwood_mayor.offer
+      linia: 9
+      sekcja_skryptu: offer
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Maybe I could help with some of your problems?
+      pl: Może mógłbym pomóc z częścią twoich problemów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c596eac8820c36a6dcb
+      kontekst: data.json:scripts.breadwood_mayor.offer
+      linia: 10
+      sekcja_skryptu: offer
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, thank you! I'd certainly welcome any assistance you can offer.
+      pl: O, dziękuję! Z pewnością przyjmę każdą pomoc, jaką możesz zaoferować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b526c943ee6d4374b63a
+      kontekst: data.json:scripts.breadwood_mayor.offer
+      linia: 11
+      sekcja_skryptu: offer
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Look at the problems board
+      pl: Spójrz na tablicę problemów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_5669e20cb90c41265615
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 12
+      sekcja_skryptu: pickprob
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You glance at the problems board, which offers a selection of current issues, as well as a dire warning.
+      pl: Rzucasz okiem na tablicę problemów, która oferuje wybór bieżących kwestii oraz ponure ostrzeżenie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f43d3258089b9ff301b
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 13
+      sekcja_skryptu: pickprob
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Which problem do you want to offer to help with?
+      pl: Z którym problemem chcesz pomóc?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97945b49c71abb337c42
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 14
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The missing mail
+      pl: Zaginiona poczta
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob6
+    wpisy:
+    - id: wol_4ea9c07c54dab014d4c9
+      kontekst: data.json:scripts.breadwood_mayor.prob6
+      linia: 15
+      sekcja_skryptu: prob6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Our last batch of mail never got here. We don't know if something happened to the mailman, or what. Go talk to Reginald in the bunkhouse -- he used to be a mailman, so he can tell you where to start your search.
+      pl: Ostatnia partia poczty nigdy tu nie dotarła. Nie wiemy, czy coś stało się listonoszowi, czy co. Porozmawiaj z Reginaldem w baraku — kiedyś był listonoszem, więc powie ci, od czego zacząć poszukiwania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c1ebae1fb7fa9397e61
+      kontekst: data.json:scripts.breadwood_mayor.prob6
+      linia: 16
+      sekcja_skryptu: prob6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You got it.
+      pl: Masz to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_4a878a187c0ec61a95a3
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 17
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The overdue book
+      pl: Zaległa książka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob3
+    wpisy:
+    - id: wol_e877f1d99ede2c79ae30
+      kontekst: data.json:scripts.breadwood_mayor.prob3
+      linia: 18
+      sekcja_skryptu: prob3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Our library's only got four books, so it's serious business when someone doesn't return one! Our records say it was loaned out to a lady name of Alexandria. That was a couple of mayors ago, so I don't know her, but we've got an address.
+      pl: Nasza biblioteka ma tylko cztery książki, więc kiedy ktoś którejś nie oddaje, to poważna sprawa! Według rejestru wypożyczyła ją kobieta imieniem Alexandria. Było to kilka kadencji burmistrza temu, więc jej nie znam, ale mamy adres.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_537fe2670bfa426bad71
+      kontekst: data.json:scripts.breadwood_mayor.prob3
+      linia: 19
+      sekcja_skryptu: prob3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll go ask her.
+      pl: Okej, pójdę ją zapytać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_9287330f86b0a62a9096
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 20
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The logging permit
+      pl: Pozwolenie na wycinkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob4
+    wpisy:
+    - id: wol_98b3b5726c3509cb44af
+      kontekst: data.json:scripts.breadwood_mayor.prob4
+      linia: 21
+      sekcja_skryptu: prob4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We're running out of trees around here, and need to expand our operation a bit. Problem is, we need a logging permit from the next town, and the whole place up and died before the paperwork was settled.
+      pl: Kończą nam się drzewa i musimy trochę rozszerzyć naszą operację. Problem w tym, że potrzebujemy pozwolenia na wyręb z następnego miasta, a całe to miejsce umarło zanim załatwiono papierkową robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce42c66ff42efc0c6612
+      kontekst: data.json:scripts.breadwood_mayor.prob4
+      linia: 22
+      sekcja_skryptu: prob4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The town... died? Uh okay, I'll check it out I guess.
+      pl: Miasteczko... umarło? No dobra, chyba się tam wybiorę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_2ba2ceaf92852f79c6fb
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 23
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The soup shortage
+      pl: Niedobór zupy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob5
+    wpisy:
+    - id: wol_fa2aecda94ed4cfeb17b
+      kontekst: data.json:scripts.breadwood_mayor.prob5
+      linia: 24
+      sekcja_skryptu: prob5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We keep a municipal soup kitchen open to help those who're down on their luck -- which is pretty much everybody 'round here. But we've run out of soup, and need someone to go fetch some more from Soupstock Lode.
+      pl: Mamy otwartą kuchnię z zupą miejską, by pomóc tym, którzy mają pecha -- co jest prawie wszystkim tutaj. Ale skończyła nam się zupa i potrzebujemy kogoś, kto przyniesie więcej z Soupstock Lode.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39edf9c89c265ee6c9b2
+      kontekst: data.json:scripts.breadwood_mayor.prob5
+      linia: 25
+      sekcja_skryptu: prob5
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He gives you a stack of bread bowls to carry the soup in.
+      pl: Daje ci stos chlebowych misek na zupę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0155d05bade61866d296
+      kontekst: data.json:scripts.breadwood_mayor.prob5
+      linia: 26
+      sekcja_skryptu: prob5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, off I go.
+      pl: Okej, ruszam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_b9c4bfa4b420c71a8934
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 27
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The skeleton raids
+      pl: Najazdy szkieletów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob7
+    wpisy:
+    - id: wol_ae62f21507b273e699d8
+      kontekst: data.json:scripts.breadwood_mayor.prob7
+      linia: 28
+      sekcja_skryptu: prob7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's a military cemetery not far from here, and I figure something must've happened to the caretaker because military skeletons keep wandering out this way and causing a ruckus.
+      pl: Niedaleko stąd znajduje się cmentarz wojskowy. Chyba coś stało się dozorcy, bo wojskowe szkielety wciąż przychodzą w te strony i robią rozróbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_54ed39b303528b0d47c9
+      kontekst: data.json:scripts.breadwood_mayor.prob7
+      linia: 29
+      sekcja_skryptu: prob7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, I'll check it out.
+      pl: Dobra, sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_2bac76afd4a9332da35a
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 30
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The stolen yeast
+      pl: Skradzione drożdże
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob1
+    wpisy:
+    - id: wol_bda303bc48e62c025450
+      kontekst: data.json:scripts.breadwood_mayor.prob1
+      linia: 31
+      sekcja_skryptu: prob1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We take our yeast supply very seriously here in Breadwood, and that dang Yeastie Gang made off with the whole lot! Couple of fellas said they saw them loitering around the old brewery, so that's probably where they've made their hideout. We need that yeast back!
+      pl: Traktujemy nasze zapasy drożdży bardzo poważnie tutaj w Breadwood, i ta cholerna Banda Drożdżowników uciekła z całą resztą! Kilku chłopaków widziało, jak włóczą się po starym browarze, więc pewnie tam się ukryli. Musimy odzyskać drożdże!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_90dfd2e7d23255243178
+      kontekst: data.json:scripts.breadwood_mayor.prob1
+      linia: 32
+      sekcja_skryptu: prob1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, I'll go investigate.
+      pl: Okej, idę to zbadać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_6c86c7c2d77b2ed53501
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 33
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: The missing bread
+      pl: Zaginiony chleb
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: prob2
+    wpisy:
+    - id: wol_7a465d8afb9b28e1d948
+      kontekst: data.json:scripts.breadwood_mayor.prob2
+      linia: 34
+      sekcja_skryptu: prob2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The Baker Boys cleaned our bank right out, and that's not a bit fabulous if you ask me! Fortunately, they haven't been too secretive about the location of their hideout. Can you get our bread back? I mean the place is called "Breadwood", we have to have some bread!
+      pl: Chłopcy Piekarze wyczyścili nasz bank do cna i według mnie nie ma w tym nic fantastycznego! Na szczęście nie kryją się zbytnio z lokalizacją swojej kryjówki. Odzyskasz nasz chleb? To miasto nazywa się „Breadwood” — musimy mieć trochę chleba!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_26cab0a563216125639a
+      kontekst: data.json:scripts.breadwood_mayor.prob2
+      linia: 35
+      sekcja_skryptu: prob2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Right, I'll get it back.
+      pl: Dobrze, odzyskam to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pickprob
+    wpisy:
+    - id: wol_8fab2bb2c2d9b9c5c2b3
+      kontekst: data.json:scripts.breadwood_mayor.pickprob
+      linia: 36
+      sekcja_skryptu: pickprob
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: On second thought, never mind.
+      pl: Z drugiej strony, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alldone
+    wpisy:
+    - id: wol_97f394f51532641ec1eb
+      kontekst: data.json:scripts.breadwood_mayor.alldone
+      linia: 38
+      sekcja_skryptu: alldone
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The mayor looks pretty relaxed now that the camp only has one problem.
+      pl: Burmistrz wygląda na całkiem zrelaksowanego, skoro w obozie został jeden problem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cfd2ddbfdac9a189eb0b
+      kontekst: data.json:scripts.breadwood_mayor.alldone
+      linia: 39
+      sekcja_skryptu: alldone
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to his relaxation.
+      pl: Zostaw go przy jego odpoczynku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest7
+    wpisy:
+    - id: wol_faf93c94cae705a773c2
+      kontekst: data.json:scripts.breadwood_mayor.checkquest7
+      linia: 41
+      sekcja_skryptu: checkquest7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you sort out that trouble at the cemetery?
+      pl: Rozwiązałeś problem na cmentarzu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7066a09c81f6b1c48337
+      kontekst: data.json:scripts.breadwood_mayor.checkquest7
+      linia: 42
+      sekcja_skryptu: checkquest7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep, the caretaker is back on duty.
+      pl: Ta, opiekun wrócił na służbę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest7
+    wpisy:
+    - id: wol_2aaf79288f30f55a2117
+      kontekst: data.json:scripts.breadwood_mayor.finishquest7
+      linia: 44
+      sekcja_skryptu: finishquest7
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's certainly good to hear. Those skeletons were a real nuisance.
+      pl: Dobrze to słyszeć. Te szkielety były bardzo uciążliwe.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bf97662f6b7f6a6bd4e2
+      kontekst: data.json:scripts.breadwood_mayor.finishquest7
+      linia: 45
+      sekcja_skryptu: finishquest7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: They sure have a way of getting under your skin!
+      pl: Naprawdę umieją wejść ci pod skórę!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest7
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest7
+      linia: 46
+      sekcja_skryptu: checkquest7
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest6
+    wpisy:
+    - id: wol_8889896360a380648fa4
+      kontekst: data.json:scripts.breadwood_mayor.checkquest6
+      linia: 48
+      sekcja_skryptu: checkquest6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Any sign of that missing mail?
+      pl: Jakiś ślad zaginionej poczty?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.breadwood_mayor.checkquest6
+      linia: 49
+      sekcja_skryptu: checkquest6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest6
+    wpisy:
+    - id: wol_358a1f11cda2fb84b100
+      kontekst: data.json:scripts.breadwood_mayor.finishquest6
+      linia: 50
+      sekcja_skryptu: finishquest6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yep! Found the missing mailman, too. He's on his way to deliver it.
+      pl: Tak! Znalazłem też zaginionego listonosza. Jest w drodze, żeby to dostarczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_578a92dc6807c7fd2e44
+      kontekst: data.json:scripts.breadwood_mayor.finishquest6
+      linia: 51
+      sekcja_skryptu: finishquest6
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Excellent! I hope there's a new issue of "Mayor's Monthly".
+      pl: Wspaniale! Mam nadzieję, że wyszedł nowy numer „Miesięcznika Burmistrza”.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_122aab2e15741bf6a388
+      kontekst: data.json:scripts.breadwood_mayor.finishquest6
+      linia: 52
+      sekcja_skryptu: finishquest6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sounds informative!
+      pl: Brzmi pouczająco!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest6
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest6
+      linia: 53
+      sekcja_skryptu: checkquest6
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest5
+    wpisy:
+    - id: wol_c273fe63cdf1e8090498
+      kontekst: data.json:scripts.breadwood_mayor.checkquest5
+      linia: 55
+      sekcja_skryptu: checkquest5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you bring back the soup? I need all five bowls filled, mind.
+      pl: Masz tę zupę? Pamiętaj, potrzebuję napełnić wszystkie pięć misek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e942637459d0cce5ec97
+      kontekst: data.json:scripts.breadwood_mayor.checkquest5
+      linia: 56
+      sekcja_skryptu: checkquest5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Got them right here.
+      pl: Są tu, pod ręką.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest5
+    wpisy:
+    - id: wol_8664f185218c2b3e1db3
+      kontekst: data.json:scripts.breadwood_mayor.finishquest5
+      linia: 58
+      sekcja_skryptu: finishquest5
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You're a real life-saver! I was about ready to gnaw my own beard off.
+      pl: Jesteś prawdziwym ratującym życie! Byłem gotów odgryźć sobie brodę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9577a80633a5f251f89c
+      kontekst: data.json:scripts.breadwood_mayor.finishquest5
+      linia: 59
+      sekcja_skryptu: finishquest5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That'd've been a shame!
+      pl: To by była szkoda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest5
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest5
+      linia: 60
+      sekcja_skryptu: checkquest5
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest4
+    wpisy:
+    - id: wol_b2f6c986931e3f7b1da4
+      kontekst: data.json:scripts.breadwood_mayor.checkquest4
+      linia: 62
+      sekcja_skryptu: checkquest4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you manage to get that logging permit yet?
+      pl: Udało ci się już zdobyć zezwolenie na wyrąb?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b211311bb95638b3e0f1
+      kontekst: data.json:scripts.breadwood_mayor.checkquest4
+      linia: 63
+      sekcja_skryptu: checkquest4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yes. Finally.
+      pl: Tak. Wreszcie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest4
+    wpisy:
+    - id: wol_c37d42dfd1c55e1cf188
+      kontekst: data.json:scripts.breadwood_mayor.finishquest4
+      linia: 65
+      sekcja_skryptu: finishquest4
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that is definitely going to improve the situation around here. Thank you!
+      pl: To zdecydowanie poprawi sytuację. Dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dbd0b907d20ea0bb439c
+      kontekst: data.json:scripts.breadwood_mayor.finishquest4
+      linia: 66
+      sekcja_skryptu: finishquest4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I just hope to never see another form again.
+      pl: Tylko mam nadzieję, że nigdy więcej nie zobaczę żadnego formularza.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest4
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest4
+      linia: 67
+      sekcja_skryptu: checkquest4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest3
+    wpisy:
+    - id: wol_b2c59ad3c6777c8a0cea
+      kontekst: data.json:scripts.breadwood_mayor.checkquest3
+      linia: 69
+      sekcja_skryptu: checkquest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Were you able to find that missing library book?
+      pl: Udało ci się znaleźć tę brakującą księgę biblioteczną?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_da9a24ecfec0642f0f16
+      kontekst: data.json:scripts.breadwood_mayor.checkquest3
+      linia: 70
+      sekcja_skryptu: checkquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Er, well... half of it.
+      pl: Er, cóż... połowę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest3
+    wpisy:
+    - id: wol_5e2507032c799ee0aa35
+      kontekst: data.json:scripts.breadwood_mayor.finishquest3
+      linia: 72
+      sekcja_skryptu: finishquest3
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's a real bagel-biter. Oh well, everyone mostly skipped the words and just looked at the pictures anyway... and mostly just the bottom half of the pictures. So that's all right.
+      pl: Cóż, to jest prawdziwy bajgiel. Wszyscy w większości pomijali słowa i tylko patrzyli na zdjęcia... i głównie na dolną połowę zdjęć. W porządku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_daad79b444e748efee12
+      kontekst: data.json:scripts.breadwood_mayor.finishquest3
+      linia: 73
+      sekcja_skryptu: finishquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: At least the captions are still there, I guess?
+      pl: Przynajmniej podpisy chyba wciąż są, co nie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest3
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest3
+      linia: 74
+      sekcja_skryptu: checkquest3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest2
+    wpisy:
+    - id: wol_4a4367ba6075e3a93b50
+      kontekst: data.json:scripts.breadwood_mayor.checkquest2
+      linia: 76
+      sekcja_skryptu: checkquest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Did you get our bread back from those miserable Baker Boys?
+      pl: Odzyskałeś nasz chleb od tych podłych Chłopców Piekarzy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e0a892d3d4fb41c5b770
+      kontekst: data.json:scripts.breadwood_mayor.checkquest2
+      linia: 77
+      sekcja_skryptu: checkquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I sure did!
+      pl: No jasne!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest2
+    wpisy:
+    - id: wol_b3943a97007d5d6426a7
+      kontekst: data.json:scripts.breadwood_mayor.finishquest2
+      linia: 79
+      sekcja_skryptu: finishquest2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank goodness for that! Another missed payday would've caused a riot for sure.
+      pl: Dzięki niebiosom! Jeszcze jedna zaległa wypłata na pewno wywołałaby zamieszki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_088a1fa21613ceaa988b
+      kontekst: data.json:scripts.breadwood_mayor.finishquest2
+      linia: 80
+      sekcja_skryptu: finishquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Glad we avoided that!
+      pl: Dobrze, że tego uniknęliśmy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest2
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest2
+      linia: 81
+      sekcja_skryptu: checkquest2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_a642d51e515256d6538f
+      kontekst: data.json:scripts.breadwood_mayor.intro
+      linia: 82
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Mayor. I'm @firstname@ @lastname@, here on behalf of the Manifest Destiny Railroad Company. We need to build a bridge in a hurry, so I'm here to cut a deal with you for the lumber.
+      pl: Witaj, panie burmistrzu. Jestem @firstname@ @lastname@ z ramienia Manifest Destiny Railroad Company. Musimy szybko zbudować most, więc przychodzę zawrzeć umowę na drewno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_aac5234c078ab58a0af5
+      kontekst: data.json:scripts.breadwood_mayor.intro
+      linia: 83
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right, I believe we can scrape together that much wood. What sort of down-payment are you offering?
+      pl: Dobrze, chyba zdołamy zebrać tyle drewna. Jaką zaliczkę oferujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_913fb41c24fce2e823c0
+      kontekst: data.json:scripts.breadwood_mayor.intro
+      linia: 84
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, uh...
+      pl: O, yyy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro2
+    wpisy:
+    - id: wol_694e93d54db454d3ebb9
+      kontekst: data.json:scripts.breadwood_mayor.intro2
+      linia: 85
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh, uh... I sort of expected you would just bill us.
+      pl: Och, yyy... Spodziewałem się, że po prostu wystawisz nam rachunek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_86f2d21d7adde372b116
+      kontekst: data.json:scripts.breadwood_mayor.intro2
+      linia: 86
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You want that much lumber with no payment up-front? Are you serious?
+      pl: Chcesz tyle drewna bez zapłaty? Mówisz poważnie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9ff457eec06bde8d887
+      kontekst: data.json:scripts.breadwood_mayor.intro2
+      linia: 87
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I can probably offer you free train rides.
+      pl: Mogę ci pewnie zaproponować darmowe przejazdy pociągiem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0cc99d508a7848542f90
+      kontekst: data.json:scripts.breadwood_mayor.intro2
+      linia: 88
+      sekcja_skryptu: intro2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I do enjoy a nice train ride, but that deal would be a real problem -- and I've already got seven problems to worry about.
+      pl: Owszem, lubię miłą przejażdżkę pociągiem, ale ten układ byłby prawdziwym problemem -- a mam już siedem problemów na głowie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: introalt
+    wpisy:
+    - id: wol_38673a02f1eb0c9fbd24
+      kontekst: data.json:scripts.breadwood_mayor.introalt
+      linia: 90
+      sekcja_skryptu: introalt
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Mayor. I'm @firstname@ @lastname@.
+      pl: Witaj, panie burmistrzu. Jestem @firstname@ @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_650b443df71980ea8e4d
+      kontekst: data.json:scripts.breadwood_mayor.introalt
+      linia: 91
+      sekcja_skryptu: introalt
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy @firstname@.  Apologies, but I'm a bit distracted by all my problems.
+      pl: Witaj, @firstname@. Wybacz, ale trochę rozpraszają mnie wszystkie moje problemy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: signform1
+    wpisy:
+    - id: wol_330892cdde72d396c806
+      kontekst: data.json:scripts.breadwood_mayor.signform1
+      linia: 93
+      sekcja_skryptu: signform1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me, Mayor. I have some papers you need to sign for that logging permit.
+      pl: Przepraszam, panie burmistrzu. Mam dokumenty, które musi pan podpisać w sprawie zezwolenia na wyrąb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6a4f971768cf44d74ca5
+      kontekst: data.json:scripts.breadwood_mayor.signform1
+      linia: 94
+      sekcja_skryptu: signform1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right. ...Oh, ghost paper. Ugh, this stuff is... weird.
+      pl: Dobrze. ...Och, widmowy papier. Uch, to jest... dziwne.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.breadwood_mayor.signform1
+      linia: 95
+      sekcja_skryptu: signform1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3fcca50340170bba8fdd
+      kontekst: data.json:scripts.breadwood_mayor.signform1
+      linia: 96
+      sekcja_skryptu: signform1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think I need a ghost pencil for this.
+      pl: Chyba potrzebuję do tego upiornego ołówka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3257ed4df6b44a99bc93
+      kontekst: data.json:scripts.breadwood_mayor.signform1
+      linia: 97
+      sekcja_skryptu: signform1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Loan him your pencil.
+      pl: Pożycz mu ołówek.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: signform2
+    wpisy:
+    - id: wol_474054c65e5ed8d0f11f
+      kontekst: data.json:scripts.breadwood_mayor.signform2
+      linia: 98
+      sekcja_skryptu: signform2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Here, you can borrow mine. Sign down here, and initial over here.
+      pl: Proszę, możesz pożyczyć mój. Podpisz tutaj i postaw inicjały tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16f037269254bda76ae9
+      kontekst: data.json:scripts.breadwood_mayor.signform2
+      linia: 99
+      sekcja_skryptu: signform2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After some fumbling with the ghostly pencil, the mayor eventually manages to sign and initial the form.
+      pl: Po chwilowym majstrowaniu upiornym ołówkiem burmistrzowi wreszcie udaje się podpisać i parafować formularz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1daa51f26fe8e49b5962
+      kontekst: data.json:scripts.breadwood_mayor.signform2
+      linia: 100
+      sekcja_skryptu: signform2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: All right, Mayor, I'll be back soon with that permit. God willing.
+      pl: Dobrze, burmistrzu, niedługo wrócę z tym pozwoleniem. Jeśli Bóg pozwoli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0cfac50ce7c996ea18e6
+      kontekst: data.json:scripts.breadwood_mayor.signform2
+      linia: 101
+      sekcja_skryptu: signform2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good luck.
+      pl: Powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f41083463101105c75ad
+      kontekst: data.json:scripts.breadwood_mayor.signform2
+      linia: 102
+      sekcja_skryptu: signform2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave.
+      pl: Wyjdź.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pencilback
+    wpisy:
+    - id: wol_88fb2962f19f9a52f375
+      kontekst: data.json:scripts.breadwood_mayor.pencilback
+      linia: 103
+      sekcja_skryptu: pencilback
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Excuse me, Mayor?
+      pl: Przepraszam, panie burmistrzu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_20653f49c370ff35f720
+      kontekst: data.json:scripts.breadwood_mayor.pencilback
+      linia: 104
+      sekcja_skryptu: pencilback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2a16d8be0f396adbc47c
+      kontekst: data.json:scripts.breadwood_mayor.pencilback
+      linia: 105
+      sekcja_skryptu: pencilback
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You still have my ghost pencil. I need that.
+      pl: Nadal masz mój ołówek. Potrzebuję tego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b4c263c8f22957ceb0f3
+      kontekst: data.json:scripts.breadwood_mayor.pencilback
+      linia: 106
+      sekcja_skryptu: pencilback
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! Terribly sorry... I think it's haunting my beard... ah. Here you go.
+      pl: Och! Strasznie przepraszam... Chyba nawiedza moją brodę... ach. Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_03bf4c3f366c85a3e3d2
+      kontekst: data.json:scripts.breadwood_mayor.pencilback
+      linia: 107
+      sekcja_skryptu: pencilback
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Thank you.
+      pl: Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest1
+    wpisy:
+    - id: wol_df7840a1f15d892c03e3
+      kontekst: data.json:scripts.breadwood_mayor.checkquest1
+      linia: 108
+      sekcja_skryptu: checkquest1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Any luck recovering our yeast from those bandits up at the Ol' Schmaltz Brewery?
+      pl: Udało się odzyskać nasze drożdże od bandytów ze Starego Browaru Schmaltza?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.breadwood_mayor.checkquest1
+      linia: 109
+      sekcja_skryptu: checkquest1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finishquest1
+    wpisy:
+    - id: wol_9d2f52e55482e34ed3c5
+      kontekst: data.json:scripts.breadwood_mayor.finishquest1
+      linia: 111
+      sekcja_skryptu: finishquest1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well done! That's quite a help, thank you.
+      pl: Dobra robota! To bardzo pomocne, dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2d1eab1b38eaecd0c4ab
+      kontekst: data.json:scripts.breadwood_mayor.finishquest1
+      linia: 112
+      sekcja_skryptu: finishquest1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Happy to help.
+      pl: Chętnie pomogę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkquest1
+    wpisy:
+    - id: wol_f54275a9d659afb83023
+      kontekst: data.json:scripts.breadwood_mayor.checkquest1
+      linia: 113
+      sekcja_skryptu: checkquest1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet.
+      pl: Jeszcze nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 344
+  skrypt: breadwood_pharaoh
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_d1c427dd194847690b9b
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man with the black hat has a huge pile of Meat in front of him.
+      pl: Facet w czarnym kapeluszu ma przed sobą ogromną stertę Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2c206c8e69b1ba0abc72
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man with the white hat looks broke and sad.
+      pl: Facet w białym kapeluszu wygląda na złamany i smutny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9874aa1accf7b36b7eb9
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Whatcha playing, fellas?
+      pl: Co gracie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_97362c7f15c3ed45f084
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pharaoh.  But I wouldn't say we're playing.  I'd say we <i>did</i> play, until this cowpoke ran out of money.
+      pl: Faraon. Ale nie powiedziałbym, że gramy. Powiedziałbym, że <i>graliśmy,</i> dopóki temu kowbojowi nie skończyły się pieniądze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4f50aa3266f0ba1f412e
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man in the white hat grumbles.
+      pl: Facet w białym kapeluszu burczy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f169f56fcb3b8f22b46
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How does it work?
+      pl: Jak to działa?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: game
+    wpisy:
+    - id: wol_d742d5312c86a06ac59d
+      kontekst: data.json:scripts.breadwood_pharaoh.game
+      linia: 8
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: It's easy. You bet 50 Meat, and then you name as many pharaohs as you can.  Every time you name one, I give you 20 Meat.
+      pl: To proste. Stawiasz 50 Mięsa, a potem wymieniasz tylu faraonów, ilu zdołasz. Za każdego wymienionego daję ci 20 Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cbfe6229d6c8ef0c75bf
+      kontekst: data.json:scripts.breadwood_pharaoh.game
+      linia: 9
+      sekcja_skryptu: game
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wait, what?  If those are the rules, how did this guy lose all of his Meat to you?
+      pl: Czekaj, co? Jeśli takie są zasady, jak ten facet stracił na twoją rzecz całe swoje Mięso?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3dd9f76c29511ee07dda
+      kontekst: data.json:scripts.breadwood_pharaoh.game
+      linia: 10
+      sekcja_skryptu: game
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: He's <i>real</i> bad at it.
+      pl: Jest w tym <i>naprawdę</i> kiepski.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: playopts
+    wpisy:
+    - id: wol_8cacf909f3a5499f3bd9
+      kontekst: data.json:scripts.breadwood_pharaoh.playopts
+      linia: 11
+      sekcja_skryptu: playopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll give it a try. [50 Meat]
+      pl: Spróbuję. [50 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[50 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: play
+    wpisy:
+    - id: wol_36e312cb5f179ed106eb
+      kontekst: data.json:scripts.breadwood_pharaoh.play
+      linia: 13
+      sekcja_skryptu: play
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Alright, pardner.  Start namin' Pharaohs!
+      pl: Dobrze, pardnerze. Zaczynaj nazywać faraonów!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_81ccd79b6c62d3ef1e0f
+      kontekst: data.json:scripts.breadwood_pharaoh.play
+      linia: 14
+      sekcja_skryptu: play
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Tutankhamen.
+      pl: Tutankhamen.
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: node2
+    wpisy:
+    - id: wol_b4134c7f018b79f71aca
+      kontekst: data.json:scripts.breadwood_pharaoh.node2
+      linia: 16
+      sekcja_skryptu: node2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, everybody knows that one.  What else you got?
+      pl: No, każdy zna ten. Co jeszcze masz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e4896f8b86c629b47aeb
+      kontekst: data.json:scripts.breadwood_pharaoh.node2
+      linia: 17
+      sekcja_skryptu: node2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Uh oh.  You don't actually know the names of any more pharaohs.  Maybe you can get away with just... making some up.
+      pl: O nie. Nie znasz już nazw żadnych faraonów. Może ujdzie ci na sucho... wymyślenie kilku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_7f5ac037436f763799cb
+      kontekst: data.json:scripts.breadwood_pharaoh.loop
+      linia: 18
+      sekcja_skryptu: loop
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '%faro_umm% $name$. [$diff$ Moxie]'
+      pl: '%faro_umm% $name$. [$diff$ Ikra]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%faro_umm%'
+      - $name$
+      - '[$diff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_8c8b80bf7b3ab9187df6
+      kontekst: data.json:scripts.breadwood_pharaoh.win
+      linia: 20
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He grumbles and hands you your winnings.
+      pl: Burczy i wręcza ci wygraną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: loop
+    wpisy:
+    - id: wol_aa46c7fefcb39db5f931
+      kontekst: data.json:scripts.breadwood_pharaoh.loop
+      linia: 21
+      sekcja_skryptu: loop
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: '%faro_umm% $name$. [Requires $diff$ Moxie]'
+      pl: '%faro_umm% $name$. [Wymaga $diff$ Ikry]'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '%faro_umm%'
+      - $name$
+      - '[Requires $diff$ Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4cd0aae1d0c4c783108e
+      kontekst: data.json:scripts.breadwood_pharaoh.loop
+      linia: 22
+      sekcja_skryptu: loop
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: That's all I got.
+      pl: To wszystko, co mam.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leave
+    wpisy:
+    - id: wol_917e12e0ecae8483110c
+      kontekst: data.json:scripts.breadwood_pharaoh.leave
+      linia: 24
+      sekcja_skryptu: leave
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man in the white hat scowls.
+      pl: Facet w białym kapeluszu grymasi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3563839f2f661efbe7f2
+      kontekst: data.json:scripts.breadwood_pharaoh.leave
+      linia: 25
+      sekcja_skryptu: leave
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Table's closed.  Get lost.
+      pl: Stół zamknięty. Wynoś się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3684484dec6023bd84ea
+      kontekst: data.json:scripts.breadwood_pharaoh.leave
+      linia: 26
+      sekcja_skryptu: leave
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Whatever you say.
+      pl: Jak mówisz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: safeleave
+    wpisy:
+    - id: wol_a826002b66e1d195eca1
+      kontekst: data.json:scripts.breadwood_pharaoh.safeleave
+      linia: 27
+      sekcja_skryptu: safeleave
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Come back any time!
+      pl: Wracaj kiedy chcesz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4bee1ac36b380f4b4280
+      kontekst: data.json:scripts.breadwood_pharaoh.safeleave
+      linia: 28
+      sekcja_skryptu: safeleave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave the table
+      pl: Opuść stół
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: playopts
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: data.json:scripts.breadwood_pharaoh.playopts
+      linia: 29
+      sekcja_skryptu: playopts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_25ac2bc12062ec23a02f
+      kontekst: data.json:scripts.breadwood_pharaoh.start
+      linia: 30
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, well, goodbye.
+      pl: Okej, no, pa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: back
+    wpisy:
+    - id: wol_6e561f66ff4c5859a564
+      kontekst: data.json:scripts.breadwood_pharaoh.back
+      linia: 31
+      sekcja_skryptu: back
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Ready to give it a shot?
+      pl: Gotowy spróbować?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 345
+  skrypt: breadwood_problemsboard
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 15
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8fae8b1682609b1203a2
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'You read the list of Breadwood''s problems:'
+      pl: 'Czytasz listę problemów Breadwood:'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8f44b53d1309355f12c0
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Missing Mail -- the last batch of mail never made it here.'
+      pl: '* Zaginiona poczta — ostatnia dostawa nigdy tu nie dotarła.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_756e21432ce8e192a2d4
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Overdue Book -- one of the library''s four books was checked out and never turned back in.'
+      pl: '* Zaległa książka — jedna z czterech książek bibliotecznych wypożyczona i nigdy nie zwrócona.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_62045239c6162dfc0755
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Stalled Logging Permit -- whole swaths of forest are still standing and we can''t chop them down.'
+      pl: '* Zablokowane pozwolenie na wycinkę — całe połacie lasu stoją, a my nie możemy ich ściąć.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40fa31b1ba13cca247e6
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Soup Shortage -- the town''s soup kitchen doesn''t have any soup in it.'
+      pl: '* Brak zupy — w miejskiej jadłodajni nie ma ani kropli zupy.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dcf9fb8dfe82d7555884
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Skeletons Everywhere -- skeletons keep wandering into town and poking people in the eye.'
+      pl: '* Szkielety wszędzie — szkielety włóczą się po mieście i dźgają ludzi w oko.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fa0770cffc0d788d1893
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Missing Yeast -- the town''s entire stock of yeast was stolen by the Yeastie Gang.'
+      pl: '* Brak drożdży — całe zapasy miasta ukradła Banda Drożdżowników.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5c20c3cdfa6328861244
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Robbed Bread Bank -- the town''s bank was cleaned out by the Baker Boys.'
+      pl: '* Napad na Chlebny Bank — bank miasta splądrowali Chłopcy Piekarze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f7bc625c03e495166aef
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 9
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Bad Lumber Deal -- we''re giving lumber to the railroad company for like no Meat at all and that''s bad.'
+      pl: '* Zły interes z drewnem — oddajemy tarcicę kolei za grosze Mięsa, a to niedobrze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_badc9e01cffe4bfc2dc6
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* Bad Lumber Deal -- we gave lumber to the railroad company for like no Meat at all and that''s bad.'
+      pl: '* Zły interes z drewnem — oddaliśmy tarcicę kolei za grosze Mięsa, a to niedobrze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3206a5b1fb3fabad97c3
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 11
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '* No Lumber Deal -- we lost out on a railroad company lumber deal and that''s bad.'
+      pl: '* Brak interesu z drewnem — przepuściliśmy kontrakt kolei na tarcicę, a to niedobrze.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_91efa75323d0a550a086
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The board is empty -- you have solved all of their problems. Time to go give them a new one, you reckon.
+      pl: Tablica jest pusta — rozwiązałeś wszystkie ich problemy. Czas dać im nowy, uważasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33ce2185ef9a3af46283
+      kontekst: data.json:scripts.breadwood_problemsboard.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: There's a note at the bottom
+      pl: Na dole jest notatka
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: note
+    wpisy:
+    - id: wol_515415e0eb638ce53dd3
+      kontekst: data.json:scripts.breadwood_problemsboard.note
+      linia: 14
+      sekcja_skryptu: note
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'NOTE: Last time a mayor let this list get over three items, we chased him out of town with his breadstick nailed to the top of his head.'
+      pl: 'UWAGA: Ostatnim razem, gdy burmistrz pozwolił, żeby ta lista miała więcej niż trzy punkty, wyganialiśmy go z miasta z paluszkiem chlebowym przybitym do czubka głowy.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8f32f7e2b6e3f8f16861
+      kontekst: data.json:scripts.breadwood_problemsboard.note
+      linia: 15
+      sekcja_skryptu: note
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 346
+  skrypt: breadwood_questyjones
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 38
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_5121adfbfaa046f45ecb
+      kontekst: data.json:scripts.breadwood_questyjones.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, Stranger. I'm Hobart Buppert.
+      pl: Witaj, Nieznajomy. Jestem Hobart Buppert.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_988e757441dc71b369ff
+      kontekst: data.json:scripts.breadwood_questyjones.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You're what? Oh, I mean, hi Hobart, I'm @firstname@ @lastname@.
+      pl: 'Jestem kim? Och, to znaczy: cześć, Hobart, jestem @firstname@ @lastname@.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8dc8e2bafa7eada10b50
+      kontekst: data.json:scripts.breadwood_questyjones.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You seem like the travelin' sort. Mind doin' a fella a favor?
+      pl: Wyglądasz na podróżnika. Wyświadczysz facetowi przysługę?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3454cf5d5e61dc5d951
+      kontekst: data.json:scripts.breadwood_questyjones.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: What's the favor?
+      pl: Na czym polega przysługa?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_10281f6edec912b83763
+      kontekst: data.json:scripts.breadwood_questyjones.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Thing is, my only dream in life is to see an owl skeleton.
+      pl: Rzecz w tym, że moim jedynym marzeniem w życiu jest zobaczyć szkielet sowy.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4be2776e50f9624ef7a7
+      kontekst: data.json:scripts.breadwood_questyjones.two
+      linia: 7
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: That's... quite a dream.
+      pl: To... niezwykły sen.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: twob
+    wpisy:
+    - id: wol_1782634d65d668d6b9d1
+      kontekst: data.json:scripts.breadwood_questyjones.twob
+      linia: 8
+      sekcja_skryptu: twob
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I heard they've got one at the petting cemetery, but I ain't got the Meat for a ticket.
+      pl: Słyszałem, że jeden jest na cmentarzu do głaskania, ale nie mam Mięsa na bilet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35c41f129ae270fe5c26
+      kontekst: data.json:scripts.breadwood_questyjones.twob
+      linia: 9
+      sekcja_skryptu: twob
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You want a loan?
+      pl: Chcesz pożyczkę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_33399471e26f3ec886d6
+      kontekst: data.json:scripts.breadwood_questyjones.three
+      linia: 11
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Naw, I got no prospects of payin' it back. But I got a camera, and I figured if you went to the cemetery, you could take a picture of their owl skeleton an' bring it back to me.
+      pl: Nie, nie mam żadnych widoków na spłatę. Ale mam aparat i pomyślałem, że możesz pójść na cmentarz, zrobić zdjęcie szkieletu sowy i przynieść mi fotografię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6d7049cd89a4f222f7f0
+      kontekst: data.json:scripts.breadwood_questyjones.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, I'll do that.
+      pl: Jasne, zrobię to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_9a2d73d1198bab4a5030
+      kontekst: data.json:scripts.breadwood_questyjones.yes
+      linia: 14
+      sekcja_skryptu: 'yes'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! Thanks a bundle.
+      pl: Świetnie! Wielkie dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_265aa77108dc72824099
+      kontekst: data.json:scripts.breadwood_questyjones.yes
+      linia: 15
+      sekcja_skryptu: 'yes'
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He marks the location of the cemetery on your map.
+      pl: Zaznacza na twojej mapie cmentarz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c71c22c0b6d8c888c375
+      kontekst: data.json:scripts.breadwood_questyjones.yes
+      linia: 16
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. I'll be back.
+      pl: Okej. Wrócę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_59d3067dc21438b920b5
+      kontekst: data.json:scripts.breadwood_questyjones.yes
+      linia: 17
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay. Owl be back.
+      pl: Okej. Sowa wróci.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_307091d2eb8dc99b7699
+      kontekst: data.json:scripts.breadwood_questyjones.yes
+      linia: 18
+      sekcja_skryptu: 'yes'
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Owlkay. Owl be back. Owl.
+      pl: Sowieta. Sowrócę. Sowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_2cef658b46e0ccb70970
+      kontekst: data.json:scripts.breadwood_questyjones.three
+      linia: 19
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Nah, I'm busy.
+      pl: Nie, mam robotę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_5afdb3153c814b5b867f
+      kontekst: data.json:scripts.breadwood_questyjones.no
+      linia: 21
+      sekcja_skryptu: 'no'
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, tarnation. And here I thought this would be a relatively simple life goal.
+      pl: Cóż, daremność. A ja myślałem, że to będzie stosunkowo prosty życiowy cel.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: twoa
+    wpisy:
+    - id: wol_90e49b422bc31a630dee
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 23
+      sekcja_skryptu: twoa
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I heard they've got one at the petting cemetery, but...
+      pl: Słyszałem, że jeden jest na cmentarzu do głaskania, ale...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b31407212d98893fb0e
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 24
+      sekcja_skryptu: twoa
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The what?
+      pl: Że co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_00933302a33b89335b4b
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 25
+      sekcja_skryptu: twoa
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Petting cemetery.
+      pl: Cmentarz do głaskania.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_18ae1b276b7f353abcf8
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 26
+      sekcja_skryptu: twoa
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Is that what it sounds like?'
+      pl: '...Czy to brzmi tak, jak myślę?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0feb4198dea60ff7896b
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 27
+      sekcja_skryptu: twoa
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Exactly what it sounds like. But see, I ain't got the Meat for a ticket.
+      pl: Dokładnie to, na co brzmi. Ale widzisz, nie mam Mięsa na bilet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_35c41f129ae270fe5c26
+      kontekst: data.json:scripts.breadwood_questyjones.twoa
+      linia: 28
+      sekcja_skryptu: twoa
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: You want a loan?
+      pl: Chcesz pożyczkę?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finished
+    wpisy:
+    - id: wol_705b5adb1583eff01647
+      kontekst: data.json:scripts.breadwood_questyjones.finished
+      linia: 29
+      sekcja_skryptu: finished
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Hobart.
+      pl: Witaj, Hobart.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_73a083c8b3944bf68570
+      kontekst: data.json:scripts.breadwood_questyjones.finished
+      linia: 30
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@.
+      pl: Witaj, @firstname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0d51200a6692629ca834
+      kontekst: data.json:scripts.breadwood_questyjones.finished
+      linia: 31
+      sekcja_skryptu: finished
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Still enjoying that owl skeleton picture?
+      pl: Nadal podoba ci się zdjęcie szkieletu sowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.breadwood_questyjones.finished
+      linia: 32
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f8135e4bcf951f86c1e1
+      kontekst: data.json:scripts.breadwood_questyjones.finished
+      linia: 35
+      sekcja_skryptu: finished
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then.
+      pl: No to dobra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkin
+    wpisy:
+    - id: wol_705b5adb1583eff01647
+      kontekst: data.json:scripts.breadwood_questyjones.checkin
+      linia: 36
+      sekcja_skryptu: checkin
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Hobart.
+      pl: Witaj, Hobart.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b477c8130acddf1e031
+      kontekst: data.json:scripts.breadwood_questyjones.checkin
+      linia: 37
+      sekcja_skryptu: checkin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @firstname@. You manage to take a picture of that owl skeleton yet?
+      pl: Witaj, @firstname@. Udało ci się już zrobić zdjęcie szkieletu sowy?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_23bdd5aaea5abbb34f41
+      kontekst: data.json:scripts.breadwood_questyjones.checkin
+      linia: 38
+      sekcja_skryptu: checkin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure did! Here you go.
+      pl: Jasne, że tak! Proszę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnin
+    wpisy:
+    - id: wol_4c2c1db23a86e38c3beb
+      kontekst: data.json:scripts.breadwood_questyjones.turnin
+      linia: 40
+      sekcja_skryptu: turnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great! Aw, will ya look at that! What a beaut! Well, thank ya, @firstname@. I ain't got anything for a reward, but I 'magine you'll get some experience points out of it.
+      pl: Świetnie! Och, spójrz tylko! Ale piękność! Dziękuję, @firstname@. Nie mam nic w ramach nagrody, ale zapewne dostaniesz za to trochę punktów doświadczenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6caff6b270c1498ba0a3
+      kontekst: data.json:scripts.breadwood_questyjones.turnin
+      linia: 41
+      sekcja_skryptu: turnin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Seeya, Hobart.
+      pl: Na razie, Hobart.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: checkin
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.breadwood_questyjones.checkin
+      linia: 42
+      sekcja_skryptu: checkin
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: dontturnin
+    wpisy:
+    - id: wol_2e60cd1ff5f2f950980a
+      kontekst: data.json:scripts.breadwood_questyjones.dontturnin
+      linia: 44
+      sekcja_skryptu: dontturnin
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Alright. No hurry, I s'pose.
+      pl: Dobrze. Chyba nie ma pośpiechu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8d5ea2dd34df6f9015a
+      kontekst: data.json:scripts.breadwood_questyjones.dontturnin
+      linia: 45
+      sekcja_skryptu: dontturnin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Allright.
+      pl: Dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_028aba37a4cf2c3bf96a
+      kontekst: data.json:scripts.breadwood_questyjones.dontturnin
+      linia: 46
+      sekcja_skryptu: dontturnin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Owlright.
+      pl: Sowieta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_080f519f3a2a19c56290
+      kontekst: data.json:scripts.breadwood_questyjones.dontturnin
+      linia: 47
+      sekcja_skryptu: dontturnin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Owl.
+      pl: Sowa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 347
+  skrypt: breadwood_questypop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_53a7c178d29d93a8a47b
+      kontekst: data.json:scripts.breadwood_questypop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Hobart Buppert is just chillin' by the fire. It must not be a very good fire.
+      pl: Hobart Buppert po prostu relaksuje się przy ogniu. To chyba niezbyt dobry ogień.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_db629676d132716a9179
+      kontekst: data.json:scripts.breadwood_questypop.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy's just chillin' by the fire. It must not be a very good fire.
+      pl: Ten gość po prostu relaksuje przy ogniu. To chyba słabe ognisko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 348
+  skrypt: breadwood_spittoon
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 17
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_3d2b4459e87a9ce08fff
+      kontekst: data.json:scripts.breadwood_spittoon.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This is a spittoon, and an unusually full one. Probably best to leave it alone.
+      pl: To spluwaczka — i to wyjątkowo pełna. Chyba najlepiej jej nie ruszać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.breadwood_spittoon.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_efb6ed67104d1d4cd274
+      kontekst: data.json:scripts.breadwood_spittoon.two
+      linia: 4
+      sekcja_skryptu: two
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Look, this isn't Mom & Pop's Family Fun Time Saloon. This is a dive bar in a dive town. The people who drink in here are mainly drifters and desperadoes. Don't go splashing around in the literal scum of the scum of the earth.
+      pl: Słuchaj, to nie Mom & Pop's Family Fun Time Saloon. To knajpa w zapadniętym miasteczku. Tu piją głównie włóczykoci i desperadosi. Nie brodź w dosłownym szlamie najgorszych z najgorszych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ca75156510ce045376cf
+      kontekst: data.json:scripts.breadwood_spittoon.two
+      linia: 5
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I'm gonna
+      pl: Zamierzam
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_27054eb0d2844f044987
+      kontekst: data.json:scripts.breadwood_spittoon.three
+      linia: 6
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Seriously, don't. This is wrong and disgusting. It is vile behavior.
+      pl: Serio, nie rób tego. To jest złe i obrzydliwe. To podłe zachowanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_349533c8d991d055c352
+      kontekst: data.json:scripts.breadwood_spittoon.three
+      linia: 7
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I have my face right up to the thing. What's it look like?
+      pl: Mam twarz tuż przy tym. Jak to wygląda?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: four
+    wpisy:
+    - id: wol_da41a7733af29542b22c
+      kontekst: data.json:scripts.breadwood_spittoon.four
+      linia: 8
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, I'm not telling you. Why are you doing this to me? I had to skip lunch today because I couldn't stop thinking about you and these foul spittoons.
+      pl: Nie, nie powiem ci. Czemu mi to robisz? Musiałem dziś darować sobie lunch, bo nie mogłem przestać myśleć o tobie i tych plugawych spluwaczkach.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_738ec5291899debad4b6
+      kontekst: data.json:scripts.breadwood_spittoon.four
+      linia: 9
+      sekcja_skryptu: four
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: No, I'm not telling you. Why are you doing this to me?
+      pl: Nie, nie powiem ci. Czemu mi to robisz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6949cf5c2d14bb3a6737
+      kontekst: data.json:scripts.breadwood_spittoon.four
+      linia: 10
+      sekcja_skryptu: four
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: I've got my hand right in there, splashing around
+      pl: Mam rękę w środku i pluskam się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: five
+    wpisy:
+    - id: wol_00a9b3f06ce9289e5cae
+      kontekst: data.json:scripts.breadwood_spittoon.five
+      linia: 11
+      sekcja_skryptu: five
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: La la la la I'm not listening, you find nothing, you are the worst person in the world.
+      pl: La la la la, nie słucham, nic nie znajdziesz, jesteś najgorszą osobą na świecie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fba2635253bee85a9eaf
+      kontekst: data.json:scripts.breadwood_spittoon.five
+      linia: 12
+      sekcja_skryptu: five
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Ha I found something all right
+      pl: Ha, coś znalazłem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: six
+    wpisy:
+    - id: wol_977547bca96ddf80334d
+      kontekst: data.json:scripts.breadwood_spittoon.six
+      linia: 13
+      sekcja_skryptu: six
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Like a necrotic skin disorder, I bet.
+      pl: Jak martwicze schorzenie skóry, założę się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_40298130b60c2cb9f5c8
+      kontekst: data.json:scripts.breadwood_spittoon.six
+      linia: 14
+      sekcja_skryptu: six
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Actually it's a pair of boots, so there Mr. Delicate Stomach.
+      pl: Właściwie to para butów, więc masz, panie Delikatny Żołądku.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: seven
+    wpisy:
+    - id: wol_8ddd158382e12c86f275
+      kontekst: data.json:scripts.breadwood_spittoon.seven
+      linia: 15
+      sekcja_skryptu: seven
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Boots, great. Boots full of bandit spit. I hope they have to invent a whole new kind of trenchfoot just for you. I hope they name it after you.
+      pl: Buty, świetnie. Buty pełne bandyckiej śliny. Mam nadzieję, że wymyślą zupełnie nowy rodzaj stopy okopowej specjalnie dla ciebie. I że nazwą ją twoim imieniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a37a0cf67383d1bbe602
+      kontekst: data.json:scripts.breadwood_spittoon.seven
+      linia: 16
+      sekcja_skryptu: seven
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: You're just jealous of my sweet new boots.
+      pl: Po prostu zazdrościsz moich słodkich nowych butów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_d982f00fc7fadb4f7c3d
+      kontekst: data.json:scripts.breadwood_spittoon.three
+      linia: 17
+      sekcja_skryptu: three
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sheesh, never mind
+      pl: O rany, nieważne
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_54d77f7070af493e3c4e
+      kontekst: data.json:scripts.breadwood_spittoon.two
+      linia: 18
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Okay fine
+      pl: Dobra, niech będzie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 349
+  skrypt: breadwood_toilet
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_a1badea1a880b9d85f6d
+      kontekst: data.json:scripts.breadwood_toilet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: On the one hand, it's a modern convenience.  On the other hand, it's got zero privacy.
+      pl: Z jednej strony to nowoczesna wygoda. Z drugiej — zero prywatności.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_198fa24e63d5e487143d
+      kontekst: data.json:scripts.breadwood_toilet.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Flush it just for fun
+      pl: Spuść dla zabawy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 350
+  skrypt: breadwood_tradingpost
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_79e5fd9afd0782547d66
+      kontekst: data.json:scripts.breadwood_tradingpost.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a post.
+      pl: To słup.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_39da1551093149317554
+      kontekst: data.json:scripts.breadwood_tradingpost.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Trade with it
+      pl: Handluj z tym
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 351
+  skrypt: breadwood_vanity
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_8aa807966d1b9b5b408b
+      kontekst: data.json:scripts.breadwood_vanity.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's some water and a few miscellaneous toiletries provided.
+      pl: Jest woda i kilka drobnych przyborów toaletowych.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_826ee4f7b4028acb4968
+      kontekst: data.json:scripts.breadwood_vanity.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Wash up
+      pl: Umyj się
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: use
+    wpisy:
+    - id: wol_6753d84db89d481bd6d2
+      kontekst: data.json:scripts.breadwood_vanity.use
+      linia: 3
+      sekcja_skryptu: use
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Ahhhhhh.  Much better.
+      pl: Achhhhhh. Dużo lepiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 352
+  skrypt: breadwood_yeastsafe
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e0d10ddc32d9234975ba
+      kontekst: data.json:scripts.breadwood_yeastsafe.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You've secured the militia yeast.
+      pl: Zabezpieczyłeś drożdże milicji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_47cf18a5805788833c6e
+      kontekst: data.json:scripts.breadwood_yeastsafe.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Breadwood's currently-absent supply of militia yeast.
+      pl: Obecnie nieobecny zapas drożdży milicyjnych Breadwood.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 380
+  skrypt: cemetery2_saint2pile
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.cemetery2_saint2pile.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 382
+  skrypt: cemetery2_sarcophagus
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.cemetery2_sarcophagus.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 384
+  skrypt: cemetery2_skullpile2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.cemetery2_skullpile2.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 403
+  skrypt: cemetery3_tontinestone1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.cemetery3_tontinestone1.start
+      linia: 14
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 404
+  skrypt: cemetery3_tontinestone2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_09d314f213cbf411c14c
+      kontekst: data.json:scripts.cemetery3_tontinestone2.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 2 + needle]
+      pl: Otwórz zamek [Wytrychowanie 2 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 2 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_264a501643ee4f181f76
+      kontekst: data.json:scripts.cemetery3_tontinestone2.start
+      linia: 15
+      sekcja_skryptu: start
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pick the lock [Requires Lockpickin' 2]
+      pl: Otwórz zamek [Wymaga Otwierania Zamków 2]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires Lockpickin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9e1159d00bc80c81da5f
+      kontekst: data.json:scripts.cemetery3_tontinestone2.start
+      linia: 17
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it alone
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 507
+  skrypt: clowns_circus_gamemox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: startgame
+    wpisy:
+    - id: wol_6fbea0a472e0ffa6b7d8
+      kontekst: data.json:scripts.clowns_circus_gamemox.startgame
+      linia: 13
+      sekcja_skryptu: startgame
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 508
+  skrypt: clowns_circus_gamemus
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: startgame
+    wpisy:
+    - id: wol_6fbea0a472e0ffa6b7d8
+      kontekst: data.json:scripts.clowns_circus_gamemus.startgame
+      linia: 11
+      sekcja_skryptu: startgame
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 517
+  skrypt: clowns_circus_kidtalk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: inprog
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.clowns_circus_kidtalk.inprog
+      linia: 7
+      sekcja_skryptu: inprog
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 527
+  skrypt: clowns_circus_onenter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: peteexpo2
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.clowns_circus_onenter.peteexpo2
+      linia: 10
+      sekcja_skryptu: peteexpo2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 532
+  skrypt: clowns_circus_showguardtalk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: what
+    wpisy:
+    - id: wol_20653f49c370ff35f720
+      kontekst: data.json:scripts.clowns_circus_showguardtalk.what
+      linia: 8
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yes?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.clowns_circus_showguardtalk.what
+      linia: 9
+      sekcja_skryptu: what
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 541
+  skrypt: clowns_circus_tickettalk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: hornswoggle4
+    wpisy:
+    - id: wol_03bf4c3f366c85a3e3d2
+      kontekst: data.json:scripts.clowns_circus_tickettalk.hornswoggle4
+      linia: 124
+      sekcja_skryptu: hornswoggle4
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thank you.
+      pl: Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: later
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: data.json:scripts.clowns_circus_tickettalk.later
+      linia: 1
+      sekcja_skryptu: later
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 572
+  skrypt: clowns_tannery_room4win
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.clowns_tannery_room4win.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1074
+  skrypt: dirtwater_ellsbury2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: thanks
+    wpisy:
+    - id: wol_01407c725cd504e4b37a
+      kontekst: data.json:scripts.dirtwater_ellsbury2.thanks
+      linia: 21
+      sekcja_skryptu: thanks
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1366
+  skrypt: food_raisins
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'yes'
+    wpisy:
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.food_raisins.yes
+      linia: 2
+      sekcja_skryptu: 'yes'
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1398
+  skrypt: fort1_generalgob
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: two
+    wpisy:
+    - id: wol_20653f49c370ff35f720
+      kontekst: data.json:scripts.fort1_generalgob.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yes?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1469
+  skrypt: fort5_blindman
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: return
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 30
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1478
+  skrypt: fort5_privatebow
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: help2
+    wpisy:
+    - id: wol_6fbea0a472e0ffa6b7d8
+      kontekst: data.json:scripts.fort5_privatebow.help2
+      linia: 16
+      sekcja_skryptu: help2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: clip
+    wpisy:
+    - id: wol_6fbea0a472e0ffa6b7d8
+      kontekst: data.json:scripts.fort5_privatebow.clip
+      linia: 22
+      sekcja_skryptu: clip
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Good luck!
+      pl: Powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1479
+  skrypt: fort5_privatebowlegs
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alamo
+    wpisy:
+    - id: wol_54ed39b303528b0d47c9
+      kontekst: data.json:scripts.fort5_privatebowlegs.alamo
+      linia: 17
+      sekcja_skryptu: alamo
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: All right, I'll check it out.
+      pl: Dobra, sprawdzę to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1505
+  skrypt: fort7_rentaldude
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: 'no'
+    wpisy:
+    - id: wol_20653f49c370ff35f720
+      kontekst: data.json:scripts.fort7_rentaldude.no
+      linia: 22
+      sekcja_skryptu: 'no'
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yes?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1562
+  skrypt: ghosttown1_knock4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: whiskey6
+    wpisy:
+    - id: wol_f41083463101105c75ad
+      kontekst: data.json:scripts.ghosttown1_knock4.whiskey6
+      linia: 100
+      sekcja_skryptu: whiskey6
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave.
+      pl: Wyjdź.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1563
+  skrypt: ghosttown1_knock5
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: second
+    wpisy:
+    - id: wol_20653f49c370ff35f720
+      kontekst: data.json:scripts.ghosttown1_knock5.second
+      linia: 317
+      sekcja_skryptu: second
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yes?
+      pl: Tak?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1569
+  skrypt: goblin1_guard
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: riddles3
+    wpisy:
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.goblin1_guard.riddles3
+      linia: 55
+      sekcja_skryptu: riddles3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: riddles4
+    wpisy:
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: data.json:scripts.goblin1_guard.riddles4
+      linia: 71
+      sekcja_skryptu: riddles4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000006
+  skrypt: house_airbnbdoor2_harder
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_09d314f213cbf411c14c
+      kontekst: house.json:scripts.house_airbnbdoor2_harder.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 2 + needle]
+      pl: Otwórz zamek [Wytrychowanie 2 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 2 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_264a501643ee4f181f76
+      kontekst: house.json:scripts.house_airbnbdoor2_harder.popup
+      linia: 6
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pick the lock [Requires Lockpickin' 2]
+      pl: Otwórz zamek [Wymaga Otwierania Zamków 2]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires Lockpickin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000107
+  skrypt: house_ghost_conductor
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alreadymet
+    wpisy:
+    - id: wol_01407c725cd504e4b37a
+      kontekst: house.json:scripts.house_ghost_conductor.alreadymet
+      linia: 37
+      sekcja_skryptu: alreadymet
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him be
+      pl: Zostaw go w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000112
+  skrypt: house_ghost_lawyer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: duelhas
+    wpisy:
+    - id: wol_1575c49304f6a3ac9e99
+      kontekst: house.json:scripts.house_ghost_lawyer.duelhas
+      linia: 98
+      sekcja_skryptu: duelhas
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yep!
+      pl: Ta!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: dueldidgot
+    wpisy:
+    - id: wol_e0a892d3d4fb41c5b770
+      kontekst: house.json:scripts.house_ghost_lawyer.dueldidgot
+      linia: 470
+      sekcja_skryptu: dueldidgot
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I sure did!
+      pl: No jasne!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000118
+  skrypt: house_ghost_teaparty
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fighta
+    wpisy:
+    - id: wol_8fab2bb2c2d9b9c5c2b3
+      kontekst: house.json:scripts.house_ghost_teaparty.fighta
+      linia: 39
+      sekcja_skryptu: fighta
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: On second thought, never mind.
+      pl: Z drugiej strony, nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000151
+  skrypt: house_infodesk_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: mrsgun2
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: house.json:scripts.house_infodesk_talk.mrsgun2
+      linia: 19
+      sekcja_skryptu: mrsgun2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: family2
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: house.json:scripts.house_infodesk_talk.family2
+      linia: 28
+      sekcja_skryptu: family2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: manor
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: house.json:scripts.house_infodesk_talk.manor
+      linia: 35
+      sekcja_skryptu: manor
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: house.json:scripts.house_infodesk_talk.start
+      linia: 46
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: again
+    wpisy:
+    - id: wol_1ebfb9d91241d51c5326
+      kontekst: house.json:scripts.house_infodesk_talk.again
+      linia: 49
+      sekcja_skryptu: again
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe later.
+      pl: Może później.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1813
+  skrypt: mine3_murray
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: goodluck
+    wpisy:
+    - id: wol_9c1ebae1fb7fa9397e61
+      kontekst: data.json:scripts.mine3_murray.goodluck
+      linia: 39
+      sekcja_skryptu: goodluck
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You got it.
+      pl: Masz to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1878
+  skrypt: mine5_workbench
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_09d314f213cbf411c14c
+      kontekst: data.json:scripts.mine5_workbench.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 2 + needle]
+      pl: Otwórz zamek [Wytrychowanie 2 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 2 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_264a501643ee4f181f76
+      kontekst: data.json:scripts.mine5_workbench.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pick the lock [Requires Lockpickin' 2]
+      pl: Otwórz zamek [Wymaga Otwierania Zamków 2]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires Lockpickin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1932
+  skrypt: mine8_cultists2
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intim
+    wpisy:
+    - id: wol_03bf4c3f366c85a3e3d2
+      kontekst: data.json:scripts.mine8_cultists2.intim
+      linia: 17
+      sekcja_skryptu: intim
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Thank you.
+      pl: Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1949
+  skrypt: mission1_nun
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: grassprogress
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.mission1_nun.grassprogress
+      linia: 14
+      sekcja_skryptu: grassprogress
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1965
+  skrypt: necrotower_necromancer
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: alicewins2
+    wpisy:
+    - id: wol_03bf4c3f366c85a3e3d2
+      kontekst: data.json:scripts.necrotower_necromancer.alicewins2
+      linia: 48
+      sekcja_skryptu: alicewins2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Thank you.
+      pl: Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1987
+  skrypt: oopsall
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fail
+    wpisy:
+    - id: wol_a234c3abc5426c85c38b
+      kontekst: data.json:scripts.oopsall.fail
+      linia: 7
+      sekcja_skryptu: fail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 25
+  sekcje:
+  - etykieta: aliced
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.aliced
+      linia: 110
+      sekcja_skryptu: aliced
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_tannery_dryingyard
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_tannery_dryingyard
+      linia: 2
+      sekcja_skryptu: alice_tannery_dryingyard
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_professor_interior
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_professor_interior
+      linia: 4
+      sekcja_skryptu: alice_professor_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_snakespring
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_snakespring
+      linia: 3
+      sekcja_skryptu: alice_snakespring
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_shroomcave
+    wpisy:
+    - id: wol_8f32f7e2b6e3f8f16861
+      kontekst: data.json:scripts.pardner_talk.alice_shroomcave
+      linia: 5
+      sekcja_skryptu: alice_shroomcave
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_shroomcave_stumble
+    wpisy:
+    - id: wol_8f32f7e2b6e3f8f16861
+      kontekst: data.json:scripts.pardner_talk.alice_shroomcave_stumble
+      linia: 10
+      sekcja_skryptu: alice_shroomcave_stumble
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yikes!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_tannery_dryingyard
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.pete_tannery_dryingyard
+      linia: 4
+      sekcja_skryptu: pete_tannery_dryingyard
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_bandit1_burned
+    wpisy:
+    - id: wol_f8135e4bcf951f86c1e1
+      kontekst: data.json:scripts.pardner_talk.susie_bandit1_burned
+      linia: 6
+      sekcja_skryptu: susie_bandit1_burned
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay then.
+      pl: No to dobra.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_ranch1_interior
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_ranch1_interior
+      linia: 4
+      sekcja_skryptu: susie_ranch1_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_bandit3
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_bandit3
+      linia: 2
+      sekcja_skryptu: susie_bandit3
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_professor_interior
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_professor_interior
+      linia: 5
+      sekcja_skryptu: susie_professor_interior
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_elvibrato1
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_elvibrato1
+      linia: 4
+      sekcja_skryptu: susie_elvibrato1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_jewelrystore
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_jewelrystore
+      linia: 4
+      sekcja_skryptu: susie_jewelrystore
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_house_mrsroom
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_house_mrsroom
+      linia: 6
+      sekcja_skryptu: susie_house_mrsroom
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_house_mrsroom_gone
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_house_mrsroom_gone
+      linia: 8
+      sekcja_skryptu: susie_house_mrsroom_gone
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_21
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.pete_21
+      linia: 3
+      sekcja_skryptu: pete_21
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_21b
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.pete_21b
+      linia: 9
+      sekcja_skryptu: pete_21b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_21
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_21
+      linia: 3
+      sekcja_skryptu: alice_21
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_21c
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_21c
+      linia: 9
+      sekcja_skryptu: alice_21c
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_21d
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_21d
+      linia: 11
+      sekcja_skryptu: alice_21d
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: alice_21b
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.alice_21b
+      linia: 13
+      sekcja_skryptu: alice_21b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_21
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.gary_21
+      linia: 3
+      sekcja_skryptu: gary_21
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: gary_21b
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.gary_21b
+      linia: 13
+      sekcja_skryptu: gary_21b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_21
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_21
+      linia: 3
+      sekcja_skryptu: susie_21
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: susie_21b
+    wpisy:
+    - id: wol_10942e7f095e69d6a487
+      kontekst: data.json:scripts.pardner_talk.susie_21b
+      linia: 11
+      sekcja_skryptu: susie_21b
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Yeah.
+      pl: Ta.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2022
+  skrypt: potion_bitoectoplasm
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fail
+    wpisy:
+    - id: wol_a234c3abc5426c85c38b
+      kontekst: data.json:scripts.potion_bitoectoplasm.fail
+      linia: 5
+      sekcja_skryptu: fail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2023
+  skrypt: potion_bloodtonic
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fail
+    wpisy:
+    - id: wol_a234c3abc5426c85c38b
+      kontekst: data.json:scripts.potion_bloodtonic.fail
+      linia: 5
+      sekcja_skryptu: fail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2024
+  skrypt: potion_candy1
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: fail
+    wpisy:
+    - id: wol_a234c3abc5426c85c38b
+      kontekst: data.json:scripts.potion_candy1.fail
+      linia: 5
+      sekcja_skryptu: fail
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Alrighty.
+      pl: No dobrze.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2182
+  skrypt: ranch1_tombstone1_mary
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: give
+    wpisy:
+    - id: wol_03bf4c3f366c85a3e3d2
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.give
+      linia: 15
+      sekcja_skryptu: give
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thank you.
+      pl: Dziękuję.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2193
+  skrypt: ranch3_barn
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_09d314f213cbf411c14c
+      kontekst: data.json:scripts.ranch3_barn.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Pick the lock [Lockpickin' 2 + needle]
+      pl: Otwórz zamek [Wytrychowanie 2 + igła]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Lockpickin'' 2 + needle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_264a501643ee4f181f76
+      kontekst: data.json:scripts.ranch3_barn.popup
+      linia: 5
+      sekcja_skryptu: popup
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Pick the lock [Requires Lockpickin' 2]
+      pl: Otwórz zamek [Wymaga Otwierania Zamków 2]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne:
+      - '[Requires Lockpickin'' 2]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2237
+  skrypt: ranch5_kellogg
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: four
+    wpisy:
+    - id: wol_8f32f7e2b6e3f8f16861
+      kontekst: data.json:scripts.ranch5_kellogg.four
+      linia: 20
+      sekcja_skryptu: four
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yikes!
+      pl: Ojej!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2470
+  skrypt: re_woundedguy
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: asshole
+    wpisy:
+    - id: wol_f41083463101105c75ad
+      kontekst: data.json:scripts.re_woundedguy.asshole
+      linia: 18
+      sekcja_skryptu: asshole
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave.
+      pl: Wyjdź.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2519
+  skrypt: sinzonefilthin_spittoonzone_spittineyemage
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: spittinlessons
+    wpisy:
+    - id: wol_c3454cf5d5e61dc5d951
+      kontekst: data.json:scripts.sinzonefilthin_spittoonzone_spittineyemage.spittinlessons
+      linia: 85
+      sekcja_skryptu: spittinlessons
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What's the favor?
+      pl: Na czym polega przysługa?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2543
+  skrypt: skullshadowhomestead_teagarden_jeremy_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro3
+    wpisy:
+    - id: wol_0b31407212d98893fb0e
+      kontekst: data.json:scripts.skullshadowhomestead_teagarden_jeremy_talk.intro3
+      linia: 43
+      sekcja_skryptu: intro3
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The what?
+      pl: Że co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2733
+  skrypt: tut_sherf
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: intro
+    wpisy:
+    - id: wol_0b31407212d98893fb0e
+      kontekst: data.json:scripts.tut_sherf.intro
+      linia: 3
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: The what?
+      pl: Że co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: introb
+    wpisy:
+    - id: wol_0b31407212d98893fb0e
+      kontekst: data.json:scripts.tut_sherf.introb
+      linia: 4
+      sekcja_skryptu: introb
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: The what?
+      pl: Że co?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: return1
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.tut_sherf.return1
+      linia: 43
+      sekcja_skryptu: return1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: notyet
+    wpisy:
+    - id: wol_94f1a88e99cb6ddee0e3
+      kontekst: data.json:scripts.tut_sherf.notyet
+      linia: 44
+      sekcja_skryptu: notyet
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Not yet, sorry.
+      pl: Jeszcze nie, przepraszam.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

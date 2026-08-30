@@ -1,0 +1,3453 @@
+schema_version: 1
+dzial:
+  numer: '05'
+  nazwa: Forty
+grupa_lokacji_lub_systemu: fort_unnecessary
+zrodlowy_batch: 063_dialog_loc_fort5_fort_unnecessary.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 30
+liczba_wpisow: 201
+sceny:
+- kolejnosc_w_danych_gry: 1469
+  skrypt: fort5_blindman
+  pomieszczenie: &id001
+    id: fort5
+    nazwa_en: Fort Unnecessary
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 26
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_9667a54a8725d3f164d2
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This guy squints real hard at you as you approach.
+      pl: Ten gość mocno mruży oczy, gdy się zbliżasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_565d10363e2c2c3d0c54
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy. Do I know you? Your fuzzy silhouette don't seem familiar.
+      pl: Witaj. Znamy się? Twoja rozmyta sylwetka nie wygląda znajomo.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8289251b9376488972ea
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Nope, I'm just passing through. What do you do here?
+      pl: Nie, tylko przejazdem. Czym się tu zajmujesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4afe1a8ef739ee99fdf4
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'm supposed to be a scout, but I went and broke my only pair of glasses. Without 'em, I can't see a dang thing.
+      pl: Powinienem być zwiadowcą, ale złamałem tylko parę okularów. Bez nich nic nie widzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_90b64e469c0fef026de6
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe these will help? [disposable binoculars]
+      pl: Może to pomoże? [jednorazowa lornetka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[disposable binoculars]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: binoc
+    wpisy:
+    - id: wol_dd01f943228f9dce274a
+      kontekst: data.json:scripts.fort5_blindman.binoc
+      linia: 7
+      sekcja_skryptu: binoc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the binoculars, and peers at you through them.
+      pl: Bierze lornetkę i patrzy na ciebie przez nią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_588f6100948389d4675b
+      kontekst: data.json:scripts.fort5_blindman.binoc
+      linia: 8
+      sekcja_skryptu: binoc
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I'll be! That ain't half bad.
+      pl: A niech mnie! Wcale nie jest tak źle.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a8fb27363c5294e04845
+      kontekst: data.json:scripts.fort5_blindman.binoc
+      linia: 9
+      sekcja_skryptu: binoc
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He climbs up to the top of the watchtower and looks around.
+      pl: Wspina się na szczyt wieży strażniczej i rozgląda się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dab83f8c8a0dad6038ad
+      kontekst: data.json:scripts.fort5_blindman.binoc
+      linia: 10
+      sekcja_skryptu: binoc
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They work! I can see a dang thing! Hooray!
+      pl: Działają! Widzę jakąś cholerną rzecz! Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_70fa418c91d9e93003df
+      kontekst: data.json:scripts.fort5_blindman.binoc
+      linia: 11
+      sekcja_skryptu: binoc
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_bb8e7c6908c5361d6e8c
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Here, try these on. [very thick spectacles]
+      pl: Masz, przymierz to. [bardzo grube okulary]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[very thick spectacles]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glasses
+    wpisy:
+    - id: wol_d9cfae67ad2d5d45dbf6
+      kontekst: data.json:scripts.fort5_blindman.glasses
+      linia: 14
+      sekcja_skryptu: glasses
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the glasses and puts them on, then looks around, blinking.
+      pl: Bierze okulary, zakłada je i rozgląda się, mrugając.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_851481ad5321f6f93eb5
+      kontekst: data.json:scripts.fort5_blindman.glasses
+      linia: 15
+      sekcja_skryptu: glasses
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well I'll be! Never realized what a dump this place is.
+      pl: A niech mnie! Nigdy nie zdawałem sobie sprawy, jaka to nora.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1681e14cb4bb7d804fa4
+      kontekst: data.json:scripts.fort5_blindman.glasses
+      linia: 16
+      sekcja_skryptu: glasses
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He climbs up to the top of the watchtower and peers out over the countryside.
+      pl: Wspina się na szczyt wieży strażniczej i spogląda na okolicę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dab83f8c8a0dad6038ad
+      kontekst: data.json:scripts.fort5_blindman.glasses
+      linia: 17
+      sekcja_skryptu: glasses
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: They work! I can see a dang thing! Hooray!
+      pl: Działają! Widzę jakąś cholerną rzecz! Hurra!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_70fa418c91d9e93003df
+      kontekst: data.json:scripts.fort5_blindman.glasses
+      linia: 18
+      sekcja_skryptu: glasses
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_0f8e01c9a07ed295ae77
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 19
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I could try to get you a new pair.
+      pl: Mógłbym spróbować zdobyć ci nową parę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: glassesquest
+    wpisy:
+    - id: wol_8019f758e644236cef38
+      kontekst: data.json:scripts.fort5_blindman.glassesquest
+      linia: 21
+      sekcja_skryptu: glassesquest
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'd be much obliged! I hear tell there's a jeweler not too far from here, he could probably grind me a pair of lenses. Just tell him ta make 'em thick as a dickens.
+      pl: Byłbym wielce zobowiązany! Podobno niedaleko stąd jest jubiler, pewnie mógłby mi oszlifować parę soczewek. Powiedz mu tylko, żeby zrobił je grube jak diabli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e53fa4cbabd00f9f92c5
+      kontekst: data.json:scripts.fort5_blindman.glassesquest
+      linia: 22
+      sekcja_skryptu: glassesquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll see what I can do!
+      pl: Zobaczę, co da się zrobić!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_4a23958f5785ec10ccfc
+      kontekst: data.json:scripts.fort5_blindman.start
+      linia: 23
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well good luck!
+      pl: No to powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: return
+    wpisy:
+    - id: wol_e76a3361b87516709406
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 24
+      sekcja_skryptu: return
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The scout squints real hard at you as you approach.
+      pl: Zwiadowca mruży mocno oczy, gdy się zbliżasz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0a132bb4d2b72394a40a
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 25
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy. Have we met? I can't see a dang thing without my glasses.
+      pl: Witaj. Spotkaliśmy się już? Bez okularów niczego nie widzę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_47c21b215413ce90c2cd
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 26
+      sekcja_skryptu: return
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, I'm the one who went to find you a new pair.
+      pl: Tak, to ja pojechałem znaleźć ci nową parę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_434ed1dbbb37f1a36937
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 27
+      sekcja_skryptu: return
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh, right! Any luck with that?
+      pl: Och, racja! Udało się?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_90b64e469c0fef026de6
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 28
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe these will help? [disposable binoculars]
+      pl: Może to pomoże? [jednorazowa lornetka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[disposable binoculars]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb8e7c6908c5361d6e8c
+      kontekst: data.json:scripts.fort5_blindman.return
+      linia: 29
+      sekcja_skryptu: return
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Here, try these on. [very thick spectacles]
+      pl: Masz, przymierz to. [bardzo grube okulary]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[very thick spectacles]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1470
+  skrypt: fort5_cannonguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 21
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_36240659b847b78f3cc8
+      kontekst: data.json:scripts.fort5_cannonguy.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy. What's the haps?
+      pl: Witaj. Co się dzieje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_d2d87ac7500f3a90cf73
+      kontekst: data.json:scripts.fort5_cannonguy.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I'm supposed to be a cannoneer, but I'm terrible at loading cannons. They always explode -- except not the way they're supposed to explode. Or else they don't explode at all.
+      pl: Podobno jestem kanonierem, ale fatalnie mi idzie ładowanie armat. Zawsze wybuchają — tyle że nie tak, jak powinny wybuchać. Albo nie wybuchają wcale.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_9327b6496528a0798e82
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 5
+      sekcja_skryptu: start2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: The only time I ever got one to fire right, the cannonball knocked my sergeant's hat off, and he was standing behind me. I still can't figure out how that happened.
+      pl: Jedyny raz, gdy udało mi się z takiej dobrze wystrzelić, kula armatnia strąciła kapelusz mojemu sierżantowi, który stał za mną. Nadal nie wiem, jak do tego doszło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bb3b819b3a67937c1d85
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 6
+      sekcja_skryptu: start2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So, they assigned me to this loser squad, and said I can't report back for a proper duty until I've figured out how to load a cannon right.
+      pl: Przydzielili mnie więc do oddziału nieudaczników i powiedzieli, że nie mogę wrócić do normalnej służby, dopóki nie nauczę się prawidłowo ładować armaty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b45a7cf1df6a45b17afc
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 7
+      sekcja_skryptu: start2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Help him figure it out [Mysticality 45]
+      pl: Pomóż mu to ogarnąć [Mistycyzm 45]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Mysticality 45]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: show
+    wpisy:
+    - id: wol_407f096db157a7b4a1c7
+      kontekst: data.json:scripts.fort5_cannonguy.show
+      linia: 8
+      sekcja_skryptu: show
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The two of you go over the various ingredients and tools involved, and eventually you determine that the gunpowder should be put in first, and then the cloth wadding, which gets tamped down with a long stick. After that you take the stick <i>back out again</i>, and use it to push in the cannonball. And then the fuse goes in the hole in the back, and that's the part you light.
+      pl: Omawiacie składniki i narzędzia, aż ustalacie, że najpierw wsypuje się proch, potem wata z tkaniny, którą ubija długim kijem. Potem kij <i>wyciąga się z powrotem</i> i wciska nim kulę armatnią. Na koniec lont wchodzi w otwór z tyłu — i to właśnie podpala się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5d871cc30e72a2a144b8
+      kontekst: data.json:scripts.fort5_cannonguy.show
+      linia: 9
+      sekcja_skryptu: show
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Watch him try
+      pl: Patrz, jak próbuje
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: show2
+    wpisy:
+    - id: wol_1b74f2583f78bd929228
+      kontekst: data.json:scripts.fort5_cannonguy.show2
+      linia: 10
+      sekcja_skryptu: show2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You watch carefully as the soldier follows along the steps (now written on the back of his hand), and he successfully fires a cannonball over the wall of the fort.
+      pl: Uważnie patrzysz, jak żołnierz podąża za krokami (teraz zapisanymi na grzbiecie dłoni) i z powodzeniem wystrzeliwuje kulę armatnią ponad murem fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e427bc3300065ad248ed
+      kontekst: data.json:scripts.fort5_cannonguy.show2
+      linia: 11
+      sekcja_skryptu: show2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I did it! Wow, great! Thanks a lot! I'm gonna go get my new assignment right away!
+      pl: Udało mi się! Wow, super! Wielkie dzięki! Idę od razu po nowe zadanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b5f87be67de4615e223
+      kontekst: data.json:scripts.fort5_cannonguy.show2
+      linia: 12
+      sekcja_skryptu: show2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Cool, good luck!
+      pl: Spoko, powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_c1f281b145909baacc42
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 13
+      sekcja_skryptu: start2
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Help him figure it out [Requires Mysticality 45]
+      pl: Pomóż mu to ogarnąć [Wymaga 45 Mistycyzmu]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires Mysticality 45]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_df1be942a995189588f2
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 14
+      sekcja_skryptu: start2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him the book [Cannon Loading For Idjits]
+      pl: Daj mu książkę [Ładowanie armaty dla Idjotów]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Cannon Loading For Idjits]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book
+    wpisy:
+    - id: wol_5b2e45e0e676907965f4
+      kontekst: data.json:scripts.fort5_cannonguy.book
+      linia: 15
+      sekcja_skryptu: book
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Here, maybe this will help.
+      pl: Proszę, może to pomoże.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f39042c55d3ba3f68eb
+      kontekst: data.json:scripts.fort5_cannonguy.book
+      linia: 16
+      sekcja_skryptu: book
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh huh! Well, let's see...
+      pl: Oho! No dobrze, zobaczmy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f74f114b1b8bb70eb710
+      kontekst: data.json:scripts.fort5_cannonguy.book
+      linia: 17
+      sekcja_skryptu: book
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He flips through the pages, which have big numbered diagrams.
+      pl: Przewraca strony z dużymi ponumerowanymi schematami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9ebdc656ad451ba428f3
+      kontekst: data.json:scripts.fort5_cannonguy.book
+      linia: 18
+      sekcja_skryptu: book
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! You take the stick back out before you put the cannonball in? Well that certainly sounds easier.
+      pl: Och! Wyjmuje się kij, zanim włoży się kulę armatnią? To rzeczywiście brzmi łatwiej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6dd1a21e2ce3d377f552
+      kontekst: data.json:scripts.fort5_cannonguy.book
+      linia: 19
+      sekcja_skryptu: book
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let him figure it out
+      pl: Niech sam to ogarnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: book2
+    wpisy:
+    - id: wol_42831cbaece7f1ce1565
+      kontekst: data.json:scripts.fort5_cannonguy.book2
+      linia: 20
+      sekcja_skryptu: book2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He carefully follows along the directions in the book, and successfully fires a cannonball over the wall of the fort.
+      pl: Uważnie podąża za wskazówkami z książki i z powodzeniem wystrzeliwuje kulę armatnią ponad murem fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e427bc3300065ad248ed
+      kontekst: data.json:scripts.fort5_cannonguy.book2
+      linia: 21
+      sekcja_skryptu: book2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I did it! Wow, great! Thanks a lot! I'm gonna go get my new assignment right away!
+      pl: Udało mi się! Wow, super! Wielkie dzięki! Idę od razu po nowe zadanie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b5f87be67de4615e223
+      kontekst: data.json:scripts.fort5_cannonguy.book2
+      linia: 22
+      sekcja_skryptu: book2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Cool, good luck!
+      pl: Spoko, powodzenia!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start2
+    wpisy:
+    - id: wol_04877ee4bca9bfe9af0a
+      kontekst: data.json:scripts.fort5_cannonguy.start2
+      linia: 23
+      sekcja_skryptu: start2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck with that.
+      pl: No, powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1471
+  skrypt: fort5_enter
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 6
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1148b96a97a870eca49c
+      kontekst: data.json:scripts.fort5_enter.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A harried-looking young woman in a military outfit darts in front of the door as you enter.
+      pl: Gdy wchodzisz, przed drzwiami staje młoda kobieta w mundurze, wyglądająca na wykończoną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1bdc9ac69be3fd543ad7
+      kontekst: data.json:scripts.fort5_enter.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh no! I can't be having any more misfits in this jerk ward. You can either swear to me that you're halfway competent -- heck, even a <i>quarter</i> -- and that you'll help sort out this crew of no-hopers, or you can turn right back around and march double-time!
+      pl: O nie! Nie zniosę więcej nieudaczników na tym oddziale palantów. Możesz przysiąc, że jesteś choć w połowie kompetentny — do licha, choćby w <i>jednej czwartej</i> — i pomożesz mi ogarnąć tę bandę beznadziejnych przypadków, albo odwrócić się na pięcie i odmaszerować w podwójnym tempie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bdf582ea451262d9e65
+      kontekst: data.json:scripts.fort5_enter.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, I'll help
+      pl: Jasne, pomogę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_05051872b5771c0d0d25
+      kontekst: data.json:scripts.fort5_enter.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm not sure I have time right now
+      pl: Nie jestem pewien, czy mam teraz czas
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: leave
+    wpisy:
+    - id: wol_59ca3b4958a4619be3bc
+      kontekst: data.json:scripts.fort5_enter.leave
+      linia: 6
+      sekcja_skryptu: leave
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, if you don't have the time, then I don't have the space. March!
+      pl: Jeśli ty nie masz czasu, to ja nie mam miejsca. Marsz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f49713291781712c720f
+      kontekst: data.json:scripts.fort5_enter.leave
+      linia: 7
+      sekcja_skryptu: leave
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Harrumph
+      pl: Hmrr
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1472
+  skrypt: fort5_generaldesk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_60d0f09e75f322c8ffb9
+      kontekst: data.json:scripts.fort5_generaldesk.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a nameplate on the desk that says GENERAL WHATSHISNAME.
+      pl: 'Na biurku tabliczka: GENERAŁ JAKIŚTAM.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: inv
+    wpisy:
+    - id: wol_67e29a1612fdff127de0
+      kontekst: data.json:scripts.fort5_generaldesk.inv
+      linia: 3
+      sekcja_skryptu: inv
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The desk is basically empty, but you do find an old medal discarded in one of the drawers.
+      pl: Biurko praktycznie puste, ale w jednej szufladzie znajdujesz stary medal.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1473
+  skrypt: fort5_goblinshed
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_1584e194ebd2f908a9d0
+      kontekst: data.json:scripts.fort5_goblinshed.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A sign on the front says "IMPORTANT GUN STORAGE.  NO GOBLINS."
+      pl: 'Napis z przodu głosi: „WAŻNE MAGAZYNOWANIE BRONI. BEZ GOBLINÓW.”'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_553403726790e8c3200d
+      kontekst: data.json:scripts.fort5_goblinshed.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the door a crack and take a peek. Naturally, the shed is crammed full of goblins. To the ceiling. They're barely recognizable as individual goblins.
+      pl: Otwierasz drzwi na szczelinę i zaglądasz. Naturalnie szopa jest wypchana goblinami po sufit. Ledwo można rozpoznać pojedynczych goblinów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_68d4be64d8a66cf10900
+      kontekst: data.json:scripts.fort5_goblinshed.popup
+      linia: 3
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You try and talk to them, but they're just babbling insanely.
+      pl: Próbujesz z nimi rozmawiać, ale tylko bełkoczą jak szaleni.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0c948e8200f2b9d2c30f
+      kontekst: data.json:scripts.fort5_goblinshed.popup
+      linia: 4
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Yank a few out of there [Fight]
+      pl: Wyciągnij stamtąd kilku [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: garysaw
+    wpisy:
+    - id: wol_c4e736bde5d439ab50fd
+      kontekst: data.json:scripts.fort5_goblinshed.garysaw
+      linia: 5
+      sekcja_skryptu: garysaw
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Probably better not to mess with that shed. It might explode.
+      pl: Lepiej chyba nie ruszać tej szopy. Może wybuchnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_4c30f4a725d79e70ecf6
+      kontekst: data.json:scripts.fort5_goblinshed.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You reduced the magnitude of Fort Unnecessary's goblin problem by... an amount.
+      pl: Zmniejszyłeś skalę gobliniego problemu Posterunku Zbędnego o... pewną ilość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_0bf5fae122398a307090
+      kontekst: data.json:scripts.fort5_goblinshed.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That really got out of hand!  You wake up in a heap outside the shed.
+      pl: To naprawdę wymknęło się spod kontroli! Budzisz się w stercie przed szopą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1474
+  skrypt: fort5_goblinshedgary
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 9
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_1584e194ebd2f908a9d0
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A sign on the front says "IMPORTANT GUN STORAGE.  NO GOBLINS."
+      pl: 'Napis z przodu głosi: „WAŻNE MAGAZYNOWANIE BRONI. BEZ GOBLINÓW.”'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_553403726790e8c3200d
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You open the door a crack and take a peek. Naturally, the shed is crammed full of goblins. To the ceiling. They're barely recognizable as individual goblins.
+      pl: Otwierasz drzwi na szczelinę i zaglądasz. Naturalnie szopa jest wypchana goblinami po sufit. Ledwo można rozpoznać pojedynczych goblinów.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_11437eab9552c93d2fa1
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow, jeez.
+      pl: Rany.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8fdebb9630718360df0b
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Oh! What? Let Gary seeing!
+      pl: Och! Co? Dać Gary'emu zobaczyć!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f64948182f44aeb5ff5d
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Gary takes a peek and reels back in shock, slamming the door.
+      pl: Gary zagląda do środka i cofa się w szoku, trzaskając drzwiami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ebb8fbda4eedcadcec9b
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aah! Gross! Awful! A goblin popping in there! Maybe two!
+      pl: Ach! Ohyda! Okropność! Goblin tam pękać! Może dwa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7575ee01fbba24f9b6fc
+      kontekst: data.json:scripts.fort5_goblinshedgary.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Is that what happened?
+      pl: Tak to było?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: next
+    wpisy:
+    - id: wol_8304356ef665561a6916
+      kontekst: data.json:scripts.fort5_goblinshedgary.next
+      linia: 9
+      sekcja_skryptu: next
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All those spores and nowhere to going! All growing into new goblins, and they just smooshing all up!
+      pl: Tyle zarodników i nie ma dokąd iść! Wszystkie rosnąć w nowe gobliny i tylko zgniatają się razem!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7088d464d84f1241d575
+      kontekst: data.json:scripts.fort5_goblinshedgary.next
+      linia: 10
+      sekcja_skryptu: next
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Eurrrgh.
+      pl: Fuuuu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1475
+  skrypt: fort5_horsepop
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e13ff13f5146d527f1df
+      kontekst: data.json:scripts.fort5_horsepop.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This horse has four left legs.
+      pl: Ten koń ma cztery lewe nogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1476
+  skrypt: fort5_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_90ebe72a63602c4ce769
+      kontekst: data.json:scripts.fort5_intro.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: All right. I'm gonna hold you to that promise! C'mon in, I'm Captain Harriet Davenport.
+      pl: Dobrze. Będę pamiętać tę obietnicę! Wchodź, jestem kapitan Harriet Davenport.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f3d453bfc69411f7f429
+      kontekst: data.json:scripts.fort5_intro.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: My name's @firstname@ @lastname@. What's the problem, Cap?
+      pl: Nazywam się @firstname@ @lastname@. W czym problem, Kapitanie?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@firstname@'
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_91a837c8e6cc33e1a88b
+      kontekst: data.json:scripts.fort5_intro.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Prob<i>lemsss</i>. Welcome to Camp FUBAR, where all the army's idiots and rejects are sent so they're out of the way. I have had it up to my <i>eyeballs</i> trying to run this place. <i>Please</i> help these morons figure out their malfunctions, so they can muster out of here and leave me in peace!
+      pl: Prob<i>lemyyy.</i> Witaj w Obozie FUBAR, dokąd wysyła się wszystkich wojskowych idiotów i odrzutków, żeby nie zawadzali. Mam już <i>po same gałki oczne</i> prowadzenia tego miejsca. <i>Proszę,</i> pomóż tym kretynom rozgryźć ich usterki, żeby mogli się stąd wymeldować i dać mi spokój!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0665488417649065f35b
+      kontekst: data.json:scripts.fort5_intro.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Can you give me some details?
+      pl: Możesz podać mi szczegóły?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_531a09d5e9730e276e13
+      kontekst: data.json:scripts.fort5_intro.two
+      linia: 6
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: 'You''ll need to talk to them individually for more information, but the brief is: we''ve got a scout who''s blind as a bat, a cook who can''t figure out how to make corned beef hash on toast, a guy who can''t load and fire a cannon without it blowing up or maybe shooting <i>backwards</i>, a guy who, <i>somehow</i>, and I can''t for the life of me figure it out, is <i>too bowlegged</i> to ride a horse, and a kid who was sent here because he can''t figure out how to tie a bow-tie. Oh, and just to put the icing on the cake, we have infinite goblins living in our storage shed.'
+      pl: 'Musisz porozmawiać z nimi indywidualnie, aby uzyskać więcej informacji, ale w skrócie: mamy zwiadowcę, który jest ślepy jak nietoperz, kucharza, który nie może rozgryźć, jak zrobić kukurydziany hasz wołowy na toście, faceta, który nie może załadować i wystrzelić armaty, żeby nie wybuchła albo nie strzeliła <i>do tyłu</i>, faceta, który <i>jakoś</i> — i za nic w świecie nie mogę tego pojąć — ma <i>zbyt krzywe nogi</i>, żeby jeździć konno, i dzieciaka, który został wysłany tutaj, bo nie umie zawiązać muszki. I żeby położyć lukier na torcie, mamy nieskończone gobliny żyjące w naszej szopie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: three
+    wpisy:
+    - id: wol_df032261cc0bd5bd0378
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 8
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Wow! Okay, I begin to see the scope of your complaint.
+      pl: Wow! Zaczynam dostrzegać zakres pańskiej skargi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2c7dcba7f1eecbd3ddbf
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 9
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: '@Pal@, you are not just whistling Dixie.'
+      pl: '@Pal@, masz absolutną rację.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@Pal@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dac65afd95fd9fc76f6c
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 10
+      sekcja_skryptu: three
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: So, what'd <i>you</i> do to get sent here?
+      pl: A co <i>ty</i> zrobiłeś, że cię tu wysłano?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_63fe6b6b986353cbdfc4
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 11
+      sekcja_skryptu: three
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You can hear her teeth grinding as she growls at you.
+      pl: Słyszysz, jak zgrzyta zębami, warcząc na ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_160c893aefdae8a09a2b
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 12
+      sekcja_skryptu: three
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Do. Not. Ask.
+      pl: Nie. Pytaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_860e0f22860f6755514e
+      kontekst: data.json:scripts.fort5_intro.three
+      linia: 13
+      sekcja_skryptu: three
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Okay, well! I'll just take a look around then.
+      pl: Okej, no! To po prostu rozejrzę się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1477
+  skrypt: fort5_louise
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 14
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8b14c6d7887d0bde2643
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, Cap.
+      pl: Howdy, kapitanie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_52ddb407150487eed906
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy, @lastname@.
+      pl: Witaj, @lastname@.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@lastname@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ea647e4fe1b0e10e20a8
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: You're doing a great job here, looks like only one hapless goofball left to fix!
+      pl: Świetnie tu radzisz, wygląda na to, że został jeden nieszczęsny głupek do naprawy!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6c961963f3166bda953e
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks for your help, you're doing good work. Just two left!
+      pl: Dzięki za pomoc, robisz dobrą robotę. Zostały tylko dwie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b36fd3ea13092d022b7
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Still got a lot of misfits here that need dealt with.
+      pl: Wciąż jest tu sporo niedopasowanych, z którymi trzeba sobie poradzić.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_33b1c1cfd9c349d1cc27
+      kontekst: data.json:scripts.fort5_louise.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Who's left?
+      pl: Kto został?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_a40452892872d3125a50
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: That kid Pvt. Bowtie still can't tie a bowtie.
+      pl: Ten dzieciak, szer. Bowtie, nadal nie umie zawiązać muszki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7328bd3d1074751227be
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pvt. Cooker is still unable to handle the rigors of putting corned beef on toast.
+      pl: Szeregowy Cooker nadal nie radzi sobie z trudami kładzenia peklowanej wołowiny na toście.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e8ab5867f6ff502ec5e6
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 10
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pvt. Tillery still can't figure out the cannonball goes in last.
+      pl: Szeregowy Tillery nadal nie potrafi zrozumieć, że kulę armatnią wkłada się na końcu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0f6b89f908827ab0e6b1
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 11
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pvt. Bowlegs still can't ride a horse, somehow.
+      pl: Szeregowy Bowlegs nadal jakimś cudem nie potrafi jeździć konno.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bfa97de03c65071f40c6
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 12
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Pvt. Blindman still doesn't have his glasses.
+      pl: Szeregowy Blindman nadal nie ma okularów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b394e2e3e1cefc57e116
+      kontekst: data.json:scripts.fort5_louise.two
+      linia: 13
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: 10-4, I'll take care of it.
+      pl: Przyjąłem, zajmę się tym.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: finished
+    wpisy:
+    - id: wol_e404aa4618e1b059b081
+      kontekst: data.json:scripts.fort5_louise.finished
+      linia: 14
+      sekcja_skryptu: finished
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Great job! That's everyone dealt with and out of here! And that means I'm finally out of this hellhole too. If we ever cross paths again, I really owe you one.
+      pl: Świetna robota! Wszyscy załatwieni i wynieśli się stąd! A to znaczy, że ja też wreszcie opuszczam tę piekielną dziurę. Jeśli jeszcze kiedyś się spotkamy, mam u ciebie wielki dług.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_66e5c4152317ee2dc097
+      kontekst: data.json:scripts.fort5_louise.finished
+      linia: 15
+      sekcja_skryptu: finished
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Captain Davenport frisbees her clipboard, snaps you a salute, and marches out of the fort.
+      pl: Kapitan Davenport frisbee'uje swoją teczkę, salutuje ci i maszeruje z fortu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1478
+  skrypt: fort5_privatebow
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_76617fa20189bc82e0f3
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: H... howdy.
+      pl: C... cześć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46009d84722e8e0b5271
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hi. What's wrong?
+      pl: Cześć. Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_32f6d5e2414b77e60a8c
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Aw, gee willikers, I had a pretty good job as the General's personal assistant, but I got fired and reassigned here.
+      pl: O rety, miałem całkiem dobrą posadę osobistego asystenta generała, ale zwolnili mnie i przenieśli tutaj.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9b02d7dd48e5e055a107
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bdc64f738910300e5e43
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Everything was great at first! I'm pretty good at scheduling, and I can write shorthand, and I'm an a-plus boot polisher. But then the General went and decided he'd look more serious and sophisticated with a bow-tie, and he expected me to do the tying for him.
+      pl: Na początku wszystko było świetnie! Całkiem dobrze układam harmonogramy, umiem stenografować i poleruję buty na szóstkę z plusem. Ale potem Generał uznał, że w muszce będzie wyglądać poważniej i bardziej wyrafinowanie, i oczekiwał, że będę mu ją wiązać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0af7cf58fc3435084919
+      kontekst: data.json:scripts.fort5_privatebow.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: No good?
+      pl: Nie ma sensu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_56100a0e529e930179af
+      kontekst: data.json:scripts.fort5_privatebow.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Nope. I can do a sheepshank, and a bowline, and a clover hitch, but for the life of me I can't get a bowtie to look right. The General sent me out here with one to practice on and said not to come back 'till I'd got it.
+      pl: Nie. Umiem zawiązać skrót, węzeł ratowniczy i węzeł koniczynowy, ale za nic nie potrafię porządnie zawiązać muszki. Generał wysłał mnie tutaj z jedną do ćwiczeń i kazał nie wracać, dopóki się nie nauczę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f407f3a88b0ebe6f65b5
+      kontekst: data.json:scripts.fort5_privatebow.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Help him out [45 Moxie]
+      pl: Pomóż mu [45 Ikra]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[45 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: help
+    wpisy:
+    - id: wol_6ff5ea186aa82d79f839
+      kontekst: data.json:scripts.fort5_privatebow.help
+      linia: 10
+      sekcja_skryptu: help
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Okay, here. Grab the two ends like this, right? You want this side a little shorter, and that end crosses over top and then under and up, while the other side does a sort of zig-zag, see? Then you bring the upper bit straight down and back around, and it folds under there, and then you pull them tight. Got it?
+      pl: Dobra, tutaj. Złap oba końce w ten sposób, dobrze? Ta strona ma być trochę krótsza, a ten koniec przechodzi górą, potem pod spodem i do góry, podczas gdy druga strona robi coś w rodzaju zygzaka, widzisz? Potem prowadzisz górny kawałek prosto w dół i dookoła, składasz go pod spodem i mocno zaciągasz oba końce. Rozumiesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_16c84228a5b032f30d09
+      kontekst: data.json:scripts.fort5_privatebow.help
+      linia: 11
+      sekcja_skryptu: help
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Umm I think so... let me try it...
+      pl: Hmm, myślę, że tak... Spróbuję...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8ed8d1a12bf69171cbd1
+      kontekst: data.json:scripts.fort5_privatebow.help
+      linia: 12
+      sekcja_skryptu: help
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let him try
+      pl: Niech spróbuje
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: help2
+    wpisy:
+    - id: wol_60e64cf631ec8db65b5e
+      kontekst: data.json:scripts.fort5_privatebow.help2
+      linia: 13
+      sekcja_skryptu: help2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The two of you go back and forth a few times until he finally gets it right without poking himself in the eye.
+      pl: Próbujecie razem kilka razy, aż w końcu robi to dobrze, nie dziobiąc się w oko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_807743e65dd48ae916eb
+      kontekst: data.json:scripts.fort5_privatebow.help2
+      linia: 14
+      sekcja_skryptu: help2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think I've got it! Thanks a lot! Wait'll I show the General!
+      pl: Chyba załapałem! Wielkie dzięki! Niech tylko pokażę Generałowi!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7806d8408e54d92014f8
+      kontekst: data.json:scripts.fort5_privatebow.help2
+      linia: 15
+      sekcja_skryptu: help2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He runs out of the building, waving the bowtie in the air.
+      pl: Wybiega z budynku, wymachując muszką w powietrzu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_adfc575bb4fd7a86008d
+      kontekst: data.json:scripts.fort5_privatebow.two
+      linia: 17
+      sekcja_skryptu: two
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Help him out [Requires 45 Moxie]
+      pl: Pomóż mu [Wymaga 45 Ikry]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 45 Moxie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c3b1baf1966b88015ce8
+      kontekst: data.json:scripts.fort5_privatebow.two
+      linia: 18
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him the clip-on [bowtie]
+      pl: Daj mu muszkę na klips [bowtie]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[bowtie]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: clip
+    wpisy:
+    - id: wol_6f04de370582265f32ce
+      kontekst: data.json:scripts.fort5_privatebow.clip
+      linia: 19
+      sekcja_skryptu: clip
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yeah, bow ties are a real bastard to tie right. Whoever invented that was a jerk. Here, try this clip-on one instead. Tell the General it'll save precious minutes he can use for generalling.
+      pl: Tak, muszki to prawdziwy drań. Ktokolwiek to wymyślił, był palantem. Proszę, spróbuj tego klipu. Powiedz generałowi, że zaoszczędzi to cennych minut na generalizację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_462d816101c563d508d5
+      kontekst: data.json:scripts.fort5_privatebow.clip
+      linia: 20
+      sekcja_skryptu: clip
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Neat! Okay, thanks!
+      pl: Fajnie! Dobra, dzięki!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7806d8408e54d92014f8
+      kontekst: data.json:scripts.fort5_privatebow.clip
+      linia: 21
+      sekcja_skryptu: clip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He runs out of the building, waving the bowtie in the air.
+      pl: Wybiega z budynku, wymachując muszką w powietrzu.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_6f188179ee87a25b22b0
+      kontekst: data.json:scripts.fort5_privatebow.two
+      linia: 23
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go przy tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1479
+  skrypt: fort5_privatebowlegs
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 23
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_65f00f2c952d6fc35571
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Howdy. They call me Private Bowlegs.
+      pl: Witaj. Mówią na mnie Szeregowy Krzywonogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6e2177fe14508b8e6f8b
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I can see why. You seem uncomfortable.
+      pl: Rozumiem czemu. Wyglądasz na skrępowanego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3da3a7cbc17bc2f09863
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: You ain't kiddin'. Look at my legs, they're bent so far out I can't hardly touch both knees at once. Walkin' hurts like a dickens.
+      pl: Nie żartujesz. Spójrz na moje nogi, są tak wygięte, że ledwo mogę dotknąć obu kolan na raz. Chodzenie boli jak diabli.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fc85660a8e4c0befbd61
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: The Captain said it keeps you from riding a horse?
+      pl: Kapitan powiedział, że przez niego nie możesz jeździć konno?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_12ed9d7cbc162a0cc390
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Yep. They're too wide, horse slips right out a'tween 'em.
+      pl: Tak. Są za szerokie, koń się wyślizguje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1c384a56b5ed841d5235
+      kontekst: data.json:scripts.fort5_privatebowlegs.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Huh.'
+      pl: '...Hm.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_f43f294e2b5926c0b3f7
+      kontekst: data.json:scripts.fort5_privatebowlegs.two
+      linia: 8
+      sekcja_skryptu: two
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I think I could ride a mule, though. What with them bein' a tad lower to the ground.
+      pl: Ale na mule to chybabym dał radę jechać. Bo one jednak są odrobinę bliżej ziemi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_277e490b009de0ab012c
+      kontekst: data.json:scripts.fort5_privatebowlegs.two
+      linia: 9
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Give him the Alamo contract
+      pl: Daj mu kontrakt Alamo
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: contract
+    wpisy:
+    - id: wol_618f5044277b36131b05
+      kontekst: data.json:scripts.fort5_privatebowlegs.contract
+      linia: 10
+      sekcja_skryptu: contract
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Yep, here's your contract. They said they'll send the mule directly to pick you up.
+      pl: Oto twój kontrakt. Powiedzieli, że wyślą muła bezpośrednio po ciebie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_94ad00292790d1623b1a
+      kontekst: data.json:scripts.fort5_privatebowlegs.contract
+      linia: 11
+      sekcja_skryptu: contract
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, that's a load off a whole assortment of my limbs. Thanks, friend.
+      pl: Cóż, to prawdziwa ulga dla całego asortymentu moich kończyn. Dzięki, przyjacielu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c7fa58285efedd5b83d6
+      kontekst: data.json:scripts.fort5_privatebowlegs.contract
+      linia: 12
+      sekcja_skryptu: contract
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the contract and slowly moseys outside to wait for his mule.
+      pl: Bierze kontrakt i powoli wychodzi na zewnątrz, żeby poczekać na muła.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_cab6c9423c0bd1e83e18
+      kontekst: data.json:scripts.fort5_privatebowlegs.contract
+      linia: 13
+      sekcja_skryptu: contract
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Hey, wait! You owe me 1500 Meat! Dammit!
+      pl: Hej, chwila! Jesteś mi winien 1500 Mięsa! Do cholery!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_85fffebd493143b3242f
+      kontekst: data.json:scripts.fort5_privatebowlegs.two
+      linia: 14
+      sekcja_skryptu: two
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Where would you get a mule?
+      pl: Skąd wziąłbyś muła?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: alamo
+    wpisy:
+    - id: wol_db59f32e4be7ae2dcc55
+      kontekst: data.json:scripts.fort5_privatebowlegs.alamo
+      linia: 16
+      sekcja_skryptu: alamo
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: There's a place up north that rents 'em out. But I can't get out there myself, so I'd need someone to go set up the contract on my behalf and have 'em send me one.
+      pl: Na północy jest wypożyczalnia. Sam nie mogę tam dotrzeć, więc ktoś musiałby w moim imieniu zawrzeć umowę i kazać im przysłać mi jednego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_ead54e496d8c7606b6bb
+      kontekst: data.json:scripts.fort5_privatebowlegs.two
+      linia: 18
+      sekcja_skryptu: two
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Bend his legs back [45 Muscle]
+      pl: Wygnij mu nogi do tyłu [45 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[45 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bend
+    wpisy:
+    - id: wol_446aca2040c2b8a6808e
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend
+      linia: 19
+      sekcja_skryptu: bend
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: You don't need a mule, this is fixable. Hold still a minute.
+      pl: Nie potrzebujesz muła, to da się naprawić. Nie ruszaj się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e2d4fcaf35734ca98008
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend
+      linia: 20
+      sekcja_skryptu: bend
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Huh? Well, I uh... okay...
+      pl: Hę? Cóż, ja... dobrze...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_13a9098d235b6e1081f8
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend
+      linia: 21
+      sekcja_skryptu: bend
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: With some grunts (from you) and some cries of pain (from him) you normalize his legs.
+      pl: Przy paru jękach (twoich) i krzykach bólu (jego) prostujesz mu nogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4a3c12e38d8c3689661f
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend
+      linia: 22
+      sekcja_skryptu: bend
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Ow! Great jumpin' jiminy, @man@!
+      pl: Au! Na skaczącego świerszcza, @man@!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@man@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ef3f3840a8f3bbfb5f3a
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend
+      linia: 23
+      sekcja_skryptu: bend
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Oh, don't be a baby. Look, they're much straighter now.
+      pl: O, nie bądź dzieckiem. Patrz, teraz są dużo prostsze.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: bend2
+    wpisy:
+    - id: wol_b39164df21304bf67335
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend2
+      linia: 25
+      sekcja_skryptu: bend2
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I guess I can't deny that.
+      pl: Chyba nie mogę temu zaprzeczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_23d9b102a06e7c602280
+      kontekst: data.json:scripts.fort5_privatebowlegs.bend2
+      linia: 26
+      sekcja_skryptu: bend2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He winces as he mounts the nearby horse and rides out of the camp.
+      pl: Grymasi, gdy wsiada na konia obok i wyjeżdża z obozu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: two
+    wpisy:
+    - id: wol_2516c846933f542eb34a
+      kontekst: data.json:scripts.fort5_privatebowlegs.two
+      linia: 28
+      sekcja_skryptu: two
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Bend his legs back [Requires 45 Muscle]
+      pl: Wygnij mu nogi do tyłu [Wymaga 45 Mięśni]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[Requires 45 Muscle]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1480
+  skrypt: fort5_pvtcooker
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 29
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_630e2aa192a59cf1d8ed
+      kontekst: data.json:scripts.fort5_pvtcooker.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Howdy, private...
+      pl: Witaj, szeregowy...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7b4f0e048a7bf338039b
+      kontekst: data.json:scripts.fort5_pvtcooker.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Cooker.
+      pl: Kucharz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_70b296990955cbdc35b4
+      kontekst: data.json:scripts.fort5_pvtcooker.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: How... appropriate!
+      pl: Jakie to... stosowne!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9c9139c71e45ead0e273
+      kontekst: data.json:scripts.fort5_pvtcooker.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, it would be if I knew how to cook, like, even a little bit.
+      pl: No, byłoby, gdybym umiał gotować chociaż trochę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b150054af2c5eb2fe51d
+      kontekst: data.json:scripts.fort5_pvtcooker.start
+      linia: 5
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What seems to be the trouble?
+      pl: Na czym polega problem?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: problem
+    wpisy:
+    - id: wol_e85d3c173be56292bcba
+      kontekst: data.json:scripts.fort5_pvtcooker.problem
+      linia: 7
+      sekcja_skryptu: problem
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: We've only got two ingredients here, and I cannot for the life of me figure out how to combine them.
+      pl: Mamy tu tylko dwa składniki, a ja za nic w świecie nie mogę wymyślić, jak je połączyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e698392083962b60e3ed
+      kontekst: data.json:scripts.fort5_pvtcooker.problem
+      linia: 8
+      sekcja_skryptu: problem
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: What are the ingredients?
+      pl: Jakie są składniki?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ce597454b8f782c5dbe5
+      kontekst: data.json:scripts.fort5_pvtcooker.problem
+      linia: 9
+      sekcja_skryptu: problem
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Corned beef hash and toast.
+      pl: Hash z corned beef i tosty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_89181c708912353d8aee
+      kontekst: data.json:scripts.fort5_pvtcooker.problem
+      linia: 11
+      sekcja_skryptu: problem
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to help him with a metaphor
+      pl: Spróbuj pomóc mu metaforą
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: met1
+    wpisy:
+    - id: wol_fd3211a200b006963a0e
+      kontekst: data.json:scripts.fort5_pvtcooker.met1
+      linia: 12
+      sekcja_skryptu: met1
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What if you thought of the toast as...
+      pl: Co jeśli pomyślałbyś o toaście jako...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0852db8d877b00e83ae6
+      kontekst: data.json:scripts.fort5_pvtcooker.met1
+      linia: 13
+      sekcja_skryptu: met1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: a shingle
+      pl: gont
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: met2
+    wpisy:
+    - id: wol_c2278b734dc62570cd11
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 15
+      sekcja_skryptu: met2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He nods, seeming to understand where you're going with this...
+      pl: Kiwa głową, jakby rozumiał, dokąd zmierzasz...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_69117b2eee5938864f54
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 16
+      sekcja_skryptu: met2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: and think of the corned beef as...
+      pl: a peklowaną wołowinę wyobraź sobie jako...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a9874a5e75a2c73de90a
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 17
+      sekcja_skryptu: met2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: a corncob pipe
+      pl: fajka z kolby kukurydzy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: met3
+    wpisy:
+    - id: wol_33592579007ed446d2d4
+      kontekst: data.json:scripts.fort5_pvtcooker.met3
+      linia: 19
+      sekcja_skryptu: met3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: So I should... put the corned beef hash... under... no, next to... no, no.  I'm sorry. I don't get it.  Can we try again?
+      pl: Czyli mam... położyć corned beef hash... pod... nie, obok... nie, nie. Przepraszam. Nie ogarniam. Możemy spróbować jeszcze raz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c9769c3d0eddd91cd9c8
+      kontekst: data.json:scripts.fort5_pvtcooker.met3
+      linia: 20
+      sekcja_skryptu: met3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Sure, let's try again
+      pl: Jasne, spróbujmy jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_9a22b2bcc5dffe695286
+      kontekst: data.json:scripts.fort5_pvtcooker.met3
+      linia: 21
+      sekcja_skryptu: met3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: No, I'm out of ideas
+      pl: Nie, nie mam już pomysłów
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gotit
+    wpisy:
+    - id: wol_795be557617b6f609c5b
+      kontekst: data.json:scripts.fort5_pvtcooker.gotit
+      linia: 22
+      sekcja_skryptu: gotit
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Of course!  I put the corned beef <i>on</i> the toast!  Just like Shinola on a shoe!  I get it now!  Thank you!
+      pl: Oczywiście! Położyłem corned beef <i>na</i> toście! Tak jak Shinola na but! Teraz rozumiem! Dziękuję!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: met2
+    wpisy:
+    - id: wol_7e2168f6b2febfa5c138
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 24
+      sekcja_skryptu: met2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Shinola
+      pl: Shinola
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fe1ca4d3b7eacea50056
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 25
+      sekcja_skryptu: met2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: your head
+      pl: twoja głowa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4136666337a35aaaeb42
+      kontekst: data.json:scripts.fort5_pvtcooker.met2
+      linia: 26
+      sekcja_skryptu: met2
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: a hole in the ground
+      pl: dziura w ziemi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: met1
+    wpisy:
+    - id: wol_387f0d72bfd101dde85c
+      kontekst: data.json:scripts.fort5_pvtcooker.met1
+      linia: 27
+      sekcja_skryptu: met1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: a road map
+      pl: mapa drogowa
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_50009c90f53f575fcf08
+      kontekst: data.json:scripts.fort5_pvtcooker.met1
+      linia: 28
+      sekcja_skryptu: met1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: a shoe
+      pl: but
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_fcfa65a3663c1a10fa34
+      kontekst: data.json:scripts.fort5_pvtcooker.met1
+      linia: 29
+      sekcja_skryptu: met1
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: your elbow
+      pl: twój łokieć
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: problem
+    wpisy:
+    - id: wol_5a832dca24e75498203a
+      kontekst: data.json:scripts.fort5_pvtcooker.problem
+      linia: 30
+      sekcja_skryptu: problem
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll come back if I think of something.
+      pl: Wrócę, jak coś wymyślę.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: again
+    wpisy:
+    - id: wol_439ec6de40fe29266291
+      kontekst: data.json:scripts.fort5_pvtcooker.again
+      linia: 32
+      sekcja_skryptu: again
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I still cannot figure out how to combine corned beef hash and toast.
+      pl: Nadal nie mogę wykombinować, jak połączyć hash z corned beef i tosty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_89181c708912353d8aee
+      kontekst: data.json:scripts.fort5_pvtcooker.again
+      linia: 34
+      sekcja_skryptu: again
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Try to help him with a metaphor
+      pl: Spróbuj pomóc mu metaforą
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: thanksagain
+    wpisy:
+    - id: wol_d15bcd0460131a8eeed8
+      kontekst: data.json:scripts.fort5_pvtcooker.thanksagain
+      linia: 1
+      sekcja_skryptu: thanksagain
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Thanks again for your help!  You want some Shinola-on-a-shoe?
+      pl: Jeszcze raz dzięki za pomoc! Chcesz trochę Shinola-on-a-shoe?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dba8fbaf2fbad90a59b3
+      kontekst: data.json:scripts.fort5_pvtcooker.thanksagain
+      linia: 2
+      sekcja_skryptu: thanksagain
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: No thanks.  I'm full.
+      pl: Nie, dzięki. Jestem najedzony.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1481
+  skrypt: fort5_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 8
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4fdd5d4eb6a575e47ab7
+      kontekst: data.json:scripts.fort5_timerift.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That key-shaped El Vibrato device hums as you approach the floating window and peer through.
+      pl: To urządzenie El Vibrato w kształcie klucza brzęczy, gdy podchodzisz do unoszącego się okna i zaglądasz przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a22dcfaf2c0f16ccf274
+      kontekst: data.json:scripts.fort5_timerift.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Through it you see a busy city street.  Metal vehicles you can't identify move past at unimaginable speeds, though the window is thankfully far from the road they travel.
+      pl: Przez to widać ruchliwą ulicę miasta. Metalowe pojazdy, których nie rozpoznajesz, mkną z niewyobrażalną prędkością — na szczęście okno jest daleko od drogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_739fe11e436cc722f6e3
+      kontekst: data.json:scripts.fort5_timerift.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Every fifteen seconds or so, a strange metal and glass rectangle, about six inches by 3 inches, falls past the view of the window, and you hear a man's voice shouting "CRAP!"
+      pl: 'Mniej więcej co piętnaście sekund obok okna przelatuje dziwny metalowo-szklany prostokąt, jakieś sześć na trzy cale, a ty słyszysz, jak jakiś facet krzyczy: „CHOLERA!”'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5f32ab9c295f4029ce0
+      kontekst: data.json:scripts.fort5_timerift.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Grab the rectangle next time it falls
+      pl: Chwyć prostokąt, kiedy następnym razem spadnie
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: grab
+    wpisy:
+    - id: wol_da12df180be3a9754be4
+      kontekst: data.json:scripts.fort5_timerift.grab
+      linia: 5
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You snatch the rectangle, and the view through the window is replaced with static.
+      pl: Chwytasz prostokąt, a widok przez okno zamienia się w szum.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_04abaddb13d3778910ea
+      kontekst: data.json:scripts.fort5_timerift.grab
+      linia: 6
+      sekcja_skryptu: grab
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Wow, this is a <i>nice</i> rectangle!
+      pl: Wow, to <i>ładny</i> prostokąt!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <i>
+      - </i>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_bd6fb07bf09d7e0aafb5
+      kontekst: data.json:scripts.fort5_timerift.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Let strange rectangles lie
+      pl: Niech dziwne prostokąty leżą
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: static
+    wpisy:
+    - id: wol_366303f216edaee4bbde
+      kontekst: data.json:scripts.fort5_timerift.static
+      linia: 9
+      sekcja_skryptu: static
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing but static on the other side of the window now.
+      pl: Po drugiej stronie okna jest teraz tylko szum.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1482
+  skrypt: fort5_watchtower
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: discovermine7
+    wpisy:
+    - id: wol_87aff74b1bdcda185e7e
+      kontekst: data.json:scripts.fort5_watchtower.discovermine7
+      linia: 1
+      sekcja_skryptu: discovermine7
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see an abandoned-looking mine in the little mountain range to the south.
+      pl: W małym paśmie górskim na południu widzisz kopalnię wyglądającą na opuszczoną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: rembin
+    wpisy:
+    - id: wol_bd377c50cfcd2052e54e
+      kontekst: data.json:scripts.fort5_watchtower.rembin
+      linia: 3
+      sekcja_skryptu: rembin
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Keep Fort Unnecessary Beautiful
+      pl: Dbaj o piękno Posterunku Zbędnego
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: discovercustardstand
+    wpisy:
+    - id: wol_490437c68e00e6d9cb93
+      kontekst: data.json:scripts.fort5_watchtower.discovercustardstand
+      linia: 1
+      sekcja_skryptu: discovercustardstand
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You see the unmistakable shape of a custard stand in the distance to the west
+      pl: Na zachodzie w oddali widzisz nieomylny kształt budki z budyniem
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1484
+  skrypt: fort6_bootsguy
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: intro2
+    wpisy:
+    - id: wol_1c384a56b5ed841d5235
+      kontekst: data.json:scripts.fort6_bootsguy.intro2
+      linia: 41
+      sekcja_skryptu: intro2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...Huh.'
+      pl: '...Hm.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1500
+  skrypt: fort6_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4fdd5d4eb6a575e47ab7
+      kontekst: data.json:scripts.fort6_timerift.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That key-shaped El Vibrato device hums as you approach the floating window and peer through.
+      pl: To urządzenie El Vibrato w kształcie klucza brzęczy, gdy podchodzisz do unoszącego się okna i zaglądasz przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: static
+    wpisy:
+    - id: wol_366303f216edaee4bbde
+      kontekst: data.json:scripts.fort6_timerift.static
+      linia: 10
+      sekcja_skryptu: static
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing but static on the other side of the window now.
+      pl: Po drugiej stronie okna jest teraz tylko szum.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1562
+  skrypt: ghosttown1_knock4
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: whiskey6
+    wpisy:
+    - id: wol_70fa418c91d9e93003df
+      kontekst: data.json:scripts.ghosttown1_knock4.whiskey6
+      linia: 96
+      sekcja_skryptu: whiskey6
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000086
+  skrypt: house_employee9
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: hub
+    wpisy:
+    - id: wol_6f188179ee87a25b22b0
+      kontekst: house.json:scripts.house_employee9.hub
+      linia: 25
+      sekcja_skryptu: hub
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go przy tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1846
+  skrypt: mine4_office_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: upset
+    wpisy:
+    - id: wol_9b02d7dd48e5e055a107
+      kontekst: data.json:scripts.mine4_office_talk.upset
+      linia: 46
+      sekcja_skryptu: upset
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: what
+    wpisy:
+    - id: wol_9b02d7dd48e5e055a107
+      kontekst: data.json:scripts.mine4_office_talk.what
+      linia: 47
+      sekcja_skryptu: what
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1991
+  skrypt: pardner_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: true
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: pete_breadwood
+    wpisy:
+    - id: wol_9b02d7dd48e5e055a107
+      kontekst: data.json:scripts.pardner_talk.pete_breadwood
+      linia: 3
+      sekcja_skryptu: pete_breadwood
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+  - etykieta: pete_beancave
+    wpisy:
+    - id: wol_9b02d7dd48e5e055a107
+      kontekst: data.json:scripts.pardner_talk.pete_beancave
+      linia: 2
+      sekcja_skryptu: pete_beancave
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: What happened?
+      pl: Co się stało?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: true
+      uwagi: []
+- kolejnosc_w_danych_gry: 2080
+  skrypt: punland_bossfight_baron
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: whyme
+    wpisy:
+    - id: wol_1c384a56b5ed841d5235
+      kontekst: data.json:scripts.punland_bossfight_baron.whyme
+      linia: 59
+      sekcja_skryptu: whyme
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Huh.'
+      pl: '...Hm.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2089
+  skrypt: punland_bossfight_intro
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: duck2
+    wpisy:
+    - id: wol_70fa418c91d9e93003df
+      kontekst: data.json:scripts.punland_bossfight_intro.duck2
+      linia: 38
+      sekcja_skryptu: duck2
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2157
+  skrypt: railcamp_dynamitejim
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_04877ee4bca9bfe9af0a
+      kontekst: data.json:scripts.railcamp_dynamitejim.start
+      linia: 10
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck with that.
+      pl: No, powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2167
+  skrypt: railcamp_worker2convo
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: already
+    wpisy:
+    - id: wol_6f188179ee87a25b22b0
+      kontekst: data.json:scripts.railcamp_worker2convo.already
+      linia: 7
+      sekcja_skryptu: already
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go przy tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2221
+  skrypt: ranch4_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4fdd5d4eb6a575e47ab7
+      kontekst: data.json:scripts.ranch4_timerift.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That key-shaped El Vibrato device hums as you approach the floating window and peer through.
+      pl: To urządzenie El Vibrato w kształcie klucza brzęczy, gdy podchodzisz do unoszącego się okna i zaglądasz przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: static
+    wpisy:
+    - id: wol_366303f216edaee4bbde
+      kontekst: data.json:scripts.ranch4_timerift.static
+      linia: 9
+      sekcja_skryptu: static
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing but static on the other side of the window now.
+      pl: Po drugiej stronie okna jest teraz tylko szum.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2283
+  skrypt: re_banditb2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: horns2
+    wpisy:
+    - id: wol_70fa418c91d9e93003df
+      kontekst: data.json:scripts.re_banditb2.horns2
+      linia: 54
+      sekcja_skryptu: horns2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Great!
+      pl: Świetnie!
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2474
+  skrypt: roybean_talk
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: notstarted
+    wpisy:
+    - id: wol_04877ee4bca9bfe9af0a
+      kontekst: data.json:scripts.roybean_talk.notstarted
+      linia: 35
+      sekcja_skryptu: notstarted
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Well, good luck with that.
+      pl: No, powodzenia.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2548
+  skrypt: snakespring_timerift
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_4fdd5d4eb6a575e47ab7
+      kontekst: data.json:scripts.snakespring_timerift.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: That key-shaped El Vibrato device hums as you approach the floating window and peer through.
+      pl: To urządzenie El Vibrato w kształcie klucza brzęczy, gdy podchodzisz do unoszącego się okna i zaglądasz przez nie.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: static
+    wpisy:
+    - id: wol_366303f216edaee4bbde
+      kontekst: data.json:scripts.snakespring_timerift.static
+      linia: 7
+      sekcja_skryptu: static
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's nothing but static on the other side of the window now.
+      pl: Po drugiej stronie okna jest teraz tylko szum.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2627
+  skrypt: train_passenter2b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6f188179ee87a25b22b0
+      kontekst: data.json:scripts.train_passenter2b.start
+      linia: 13
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go przy tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2629
+  skrypt: train_passenter4b
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6f188179ee87a25b22b0
+      kontekst: data.json:scripts.train_passenter4b.start
+      linia: 49
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave him to it
+      pl: Zostaw go przy tym
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

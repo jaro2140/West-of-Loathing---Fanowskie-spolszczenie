@@ -1,0 +1,129 @@
+schema_version: 1
+dzial:
+  numer: '14'
+  nazwa: Napisy_Koncowe
+grupa_lokacji_lub_systemu: end_credits
+zrodlowy_batch: 047_dialog_loc_credits_end_credits.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 3
+liczba_wpisow: 6
+sceny:
+- kolejnosc_w_danych_gry: 593
+  skrypt: credits_end
+  pomieszczenie: &id001
+    id: credits
+    nazwa_en: End Credits
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_510adf5fc933fd99dc76
+      kontekst: data.json:scripts.credits_end.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Well, the bad news is that you fell off that cart and got knocked out for a couple of hours, and now you've got no ride, no Meat, and no prospects.
+      pl: No, zła wiadomość jest taka, że spadłeś z wozu i straciłeś przytomność na parę godzin, a teraz nie masz transportu, Mięsa ani perspektyw.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6b1acef9a1fb7b63c895
+      kontekst: data.json:scripts.credits_end.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The good news is that you're in a town, rather than in a gulch somewhere.
+      pl: 'Dobra wiadomość: jesteś w mieście, a nie w jakimś wąwozie.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_5f3b7d0113d61562171a
+      kontekst: data.json:scripts.credits_end.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Not much of a town, though.
+      pl: Choć to raczej słabe miasteczko.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ff6cc97498b10ad6c24e
+      kontekst: data.json:scripts.credits_end.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get up and dust yourself off
+      pl: Wstań i otrzep się z kurzu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 596
+  skrypt: credits_skipit
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: toptitle
+    wpisy:
+    - id: wol_7a51abc64634ee107574
+      kontekst: data.json:scripts.credits_skipit.toptitle
+      linia: 1
+      sekcja_skryptu: toptitle
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Skip the opening credits
+      pl: Pomiń czołówkę
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2182
+  skrypt: ranch1_tombstone1_mary
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: dontexplode
+    wpisy:
+    - id: wol_ff6cc97498b10ad6c24e
+      kontekst: data.json:scripts.ranch1_tombstone1_mary.dontexplode
+      linia: 4
+      sekcja_skryptu: dontexplode
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Get up and dust yourself off
+      pl: Wstań i otrzep się z kurzu
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

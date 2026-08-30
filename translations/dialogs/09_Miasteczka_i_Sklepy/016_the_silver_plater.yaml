@@ -1,0 +1,1033 @@
+schema_version: 1
+dzial:
+  numer: 09
+  nazwa: Miasteczka_i_Sklepy
+grupa_lokacji_lub_systemu: the_silver_plater
+zrodlowy_batch: 106_dialog_loc_silverplater_the_silver_plater.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 5
+liczba_wpisow: 62
+sceny:
+- kolejnosc_w_danych_gry: 1000106
+  skrypt: house_ghost_clerk
+  pomieszczenie: &id001
+    id: silverplater
+    nazwa_en: The Silver Plater
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_17f3862e9b5d58f52ff8
+      kontekst: house.json:scripts.house_ghost_clerk.start
+      linia: 86
+      sekcja_skryptu: start
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, never mind.
+      pl: Właściwie to nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000114
+  skrypt: house_ghost_librarian_convo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: checkquest
+    wpisy:
+    - id: wol_17f3862e9b5d58f52ff8
+      kontekst: house.json:scripts.house_ghost_librarian_convo.checkquest
+      linia: 78
+      sekcja_skryptu: checkquest
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, never mind.
+      pl: Właściwie to nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000102
+  skrypt: house_ghostbuster_preconvo
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: take
+    wpisy:
+    - id: wol_af27164ff664e0ee6db0
+      kontekst: house.json:scripts.house_ghostbuster_preconvo.take
+      linia: 9
+      sekcja_skryptu: take
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: '...Never mind.'
+      pl: '...Nieważne.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000151
+  skrypt: house_infodesk_talk
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: info
+    wpisy:
+    - id: wol_17f3862e9b5d58f52ff8
+      kontekst: house.json:scripts.house_infodesk_talk.info
+      linia: 45
+      sekcja_skryptu: info
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, never mind.
+      pl: Właściwie to nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2499
+  skrypt: silverplater_platerhimself
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 58
+  sekcje:
+  - etykieta: opts
+    wpisy:
+    - id: wol_5446b47a93eaff288e08
+      kontekst: data.json:scripts.silverplater_platerhimself.opts
+      linia: 2
+      sekcja_skryptu: opts
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The man grins, revealing a full set of silver-plated teeth.
+      pl: Facet uśmiecha się, ukazując pełen komplet posrebrzanych zębów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c21ae294e58682635e33
+      kontekst: data.json:scripts.silverplater_platerhimself.opts
+      linia: 3
+      sekcja_skryptu: opts
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: So! Ya need somethin' plated?
+      pl: No dobrze! Chcesz coś posrebrzyć?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f9850a92b28375d9504c
+      kontekst: data.json:scripts.silverplater_platerhimself.opts
+      linia: 4
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What are my options?
+      pl: Jakie mam opcje?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gear1
+    wpisy:
+    - id: wol_1440d148ef9ef371d90d
+      kontekst: data.json:scripts.silverplater_platerhimself.gear1
+      linia: 6
+      sekcja_skryptu: gear1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks you up and down.
+      pl: Mierzy cię wzrokiem od stóp do głów.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_46889387d81da8887816
+      kontekst: data.json:scripts.silverplater_platerhimself.gear1
+      linia: 7
+      sekcja_skryptu: gear1
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: I could plate that hat yer wearin'.  People with silver hats get more done, they say.
+      pl: Mógłbym posrebrzyć ten kapelusz, co go nosisz. Ludzie w srebrnych kapeluszach więcej załatwiają, tak mówią.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_42cf801c613fb6ecd700
+      kontekst: data.json:scripts.silverplater_platerhimself.gear1
+      linia: 8
+      sekcja_skryptu: gear1
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (This will enchant your hat to add one to your maximum action points.)
+      pl: (To zaczaruje twój kapelusz i doda jeden do maksymalnej liczby punktów akcji.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_702b25f9ecc48514f19a
+      kontekst: data.json:scripts.silverplater_platerhimself.gear1
+      linia: 9
+      sekcja_skryptu: gear1
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate your hat [500 Meat]
+      pl: Posrebrz kapelusz [500 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[500 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hat
+    wpisy:
+    - id: wol_a5cacab7a830b67f89b8
+      kontekst: data.json:scripts.silverplater_platerhimself.hat
+      linia: 10
+      sekcja_skryptu: hat
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Let's do the hat.
+      pl: Zróbmy kapelusz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_374bc71a0574b0287b37
+      kontekst: data.json:scripts.silverplater_platerhimself.hat
+      linia: 11
+      sekcja_skryptu: hat
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him your hat, and after a time he hands it back, shiny and gleaming.
+      pl: Wręczasz mu kapelusz, a po chwili oddaje go lśniącego i błyszczącego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee42fe2cee8acf9ae963
+      kontekst: data.json:scripts.silverplater_platerhimself.hat
+      linia: 12
+      sekcja_skryptu: hat
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What else can you plate?
+      pl: Co jeszcze możesz posrebrzyć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gear2
+    wpisy:
+    - id: wol_c2581468b3a6b983825c
+      kontekst: data.json:scripts.silverplater_platerhimself.gear2
+      linia: 14
+      sekcja_skryptu: gear2
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I could plate yer melee weapon what yer usin' there.  It'll do more damage that way.
+      pl: Mogę pokryć srebrem waszą broń do walki wręcz, co tam macie. Będzie wtedy robić większe obrażenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2bfaab3dc6bfe9e94cf0
+      kontekst: data.json:scripts.silverplater_platerhimself.gear2
+      linia: 15
+      sekcja_skryptu: gear2
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (This will increase the damage of your equipped melee weapon by three, or even more against creatures that are vulnerable to silver.)
+      pl: (To zwiększy obrażenia twojej wyposażonej broni do walki wręcz o trzy, a nawet więcej przeciwko stworom wrażliwym na srebro.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2b66a5cc002498043bd9
+      kontekst: data.json:scripts.silverplater_platerhimself.gear2
+      linia: 16
+      sekcja_skryptu: gear2
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate your weapon [500 Meat]
+      pl: Posrebrz broń [500 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[500 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: weapon
+    wpisy:
+    - id: wol_b2e25bf5887fa92dd304
+      kontekst: data.json:scripts.silverplater_platerhimself.weapon
+      linia: 17
+      sekcja_skryptu: weapon
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Let's do the weapon.
+      pl: Zróbmy broń.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_14c4575adca27039394d
+      kontekst: data.json:scripts.silverplater_platerhimself.weapon
+      linia: 18
+      sekcja_skryptu: weapon
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him your weapon, and after a time he hands it back, shiny and gleaming.
+      pl: Wręczasz mu broń, a po chwili oddaje ją lśniącą i błyszczącą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee42fe2cee8acf9ae963
+      kontekst: data.json:scripts.silverplater_platerhimself.weapon
+      linia: 19
+      sekcja_skryptu: weapon
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What else can you plate?
+      pl: Co jeszcze możesz posrebrzyć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gear3
+    wpisy:
+    - id: wol_b8d76ff9bf5450ba7904
+      kontekst: data.json:scripts.silverplater_platerhimself.gear3
+      linia: 21
+      sekcja_skryptu: gear3
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: I could plate your pistol.  It'll do more damage.
+      pl: Mogę pokryć srebrem wasz pistolet. Będzie robił większe obrażenia.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b49dbc36e0d1c7dfdb0c
+      kontekst: data.json:scripts.silverplater_platerhimself.gear3
+      linia: 22
+      sekcja_skryptu: gear3
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: (This will increase the damage of your equipped pistol by three, or even more against creatures that are vulnerable to silver.)
+      pl: (To zwiększy obrażenia twojego wyposażonego pistoletu o trzy, a nawet więcej przeciwko stworom wrażliwym na srebro.)
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_6819c5994ae10c887fe3
+      kontekst: data.json:scripts.silverplater_platerhimself.gear3
+      linia: 23
+      sekcja_skryptu: gear3
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate your pistol [500 Meat]
+      pl: Posrebrz pistolet [500 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[500 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: pistol
+    wpisy:
+    - id: wol_b7511ff6701664bcce4a
+      kontekst: data.json:scripts.silverplater_platerhimself.pistol
+      linia: 24
+      sekcja_skryptu: pistol
+      typ: leftspeak
+      mowca_lub_kanal: postac_po_lewej
+      en: Let's do the pistol.
+      pl: Zróbmy pistolet.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e9345f3a9c84ba5cf1ef
+      kontekst: data.json:scripts.silverplater_platerhimself.pistol
+      linia: 25
+      sekcja_skryptu: pistol
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You hand him your pistol, and after a time he hands it back, shiny and gleaming.
+      pl: Wręczasz mu pistolet, a po chwili oddaje go lśniącego i błyszczącego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_ee42fe2cee8acf9ae963
+      kontekst: data.json:scripts.silverplater_platerhimself.pistol
+      linia: 26
+      sekcja_skryptu: pistol
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: What else can you plate?
+      pl: Co jeszcze możesz posrebrzyć?
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gear4
+    wpisy:
+    - id: wol_c4c641b571369645eefa
+      kontekst: data.json:scripts.silverplater_platerhimself.gear4
+      linia: 28
+      sekcja_skryptu: gear4
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm. Don't think I can do much with what you've got on there.
+      pl: Hmm. Chyba niewiele zrobię z tym, co tam masz.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3609b3f29bb220ac8cd4
+      kontekst: data.json:scripts.silverplater_platerhimself.gear4
+      linia: 29
+      sekcja_skryptu: gear4
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: How about some of this other stuff?
+      pl: A może trochę tych innych gratów?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: other
+    wpisy:
+    - id: wol_6122d6bcc5e4bb55467e
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 30
+      sekcja_skryptu: other
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He looks through your pack and... mouth?
+      pl: Przeszukuje twój plecak i... usta?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b8df88bb2cc308edd5f2
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 31
+      sekcja_skryptu: other
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, I could silver up this coil a' barbed wire...
+      pl: Cóż, mógłbym posrebrzyć ten zwój drutu kolczastego...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_1b34a593e7177a1f5e00
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 32
+      sekcja_skryptu: other
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hmm, a turnip? That sounds like an interestin' challenge...
+      pl: Hmm, rzepa? To brzmi jak ciekawe wyzwanie...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_a6eb792717d2f4a7c54a
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 33
+      sekcja_skryptu: other
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Say! That's a fine-lookin' tongue you've got there. I could plate that for you, sure.
+      pl: Oho! Masz całkiem ładny język. Jasne, mogę go dla ciebie posrebrzyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_90b0b69c6134eef8eb00
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 34
+      sekcja_skryptu: other
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: '...My actual tongue? The one in my head?'
+      pl: '...Mój prawdziwy język? Ten w głowie?'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_363bbb86ce704ea0f066
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 36
+      sekcja_skryptu: other
+      typ: rightspeak
+      mowca_lub_kanal: postac_po_prawej
+      en: Nah.  Nothin' I can plate.
+      pl: Nie. Nie mam czego pokrywać.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_faa755910bc9f94c87b9
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 37
+      sekcja_skryptu: other
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate the barbed wire [1000 Meat]
+      pl: Posrebrz drut kolczasty [1000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[1000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: barbedwire
+    wpisy:
+    - id: wol_50fc121c00e5793e2e2b
+      kontekst: data.json:scripts.silverplater_platerhimself.barbedwire
+      linia: 38
+      sekcja_skryptu: barbedwire
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Lookin' ta keep some cows off yer property, eh? Good thinkin'.
+      pl: Chcesz trzymać krowy z dala od swojej ziemi, co? Dobry pomysł.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c1bc3bdbc11e384074bd
+      kontekst: data.json:scripts.silverplater_platerhimself.barbedwire
+      linia: 39
+      sekcja_skryptu: barbedwire
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the coil of barbed wire, and gives it back a short time later, shiny and gleaming.
+      pl: Bierze zwój drutu kolczastego i po chwili oddaje go błyszczącego i lśniącego.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: other
+    wpisy:
+    - id: wol_faa755910bc9f94c87b9
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 41
+      sekcja_skryptu: other
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Plate the barbed wire [1000 Meat]
+      pl: Posrebrz drut kolczasty [1000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[1000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8c032cf19d250ddc47c4
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 42
+      sekcja_skryptu: other
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate the turnip [$turnipprice$ Meat]
+      pl: Posrebrz rzepę [$turnipprice$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$turnipprice$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: turnip
+    wpisy:
+    - id: wol_f61dfe99c4baf18c430f
+      kontekst: data.json:scripts.silverplater_platerhimself.turnip
+      linia: 43
+      sekcja_skryptu: turnip
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: He takes the turnip, and gives it back a short time later, shiny and gleaming.
+      pl: Bierze rzepę i po chwili oddaje ją błyszczącą i lśniącą.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_888ed3c620499afb3419
+      kontekst: data.json:scripts.silverplater_platerhimself.turnip
+      linia: 44
+      sekcja_skryptu: turnip
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Hadda hollow it out in the middle, so it wouldn't rot inside. But ya can wear it as a hat now!
+      pl: Trzeba było wydrążyć środek, żeby nie zgniła od wewnątrz. Ale teraz możesz ją nosić jako kapelusz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: other
+    wpisy:
+    - id: wol_8c032cf19d250ddc47c4
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 46
+      sekcja_skryptu: other
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Plate the turnip [$turnipprice$ Meat]
+      pl: Posrebrz rzepę [$turnipprice$ Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[$turnipprice$ Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_132dfff77bb987b9e892
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 47
+      sekcja_skryptu: other
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Plate your tongue [2000 Meat]
+      pl: Posrebrz język [2000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[2000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: tongue
+    wpisy:
+    - id: wol_2c3948a94fba8ab354e1
+      kontekst: data.json:scripts.silverplater_platerhimself.tongue
+      linia: 48
+      sekcja_skryptu: tongue
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Well, anything for a weird life. Go ahead and silver plate my tongue, why not.
+      pl: Wszystko dla dziwnego życia. Śmiało, srebrny talerzu, mój język, czemu nie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dbbd82a10b5d1b6fd044
+      kontekst: data.json:scripts.silverplater_platerhimself.tongue
+      linia: 49
+      sekcja_skryptu: tongue
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Open as wide as ya possibly can!
+      pl: Otwórz najszerzej, jak potrafisz!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_86e480a0ab424dccee86
+      kontekst: data.json:scripts.silverplater_platerhimself.tongue
+      linia: 50
+      sekcja_skryptu: tongue
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The process is extremely painful.
+      pl: Proces jest ekstremalnie bolesny.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_08411da800f2c7f3682a
+      kontekst: data.json:scripts.silverplater_platerhimself.tongue
+      linia: 51
+      sekcja_skryptu: tongue
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Immediately afterward, you ask him for a complete refund and he gives it to you.
+      pl: Natychmiast potem prosisz go o pełny zwrot pieniędzy i on ci go daje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3d2059b0e4bc504483b9
+      kontekst: data.json:scripts.silverplater_platerhimself.tongue
+      linia: 52
+      sekcja_skryptu: tongue
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: It works!
+      pl: Działa!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: other
+    wpisy:
+    - id: wol_132dfff77bb987b9e892
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 53
+      sekcja_skryptu: other
+      typ: grayoption
+      mowca_lub_kanal: opcja_gracza_niedostepna
+      en: Plate your tongue [2000 Meat]
+      pl: Posrebrz język [2000 Mięsa]
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '[2000 Meat]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_3b3bc6aa0d02e6f358e3
+      kontekst: data.json:scripts.silverplater_platerhimself.other
+      linia: 54
+      sekcja_skryptu: other
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Well, maybe later.
+      pl: No, może później.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: gearend
+    wpisy:
+    - id: wol_24ff546dc5554863caf0
+      kontekst: data.json:scripts.silverplater_platerhimself.gearend
+      linia: 55
+      sekcja_skryptu: gearend
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Maybe something else?
+      pl: Może coś innego?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17f3862e9b5d58f52ff8
+      kontekst: data.json:scripts.silverplater_platerhimself.gearend
+      linia: 57
+      sekcja_skryptu: gearend
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: Actually, never mind.
+      pl: Właściwie to nieważne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 4
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: broke
+    wpisy:
+    - id: wol_12296d2784982e4a5ea0
+      kontekst: data.json:scripts.silverplater_platerhimself.broke
+      linia: 58
+      sekcja_skryptu: broke
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: Well, silver-plating anything costs at least 500 Meat. And you don't look like a @fella@ who has that kind of Meat.
+      pl: Cóż, posrebrzenie czegokolwiek kosztuje co najmniej 500 Mięsa. A nie wyglądasz na @fella@, który ma tyle Mięsa.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - '@fella@'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_770378e752d61d9bb056
+      kontekst: data.json:scripts.silverplater_platerhimself.broke
+      linia: 59
+      sekcja_skryptu: broke
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: I kind of resent that.  But also you're right.
+      pl: Trochę mnie to uraża. Ale masz też rację.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e072440c68955cf862c3
+      kontekst: data.json:scripts.silverplater_platerhimself.broke
+      linia: 60
+      sekcja_skryptu: broke
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'll come back when I'm wealthier
+      pl: Wrócę, jak będę bogatszy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opts
+    wpisy:
+    - id: wol_275f3e5a5bbcb7822cea
+      kontekst: data.json:scripts.silverplater_platerhimself.opts
+      linia: 61
+      sekcja_skryptu: opts
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: I'm okay, thanks.
+      pl: W porządku, dzięki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: intro
+    wpisy:
+    - id: wol_baabe02e33aca58f27ee
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 63
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Hmm, well, do you have a menu?
+      pl: Hmm, cóż, masz jakieś menu?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2eec84d11407b741ff36
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 64
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: A menu? What're you talkin' about?
+      pl: Menu? O czym ty gadasz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_dadcbf3deddb050b6029
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 65
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Isn't this a walk-up-style restaurant?
+      pl: Czy to nie jest restauracja z obsługą przy okienku?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_bd3e418ef942bc5fa0df
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 66
+      sekcja_skryptu: intro
+      typ: rightsay
+      mowca_lub_kanal: postac_po_prawej
+      en: What? No! I'm a silver plater. I plate things with silver, ya know?
+      pl: Co? Nie! Jestem posrebrzaczem. Pokrywam rzeczy srebrem, wiesz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f2caa126a707e2676fa4
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 67
+      sekcja_skryptu: intro
+      typ: leftsay
+      mowca_lub_kanal: postac_po_lewej
+      en: Oh! I thought your sign was...
+      pl: Och! Myślałem, że na szyldzie było...
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_af27164ff664e0ee6db0
+      kontekst: data.json:scripts.silverplater_platerhimself.intro
+      linia: 68
+      sekcja_skryptu: intro
+      typ: sayoption
+      mowca_lub_kanal: opcja_gracza
+      en: '...Never mind.'
+      pl: '...Nieważne.'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

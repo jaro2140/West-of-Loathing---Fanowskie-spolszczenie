@@ -1,0 +1,377 @@
+schema_version: 1
+dzial:
+  numer: 08
+  nazwa: Krainy_i_Jaskinie
+grupa_lokacji_lub_systemu: shaggy_dog_cave
+zrodlowy_batch: 104_dialog_loc_shaggydogcave_shaggy_dog_cave.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 2
+liczba_wpisow: 21
+sceny:
+- kolejnosc_w_danych_gry: 2483
+  skrypt: shaggydog_plaque
+  pomieszczenie: &id001
+    id: shaggydogcave
+    nazwa_en: Shaggy Dog Cave
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 20
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_512bb8e34df9c5f18ffd
+      kontekst: data.json:scripts.shaggydog_plaque.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a plaque bolted to the cave wall here.
+      pl: Do ściany jaskini przykręcona jest tabliczka.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p01
+    wpisy:
+    - id: wol_b2891c94a5dd0eb03fb8
+      kontekst: data.json:scripts.shaggydog_plaque.p01
+      linia: 1
+      sekcja_skryptu: p01
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A Record of the Events of the Expedition To & Into Shaggy Dog Cave, November 1887
+      pl: Kronika Wyprawy Do i W Jaskini Kudłatego Psa, Listopad 1887
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_c5bca900e40e04634208
+      kontekst: data.json:scripts.shaggydog_plaque.p01
+      linia: 2
+      sekcja_skryptu: p01
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As Recorded by Jim Plaquewright
+      pl: Jak zapisane przez Jima Plaquewrighta
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p02
+    wpisy:
+    - id: wol_b50f90de655d6a333b5f
+      kontekst: data.json:scripts.shaggydog_plaque.p02
+      linia: 1
+      sekcja_skryptu: p02
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Having acquired through various and sundry means (a story which is interesting in its own right, but better saved for another time) a map purporting to lead to a large cache of jewels and ingots of precious metals hidden by the infamous highwayman and train robber Black Cole Jr. in the years before The Cows Came Home, I, Jim Plaquewright, along with three compatriots -- these being Nathaniel Wyman, Cyrus Howard, and Douglas Watts -- set out to find Shaggy Dog Cave and the aforementioned treasure.
+      pl: Po zdobyciu — różnymi drogami (historia sama w sobie ciekawa, ale na inną okazję) — mapy rzekomo prowadzącej do dużej skrytki klejnotów i sztabek metali szlachetnych ukrytych przez niesławnego rozbójnika drogowego i napastnika kolejowego Black Cole Jr. w latach, zanim Krowy Wróciły do Domu, ja, Jim Plaquewright, wraz z trzema wspólnikami — to jest Nathanielem Wymanem, Cyrus Howardem i Douglas Wattsem — wyruszyłem, by odnaleźć Jaskinię Kudłatego Psa i wspomniany skarb.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p03
+    wpisy:
+    - id: wol_d5eea47172e78d0296a9
+      kontekst: data.json:scripts.shaggydog_plaque.p03
+      linia: 1
+      sekcja_skryptu: p03
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'Our equipment and provisions consisted of: one cart, and a horse to pull it; four additional horses to be ridden; two shovels, a spade, and a mining pick; a large coil of rope; one large basket of eggs, as well as an assortment of other trail provisions and cookware; my own collection of blank plaques and engraving tools; one large and shaggy dog; and a buttfor.'
+      pl: 'Nasz sprzęt i zapasy obejmowały: jeden wóz i konia do jego ciągnięcia; cztery dodatkowe konie do jazdy; dwie łopaty, szpadel i kilof górniczy; duży zwój liny; jeden duży kosz jajek oraz asortyment innych zapasów szlakowych i naczyń kuchennych; moją własną kolekcję pustych tablic i narzędzi grawerskich; jednego dużego, kudłatego psa; oraz buttfora.'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p04
+    wpisy:
+    - id: wol_cc7960375a664106dde8
+      kontekst: data.json:scripts.shaggydog_plaque.p04
+      linia: 1
+      sekcja_skryptu: p04
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After traveling for two and a half days to the south and east, we arrived at a small town named Dirtwater, the largest settlement in the vicinity of Shaggy Dog Cave. Leaving the dog to watch the horses, the four of us entered the local saloon, and each ordered a beer -- except Cy, who was satisfied with water.
+      pl: Po dwuipółdniowej podróży na południowy wschód dotarliśmy do miasteczka Dirtwater, największej osady w okolicy Jaskini Kudłatego Psa. Zostawiwszy psa przy koniach, nasza czwórka weszła do miejscowego saloonu i każdy zamówił piwo — oprócz Cy'ego, któremu wystarczyła woda.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p05
+    wpisy:
+    - id: wol_402a020ba404a1caee77
+      kontekst: data.json:scripts.shaggydog_plaque.p05
+      linia: 1
+      sekcja_skryptu: p05
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The barman provided our drinks as requested, and then withdrew a small wooden box from underneath the bar, asking us if we'd care to witness "something real interesting". Considering that we still had quite a few hours left to travel, we politely declined, and asked him if he knew the way to Shaggy Dog Cave. He replied that he had never been there personally, but gave us rough directions, which correlated nicely with the notes on our map.
+      pl: Barman podał nam drinki, o jakie prosiliśmy, a potem wyciągnął spod lady małą drewnianą skrzynkę, pytając, czy chcielibyśmy zobaczyć „coś naprawdę interesującego”. Biorąc pod uwagę, że mieliśmy jeszcze sporo godzin drogi, grzecznie odmówiliśmy i zapytaliśmy, czy zna drogę do Jaskini Kudłatego Psa. Odpowiedział, że sam tam nigdy nie był, ale podał nam przybliżone wskazówki, które ładnie zgadzały się z notatkami na mapie.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p06
+    wpisy:
+    - id: wol_b333dbd5756ad502c550
+      kontekst: data.json:scripts.shaggydog_plaque.p06
+      linia: 1
+      sekcja_skryptu: p06
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Upon leaving the saloon, we discovered to our dismay that some unknown villain had tampered with our wagon. Fortunately the only supplies missing were the buttfor and the entire basket of eggs (apart from one that Doug had concealed within a pocket for safe-keeping). We also discovered that the dog had absconded with one of the horses, forcing Nate and Cy -- after a drawing of lots -- to share.
+      pl: Wychodząc z saloonu, z przerażeniem odkryliśmy, że jakiś nieznany łotr podkopał nasz wóz. Na szczęście brakowało tylko buttfora i całego kosza jaj (oprócz jednego, które Doug schował w kieszeni). Odkryliśmy też, że pies uciekł z jednym z koni, zmuszając Nate'a i Cy'ego — po losowaniu — do dzielenia się.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p07
+    wpisy:
+    - id: wol_d4d6e721e23533e66220
+      kontekst: data.json:scripts.shaggydog_plaque.p07
+      linia: 1
+      sekcja_skryptu: p07
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After acquiring a barrel of fresh water for the trip (as well as a replacement buttfor), we headed out into the open desert. The sun shone down mercilessly upon us, though we took small solace in the fact that it would have been far more intolerable had we made this expedition during the summer months, rather than November. In order to pass the time on the trip and resist becoming dazed from the heat and susceptible to desert mirages, we exchanged stories of our youth, which I will not be retelling here for reasons of length.
+      pl: Po zdobyciu beczki świeżej wody na podróż (oraz zapasowego buttfora) wyruszyliśmy na otwartą pustynię. Słońce prażyło nas bez litości, choć pocieszało nas, że byłoby znacznie gorzej, gdybyśmy wybrali się latem, a nie w listopadzie. Żeby zabić czas w drodze i nie dać się ogłupić od upału ani ulegać pustynnym mirażom, wymienialiśmy się historiami z młodości, których tu nie powtórzę ze względu na długość.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p08
+    wpisy:
+    - id: wol_493190b4db4f8cc9307c
+      kontekst: data.json:scripts.shaggydog_plaque.p08
+      linia: 1
+      sekcja_skryptu: p08
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: However, I will relate to you three odd occurrences that happened to us during our trek through the desert. The first was two or three hours out of Dirtwater, when Nate noticed a glint of sunlight upon a metallic object partially buried in the sand. This was revealed to be a brass oil lamp of foreign design and manufacture, which fortuitously still contained a quantity of oil. Deciding this might come in handy, we stashed it in the wagon with our other tools.
+      pl: Opowiem ci jednak o trzech dziwnych zdarzeniach z naszej wędrówki przez pustynię. Pierwsze miało miejsce dwie albo trzy godziny za Dirtwater, kiedy Nate zauważył błysk słońca na metalowym przedmiocie częściowo zagrzebanym w piasku. Okazało się, że to mosiężna lampa naftowa obcej konstrukcji i produkcji, która na szczęście wciąż zawierała trochę oleju. Uznaliśmy, że może się przydać, i schowaliśmy ją na wozie razem z innymi narzędziami.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p09
+    wpisy:
+    - id: wol_ef4897032675f8edeab7
+      kontekst: data.json:scripts.shaggydog_plaque.p09
+      linia: 1
+      sekcja_skryptu: p09
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Our next encounter was with a nomadic goblin tribesman, who we discovered spoke excellent English. It enquired as to our destination, and we replied that we were looking for Shaggy Dog Cave, though we did not disclose the reason for our journey. The goblin confirmed that we were heading on the correct course, and mentioned that he had only a short time earlier witnessed a large and shaggy dog riding a horse in the same direction. We all agreed that this was an unusual sight indeed, and continued on our way.
+      pl: Nasze następne spotkanie miało miejsce z wędrownym goblinem-koczownikiem — odkryliśmy, że biegle mówi po angielsku. Pytał o nasz cel podróży, a my odpowiedzieliśmy, że szukamy Jaskini Kudłatego Psa, choć nie ujawniliśmy powodu wyprawy. Goblin potwierdził, że zmierzamy we właściwym kierunku, i wspomniał, że ledwie chwilę wcześniej widział dużego, kudłatego psa jadącego na koniu w tym samym kierunku. Wszyscy zgodziliśmy się, że to rzeczywiście nietypowy widok, i ruszyliśmy dalej.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p10
+    wpisy:
+    - id: wol_4bb51d4805fb88ab1c10
+      kontekst: data.json:scripts.shaggydog_plaque.p10
+      linia: 1
+      sekcja_skryptu: p10
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Some time later we encountered a large adobe hut, occupied by two identical-seeming old men with wild hair and long white beards. They invited us to take shelter from the heat, which we gratefully accepted, and introduced themselves as hermits. This struck me as peculiar given that there were two of them, but I felt it would be rude to question them on that point.
+      pl: Jakiś czas później natknęliśmy się na dużą chatę z adobe, w której mieszkali dwaj pozornie identyczni starcy z rozwichrzoną grzywą i długimi białymi brodami. Zaprosili nas do schronienia przed upałem, co z wdzięcznością przyjęliśmy, i przedstawili się jako pustelnicy. Wydawało mi się to dziwne, skoro było ich dwoje, ale uznałem, że byłoby niegrzeczne pytać o to.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p11
+    wpisy:
+    - id: wol_3c8708de64c60af4e2a8
+      kontekst: data.json:scripts.shaggydog_plaque.p11
+      linia: 1
+      sekcja_skryptu: p11
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: One of the hermits confirmed that we were near Shaggy Dog Cave, and the other hermit confirmed that what his brother said was true. They also commented that they had seen a large and shaggy dog riding a horse in that direction. We all agreed that this was an unusual sight indeed. The hermits refreshed our water supply in exchange for our buttfor, and we continued on our way, excited to finally be nearing our goal.
+      pl: Jeden z pustelników potwierdził, że jesteśmy blisko Jaskini Kudłatego Psa, a drugi pustelnik potwierdził, że to, co powiedział jego brat, jest prawdą. Dodali też, że widzieli dużego, kudłatego psa jadącego na koniu w tamtym kierunku. Wszyscy zgodziliśmy się, że to rzeczywiście nietypowy widok. Pustelnicy uzupełnili nasze zapasy wody w zamian za naszego buttfora i ruszyliśmy dalej, podekscytowani, że wreszcie zbliżamy się do celu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p12
+    wpisy:
+    - id: wol_400f374fa8381514ec56
+      kontekst: data.json:scripts.shaggydog_plaque.p12
+      linia: 1
+      sekcja_skryptu: p12
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: After two more hours, we finally arrived at Shaggy Dog Cave. Carefully keeping our excitement in check, lest we become incautious, we unloaded our equipment and supplies from the wagon and took a brief respite in the cool shade of the cave entrance. To celebrate our arrival, Doug unpocketed and shared the egg he had saved from our basket that had been stolen in Dirtwater. Once we were rested, we decided the time had come to explore the cave.
+      pl: Po kolejnych dwóch godzinach wreszcie dotarliśmy do Jaskini Kudłatego Psa. Ostrożnie powstrzymując ekscytację, żeby nie stracić czujności, wypakowaliśmy sprzęt i zapasy z wozu i odpoczęliśmy w chłodnym cieniu wejścia do jaskini. Żeby uczcić przybycie, Doug wyciągnął i podzielił się jajkiem, które uratował z koszyka skradzionego w Dirtwater. Po odpoczynku uznaliśmy, że pora eksplorować jaskinię.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p13
+    wpisy:
+    - id: wol_53a22c8ab60e8cbeeb9e
+      kontekst: data.json:scripts.shaggydog_plaque.p13
+      linia: 1
+      sekcja_skryptu: p13
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Discovering that we had neglected to pack torches, lanterns, or any other light source with which to illuminate the cave, we declared that it was indeed fortuitous that Nate had discovered that antique oil lamp during our travels. He gave the brass a quick shine and then lit the wick, and we were relieved to discover that it lit easily and provided a very adequate amount of light.
+      pl: Odkrywszy, że zapomnieliśmy spakować pochodnie, latarnie ani żadne inne źródło światła do oświetlenia jaskini, stwierdziliśmy, że to rzeczywiście szczęśliwy zbieg okoliczności, iż Nate znalazł podczas podróży tę starożytną lampę naftową. Szybko wypolerował mosiądz, zapali knot i z ulgą stwierdziliśmy, że zapala się łatwo i daje bardzo przyzwoite światło.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p14
+    wpisy:
+    - id: wol_f3423e3e10e654adf411
+      kontekst: data.json:scripts.shaggydog_plaque.p14
+      linia: 1
+      sekcja_skryptu: p14
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: As we headed into the cave, we were further encouraged by the fact that the floor was quite even and easy to traverse, and there were no side-passages which might cause us to become lost. Despite this, I resolved to hang a number of plaques to mark our progress through the cave, and engraved them with the tale of our journey, such that others who discovered the cave after us might be entertained and edified by our story.
+      pl: Gdy zagłębialiśmy się w jaskinię, dodatkowo krzepił nas fakt, że podłoże było równe i łatwe do przejścia, a bocznych korytarzy, w których moglibyśmy się zgubić, nie było. Mimo to postanowiłem rozwiesić szereg tabliczek znaczących nasz postęp i wyryć na nich opowieść o naszej wyprawie, aby inni, którzy odkryją jaskinię po nas, mogli się naszą historią ubawić i zbudować.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p15
+    wpisy:
+    - id: wol_14478326b8858fb7c6f2
+      kontekst: data.json:scripts.shaggydog_plaque.p15
+      linia: 1
+      sekcja_skryptu: p15
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Soon we came to the end of the tunnel. While Nate, Cy, and Doug took turns with the excavation, I completed the last of the afore-mentioned plaques. It was a matter of perhaps an hour before Cy's shovel struck a wooden surface with a hollow noise, and we hauled a traditionally-styled treasure chest out of the hole with great excitement.
+      pl: Wkrótce dotarliśmy na koniec tunelu. Podczas gdy Nate, Cy i Doug na zmianę kopali, dokończyłem ostatnią z wspomnianych tablic. Minęła może godzina, zanim łopata Cy'ego uderzyła w drewnianą powierzchnię z pustym dźwiękiem, i z wielkim podnieceniem wyciągnęliśmy tradycyjnie stylizowaną skrzynię skarbów z dołu.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: p16
+    wpisy:
+    - id: wol_b7d4d0d57723d8fa593c
+      kontekst: data.json:scripts.shaggydog_plaque.p16
+      linia: 1
+      sekcja_skryptu: p16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The chest was locked with an ancient and rusting iron padlock, which broke easily from a single swing of our pickaxe. We opened the lid slowly, and the flickering light of the antique oil lamp shone brilliantly upon jewels of every color and shining ingots of precious metals, just as promised by the legends of Black Cole Jr. Joyous at our triumph, we loaded the chest into our wagon and began the journey home.
+      pl: Skrzynia była zamknięta starożytną, zardzewiałą kłódką, która pękła od jednego machnięcia kilofem. Powoli otworzyliśmy wieko, a migotliwe światło starej lampy naftowej błysnęło na klejnotach w każdym kolorze i lśniących sztabkach metali szlachetnych — dokładnie jak obiecywały legendy Black Cole Jr. Radośni z triumfu, załadowaliśmy skrzynię na wóz i ruszyliśmy w drogę powrotną.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_adff4a447fa47bd9aa50
+      kontekst: data.json:scripts.shaggydog_plaque.p16
+      linia: 2
+      sekcja_skryptu: p16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Thank you for reading, and may your own endeavors be equally successful.
+      pl: Dziękuję za lekturę i niech twoje własne przedsięwzięcia będą równie udane.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_84327c9ee94dfe1ab30a
+      kontekst: data.json:scripts.shaggydog_plaque.p16
+      linia: 3
+      sekcja_skryptu: p16
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Signed, Jim Plaquewright
+      pl: Podpisano, Jim Plaquewright
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2482
+  skrypt: shaggydogcave_hole
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_d3180e3c93001d942f29
+      kontekst: data.json:scripts.shaggydogcave_hole.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It's a hole. A completely empty one.
+      pl: To dziura. Całkowicie pusta.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []

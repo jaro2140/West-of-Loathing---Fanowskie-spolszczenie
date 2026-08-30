@@ -1,0 +1,1105 @@
+schema_version: 1
+dzial:
+  numer: '11'
+  nazwa: El_Vibrato
+grupa_lokacji_lub_systemu: el_vibrato_chamber
+zrodlowy_batch: 053_dialog_loc_elvibrato2_el_vibrato_chamber.json
+zasada_kolejnosci: pomieszczenie -> skrypt -> sekcja (wezel grafu dialogu) -> kolejnosc odwiedzin
+liczba_scen: 24
+liczba_wpisow: 56
+sceny:
+- kolejnosc_w_danych_gry: 1182
+  skrypt: elvibrato2_batterybox
+  pomieszczenie: &id001
+    id: elvibrato2
+    nazwa_en: El Vibrato Chamber
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 4
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_6429d50ad99895812e3b
+      kontekst: data.json:scripts.elvibrato2_batterybox.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You bend over to examine the device, and accidentally stub your toe on it.
+      pl: Pochylasz się, żeby zbadać urządzenie, i przypadkiem uderzasz w nie palcem u nogi.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8fed9cbfa866bf1d057e
+      kontekst: data.json:scripts.elvibrato2_batterybox.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: It hurts, but the box moves -- it must be lighter than it looks!
+      pl: Boli, ale skrzynia się przesuwa — musi być lżejsza, niż wygląda!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: take
+    wpisy:
+    - id: wol_3507382682157a48e137
+      kontekst: data.json:scripts.elvibrato2_batterybox.take
+      linia: 4
+      sekcja_skryptu: take
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You grab the device.  The Perfessor will want to see this.
+      pl: Chwytasz urządzenie. Profesor będzie chciał to zobaczyć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: start
+    wpisy:
+    - id: wol_204296c47c55fa70510e
+      kontekst: data.json:scripts.elvibrato2_batterybox.start
+      linia: 6
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it be
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1183
+  skrypt: elvibrato2_buttonbox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 5
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_8d082921cb8c0b8eaaa0
+      kontekst: data.json:scripts.elvibrato2_buttonbox.start
+      linia: 1
+      sekcja_skryptu: start
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This strange device has three buttons on top of it.
+      pl: To dziwne urządzenie ma trzy guziki u góry.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_b5f4c8b6bc27d39d3394
+      kontekst: data.json:scripts.elvibrato2_buttonbox.start
+      linia: 2
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the first one
+      pl: Naciśnij pierwszy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_acbb238a6e1dcff44de0
+      kontekst: data.json:scripts.elvibrato2_buttonbox.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the second one
+      pl: Naciśnij drugi
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2cf609f960ddc7eee087
+      kontekst: data.json:scripts.elvibrato2_buttonbox.start
+      linia: 4
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push the third one
+      pl: Naciśnij trzeci
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: nope
+    wpisy:
+    - id: wol_1ffcb8909c6931d1a060
+      kontekst: data.json:scripts.elvibrato2_buttonbox.nope
+      linia: 6
+      sekcja_skryptu: nope
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: All three of them are sunk into the device, though, and un-pushable.
+      pl: Wszystkie trzy są jednak zapadnięte w urządzenie i nie da się ich wcisnąć.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1184
+  skrypt: elvibrato2_fightcollider
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 7
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2b2f8c5cd48ec3a86d5a
+      kontekst: data.json:scripts.elvibrato2_fightcollider.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those things aren't friendly.
+      pl: Te rzeczy nie są przyjazne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a2cffde2b7e6eded087
+      kontekst: data.json:scripts.elvibrato2_fightcollider.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Neither am I [Fight]
+      pl: Ani ja [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: hardstart
+    wpisy:
+    - id: wol_2b2f8c5cd48ec3a86d5a
+      kontekst: data.json:scripts.elvibrato2_fightcollider.hardstart
+      linia: 3
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Those things aren't friendly.
+      pl: Te rzeczy nie są przyjazne.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_7a2cffde2b7e6eded087
+      kontekst: data.json:scripts.elvibrato2_fightcollider.hardstart
+      linia: 4
+      sekcja_skryptu: hardstart
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Neither am I [Fight]
+      pl: Ani ja [Walka]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne:
+      - '[Fight]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_4b017c2404253d8045c1
+      kontekst: data.json:scripts.elvibrato2_fightcollider.hardstart
+      linia: 5
+      sekcja_skryptu: hardstart
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: A voice in your head suggests you leave these constructs to their own devices for today.
+      pl: Głos w twojej głowie sugeruje, żebyś na dziś zostawił te konstrukty w spokoju.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: win
+    wpisy:
+    - id: wol_42492d6543f95b165adc
+      kontekst: data.json:scripts.elvibrato2_fightcollider.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Easy come, easy go.
+      pl: Co przyszło łatwo, poszło łatwo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: lose
+    wpisy:
+    - id: wol_645e44755a8fffb0543d
+      kontekst: data.json:scripts.elvibrato2_fightcollider.lose
+      linia: 1
+      sekcja_skryptu: lose
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Having beaten you to a pulp, the El Vibrato drones vanish.
+      pl: Po zmieleniu cię na papkę drony El Vibrato znikają.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1185
+  skrypt: elvibrato2_fusebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_6694e898944dbb592ac3
+      kontekst: data.json:scripts.elvibrato2_fusebox.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a piece here that's pretty obviously broken.
+      pl: Leży tu element, który jest całkiem wyraźnie zepsuty.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_f6f62bae861d28448523
+      kontekst: data.json:scripts.elvibrato2_fusebox.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Replace it [El Vibrato cylinder]
+      pl: Wymień to [Cylinder El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato cylinder]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1186
+  skrypt: elvibrato2_fusesign
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_df6af5c2dca529ffc5af
+      kontekst: data.json:scripts.elvibrato2_fusesign.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Glowing letters read ^NORTH CENTRAL POSITRONIC REACTOR ONLINE^translate_elvibrato^
+      pl: Lśniące litery głoszą ^PÓŁNOCNO-ŚRODKOWY REAKTOR POZYTRONOWY WŁĄCZONY^translate_elvibrato^
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^NORTH CENTRAL POSITRONIC REACTOR ONLINE^
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_17b1f473bc52ca694a11
+      kontekst: data.json:scripts.elvibrato2_fusesign.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Glowing letters read ^NORTH CENTRAL POSITRONIC REACTOR OFFLINE^translate_elvibrato^
+      pl: Lśniące litery głoszą ^PÓŁNOCNO-ŚRODKOWY REAKTOR POZYTRONOWY WYŁĄCZONY^translate_elvibrato^
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^NORTH CENTRAL POSITRONIC REACTOR OFFLINE^
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1187
+  skrypt: elvibrato2_fusetable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3183072194ef802ea0d6
+      kontekst: data.json:scripts.elvibrato2_fusetable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a big cylinder on top of this big rectangle.
+      pl: Na tym dużym prostokącie stoi duży cylinder.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b61e2d7224f1354edc8
+      kontekst: data.json:scripts.elvibrato2_fusetable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.
+      pl: Weź to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1190
+  skrypt: elvibrato2_hatchest
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_37d5ba6d5fd67df9d76b
+      kontekst: data.json:scripts.elvibrato2_hatchest.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a trapezoidal section missing from this box.
+      pl: W tym pudle brakuje trapezowej sekcji.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2f1e80b72c37d598b792
+      kontekst: data.json:scripts.elvibrato2_hatchest.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert a keystone
+      pl: Włóż kamień kluczowy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: open
+    wpisy:
+    - id: wol_ddd77dc5038eac1cf2e0
+      kontekst: data.json:scripts.elvibrato2_hatchest.open
+      linia: 3
+      sekcja_skryptu: open
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a strange cloth loop inside. At least it feels more or less like cloth.
+      pl: W środku dziwna pętla z materiału. Przynajmniej tak się wydaje.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1192
+  skrypt: elvibrato2_toilet
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 3
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_b389880c926ca87821c4
+      kontekst: data.json:scripts.elvibrato2_toilet.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Huh, what's this thing?
+      pl: Hm, co to za rzecz?
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: e
+    wpisy:
+    - id: wol_1e93dd29a67e8c54c891
+      kontekst: data.json:scripts.elvibrato2_toilet.e
+      linia: 3
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Augh!  No!
+      pl: Augh! Nie!
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_67be18d5449597c72ed2
+      kontekst: data.json:scripts.elvibrato2_toilet.e
+      linia: 4
+      sekcja_skryptu: e
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: You have learned the El Vibrato word for <b>TOILET</b>.
+      pl: Nauczyłeś się słowa El Vibrato na <b>TOALETĘ</b>.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - <b>
+      - </b>
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1193
+  skrypt: elvibrato2_tramgateoff
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e79a9e66f6d0189c7721
+      kontekst: data.json:scripts.elvibrato2_tramgateoff.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: This seems like it might be a doorway, but there's no keyhole or handles or anything.
+      pl: To wygląda, jakby mogło być drzwiami, ale nie ma dziurki od klucza ani klamki.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1194
+  skrypt: elvibrato2_tramterminal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 11
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_72c7417b8285a877b7b8
+      kontekst: data.json:scripts.elvibrato2_tramterminal.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine is dark. There's a circular hole in the bottom.
+      pl: Maszyna jest ciemna. Na dole jest okrągły otwór.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b14cc115dfd4a86c0cb
+      kontekst: data.json:scripts.elvibrato2_tramterminal.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert power sphere
+      pl: Włóż kulę mocy
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: insert
+    wpisy:
+    - id: wol_58d31bdd699ffa876f25
+      kontekst: data.json:scripts.elvibrato2_tramterminal.insert
+      linia: 3
+      sekcja_skryptu: insert
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The machine hums to life.
+      pl: Maszyna ożywa z brzęczeniem.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: button
+    wpisy:
+    - id: wol_ade16b26bec41b5ea953
+      kontekst: data.json:scripts.elvibrato2_tramterminal.button
+      linia: 4
+      sekcja_skryptu: button
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: The screen says $status$ and there's a button at the bottom labeled ^TOGGLE QUICKGATE^translate_elvibrato^.
+      pl: Ekran mówi $status$ i na dole jest przycisk ^TOGGLE QUICKGATE^translate_elvibrato^.
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - $status$
+      - ^TOGGLE QUICKGATE^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_e7435404b4f8f44635b8
+      kontekst: data.json:scripts.elvibrato2_tramterminal.button
+      linia: 5
+      sekcja_skryptu: button
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push it
+      pl: Pchnij to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: closegate
+    wpisy:
+    - id: wol_2217d6a9201219db7253
+      kontekst: data.json:scripts.elvibrato2_tramterminal.closegate
+      linia: 6
+      sekcja_skryptu: closegate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A tinny voice says:'
+      pl: 'Metaliczny głos mówi:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_8bc412da32ecc9435ac6
+      kontekst: data.json:scripts.elvibrato2_tramterminal.closegate
+      linia: 7
+      sekcja_skryptu: closegate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"^QUICKGATE OFFLINE^translate_elvibrato^."'
+      pl: '"^QUICKGATE NIECZYNNY^translate_elvibrato^."'
+      status: do_korekty
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^QUICKGATE OFFLINE^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_084be31309610a09c6ac
+      kontekst: data.json:scripts.elvibrato2_tramterminal.closegate
+      linia: 8
+      sekcja_skryptu: closegate
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push it again
+      pl: Pchnij jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+  - etykieta: opengate
+    wpisy:
+    - id: wol_2217d6a9201219db7253
+      kontekst: data.json:scripts.elvibrato2_tramterminal.opengate
+      linia: 9
+      sekcja_skryptu: opengate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: 'A tinny voice says:'
+      pl: 'Metaliczny głos mówi:'
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_2bc4de20c6d1caa5e953
+      kontekst: data.json:scripts.elvibrato2_tramterminal.opengate
+      linia: 10
+      sekcja_skryptu: opengate
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: '"^QUICKGATE ONLINE^translate_elvibrato^."'
+      pl: '"^QUICKGATE ONLINE^translate_elvibrato^."'
+      status: zablokowane
+      wspoldzielony_rekord: false
+      liczba_wystapien: 1
+      tokeny_techniczne:
+      - ^QUICKGATE ONLINE^
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_084be31309610a09c6ac
+      kontekst: data.json:scripts.elvibrato2_tramterminal.opengate
+      linia: 11
+      sekcja_skryptu: opengate
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push it again
+      pl: Pchnij jeszcze raz
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1206
+  skrypt: elvibrato3_fabtable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0b61e2d7224f1354edc8
+      kontekst: data.json:scripts.elvibrato3_fabtable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.
+      pl: Weź to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1232
+  skrypt: elvibrato5_fusebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f6f62bae861d28448523
+      kontekst: data.json:scripts.elvibrato5_fusebox.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Replace it [El Vibrato cylinder]
+      pl: Wymień to [Cylinder El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato cylinder]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1239
+  skrypt: elvibrato6_fusebox
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_f6f62bae861d28448523
+      kontekst: data.json:scripts.elvibrato6_fusebox.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Replace it [El Vibrato cylinder]
+      pl: Wymień to [Cylinder El Vibrato]
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne:
+      - '[El Vibrato cylinder]'
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1393
+  skrypt: fort1_cannonball
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_0b61e2d7224f1354edc8
+      kontekst: data.json:scripts.fort1_cannonball.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.
+      pl: Weź to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000054
+  skrypt: house_coalcart
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_e7435404b4f8f44635b8
+      kontekst: house.json:scripts.house_coalcart.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Push it
+      pl: Pchnij to
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1000139
+  skrypt: house_hedgeportal
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: win
+    wpisy:
+    - id: wol_42492d6543f95b165adc
+      kontekst: house.json:scripts.house_hedgeportal.win
+      linia: 1
+      sekcja_skryptu: win
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: Easy come, easy go.
+      pl: Co przyszło łatwo, poszło łatwo.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 2
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1823
+  skrypt: mine3_teleport
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2f1e80b72c37d598b792
+      kontekst: data.json:scripts.mine3_teleport.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert a keystone
+      pl: Włóż kamień kluczowy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1896
+  skrypt: mine6_fusetable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3183072194ef802ea0d6
+      kontekst: data.json:scripts.mine6_fusetable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a big cylinder on top of this big rectangle.
+      pl: Na tym dużym prostokącie stoi duży cylinder.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b61e2d7224f1354edc8
+      kontekst: data.json:scripts.mine6_fusetable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.
+      pl: Weź to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1917
+  skrypt: mine7_fusetable
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 2
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_3183072194ef802ea0d6
+      kontekst: data.json:scripts.mine7_fusetable.popup
+      linia: 1
+      sekcja_skryptu: popup
+      typ: say
+      mowca_lub_kanal: narrator_lub_wypowiedz_ogolna
+      en: There's a big cylinder on top of this big rectangle.
+      pl: Na tym dużym prostokącie stoi duży cylinder.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+    - id: wol_0b61e2d7224f1354edc8
+      kontekst: data.json:scripts.mine7_fusetable.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Take it.
+      pl: Weź to.
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 1944
+  skrypt: mine8_teleporttrigger
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: popup
+    wpisy:
+    - id: wol_2f1e80b72c37d598b792
+      kontekst: data.json:scripts.mine8_teleporttrigger.popup
+      linia: 2
+      sekcja_skryptu: popup
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Insert a keystone
+      pl: Włóż kamień kluczowy
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 3
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2309
+  skrypt: re_cowa2
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_204296c47c55fa70510e
+      kontekst: data.json:scripts.re_cowa2.start
+      linia: 3
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it be
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2334
+  skrypt: re_elvcache_e
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_204296c47c55fa70510e
+      kontekst: data.json:scripts.re_elvcache_e.start
+      linia: 7
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it be
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2335
+  skrypt: re_elvcache_f
+  pomieszczenie: *id001
+  zagadka: true
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_204296c47c55fa70510e
+      kontekst: data.json:scripts.re_elvcache_f.start
+      linia: 8
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it be
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: true
+      minigra_lub_feature: false
+      uwagi: []
+- kolejnosc_w_danych_gry: 2336
+  skrypt: re_elvcache_g
+  pomieszczenie: *id001
+  zagadka: false
+  minigra_lub_feature: false
+  liczba_wpisow: 1
+  sekcje:
+  - etykieta: start
+    wpisy:
+    - id: wol_204296c47c55fa70510e
+      kontekst: data.json:scripts.re_elvcache_g.start
+      linia: 12
+      sekcja_skryptu: start
+      typ: option
+      mowca_lub_kanal: opcja_gracza
+      en: Leave it be
+      pl: Zostaw to w spokoju
+      status: do_korekty
+      wspoldzielony_rekord: true
+      liczba_wystapien: 5
+      tokeny_techniczne: []
+      zagadka: false
+      minigra_lub_feature: false
+      uwagi: []
