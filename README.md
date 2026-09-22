@@ -3,7 +3,7 @@ Nieoficjalne spolszczenie gry [**West of Loathing**](https://store.steampowered.
 Potrzebujesz **legalnie posiadanej kopii** gry (Steam lub GOG).
 
 > [!CAUTION]
-> **Spolszczenie stworzone we współpracy z AI**
+> **Spolszczenie stworzone we wsparciu z AI**
 
 ## Po co to jest?
 West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dostępny jest tylko po angielsku. Ten projekt to:
