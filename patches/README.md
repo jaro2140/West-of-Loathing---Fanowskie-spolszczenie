@@ -22,7 +22,7 @@ patches/
 ```
 
 Binaria znajdują się wewnątrz ZIP-a i nie są commitowane jako osobne pliki.
-Archiwum v0.8 zawiera również `bepinex/linux/`, `bepinex/macos/` i
+Archiwum v0.9.1 zawiera również `bepinex/linux/`, `bepinex/macos/` i
 `bepinex/windows/`; instalator Windows korzysta z oficjalnego runtime
 BepInEx `win_x64` i nie wymaga PowerShella.
 Gotową paczkę należy pobrać z zakładki [**Releases**](../../../releases).

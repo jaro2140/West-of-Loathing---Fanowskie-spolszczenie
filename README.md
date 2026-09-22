@@ -2,6 +2,7 @@
 Nieoficjalne spolszczenie gry [**West of Loathing**](https://store.steampowered.com/app/597660/West_of_Loathing/) (Asymmetric Publications).
 Potrzebujesz **legalnie posiadanej kopii** gry (Steam lub GOG).
 
+**Spolszczenie stworzone we współpracy ze AI**
 
 ## Po co to jest?
 West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dostępny jest tylko po angielsku. Ten projekt to:
@@ -12,7 +13,7 @@ West of Loathing to absurdalny western-RPG z suchym humorem, ale oficjalnie dost
 
 
 # Status:
-- **Pre-release BETA v0.8** — osobne patche Linux/Windows, teksty gotowe i wielokrotnie zweryfikowane; trwają testy w grze
+- **Pre-release BETA v0.9.1** — osobne patche Linux/Windows, teksty gotowe i wielokrotnie zweryfikowane; od tej wersji gra odmienia zwroty do gracza według płci wybranej postaci; trwają testy w grze
 
 
 ## Skala
@@ -55,7 +56,7 @@ Na natywnym Windows opcje uruchamiania Steam powinny pozostać puste; dla wersji
 Windows uruchamianej przez Proton skrypt pokaże właściwe `WINEDLLOVERRIDES`.
 
 Paczki dla Linux i Windows nie są zamienne. Instalator sprawdza znacznik platformy
-i przerwie działanie, jeśli otrzyma bundle zbudowany dla innego systemu. BETA v0.8
+i przerwie działanie, jeśli otrzyma bundle zbudowany dla innego systemu. BETA v0.9.1
 zawiera osobne, zweryfikowane statycznie pliki dla obu systemów.
 Katalog instalatora macOS jest przygotowany, ale wymaga odrębnych bundli macOS i
 nie użyje zastępczo paczki linuksowej.
